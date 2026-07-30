@@ -1,7 +1,7 @@
 <p align="center">
   <img src="assets/banner.png" alt="Daily Astro Notebooks by Biswajit — title banner over the Carina Nebula, Eagle Nebula, and Ring Nebula" width="100%">
 </p>
-<p align="center"><em>This title banner is an AI-generated stylized composite for decoration only. The actual science in this repo is not: every plot, spectrum, light curve, and image inside <code>sdss/</code>, <code>mast/</code>, <code>gaia/</code>, and <code>exoplanet-archive/</code> is real archive data, pulled and processed by the notebooks themselves — see the real JWST/HST captures directly in <a href="mast/"><code>mast/</code></a>.</em></p>
+<p align="center"><em>Carina Nebula, Eagle Nebula, and the Ring Nebula. Every plot, spectrum, light curve, and image inside <code>sdss/</code>, <code>mast/</code>, <code>gaia/</code>, and <code>exoplanet-archive/</code> is real archive data, pulled and processed by the notebooks themselves — see the real JWST/HST captures directly in <a href="mast/"><code>mast/</code></a>.</em></p>
 
 # Daily Astro Notebooks
 
