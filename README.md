@@ -1,7 +1,7 @@
 <p align="center">
-  <img src="assets/banner.png" alt="Real JWST/HST imagery: Carina Nebula, Eagle Nebula, Ring Nebula, M87" width="100%">
+  <img src="assets/banner.png" alt="Daily Astro Notebooks by Biswajit — title banner over the Carina Nebula, Eagle Nebula, and Ring Nebula" width="100%">
 </p>
-<p align="center"><em>Left to right — Carina Nebula (JWST), Eagle Nebula (Hubble), Ring Nebula (JWST), M87 (Hubble). All four are real archive images pulled and cropped directly by the notebooks in <code>mast/</code> — nothing here is AI-generated or simulated.</em></p>
+<p align="center"><em>This title banner is an AI-generated stylized composite for decoration only. The actual science in this repo is not: every plot, spectrum, light curve, and image inside <code>sdss/</code>, <code>mast/</code>, <code>gaia/</code>, and <code>exoplanet-archive/</code> is real archive data, pulled and processed by the notebooks themselves — see the real JWST/HST captures directly in <a href="mast/"><code>mast/</code></a>.</em></p>
 
 # Daily Astro Notebooks
 
