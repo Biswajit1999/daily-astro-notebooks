@@ -8,6 +8,15 @@ function Mark() {
 
 function Arrow() { return <span aria-hidden="true">↗</span>; }
 
+function ResearchModal({item,onClose}) {
+  const [figure,setFigure]=useState(0); const figures=item.figures_local?.length?item.figures_local:(item.hero_local?[item.hero_local]:[]);
+  return <div className="modal-layer" onMouseDown={onClose}><section className="modal research-modal" role="dialog" aria-modal="true" onMouseDown={e=>e.stopPropagation()}>
+    <button className="close" onClick={onClose}>×</button><div className="evidence-panel">{figures[figure]&&<img src={`${import.meta.env.BASE_URL}${figures[figure]}`} alt={`Evidence for ${item.title}`}/>}<div className="figure-tabs">{figures.map((x,i)=><button className={i===figure?'active':''} onClick={()=>setFigure(i)} key={x}>Figure {i+1}</button>)}</div></div>
+    <div className="research-copy"><div className="research-badges"><span className={(item.research_level||'').toLowerCase()}>{item.research_level||'Notebook'}</span>{item.claim_type&&<span>{item.claim_type}</span>}</div><p className="meta">{item.archive} · {item.date_display}</p><h2>{item.title}</h2><p className="question">{item.question||item.summary}</p>
+    {item.results?.length>0&&<ul>{item.results.map(x=><li key={x}>{x}</li>)}</ul>}{item.quality_checks?.length>0&&<div className="audit-block"><b>Quality checks</b><div className="quality-grid">{item.quality_checks.map(x=><span className={x.status.replace(' ','-')} key={x.name}>{x.name}<small>{x.status}</small></span>)}</div></div>}{item.provenance?.length>0&&<div className="audit-block"><b>Data provenance</b><ol>{item.provenance.map(x=><li key={x}>{x}</li>)}</ol></div>}{item.limitations?.length>0&&<div className="audit-block"><b>Claim boundary</b><p>{item.limitations.join(' · ')}</p></div>}<div className="modal-actions"><a className="primary dark" href={`${REPO}/blob/master/${item.notebook}`}>Open notebook <Arrow/></a>{item.artifacts?.[0]&&<a href={`${REPO}/raw/master/${item.artifacts[0]}`}>Download data ↓</a>}</div></div>
+  </section></div>
+}
+
 export default function App() {
   const [catalog, setCatalog] = useState({ notebooks: [], stats: {} });
   const [archive, setArchive] = useState("All");
@@ -26,6 +35,7 @@ export default function App() {
   }, []);
 
   const latest = catalog.notebooks.filter((item) => item.dense);
+  const audited=catalog.notebooks.filter(item=>['Validated','Exploration'].includes(item.research_level));
   const featured = latest[0];
   const archives = ["All", ...new Set(catalog.notebooks.map((item) => item.family))];
   const shown = useMemo(() => {
@@ -70,6 +80,7 @@ export default function App() {
       </section>
 
       <div className="principles"><span>Live archive queries</span><i /><span>Outputs preserved</span><i /><span>Uncertainty reported</span><i /><span>Literature checked</span><i /><span>Limits stated</span></div>
+      {audited.length>0&&<section className="audit-strip"><div><p>Scientific audit layer</p><h2>{audited.length} notebooks expose evidence, provenance, and failure limits.</h2></div><div><b>{audited.filter(x=>x.research_level==='Validated').length}</b> validated · <b>{audited.filter(x=>x.research_level==='Exploration').length}</b> exploratory</div></section>}
 
       <section className="latest" id="latest">
         <div className="section-heading"><div><p>01 / Latest observing log</p><h2>Five questions. Five measured answers.</h2></div><span>Each analysis includes the query, selected data, figures, uncertainty, literature comparison, and a clear boundary around the claim.</span></div>
@@ -90,7 +101,7 @@ export default function App() {
         <div className="cards">{shown.map((item, index) => <article className={item.dense ? "card dense" : "card"} key={item.id}>
           <button onClick={() => setSelected(item)} aria-label={`Preview ${item.title}`}>
             {item.hero_local ? <div className="thumb"><img src={`${import.meta.env.BASE_URL}${item.hero_local}`} alt="" /><span>{String(index + 1).padStart(2, "0")}</span></div> : <div className="thumb placeholder"><Mark /><span>{String(index + 1).padStart(2, "0")}</span></div>}
-            <div className="card-body"><p className="meta">{item.archive} · {item.date_display}</p><h3>{item.title}</h3><p>{item.summary}</p>{item.results?.length > 0 && <strong>{item.results[0]}</strong>}<div>{item.tags?.slice(0, 3).map((tag) => <i key={tag}>{tag}</i>)}</div></div>
+            <div className="card-body">{item.research_level&&<div className="research-badges"><span className={item.research_level.toLowerCase()}>{item.research_level}</span>{item.claim_type&&<span>{item.claim_type}</span>}</div>}<p className="meta">{item.archive} · {item.date_display}</p><h3>{item.title}</h3><p>{item.summary}</p>{item.results?.length > 0 && <strong>{item.results[0]}</strong>}<div>{item.tags?.slice(0, 3).map((tag) => <i key={tag}>{tag}</i>)}</div></div>
           </button><a href={`${REPO}/blob/master/${item.notebook}`}>Open notebook <Arrow /></a>
         </article>)}</div>
         {!loadError && shown.length === 0 && <div className="empty"><b>No matching notebook.</b><p>Try a broader search or another archive.</p></div>}
@@ -99,7 +110,7 @@ export default function App() {
       <section className="standard" id="standard"><div><p className="light">03 / Analysis standard</p><h2>A notebook is finished when the claim is testable.</h2><span>The dense format is designed for learning in public without confusing a plotted pattern with a scientific conclusion.</span></div><ol>{[["Question","One narrow, measurable problem."],["Provenance","Exact archive query or product ID."],["Quality","Missing data, flags, and cuts inspected."],["Uncertainty","Errors, intervals, or resampling."],["Validation","Compared with a paper or physical expectation."],["Limits","What the data cannot establish."]].map(([title,text], index) => <li key={title}><b>0{index+1}</b><div><strong>{title}</strong><span>{text}</span></div></li>)}</ol></section>
       <footer><div className="brand"><Mark /><span>Daily Astro <b>Notebooks</b></span></div><p>Real public astronomy data, analysed by Biswajit.</p><a href={REPO}>GitHub repository <Arrow /></a></footer>
 
-      {selected && <div className="modal-layer" onMouseDown={() => setSelected(null)}><section className="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" onMouseDown={(event) => event.stopPropagation()}><button className="close" onClick={() => setSelected(null)} aria-label="Close">×</button>{selected.hero_local && <img src={`${import.meta.env.BASE_URL}${selected.hero_local}`} alt="" />}<div><p className="meta">{selected.archive} · {selected.date_display}</p><h2 id="modal-title">{selected.title}</h2><p className="question">{selected.question || selected.summary}</p>{selected.results?.length > 0 && <ul>{selected.results.map((result) => <li key={result}>{result}</li>)}</ul>}{selected.validation && <div className="validation"><b>Validation</b><p>{selected.validation}</p></div>}<a className="primary dark" href={`${REPO}/blob/master/${selected.notebook}`}>Open executable notebook <Arrow /></a></div></section></div>}
+      {selected&&<ResearchModal item={selected} onClose={()=>setSelected(null)}/>}
     </main>
   );
 }

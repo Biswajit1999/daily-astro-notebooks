@@ -5,6 +5,7 @@ from __future__ import annotations
 import json
 import re
 import shutil
+from datetime import datetime
 from pathlib import Path
 
 
@@ -55,14 +56,20 @@ def dense_entry(folder: Path, result_path: Path) -> dict:
     if family == "Gaia": family = "Gaia"
     if family == "MAST": family = "MAST"
     if family == "SDSS": family = "SDSS"
+    date=data.get("date",folder.name[:10])
     return {
         **data,
         "family": family,
-        "date_display": "31 Jul 2026",
+        "date_display": datetime.strptime(date,"%Y-%m-%d").strftime("%d %b %Y"),
         "summary": data["question"],
         "sample_size_display": f"{data['sample_size']:,} samples",
         "dense": True,
         "hero_source": ROOT / data["hero"],
+        "research_level":data.get("research_level","Dense"),
+        "claim_type":data.get("claim_type","Measured result"),
+        "provenance":data.get("provenance",[]),"artifacts":data.get("artifacts",[]),
+        "quality_checks":data.get("quality_checks",[]),"limitations":data.get("limitations",[]),
+        "figure_sources":[ROOT/path for path in data.get("figures",[data["hero"]])],
     }
 
 
@@ -80,12 +87,22 @@ def main():
             result = folder / "result.json"
             entry = dense_entry(folder, result) if result.exists() else legacy_entry(folder)
             source = entry.pop("hero_source", None)
+            figure_sources=entry.pop("figure_sources",[])
+            source_path=Path(source).resolve() if source else None
             if source and Path(source).exists():
                 target = IMAGES / f"{entry['id']}{Path(source).suffix.lower()}"
                 shutil.copy2(source, target)
                 entry["hero_local"] = f"data/images/{target.name}"
             else:
                 entry["hero_local"] = None
+            entry["figures_local"]=[]
+            for index,figure in enumerate(figure_sources):
+                if not figure.exists(): continue
+                if source_path and figure.resolve()==source_path and entry["hero_local"]:
+                    entry["figures_local"].append(entry["hero_local"]); continue
+                target=IMAGES/f"{entry['id']}--figure-{index+1}{figure.suffix.lower()}"
+                shutil.copy2(figure,target); entry["figures_local"].append(f"data/images/{target.name}")
+            if not entry["figures_local"] and entry["hero_local"]: entry["figures_local"]=[entry["hero_local"]]
             notebooks.append(entry)
 
     notebooks.sort(key=lambda item: (item["date"], item["dense"], item["title"]), reverse=True)

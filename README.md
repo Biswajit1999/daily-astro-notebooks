@@ -48,7 +48,7 @@ Each dated subfolder contains:
 
 ## What's here so far
 
-**50 notebooks, 4 archives, 2 observing-log dates — 24 now meet the deeper analysis standard, including 20 added on 2026-07-31.**
+**50 notebooks, 4 archives, 2 observing-log dates — 29 now meet the deeper analysis standard, including five scientifically audited early notebooks.**
 
 The [dashboard](https://biswajit1999.github.io/daily-astro-notebooks/) is built from the repository itself. A new notebook appears there automatically after it is merged into `master` and the Pages workflow completes.
 
@@ -67,6 +67,17 @@ The [dashboard](https://biswajit1999.github.io/daily-astro-notebooks/) is built 
 The newest 15 analyses deliberately include positive, negative, and method-limited results. Highlights include a hot-Jupiter radius–temperature rank correlation (**ρ = 0.558**), no detected Pleiades mass-segregation signal in the chosen angular sample (**permutation p = 0.619**), a Pleiades line-of-sight depth proxy of **2.16 pc**, an SDSS Balmer-decrement estimate of **E(B−V) = 0.327 mag**, and a demonstration that the H-alpha equivalent width changes by more than 100% across plausible continuum and integration choices in this low-resolution spectrum.
 
 Four earlier notebooks were also repaired rather than merely given decorative images. TRAPPIST-1 and Kepler-442 b now have calculated orbital-zone figures. The Sirius and Vega notebooks now audit source identity against the Hipparcos catalogue; this corrects the earlier Vega cone-search mismatch that returned a background source while the prose described Vega's well-known nearby distance.
+
+### Scientific Audit Batch 1
+
+Five early MAST notebooks now expose multiple evidence figures, exact product
+provenance, reusable tables, uncertainty or parameter stress tests, literature
+context, and an explicit claim boundary. Kepler-10 b is recovered as a positive
+remeasurement. TOI-700 d remains an exploratory null result when the simple
+bootstrap interval includes zero. The selected Ring Nebula preview is also
+labelled as a field mismatch rather than being used for a misleading shape
+measurement. Negative results are preserved because they show exactly what the
+current product or method cannot support.
 
 <details>
 <summary><b>sdss/</b> — 13 notebooks</summary>

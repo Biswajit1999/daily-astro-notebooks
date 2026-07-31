@@ -1,0 +1,60 @@
+{
+  "id": "2026-07-30-kepler-lightcurve-kepler10b",
+  "title": "Kepler-10 b: transit depth and robustness audit",
+  "archive": "MAST \u00b7 Kepler",
+  "date": "2026-07-30",
+  "question": "Is the 0.837-day transit recovered in real Quarter 3 measurements?",
+  "sample_size": 3633,
+  "results": [
+    "positive box-depth interval: True",
+    "box depth 158 ppm; 95% interval 145\u2013173 ppm",
+    "baseline scatter 176 ppm"
+  ],
+  "validation": "The depth is bootstrapped and repeated across twelve transit/baseline choices.",
+  "notebook": "mast/2026-07-30-kepler-lightcurve-kepler10b/notebook.ipynb",
+  "hero": "mast/2026-07-30-kepler-lightcurve-kepler10b/kepler10_transit_audit.png",
+  "figures": [
+    "mast/2026-07-30-kepler-lightcurve-kepler10b/kepler10_transit_audit.png",
+    "mast/2026-07-30-kepler-lightcurve-kepler10b/kepler10_depth_sensitivity.png"
+  ],
+  "research_level": "Validated",
+  "claim_type": "Archive remeasurement",
+  "provenance": [
+    "MAST product kplr011904151-2009350155506_llc.fits",
+    "quality flag = 0",
+    "PDCSAP flux"
+  ],
+  "artifacts": [
+    "mast/2026-07-30-kepler-lightcurve-kepler10b/kepler10_q3_pdcsap.csv",
+    "mast/2026-07-30-kepler-lightcurve-kepler10b/kepler10_fit_summary.csv",
+    "mast/2026-07-30-kepler-lightcurve-kepler10b/kepler10_model_sensitivity.csv"
+  ],
+  "quality_checks": [
+    {
+      "name": "Archive product",
+      "status": "pass"
+    },
+    {
+      "name": "Quality flags",
+      "status": "pass"
+    },
+    {
+      "name": "Bootstrap interval",
+      "status": "pass"
+    },
+    {
+      "name": "Model sensitivity",
+      "status": "pass"
+    }
+  ],
+  "limitations": [
+    "simple box model",
+    "correlated noise not fully modelled",
+    "published ephemeris assumed"
+  ],
+  "tags": [
+    "transit",
+    "light curve",
+    "uncertainty"
+  ]
+}

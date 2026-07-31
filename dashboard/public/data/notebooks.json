@@ -3,7 +3,7 @@
   "stats": {
     "total": 50,
     "archives": 4,
-    "dense": 24
+    "dense": 29
   },
   "notebooks": [
     {
@@ -32,7 +32,16 @@
       "summary": "Where is the radius deficit in the current confirmed transiting-planet catalogue?",
       "sample_size_display": "2,070 samples",
       "dense": true,
-      "hero_local": "data/images/2026-07-31-exoplanet-radius-valley.png"
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": [],
+      "artifacts": [],
+      "quality_checks": [],
+      "limitations": [],
+      "hero_local": "data/images/2026-07-31-exoplanet-radius-valley.png",
+      "figures_local": [
+        "data/images/2026-07-31-exoplanet-radius-valley.png"
+      ]
     },
     {
       "id": "2026-07-31-single-vs-multiplanet-systems",
@@ -59,7 +68,16 @@
       "summary": "Do archived planet radii differ with host multiplicity?",
       "sample_size_display": "4,646 samples",
       "dense": true,
-      "hero_local": "data/images/2026-07-31-single-vs-multiplanet-systems.png"
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": [],
+      "artifacts": [],
+      "quality_checks": [],
+      "limitations": [],
+      "hero_local": "data/images/2026-07-31-single-vs-multiplanet-systems.png",
+      "figures_local": [
+        "data/images/2026-07-31-single-vs-multiplanet-systems.png"
+      ]
     },
     {
       "id": "2026-07-31-excitation-redshift-selection",
@@ -86,7 +104,16 @@
       "summary": "Does [O III]/H\u03b2 vary with redshift in the selected sample?",
       "sample_size_display": "11,952 samples",
       "dense": true,
-      "hero_local": "data/images/2026-07-31-excitation-redshift-selection.png"
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": [],
+      "artifacts": [],
+      "quality_checks": [],
+      "limitations": [],
+      "hero_local": "data/images/2026-07-31-excitation-redshift-selection.png",
+      "figures_local": [
+        "data/images/2026-07-31-excitation-redshift-selection.png"
+      ]
     },
     {
       "id": "2026-07-31-n2-metallicity-proxy",
@@ -113,7 +140,16 @@
       "summary": "What oxygen abundance does N2 imply on the star-forming branch?",
       "sample_size_display": "8,722 samples",
       "dense": true,
-      "hero_local": "data/images/2026-07-31-n2-metallicity-proxy.png"
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": [],
+      "artifacts": [],
+      "quality_checks": [],
+      "limitations": [],
+      "hero_local": "data/images/2026-07-31-n2-metallicity-proxy.png",
+      "figures_local": [
+        "data/images/2026-07-31-n2-metallicity-proxy.png"
+      ]
     },
     {
       "id": "2026-07-31-balmer-decrement-dust",
@@ -140,7 +176,16 @@
       "summary": "What colour excess is implied by H\u03b1/H\u03b2?",
       "sample_size_display": "11,898 samples",
       "dense": true,
-      "hero_local": "data/images/2026-07-31-balmer-decrement-dust.png"
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": [],
+      "artifacts": [],
+      "quality_checks": [],
+      "limitations": [],
+      "hero_local": "data/images/2026-07-31-balmer-decrement-dust.png",
+      "figures_local": [
+        "data/images/2026-07-31-balmer-decrement-dust.png"
+      ]
     },
     {
       "id": "2026-07-31-sdss-bpt-galaxy-classification",
@@ -168,7 +213,16 @@
       "summary": "How are high-S/N low-redshift fibre spectra divided among ionisation classes?",
       "sample_size_display": "12,000 samples",
       "dense": true,
-      "hero_local": "data/images/2026-07-31-sdss-bpt-galaxy-classification.png"
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": [],
+      "artifacts": [],
+      "quality_checks": [],
+      "limitations": [],
+      "hero_local": "data/images/2026-07-31-sdss-bpt-galaxy-classification.png",
+      "figures_local": [
+        "data/images/2026-07-31-sdss-bpt-galaxy-classification.png"
+      ]
     },
     {
       "id": "2026-07-31-pleiades-proper-motion-dispersion",
@@ -195,7 +249,16 @@
       "summary": "What scatter remains after formal-error subtraction?",
       "sample_size_display": "609 samples",
       "dense": true,
-      "hero_local": "data/images/2026-07-31-pleiades-proper-motion-dispersion.png"
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": [],
+      "artifacts": [],
+      "quality_checks": [],
+      "limitations": [],
+      "hero_local": "data/images/2026-07-31-pleiades-proper-motion-dispersion.png",
+      "figures_local": [
+        "data/images/2026-07-31-pleiades-proper-motion-dispersion.png"
+      ]
     },
     {
       "id": "2026-07-31-pleiades-mass-segregation-proxy",
@@ -222,7 +285,16 @@
       "summary": "Are brighter members more centrally concentrated?",
       "sample_size_display": "609 samples",
       "dense": true,
-      "hero_local": "data/images/2026-07-31-pleiades-mass-segregation-proxy.png"
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": [],
+      "artifacts": [],
+      "quality_checks": [],
+      "limitations": [],
+      "hero_local": "data/images/2026-07-31-pleiades-mass-segregation-proxy.png",
+      "figures_local": [
+        "data/images/2026-07-31-pleiades-mass-segregation-proxy.png"
+      ]
     },
     {
       "id": "2026-07-31-pleiades-line-of-sight-depth",
@@ -249,7 +321,16 @@
       "summary": "Is the parallax width larger than formal errors?",
       "sample_size_display": "609 samples",
       "dense": true,
-      "hero_local": "data/images/2026-07-31-pleiades-line-of-sight-depth.png"
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": [],
+      "artifacts": [],
+      "quality_checks": [],
+      "limitations": [],
+      "hero_local": "data/images/2026-07-31-pleiades-line-of-sight-depth.png",
+      "figures_local": [
+        "data/images/2026-07-31-pleiades-line-of-sight-depth.png"
+      ]
     },
     {
       "id": "2026-07-31-pleiades-cmd-ruwe-binaries",
@@ -276,7 +357,16 @@
       "summary": "Do over-luminous candidates have elevated RUWE more often?",
       "sample_size_display": "466 samples",
       "dense": true,
-      "hero_local": "data/images/2026-07-31-pleiades-cmd-ruwe-binaries.png"
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": [],
+      "artifacts": [],
+      "quality_checks": [],
+      "limitations": [],
+      "hero_local": "data/images/2026-07-31-pleiades-cmd-ruwe-binaries.png",
+      "figures_local": [
+        "data/images/2026-07-31-pleiades-cmd-ruwe-binaries.png"
+      ]
     },
     {
       "id": "2026-07-31-hst-m87-image-morphology",
@@ -304,7 +394,16 @@
       "summary": "What morphology proxies are measured from the preserved preview?",
       "sample_size_display": "8,706,420 samples",
       "dense": true,
-      "hero_local": "data/images/2026-07-31-hst-m87-image-morphology.png"
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": [],
+      "artifacts": [],
+      "quality_checks": [],
+      "limitations": [],
+      "hero_local": "data/images/2026-07-31-hst-m87-image-morphology.png",
+      "figures_local": [
+        "data/images/2026-07-31-hst-m87-image-morphology.png"
+      ]
     },
     {
       "id": "2026-07-31-hot-jupiter-tidal-circularisation",
@@ -332,7 +431,16 @@
       "summary": "Are short-period giant planets more circular than longer-period giants?",
       "sample_size_display": "944 samples",
       "dense": true,
-      "hero_local": "data/images/2026-07-31-hot-jupiter-tidal-circularisation.png"
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": [],
+      "artifacts": [],
+      "quality_checks": [],
+      "limitations": [],
+      "hero_local": "data/images/2026-07-31-hot-jupiter-tidal-circularisation.png",
+      "figures_local": [
+        "data/images/2026-07-31-hot-jupiter-tidal-circularisation.png"
+      ]
     },
     {
       "id": "2026-07-31-hot-jupiter-radius-inflation",
@@ -359,7 +467,16 @@
       "summary": "Are close-in giants larger around hotter stars?",
       "sample_size_display": "698 samples",
       "dense": true,
-      "hero_local": "data/images/2026-07-31-hot-jupiter-radius-inflation.png"
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": [],
+      "artifacts": [],
+      "quality_checks": [],
+      "limitations": [],
+      "hero_local": "data/images/2026-07-31-hot-jupiter-radius-inflation.png",
+      "figures_local": [
+        "data/images/2026-07-31-hot-jupiter-radius-inflation.png"
+      ]
     },
     {
       "id": "2026-07-31-hst-stis-continuum-slope",
@@ -386,7 +503,16 @@
       "summary": "What power law describes the optical continuum?",
       "sample_size_display": "524 samples",
       "dense": true,
-      "hero_local": "data/images/2026-07-31-hst-stis-continuum-slope.png"
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": [],
+      "artifacts": [],
+      "quality_checks": [],
+      "limitations": [],
+      "hero_local": "data/images/2026-07-31-hst-stis-continuum-slope.png",
+      "figures_local": [
+        "data/images/2026-07-31-hst-stis-continuum-slope.png"
+      ]
     },
     {
       "id": "2026-07-31-hst-stis-hd93521-line-inventory",
@@ -414,7 +540,16 @@
       "summary": "Which hydrogen and helium lines are measurable in a calibrated HST spectrum?",
       "sample_size_display": "567 samples",
       "dense": true,
-      "hero_local": "data/images/2026-07-31-hst-stis-hd93521-line-inventory.png"
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": [],
+      "artifacts": [],
+      "quality_checks": [],
+      "limitations": [],
+      "hero_local": "data/images/2026-07-31-hst-stis-hd93521-line-inventory.png",
+      "figures_local": [
+        "data/images/2026-07-31-hst-stis-hd93521-line-inventory.png"
+      ]
     },
     {
       "id": "2026-07-31-hst-halpha-equivalent-width-systematics",
@@ -442,7 +577,16 @@
       "summary": "How stable is H\u03b1 equivalent width to continuum choices?",
       "sample_size_display": "567 samples",
       "dense": true,
-      "hero_local": "data/images/2026-07-31-hst-halpha-equivalent-width-systematics.png"
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": [],
+      "artifacts": [],
+      "quality_checks": [],
+      "limitations": [],
+      "hero_local": "data/images/2026-07-31-hst-halpha-equivalent-width-systematics.png",
+      "figures_local": [
+        "data/images/2026-07-31-hst-halpha-equivalent-width-systematics.png"
+      ]
     },
     {
       "id": "2026-07-31-gaia-pleiades-membership-distance",
@@ -470,7 +614,16 @@
       "summary": "Can astrometry isolate the Pleiades and recover its distance?",
       "sample_size_display": "704 samples",
       "dense": true,
-      "hero_local": "data/images/2026-07-31-gaia-pleiades-membership-distance.png"
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": [],
+      "artifacts": [],
+      "quality_checks": [],
+      "limitations": [],
+      "hero_local": "data/images/2026-07-31-gaia-pleiades-membership-distance.png",
+      "figures_local": [
+        "data/images/2026-07-31-gaia-pleiades-membership-distance.png"
+      ]
     },
     {
       "id": "2026-07-31-exoplanet-discovery-method-timeline",
@@ -497,7 +650,16 @@
       "summary": "How has the discovery-method mix changed?",
       "sample_size_display": "5,233 samples",
       "dense": true,
-      "hero_local": "data/images/2026-07-31-exoplanet-discovery-method-timeline.png"
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": [],
+      "artifacts": [],
+      "quality_checks": [],
+      "limitations": [],
+      "hero_local": "data/images/2026-07-31-exoplanet-discovery-method-timeline.png",
+      "figures_local": [
+        "data/images/2026-07-31-exoplanet-discovery-method-timeline.png"
+      ]
     },
     {
       "id": "2026-07-31-eccentricity-discovery-bias",
@@ -524,7 +686,16 @@
       "summary": "Do discovery methods share an eccentricity distribution?",
       "sample_size_display": "5,146 samples",
       "dense": true,
-      "hero_local": "data/images/2026-07-31-eccentricity-discovery-bias.png"
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": [],
+      "artifacts": [],
+      "quality_checks": [],
+      "limitations": [],
+      "hero_local": "data/images/2026-07-31-eccentricity-discovery-bias.png",
+      "figures_local": [
+        "data/images/2026-07-31-eccentricity-discovery-bias.png"
+      ]
     },
     {
       "id": "2026-07-31-bpt-snr-sensitivity",
@@ -551,7 +722,16 @@
       "summary": "How do class fractions move with emission-line S/N?",
       "sample_size_display": "11,950 samples",
       "dense": true,
-      "hero_local": "data/images/2026-07-31-bpt-snr-sensitivity.png"
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": [],
+      "artifacts": [],
+      "quality_checks": [],
+      "limitations": [],
+      "hero_local": "data/images/2026-07-31-bpt-snr-sensitivity.png",
+      "figures_local": [
+        "data/images/2026-07-31-bpt-snr-sensitivity.png"
+      ]
     },
     {
       "id": "2026-07-30-parallax-distance-vega",
@@ -575,11 +755,20 @@
         "quality control"
       ],
       "family": "Gaia",
-      "date_display": "31 Jul 2026",
+      "date_display": "30 Jul 2026",
       "summary": "Did the positional cone search return the named bright star?",
       "sample_size_display": "2 samples",
       "dense": true,
-      "hero_local": "data/images/2026-07-30-parallax-distance-vega.png"
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": [],
+      "artifacts": [],
+      "quality_checks": [],
+      "limitations": [],
+      "hero_local": "data/images/2026-07-30-parallax-distance-vega.png",
+      "figures_local": [
+        "data/images/2026-07-30-parallax-distance-vega.png"
+      ]
     },
     {
       "id": "2026-07-30-habitable-zone-trappist1",
@@ -602,11 +791,90 @@
         "model limits"
       ],
       "family": "Exoplanets",
-      "date_display": "31 Jul 2026",
+      "date_display": "30 Jul 2026",
       "summary": "Which planets fall inside this transparent luminosity-only estimate?",
       "sample_size_display": "7 samples",
       "dense": true,
-      "hero_local": "data/images/2026-07-30-habitable-zone-trappist1.png"
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": [],
+      "artifacts": [],
+      "quality_checks": [],
+      "limitations": [],
+      "hero_local": "data/images/2026-07-30-habitable-zone-trappist1.png",
+      "figures_local": [
+        "data/images/2026-07-30-habitable-zone-trappist1.png"
+      ]
+    },
+    {
+      "id": "2026-07-30-tess-lightcurve-toi700",
+      "title": "TOI-700 d: multi-sector transit coverage audit",
+      "archive": "MAST \u00b7 TESS",
+      "date": "2026-07-30",
+      "question": "Does a simple multi-sector audit significantly recover the 37.426-day transit?",
+      "sample_size": 7715,
+      "results": [
+        "no significant transit recovered by this simple audit",
+        "box depth 66 ppm; 95% interval -136\u2013268 ppm",
+        "baseline scatter 1668 ppm"
+      ],
+      "validation": "The depth is bootstrapped and repeated across twelve transit/baseline choices.",
+      "notebook": "mast/2026-07-30-tess-lightcurve-toi700/notebook.ipynb",
+      "hero": "mast/2026-07-30-tess-lightcurve-toi700/toi700_transit_audit.png",
+      "figures": [
+        "mast/2026-07-30-tess-lightcurve-toi700/toi700_transit_audit.png",
+        "mast/2026-07-30-tess-lightcurve-toi700/toi700_depth_sensitivity.png"
+      ],
+      "research_level": "Exploration",
+      "claim_type": "Null / method-sensitive",
+      "provenance": [
+        "MAST product TESS SPOC sectors 27, 28, 30, 31, 33\u201336",
+        "quality flag = 0",
+        "PDCSAP flux"
+      ],
+      "artifacts": [
+        "mast/2026-07-30-tess-lightcurve-toi700/toi700_multisector_pdcsap.csv",
+        "mast/2026-07-30-tess-lightcurve-toi700/toi700_fit_summary.csv",
+        "mast/2026-07-30-tess-lightcurve-toi700/toi700_model_sensitivity.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "Archive product",
+          "status": "pass"
+        },
+        {
+          "name": "Quality flags",
+          "status": "pass"
+        },
+        {
+          "name": "Bootstrap interval",
+          "status": "pass"
+        },
+        {
+          "name": "Model sensitivity",
+          "status": "caution"
+        }
+      ],
+      "limitations": [
+        "simple box model",
+        "correlated noise not fully modelled",
+        "published ephemeris assumed"
+      ],
+      "tags": [
+        "transit",
+        "light curve",
+        "uncertainty"
+      ],
+      "family": "MAST",
+      "date_display": "30 Jul 2026",
+      "summary": "Does a simple multi-sector audit significantly recover the 37.426-day transit?",
+      "sample_size_display": "7,715 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-30-tess-lightcurve-toi700.png",
+      "figures_local": [
+        "data/images/2026-07-30-tess-lightcurve-toi700.png",
+        "data/images/2026-07-30-tess-lightcurve-toi700--figure-2.png"
+      ]
     },
     {
       "id": "2026-07-30-parallax-distance-sirius",
@@ -630,11 +898,20 @@
         "quality control"
       ],
       "family": "Gaia",
-      "date_display": "31 Jul 2026",
+      "date_display": "30 Jul 2026",
       "summary": "Did the positional cone search return the named bright star?",
       "sample_size_display": "2 samples",
       "dense": true,
-      "hero_local": "data/images/2026-07-30-parallax-distance-sirius.png"
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": [],
+      "artifacts": [],
+      "quality_checks": [],
+      "limitations": [],
+      "hero_local": "data/images/2026-07-30-parallax-distance-sirius.png",
+      "figures_local": [
+        "data/images/2026-07-30-parallax-distance-sirius.png"
+      ]
     },
     {
       "id": "2026-07-30-habitable-zone-kepler442",
@@ -657,11 +934,276 @@
         "stellar flux"
       ],
       "family": "Exoplanets",
-      "date_display": "31 Jul 2026",
+      "date_display": "30 Jul 2026",
       "summary": "Does Kepler-442 b pass a luminosity-only zone test?",
       "sample_size_display": "1 samples",
       "dense": true,
-      "hero_local": "data/images/2026-07-30-habitable-zone-kepler442.png"
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": [],
+      "artifacts": [],
+      "quality_checks": [],
+      "limitations": [],
+      "hero_local": "data/images/2026-07-30-habitable-zone-kepler442.png",
+      "figures_local": [
+        "data/images/2026-07-30-habitable-zone-kepler442.png"
+      ]
+    },
+    {
+      "id": "2026-07-30-kepler-lightcurve-kepler10b",
+      "title": "Kepler-10 b: transit depth and robustness audit",
+      "archive": "MAST \u00b7 Kepler",
+      "date": "2026-07-30",
+      "question": "Is the 0.837-day transit recovered in real Quarter 3 measurements?",
+      "sample_size": 3633,
+      "results": [
+        "positive box-depth interval: True",
+        "box depth 158 ppm; 95% interval 145\u2013173 ppm",
+        "baseline scatter 176 ppm"
+      ],
+      "validation": "The depth is bootstrapped and repeated across twelve transit/baseline choices.",
+      "notebook": "mast/2026-07-30-kepler-lightcurve-kepler10b/notebook.ipynb",
+      "hero": "mast/2026-07-30-kepler-lightcurve-kepler10b/kepler10_transit_audit.png",
+      "figures": [
+        "mast/2026-07-30-kepler-lightcurve-kepler10b/kepler10_transit_audit.png",
+        "mast/2026-07-30-kepler-lightcurve-kepler10b/kepler10_depth_sensitivity.png"
+      ],
+      "research_level": "Validated",
+      "claim_type": "Archive remeasurement",
+      "provenance": [
+        "MAST product kplr011904151-2009350155506_llc.fits",
+        "quality flag = 0",
+        "PDCSAP flux"
+      ],
+      "artifacts": [
+        "mast/2026-07-30-kepler-lightcurve-kepler10b/kepler10_q3_pdcsap.csv",
+        "mast/2026-07-30-kepler-lightcurve-kepler10b/kepler10_fit_summary.csv",
+        "mast/2026-07-30-kepler-lightcurve-kepler10b/kepler10_model_sensitivity.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "Archive product",
+          "status": "pass"
+        },
+        {
+          "name": "Quality flags",
+          "status": "pass"
+        },
+        {
+          "name": "Bootstrap interval",
+          "status": "pass"
+        },
+        {
+          "name": "Model sensitivity",
+          "status": "pass"
+        }
+      ],
+      "limitations": [
+        "simple box model",
+        "correlated noise not fully modelled",
+        "published ephemeris assumed"
+      ],
+      "tags": [
+        "transit",
+        "light curve",
+        "uncertainty"
+      ],
+      "family": "MAST",
+      "date_display": "30 Jul 2026",
+      "summary": "Is the 0.837-day transit recovered in real Quarter 3 measurements?",
+      "sample_size_display": "3,633 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-30-kepler-lightcurve-kepler10b.png",
+      "figures_local": [
+        "data/images/2026-07-30-kepler-lightcurve-kepler10b.png",
+        "data/images/2026-07-30-kepler-lightcurve-kepler10b--figure-2.png"
+      ]
+    },
+    {
+      "id": "2026-07-30-jwst-image-ring-nebula",
+      "title": "JWST Ring Nebula: selected-field audit",
+      "archive": "MAST \u00b7 JWST NIRCam",
+      "date": "2026-07-30",
+      "question": "Does the selected preview contain a centred ring suitable for shape measurement?",
+      "sample_size": 4235364,
+      "results": [
+        "no centred annular structure is visible in the selected preview",
+        "89.7% of the brightest smoothed pixels lie near the border",
+        "shape measurement is withdrawn"
+      ],
+      "validation": "The result is repeated over five reasonable threshold or smoothing choices and its physical limits are stated.",
+      "notebook": "mast/2026-07-30-jwst-image-ring-nebula/notebook.ipynb",
+      "hero": "mast/2026-07-30-jwst-image-ring-nebula/ring_field_audit.png",
+      "figures": [
+        "mast/2026-07-30-jwst-image-ring-nebula/ring_field_audit.png",
+        "mast/2026-07-30-jwst-image-ring-nebula/ring_localization_sensitivity.png"
+      ],
+      "research_level": "Exploration",
+      "claim_type": "Source / field mismatch",
+      "provenance": [
+        "MAST product jw01558005001_04101_00001_nrcb2_i2d.jpg",
+        "stored preview ring_nebula.jpg"
+      ],
+      "artifacts": [
+        "mast/2026-07-30-jwst-image-ring-nebula/ring_field_metrics.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "Product identity",
+          "status": "caution"
+        },
+        {
+          "name": "Parameter sensitivity",
+          "status": "pass"
+        },
+        {
+          "name": "Flux calibration",
+          "status": "not available"
+        }
+      ],
+      "limitations": [
+        "JPEG values are display intensities",
+        "no physical scale or chemistry is inferred"
+      ],
+      "tags": [
+        "MAST",
+        "morphology",
+        "quality control"
+      ],
+      "family": "MAST",
+      "date_display": "30 Jul 2026",
+      "summary": "Does the selected preview contain a centred ring suitable for shape measurement?",
+      "sample_size_display": "4,235,364 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-30-jwst-image-ring-nebula.png",
+      "figures_local": [
+        "data/images/2026-07-30-jwst-image-ring-nebula.png",
+        "data/images/2026-07-30-jwst-image-ring-nebula--figure-2.png"
+      ]
+    },
+    {
+      "id": "2026-07-30-jwst-image-carina-nebula",
+      "title": "JWST Carina: visible-structure audit",
+      "archive": "MAST \u00b7 JWST NIRCam",
+      "date": "2026-07-30",
+      "question": "Which visible structures persist when the edge threshold changes?",
+      "sample_size": 4291100,
+      "results": [
+        "6.00% of pixels exceed the 94th-percentile gradient threshold",
+        "visible structures remain traceable across thresholds",
+        "preview pixels are not calibrated flux"
+      ],
+      "validation": "The result is repeated over five reasonable threshold or smoothing choices and its physical limits are stated.",
+      "notebook": "mast/2026-07-30-jwst-image-carina-nebula/notebook.ipynb",
+      "hero": "mast/2026-07-30-jwst-image-carina-nebula/carina_morphology_audit.png",
+      "figures": [
+        "mast/2026-07-30-jwst-image-carina-nebula/carina_morphology_audit.png",
+        "mast/2026-07-30-jwst-image-carina-nebula/carina_threshold_sensitivity.png"
+      ],
+      "research_level": "Validated",
+      "claim_type": "Morphology only",
+      "provenance": [
+        "MAST product jw05408024001_02101_00001_nrcblong_i2d.jpg",
+        "stored preview carina_nircam.jpg"
+      ],
+      "artifacts": [
+        "mast/2026-07-30-jwst-image-carina-nebula/carina_threshold_metrics.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "Product identity",
+          "status": "pass"
+        },
+        {
+          "name": "Parameter sensitivity",
+          "status": "pass"
+        },
+        {
+          "name": "Flux calibration",
+          "status": "not available"
+        }
+      ],
+      "limitations": [
+        "JPEG values are display intensities",
+        "no physical scale or chemistry is inferred"
+      ],
+      "tags": [
+        "MAST",
+        "morphology",
+        "quality control"
+      ],
+      "family": "MAST",
+      "date_display": "30 Jul 2026",
+      "summary": "Which visible structures persist when the edge threshold changes?",
+      "sample_size_display": "4,291,100 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-30-jwst-image-carina-nebula.png",
+      "figures_local": [
+        "data/images/2026-07-30-jwst-image-carina-nebula.png",
+        "data/images/2026-07-30-jwst-image-carina-nebula--figure-2.png"
+      ]
+    },
+    {
+      "id": "2026-07-30-hst-image-eagle-nebula",
+      "title": "HST Eagle Nebula: pillar-orientation audit",
+      "archive": "MAST \u00b7 HST ACS/WFC",
+      "date": "2026-07-30",
+      "question": "Is the dominant visible edge orientation stable to smoothing?",
+      "sample_size": 8569792,
+      "results": [
+        "dominant high-gradient orientation 175\u00b0 in this preview",
+        "orientation repeated across five smoothing scales",
+        "preview pixels are not calibrated flux"
+      ],
+      "validation": "The result is repeated over five reasonable threshold or smoothing choices and its physical limits are stated.",
+      "notebook": "mast/2026-07-30-hst-image-eagle-nebula/notebook.ipynb",
+      "hero": "mast/2026-07-30-hst-image-eagle-nebula/eagle_morphology_audit.png",
+      "figures": [
+        "mast/2026-07-30-hst-image-eagle-nebula/eagle_morphology_audit.png",
+        "mast/2026-07-30-hst-image-eagle-nebula/eagle_smoothing_sensitivity.png"
+      ],
+      "research_level": "Validated",
+      "claim_type": "Morphology only",
+      "provenance": [
+        "MAST product jck909c4q_raw.jpg",
+        "stored preview eagle_nebula.jpg"
+      ],
+      "artifacts": [
+        "mast/2026-07-30-hst-image-eagle-nebula/eagle_orientation_metrics.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "Product identity",
+          "status": "pass"
+        },
+        {
+          "name": "Parameter sensitivity",
+          "status": "pass"
+        },
+        {
+          "name": "Flux calibration",
+          "status": "not available"
+        }
+      ],
+      "limitations": [
+        "JPEG values are display intensities",
+        "no physical scale or chemistry is inferred"
+      ],
+      "tags": [
+        "MAST",
+        "morphology",
+        "quality control"
+      ],
+      "family": "MAST",
+      "date_display": "30 Jul 2026",
+      "summary": "Is the dominant visible edge orientation stable to smoothing?",
+      "sample_size_display": "8,569,792 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-30-hst-image-eagle-nebula.png",
+      "figures_local": [
+        "data/images/2026-07-30-hst-image-eagle-nebula.png",
+        "data/images/2026-07-30-hst-image-eagle-nebula--figure-2.png"
+      ]
     },
     {
       "id": "2026-07-30-spectral-type-distribution",
@@ -680,26 +1222,10 @@
         "real data"
       ],
       "dense": false,
-      "hero_local": "data/images/2026-07-30-spectral-type-distribution.png"
-    },
-    {
-      "id": "2026-07-30-hst-image-eagle-nebula",
-      "title": "The Pillars of Creation: a real Hubble image of the Eagle Nebula",
-      "archive": "MAST",
-      "family": "MAST",
-      "date": "2026-07-30",
-      "date_display": "30 Jul 2026",
-      "summary": "The \"Pillars of Creation\" in the Eagle Nebula is one of the most recognized astronomical images ever taken \u2014 towering columns of gas and dust where new stars are forming. Instead of just admiring the iconic press-release picture, I queried MAST for real Hubble ACS/WFC observation",
-      "question": "The \"Pillars of Creation\" in the Eagle Nebula is one of the most recognized astronomical images ever taken \u2014 towering columns of gas and dust where new stars are forming. Instead of just admiring the iconic press-release picture, I queried MAST for real Hubble ACS/WFC observation",
-      "notebook": "mast/2026-07-30-hst-image-eagle-nebula/notebook.ipynb",
-      "results": [],
-      "validation": "See the notebook and README for the archive query and interpretation.",
-      "tags": [
-        "MAST",
-        "real data"
-      ],
-      "dense": false,
-      "hero_local": "data/images/2026-07-30-hst-image-eagle-nebula.jpg"
+      "hero_local": "data/images/2026-07-30-spectral-type-distribution.png",
+      "figures_local": [
+        "data/images/2026-07-30-spectral-type-distribution.png"
+      ]
     },
     {
       "id": "2026-07-30-hr-diagram-hyades",
@@ -718,45 +1244,10 @@
         "real data"
       ],
       "dense": false,
-      "hero_local": "data/images/2026-07-30-hr-diagram-hyades.png"
-    },
-    {
-      "id": "2026-07-30-tess-lightcurve-toi700",
-      "title": "TOI-700 d: hunting for an Earth-sized habitable-zone planet's transit in real TESS data",
-      "archive": "MAST",
-      "family": "MAST",
-      "date": "2026-07-30",
-      "date_display": "30 Jul 2026",
-      "summary": "TOI-700 d was one of the first Earth-sized planets TESS found sitting in its star's habitable zone. I downloaded a real TESS light curve for the host star and tried to spot its transit \u2014 a genuinely subtle signal, since this planet is small and its star is faint, making this a go",
-      "question": "TOI-700 d was one of the first Earth-sized planets TESS found sitting in its star's habitable zone. I downloaded a real TESS light curve for the host star and tried to spot its transit \u2014 a genuinely subtle signal, since this planet is small and its star is faint, making this a go",
-      "notebook": "mast/2026-07-30-tess-lightcurve-toi700/notebook.ipynb",
-      "results": [],
-      "validation": "See the notebook and README for the archive query and interpretation.",
-      "tags": [
-        "MAST",
-        "real data"
-      ],
-      "dense": false,
-      "hero_local": "data/images/2026-07-30-tess-lightcurve-toi700.png"
-    },
-    {
-      "id": "2026-07-30-kepler-lightcurve-kepler10b",
-      "title": "Seeing Kepler-10b's transit dips in a real Kepler light curve",
-      "archive": "MAST",
-      "family": "MAST",
-      "date": "2026-07-30",
-      "date_display": "30 Jul 2026",
-      "summary": "Kepler-10b was one of Kepler's first confirmed rocky exoplanets \u2014 a small, blisteringly hot world orbiting its star in under a day. A transit light curve just tracks a star's brightness over time, and when a planet crosses in front of the star, brightness dips very slightly and b",
-      "question": "Kepler-10b was one of Kepler's first confirmed rocky exoplanets \u2014 a small, blisteringly hot world orbiting its star in under a day. A transit light curve just tracks a star's brightness over time, and when a planet crosses in front of the star, brightness dips very slightly and b",
-      "notebook": "mast/2026-07-30-kepler-lightcurve-kepler10b/notebook.ipynb",
-      "results": [],
-      "validation": "See the notebook and README for the archive query and interpretation.",
-      "tags": [
-        "MAST",
-        "real data"
-      ],
-      "dense": false,
-      "hero_local": "data/images/2026-07-30-kepler-lightcurve-kepler10b.png"
+      "hero_local": "data/images/2026-07-30-hr-diagram-hyades.png",
+      "figures_local": [
+        "data/images/2026-07-30-hr-diagram-hyades.png"
+      ]
     },
     {
       "id": "2026-07-30-periodogram-hat-p-7b",
@@ -775,26 +1266,10 @@
         "real data"
       ],
       "dense": false,
-      "hero_local": "data/images/2026-07-30-periodogram-hat-p-7b.png"
-    },
-    {
-      "id": "2026-07-30-jwst-image-carina-nebula",
-      "title": "Pulling a real JWST image of the Carina Nebula from MAST",
-      "archive": "MAST",
-      "family": "MAST",
-      "date": "2026-07-30",
-      "date_display": "30 Jul 2026",
-      "summary": "The Carina Nebula is a huge star-forming region, and one of JWST's very first published images was a close-up of its \"Cosmic Cliffs\" \u2014 a wall of gas and dust being sculpted by radiation from young, massive stars. Instead of just looking at the famous press photo, I queried MAST (",
-      "question": "The Carina Nebula is a huge star-forming region, and one of JWST's very first published images was a close-up of its \"Cosmic Cliffs\" \u2014 a wall of gas and dust being sculpted by radiation from young, massive stars. Instead of just looking at the famous press photo, I queried MAST (",
-      "notebook": "mast/2026-07-30-jwst-image-carina-nebula/notebook.ipynb",
-      "results": [],
-      "validation": "See the notebook and README for the archive query and interpretation.",
-      "tags": [
-        "MAST",
-        "real data"
-      ],
-      "dense": false,
-      "hero_local": "data/images/2026-07-30-jwst-image-carina-nebula.png"
+      "hero_local": "data/images/2026-07-30-periodogram-hat-p-7b.png",
+      "figures_local": [
+        "data/images/2026-07-30-periodogram-hat-p-7b.png"
+      ]
     },
     {
       "id": "2026-07-30-emission-line-measurement",
@@ -813,7 +1288,10 @@
         "real data"
       ],
       "dense": false,
-      "hero_local": "data/images/2026-07-30-emission-line-measurement.png"
+      "hero_local": "data/images/2026-07-30-emission-line-measurement.png",
+      "figures_local": [
+        "data/images/2026-07-30-emission-line-measurement.png"
+      ]
     },
     {
       "id": "2026-07-30-wide-binary-search-alpha-cen",
@@ -832,7 +1310,10 @@
         "real data"
       ],
       "dense": false,
-      "hero_local": "data/images/2026-07-30-wide-binary-search-alpha-cen.png"
+      "hero_local": "data/images/2026-07-30-wide-binary-search-alpha-cen.png",
+      "figures_local": [
+        "data/images/2026-07-30-wide-binary-search-alpha-cen.png"
+      ]
     },
     {
       "id": "2026-07-30-white-dwarf-spectrum",
@@ -851,7 +1332,10 @@
         "real data"
       ],
       "dense": false,
-      "hero_local": "data/images/2026-07-30-white-dwarf-spectrum.png"
+      "hero_local": "data/images/2026-07-30-white-dwarf-spectrum.png",
+      "figures_local": [
+        "data/images/2026-07-30-white-dwarf-spectrum.png"
+      ]
     },
     {
       "id": "2026-07-30-kepler-lightcurve-kepler186f",
@@ -870,7 +1354,10 @@
         "real data"
       ],
       "dense": false,
-      "hero_local": "data/images/2026-07-30-kepler-lightcurve-kepler186f.png"
+      "hero_local": "data/images/2026-07-30-kepler-lightcurve-kepler186f.png",
+      "figures_local": [
+        "data/images/2026-07-30-kepler-lightcurve-kepler186f.png"
+      ]
     },
     {
       "id": "2026-07-30-mass-period-trend",
@@ -889,7 +1376,10 @@
         "real data"
       ],
       "dense": false,
-      "hero_local": "data/images/2026-07-30-mass-period-trend.png"
+      "hero_local": "data/images/2026-07-30-mass-period-trend.png",
+      "figures_local": [
+        "data/images/2026-07-30-mass-period-trend.png"
+      ]
     },
     {
       "id": "2026-07-30-eccentricity-distribution",
@@ -908,7 +1398,10 @@
         "real data"
       ],
       "dense": false,
-      "hero_local": "data/images/2026-07-30-eccentricity-distribution.png"
+      "hero_local": "data/images/2026-07-30-eccentricity-distribution.png",
+      "figures_local": [
+        "data/images/2026-07-30-eccentricity-distribution.png"
+      ]
     },
     {
       "id": "2026-07-30-rv-curve-hd189733b",
@@ -927,7 +1420,10 @@
         "real data"
       ],
       "dense": false,
-      "hero_local": "data/images/2026-07-30-rv-curve-hd189733b.png"
+      "hero_local": "data/images/2026-07-30-rv-curve-hd189733b.png",
+      "figures_local": [
+        "data/images/2026-07-30-rv-curve-hd189733b.png"
+      ]
     },
     {
       "id": "2026-07-30-proper-motion-membership-m67",
@@ -946,7 +1442,10 @@
         "real data"
       ],
       "dense": false,
-      "hero_local": "data/images/2026-07-30-proper-motion-membership-m67.png"
+      "hero_local": "data/images/2026-07-30-proper-motion-membership-m67.png",
+      "figures_local": [
+        "data/images/2026-07-30-proper-motion-membership-m67.png"
+      ]
     },
     {
       "id": "2026-07-30-metallicity-vs-position",
@@ -965,7 +1464,10 @@
         "real data"
       ],
       "dense": false,
-      "hero_local": "data/images/2026-07-30-metallicity-vs-position.png"
+      "hero_local": "data/images/2026-07-30-metallicity-vs-position.png",
+      "figures_local": [
+        "data/images/2026-07-30-metallicity-vs-position.png"
+      ]
     },
     {
       "id": "2026-07-30-transit-depth-vs-radius",
@@ -984,7 +1486,10 @@
         "real data"
       ],
       "dense": false,
-      "hero_local": "data/images/2026-07-30-transit-depth-vs-radius.png"
+      "hero_local": "data/images/2026-07-30-transit-depth-vs-radius.png",
+      "figures_local": [
+        "data/images/2026-07-30-transit-depth-vs-radius.png"
+      ]
     },
     {
       "id": "2026-07-30-star-spectrum-classification",
@@ -1003,7 +1508,10 @@
         "real data"
       ],
       "dense": false,
-      "hero_local": "data/images/2026-07-30-star-spectrum-classification.png"
+      "hero_local": "data/images/2026-07-30-star-spectrum-classification.png",
+      "figures_local": [
+        "data/images/2026-07-30-star-spectrum-classification.png"
+      ]
     },
     {
       "id": "2026-07-30-qso-redshift-check",
@@ -1022,7 +1530,10 @@
         "real data"
       ],
       "dense": false,
-      "hero_local": "data/images/2026-07-30-qso-redshift-check.png"
+      "hero_local": "data/images/2026-07-30-qso-redshift-check.png",
+      "figures_local": [
+        "data/images/2026-07-30-qso-redshift-check.png"
+      ]
     },
     {
       "id": "2026-07-30-qso-vs-galaxy-colors",
@@ -1041,7 +1552,10 @@
         "real data"
       ],
       "dense": false,
-      "hero_local": "data/images/2026-07-30-qso-vs-galaxy-colors.png"
+      "hero_local": "data/images/2026-07-30-qso-vs-galaxy-colors.png",
+      "figures_local": [
+        "data/images/2026-07-30-qso-vs-galaxy-colors.png"
+      ]
     },
     {
       "id": "2026-07-30-hr-diagram-pleiades",
@@ -1060,7 +1574,10 @@
         "real data"
       ],
       "dense": false,
-      "hero_local": "data/images/2026-07-30-hr-diagram-pleiades.png"
+      "hero_local": "data/images/2026-07-30-hr-diagram-pleiades.png",
+      "figures_local": [
+        "data/images/2026-07-30-hr-diagram-pleiades.png"
+      ]
     },
     {
       "id": "2026-07-30-hr-diagram-ngc188",
@@ -1079,7 +1596,10 @@
         "real data"
       ],
       "dense": false,
-      "hero_local": "data/images/2026-07-30-hr-diagram-ngc188.png"
+      "hero_local": "data/images/2026-07-30-hr-diagram-ngc188.png",
+      "figures_local": [
+        "data/images/2026-07-30-hr-diagram-ngc188.png"
+      ]
     },
     {
       "id": "2026-07-30-galaxy-redshift-slice",
@@ -1098,26 +1618,10 @@
         "real data"
       ],
       "dense": false,
-      "hero_local": "data/images/2026-07-30-galaxy-redshift-slice.png"
-    },
-    {
-      "id": "2026-07-30-jwst-image-ring-nebula",
-      "title": "A real JWST view of the Ring Nebula, a nearby planetary nebula",
-      "archive": "MAST",
-      "family": "MAST",
-      "date": "2026-07-30",
-      "date_display": "30 Jul 2026",
-      "summary": "The Ring Nebula is a \"planetary nebula\" \u2014 a glowing shell of gas blown off by a dying, sun-like star, with nothing to do with actual planets (the name is a historical accident from how these objects looked in old, low-resolution telescopes). JWST imaged it in striking detail, and",
-      "question": "The Ring Nebula is a \"planetary nebula\" \u2014 a glowing shell of gas blown off by a dying, sun-like star, with nothing to do with actual planets (the name is a historical accident from how these objects looked in old, low-resolution telescopes). JWST imaged it in striking detail, and",
-      "notebook": "mast/2026-07-30-jwst-image-ring-nebula/notebook.ipynb",
-      "results": [],
-      "validation": "See the notebook and README for the archive query and interpretation.",
-      "tags": [
-        "MAST",
-        "real data"
-      ],
-      "dense": false,
-      "hero_local": "data/images/2026-07-30-jwst-image-ring-nebula.png"
+      "hero_local": "data/images/2026-07-30-galaxy-redshift-slice.png",
+      "figures_local": [
+        "data/images/2026-07-30-galaxy-redshift-slice.png"
+      ]
     },
     {
       "id": "2026-07-30-hst-cutout-m87",
@@ -1136,7 +1640,10 @@
         "real data"
       ],
       "dense": false,
-      "hero_local": "data/images/2026-07-30-hst-cutout-m87.png"
+      "hero_local": "data/images/2026-07-30-hst-cutout-m87.jpg",
+      "figures_local": [
+        "data/images/2026-07-30-hst-cutout-m87.jpg"
+      ]
     },
     {
       "id": "2026-07-30-rv-curve-51-pegasi-b",
@@ -1155,7 +1662,10 @@
         "real data"
       ],
       "dense": false,
-      "hero_local": "data/images/2026-07-30-rv-curve-51-pegasi-b.png"
+      "hero_local": "data/images/2026-07-30-rv-curve-51-pegasi-b.png",
+      "figures_local": [
+        "data/images/2026-07-30-rv-curve-51-pegasi-b.png"
+      ]
     }
   ]
 }

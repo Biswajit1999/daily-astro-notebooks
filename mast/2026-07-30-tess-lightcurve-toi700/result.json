@@ -1,0 +1,60 @@
+{
+  "id": "2026-07-30-tess-lightcurve-toi700",
+  "title": "TOI-700 d: multi-sector transit coverage audit",
+  "archive": "MAST \u00b7 TESS",
+  "date": "2026-07-30",
+  "question": "Does a simple multi-sector audit significantly recover the 37.426-day transit?",
+  "sample_size": 7715,
+  "results": [
+    "no significant transit recovered by this simple audit",
+    "box depth 66 ppm; 95% interval -136\u2013268 ppm",
+    "baseline scatter 1668 ppm"
+  ],
+  "validation": "The depth is bootstrapped and repeated across twelve transit/baseline choices.",
+  "notebook": "mast/2026-07-30-tess-lightcurve-toi700/notebook.ipynb",
+  "hero": "mast/2026-07-30-tess-lightcurve-toi700/toi700_transit_audit.png",
+  "figures": [
+    "mast/2026-07-30-tess-lightcurve-toi700/toi700_transit_audit.png",
+    "mast/2026-07-30-tess-lightcurve-toi700/toi700_depth_sensitivity.png"
+  ],
+  "research_level": "Exploration",
+  "claim_type": "Null / method-sensitive",
+  "provenance": [
+    "MAST product TESS SPOC sectors 27, 28, 30, 31, 33\u201336",
+    "quality flag = 0",
+    "PDCSAP flux"
+  ],
+  "artifacts": [
+    "mast/2026-07-30-tess-lightcurve-toi700/toi700_multisector_pdcsap.csv",
+    "mast/2026-07-30-tess-lightcurve-toi700/toi700_fit_summary.csv",
+    "mast/2026-07-30-tess-lightcurve-toi700/toi700_model_sensitivity.csv"
+  ],
+  "quality_checks": [
+    {
+      "name": "Archive product",
+      "status": "pass"
+    },
+    {
+      "name": "Quality flags",
+      "status": "pass"
+    },
+    {
+      "name": "Bootstrap interval",
+      "status": "pass"
+    },
+    {
+      "name": "Model sensitivity",
+      "status": "caution"
+    }
+  ],
+  "limitations": [
+    "simple box model",
+    "correlated noise not fully modelled",
+    "published ephemeris assumed"
+  ],
+  "tags": [
+    "transit",
+    "light curve",
+    "uncertainty"
+  ]
+}
