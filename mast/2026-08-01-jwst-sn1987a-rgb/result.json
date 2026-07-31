@@ -1,0 +1,63 @@
+{
+  "id": "2026-08-01-jwst-sn1987a-rgb",
+  "title": "JWST SN 1987A: calibrated NIRCam RGB reconstruction",
+  "archive": "MAST \u00b7 JWST NIRCam",
+  "date": "2026-08-01",
+  "question": "Can three calibrated NIRCam filters be registered and mapped into a traceable infrared RGB composite?",
+  "sample_size": 271994,
+  "results": [
+    "F150W, F200W, and F444W calibrated cutouts mapped to blue, green, and red",
+    "common output grid 349 \u00d7 349 pixels at 0.0309 arcsec/pixel",
+    "each channel uses a recorded 1st\u201399.7th percentile asinh display stretch"
+  ],
+  "validation": "Every channel is shown in calibrated units before stretching, all pixels are placed on the F150W celestial grid, and the mapping is stored in a CSV.",
+  "notebook": "mast/2026-08-01-jwst-sn1987a-rgb/notebook.ipynb",
+  "hero": "mast/2026-08-01-jwst-sn1987a-rgb/jwst_sn1987a_rgb_figure.png",
+  "figures": [
+    "mast/2026-08-01-jwst-sn1987a-rgb/jwst_sn1987a_rgb_figure.png",
+    "mast/2026-08-01-jwst-sn1987a-rgb/jwst_sn1987a_channel_panels.png"
+  ],
+  "research_level": "Validated",
+  "claim_type": "Calibrated image reconstruction",
+  "provenance": [
+    "MAST JWST program 1726, PI Matsuura",
+    "jw01726-o001_t001 NIRCam I2D mosaics",
+    "F150W, F200W, F444W observed 2022-09-02"
+  ],
+  "artifacts": [
+    "data/sn1987a/jwst_f150w_2022_cutout.fits",
+    "data/sn1987a/jwst_f200w_2022_cutout.fits",
+    "data/sn1987a/jwst_f444w_2022_cutout.fits",
+    "mast/2026-08-01-jwst-sn1987a-rgb/jwst_sn1987a_rgb.png",
+    "mast/2026-08-01-jwst-sn1987a-rgb/jwst_rgb_channel_statistics.csv"
+  ],
+  "quality_checks": [
+    {
+      "name": "Calibrated I2D inputs",
+      "status": "pass"
+    },
+    {
+      "name": "WCS reprojection",
+      "status": "pass"
+    },
+    {
+      "name": "Input channels exposed",
+      "status": "pass"
+    },
+    {
+      "name": "True-colour claim",
+      "status": "not made"
+    }
+  ],
+  "limitations": [
+    "visible colours are assigned to infrared bands",
+    "independent display stretches suppress absolute colour ratios",
+    "broad filters do not uniquely identify chemical species"
+  ],
+  "tags": [
+    "JWST",
+    "SN 1987A",
+    "RGB",
+    "NIRCam"
+  ]
+}

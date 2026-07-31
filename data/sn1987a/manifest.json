@@ -1,0 +1,101 @@
+{
+  "target": "SN 1987A",
+  "coordinate_icrs": {
+    "ra_deg": 83.86661249999999,
+    "dec_deg": -69.26975277777778
+  },
+  "products": [
+    {
+      "path": "data/sn1987a/jwst_f150w_2022_cutout.fits",
+      "source_product": "jw01726-o001_t001_nircam_clear-f150w-sub320_i2d.fits",
+      "filter": "F150W",
+      "date_obs": "2022-09-02",
+      "unit": "MJy/sr",
+      "shape": [
+        349,
+        349
+      ]
+    },
+    {
+      "path": "data/sn1987a/jwst_f200w_2022_cutout.fits",
+      "source_product": "jw01726-o001_t001_nircam_clear-f200w-sub320_i2d.fits",
+      "filter": "F200W",
+      "date_obs": "2022-09-02",
+      "unit": "MJy/sr",
+      "shape": [
+        349,
+        349
+      ]
+    },
+    {
+      "path": "data/sn1987a/jwst_f356w_2022_cutout.fits",
+      "source_product": "jw01726-o001_t001_nircam_clear-f356w-sub320_i2d.fits",
+      "filter": "F356W",
+      "date_obs": "2022-09-02",
+      "unit": "MJy/sr",
+      "shape": [
+        171,
+        171
+      ]
+    },
+    {
+      "path": "data/sn1987a/jwst_f444w_2022_cutout.fits",
+      "source_product": "jw01726-o001_t001_nircam_clear-f444w-sub320_i2d.fits",
+      "filter": "F444W",
+      "date_obs": "2022-09-02",
+      "unit": "MJy/sr",
+      "shape": [
+        171,
+        171
+      ]
+    },
+    {
+      "path": "data/sn1987a/hst_f625w_2018_cutout.fits",
+      "source_product": "hst_15256_10_wfc3_uvis_f625w_idjd10_drc.fits",
+      "filter": "F625W",
+      "date_obs": "2018-07-08",
+      "unit": "ELECTRONS/S",
+      "shape": [
+        273,
+        273
+      ]
+    }
+  ],
+  "release_frames": [
+    {
+      "date": "1994-09-24",
+      "file": "data/sn1987a/hst_release_frames/sn1987a_1994.jpg",
+      "source": "NASA Hubble release, February 2007 collection"
+    },
+    {
+      "date": "1998-02-06",
+      "file": "data/sn1987a/hst_release_frames/sn1987a_1998.jpg",
+      "source": "NASA Hubble release, February 2007 collection"
+    },
+    {
+      "date": "2001-03-23",
+      "file": "data/sn1987a/hst_release_frames/sn1987a_2001.jpg",
+      "source": "NASA Hubble release, February 2007 collection"
+    },
+    {
+      "date": "2003-01-05",
+      "file": "data/sn1987a/hst_release_frames/sn1987a_2003.jpg",
+      "source": "NASA Hubble release, February 2007 collection"
+    },
+    {
+      "date": "2004-12-15",
+      "file": "data/sn1987a/hst_release_frames/sn1987a_2004.jpg",
+      "source": "NASA Hubble release, February 2007 collection"
+    },
+    {
+      "date": "2006-12-06",
+      "file": "data/sn1987a/hst_release_frames/sn1987a_2006.jpg",
+      "source": "NASA Hubble release, February 2007 collection"
+    }
+  ],
+  "photometry": {
+    "path": "data/sn1987a/hst_photometry_rosu2024_table6.csv",
+    "source": "Rosu et al. 2024, ApJ 966 238, Table 6",
+    "doi": "10.3847/1538-4357/ad36cc"
+  }
+}

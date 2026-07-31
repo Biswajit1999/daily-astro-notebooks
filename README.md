@@ -48,7 +48,7 @@ Each dated subfolder contains:
 
 ## What's here so far
 
-**50 notebooks, 4 archives, 2 observing-log dates — 34 now meet the deeper analysis standard, including ten scientifically audited early notebooks.**
+**55 notebooks, 4 archives, 3 observing-log dates — 39 now meet the deeper analysis standard, including 15 scientifically audited notebooks.**
 
 The [dashboard](https://biswajit1999.github.io/daily-astro-notebooks/) is built from the repository itself. A new notebook appears there automatically after it is merged into `master` and the Pages workflow completes.
 
@@ -61,6 +61,8 @@ The [dashboard](https://biswajit1999.github.io/daily-astro-notebooks/) is built 
 | How far away is the Pleiades? | Gaia, 609 candidate members | Weighted parallax **7.374 mas**, giving **135.6 pc** |
 | Which lines are present in an HST stellar spectrum? | HST/STIS spectrum of HD 93521 | All five tested H/He features recovered; H-alpha equivalent width **1.48 Å** |
 | What powers the emission in nearby galaxies? | SDSS, 12,000 spectra | **73.1%** star-forming, **17.3%** composite, **9.6%** active-galaxy branch in the selected sample |
+| How did SN 1987A's optical structures evolve? | HST imaging and published calibrated photometry | F625W ring flux fell **47.9%**, while ejecta flux rose **19.8%**, over the tabulated interval |
+| Does SN 1987A look the same across JWST filters? | Four calibrated NIRCam images | The PSF-matched ring/ejecta ratio spans a factor of **4.14** from F150W to F444W |
 
 ### 50-notebook expansion
 
@@ -98,6 +100,29 @@ with an empirical shuffled-data false-alarm bound of **0.024** from 40 trials
 and no significant odd/even depth disagreement. These are archive
 remeasurements, not new planet validations.
 
+### Scientific Audit Batch 3
+
+Five connected notebooks turn SN 1987A into a time-domain and multi-wavelength
+case study. Six official Hubble frames from 1994–2006 are registered and saved
+as an animation, but their processed display pixels are used only for visible
+structure. A separate notebook reanalyses calibrated HST measurements: the
+F625W equatorial-ring flux falls **47.9%**, while the ejecta rises **19.8%**
+between days 8717 and 12598. Keeping those two jobs separate prevents a display
+image from being mistaken for a light curve.
+
+Four calibrated JWST/NIRCam products are preserved as compact FITS cutouts with
+their units and celestial coordinates. One notebook constructs a documented
+false-colour RGB image from F150W, F200W, and F444W. Another aligns all four
+filters, approximately matches their image sharpness, subtracts local
+background, and repeats the aperture measurement across nine choices. The
+ring/ejecta ratio changes by a factor of **4.14**, with the largest measured
+ratio in F356W. Broad-filter colours are not presented as chemical abundances.
+
+The final notebook registers HST F625W from 2018 against JWST F200W from 2022.
+The normalized intensity correlation is **0.921** at a 0.12-arcsecond common
+resolution, but it remains an exploratory structure comparison because the
+filters, epochs, and telescopes differ.
+
 Reusable outputs declared by audited notebooks are indexed with file sizes and
 SHA-256 checksums in [`DATA_PRODUCTS.json`](DATA_PRODUCTS.json). Project citation
 metadata are available in [`CITATION.cff`](CITATION.cff).
@@ -122,7 +147,7 @@ metadata are available in [`CITATION.cff`](CITATION.cff).
 </details>
 
 <details>
-<summary><b>mast/</b> — 12 notebooks</summary>
+<summary><b>mast/</b> — 17 notebooks</summary>
 
 - [`jwst-image-carina-nebula`](mast/2026-07-30-jwst-image-carina-nebula/) — real JWST NIRCam image of the Carina Nebula
 - [`hst-image-eagle-nebula`](mast/2026-07-30-hst-image-eagle-nebula/) — Hubble image of the Eagle Nebula (Pillars of Creation)
@@ -136,6 +161,11 @@ metadata are available in [`CITATION.cff`](CITATION.cff).
 - [`hst-stis-continuum-slope`](mast/2026-07-31-hst-stis-continuum-slope/) — fitting an empirical power law to the line-masked optical continuum
 - [`hst-halpha-equivalent-width-systematics`](mast/2026-07-31-hst-halpha-equivalent-width-systematics/) — measuring how continuum and integration choices change H-alpha equivalent width
 - [`hst-m87-image-morphology`](mast/2026-07-31-hst-m87-image-morphology/) — measuring display-image centroid, axis ratio, and half-light-radius proxies without claiming calibrated photometry
+- [`hst-sn1987a-timelapse`](mast/2026-08-01-hst-sn1987a-timelapse/) — registering six official Hubble frames and building a 1994–2006 animation
+- [`hst-sn1987a-lightcurve`](mast/2026-08-01-hst-sn1987a-lightcurve/) — reanalysing calibrated ring, ejecta, and centre fluxes with uncertainty
+- [`jwst-sn1987a-rgb`](mast/2026-08-01-jwst-sn1987a-rgb/) — reconstructing a documented three-filter NIRCam false-colour image
+- [`jwst-sn1987a-filter-morphology`](mast/2026-08-01-jwst-sn1987a-filter-morphology/) — PSF-matching four filters and testing the ring/ejecta ratio across apertures
+- [`hst-jwst-sn1987a-comparison`](mast/2026-08-01-hst-jwst-sn1987a-comparison/) — comparing registered normalized structure across HST and JWST with explicit limits
 
 </details>
 

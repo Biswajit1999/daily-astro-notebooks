@@ -1,0 +1,61 @@
+{
+  "id": "2026-08-01-hst-sn1987a-timelapse",
+  "title": "Hubble SN 1987A: registered 1994\u20132006 time-lapse",
+  "archive": "NASA / HST release imagery",
+  "date": "2026-08-01",
+  "question": "How does the visible hotspot pattern change across the official Hubble sequence?",
+  "sample_size": 6,
+  "results": [
+    "six official Hubble frames registered from 1994 to 2006",
+    "maximum measured registration shift 0.00 display pixels",
+    "bright connected ring regions change from 12 to 24 under one relative threshold"
+  ],
+  "validation": "Frames share the official release geometry, are checked by phase correlation, and use a within-frame relative threshold; calibrated brightness is deliberately not inferred.",
+  "notebook": "mast/2026-08-01-hst-sn1987a-timelapse/notebook.ipynb",
+  "hero": "mast/2026-08-01-hst-sn1987a-timelapse/sn1987a_hst_contact_sheet.png",
+  "figures": [
+    "mast/2026-08-01-hst-sn1987a-timelapse/sn1987a_hst_contact_sheet.png",
+    "mast/2026-08-01-hst-sn1987a-timelapse/sn1987a_timelapse_checks.png"
+  ],
+  "research_level": "Exploration",
+  "claim_type": "Display-morphology time series",
+  "provenance": [
+    "NASA Hubble SN 1987A release collection",
+    "six dated 1200-pixel derivatives of official TIFF frames",
+    "source URLs and dates recorded in data/sn1987a/manifest.json"
+  ],
+  "artifacts": [
+    "data/sn1987a/hst_release_frames/frames.csv",
+    "mast/2026-08-01-hst-sn1987a-timelapse/sn1987a_display_morphology.csv",
+    "mast/2026-08-01-hst-sn1987a-timelapse/sn1987a_hst_1994_2006.gif"
+  ],
+  "quality_checks": [
+    {
+      "name": "Frame count and dates",
+      "status": "pass"
+    },
+    {
+      "name": "Phase-correlation registration",
+      "status": "pass"
+    },
+    {
+      "name": "Common field geometry",
+      "status": "pass"
+    },
+    {
+      "name": "Calibrated photometry",
+      "status": "not attempted"
+    }
+  ],
+  "limitations": [
+    "release-frame stretches and colours may differ by epoch",
+    "JPEG pixels are not calibrated flux",
+    "connected-component count depends on threshold and release processing"
+  ],
+  "tags": [
+    "HST",
+    "SN 1987A",
+    "time lapse",
+    "animation"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "2026-08-01-hst-jwst-sn1987a-comparison",
+  "title": "SN 1987A: registered Hubble\u2013Webb structure comparison",
+  "archive": "MAST \u00b7 HST WFC3 + JWST NIRCam",
+  "date": "2026-08-01",
+  "question": "Which normalized structures remain spatially similar between HST F625W in 2018 and JWST F200W in 2022?",
+  "sample_size": 8405,
+  "results": [
+    "normalized remnant intensity correlation 0.921 at 0.12 arcsec common FWHM",
+    "edge-map correlation 0.832 at the same smoothing",
+    "correlations explicitly tested from 0.10 to 0.18 arcsec"
+  ],
+  "validation": "The calibrated cutouts are registered by celestial WCS, normalized separately, blurred to four common resolutions, and compared in intensity and edge space.",
+  "notebook": "mast/2026-08-01-hst-jwst-sn1987a-comparison/notebook.ipynb",
+  "hero": "mast/2026-08-01-hst-jwst-sn1987a-comparison/hst_jwst_registered_comparison.png",
+  "figures": [
+    "mast/2026-08-01-hst-jwst-sn1987a-comparison/hst_jwst_registered_comparison.png",
+    "mast/2026-08-01-hst-jwst-sn1987a-comparison/hst_jwst_edge_and_resolution_check.png"
+  ],
+  "research_level": "Exploration",
+  "claim_type": "Cross-instrument morphology",
+  "provenance": [
+    "HST program 15256 F625W HAP DRC product, 2018-07-08",
+    "JWST program 1726 F200W I2D product, 2022-09-02",
+    "both compact cutouts preserve WCS and original product names"
+  ],
+  "artifacts": [
+    "data/sn1987a/hst_f625w_2018_cutout.fits",
+    "data/sn1987a/jwst_f200w_2022_cutout.fits",
+    "mast/2026-08-01-hst-jwst-sn1987a-comparison/hst_jwst_resolution_stress.csv"
+  ],
+  "quality_checks": [
+    {
+      "name": "Celestial WCS registration",
+      "status": "pass"
+    },
+    {
+      "name": "Common-resolution stress test",
+      "status": "pass"
+    },
+    {
+      "name": "Separate normalization",
+      "status": "pass"
+    },
+    {
+      "name": "Cross-band flux comparison",
+      "status": "not attempted"
+    }
+  ],
+  "limitations": [
+    "filters trace different wavelengths and emission processes",
+    "observations are four years apart",
+    "approximate Gaussian PSFs do not reproduce full instrument PSF wings",
+    "correlation is descriptive, not a physical model"
+  ],
+  "tags": [
+    "HST",
+    "JWST",
+    "SN 1987A",
+    "cross telescope"
+  ]
+}

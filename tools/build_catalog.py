@@ -52,10 +52,7 @@ def legacy_entry(folder: Path) -> dict:
 
 def dense_entry(folder: Path, result_path: Path) -> dict:
     data = json.loads(result_path.read_text(encoding="utf-8"))
-    family = "Exoplanets" if "Exoplanet" in data["archive"] else data["archive"].split()[0].replace("·", "").strip()
-    if family == "Gaia": family = "Gaia"
-    if family == "MAST": family = "MAST"
-    if family == "SDSS": family = "SDSS"
+    family = ARCHIVES[folder.parent.name]
     date=data.get("date",folder.name[:10])
     return {
         **data,
@@ -107,7 +104,7 @@ def main():
 
     notebooks.sort(key=lambda item: (item["date"], item["dense"], item["title"]), reverse=True)
     payload = {
-        "generated": "2026-07-31",
+        "generated": max(item["date"] for item in notebooks),
         "stats": {
             "total": len(notebooks),
             "archives": len({item["family"] for item in notebooks}),

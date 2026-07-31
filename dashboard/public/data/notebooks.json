@@ -1,11 +1,372 @@
 {
-  "generated": "2026-07-31",
+  "generated": "2026-08-01",
   "stats": {
-    "total": 50,
+    "total": 55,
     "archives": 4,
-    "dense": 34
+    "dense": 39
   },
   "notebooks": [
+    {
+      "id": "2026-08-01-hst-jwst-sn1987a-comparison",
+      "title": "SN 1987A: registered Hubble\u2013Webb structure comparison",
+      "archive": "MAST \u00b7 HST WFC3 + JWST NIRCam",
+      "date": "2026-08-01",
+      "question": "Which normalized structures remain spatially similar between HST F625W in 2018 and JWST F200W in 2022?",
+      "sample_size": 8405,
+      "results": [
+        "normalized remnant intensity correlation 0.921 at 0.12 arcsec common FWHM",
+        "edge-map correlation 0.832 at the same smoothing",
+        "correlations explicitly tested from 0.10 to 0.18 arcsec"
+      ],
+      "validation": "The calibrated cutouts are registered by celestial WCS, normalized separately, blurred to four common resolutions, and compared in intensity and edge space.",
+      "notebook": "mast/2026-08-01-hst-jwst-sn1987a-comparison/notebook.ipynb",
+      "hero": "mast/2026-08-01-hst-jwst-sn1987a-comparison/hst_jwst_registered_comparison.png",
+      "figures": [
+        "mast/2026-08-01-hst-jwst-sn1987a-comparison/hst_jwst_registered_comparison.png",
+        "mast/2026-08-01-hst-jwst-sn1987a-comparison/hst_jwst_edge_and_resolution_check.png"
+      ],
+      "research_level": "Exploration",
+      "claim_type": "Cross-instrument morphology",
+      "provenance": [
+        "HST program 15256 F625W HAP DRC product, 2018-07-08",
+        "JWST program 1726 F200W I2D product, 2022-09-02",
+        "both compact cutouts preserve WCS and original product names"
+      ],
+      "artifacts": [
+        "data/sn1987a/hst_f625w_2018_cutout.fits",
+        "data/sn1987a/jwst_f200w_2022_cutout.fits",
+        "mast/2026-08-01-hst-jwst-sn1987a-comparison/hst_jwst_resolution_stress.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "Celestial WCS registration",
+          "status": "pass"
+        },
+        {
+          "name": "Common-resolution stress test",
+          "status": "pass"
+        },
+        {
+          "name": "Separate normalization",
+          "status": "pass"
+        },
+        {
+          "name": "Cross-band flux comparison",
+          "status": "not attempted"
+        }
+      ],
+      "limitations": [
+        "filters trace different wavelengths and emission processes",
+        "observations are four years apart",
+        "approximate Gaussian PSFs do not reproduce full instrument PSF wings",
+        "correlation is descriptive, not a physical model"
+      ],
+      "tags": [
+        "HST",
+        "JWST",
+        "SN 1987A",
+        "cross telescope"
+      ],
+      "family": "MAST",
+      "date_display": "01 Aug 2026",
+      "summary": "Which normalized structures remain spatially similar between HST F625W in 2018 and JWST F200W in 2022?",
+      "sample_size_display": "8,405 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-08-01-hst-jwst-sn1987a-comparison.png",
+      "figures_local": [
+        "data/images/2026-08-01-hst-jwst-sn1987a-comparison.png",
+        "data/images/2026-08-01-hst-jwst-sn1987a-comparison--figure-2.png"
+      ]
+    },
+    {
+      "id": "2026-08-01-hst-sn1987a-lightcurve",
+      "title": "SN 1987A: HST ring fading and ejecta plateau",
+      "archive": "HST photometry \u00b7 Rosu et al. 2024",
+      "date": "2026-08-01",
+      "question": "Do the published HST measurements reproduce a fading ring and a flattening ejecta light curve?",
+      "sample_size": 60,
+      "results": [
+        "F625W equatorial-ring flux changes -47.9% from day 8717 to 12598",
+        "F625W ejecta flux changes 19.8% over the same tabulated interval",
+        "best sampled ejecta slope break day 10698; residual-bootstrap 16\u201384% range 10698\u201310698"
+      ],
+      "validation": "All 60 Table 6 measurements are retained with units and errors; slopes use residual resampling and the ejecta breakpoint is selected only from observed epochs.",
+      "notebook": "mast/2026-08-01-hst-sn1987a-lightcurve/notebook.ipynb",
+      "hero": "mast/2026-08-01-hst-sn1987a-lightcurve/sn1987a_hst_lightcurves.png",
+      "figures": [
+        "mast/2026-08-01-hst-sn1987a-lightcurve/sn1987a_hst_lightcurves.png",
+        "mast/2026-08-01-hst-sn1987a-lightcurve/sn1987a_ejecta_plateau_fit.png"
+      ],
+      "research_level": "Reproduction",
+      "claim_type": "Peer-reviewed table reanalysis",
+      "provenance": [
+        "Rosu et al. 2024 ApJ 966 238 Table 6",
+        "DOI 10.3847/1538-4357/ad36cc",
+        "HST WFC3 F438W and F625W, 2011\u20132021"
+      ],
+      "artifacts": [
+        "data/sn1987a/hst_photometry_rosu2024_table6.csv",
+        "mast/2026-08-01-hst-sn1987a-lightcurve/sn1987a_lightcurve_trends.csv",
+        "mast/2026-08-01-hst-sn1987a-lightcurve/sn1987a_piecewise_fit.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "Published values transcribed with units",
+          "status": "pass"
+        },
+        {
+          "name": "Residual bootstrap",
+          "status": "pass"
+        },
+        {
+          "name": "Breakpoint restricted to observed epochs",
+          "status": "pass"
+        },
+        {
+          "name": "Agreement with paper direction",
+          "status": "pass"
+        }
+      ],
+      "limitations": [
+        "this notebook reanalyses published photometry rather than raw exposures",
+        "tabulated statistical errors omit some systematics",
+        "ten epochs give coarse breakpoint resolution"
+      ],
+      "tags": [
+        "HST",
+        "SN 1987A",
+        "light curve",
+        "reproduction"
+      ],
+      "family": "MAST",
+      "date_display": "01 Aug 2026",
+      "summary": "Do the published HST measurements reproduce a fading ring and a flattening ejecta light curve?",
+      "sample_size_display": "60 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-08-01-hst-sn1987a-lightcurve.png",
+      "figures_local": [
+        "data/images/2026-08-01-hst-sn1987a-lightcurve.png",
+        "data/images/2026-08-01-hst-sn1987a-lightcurve--figure-2.png"
+      ]
+    },
+    {
+      "id": "2026-08-01-jwst-sn1987a-filter-morphology",
+      "title": "JWST SN 1987A: filter-dependent ring/ejecta structure",
+      "archive": "MAST \u00b7 JWST NIRCam",
+      "date": "2026-08-01",
+      "question": "How does the ring-to-ejecta surface-brightness balance change from 1.5 to 4.44 microns?",
+      "sample_size": 364061,
+      "results": [
+        "PSF-matched ring/ejecta ratio spans a factor 4.14 across F150W\u2013F444W",
+        "largest ratio occurs in F356W",
+        "result repeated across nine ring-aperture definitions per filter"
+      ],
+      "validation": "All filters are WCS-aligned, blurred to an approximate F444W PSF, background-subtracted, and repeated over nine aperture choices.",
+      "notebook": "mast/2026-08-01-jwst-sn1987a-filter-morphology/notebook.ipynb",
+      "hero": "mast/2026-08-01-jwst-sn1987a-filter-morphology/jwst_filter_morphology_panels.png",
+      "figures": [
+        "mast/2026-08-01-jwst-sn1987a-filter-morphology/jwst_filter_morphology_panels.png",
+        "mast/2026-08-01-jwst-sn1987a-filter-morphology/jwst_filter_ratios_and_stress.png"
+      ],
+      "research_level": "Validated",
+      "claim_type": "Filter-resolved morphology",
+      "provenance": [
+        "MAST JWST program 1726",
+        "calibrated NIRCam I2D F150W, F200W, F356W, F444W",
+        "compact cutouts retain MJy/sr and WCS"
+      ],
+      "artifacts": [
+        "data/sn1987a/jwst_f150w_2022_cutout.fits",
+        "data/sn1987a/jwst_f200w_2022_cutout.fits",
+        "data/sn1987a/jwst_f356w_2022_cutout.fits",
+        "data/sn1987a/jwst_f444w_2022_cutout.fits",
+        "mast/2026-08-01-jwst-sn1987a-filter-morphology/jwst_filter_aperture_metrics.csv",
+        "mast/2026-08-01-jwst-sn1987a-filter-morphology/jwst_aperture_sensitivity.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "WCS registration",
+          "status": "pass"
+        },
+        {
+          "name": "Approximate PSF matching",
+          "status": "pass"
+        },
+        {
+          "name": "Local background subtraction",
+          "status": "pass"
+        },
+        {
+          "name": "Aperture sensitivity",
+          "status": "pass"
+        }
+      ],
+      "limitations": [
+        "apertures are simple circular teaching regions",
+        "background errors omit correlated-pixel covariance",
+        "broadband ratios mix lines and continua and are not chemical abundances"
+      ],
+      "tags": [
+        "JWST",
+        "SN 1987A",
+        "morphology",
+        "PSF matching"
+      ],
+      "family": "MAST",
+      "date_display": "01 Aug 2026",
+      "summary": "How does the ring-to-ejecta surface-brightness balance change from 1.5 to 4.44 microns?",
+      "sample_size_display": "364,061 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-08-01-jwst-sn1987a-filter-morphology.png",
+      "figures_local": [
+        "data/images/2026-08-01-jwst-sn1987a-filter-morphology.png",
+        "data/images/2026-08-01-jwst-sn1987a-filter-morphology--figure-2.png"
+      ]
+    },
+    {
+      "id": "2026-08-01-jwst-sn1987a-rgb",
+      "title": "JWST SN 1987A: calibrated NIRCam RGB reconstruction",
+      "archive": "MAST \u00b7 JWST NIRCam",
+      "date": "2026-08-01",
+      "question": "Can three calibrated NIRCam filters be registered and mapped into a traceable infrared RGB composite?",
+      "sample_size": 271994,
+      "results": [
+        "F150W, F200W, and F444W calibrated cutouts mapped to blue, green, and red",
+        "common output grid 349 \u00d7 349 pixels at 0.0309 arcsec/pixel",
+        "each channel uses a recorded 1st\u201399.7th percentile asinh display stretch"
+      ],
+      "validation": "Every channel is shown in calibrated units before stretching, all pixels are placed on the F150W celestial grid, and the mapping is stored in a CSV.",
+      "notebook": "mast/2026-08-01-jwst-sn1987a-rgb/notebook.ipynb",
+      "hero": "mast/2026-08-01-jwst-sn1987a-rgb/jwst_sn1987a_rgb_figure.png",
+      "figures": [
+        "mast/2026-08-01-jwst-sn1987a-rgb/jwst_sn1987a_rgb_figure.png",
+        "mast/2026-08-01-jwst-sn1987a-rgb/jwst_sn1987a_channel_panels.png"
+      ],
+      "research_level": "Validated",
+      "claim_type": "Calibrated image reconstruction",
+      "provenance": [
+        "MAST JWST program 1726, PI Matsuura",
+        "jw01726-o001_t001 NIRCam I2D mosaics",
+        "F150W, F200W, F444W observed 2022-09-02"
+      ],
+      "artifacts": [
+        "data/sn1987a/jwst_f150w_2022_cutout.fits",
+        "data/sn1987a/jwst_f200w_2022_cutout.fits",
+        "data/sn1987a/jwst_f444w_2022_cutout.fits",
+        "mast/2026-08-01-jwst-sn1987a-rgb/jwst_sn1987a_rgb.png",
+        "mast/2026-08-01-jwst-sn1987a-rgb/jwst_rgb_channel_statistics.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "Calibrated I2D inputs",
+          "status": "pass"
+        },
+        {
+          "name": "WCS reprojection",
+          "status": "pass"
+        },
+        {
+          "name": "Input channels exposed",
+          "status": "pass"
+        },
+        {
+          "name": "True-colour claim",
+          "status": "not made"
+        }
+      ],
+      "limitations": [
+        "visible colours are assigned to infrared bands",
+        "independent display stretches suppress absolute colour ratios",
+        "broad filters do not uniquely identify chemical species"
+      ],
+      "tags": [
+        "JWST",
+        "SN 1987A",
+        "RGB",
+        "NIRCam"
+      ],
+      "family": "MAST",
+      "date_display": "01 Aug 2026",
+      "summary": "Can three calibrated NIRCam filters be registered and mapped into a traceable infrared RGB composite?",
+      "sample_size_display": "271,994 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-08-01-jwst-sn1987a-rgb.png",
+      "figures_local": [
+        "data/images/2026-08-01-jwst-sn1987a-rgb.png",
+        "data/images/2026-08-01-jwst-sn1987a-rgb--figure-2.png"
+      ]
+    },
+    {
+      "id": "2026-08-01-hst-sn1987a-timelapse",
+      "title": "Hubble SN 1987A: registered 1994\u20132006 time-lapse",
+      "archive": "NASA / HST release imagery",
+      "date": "2026-08-01",
+      "question": "How does the visible hotspot pattern change across the official Hubble sequence?",
+      "sample_size": 6,
+      "results": [
+        "six official Hubble frames registered from 1994 to 2006",
+        "maximum measured registration shift 0.00 display pixels",
+        "bright connected ring regions change from 12 to 24 under one relative threshold"
+      ],
+      "validation": "Frames share the official release geometry, are checked by phase correlation, and use a within-frame relative threshold; calibrated brightness is deliberately not inferred.",
+      "notebook": "mast/2026-08-01-hst-sn1987a-timelapse/notebook.ipynb",
+      "hero": "mast/2026-08-01-hst-sn1987a-timelapse/sn1987a_hst_contact_sheet.png",
+      "figures": [
+        "mast/2026-08-01-hst-sn1987a-timelapse/sn1987a_hst_contact_sheet.png",
+        "mast/2026-08-01-hst-sn1987a-timelapse/sn1987a_timelapse_checks.png"
+      ],
+      "research_level": "Exploration",
+      "claim_type": "Display-morphology time series",
+      "provenance": [
+        "NASA Hubble SN 1987A release collection",
+        "six dated 1200-pixel derivatives of official TIFF frames",
+        "source URLs and dates recorded in data/sn1987a/manifest.json"
+      ],
+      "artifacts": [
+        "data/sn1987a/hst_release_frames/frames.csv",
+        "mast/2026-08-01-hst-sn1987a-timelapse/sn1987a_display_morphology.csv",
+        "mast/2026-08-01-hst-sn1987a-timelapse/sn1987a_hst_1994_2006.gif"
+      ],
+      "quality_checks": [
+        {
+          "name": "Frame count and dates",
+          "status": "pass"
+        },
+        {
+          "name": "Phase-correlation registration",
+          "status": "pass"
+        },
+        {
+          "name": "Common field geometry",
+          "status": "pass"
+        },
+        {
+          "name": "Calibrated photometry",
+          "status": "not attempted"
+        }
+      ],
+      "limitations": [
+        "release-frame stretches and colours may differ by epoch",
+        "JPEG pixels are not calibrated flux",
+        "connected-component count depends on threshold and release processing"
+      ],
+      "tags": [
+        "HST",
+        "SN 1987A",
+        "time lapse",
+        "animation"
+      ],
+      "family": "MAST",
+      "date_display": "01 Aug 2026",
+      "summary": "How does the visible hotspot pattern change across the official Hubble sequence?",
+      "sample_size_display": "6 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-08-01-hst-sn1987a-timelapse.png",
+      "figures_local": [
+        "data/images/2026-08-01-hst-sn1987a-timelapse.png",
+        "data/images/2026-08-01-hst-sn1987a-timelapse--figure-2.png"
+      ]
+    },
     {
       "id": "2026-07-31-exoplanet-radius-valley",
       "title": "The exoplanet radius valley",

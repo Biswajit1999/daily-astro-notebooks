@@ -212,6 +212,61 @@
       "provenance": []
     },
     {
+      "id": "2026-08-01-hst-jwst-sn1987a-comparison",
+      "archive": "MAST \u00b7 HST WFC3 + JWST NIRCam",
+      "research_level": "Exploration",
+      "claim_type": "Cross-instrument morphology",
+      "provenance": [
+        "HST program 15256 F625W HAP DRC product, 2018-07-08",
+        "JWST program 1726 F200W I2D product, 2022-09-02",
+        "both compact cutouts preserve WCS and original product names"
+      ]
+    },
+    {
+      "id": "2026-08-01-hst-sn1987a-lightcurve",
+      "archive": "HST photometry \u00b7 Rosu et al. 2024",
+      "research_level": "Reproduction",
+      "claim_type": "Peer-reviewed table reanalysis",
+      "provenance": [
+        "Rosu et al. 2024 ApJ 966 238 Table 6",
+        "DOI 10.3847/1538-4357/ad36cc",
+        "HST WFC3 F438W and F625W, 2011\u20132021"
+      ]
+    },
+    {
+      "id": "2026-08-01-hst-sn1987a-timelapse",
+      "archive": "NASA / HST release imagery",
+      "research_level": "Exploration",
+      "claim_type": "Display-morphology time series",
+      "provenance": [
+        "NASA Hubble SN 1987A release collection",
+        "six dated 1200-pixel derivatives of official TIFF frames",
+        "source URLs and dates recorded in data/sn1987a/manifest.json"
+      ]
+    },
+    {
+      "id": "2026-08-01-jwst-sn1987a-filter-morphology",
+      "archive": "MAST \u00b7 JWST NIRCam",
+      "research_level": "Validated",
+      "claim_type": "Filter-resolved morphology",
+      "provenance": [
+        "MAST JWST program 1726",
+        "calibrated NIRCam I2D F150W, F200W, F356W, F444W",
+        "compact cutouts retain MJy/sr and WCS"
+      ]
+    },
+    {
+      "id": "2026-08-01-jwst-sn1987a-rgb",
+      "archive": "MAST \u00b7 JWST NIRCam",
+      "research_level": "Validated",
+      "claim_type": "Calibrated image reconstruction",
+      "provenance": [
+        "MAST JWST program 1726, PI Matsuura",
+        "jw01726-o001_t001 NIRCam I2D mosaics",
+        "F150W, F200W, F444W observed 2022-09-02"
+      ]
+    },
+    {
       "id": "2026-07-30-emission-line-measurement",
       "archive": "SDSS DR17",
       "research_level": "Validated",
@@ -388,6 +443,102 @@
       "notebook_id": "2026-07-30-tess-lightcurve-toi700",
       "bytes": 451,
       "sha256": "5507845f8b3ec58e9a822685c08094f5fd17b33783e9409b16db7b5b0068f44c"
+    },
+    {
+      "path": "data/sn1987a/hst_f625w_2018_cutout.fits",
+      "notebook_id": "2026-08-01-hst-jwst-sn1987a-comparison",
+      "bytes": 305280,
+      "sha256": "8503a171395fcee15dea5e2d0f250c65fb8f600d18e97edf700122d933868a81"
+    },
+    {
+      "path": "data/sn1987a/jwst_f200w_2022_cutout.fits",
+      "notebook_id": "2026-08-01-hst-jwst-sn1987a-comparison",
+      "bytes": 993600,
+      "sha256": "7bf1cfb8ba9ab63fa388fb78bbd90c83607b0a401463c2d0caa54d6389e57fca"
+    },
+    {
+      "path": "mast/2026-08-01-hst-jwst-sn1987a-comparison/hst_jwst_resolution_stress.csv",
+      "notebook_id": "2026-08-01-hst-jwst-sn1987a-comparison",
+      "bytes": 229,
+      "sha256": "3c2e4a106a33600f1e087d9f3359fff2115e70746b5b11a0d86af77c48b34416"
+    },
+    {
+      "path": "data/sn1987a/hst_photometry_rosu2024_table6.csv",
+      "notebook_id": "2026-08-01-hst-sn1987a-lightcurve",
+      "bytes": 2199,
+      "sha256": "f23413c550f0479a0d30c85ce5a277edceb555486d867c836fa335f807d04e4b"
+    },
+    {
+      "path": "mast/2026-08-01-hst-sn1987a-lightcurve/sn1987a_lightcurve_trends.csv",
+      "notebook_id": "2026-08-01-hst-sn1987a-lightcurve",
+      "bytes": 681,
+      "sha256": "4e9b920337fc01f08897328888be0797000a075d929308beecf08c8a95ea898f"
+    },
+    {
+      "path": "mast/2026-08-01-hst-sn1987a-lightcurve/sn1987a_piecewise_fit.csv",
+      "notebook_id": "2026-08-01-hst-sn1987a-lightcurve",
+      "bytes": 128,
+      "sha256": "594998086b57654e9caad256bcf0985baa48c7a7b3dd37d10163223ae73cdfd9"
+    },
+    {
+      "path": "data/sn1987a/hst_release_frames/frames.csv",
+      "notebook_id": "2026-08-01-hst-sn1987a-timelapse",
+      "bytes": 213,
+      "sha256": "686b069a6a6ab0f835d995c56c122ba2941305c5da5403cb80ff00dd4723587e"
+    },
+    {
+      "path": "mast/2026-08-01-hst-sn1987a-timelapse/sn1987a_display_morphology.csv",
+      "notebook_id": "2026-08-01-hst-sn1987a-timelapse",
+      "bytes": 357,
+      "sha256": "62ba73879a8128dab3a60fe0ef96c8a09ad964735324e0a52f2c00c00d74f6cb"
+    },
+    {
+      "path": "mast/2026-08-01-hst-sn1987a-timelapse/sn1987a_hst_1994_2006.gif",
+      "notebook_id": "2026-08-01-hst-sn1987a-timelapse",
+      "bytes": 1016228,
+      "sha256": "829d979b15e7009ee42e3f28386b95ace5ed323a757587dc6158c3b317e7d9da"
+    },
+    {
+      "path": "data/sn1987a/jwst_f150w_2022_cutout.fits",
+      "notebook_id": "2026-08-01-jwst-sn1987a-filter-morphology",
+      "bytes": 993600,
+      "sha256": "3027be667b28f4c1af80d705adc6f6972e2fab08957710be84383d394e666b84"
+    },
+    {
+      "path": "data/sn1987a/jwst_f356w_2022_cutout.fits",
+      "notebook_id": "2026-08-01-jwst-sn1987a-filter-morphology",
+      "bytes": 250560,
+      "sha256": "935af8d3e3378b34283557ecbc889fba66eec9d68d83c8ebbe39ac26fac66db7"
+    },
+    {
+      "path": "data/sn1987a/jwst_f444w_2022_cutout.fits",
+      "notebook_id": "2026-08-01-jwst-sn1987a-filter-morphology",
+      "bytes": 250560,
+      "sha256": "6bd01c9bd721a6d40ad72b9c00e6d46e9c856e3defd7110ab86dfd9f4a32aa15"
+    },
+    {
+      "path": "mast/2026-08-01-jwst-sn1987a-filter-morphology/jwst_filter_aperture_metrics.csv",
+      "notebook_id": "2026-08-01-jwst-sn1987a-filter-morphology",
+      "bytes": 563,
+      "sha256": "7a274086352af79bf4084fc44b8e8de623b6b575d4da3bc87eab24bf97d286c2"
+    },
+    {
+      "path": "mast/2026-08-01-jwst-sn1987a-filter-morphology/jwst_aperture_sensitivity.csv",
+      "notebook_id": "2026-08-01-jwst-sn1987a-filter-morphology",
+      "bytes": 1283,
+      "sha256": "cde392ec865d014ff26423b1557fe912ad135cfd594937f65a37c1f0bee50e72"
+    },
+    {
+      "path": "mast/2026-08-01-jwst-sn1987a-rgb/jwst_sn1987a_rgb.png",
+      "notebook_id": "2026-08-01-jwst-sn1987a-rgb",
+      "bytes": 147642,
+      "sha256": "19383c5845b027973c001dca391b8e27279f858f5d3fbdd35cd2de3aeb1743a8"
+    },
+    {
+      "path": "mast/2026-08-01-jwst-sn1987a-rgb/jwst_rgb_channel_statistics.csv",
+      "notebook_id": "2026-08-01-jwst-sn1987a-rgb",
+      "bytes": 268,
+      "sha256": "8f4b5b9035e34c09a19d72fe289b5db03a58200a1406c46084f7045e3aa02f54"
     },
     {
       "path": "sdss/2026-07-30-emission-line-measurement/galaxy_sdss_spectrum.csv",
