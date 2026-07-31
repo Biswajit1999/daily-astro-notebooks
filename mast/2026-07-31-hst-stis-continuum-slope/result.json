@@ -1,0 +1,21 @@
+{
+  "id": "2026-07-31-hst-stis-continuum-slope",
+  "title": "HST/STIS continuum slope of HD 93521",
+  "archive": "MAST \u00b7 HST",
+  "date": "2026-07-31",
+  "question": "What power law describes the optical continuum?",
+  "sample_size": 524,
+  "results": [
+    "F\u03bb exponent -3.716",
+    "bootstrap 68% -3.727\u2013-3.697",
+    "20\u201350 \u00c5 masks give -3.715 to -3.716"
+  ],
+  "validation": "Strong-line mask widths of 20, 35, and 50 \u00c5 are compared.",
+  "notebook": "mast/2026-07-31-hst-stis-continuum-slope/notebook.ipynb",
+  "hero": "mast/2026-07-31-hst-stis-continuum-slope/hd93521_continuum_slope.png",
+  "tags": [
+    "HST",
+    "STIS",
+    "continuum"
+  ]
+}

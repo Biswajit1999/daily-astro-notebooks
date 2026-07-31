@@ -1,0 +1,22 @@
+{
+  "id": "2026-07-31-sdss-bpt-galaxy-classification",
+  "title": "SDSS BPT galaxy classification",
+  "archive": "SDSS DR18",
+  "date": "2026-07-31",
+  "question": "How are high-S/N low-redshift fibre spectra divided among ionisation classes?",
+  "sample_size": 12000,
+  "results": [
+    "73.1% star forming",
+    "17.3% composite",
+    "9.6% AGN within the four-line-selected sample"
+  ],
+  "validation": "Class boundaries reproduce the published Kauffmann (2003) and Kewley (2001) demarcations.",
+  "notebook": "sdss/2026-07-31-sdss-bpt-galaxy-classification/notebook.ipynb",
+  "hero": "sdss/2026-07-31-sdss-bpt-galaxy-classification/sdss_bpt_diagram.png",
+  "tags": [
+    "galaxies",
+    "spectroscopy",
+    "AGN",
+    "emission lines"
+  ]
+}

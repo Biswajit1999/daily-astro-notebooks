@@ -1,0 +1,1161 @@
+{
+  "generated": "2026-07-31",
+  "stats": {
+    "total": 50,
+    "archives": 4,
+    "dense": 24
+  },
+  "notebooks": [
+    {
+      "id": "2026-07-31-exoplanet-radius-valley",
+      "title": "The exoplanet radius valley",
+      "archive": "NASA Exoplanet Archive",
+      "date": "2026-07-31",
+      "question": "Where is the radius deficit in the current confirmed transiting-planet catalogue?",
+      "sample_size": 2070,
+      "results": [
+        "valley minimum 1.83 Earth radii",
+        "bootstrap 68% interval 1.80\u20131.86 Earth radii",
+        "period\u2013valley log slope -0.13 \u00b1 0.04"
+      ],
+      "validation": "The measured minimum is compared with the published 1.5\u20132.0 Earth-radius valley; catalogue completeness is not modelled.",
+      "notebook": "exoplanet-archive/2026-07-31-exoplanet-radius-valley/notebook.ipynb",
+      "hero": "exoplanet-archive/2026-07-31-exoplanet-radius-valley/radius_valley_period.png",
+      "tags": [
+        "exoplanets",
+        "population",
+        "transits",
+        "radius valley"
+      ],
+      "family": "Exoplanets",
+      "date_display": "31 Jul 2026",
+      "summary": "Where is the radius deficit in the current confirmed transiting-planet catalogue?",
+      "sample_size_display": "2,070 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-31-exoplanet-radius-valley.png"
+    },
+    {
+      "id": "2026-07-31-single-vs-multiplanet-systems",
+      "title": "Single versus multi-transiting systems",
+      "archive": "NASA Exoplanet Archive",
+      "date": "2026-07-31",
+      "question": "Do archived planet radii differ with host multiplicity?",
+      "sample_size": 4646,
+      "results": [
+        "median radius contrast -0.62 Earth radii",
+        "bootstrap 95% -0.72 to -0.50",
+        "pre-2023 contrast -0.51 Earth radii"
+      ],
+      "validation": "The contrast is repeated after excluding discoveries later than 2022.",
+      "notebook": "exoplanet-archive/2026-07-31-single-vs-multiplanet-systems/notebook.ipynb",
+      "hero": "exoplanet-archive/2026-07-31-single-vs-multiplanet-systems/single_multi_radius.png",
+      "tags": [
+        "planet architecture",
+        "multiplicity",
+        "transits"
+      ],
+      "family": "Exoplanets",
+      "date_display": "31 Jul 2026",
+      "summary": "Do archived planet radii differ with host multiplicity?",
+      "sample_size_display": "4,646 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-31-single-vs-multiplanet-systems.png"
+    },
+    {
+      "id": "2026-07-31-excitation-redshift-selection",
+      "title": "SDSS excitation versus redshift",
+      "archive": "SDSS",
+      "date": "2026-07-31",
+      "question": "Does [O III]/H\u03b2 vary with redshift in the selected sample?",
+      "sample_size": 11952,
+      "results": [
+        "Spearman \u03c1 = -0.126",
+        "p = 8.7e-44",
+        "restricted-range \u03c1 = -0.052"
+      ],
+      "validation": "The rank test is repeated over 0.03<z<0.20.",
+      "notebook": "sdss/2026-07-31-excitation-redshift-selection/notebook.ipynb",
+      "hero": "sdss/2026-07-31-excitation-redshift-selection/excitation_redshift.png",
+      "tags": [
+        "excitation",
+        "redshift",
+        "selection effects"
+      ],
+      "family": "SDSS",
+      "date_display": "31 Jul 2026",
+      "summary": "Does [O III]/H\u03b2 vary with redshift in the selected sample?",
+      "sample_size_display": "11,952 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-31-excitation-redshift-selection.png"
+    },
+    {
+      "id": "2026-07-31-n2-metallicity-proxy",
+      "title": "SDSS N2 metallicity proxy",
+      "archive": "SDSS",
+      "date": "2026-07-31",
+      "question": "What oxygen abundance does N2 imply on the star-forming branch?",
+      "sample_size": 8722,
+      "results": [
+        "median 12+log(O/H) = 8.609",
+        "bootstrap 68% 8.608\u20138.610",
+        "S/N\u22658 shift -0.028 dex"
+      ],
+      "validation": "The abundance median is repeated at S/N\u22658 for all four lines.",
+      "notebook": "sdss/2026-07-31-n2-metallicity-proxy/notebook.ipynb",
+      "hero": "sdss/2026-07-31-n2-metallicity-proxy/n2_metallicity_distribution.png",
+      "tags": [
+        "metallicity",
+        "N2",
+        "star-forming galaxies"
+      ],
+      "family": "SDSS",
+      "date_display": "31 Jul 2026",
+      "summary": "What oxygen abundance does N2 imply on the star-forming branch?",
+      "sample_size_display": "8,722 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-31-n2-metallicity-proxy.png"
+    },
+    {
+      "id": "2026-07-31-balmer-decrement-dust",
+      "title": "SDSS Balmer-decrement dust indicator",
+      "archive": "SDSS",
+      "date": "2026-07-31",
+      "question": "What colour excess is implied by H\u03b1/H\u03b2?",
+      "sample_size": 11898,
+      "results": [
+        "median E(B\u2212V) 0.327 mag",
+        "bootstrap 68% 0.325\u20130.329 mag",
+        "S/N\u22658 median 0.297 mag"
+      ],
+      "validation": "The median is repeated with every emission line required at S/N\u22658.",
+      "notebook": "sdss/2026-07-31-balmer-decrement-dust/notebook.ipynb",
+      "hero": "sdss/2026-07-31-balmer-decrement-dust/balmer_decrement_dust.png",
+      "tags": [
+        "Balmer decrement",
+        "dust",
+        "emission lines"
+      ],
+      "family": "SDSS",
+      "date_display": "31 Jul 2026",
+      "summary": "What colour excess is implied by H\u03b1/H\u03b2?",
+      "sample_size_display": "11,898 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-31-balmer-decrement-dust.png"
+    },
+    {
+      "id": "2026-07-31-sdss-bpt-galaxy-classification",
+      "title": "SDSS BPT galaxy classification",
+      "archive": "SDSS DR18",
+      "date": "2026-07-31",
+      "question": "How are high-S/N low-redshift fibre spectra divided among ionisation classes?",
+      "sample_size": 12000,
+      "results": [
+        "73.1% star forming",
+        "17.3% composite",
+        "9.6% AGN within the four-line-selected sample"
+      ],
+      "validation": "Class boundaries reproduce the published Kauffmann (2003) and Kewley (2001) demarcations.",
+      "notebook": "sdss/2026-07-31-sdss-bpt-galaxy-classification/notebook.ipynb",
+      "hero": "sdss/2026-07-31-sdss-bpt-galaxy-classification/sdss_bpt_diagram.png",
+      "tags": [
+        "galaxies",
+        "spectroscopy",
+        "AGN",
+        "emission lines"
+      ],
+      "family": "SDSS",
+      "date_display": "31 Jul 2026",
+      "summary": "How are high-S/N low-redshift fibre spectra divided among ionisation classes?",
+      "sample_size_display": "12,000 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-31-sdss-bpt-galaxy-classification.png"
+    },
+    {
+      "id": "2026-07-31-pleiades-proper-motion-dispersion",
+      "title": "Pleiades proper-motion dispersion",
+      "archive": "Gaia DR3",
+      "date": "2026-07-31",
+      "question": "What scatter remains after formal-error subtraction?",
+      "sample_size": 609,
+      "results": [
+        "deconvolved \u03c3RA 1.002 mas/yr",
+        "deconvolved \u03c3Dec 1.147 mas/yr",
+        "velocity equivalents 0.645, 0.739 km/s"
+      ],
+      "validation": "The calculation is repeated for G<15 members.",
+      "notebook": "gaia/2026-07-31-pleiades-proper-motion-dispersion/notebook.ipynb",
+      "hero": "gaia/2026-07-31-pleiades-proper-motion-dispersion/pleiades_pm_dispersion.png",
+      "tags": [
+        "Pleiades",
+        "proper motion",
+        "kinematics"
+      ],
+      "family": "Gaia",
+      "date_display": "31 Jul 2026",
+      "summary": "What scatter remains after formal-error subtraction?",
+      "sample_size_display": "609 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-31-pleiades-proper-motion-dispersion.png"
+    },
+    {
+      "id": "2026-07-31-pleiades-mass-segregation-proxy",
+      "title": "Pleiades mass-segregation proxy",
+      "archive": "Gaia DR3",
+      "date": "2026-07-31",
+      "question": "Are brighter members more centrally concentrated?",
+      "sample_size": 609,
+      "results": [
+        "faint-minus-bright median radius -0.008\u00b0",
+        "permutation p = 0.6187",
+        "fixed G=15 contrast 0.001\u00b0"
+      ],
+      "validation": "The brightness division is changed from the sample median to G=15.",
+      "notebook": "gaia/2026-07-31-pleiades-mass-segregation-proxy/notebook.ipynb",
+      "hero": "gaia/2026-07-31-pleiades-mass-segregation-proxy/pleiades_mass_segregation.png",
+      "tags": [
+        "Pleiades",
+        "mass segregation",
+        "spatial distribution"
+      ],
+      "family": "Gaia",
+      "date_display": "31 Jul 2026",
+      "summary": "Are brighter members more centrally concentrated?",
+      "sample_size_display": "609 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-31-pleiades-mass-segregation-proxy.png"
+    },
+    {
+      "id": "2026-07-31-pleiades-line-of-sight-depth",
+      "title": "Pleiades line-of-sight depth proxy",
+      "archive": "Gaia DR3",
+      "date": "2026-07-31",
+      "question": "Is the parallax width larger than formal errors?",
+      "sample_size": 609,
+      "results": [
+        "residual parallax width 0.1174 mas",
+        "depth proxy 2.16 pc",
+        "bootstrap 68% 2.01\u20132.32 pc"
+      ],
+      "validation": "The variance subtraction is repeated for G<15 stars.",
+      "notebook": "gaia/2026-07-31-pleiades-line-of-sight-depth/notebook.ipynb",
+      "hero": "gaia/2026-07-31-pleiades-line-of-sight-depth/pleiades_depth.png",
+      "tags": [
+        "Pleiades",
+        "parallax",
+        "cluster depth"
+      ],
+      "family": "Gaia",
+      "date_display": "31 Jul 2026",
+      "summary": "Is the parallax width larger than formal errors?",
+      "sample_size_display": "609 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-31-pleiades-line-of-sight-depth.png"
+    },
+    {
+      "id": "2026-07-31-pleiades-cmd-ruwe-binaries",
+      "title": "Pleiades CMD outliers and RUWE",
+      "archive": "Gaia DR3",
+      "date": "2026-07-31",
+      "question": "Do over-luminous candidates have elevated RUWE more often?",
+      "sample_size": 466,
+      "results": [
+        "RUWE>1.2 odds ratio 4.05",
+        "Fisher-test p = 0.00632",
+        "RUWE>1.1 odds ratio 5.58"
+      ],
+      "validation": "The contingency test is repeated at RUWE thresholds 1.2 and 1.1.",
+      "notebook": "gaia/2026-07-31-pleiades-cmd-ruwe-binaries/notebook.ipynb",
+      "hero": "gaia/2026-07-31-pleiades-cmd-ruwe-binaries/pleiades_cmd_ruwe.png",
+      "tags": [
+        "Pleiades",
+        "RUWE",
+        "binary candidates"
+      ],
+      "family": "Gaia",
+      "date_display": "31 Jul 2026",
+      "summary": "Do over-luminous candidates have elevated RUWE more often?",
+      "sample_size_display": "466 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-31-pleiades-cmd-ruwe-binaries.png"
+    },
+    {
+      "id": "2026-07-31-hst-m87-image-morphology",
+      "title": "M87 morphology in an HST preview",
+      "archive": "MAST \u00b7 HST",
+      "date": "2026-07-31",
+      "question": "What morphology proxies are measured from the preserved preview?",
+      "sample_size": 8706420,
+      "results": [
+        "axis ratio 0.664",
+        "half-light radius 882.3 display pixels",
+        "threshold-test radius range 826.5\u2013899.4 px"
+      ],
+      "validation": "Moments are recomputed at four background percentiles.",
+      "notebook": "mast/2026-07-31-hst-m87-image-morphology/notebook.ipynb",
+      "hero": "mast/2026-07-31-hst-m87-image-morphology/m87_preview_morphology.png",
+      "tags": [
+        "HST",
+        "M87",
+        "image morphology",
+        "display image"
+      ],
+      "family": "MAST",
+      "date_display": "31 Jul 2026",
+      "summary": "What morphology proxies are measured from the preserved preview?",
+      "sample_size_display": "8,706,420 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-31-hst-m87-image-morphology.png"
+    },
+    {
+      "id": "2026-07-31-hot-jupiter-tidal-circularisation",
+      "title": "Hot-Jupiter tidal circularisation",
+      "archive": "NASA Exoplanet Archive",
+      "date": "2026-07-31",
+      "question": "Are short-period giant planets more circular than longer-period giants?",
+      "sample_size": 944,
+      "results": [
+        "median e=0.000 below 5 d versus 0.120 at 10\u2013100 d",
+        "median contrast 0.120 (bootstrap 95%: 0.088\u20130.149)",
+        "e>0.1 fractions 17.3% versus 55.3%"
+      ],
+      "validation": "The direction of the period\u2013eccentricity contrast matches the standard tidal-circularisation expectation.",
+      "notebook": "exoplanet-archive/2026-07-31-hot-jupiter-tidal-circularisation/notebook.ipynb",
+      "hero": "exoplanet-archive/2026-07-31-hot-jupiter-tidal-circularisation/giant_eccentricity_period.png",
+      "tags": [
+        "exoplanets",
+        "dynamics",
+        "tides",
+        "hot Jupiters"
+      ],
+      "family": "Exoplanets",
+      "date_display": "31 Jul 2026",
+      "summary": "Are short-period giant planets more circular than longer-period giants?",
+      "sample_size_display": "944 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-31-hot-jupiter-tidal-circularisation.png"
+    },
+    {
+      "id": "2026-07-31-hot-jupiter-radius-inflation",
+      "title": "Hot-Jupiter radius inflation",
+      "archive": "NASA Exoplanet Archive",
+      "date": "2026-07-31",
+      "question": "Are close-in giants larger around hotter stars?",
+      "sample_size": 698,
+      "results": [
+        "Spearman \u03c1 = 0.558",
+        "bootstrap 68% interval 0.528\u20130.584",
+        "mass-restricted \u03c1 = 0.617 (N=529)"
+      ],
+      "validation": "The correlation is repeated for 0.3\u20133 Jupiter-mass planets.",
+      "notebook": "exoplanet-archive/2026-07-31-hot-jupiter-radius-inflation/notebook.ipynb",
+      "hero": "exoplanet-archive/2026-07-31-hot-jupiter-radius-inflation/hot_jupiter_inflation.png",
+      "tags": [
+        "hot Jupiters",
+        "radius inflation",
+        "rank correlation"
+      ],
+      "family": "Exoplanets",
+      "date_display": "31 Jul 2026",
+      "summary": "Are close-in giants larger around hotter stars?",
+      "sample_size_display": "698 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-31-hot-jupiter-radius-inflation.png"
+    },
+    {
+      "id": "2026-07-31-hst-stis-continuum-slope",
+      "title": "HST/STIS continuum slope of HD 93521",
+      "archive": "MAST \u00b7 HST",
+      "date": "2026-07-31",
+      "question": "What power law describes the optical continuum?",
+      "sample_size": 524,
+      "results": [
+        "F\u03bb exponent -3.716",
+        "bootstrap 68% -3.727\u2013-3.697",
+        "20\u201350 \u00c5 masks give -3.715 to -3.716"
+      ],
+      "validation": "Strong-line mask widths of 20, 35, and 50 \u00c5 are compared.",
+      "notebook": "mast/2026-07-31-hst-stis-continuum-slope/notebook.ipynb",
+      "hero": "mast/2026-07-31-hst-stis-continuum-slope/hd93521_continuum_slope.png",
+      "tags": [
+        "HST",
+        "STIS",
+        "continuum"
+      ],
+      "family": "MAST",
+      "date_display": "31 Jul 2026",
+      "summary": "What power law describes the optical continuum?",
+      "sample_size_display": "524 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-31-hst-stis-continuum-slope.png"
+    },
+    {
+      "id": "2026-07-31-hst-stis-hd93521-line-inventory",
+      "title": "HST/STIS chemical-line inventory of HD 93521",
+      "archive": "MAST \u00b7 HST",
+      "date": "2026-07-31",
+      "question": "Which hydrogen and helium lines are measurable in a calibrated HST spectrum?",
+      "sample_size": 567,
+      "results": [
+        "5 of 5 expected H/He features fitted",
+        "median spectrum S/N 637.9 per usable pixel",
+        "H\u03b1 equivalent width 1.48 \u00c5"
+      ],
+      "validation": "Line centres are checked against laboratory wavelengths; interpretation is limited to identification and equivalent width.",
+      "notebook": "mast/2026-07-31-hst-stis-hd93521-line-inventory/notebook.ipynb",
+      "hero": "mast/2026-07-31-hst-stis-hd93521-line-inventory/hd93521_normalised_spectrum.png",
+      "tags": [
+        "spectrum",
+        "HST",
+        "STIS",
+        "chemistry"
+      ],
+      "family": "MAST",
+      "date_display": "31 Jul 2026",
+      "summary": "Which hydrogen and helium lines are measurable in a calibrated HST spectrum?",
+      "sample_size_display": "567 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-31-hst-stis-hd93521-line-inventory.png"
+    },
+    {
+      "id": "2026-07-31-hst-halpha-equivalent-width-systematics",
+      "title": "HST H\u03b1 equivalent-width systematics",
+      "archive": "MAST \u00b7 HST",
+      "date": "2026-07-31",
+      "question": "How stable is H\u03b1 equivalent width to continuum choices?",
+      "sample_size": 567,
+      "results": [
+        "grid median EW 1.848 \u00c5",
+        "method spread 1.895 \u00c5",
+        "spread/reference 102.5%"
+      ],
+      "validation": "Five integration widths and two continuum orders are compared.",
+      "notebook": "mast/2026-07-31-hst-halpha-equivalent-width-systematics/notebook.ipynb",
+      "hero": "mast/2026-07-31-hst-halpha-equivalent-width-systematics/halpha_ew_systematics.png",
+      "tags": [
+        "HST",
+        "H-alpha",
+        "equivalent width",
+        "systematics"
+      ],
+      "family": "MAST",
+      "date_display": "31 Jul 2026",
+      "summary": "How stable is H\u03b1 equivalent width to continuum choices?",
+      "sample_size_display": "567 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-31-hst-halpha-equivalent-width-systematics.png"
+    },
+    {
+      "id": "2026-07-31-gaia-pleiades-membership-distance",
+      "title": "Gaia DR3 Pleiades membership and distance",
+      "archive": "Gaia DR3",
+      "date": "2026-07-31",
+      "question": "Can astrometry isolate the Pleiades and recover its distance?",
+      "sample_size": 704,
+      "results": [
+        "609 kinematic candidates from 704 quality-filtered sources",
+        "weighted parallax 7.374 mas",
+        "distance 135.6 pc (bootstrap 68%: 135.5\u2013135.8 pc)"
+      ],
+      "validation": "Distance differs by -0.4% from the 136.2 pc comparison value; systematic Gaia terms are not included.",
+      "notebook": "gaia/2026-07-31-gaia-pleiades-membership-distance/notebook.ipynb",
+      "hero": "gaia/2026-07-31-gaia-pleiades-membership-distance/pleiades_proper_motion.png",
+      "tags": [
+        "astrometry",
+        "cluster",
+        "distance",
+        "Gaia"
+      ],
+      "family": "Gaia",
+      "date_display": "31 Jul 2026",
+      "summary": "Can astrometry isolate the Pleiades and recover its distance?",
+      "sample_size_display": "704 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-31-gaia-pleiades-membership-distance.png"
+    },
+    {
+      "id": "2026-07-31-exoplanet-discovery-method-timeline",
+      "title": "Exoplanet discovery methods through time",
+      "archive": "NASA Exoplanet Archive",
+      "date": "2026-07-31",
+      "question": "How has the discovery-method mix changed?",
+      "sample_size": 5233,
+      "results": [
+        "5,233 unique planets with method and year",
+        "Transit contributes 72.4% of 2021\u201326 entries",
+        "same leading method with a 2019 boundary: True"
+      ],
+      "validation": "The leading method is re-evaluated after shifting the recent-era boundary by two years.",
+      "notebook": "exoplanet-archive/2026-07-31-exoplanet-discovery-method-timeline/notebook.ipynb",
+      "hero": "exoplanet-archive/2026-07-31-exoplanet-discovery-method-timeline/discovery_method_timeline.png",
+      "tags": [
+        "exoplanets",
+        "discovery history",
+        "selection effects"
+      ],
+      "family": "Exoplanets",
+      "date_display": "31 Jul 2026",
+      "summary": "How has the discovery-method mix changed?",
+      "sample_size_display": "5,233 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-31-exoplanet-discovery-method-timeline.png"
+    },
+    {
+      "id": "2026-07-31-eccentricity-discovery-bias",
+      "title": "Eccentricity and discovery bias",
+      "archive": "NASA Exoplanet Archive",
+      "date": "2026-07-31",
+      "question": "Do discovery methods share an eccentricity distribution?",
+      "sample_size": 5146,
+      "results": [
+        "Kruskal\u2013Wallis p = <1e-300",
+        "highest median: Radial Velocity (0.155)",
+        "lowest median: Transit (0.000)"
+      ],
+      "validation": "Method medians are recomputed using only eccentricities with quoted error below 0.1.",
+      "notebook": "exoplanet-archive/2026-07-31-eccentricity-discovery-bias/notebook.ipynb",
+      "hero": "exoplanet-archive/2026-07-31-eccentricity-discovery-bias/eccentricity_by_method.png",
+      "tags": [
+        "eccentricity",
+        "selection bias",
+        "discovery method"
+      ],
+      "family": "Exoplanets",
+      "date_display": "31 Jul 2026",
+      "summary": "Do discovery methods share an eccentricity distribution?",
+      "sample_size_display": "5,146 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-31-eccentricity-discovery-bias.png"
+    },
+    {
+      "id": "2026-07-31-bpt-snr-sensitivity",
+      "title": "BPT sensitivity to line quality",
+      "archive": "SDSS",
+      "date": "2026-07-31",
+      "question": "How do class fractions move with emission-line S/N?",
+      "sample_size": 11950,
+      "results": [
+        "AGN-fraction shift S/N 3\u219210: -0.5%",
+        "S/N\u226510 retains 6,225 galaxies",
+        "four thresholds tested: 3, 5, 8, 10"
+      ],
+      "validation": "Class fractions are recomputed at four complete four-line thresholds.",
+      "notebook": "sdss/2026-07-31-bpt-snr-sensitivity/notebook.ipynb",
+      "hero": "sdss/2026-07-31-bpt-snr-sensitivity/bpt_snr_sensitivity.png",
+      "tags": [
+        "BPT",
+        "quality control",
+        "selection effects"
+      ],
+      "family": "SDSS",
+      "date_display": "31 Jul 2026",
+      "summary": "How do class fractions move with emission-line S/N?",
+      "sample_size_display": "11,950 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-31-bpt-snr-sensitivity.png"
+    },
+    {
+      "id": "2026-07-30-parallax-distance-vega",
+      "title": "Vega parallax source audit",
+      "archive": "Gaia DR3 + Hipparcos",
+      "date": "2026-07-30",
+      "question": "Did the positional cone search return the named bright star?",
+      "sample_size": 2,
+      "results": [
+        "source-checked distance 7.679 \u00b1 0.021 pc",
+        "25.04 light-years",
+        "cone-row distance ratio 84.5\u00d7"
+      ],
+      "validation": "The cone-search row is compared with the named Hipparcos identifier and expected brightness.",
+      "notebook": "gaia/2026-07-30-parallax-distance-vega/notebook.ipynb",
+      "hero": "gaia/2026-07-30-parallax-distance-vega/vega_parallax_audit.png",
+      "tags": [
+        "Vega",
+        "parallax",
+        "source identity",
+        "quality control"
+      ],
+      "family": "Gaia",
+      "date_display": "31 Jul 2026",
+      "summary": "Did the positional cone search return the named bright star?",
+      "sample_size_display": "2 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-30-parallax-distance-vega.png"
+    },
+    {
+      "id": "2026-07-30-habitable-zone-trappist1",
+      "title": "TRAPPIST-1 luminosity-scaled habitable-zone check",
+      "archive": "NASA Exoplanet Archive",
+      "date": "2026-07-30",
+      "question": "Which planets fall inside this transparent luminosity-only estimate?",
+      "sample_size": 7,
+      "results": [
+        "simple zone 0.0224\u20130.0323 AU",
+        "planet e is the only selected planet in this approximation",
+        "selection unchanged for \u00b110% luminosity: False"
+      ],
+      "validation": "The zone is recomputed after changing stellar luminosity by \u00b110%.",
+      "notebook": "exoplanet-archive/2026-07-30-habitable-zone-trappist1/notebook.ipynb",
+      "hero": "exoplanet-archive/2026-07-30-habitable-zone-trappist1/trappist1_habitable_zone.png",
+      "tags": [
+        "TRAPPIST-1",
+        "habitable zone",
+        "model limits"
+      ],
+      "family": "Exoplanets",
+      "date_display": "31 Jul 2026",
+      "summary": "Which planets fall inside this transparent luminosity-only estimate?",
+      "sample_size_display": "7 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-30-habitable-zone-trappist1.png"
+    },
+    {
+      "id": "2026-07-30-parallax-distance-sirius",
+      "title": "Sirius parallax source audit",
+      "archive": "Gaia DR3 + Hipparcos",
+      "date": "2026-07-30",
+      "question": "Did the positional cone search return the named bright star?",
+      "sample_size": 2,
+      "results": [
+        "source-checked distance 2.637 \u00b1 0.011 pc",
+        "8.60 light-years",
+        "cone-row distance ratio 1.0\u00d7"
+      ],
+      "validation": "The cone-search row is compared with the named Hipparcos identifier and expected brightness.",
+      "notebook": "gaia/2026-07-30-parallax-distance-sirius/notebook.ipynb",
+      "hero": "gaia/2026-07-30-parallax-distance-sirius/sirius_parallax_audit.png",
+      "tags": [
+        "Sirius",
+        "parallax",
+        "source identity",
+        "quality control"
+      ],
+      "family": "Gaia",
+      "date_display": "31 Jul 2026",
+      "summary": "Did the positional cone search return the named bright star?",
+      "sample_size_display": "2 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-30-parallax-distance-sirius.png"
+    },
+    {
+      "id": "2026-07-30-habitable-zone-kepler442",
+      "title": "Kepler-442 b habitable-zone check",
+      "archive": "NASA Exoplanet Archive",
+      "date": "2026-07-30",
+      "question": "Does Kepler-442 b pass a luminosity-only zone test?",
+      "sample_size": 1,
+      "results": [
+        "incident flux 0.699 Earth flux",
+        "simple zone 0.326\u20130.470 AU",
+        "0.409 AU remains inside for \u00b110% luminosity: True"
+      ],
+      "validation": "The boundary test is repeated after changing stellar luminosity by \u00b110%.",
+      "notebook": "exoplanet-archive/2026-07-30-habitable-zone-kepler442/notebook.ipynb",
+      "hero": "exoplanet-archive/2026-07-30-habitable-zone-kepler442/kepler442_habitable_zone.png",
+      "tags": [
+        "Kepler-442 b",
+        "habitable zone",
+        "stellar flux"
+      ],
+      "family": "Exoplanets",
+      "date_display": "31 Jul 2026",
+      "summary": "Does Kepler-442 b pass a luminosity-only zone test?",
+      "sample_size_display": "1 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-30-habitable-zone-kepler442.png"
+    },
+    {
+      "id": "2026-07-30-spectral-type-distribution",
+      "title": "What kinds of objects has SDSS classified in one small patch of sky?",
+      "archive": "SDSS",
+      "family": "SDSS",
+      "date": "2026-07-30",
+      "date_display": "30 Jul 2026",
+      "summary": "Instead of looking at a single object, I queried a 2x2 degree patch of sky (RA 150-152, Dec 1-3) and asked SDSS's own spectroscopic pipeline what it had classified there \u2014 stars, galaxies, or quasars \u2014 to see the mix.",
+      "question": "Instead of looking at a single object, I queried a 2x2 degree patch of sky (RA 150-152, Dec 1-3) and asked SDSS's own spectroscopic pipeline what it had classified there \u2014 stars, galaxies, or quasars \u2014 to see the mix.",
+      "notebook": "sdss/2026-07-30-spectral-type-distribution/notebook.ipynb",
+      "results": [],
+      "validation": "See the notebook and README for the archive query and interpretation.",
+      "tags": [
+        "SDSS",
+        "real data"
+      ],
+      "dense": false,
+      "hero_local": "data/images/2026-07-30-spectral-type-distribution.png"
+    },
+    {
+      "id": "2026-07-30-hst-image-eagle-nebula",
+      "title": "The Pillars of Creation: a real Hubble image of the Eagle Nebula",
+      "archive": "MAST",
+      "family": "MAST",
+      "date": "2026-07-30",
+      "date_display": "30 Jul 2026",
+      "summary": "The \"Pillars of Creation\" in the Eagle Nebula is one of the most recognized astronomical images ever taken \u2014 towering columns of gas and dust where new stars are forming. Instead of just admiring the iconic press-release picture, I queried MAST for real Hubble ACS/WFC observation",
+      "question": "The \"Pillars of Creation\" in the Eagle Nebula is one of the most recognized astronomical images ever taken \u2014 towering columns of gas and dust where new stars are forming. Instead of just admiring the iconic press-release picture, I queried MAST for real Hubble ACS/WFC observation",
+      "notebook": "mast/2026-07-30-hst-image-eagle-nebula/notebook.ipynb",
+      "results": [],
+      "validation": "See the notebook and README for the archive query and interpretation.",
+      "tags": [
+        "MAST",
+        "real data"
+      ],
+      "dense": false,
+      "hero_local": "data/images/2026-07-30-hst-image-eagle-nebula.jpg"
+    },
+    {
+      "id": "2026-07-30-hr-diagram-hyades",
+      "title": "The Hyades cluster: an HR diagram for the nearest open cluster to us",
+      "archive": "Gaia",
+      "family": "Gaia",
+      "date": "2026-07-30",
+      "date_display": "30 Jul 2026",
+      "summary": "The Hyades is the closest open star cluster to the Sun, about 47 parsecs (roughly 153 light-years) away, which makes it an excellent benchmark since Gaia can measure its stars extremely precisely. I queried real Gaia data for stars in its direction, applied a parallax cut around ",
+      "question": "The Hyades is the closest open star cluster to the Sun, about 47 parsecs (roughly 153 light-years) away, which makes it an excellent benchmark since Gaia can measure its stars extremely precisely. I queried real Gaia data for stars in its direction, applied a parallax cut around ",
+      "notebook": "gaia/2026-07-30-hr-diagram-hyades/notebook.ipynb",
+      "results": [],
+      "validation": "See the notebook and README for the archive query and interpretation.",
+      "tags": [
+        "Gaia",
+        "real data"
+      ],
+      "dense": false,
+      "hero_local": "data/images/2026-07-30-hr-diagram-hyades.png"
+    },
+    {
+      "id": "2026-07-30-tess-lightcurve-toi700",
+      "title": "TOI-700 d: hunting for an Earth-sized habitable-zone planet's transit in real TESS data",
+      "archive": "MAST",
+      "family": "MAST",
+      "date": "2026-07-30",
+      "date_display": "30 Jul 2026",
+      "summary": "TOI-700 d was one of the first Earth-sized planets TESS found sitting in its star's habitable zone. I downloaded a real TESS light curve for the host star and tried to spot its transit \u2014 a genuinely subtle signal, since this planet is small and its star is faint, making this a go",
+      "question": "TOI-700 d was one of the first Earth-sized planets TESS found sitting in its star's habitable zone. I downloaded a real TESS light curve for the host star and tried to spot its transit \u2014 a genuinely subtle signal, since this planet is small and its star is faint, making this a go",
+      "notebook": "mast/2026-07-30-tess-lightcurve-toi700/notebook.ipynb",
+      "results": [],
+      "validation": "See the notebook and README for the archive query and interpretation.",
+      "tags": [
+        "MAST",
+        "real data"
+      ],
+      "dense": false,
+      "hero_local": "data/images/2026-07-30-tess-lightcurve-toi700.png"
+    },
+    {
+      "id": "2026-07-30-kepler-lightcurve-kepler10b",
+      "title": "Seeing Kepler-10b's transit dips in a real Kepler light curve",
+      "archive": "MAST",
+      "family": "MAST",
+      "date": "2026-07-30",
+      "date_display": "30 Jul 2026",
+      "summary": "Kepler-10b was one of Kepler's first confirmed rocky exoplanets \u2014 a small, blisteringly hot world orbiting its star in under a day. A transit light curve just tracks a star's brightness over time, and when a planet crosses in front of the star, brightness dips very slightly and b",
+      "question": "Kepler-10b was one of Kepler's first confirmed rocky exoplanets \u2014 a small, blisteringly hot world orbiting its star in under a day. A transit light curve just tracks a star's brightness over time, and when a planet crosses in front of the star, brightness dips very slightly and b",
+      "notebook": "mast/2026-07-30-kepler-lightcurve-kepler10b/notebook.ipynb",
+      "results": [],
+      "validation": "See the notebook and README for the archive query and interpretation.",
+      "tags": [
+        "MAST",
+        "real data"
+      ],
+      "dense": false,
+      "hero_local": "data/images/2026-07-30-kepler-lightcurve-kepler10b.png"
+    },
+    {
+      "id": "2026-07-30-periodogram-hat-p-7b",
+      "title": "Recovering HAT-P-7b's orbital period from scratch with a periodogram",
+      "archive": "MAST",
+      "family": "MAST",
+      "date": "2026-07-30",
+      "date_display": "30 Jul 2026",
+      "summary": "In the other light-curve notebooks in this folder I started from an already-known orbital period to fold the data. Here I wanted to do it the other way around: pretend I didn't know HAT-P-7b's period at all, and try to recover it purely from the shape of its real Kepler light cur",
+      "question": "In the other light-curve notebooks in this folder I started from an already-known orbital period to fold the data. Here I wanted to do it the other way around: pretend I didn't know HAT-P-7b's period at all, and try to recover it purely from the shape of its real Kepler light cur",
+      "notebook": "mast/2026-07-30-periodogram-hat-p-7b/notebook.ipynb",
+      "results": [],
+      "validation": "See the notebook and README for the archive query and interpretation.",
+      "tags": [
+        "MAST",
+        "real data"
+      ],
+      "dense": false,
+      "hero_local": "data/images/2026-07-30-periodogram-hat-p-7b.png"
+    },
+    {
+      "id": "2026-07-30-jwst-image-carina-nebula",
+      "title": "Pulling a real JWST image of the Carina Nebula from MAST",
+      "archive": "MAST",
+      "family": "MAST",
+      "date": "2026-07-30",
+      "date_display": "30 Jul 2026",
+      "summary": "The Carina Nebula is a huge star-forming region, and one of JWST's very first published images was a close-up of its \"Cosmic Cliffs\" \u2014 a wall of gas and dust being sculpted by radiation from young, massive stars. Instead of just looking at the famous press photo, I queried MAST (",
+      "question": "The Carina Nebula is a huge star-forming region, and one of JWST's very first published images was a close-up of its \"Cosmic Cliffs\" \u2014 a wall of gas and dust being sculpted by radiation from young, massive stars. Instead of just looking at the famous press photo, I queried MAST (",
+      "notebook": "mast/2026-07-30-jwst-image-carina-nebula/notebook.ipynb",
+      "results": [],
+      "validation": "See the notebook and README for the archive query and interpretation.",
+      "tags": [
+        "MAST",
+        "real data"
+      ],
+      "dense": false,
+      "hero_local": "data/images/2026-07-30-jwst-image-carina-nebula.png"
+    },
+    {
+      "id": "2026-07-30-emission-line-measurement",
+      "title": "Measuring an H-alpha emission line in a star-forming galaxy",
+      "archive": "SDSS",
+      "family": "SDSS",
+      "date": "2026-07-30",
+      "date_display": "30 Jul 2026",
+      "summary": "I took a real SDSS galaxy spectrum and measured the width and strength of its H-alpha emission line \u2014 the brightest visible-light signature of hot young stars ionizing hydrogen gas around them.",
+      "question": "I took a real SDSS galaxy spectrum and measured the width and strength of its H-alpha emission line \u2014 the brightest visible-light signature of hot young stars ionizing hydrogen gas around them.",
+      "notebook": "sdss/2026-07-30-emission-line-measurement/notebook.ipynb",
+      "results": [],
+      "validation": "See the notebook and README for the archive query and interpretation.",
+      "tags": [
+        "SDSS",
+        "real data"
+      ],
+      "dense": false,
+      "hero_local": "data/images/2026-07-30-emission-line-measurement.png"
+    },
+    {
+      "id": "2026-07-30-wide-binary-search-alpha-cen",
+      "title": "Looking for wide binary star pairs near Alpha Centauri",
+      "archive": "Gaia",
+      "family": "Gaia",
+      "date": "2026-07-30",
+      "date_display": "30 Jul 2026",
+      "summary": "A wide binary is a pair of stars far enough apart to look like two separate points in the sky, but still gravitationally bound to each other. The way to tell a real pair from two unrelated stars that just happen to line up is that true binaries share nearly identical parallax (di",
+      "question": "A wide binary is a pair of stars far enough apart to look like two separate points in the sky, but still gravitationally bound to each other. The way to tell a real pair from two unrelated stars that just happen to line up is that true binaries share nearly identical parallax (di",
+      "notebook": "gaia/2026-07-30-wide-binary-search-alpha-cen/notebook.ipynb",
+      "results": [],
+      "validation": "See the notebook and README for the archive query and interpretation.",
+      "tags": [
+        "Gaia",
+        "real data"
+      ],
+      "dense": false,
+      "hero_local": "data/images/2026-07-30-wide-binary-search-alpha-cen.png"
+    },
+    {
+      "id": "2026-07-30-white-dwarf-spectrum",
+      "title": "Looking at the spectrum of a known SDSS white dwarf",
+      "archive": "SDSS",
+      "family": "SDSS",
+      "date": "2026-07-30",
+      "date_display": "30 Jul 2026",
+      "summary": "I looked up a real SDSS star that the pipeline classifies as a white dwarf \u2014 the leftover, burnt-out core of a sun-like star after it's used up its fuel \u2014 and examined its spectrum for the telltale signature these objects are known for.",
+      "question": "I looked up a real SDSS star that the pipeline classifies as a white dwarf \u2014 the leftover, burnt-out core of a sun-like star after it's used up its fuel \u2014 and examined its spectrum for the telltale signature these objects are known for.",
+      "notebook": "sdss/2026-07-30-white-dwarf-spectrum/notebook.ipynb",
+      "results": [],
+      "validation": "See the notebook and README for the archive query and interpretation.",
+      "tags": [
+        "SDSS",
+        "real data"
+      ],
+      "dense": false,
+      "hero_local": "data/images/2026-07-30-white-dwarf-spectrum.png"
+    },
+    {
+      "id": "2026-07-30-kepler-lightcurve-kepler186f",
+      "title": "Kepler-186f: the first Earth-sized planet found in a habitable zone",
+      "archive": "MAST",
+      "family": "MAST",
+      "date": "2026-07-30",
+      "date_display": "30 Jul 2026",
+      "summary": "Kepler-186f was the first Earth-sized planet confirmed orbiting inside its star's habitable zone, around a cooler, fainter red dwarf star than our Sun. I downloaded a real Kepler light curve for the host star and folded it on the planet's published 130-day orbital period to look ",
+      "question": "Kepler-186f was the first Earth-sized planet confirmed orbiting inside its star's habitable zone, around a cooler, fainter red dwarf star than our Sun. I downloaded a real Kepler light curve for the host star and folded it on the planet's published 130-day orbital period to look ",
+      "notebook": "mast/2026-07-30-kepler-lightcurve-kepler186f/notebook.ipynb",
+      "results": [],
+      "validation": "See the notebook and README for the archive query and interpretation.",
+      "tags": [
+        "MAST",
+        "real data"
+      ],
+      "dense": false,
+      "hero_local": "data/images/2026-07-30-kepler-lightcurve-kepler186f.png"
+    },
+    {
+      "id": "2026-07-30-mass-period-trend",
+      "title": "Is there a real relationship between planet mass and orbital period?",
+      "archive": "Exoplanets",
+      "family": "Exoplanets",
+      "date": "2026-07-30",
+      "date_display": "30 Jul 2026",
+      "summary": "I pulled thousands of confirmed exoplanets at once from the NASA Exoplanet Archive and looked for a relationship between planet mass and orbital period, coloring each point by which method found it (radial velocity or transit), expecting to see some kind of clean trend.",
+      "question": "I pulled thousands of confirmed exoplanets at once from the NASA Exoplanet Archive and looked for a relationship between planet mass and orbital period, coloring each point by which method found it (radial velocity or transit), expecting to see some kind of clean trend.",
+      "notebook": "exoplanet-archive/2026-07-30-mass-period-trend/notebook.ipynb",
+      "results": [],
+      "validation": "See the notebook and README for the archive query and interpretation.",
+      "tags": [
+        "Exoplanets",
+        "real data"
+      ],
+      "dense": false,
+      "hero_local": "data/images/2026-07-30-mass-period-trend.png"
+    },
+    {
+      "id": "2026-07-30-eccentricity-distribution",
+      "title": "How circular are exoplanet orbits, really?",
+      "archive": "Exoplanets",
+      "family": "Exoplanets",
+      "date": "2026-07-30",
+      "date_display": "30 Jul 2026",
+      "summary": "Our own solar system's planets have nearly circular orbits (low eccentricity). I wanted to check whether that's typical of planets elsewhere, using real measured orbital eccentricities for thousands of confirmed exoplanets from the NASA Exoplanet Archive, and see whether planets ",
+      "question": "Our own solar system's planets have nearly circular orbits (low eccentricity). I wanted to check whether that's typical of planets elsewhere, using real measured orbital eccentricities for thousands of confirmed exoplanets from the NASA Exoplanet Archive, and see whether planets ",
+      "notebook": "exoplanet-archive/2026-07-30-eccentricity-distribution/notebook.ipynb",
+      "results": [],
+      "validation": "See the notebook and README for the archive query and interpretation.",
+      "tags": [
+        "Exoplanets",
+        "real data"
+      ],
+      "dense": false,
+      "hero_local": "data/images/2026-07-30-eccentricity-distribution.png"
+    },
+    {
+      "id": "2026-07-30-rv-curve-hd189733b",
+      "title": "HD 189733 b: a hot Jupiter with one of the best-studied atmospheres",
+      "archive": "Exoplanets",
+      "family": "Exoplanets",
+      "date": "2026-07-30",
+      "date_display": "30 Jul 2026",
+      "summary": "HD 189733 b is a \"hot Jupiter\" \u2014 a gas giant crammed into a scorchingly close orbit around its star \u2014 and it's one of the most intensively studied exoplanets in existence, mostly because it's both bright and nearby, making it a favorite target for atmosphere studies from space te",
+      "question": "HD 189733 b is a \"hot Jupiter\" \u2014 a gas giant crammed into a scorchingly close orbit around its star \u2014 and it's one of the most intensively studied exoplanets in existence, mostly because it's both bright and nearby, making it a favorite target for atmosphere studies from space te",
+      "notebook": "exoplanet-archive/2026-07-30-rv-curve-hd189733b/notebook.ipynb",
+      "results": [],
+      "validation": "See the notebook and README for the archive query and interpretation.",
+      "tags": [
+        "Exoplanets",
+        "real data"
+      ],
+      "dense": false,
+      "hero_local": "data/images/2026-07-30-rv-curve-hd189733b.png"
+    },
+    {
+      "id": "2026-07-30-proper-motion-membership-m67",
+      "title": "Finding cluster members of M67 using proper motion alone",
+      "archive": "Gaia",
+      "family": "Gaia",
+      "date": "2026-07-30",
+      "date_display": "30 Jul 2026",
+      "summary": "Proper motion is how fast a star appears to creep across the sky each year. Stars gravitationally bound together in a cluster share almost the same proper motion because they're moving through the galaxy as a group, while foreground and background stars that just happen to be in ",
+      "question": "Proper motion is how fast a star appears to creep across the sky each year. Stars gravitationally bound together in a cluster share almost the same proper motion because they're moving through the galaxy as a group, while foreground and background stars that just happen to be in ",
+      "notebook": "gaia/2026-07-30-proper-motion-membership-m67/notebook.ipynb",
+      "results": [],
+      "validation": "See the notebook and README for the archive query and interpretation.",
+      "tags": [
+        "Gaia",
+        "real data"
+      ],
+      "dense": false,
+      "hero_local": "data/images/2026-07-30-proper-motion-membership-m67.png"
+    },
+    {
+      "id": "2026-07-30-metallicity-vs-position",
+      "title": "Does stellar metallicity change with position in the galaxy?",
+      "archive": "SDSS",
+      "family": "SDSS",
+      "date": "2026-07-30",
+      "date_display": "30 Jul 2026",
+      "summary": "I pulled about 400 SDSS stars that have measured stellar parameters from the SEGUE Stellar Parameter Pipeline (the sppParams table) and checked whether their metallicity (how much of their mass is elements heavier than hydrogen and helium \u2014 astronomers lump all of that together a",
+      "question": "I pulled about 400 SDSS stars that have measured stellar parameters from the SEGUE Stellar Parameter Pipeline (the sppParams table) and checked whether their metallicity (how much of their mass is elements heavier than hydrogen and helium \u2014 astronomers lump all of that together a",
+      "notebook": "sdss/2026-07-30-metallicity-vs-position/notebook.ipynb",
+      "results": [],
+      "validation": "See the notebook and README for the archive query and interpretation.",
+      "tags": [
+        "SDSS",
+        "real data"
+      ],
+      "dense": false,
+      "hero_local": "data/images/2026-07-30-metallicity-vs-position.png"
+    },
+    {
+      "id": "2026-07-30-transit-depth-vs-radius",
+      "title": "Does a bigger planet really block more starlight?",
+      "archive": "Exoplanets",
+      "family": "Exoplanets",
+      "date": "2026-07-30",
+      "date_display": "30 Jul 2026",
+      "summary": "When a planet passes in front of its star (a transit), it blocks a small fraction of the star's light \u2014 the transit depth. Simple geometry says a bigger planet should block roughly its own cross-sectional area's worth of light, so I pulled real transit depth and radius measuremen",
+      "question": "When a planet passes in front of its star (a transit), it blocks a small fraction of the star's light \u2014 the transit depth. Simple geometry says a bigger planet should block roughly its own cross-sectional area's worth of light, so I pulled real transit depth and radius measuremen",
+      "notebook": "exoplanet-archive/2026-07-30-transit-depth-vs-radius/notebook.ipynb",
+      "results": [],
+      "validation": "See the notebook and README for the archive query and interpretation.",
+      "tags": [
+        "Exoplanets",
+        "real data"
+      ],
+      "dense": false,
+      "hero_local": "data/images/2026-07-30-transit-depth-vs-radius.png"
+    },
+    {
+      "id": "2026-07-30-star-spectrum-classification",
+      "title": "Classifying a single SDSS star spectrum",
+      "archive": "SDSS",
+      "family": "SDSS",
+      "date": "2026-07-30",
+      "date_display": "30 Jul 2026",
+      "summary": "I pulled down one real stellar spectrum from SDSS (a star at RA 0h8m05.6s, Dec +14d50m23s) and looked at whether I could tell what kind of star it is just by eyeballing the spectrum shape, before checking my guess against SDSS's own automated classification.",
+      "question": "I pulled down one real stellar spectrum from SDSS (a star at RA 0h8m05.6s, Dec +14d50m23s) and looked at whether I could tell what kind of star it is just by eyeballing the spectrum shape, before checking my guess against SDSS's own automated classification.",
+      "notebook": "sdss/2026-07-30-star-spectrum-classification/notebook.ipynb",
+      "results": [],
+      "validation": "See the notebook and README for the archive query and interpretation.",
+      "tags": [
+        "SDSS",
+        "real data"
+      ],
+      "dense": false,
+      "hero_local": "data/images/2026-07-30-star-spectrum-classification.png"
+    },
+    {
+      "id": "2026-07-30-qso-redshift-check",
+      "title": "Checking a quasar's redshift from its SDSS spectrum",
+      "archive": "SDSS",
+      "family": "SDSS",
+      "date": "2026-07-30",
+      "date_display": "30 Jul 2026",
+      "summary": "I picked a spectroscopically confirmed SDSS quasar (SDSS J000006.53+003055.2) and tried to recover its redshift by hand, using just the position of one strong emission line, then compared that to the redshift SDSS's own pipeline reports.",
+      "question": "I picked a spectroscopically confirmed SDSS quasar (SDSS J000006.53+003055.2) and tried to recover its redshift by hand, using just the position of one strong emission line, then compared that to the redshift SDSS's own pipeline reports.",
+      "notebook": "sdss/2026-07-30-qso-redshift-check/notebook.ipynb",
+      "results": [],
+      "validation": "See the notebook and README for the archive query and interpretation.",
+      "tags": [
+        "SDSS",
+        "real data"
+      ],
+      "dense": false,
+      "hero_local": "data/images/2026-07-30-qso-redshift-check.png"
+    },
+    {
+      "id": "2026-07-30-qso-vs-galaxy-colors",
+      "title": "Can you tell quasars from galaxies just by their colors?",
+      "archive": "SDSS",
+      "family": "SDSS",
+      "date": "2026-07-30",
+      "date_display": "30 Jul 2026",
+      "summary": "Before anyone takes a spectrum of anything, SDSS's photometric survey has already measured every object's brightness through five broad filters (u, g, r, i, z \u2014 running from ultraviolet to near-infrared). I wanted to check whether a simple color-color plot, using just two of thos",
+      "question": "Before anyone takes a spectrum of anything, SDSS's photometric survey has already measured every object's brightness through five broad filters (u, g, r, i, z \u2014 running from ultraviolet to near-infrared). I wanted to check whether a simple color-color plot, using just two of thos",
+      "notebook": "sdss/2026-07-30-qso-vs-galaxy-colors/notebook.ipynb",
+      "results": [],
+      "validation": "See the notebook and README for the archive query and interpretation.",
+      "tags": [
+        "SDSS",
+        "real data"
+      ],
+      "dense": false,
+      "hero_local": "data/images/2026-07-30-qso-vs-galaxy-colors.png"
+    },
+    {
+      "id": "2026-07-30-hr-diagram-pleiades",
+      "title": "Building a real Hertzsprung-Russell diagram for the Pleiades",
+      "archive": "Gaia",
+      "family": "Gaia",
+      "date": "2026-07-30",
+      "date_display": "30 Jul 2026",
+      "summary": "I pulled real Gaia astrometry and photometry for stars in the direction of the Pleiades, cut the sample down to likely cluster members using a parallax range around the cluster's known distance (about 136 parsecs), and plotted an HR diagram: each star's color against its brightne",
+      "question": "I pulled real Gaia astrometry and photometry for stars in the direction of the Pleiades, cut the sample down to likely cluster members using a parallax range around the cluster's known distance (about 136 parsecs), and plotted an HR diagram: each star's color against its brightne",
+      "notebook": "gaia/2026-07-30-hr-diagram-pleiades/notebook.ipynb",
+      "results": [],
+      "validation": "See the notebook and README for the archive query and interpretation.",
+      "tags": [
+        "Gaia",
+        "real data"
+      ],
+      "dense": false,
+      "hero_local": "data/images/2026-07-30-hr-diagram-pleiades.png"
+    },
+    {
+      "id": "2026-07-30-hr-diagram-ngc188",
+      "title": "An HR diagram for NGC 188, one of the oldest nearby open clusters",
+      "archive": "Gaia",
+      "family": "Gaia",
+      "date": "2026-07-30",
+      "date_display": "30 Jul 2026",
+      "summary": "NGC 188 is an open star cluster that's unusually old for its type \u2014 roughly 6-7 billion years, far older than the Pleiades or Hyades I looked at earlier in this folder \u2014 which makes it a good target for seeing how an HR diagram (brightness plotted against color) changes shape as ",
+      "question": "NGC 188 is an open star cluster that's unusually old for its type \u2014 roughly 6-7 billion years, far older than the Pleiades or Hyades I looked at earlier in this folder \u2014 which makes it a good target for seeing how an HR diagram (brightness plotted against color) changes shape as ",
+      "notebook": "gaia/2026-07-30-hr-diagram-ngc188/notebook.ipynb",
+      "results": [],
+      "validation": "See the notebook and README for the archive query and interpretation.",
+      "tags": [
+        "Gaia",
+        "real data"
+      ],
+      "dense": false,
+      "hero_local": "data/images/2026-07-30-hr-diagram-ngc188.png"
+    },
+    {
+      "id": "2026-07-30-galaxy-redshift-slice",
+      "title": "A slice through the galaxy redshift survey -- SDSS's own \"cone diagram\"",
+      "archive": "SDSS",
+      "family": "SDSS",
+      "date": "2026-07-30",
+      "date_display": "30 Jul 2026",
+      "summary": "I wanted to make my own small version of one of cosmology's most iconic plots: the \"cone diagram,\" where you take a thin wedge of sky and plot every galaxy in it by redshift (a stand-in for distance) and sky position, and the large-scale structure of the universe shows up as clum",
+      "question": "I wanted to make my own small version of one of cosmology's most iconic plots: the \"cone diagram,\" where you take a thin wedge of sky and plot every galaxy in it by redshift (a stand-in for distance) and sky position, and the large-scale structure of the universe shows up as clum",
+      "notebook": "sdss/2026-07-30-galaxy-redshift-slice/notebook.ipynb",
+      "results": [],
+      "validation": "See the notebook and README for the archive query and interpretation.",
+      "tags": [
+        "SDSS",
+        "real data"
+      ],
+      "dense": false,
+      "hero_local": "data/images/2026-07-30-galaxy-redshift-slice.png"
+    },
+    {
+      "id": "2026-07-30-jwst-image-ring-nebula",
+      "title": "A real JWST view of the Ring Nebula, a nearby planetary nebula",
+      "archive": "MAST",
+      "family": "MAST",
+      "date": "2026-07-30",
+      "date_display": "30 Jul 2026",
+      "summary": "The Ring Nebula is a \"planetary nebula\" \u2014 a glowing shell of gas blown off by a dying, sun-like star, with nothing to do with actual planets (the name is a historical accident from how these objects looked in old, low-resolution telescopes). JWST imaged it in striking detail, and",
+      "question": "The Ring Nebula is a \"planetary nebula\" \u2014 a glowing shell of gas blown off by a dying, sun-like star, with nothing to do with actual planets (the name is a historical accident from how these objects looked in old, low-resolution telescopes). JWST imaged it in striking detail, and",
+      "notebook": "mast/2026-07-30-jwst-image-ring-nebula/notebook.ipynb",
+      "results": [],
+      "validation": "See the notebook and README for the archive query and interpretation.",
+      "tags": [
+        "MAST",
+        "real data"
+      ],
+      "dense": false,
+      "hero_local": "data/images/2026-07-30-jwst-image-ring-nebula.png"
+    },
+    {
+      "id": "2026-07-30-hst-cutout-m87",
+      "title": "A real Hubble image of M87, the galaxy with the famous black hole jet",
+      "archive": "MAST",
+      "family": "MAST",
+      "date": "2026-07-30",
+      "date_display": "30 Jul 2026",
+      "summary": "M87 is a giant elliptical galaxy at the center of the Virgo Cluster, famous for the relativistic jet of material blasting out of its central supermassive black hole \u2014 the same black hole the Event Horizon Telescope imaged directly in 2019. I queried MAST for real Hubble WFC3/UVIS",
+      "question": "M87 is a giant elliptical galaxy at the center of the Virgo Cluster, famous for the relativistic jet of material blasting out of its central supermassive black hole \u2014 the same black hole the Event Horizon Telescope imaged directly in 2019. I queried MAST for real Hubble WFC3/UVIS",
+      "notebook": "mast/2026-07-30-hst-cutout-m87/notebook.ipynb",
+      "results": [],
+      "validation": "See the notebook and README for the archive query and interpretation.",
+      "tags": [
+        "MAST",
+        "real data"
+      ],
+      "dense": false,
+      "hero_local": "data/images/2026-07-30-hst-cutout-m87.png"
+    },
+    {
+      "id": "2026-07-30-rv-curve-51-pegasi-b",
+      "title": "51 Pegasi b: the first exoplanet found around a sun-like star",
+      "archive": "Exoplanets",
+      "family": "Exoplanets",
+      "date": "2026-07-30",
+      "date_display": "30 Jul 2026",
+      "summary": "51 Pegasi b was the first exoplanet ever confirmed orbiting a normal, sun-like star, discovered in 1995 using the radial velocity method \u2014 watching a star's own light wobble in wavelength as an unseen planet's gravity tugs it back and forth. I pulled its real, current best-fit or",
+      "question": "51 Pegasi b was the first exoplanet ever confirmed orbiting a normal, sun-like star, discovered in 1995 using the radial velocity method \u2014 watching a star's own light wobble in wavelength as an unseen planet's gravity tugs it back and forth. I pulled its real, current best-fit or",
+      "notebook": "exoplanet-archive/2026-07-30-rv-curve-51-pegasi-b/notebook.ipynb",
+      "results": [],
+      "validation": "See the notebook and README for the archive query and interpretation.",
+      "tags": [
+        "Exoplanets",
+        "real data"
+      ],
+      "dense": false,
+      "hero_local": "data/images/2026-07-30-rv-curve-51-pegasi-b.png"
+    }
+  ]
+}

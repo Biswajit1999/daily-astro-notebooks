@@ -1,0 +1,21 @@
+{
+  "id": "2026-07-30-habitable-zone-kepler442",
+  "title": "Kepler-442 b habitable-zone check",
+  "archive": "NASA Exoplanet Archive",
+  "date": "2026-07-30",
+  "question": "Does Kepler-442 b pass a luminosity-only zone test?",
+  "sample_size": 1,
+  "results": [
+    "incident flux 0.699 Earth flux",
+    "simple zone 0.326\u20130.470 AU",
+    "0.409 AU remains inside for \u00b110% luminosity: True"
+  ],
+  "validation": "The boundary test is repeated after changing stellar luminosity by \u00b110%.",
+  "notebook": "exoplanet-archive/2026-07-30-habitable-zone-kepler442/notebook.ipynb",
+  "hero": "exoplanet-archive/2026-07-30-habitable-zone-kepler442/kepler442_habitable_zone.png",
+  "tags": [
+    "Kepler-442 b",
+    "habitable zone",
+    "stellar flux"
+  ]
+}

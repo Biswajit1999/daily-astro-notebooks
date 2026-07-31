@@ -1,0 +1,22 @@
+{
+  "id": "2026-07-31-exoplanet-radius-valley",
+  "title": "The exoplanet radius valley",
+  "archive": "NASA Exoplanet Archive",
+  "date": "2026-07-31",
+  "question": "Where is the radius deficit in the current confirmed transiting-planet catalogue?",
+  "sample_size": 2070,
+  "results": [
+    "valley minimum 1.83 Earth radii",
+    "bootstrap 68% interval 1.80\u20131.86 Earth radii",
+    "period\u2013valley log slope -0.13 \u00b1 0.04"
+  ],
+  "validation": "The measured minimum is compared with the published 1.5\u20132.0 Earth-radius valley; catalogue completeness is not modelled.",
+  "notebook": "exoplanet-archive/2026-07-31-exoplanet-radius-valley/notebook.ipynb",
+  "hero": "exoplanet-archive/2026-07-31-exoplanet-radius-valley/radius_valley_period.png",
+  "tags": [
+    "exoplanets",
+    "population",
+    "transits",
+    "radius valley"
+  ]
+}

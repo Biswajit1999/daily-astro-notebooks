@@ -1,0 +1,22 @@
+{
+  "id": "2026-07-31-hst-stis-hd93521-line-inventory",
+  "title": "HST/STIS chemical-line inventory of HD 93521",
+  "archive": "MAST \u00b7 HST",
+  "date": "2026-07-31",
+  "question": "Which hydrogen and helium lines are measurable in a calibrated HST spectrum?",
+  "sample_size": 567,
+  "results": [
+    "5 of 5 expected H/He features fitted",
+    "median spectrum S/N 637.9 per usable pixel",
+    "H\u03b1 equivalent width 1.48 \u00c5"
+  ],
+  "validation": "Line centres are checked against laboratory wavelengths; interpretation is limited to identification and equivalent width.",
+  "notebook": "mast/2026-07-31-hst-stis-hd93521-line-inventory/notebook.ipynb",
+  "hero": "mast/2026-07-31-hst-stis-hd93521-line-inventory/hd93521_normalised_spectrum.png",
+  "tags": [
+    "spectrum",
+    "HST",
+    "STIS",
+    "chemistry"
+  ]
+}

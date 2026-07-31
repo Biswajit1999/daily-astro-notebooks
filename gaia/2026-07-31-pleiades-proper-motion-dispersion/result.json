@@ -1,0 +1,21 @@
+{
+  "id": "2026-07-31-pleiades-proper-motion-dispersion",
+  "title": "Pleiades proper-motion dispersion",
+  "archive": "Gaia DR3",
+  "date": "2026-07-31",
+  "question": "What scatter remains after formal-error subtraction?",
+  "sample_size": 609,
+  "results": [
+    "deconvolved \u03c3RA 1.002 mas/yr",
+    "deconvolved \u03c3Dec 1.147 mas/yr",
+    "velocity equivalents 0.645, 0.739 km/s"
+  ],
+  "validation": "The calculation is repeated for G<15 members.",
+  "notebook": "gaia/2026-07-31-pleiades-proper-motion-dispersion/notebook.ipynb",
+  "hero": "gaia/2026-07-31-pleiades-proper-motion-dispersion/pleiades_pm_dispersion.png",
+  "tags": [
+    "Pleiades",
+    "proper motion",
+    "kinematics"
+  ]
+}

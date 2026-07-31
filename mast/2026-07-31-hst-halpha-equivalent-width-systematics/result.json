@@ -1,0 +1,22 @@
+{
+  "id": "2026-07-31-hst-halpha-equivalent-width-systematics",
+  "title": "HST H\u03b1 equivalent-width systematics",
+  "archive": "MAST \u00b7 HST",
+  "date": "2026-07-31",
+  "question": "How stable is H\u03b1 equivalent width to continuum choices?",
+  "sample_size": 567,
+  "results": [
+    "grid median EW 1.848 \u00c5",
+    "method spread 1.895 \u00c5",
+    "spread/reference 102.5%"
+  ],
+  "validation": "Five integration widths and two continuum orders are compared.",
+  "notebook": "mast/2026-07-31-hst-halpha-equivalent-width-systematics/notebook.ipynb",
+  "hero": "mast/2026-07-31-hst-halpha-equivalent-width-systematics/halpha_ew_systematics.png",
+  "tags": [
+    "HST",
+    "H-alpha",
+    "equivalent width",
+    "systematics"
+  ]
+}

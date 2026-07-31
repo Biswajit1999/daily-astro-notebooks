@@ -1,0 +1,21 @@
+{
+  "id": "2026-07-30-habitable-zone-trappist1",
+  "title": "TRAPPIST-1 luminosity-scaled habitable-zone check",
+  "archive": "NASA Exoplanet Archive",
+  "date": "2026-07-30",
+  "question": "Which planets fall inside this transparent luminosity-only estimate?",
+  "sample_size": 7,
+  "results": [
+    "simple zone 0.0224\u20130.0323 AU",
+    "planet e is the only selected planet in this approximation",
+    "selection unchanged for \u00b110% luminosity: False"
+  ],
+  "validation": "The zone is recomputed after changing stellar luminosity by \u00b110%.",
+  "notebook": "exoplanet-archive/2026-07-30-habitable-zone-trappist1/notebook.ipynb",
+  "hero": "exoplanet-archive/2026-07-30-habitable-zone-trappist1/trappist1_habitable_zone.png",
+  "tags": [
+    "TRAPPIST-1",
+    "habitable zone",
+    "model limits"
+  ]
+}

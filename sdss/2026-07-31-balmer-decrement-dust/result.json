@@ -1,0 +1,21 @@
+{
+  "id": "2026-07-31-balmer-decrement-dust",
+  "title": "SDSS Balmer-decrement dust indicator",
+  "archive": "SDSS",
+  "date": "2026-07-31",
+  "question": "What colour excess is implied by H\u03b1/H\u03b2?",
+  "sample_size": 11898,
+  "results": [
+    "median E(B\u2212V) 0.327 mag",
+    "bootstrap 68% 0.325\u20130.329 mag",
+    "S/N\u22658 median 0.297 mag"
+  ],
+  "validation": "The median is repeated with every emission line required at S/N\u22658.",
+  "notebook": "sdss/2026-07-31-balmer-decrement-dust/notebook.ipynb",
+  "hero": "sdss/2026-07-31-balmer-decrement-dust/balmer_decrement_dust.png",
+  "tags": [
+    "Balmer decrement",
+    "dust",
+    "emission lines"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2026-07-31-hot-jupiter-tidal-circularisation",
+  "title": "Hot-Jupiter tidal circularisation",
+  "archive": "NASA Exoplanet Archive",
+  "date": "2026-07-31",
+  "question": "Are short-period giant planets more circular than longer-period giants?",
+  "sample_size": 944,
+  "results": [
+    "median e=0.000 below 5 d versus 0.120 at 10\u2013100 d",
+    "median contrast 0.120 (bootstrap 95%: 0.088\u20130.149)",
+    "e>0.1 fractions 17.3% versus 55.3%"
+  ],
+  "validation": "The direction of the period\u2013eccentricity contrast matches the standard tidal-circularisation expectation.",
+  "notebook": "exoplanet-archive/2026-07-31-hot-jupiter-tidal-circularisation/notebook.ipynb",
+  "hero": "exoplanet-archive/2026-07-31-hot-jupiter-tidal-circularisation/giant_eccentricity_period.png",
+  "tags": [
+    "exoplanets",
+    "dynamics",
+    "tides",
+    "hot Jupiters"
+  ]
+}

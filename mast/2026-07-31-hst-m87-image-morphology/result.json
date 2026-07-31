@@ -1,0 +1,22 @@
+{
+  "id": "2026-07-31-hst-m87-image-morphology",
+  "title": "M87 morphology in an HST preview",
+  "archive": "MAST \u00b7 HST",
+  "date": "2026-07-31",
+  "question": "What morphology proxies are measured from the preserved preview?",
+  "sample_size": 8706420,
+  "results": [
+    "axis ratio 0.664",
+    "half-light radius 882.3 display pixels",
+    "threshold-test radius range 826.5\u2013899.4 px"
+  ],
+  "validation": "Moments are recomputed at four background percentiles.",
+  "notebook": "mast/2026-07-31-hst-m87-image-morphology/notebook.ipynb",
+  "hero": "mast/2026-07-31-hst-m87-image-morphology/m87_preview_morphology.png",
+  "tags": [
+    "HST",
+    "M87",
+    "image morphology",
+    "display image"
+  ]
+}

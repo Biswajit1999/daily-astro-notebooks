@@ -1,0 +1,21 @@
+{
+  "id": "2026-07-31-n2-metallicity-proxy",
+  "title": "SDSS N2 metallicity proxy",
+  "archive": "SDSS",
+  "date": "2026-07-31",
+  "question": "What oxygen abundance does N2 imply on the star-forming branch?",
+  "sample_size": 8722,
+  "results": [
+    "median 12+log(O/H) = 8.609",
+    "bootstrap 68% 8.608\u20138.610",
+    "S/N\u22658 shift -0.028 dex"
+  ],
+  "validation": "The abundance median is repeated at S/N\u22658 for all four lines.",
+  "notebook": "sdss/2026-07-31-n2-metallicity-proxy/notebook.ipynb",
+  "hero": "sdss/2026-07-31-n2-metallicity-proxy/n2_metallicity_distribution.png",
+  "tags": [
+    "metallicity",
+    "N2",
+    "star-forming galaxies"
+  ]
+}
