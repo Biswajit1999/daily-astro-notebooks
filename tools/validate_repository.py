@@ -10,11 +10,16 @@ REQUIRED_RESULT_FIELDS = {
     "id", "title", "archive", "date", "question", "sample_size",
     "results", "validation", "notebook", "hero",
 }
+AUDIT_FIELDS = {
+    "figures", "research_level", "claim_type", "provenance", "artifacts",
+    "quality_checks", "limitations",
+}
 
 
 def main() -> None:
     failures: list[str] = []
     dense_count = 0
+    audit_count = 0
 
     for result_path in sorted(ROOT.glob("*/20*-*/result.json")):
         dense_count += 1
@@ -57,9 +62,28 @@ def main() -> None:
         if not data.get("results"):
             failures.append(f"{result_path.relative_to(ROOT)}: results list is empty")
 
+        # New scientific-audit records carry a richer, machine-checkable
+        # contract. Legacy dense notebooks remain valid while they are upgraded
+        # in later batches.
+        if "research_level" in data:
+            audit_count += 1
+            missing_audit = AUDIT_FIELDS - data.keys()
+            if missing_audit:
+                failures.append(f"{result_path.relative_to(ROOT)}: missing audit fields {sorted(missing_audit)}")
+            if len(data.get("figures", [])) < 2:
+                failures.append(f"{result_path.relative_to(ROOT)}: audit needs at least two evidence figures")
+            for relative in data.get("figures", []) + data.get("artifacts", []):
+                if not (ROOT / relative).is_file():
+                    failures.append(f"{result_path.relative_to(ROOT)}: missing declared file {relative}")
+            checks = data.get("quality_checks", [])
+            if not checks or any(not {"name", "status"} <= item.keys() for item in checks):
+                failures.append(f"{result_path.relative_to(ROOT)}: malformed quality checks")
+            if not data.get("provenance") or not data.get("limitations"):
+                failures.append(f"{result_path.relative_to(ROOT)}: provenance or limitations are empty")
+
     if failures:
         raise SystemExit("Validation failed:\n- " + "\n- ".join(failures))
-    print(f"Validated {dense_count} dense notebook folders")
+    print(f"Validated {dense_count} dense notebooks, including {audit_count} scientific audits")
 
 
 if __name__ == "__main__":

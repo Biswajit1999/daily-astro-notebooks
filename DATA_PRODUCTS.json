@@ -1,0 +1,459 @@
+{
+  "schema_version": "1.0",
+  "generated": "2026-07-31",
+  "description": "Checksums and provenance for reusable outputs named by scientifically audited notebooks.",
+  "notebooks": [
+    {
+      "id": "2026-07-30-habitable-zone-kepler442",
+      "archive": "NASA Exoplanet Archive",
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": []
+    },
+    {
+      "id": "2026-07-30-habitable-zone-trappist1",
+      "archive": "NASA Exoplanet Archive",
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": []
+    },
+    {
+      "id": "2026-07-31-eccentricity-discovery-bias",
+      "archive": "NASA Exoplanet Archive",
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": []
+    },
+    {
+      "id": "2026-07-31-exoplanet-discovery-method-timeline",
+      "archive": "NASA Exoplanet Archive",
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": []
+    },
+    {
+      "id": "2026-07-31-exoplanet-radius-valley",
+      "archive": "NASA Exoplanet Archive",
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": []
+    },
+    {
+      "id": "2026-07-31-hot-jupiter-radius-inflation",
+      "archive": "NASA Exoplanet Archive",
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": []
+    },
+    {
+      "id": "2026-07-31-hot-jupiter-tidal-circularisation",
+      "archive": "NASA Exoplanet Archive",
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": []
+    },
+    {
+      "id": "2026-07-31-single-vs-multiplanet-systems",
+      "archive": "NASA Exoplanet Archive",
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": []
+    },
+    {
+      "id": "2026-07-30-parallax-distance-sirius",
+      "archive": "Gaia DR3 + Hipparcos",
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": []
+    },
+    {
+      "id": "2026-07-30-parallax-distance-vega",
+      "archive": "Gaia DR3 + Hipparcos",
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": []
+    },
+    {
+      "id": "2026-07-31-gaia-pleiades-membership-distance",
+      "archive": "Gaia DR3",
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": []
+    },
+    {
+      "id": "2026-07-31-pleiades-cmd-ruwe-binaries",
+      "archive": "Gaia DR3",
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": []
+    },
+    {
+      "id": "2026-07-31-pleiades-line-of-sight-depth",
+      "archive": "Gaia DR3",
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": []
+    },
+    {
+      "id": "2026-07-31-pleiades-mass-segregation-proxy",
+      "archive": "Gaia DR3",
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": []
+    },
+    {
+      "id": "2026-07-31-pleiades-proper-motion-dispersion",
+      "archive": "Gaia DR3",
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": []
+    },
+    {
+      "id": "2026-07-30-hst-image-eagle-nebula",
+      "archive": "MAST \u00b7 HST ACS/WFC",
+      "research_level": "Validated",
+      "claim_type": "Morphology only",
+      "provenance": [
+        "MAST product jck909c4q_raw.jpg",
+        "stored preview eagle_nebula.jpg"
+      ]
+    },
+    {
+      "id": "2026-07-30-jwst-image-carina-nebula",
+      "archive": "MAST \u00b7 JWST NIRCam",
+      "research_level": "Validated",
+      "claim_type": "Morphology only",
+      "provenance": [
+        "MAST product jw05408024001_02101_00001_nrcblong_i2d.jpg",
+        "stored preview carina_nircam.jpg"
+      ]
+    },
+    {
+      "id": "2026-07-30-jwst-image-ring-nebula",
+      "archive": "MAST \u00b7 JWST NIRCam",
+      "research_level": "Exploration",
+      "claim_type": "Source / field mismatch",
+      "provenance": [
+        "MAST product jw01558005001_04101_00001_nrcb2_i2d.jpg",
+        "stored preview ring_nebula.jpg"
+      ]
+    },
+    {
+      "id": "2026-07-30-kepler-lightcurve-kepler10b",
+      "archive": "MAST \u00b7 Kepler",
+      "research_level": "Validated",
+      "claim_type": "Archive remeasurement",
+      "provenance": [
+        "MAST product kplr011904151-2009350155506_llc.fits",
+        "quality flag = 0",
+        "PDCSAP flux"
+      ]
+    },
+    {
+      "id": "2026-07-30-kepler-lightcurve-kepler186f",
+      "archive": "MAST \u00b7 Kepler",
+      "research_level": "Validated",
+      "claim_type": "Full-mission transit recovery",
+      "provenance": [
+        "MAST Kepler KIC 8120608",
+        "17 *_llc.fits long-cadence products",
+        "quality flag = 0 and quarter-wise PDCSAP normalization",
+        "NASA Exoplanet Archive DR25 period 129.945392 d, epoch 176.82285 BKJD, duration 5.786 h"
+      ]
+    },
+    {
+      "id": "2026-07-30-periodogram-hat-p-7b",
+      "archive": "MAST \u00b7 Kepler",
+      "research_level": "Validated",
+      "claim_type": "Independent period recovery",
+      "provenance": [
+        "MAST Kepler KIC 10666592",
+        "18 *_llc.fits long-cadence products",
+        "quality flag = 0 and quarter-wise PDCSAP normalization"
+      ]
+    },
+    {
+      "id": "2026-07-30-tess-lightcurve-toi700",
+      "archive": "MAST \u00b7 TESS",
+      "research_level": "Exploration",
+      "claim_type": "Null / method-sensitive",
+      "provenance": [
+        "MAST product TESS SPOC sectors 27, 28, 30, 31, 33\u201336",
+        "quality flag = 0",
+        "PDCSAP flux"
+      ]
+    },
+    {
+      "id": "2026-07-31-hst-halpha-equivalent-width-systematics",
+      "archive": "MAST \u00b7 HST",
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": []
+    },
+    {
+      "id": "2026-07-31-hst-m87-image-morphology",
+      "archive": "MAST \u00b7 HST",
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": []
+    },
+    {
+      "id": "2026-07-31-hst-stis-continuum-slope",
+      "archive": "MAST \u00b7 HST",
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": []
+    },
+    {
+      "id": "2026-07-31-hst-stis-hd93521-line-inventory",
+      "archive": "MAST \u00b7 HST",
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": []
+    },
+    {
+      "id": "2026-07-30-emission-line-measurement",
+      "archive": "SDSS DR17",
+      "research_level": "Validated",
+      "claim_type": "Joint emission-line remeasurement",
+      "provenance": [
+        "SDSS DR17 spec-0266-51602-0001.fits",
+        "saved inverse-variance spectrum",
+        "rest frame uses SDSS pipeline redshift"
+      ]
+    },
+    {
+      "id": "2026-07-30-qso-redshift-check",
+      "archive": "SDSS DR17",
+      "research_level": "Validated",
+      "claim_type": "Multi-line archive remeasurement",
+      "provenance": [
+        "SDSS DR17 spec-0685-52203-0467.fits",
+        "saved inverse-variance spectrum",
+        "pipeline redshift retained only as comparison"
+      ]
+    },
+    {
+      "id": "2026-07-30-star-spectrum-classification",
+      "archive": "SDSS DR17",
+      "research_level": "Validated",
+      "claim_type": "Source identity correction",
+      "provenance": [
+        "SDSS DR17 spec-0751-52251-0160.fits",
+        "saved wavelength, flux, inverse variance, and mask",
+        "SDSS pipeline class and redshift metadata"
+      ]
+    },
+    {
+      "id": "2026-07-31-balmer-decrement-dust",
+      "archive": "SDSS",
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": []
+    },
+    {
+      "id": "2026-07-31-bpt-snr-sensitivity",
+      "archive": "SDSS",
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": []
+    },
+    {
+      "id": "2026-07-31-excitation-redshift-selection",
+      "archive": "SDSS",
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": []
+    },
+    {
+      "id": "2026-07-31-n2-metallicity-proxy",
+      "archive": "SDSS",
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": []
+    },
+    {
+      "id": "2026-07-31-sdss-bpt-galaxy-classification",
+      "archive": "SDSS DR18",
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": []
+    }
+  ],
+  "products": [
+    {
+      "path": "mast/2026-07-30-hst-image-eagle-nebula/eagle_orientation_metrics.csv",
+      "notebook_id": "2026-07-30-hst-image-eagle-nebula",
+      "bytes": 84,
+      "sha256": "45f83c1bfb0b4543ce8d233d4a606964e6536291b710d17d249e15bcbd6e8511"
+    },
+    {
+      "path": "mast/2026-07-30-jwst-image-carina-nebula/carina_threshold_metrics.csv",
+      "notebook_id": "2026-07-30-jwst-image-carina-nebula",
+      "bytes": 85,
+      "sha256": "cc30b96663189ada7cd720d392b6b7e23eefd7b55208324001356439716f7270"
+    },
+    {
+      "path": "mast/2026-07-30-jwst-image-ring-nebula/ring_field_metrics.csv",
+      "notebook_id": "2026-07-30-jwst-image-ring-nebula",
+      "bytes": 170,
+      "sha256": "9f65956e13c2833a36d7725cda114d5c8e7b8f2495f85f768eb80c2000b6dcef"
+    },
+    {
+      "path": "mast/2026-07-30-kepler-lightcurve-kepler10b/kepler10_q3_pdcsap.csv",
+      "notebook_id": "2026-07-30-kepler-lightcurve-kepler10b",
+      "bytes": 208325,
+      "sha256": "2031947abae62354c8e0d7a82d6ad58d7d5953aa60e8071d3ddb2ef73b0e411d"
+    },
+    {
+      "path": "mast/2026-07-30-kepler-lightcurve-kepler10b/kepler10_fit_summary.csv",
+      "notebook_id": "2026-07-30-kepler-lightcurve-kepler10b",
+      "bytes": 163,
+      "sha256": "7c0e3ff40ec5f1a6260a6a920da97744f28988ba7604db10fd4041119aa911d5"
+    },
+    {
+      "path": "mast/2026-07-30-kepler-lightcurve-kepler10b/kepler10_model_sensitivity.csv",
+      "notebook_id": "2026-07-30-kepler-lightcurve-kepler10b",
+      "bytes": 466,
+      "sha256": "eb2f0d147319a5c14bce681e643a9592ed938ec00cd698e761801bf6ae6d74ea"
+    },
+    {
+      "path": "mast/2026-07-30-kepler-lightcurve-kepler186f/kepler186_all_quarters.csv",
+      "notebook_id": "2026-07-30-kepler-lightcurve-kepler186f",
+      "bytes": 8698933,
+      "sha256": "88a4fdb6747aa1bb385d28b0979900ed43940cb2758da088ca1e5618d5806d44"
+    },
+    {
+      "path": "mast/2026-07-30-kepler-lightcurve-kepler186f/kepler186_transit_coverage.csv",
+      "notebook_id": "2026-07-30-kepler-lightcurve-kepler186f",
+      "bytes": 360,
+      "sha256": "cd5472a5a8a97f89589b418e760e0b00357c43e47738f6808fd0e5f687a1cfda"
+    },
+    {
+      "path": "mast/2026-07-30-kepler-lightcurve-kepler186f/kepler186_event_depths.csv",
+      "notebook_id": "2026-07-30-kepler-lightcurve-kepler186f",
+      "bytes": 269,
+      "sha256": "eeb90aaaced71f966da0ab35257a0e85264a5ef97f437b46433c82d50f940514"
+    },
+    {
+      "path": "mast/2026-07-30-kepler-lightcurve-kepler186f/kepler186_leave_one_out.csv",
+      "notebook_id": "2026-07-30-kepler-lightcurve-kepler186f",
+      "bytes": 233,
+      "sha256": "3c1f496e3069b45d388e3d199ba448c9491f73979ebc89ea0bf9a10842f58115"
+    },
+    {
+      "path": "mast/2026-07-30-kepler-lightcurve-kepler186f/kepler186_injection_recovery.csv",
+      "notebook_id": "2026-07-30-kepler-lightcurve-kepler186f",
+      "bytes": 410,
+      "sha256": "b070b97b5215d7a7a0c42a507def052454cba94d4ec11ac04354836c148cade9"
+    },
+    {
+      "path": "mast/2026-07-30-periodogram-hat-p-7b/hatp7_all_quarters.csv",
+      "notebook_id": "2026-07-30-periodogram-hat-p-7b",
+      "bytes": 8666155,
+      "sha256": "f3084b7e47b4b72175384c9752e9c68a82574fa08292c6dc152166cfa686eabe"
+    },
+    {
+      "path": "mast/2026-07-30-periodogram-hat-p-7b/hatp7_search_summary.csv",
+      "notebook_id": "2026-07-30-periodogram-hat-p-7b",
+      "bytes": 248,
+      "sha256": "dc5f508c96a9b8c5647bcbab131455f0c5f41d9ba98d5af531201ee8926f2eca"
+    },
+    {
+      "path": "mast/2026-07-30-periodogram-hat-p-7b/hatp7_individual_transit_depths.csv",
+      "notebook_id": "2026-07-30-periodogram-hat-p-7b",
+      "bytes": 16170,
+      "sha256": "4418536075d3cd6d0fabe5ef01ea119bc5031bb37594336bb412cc68ff6af335"
+    },
+    {
+      "path": "mast/2026-07-30-periodogram-hat-p-7b/hatp7_quarter_depths.csv",
+      "notebook_id": "2026-07-30-periodogram-hat-p-7b",
+      "bytes": 786,
+      "sha256": "55df1d6234b602cdad67bf38850161e504108ea95e9bdc40671889913996e2a3"
+    },
+    {
+      "path": "mast/2026-07-30-tess-lightcurve-toi700/toi700_multisector_pdcsap.csv",
+      "notebook_id": "2026-07-30-tess-lightcurve-toi700",
+      "bytes": 494390,
+      "sha256": "d94644e2da7bcaf8e94e52f40efd9fb4005e12e48f29ce2a0c6ab6e65ac3076f"
+    },
+    {
+      "path": "mast/2026-07-30-tess-lightcurve-toi700/toi700_fit_summary.csv",
+      "notebook_id": "2026-07-30-tess-lightcurve-toi700",
+      "bytes": 158,
+      "sha256": "f1b38b43e5404adabc6f4df76eb89b39724aa0ce52a60c4d6d5d99314753870f"
+    },
+    {
+      "path": "mast/2026-07-30-tess-lightcurve-toi700/toi700_model_sensitivity.csv",
+      "notebook_id": "2026-07-30-tess-lightcurve-toi700",
+      "bytes": 451,
+      "sha256": "5507845f8b3ec58e9a822685c08094f5fd17b33783e9409b16db7b5b0068f44c"
+    },
+    {
+      "path": "sdss/2026-07-30-emission-line-measurement/galaxy_sdss_spectrum.csv",
+      "notebook_id": "2026-07-30-emission-line-measurement",
+      "bytes": 220830,
+      "sha256": "62e111d188244389cf3c5c8c56b46491b52439c916835e6ecc20cff7e7c47fef"
+    },
+    {
+      "path": "sdss/2026-07-30-emission-line-measurement/galaxy_sdss_metadata.json",
+      "notebook_id": "2026-07-30-emission-line-measurement",
+      "bytes": 103,
+      "sha256": "479c916a48b7cc25458a8136b12560e7e569bf96120d91786e2489147d5d353a"
+    },
+    {
+      "path": "sdss/2026-07-30-emission-line-measurement/halpha_nii_fit_summary.csv",
+      "notebook_id": "2026-07-30-emission-line-measurement",
+      "bytes": 280,
+      "sha256": "2b081e6c836dba393fe69fc88166c017f6d94f2eff5506d611b9676b086353ca"
+    },
+    {
+      "path": "sdss/2026-07-30-emission-line-measurement/halpha_nii_window_stress.csv",
+      "notebook_id": "2026-07-30-emission-line-measurement",
+      "bytes": 197,
+      "sha256": "f0f2b2b1a6715e2f256e7d94424a2bcd2adaf2a5f5b69d386ea8bff3317017d2"
+    },
+    {
+      "path": "sdss/2026-07-30-qso-redshift-check/qso_sdss_spectrum.csv",
+      "notebook_id": "2026-07-30-qso-redshift-check",
+      "bytes": 221367,
+      "sha256": "da4f8468d07477282293b5f18f06a8a5a3874199f978fb07a5a3dfbe3ee87c53"
+    },
+    {
+      "path": "sdss/2026-07-30-qso-redshift-check/qso_sdss_metadata.json",
+      "notebook_id": "2026-07-30-qso-redshift-check",
+      "bytes": 108,
+      "sha256": "3fd1939bfd5d7aea5ae3280ab54df4dedf17b4dc4d444e47736d519e72f4f649"
+    },
+    {
+      "path": "sdss/2026-07-30-qso-redshift-check/qso_multiline_redshift.csv",
+      "notebook_id": "2026-07-30-qso-redshift-check",
+      "bytes": 405,
+      "sha256": "4fc511f423c18ec572c76e6d5bc032f7570fa125134f9aa5623380b5529908e7"
+    },
+    {
+      "path": "sdss/2026-07-30-star-spectrum-classification/star_sdss_spectrum.csv",
+      "notebook_id": "2026-07-30-star-spectrum-classification",
+      "bytes": 221007,
+      "sha256": "2be54126d4e64567ced62b21780981dddfc3f39421495f74001e0a32691f7a7e"
+    },
+    {
+      "path": "sdss/2026-07-30-star-spectrum-classification/star_sdss_metadata.json",
+      "notebook_id": "2026-07-30-star-spectrum-classification",
+      "bytes": 108,
+      "sha256": "3c5e648b42681441330f9a982e9a80136fd777b9732bc2430c79ec53bfac6961"
+    },
+    {
+      "path": "sdss/2026-07-30-star-spectrum-classification/source_identity_line_fits.csv",
+      "notebook_id": "2026-07-30-star-spectrum-classification",
+      "bytes": 202,
+      "sha256": "ea636d95fc7fc49ed1105236dfd4b5a20a320dac1b9f7f3a5bb31746960a85fd"
+    },
+    {
+      "path": "sdss/2026-07-30-star-spectrum-classification/source_identity_window_stress.csv",
+      "notebook_id": "2026-07-30-star-spectrum-classification",
+      "bytes": 187,
+      "sha256": "1cafa3526f4da222fea8e7925ab7f65abad6c6b5a0baccc95172fd443af8b04a"
+    }
+  ]
+}

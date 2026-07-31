@@ -48,7 +48,7 @@ Each dated subfolder contains:
 
 ## What's here so far
 
-**50 notebooks, 4 archives, 2 observing-log dates — 29 now meet the deeper analysis standard, including five scientifically audited early notebooks.**
+**50 notebooks, 4 archives, 2 observing-log dates — 34 now meet the deeper analysis standard, including ten scientifically audited early notebooks.**
 
 The [dashboard](https://biswajit1999.github.io/daily-astro-notebooks/) is built from the repository itself. A new notebook appears there automatically after it is merged into `master` and the Pages workflow completes.
 
@@ -79,12 +79,35 @@ labelled as a field mismatch rather than being used for a misleading shape
 measurement. Negative results are preserved because they show exactly what the
 current product or method cannot support.
 
+### Scientific Audit Batch 2
+
+Five more early notebooks now use exact saved archive products, multiple
+evidence figures, reusable measurement tables, and explicit claim boundaries.
+The most important correction is scientific rather than cosmetic: the product
+previously described as a stellar spectrum is actually classified by SDSS as a
+broad-line quasar, and the broad Balmer profiles support that identity. The
+quasar redshift is now measured from C IV, C III], and Mg II instead of one
+peak. The galaxy notebook jointly fits H-alpha and both [N II] lines and fixes a
+factor-of-ten wavelength-unit error in the old velocity conversion.
+
+The Kepler notebooks now use the full mission rather than one quarter.
+Kepler-186 f is recovered at about **400 ppm** across ten covered transit
+epochs using the verified DR25 ephemeris; its event-bootstrap 95% interval is
+**375–468 ppm**. HAT-P-7 b returns a blind-search period of **2.205079 days**,
+with an empirical shuffled-data false-alarm bound of **0.024** from 40 trials
+and no significant odd/even depth disagreement. These are archive
+remeasurements, not new planet validations.
+
+Reusable outputs declared by audited notebooks are indexed with file sizes and
+SHA-256 checksums in [`DATA_PRODUCTS.json`](DATA_PRODUCTS.json). Project citation
+metadata are available in [`CITATION.cff`](CITATION.cff).
+
 <details>
 <summary><b>sdss/</b> — 13 notebooks</summary>
 
-- [`star-spectrum-classification`](sdss/2026-07-30-star-spectrum-classification/) — classifying a star from its raw spectrum
-- [`qso-redshift-check`](sdss/2026-07-30-qso-redshift-check/) — measuring a quasar's redshift from its emission lines
-- [`emission-line-measurement`](sdss/2026-07-30-emission-line-measurement/) — measuring an H-alpha emission line
+- [`star-spectrum-classification`](sdss/2026-07-30-star-spectrum-classification/) — correcting a source mismatch: the exact product is a broad-line quasar, not a star
+- [`qso-redshift-check`](sdss/2026-07-30-qso-redshift-check/) — measuring a quasar redshift from three broad emission lines with uncertainty
+- [`emission-line-measurement`](sdss/2026-07-30-emission-line-measurement/) — jointly fitting H-alpha and [N II], with bootstrap and window checks
 - [`metallicity-vs-position`](sdss/2026-07-30-metallicity-vs-position/) — stellar metallicity vs. position in the galaxy
 - [`spectral-type-distribution`](sdss/2026-07-30-spectral-type-distribution/) — how spectral types are distributed across a sample
 - [`white-dwarf-spectrum`](sdss/2026-07-30-white-dwarf-spectrum/) — looking at a white dwarf's spectrum
@@ -106,9 +129,9 @@ current product or method cannot support.
 - [`jwst-image-ring-nebula`](mast/2026-07-30-jwst-image-ring-nebula/) — real JWST image of the Ring Nebula
 - [`hst-cutout-m87`](mast/2026-07-30-hst-cutout-m87/) — Hubble cutout of the M87 galaxy
 - [`kepler-lightcurve-kepler10b`](mast/2026-07-30-kepler-lightcurve-kepler10b/) — Kepler-10b transit light curve
-- [`kepler-lightcurve-kepler186f`](mast/2026-07-30-kepler-lightcurve-kepler186f/) — Kepler-186f transit light curve
+- [`kepler-lightcurve-kepler186f`](mast/2026-07-30-kepler-lightcurve-kepler186f/) — full-mission Kepler-186 f coverage, event bootstrap, and injection recovery
 - [`tess-lightcurve-toi700`](mast/2026-07-30-tess-lightcurve-toi700/) — TESS light curve for TOI-700 d
-- [`periodogram-hat-p-7b`](mast/2026-07-30-periodogram-hat-p-7b/) — box-least-squares transit search for HAT-P-7b
+- [`periodogram-hat-p-7b`](mast/2026-07-30-periodogram-hat-p-7b/) — HAT-P-7 b period search, false-alarm test, and odd/even audit
 - [`hst-stis-hd93521-line-inventory`](mast/2026-07-31-hst-stis-hd93521-line-inventory/) — fitting hydrogen and helium features in a calibrated Hubble spectrum
 - [`hst-stis-continuum-slope`](mast/2026-07-31-hst-stis-continuum-slope/) — fitting an empirical power law to the line-masked optical continuum
 - [`hst-halpha-equivalent-width-systematics`](mast/2026-07-31-hst-halpha-equivalent-width-systematics/) — measuring how continuum and integration choices change H-alpha equivalent width

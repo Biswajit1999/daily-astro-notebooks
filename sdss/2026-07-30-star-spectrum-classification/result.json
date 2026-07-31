@@ -1,0 +1,59 @@
+{
+  "id": "2026-07-30-star-spectrum-classification",
+  "title": "SDSS source-identity audit: broad-line quasar",
+  "archive": "SDSS DR17",
+  "date": "2026-07-30",
+  "question": "Does the downloaded spectrum support the original stellar label?",
+  "sample_size": 3841,
+  "results": [
+    "SDSS class=QSO, subclass=BROADLINE",
+    "broad-line Gaussian widths: H\u03b2 6565 km/s, H\u03b1 6175 km/s",
+    "pipeline redshift 0.04559 \u00b1 0.00004"
+  ],
+  "validation": "The archive classification is checked against broad Balmer-line fits and three fit-window choices.",
+  "notebook": "sdss/2026-07-30-star-spectrum-classification/notebook.ipynb",
+  "hero": "sdss/2026-07-30-star-spectrum-classification/source_identity_spectrum.png",
+  "figures": [
+    "sdss/2026-07-30-star-spectrum-classification/source_identity_spectrum.png",
+    "sdss/2026-07-30-star-spectrum-classification/broad_line_fits.png",
+    "sdss/2026-07-30-star-spectrum-classification/source_identity_stress.png"
+  ],
+  "research_level": "Validated",
+  "claim_type": "Source identity correction",
+  "provenance": [
+    "SDSS DR17 spec-0751-52251-0160.fits",
+    "saved wavelength, flux, inverse variance, and mask",
+    "SDSS pipeline class and redshift metadata"
+  ],
+  "artifacts": [
+    "sdss/2026-07-30-star-spectrum-classification/star_sdss_spectrum.csv",
+    "sdss/2026-07-30-star-spectrum-classification/star_sdss_metadata.json",
+    "sdss/2026-07-30-star-spectrum-classification/source_identity_line_fits.csv",
+    "sdss/2026-07-30-star-spectrum-classification/source_identity_window_stress.csv"
+  ],
+  "quality_checks": [
+    {
+      "name": "Exact product identity",
+      "status": "pass"
+    },
+    {
+      "name": "Archive class versus prose",
+      "status": "corrected"
+    },
+    {
+      "name": "Fit-window stress test",
+      "status": "pass"
+    }
+  ],
+  "limitations": [
+    "Gaussian widths are descriptive and not corrected for instrumental resolution",
+    "pipeline classification is not independently re-trained",
+    "line decomposition is simplified"
+  ],
+  "tags": [
+    "SDSS",
+    "quasar",
+    "spectrum",
+    "source audit"
+  ]
+}

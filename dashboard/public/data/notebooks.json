@@ -3,7 +3,7 @@
   "stats": {
     "total": 50,
     "archives": 4,
-    "dense": 29
+    "dense": 34
   },
   "notebooks": [
     {
@@ -914,6 +914,217 @@
       ]
     },
     {
+      "id": "2026-07-30-star-spectrum-classification",
+      "title": "SDSS source-identity audit: broad-line quasar",
+      "archive": "SDSS DR17",
+      "date": "2026-07-30",
+      "question": "Does the downloaded spectrum support the original stellar label?",
+      "sample_size": 3841,
+      "results": [
+        "SDSS class=QSO, subclass=BROADLINE",
+        "broad-line Gaussian widths: H\u03b2 6565 km/s, H\u03b1 6175 km/s",
+        "pipeline redshift 0.04559 \u00b1 0.00004"
+      ],
+      "validation": "The archive classification is checked against broad Balmer-line fits and three fit-window choices.",
+      "notebook": "sdss/2026-07-30-star-spectrum-classification/notebook.ipynb",
+      "hero": "sdss/2026-07-30-star-spectrum-classification/source_identity_spectrum.png",
+      "figures": [
+        "sdss/2026-07-30-star-spectrum-classification/source_identity_spectrum.png",
+        "sdss/2026-07-30-star-spectrum-classification/broad_line_fits.png",
+        "sdss/2026-07-30-star-spectrum-classification/source_identity_stress.png"
+      ],
+      "research_level": "Validated",
+      "claim_type": "Source identity correction",
+      "provenance": [
+        "SDSS DR17 spec-0751-52251-0160.fits",
+        "saved wavelength, flux, inverse variance, and mask",
+        "SDSS pipeline class and redshift metadata"
+      ],
+      "artifacts": [
+        "sdss/2026-07-30-star-spectrum-classification/star_sdss_spectrum.csv",
+        "sdss/2026-07-30-star-spectrum-classification/star_sdss_metadata.json",
+        "sdss/2026-07-30-star-spectrum-classification/source_identity_line_fits.csv",
+        "sdss/2026-07-30-star-spectrum-classification/source_identity_window_stress.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "Exact product identity",
+          "status": "pass"
+        },
+        {
+          "name": "Archive class versus prose",
+          "status": "corrected"
+        },
+        {
+          "name": "Fit-window stress test",
+          "status": "pass"
+        }
+      ],
+      "limitations": [
+        "Gaussian widths are descriptive and not corrected for instrumental resolution",
+        "pipeline classification is not independently re-trained",
+        "line decomposition is simplified"
+      ],
+      "tags": [
+        "SDSS",
+        "quasar",
+        "spectrum",
+        "source audit"
+      ],
+      "family": "SDSS",
+      "date_display": "30 Jul 2026",
+      "summary": "Does the downloaded spectrum support the original stellar label?",
+      "sample_size_display": "3,841 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-30-star-spectrum-classification.png",
+      "figures_local": [
+        "data/images/2026-07-30-star-spectrum-classification.png",
+        "data/images/2026-07-30-star-spectrum-classification--figure-2.png",
+        "data/images/2026-07-30-star-spectrum-classification--figure-3.png"
+      ]
+    },
+    {
+      "id": "2026-07-30-qso-redshift-check",
+      "title": "SDSS quasar multi-line redshift audit",
+      "archive": "SDSS DR17",
+      "date": "2026-07-30",
+      "question": "Do three broad emission lines give a consistent quasar redshift?",
+      "sample_size": 3843,
+      "results": [
+        "multi-line median redshift 1.8215",
+        "line-to-line redshift scatter 0.0019",
+        "SDSS pipeline redshift 1.8234 \u00b1 0.0010"
+      ],
+      "validation": "Each centroid is noise-resampled 500 times; the line-to-line spread is reported separately because broad quasar lines have systematic velocity offsets.",
+      "notebook": "sdss/2026-07-30-qso-redshift-check/notebook.ipynb",
+      "hero": "sdss/2026-07-30-qso-redshift-check/qso_multiline_spectrum.png",
+      "figures": [
+        "sdss/2026-07-30-qso-redshift-check/qso_multiline_spectrum.png",
+        "sdss/2026-07-30-qso-redshift-check/qso_line_centroids.png",
+        "sdss/2026-07-30-qso-redshift-check/qso_redshift_consistency.png"
+      ],
+      "research_level": "Validated",
+      "claim_type": "Multi-line archive remeasurement",
+      "provenance": [
+        "SDSS DR17 spec-0685-52203-0467.fits",
+        "saved inverse-variance spectrum",
+        "pipeline redshift retained only as comparison"
+      ],
+      "artifacts": [
+        "sdss/2026-07-30-qso-redshift-check/qso_sdss_spectrum.csv",
+        "sdss/2026-07-30-qso-redshift-check/qso_sdss_metadata.json",
+        "sdss/2026-07-30-qso-redshift-check/qso_multiline_redshift.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "Three-line agreement",
+          "status": "pass"
+        },
+        {
+          "name": "Noise resampling",
+          "status": "pass"
+        },
+        {
+          "name": "Broad-line systematics",
+          "status": "reported"
+        }
+      ],
+      "limitations": [
+        "centroids use a local linear continuum",
+        "line asymmetry and absorption can dominate random errors",
+        "this is not a systemic host-galaxy redshift"
+      ],
+      "tags": [
+        "SDSS",
+        "quasar",
+        "redshift",
+        "bootstrap"
+      ],
+      "family": "SDSS",
+      "date_display": "30 Jul 2026",
+      "summary": "Do three broad emission lines give a consistent quasar redshift?",
+      "sample_size_display": "3,843 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-30-qso-redshift-check.png",
+      "figures_local": [
+        "data/images/2026-07-30-qso-redshift-check.png",
+        "data/images/2026-07-30-qso-redshift-check--figure-2.png",
+        "data/images/2026-07-30-qso-redshift-check--figure-3.png"
+      ]
+    },
+    {
+      "id": "2026-07-30-emission-line-measurement",
+      "title": "SDSS galaxy joint H\u03b1 + [N II] audit",
+      "archive": "SDSS DR17",
+      "date": "2026-07-30",
+      "question": "What does a constrained three-line fit establish for this galaxy?",
+      "sample_size": 96,
+      "results": [
+        "[N II] 6583 / H\u03b1 = 0.640 (95% noise interval 0.581\u20130.702)",
+        "N2 = log10 ratio = -0.194",
+        "observed Gaussian FWHM 351 km/s (not instrument-corrected)"
+      ],
+      "validation": "The joint fit fixes the atomic [N II] doublet ratio, propagates inverse-variance noise 800 times, and repeats three wavelength windows.",
+      "notebook": "sdss/2026-07-30-emission-line-measurement/notebook.ipynb",
+      "hero": "sdss/2026-07-30-emission-line-measurement/halpha_nii_joint_fit.png",
+      "figures": [
+        "sdss/2026-07-30-emission-line-measurement/halpha_nii_joint_fit.png",
+        "sdss/2026-07-30-emission-line-measurement/halpha_nii_uncertainty.png"
+      ],
+      "research_level": "Validated",
+      "claim_type": "Joint emission-line remeasurement",
+      "provenance": [
+        "SDSS DR17 spec-0266-51602-0001.fits",
+        "saved inverse-variance spectrum",
+        "rest frame uses SDSS pipeline redshift"
+      ],
+      "artifacts": [
+        "sdss/2026-07-30-emission-line-measurement/galaxy_sdss_spectrum.csv",
+        "sdss/2026-07-30-emission-line-measurement/galaxy_sdss_metadata.json",
+        "sdss/2026-07-30-emission-line-measurement/halpha_nii_fit_summary.csv",
+        "sdss/2026-07-30-emission-line-measurement/halpha_nii_window_stress.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "Joint blended-line model",
+          "status": "pass"
+        },
+        {
+          "name": "Noise resampling",
+          "status": "pass"
+        },
+        {
+          "name": "Continuum-window stress",
+          "status": "pass"
+        },
+        {
+          "name": "Velocity unit conversion",
+          "status": "corrected"
+        }
+      ],
+      "limitations": [
+        "N2 alone cannot place the galaxy on the full BPT diagram",
+        "width is not deconvolved from SDSS resolution",
+        "stellar Balmer absorption is not modelled"
+      ],
+      "tags": [
+        "SDSS",
+        "galaxy",
+        "H-alpha",
+        "line ratio"
+      ],
+      "family": "SDSS",
+      "date_display": "30 Jul 2026",
+      "summary": "What does a constrained three-line fit establish for this galaxy?",
+      "sample_size_display": "96 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-30-emission-line-measurement.png",
+      "figures_local": [
+        "data/images/2026-07-30-emission-line-measurement.png",
+        "data/images/2026-07-30-emission-line-measurement--figure-2.png"
+      ]
+    },
+    {
       "id": "2026-07-30-habitable-zone-kepler442",
       "title": "Kepler-442 b habitable-zone check",
       "archive": "NASA Exoplanet Archive",
@@ -947,6 +1158,91 @@
       "hero_local": "data/images/2026-07-30-habitable-zone-kepler442.png",
       "figures_local": [
         "data/images/2026-07-30-habitable-zone-kepler442.png"
+      ]
+    },
+    {
+      "id": "2026-07-30-kepler-lightcurve-kepler186f",
+      "title": "Kepler-186 f full-mission transit audit",
+      "archive": "MAST \u00b7 Kepler",
+      "date": "2026-07-30",
+      "question": "Is the long-period transit recoverable across the full Kepler mission?",
+      "sample_size": 59401,
+      "results": [
+        "10 of 11 predicted transit epochs have in-transit cadence coverage",
+        "event-median depth 400 ppm; event-bootstrap 95% interval 375\u2013468 ppm",
+        "simple recovery is positive; individual-event range 111 to 694 ppm"
+      ],
+      "validation": "All 17 long-cadence products are used with the DR25 ephemeris; uncertainty resamples transit events, leave-one-event-out results are stored, and synthetic depths are recovered at off-transit phases.",
+      "notebook": "mast/2026-07-30-kepler-lightcurve-kepler186f/notebook.ipynb",
+      "hero": "mast/2026-07-30-kepler-lightcurve-kepler186f/kepler186_coverage.png",
+      "figures": [
+        "mast/2026-07-30-kepler-lightcurve-kepler186f/kepler186_coverage.png",
+        "mast/2026-07-30-kepler-lightcurve-kepler186f/kepler186_transit_recovery.png",
+        "mast/2026-07-30-kepler-lightcurve-kepler186f/kepler186_robustness.png"
+      ],
+      "research_level": "Validated",
+      "claim_type": "Full-mission transit recovery",
+      "provenance": [
+        "MAST Kepler KIC 8120608",
+        "17 *_llc.fits long-cadence products",
+        "quality flag = 0 and quarter-wise PDCSAP normalization",
+        "NASA Exoplanet Archive DR25 period 129.945392 d, epoch 176.82285 BKJD, duration 5.786 h"
+      ],
+      "artifacts": [
+        "mast/2026-07-30-kepler-lightcurve-kepler186f/kepler186_all_quarters.csv",
+        "mast/2026-07-30-kepler-lightcurve-kepler186f/kepler186_transit_coverage.csv",
+        "mast/2026-07-30-kepler-lightcurve-kepler186f/kepler186_event_depths.csv",
+        "mast/2026-07-30-kepler-lightcurve-kepler186f/kepler186_leave_one_out.csv",
+        "mast/2026-07-30-kepler-lightcurve-kepler186f/kepler186_injection_recovery.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "DR25 ephemeris verified",
+          "status": "pass"
+        },
+        {
+          "name": "Full mission coverage",
+          "status": "pass"
+        },
+        {
+          "name": "Event-level bootstrap",
+          "status": "pass"
+        },
+        {
+          "name": "Leave-one-event-out",
+          "status": "pass"
+        },
+        {
+          "name": "Injection/recovery",
+          "status": "pass"
+        },
+        {
+          "name": "Atmosphere or habitability inference",
+          "status": "not attempted"
+        }
+      ],
+      "limitations": [
+        "published DR25 period, epoch, and duration are assumed",
+        "simple box depth omits limb darkening and dilution",
+        "PDCSAP and local linear detrending may alter depth",
+        "injection test measures this pipeline, not planet validation"
+      ],
+      "tags": [
+        "Kepler",
+        "Kepler-186 f",
+        "transit",
+        "injection recovery"
+      ],
+      "family": "MAST",
+      "date_display": "30 Jul 2026",
+      "summary": "Is the long-period transit recoverable across the full Kepler mission?",
+      "sample_size_display": "59,401 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-30-kepler-lightcurve-kepler186f.png",
+      "figures_local": [
+        "data/images/2026-07-30-kepler-lightcurve-kepler186f.png",
+        "data/images/2026-07-30-kepler-lightcurve-kepler186f--figure-2.png",
+        "data/images/2026-07-30-kepler-lightcurve-kepler186f--figure-3.png"
       ]
     },
     {
@@ -1206,6 +1502,81 @@
       ]
     },
     {
+      "id": "2026-07-30-periodogram-hat-p-7b",
+      "title": "HAT-P-7 b period and consistency audit",
+      "archive": "MAST \u00b7 Kepler",
+      "date": "2026-07-30",
+      "question": "Is the known transit independently recovered without obvious odd/even disagreement?",
+      "sample_size": 51324,
+      "results": [
+        "BLS period 2.205079 days",
+        "empirical permutation false-alarm probability \u2264 0.024 from 40 trials",
+        "box depth 5710 ppm; odd \u2212 even 140 \u00b1 206 ppm across 557 measured events"
+      ],
+      "validation": "The period is searched over 1.5\u20134 days, the peak is compared with 40 within-quarter permutations, and depths are checked by parity and observing quarter.",
+      "notebook": "mast/2026-07-30-periodogram-hat-p-7b/notebook.ipynb",
+      "hero": "mast/2026-07-30-periodogram-hat-p-7b/hatp7_period_false_alarm.png",
+      "figures": [
+        "mast/2026-07-30-periodogram-hat-p-7b/hatp7_period_false_alarm.png",
+        "mast/2026-07-30-periodogram-hat-p-7b/hatp7_folded_residuals.png",
+        "mast/2026-07-30-periodogram-hat-p-7b/hatp7_depth_consistency.png"
+      ],
+      "research_level": "Validated",
+      "claim_type": "Independent period recovery",
+      "provenance": [
+        "MAST Kepler KIC 10666592",
+        "18 *_llc.fits long-cadence products",
+        "quality flag = 0 and quarter-wise PDCSAP normalization"
+      ],
+      "artifacts": [
+        "mast/2026-07-30-periodogram-hat-p-7b/hatp7_all_quarters.csv",
+        "mast/2026-07-30-periodogram-hat-p-7b/hatp7_search_summary.csv",
+        "mast/2026-07-30-periodogram-hat-p-7b/hatp7_individual_transit_depths.csv",
+        "mast/2026-07-30-periodogram-hat-p-7b/hatp7_quarter_depths.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "Blind period search",
+          "status": "pass"
+        },
+        {
+          "name": "Permutation false-alarm test",
+          "status": "pass"
+        },
+        {
+          "name": "Odd/even comparison",
+          "status": "pass"
+        },
+        {
+          "name": "Quarter systematics",
+          "status": "reported"
+        }
+      ],
+      "limitations": [
+        "40 permutations provide only a coarse false-alarm bound",
+        "PDCSAP processing can introduce quarter-dependent depth changes",
+        "box model omits limb darkening, dilution, and correlated noise"
+      ],
+      "tags": [
+        "Kepler",
+        "HAT-P-7 b",
+        "BLS",
+        "false alarm",
+        "odd-even"
+      ],
+      "family": "MAST",
+      "date_display": "30 Jul 2026",
+      "summary": "Is the known transit independently recovered without obvious odd/even disagreement?",
+      "sample_size_display": "51,324 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-30-periodogram-hat-p-7b.png",
+      "figures_local": [
+        "data/images/2026-07-30-periodogram-hat-p-7b.png",
+        "data/images/2026-07-30-periodogram-hat-p-7b--figure-2.png",
+        "data/images/2026-07-30-periodogram-hat-p-7b--figure-3.png"
+      ]
+    },
+    {
       "id": "2026-07-30-spectral-type-distribution",
       "title": "What kinds of objects has SDSS classified in one small patch of sky?",
       "archive": "SDSS",
@@ -1250,50 +1621,6 @@
       ]
     },
     {
-      "id": "2026-07-30-periodogram-hat-p-7b",
-      "title": "Recovering HAT-P-7b's orbital period from scratch with a periodogram",
-      "archive": "MAST",
-      "family": "MAST",
-      "date": "2026-07-30",
-      "date_display": "30 Jul 2026",
-      "summary": "In the other light-curve notebooks in this folder I started from an already-known orbital period to fold the data. Here I wanted to do it the other way around: pretend I didn't know HAT-P-7b's period at all, and try to recover it purely from the shape of its real Kepler light cur",
-      "question": "In the other light-curve notebooks in this folder I started from an already-known orbital period to fold the data. Here I wanted to do it the other way around: pretend I didn't know HAT-P-7b's period at all, and try to recover it purely from the shape of its real Kepler light cur",
-      "notebook": "mast/2026-07-30-periodogram-hat-p-7b/notebook.ipynb",
-      "results": [],
-      "validation": "See the notebook and README for the archive query and interpretation.",
-      "tags": [
-        "MAST",
-        "real data"
-      ],
-      "dense": false,
-      "hero_local": "data/images/2026-07-30-periodogram-hat-p-7b.png",
-      "figures_local": [
-        "data/images/2026-07-30-periodogram-hat-p-7b.png"
-      ]
-    },
-    {
-      "id": "2026-07-30-emission-line-measurement",
-      "title": "Measuring an H-alpha emission line in a star-forming galaxy",
-      "archive": "SDSS",
-      "family": "SDSS",
-      "date": "2026-07-30",
-      "date_display": "30 Jul 2026",
-      "summary": "I took a real SDSS galaxy spectrum and measured the width and strength of its H-alpha emission line \u2014 the brightest visible-light signature of hot young stars ionizing hydrogen gas around them.",
-      "question": "I took a real SDSS galaxy spectrum and measured the width and strength of its H-alpha emission line \u2014 the brightest visible-light signature of hot young stars ionizing hydrogen gas around them.",
-      "notebook": "sdss/2026-07-30-emission-line-measurement/notebook.ipynb",
-      "results": [],
-      "validation": "See the notebook and README for the archive query and interpretation.",
-      "tags": [
-        "SDSS",
-        "real data"
-      ],
-      "dense": false,
-      "hero_local": "data/images/2026-07-30-emission-line-measurement.png",
-      "figures_local": [
-        "data/images/2026-07-30-emission-line-measurement.png"
-      ]
-    },
-    {
       "id": "2026-07-30-wide-binary-search-alpha-cen",
       "title": "Looking for wide binary star pairs near Alpha Centauri",
       "archive": "Gaia",
@@ -1335,28 +1662,6 @@
       "hero_local": "data/images/2026-07-30-white-dwarf-spectrum.png",
       "figures_local": [
         "data/images/2026-07-30-white-dwarf-spectrum.png"
-      ]
-    },
-    {
-      "id": "2026-07-30-kepler-lightcurve-kepler186f",
-      "title": "Kepler-186f: the first Earth-sized planet found in a habitable zone",
-      "archive": "MAST",
-      "family": "MAST",
-      "date": "2026-07-30",
-      "date_display": "30 Jul 2026",
-      "summary": "Kepler-186f was the first Earth-sized planet confirmed orbiting inside its star's habitable zone, around a cooler, fainter red dwarf star than our Sun. I downloaded a real Kepler light curve for the host star and folded it on the planet's published 130-day orbital period to look ",
-      "question": "Kepler-186f was the first Earth-sized planet confirmed orbiting inside its star's habitable zone, around a cooler, fainter red dwarf star than our Sun. I downloaded a real Kepler light curve for the host star and folded it on the planet's published 130-day orbital period to look ",
-      "notebook": "mast/2026-07-30-kepler-lightcurve-kepler186f/notebook.ipynb",
-      "results": [],
-      "validation": "See the notebook and README for the archive query and interpretation.",
-      "tags": [
-        "MAST",
-        "real data"
-      ],
-      "dense": false,
-      "hero_local": "data/images/2026-07-30-kepler-lightcurve-kepler186f.png",
-      "figures_local": [
-        "data/images/2026-07-30-kepler-lightcurve-kepler186f.png"
       ]
     },
     {
@@ -1489,50 +1794,6 @@
       "hero_local": "data/images/2026-07-30-transit-depth-vs-radius.png",
       "figures_local": [
         "data/images/2026-07-30-transit-depth-vs-radius.png"
-      ]
-    },
-    {
-      "id": "2026-07-30-star-spectrum-classification",
-      "title": "Classifying a single SDSS star spectrum",
-      "archive": "SDSS",
-      "family": "SDSS",
-      "date": "2026-07-30",
-      "date_display": "30 Jul 2026",
-      "summary": "I pulled down one real stellar spectrum from SDSS (a star at RA 0h8m05.6s, Dec +14d50m23s) and looked at whether I could tell what kind of star it is just by eyeballing the spectrum shape, before checking my guess against SDSS's own automated classification.",
-      "question": "I pulled down one real stellar spectrum from SDSS (a star at RA 0h8m05.6s, Dec +14d50m23s) and looked at whether I could tell what kind of star it is just by eyeballing the spectrum shape, before checking my guess against SDSS's own automated classification.",
-      "notebook": "sdss/2026-07-30-star-spectrum-classification/notebook.ipynb",
-      "results": [],
-      "validation": "See the notebook and README for the archive query and interpretation.",
-      "tags": [
-        "SDSS",
-        "real data"
-      ],
-      "dense": false,
-      "hero_local": "data/images/2026-07-30-star-spectrum-classification.png",
-      "figures_local": [
-        "data/images/2026-07-30-star-spectrum-classification.png"
-      ]
-    },
-    {
-      "id": "2026-07-30-qso-redshift-check",
-      "title": "Checking a quasar's redshift from its SDSS spectrum",
-      "archive": "SDSS",
-      "family": "SDSS",
-      "date": "2026-07-30",
-      "date_display": "30 Jul 2026",
-      "summary": "I picked a spectroscopically confirmed SDSS quasar (SDSS J000006.53+003055.2) and tried to recover its redshift by hand, using just the position of one strong emission line, then compared that to the redshift SDSS's own pipeline reports.",
-      "question": "I picked a spectroscopically confirmed SDSS quasar (SDSS J000006.53+003055.2) and tried to recover its redshift by hand, using just the position of one strong emission line, then compared that to the redshift SDSS's own pipeline reports.",
-      "notebook": "sdss/2026-07-30-qso-redshift-check/notebook.ipynb",
-      "results": [],
-      "validation": "See the notebook and README for the archive query and interpretation.",
-      "tags": [
-        "SDSS",
-        "real data"
-      ],
-      "dense": false,
-      "hero_local": "data/images/2026-07-30-qso-redshift-check.png",
-      "figures_local": [
-        "data/images/2026-07-30-qso-redshift-check.png"
       ]
     },
     {
