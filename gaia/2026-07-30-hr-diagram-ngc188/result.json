@@ -1,0 +1,56 @@
+{
+  "id": "2026-07-30-hr-diagram-ngc188",
+  "title": "NGC 188 membership and sequence audit",
+  "archive": "Gaia DR3",
+  "date": "2026-07-30",
+  "question": "How do probability and astrometric-quality cuts change the old cluster sequence and distance?",
+  "sample_size": 1168,
+  "results": [
+    "1168 sources pass p\u22650.90, RUWE<1.4 and parallax S/N>5",
+    "median parallax 0.528 mas; bootstrap 68% 0.527\u20130.530",
+    "probability cut tested from 0.70 to 0.95"
+  ],
+  "validation": "Median parallax and proper-motion widths are repeated across four membership-probability thresholds.",
+  "notebook": "gaia/2026-07-30-hr-diagram-ngc188/notebook.ipynb",
+  "hero": "gaia/2026-07-30-hr-diagram-ngc188/ngc188_membership_cmd.png",
+  "figures": [
+    "gaia/2026-07-30-hr-diagram-ngc188/ngc188_membership_cmd.png",
+    "gaia/2026-07-30-hr-diagram-ngc188/ngc188_membership_stress.png"
+  ],
+  "research_level": "Validated",
+  "claim_type": "Membership-threshold measurement",
+  "provenance": [
+    "Gaia DR3 source rows",
+    "UPMASK membership probabilities from chihuanbin/ngc188 public analysis",
+    "columns reduced without changing values"
+  ],
+  "artifacts": [
+    "data/audit_batches4_7/ngc188_gaia_dr3_members.csv",
+    "gaia/2026-07-30-hr-diagram-ngc188/ngc188_membership_stress.csv"
+  ],
+  "quality_checks": [
+    {
+      "name": "UPMASK probability retained",
+      "status": "pass"
+    },
+    {
+      "name": "RUWE and parallax S/N cuts",
+      "status": "pass"
+    },
+    {
+      "name": "Threshold stress test",
+      "status": "pass"
+    }
+  ],
+  "limitations": [
+    "membership probabilities are upstream model outputs",
+    "inverse parallax ignores cluster-level covariance",
+    "selection file is not the original broad cone query"
+  ],
+  "tags": [
+    "Gaia",
+    "NGC 188",
+    "membership",
+    "CMD"
+  ]
+}

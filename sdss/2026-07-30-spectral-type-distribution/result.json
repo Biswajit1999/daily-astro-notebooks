@@ -1,0 +1,54 @@
+{
+  "id": "2026-07-30-spectral-type-distribution",
+  "title": "SDSS class-composition audit for one sky patch",
+  "archive": "SDSS legacy aggregate",
+  "date": "2026-07-30",
+  "question": "What do the preserved aggregate counts support when the original 800 source rows were not saved?",
+  "sample_size": 800,
+  "results": [
+    "GALAXY 50.0%, STAR 33.5%, QSO 16.5%",
+    "QSO 95% multinomial interval 13.9%\u201319.0%",
+    "aggregate counts reproduce the old output but cannot recover subclass or redshift distributions"
+  ],
+  "validation": "Class fractions use multinomial resampling and interval width is tested at three sample sizes.",
+  "notebook": "sdss/2026-07-30-spectral-type-distribution/notebook.ipynb",
+  "hero": "sdss/2026-07-30-spectral-type-distribution/sdss_class_fraction_audit.png",
+  "figures": [
+    "sdss/2026-07-30-spectral-type-distribution/sdss_class_fraction_audit.png",
+    "sdss/2026-07-30-spectral-type-distribution/sdss_class_precision_stress.png"
+  ],
+  "research_level": "Reproduction",
+  "claim_type": "Multinomial class-fraction audit",
+  "provenance": [
+    "Original SDSS SQL query printed in notebook",
+    "executed aggregate counts: 400 galaxies, 268 stars, 132 QSOs"
+  ],
+  "artifacts": [
+    "sdss/2026-07-30-spectral-type-distribution/sdss_patch_class_fractions.csv"
+  ],
+  "quality_checks": [
+    {
+      "name": "Counts sum to 800",
+      "status": "pass"
+    },
+    {
+      "name": "Sampling intervals",
+      "status": "pass"
+    },
+    {
+      "name": "Source-level table",
+      "status": "not available"
+    }
+  ],
+  "limitations": [
+    "source-level rows were not saved",
+    "TOP 800 without explicit ordering is not a random sky sample",
+    "pipeline classes and subclasses are not audited individually"
+  ],
+  "tags": [
+    "SDSS",
+    "spectral classes",
+    "aggregate audit",
+    "selection"
+  ]
+}

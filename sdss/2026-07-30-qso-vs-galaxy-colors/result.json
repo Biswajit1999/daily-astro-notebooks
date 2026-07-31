@@ -1,0 +1,56 @@
+{
+  "id": "2026-07-30-qso-vs-galaxy-colors",
+  "title": "SDSS quasar\u2013galaxy colour display audit",
+  "archive": "SDSS legacy catalogue plot",
+  "date": "2026-07-30",
+  "question": "How clearly separated are the two rendered colour clouds, without claiming catalogue-level classifier accuracy?",
+  "sample_size": 5440,
+  "results": [
+    "original SQL returned 1,500 labelled objects",
+    "rendered colour-cloud centroid separation approximately 1.31 mag",
+    "pixel-phase separation range 1.26\u20131.35 mag"
+  ],
+  "validation": "Centroid separation is repeated across five independent pixel phases; classification accuracy is deliberately not estimated.",
+  "notebook": "sdss/2026-07-30-qso-vs-galaxy-colors/notebook.ipynb",
+  "hero": "sdss/2026-07-30-qso-vs-galaxy-colors/sdss_colour_legacy_audit.png",
+  "figures": [
+    "sdss/2026-07-30-qso-vs-galaxy-colors/sdss_colour_legacy_audit.png",
+    "sdss/2026-07-30-qso-vs-galaxy-colors/sdss_colour_digitization_stress.png"
+  ],
+  "research_level": "Exploration",
+  "claim_type": "Digitized colour-separation audit",
+  "provenance": [
+    "Original SDSS photometry/spectroscopy join printed in notebook",
+    "preserved color_color.png",
+    "class-coloured pixels digitized approximately"
+  ],
+  "artifacts": [
+    "data/audit_batches4_7/sdss_colour_plot_digitized_pixels.csv",
+    "sdss/2026-07-30-qso-vs-galaxy-colors/sdss_colour_digitization_stress.csv"
+  ],
+  "quality_checks": [
+    {
+      "name": "Two labelled rendered clouds",
+      "status": "pass"
+    },
+    {
+      "name": "Digitization stress",
+      "status": "pass"
+    },
+    {
+      "name": "Catalogue classifier performance",
+      "status": "not attempted"
+    }
+  ],
+  "limitations": [
+    "plot pixels are not independent objects",
+    "overplotting alters apparent density",
+    "photometric classifier evaluation needs held-out source rows and errors"
+  ],
+  "tags": [
+    "SDSS",
+    "quasar",
+    "galaxy",
+    "colour selection"
+  ]
+}

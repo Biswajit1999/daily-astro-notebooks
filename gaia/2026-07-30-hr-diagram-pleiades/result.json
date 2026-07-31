@@ -1,0 +1,55 @@
+{
+  "id": "2026-07-30-hr-diagram-pleiades",
+  "title": "Pleiades Gaia colour\u2013magnitude sequence audit",
+  "archive": "Gaia DR3",
+  "date": "2026-07-30",
+  "question": "How narrow is the selected Pleiades sequence, and how sensitive is it to astrometric quality cuts?",
+  "sample_size": 690,
+  "results": [
+    "690 quality-selected sources",
+    "cubic-sequence robust scatter 0.265 mag",
+    "median inverse-parallax distance 136.04 pc; bootstrap 68% 135.92\u2013136.19 pc"
+  ],
+  "validation": "Sequence width and distance are repeated across four RUWE thresholds.",
+  "notebook": "gaia/2026-07-30-hr-diagram-pleiades/notebook.ipynb",
+  "hero": "gaia/2026-07-30-hr-diagram-pleiades/pleiades_cmd_sequence_audit.png",
+  "figures": [
+    "gaia/2026-07-30-hr-diagram-pleiades/pleiades_cmd_sequence_audit.png",
+    "gaia/2026-07-30-hr-diagram-pleiades/pleiades_quality_stress.png"
+  ],
+  "research_level": "Validated",
+  "claim_type": "Cluster sequence measurement",
+  "provenance": [
+    "Gaia DR3 saved query",
+    "source-level parallax, photometry, proper motion, and RUWE retained"
+  ],
+  "artifacts": [
+    "data/audit_batches4_7/pleiades_gaia_dr3_query.csv",
+    "gaia/2026-07-30-hr-diagram-pleiades/pleiades_quality_stress.csv"
+  ],
+  "quality_checks": [
+    {
+      "name": "Parallax S/N > 10",
+      "status": "pass"
+    },
+    {
+      "name": "RUWE threshold sweep",
+      "status": "pass"
+    },
+    {
+      "name": "Bootstrap distance",
+      "status": "pass"
+    }
+  ],
+  "limitations": [
+    "inverse parallax is used only at high S/N",
+    "cubic sequence is empirical, not an isochrone",
+    "unresolved binaries and extinction broaden the sequence"
+  ],
+  "tags": [
+    "Gaia",
+    "Pleiades",
+    "CMD",
+    "quality cuts"
+  ]
+}

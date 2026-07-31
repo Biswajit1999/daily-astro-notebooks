@@ -18,5 +18,38 @@
     "M87",
     "image morphology",
     "display image"
+  ],
+  "figures": [
+    "mast/2026-07-31-hst-m87-image-morphology/m87_preview_morphology.png",
+    "mast/2026-07-31-hst-m87-image-morphology/m87_morphology_threshold_stress.png"
+  ],
+  "research_level": "Exploration",
+  "claim_type": "Display-image morphology audit",
+  "provenance": [
+    "official HST processed preview saved as m87.jpg",
+    "8,706,420 display pixels",
+    "thresholded intensity moments"
+  ],
+  "artifacts": [
+    "mast/2026-07-31-hst-m87-image-morphology/m87_morphology_threshold_stress.csv"
+  ],
+  "quality_checks": [
+    {
+      "name": "background-threshold sweep",
+      "status": "pass"
+    },
+    {
+      "name": "image-boundary completeness",
+      "status": "fail"
+    },
+    {
+      "name": "calibrated photometry claim",
+      "status": "rejected"
+    }
+  ],
+  "limitations": [
+    "M87 reaches the preview boundary",
+    "display pixels have unknown photometric transfer",
+    "no PSF, exposure map, filter calibration, or sky model is applied"
   ]
 }

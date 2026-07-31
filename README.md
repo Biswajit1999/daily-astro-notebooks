@@ -1,11 +1,11 @@
 <p align="center">
-  <img src="assets/banner.png" alt="Daily Astro Notebooks by Biswajit — title banner over the Carina Nebula, Eagle Nebula, and Ring Nebula" width="100%">
+  <img src="assets/banner-animated.gif" alt="Animated Daily Astro Notebooks cover by Biswajit Jana, with illustrative Carina, Eagle and Ring Nebula artwork and a faint M87" width="100%">
 </p>
-<p align="center"><em>Carina Nebula, Eagle Nebula, and the Ring Nebula. Every plot, spectrum, light curve, and image inside <code>sdss/</code>, <code>mast/</code>, <code>gaia/</code>, and <code>exoplanet-archive/</code> is real archive data, pulled and processed by the notebooks themselves — see the real JWST/HST captures directly in <a href="mast/"><code>mast/</code></a>.</em></p>
+<p align="center"><em>The animated cover is original illustrative artwork, not telescope data. Every scientific plot, spectrum, light curve, measurement, and object image inside <code>sdss/</code>, <code>mast/</code>, <code>gaia/</code>, and <code>exoplanet-archive/</code> is tied to the provenance and limits stated by its notebook.</em></p>
 
 # Daily Astro Notebooks
 
-**by Biswajit**
+**by Biswajit Jana**
 
 <p>
   <a href="https://biswajit1999.github.io/daily-astro-notebooks/"><strong>Explore the notebook dashboard →</strong></a>
@@ -48,7 +48,7 @@ Each dated subfolder contains:
 
 ## What's here so far
 
-**55 notebooks, 4 archives, 3 observing-log dates — 39 now meet the deeper analysis standard, including 15 scientifically audited notebooks.**
+**55 notebooks, 4 archives, 3 observing-log dates — all 55 meet the deeper analysis standard, including 36 full scientific audits.**
 
 The [dashboard](https://biswajit1999.github.io/daily-astro-notebooks/) is built from the repository itself. A new notebook appears there automatically after it is merged into `master` and the Pages workflow completes.
 
@@ -122,6 +122,63 @@ The final notebook registers HST F625W from 2018 against JWST F200W from 2022.
 The normalized intensity correlation is **0.921** at a 0.12-arcsecond common
 resolution, but it remains an exploratory structure comparison because the
 filters, epochs, and telescopes differ.
+
+### Scientific Audit Batch 4 — Gaia clusters and a repaired null result
+
+The Pleiades and NGC 188 notebooks now retain source-level quality cuts,
+membership-threshold tests, uncertainty, and reusable tables. The Pleiades
+quality sample gives a median inverse-parallax distance of **136.04 pc**. The
+NGC 188 high-probability sample gives a median parallax of **0.528 mas**. The
+Hyades and M67 first-day plots did not preserve their source rows, so their new
+notebooks honestly audit the saved figures instead of inventing missing stars.
+The Alpha Centauri null result is repaired: Proxima is **2.21°** from the
+approximate cone centre and was outside the original 2° search, so zero rows
+never constrained wide companions.
+
+### Scientific Audit Batch 5 — exoplanet populations and RV models
+
+Five archive notebooks now separate geometry from observation and selection
+from physics. The calculated transit-depth scaling approaches the expected
+square law only when host-star radius is narrowed. The mass–period correlation
+is almost absent for transit discoveries (**ρ = 0.029**) but strong within the
+radial-velocity subset (**ρ = 0.714**), demonstrating method dependence. The
+long-minus-short-period median eccentricity contrast is **0.160** with a
+bootstrap 95% interval of **0.149–0.180**. The 51 Peg b and HD 189733 b curves
+are now labelled archive-orbit reconstructions rather than observed RV data.
+
+### Scientific Audit Batch 6 — SDSS evidence and legacy-output recovery
+
+The galaxy redshift slice now uses 12,000 preserved source rows and exposes its
+strongest redshift concentrations with an RA jackknife. Four older notebooks
+had saved only aggregate counts or plots. Their revisions explicitly digitize
+the retained evidence, stress the digitization choice, and reject catalogue-
+level precision. This preserves useful findings—such as the reported weak
+metallicity–latitude correlation—without pretending that rendered pixels are
+independent spectra or stars.
+
+### Scientific Audit Batch 7 — HST field-placement check
+
+The early M87 preview is now an image-completeness audit. M87 reaches the frame
+boundary at every tested threshold, and the bottom-edge bright-pixel fraction
+reaches **12.5%**. Morphology, photometry, and jet measurements are therefore
+rejected for this preview; the notebook states that a target-centred calibrated
+FITS product is the required next observation.
+
+### Scientific Audit Batch 8 — HST spectroscopy, M87 limits, and the radius valley
+
+Five already-dense notebooks now carry the full audit contract. Three connected
+HST/STIS studies of HD 93521 separate feature identification, an empirical
+continuum slope, and H-alpha equivalent-width systematics. The added tests show
+that formal flux-noise uncertainty is smaller than the change caused by
+continuum and integration choices. Hydrogen and helium feature identification
+is therefore not presented as a chemical-abundance or stellar-atmosphere fit.
+
+The M87 display-image notebook now exposes its threshold dependence and rejects
+calibrated morphology claims because the object reaches the preview boundary.
+The exoplanet radius-valley notebook retains its **1.83 Earth-radius** minimum
+and period slope of **−0.13 ± 0.04**, while explicitly separating a catalogue
+deficit from an occurrence-rate measurement. Survey completeness is not
+modelled here.
 
 Reusable outputs declared by audited notebooks are indexed with file sizes and
 SHA-256 checksums in [`DATA_PRODUCTS.json`](DATA_PRODUCTS.json). Project citation

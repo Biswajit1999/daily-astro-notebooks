@@ -17,5 +17,39 @@
     "HST",
     "STIS",
     "continuum"
+  ],
+  "figures": [
+    "mast/2026-07-31-hst-stis-continuum-slope/hd93521_continuum_slope.png",
+    "mast/2026-07-31-hst-stis-continuum-slope/hd93521_continuum_robustness.png"
+  ],
+  "research_level": "Validated",
+  "claim_type": "Empirical continuum-slope measurement",
+  "provenance": [
+    "MAST HST/STIS o49x13010_sx1.fits",
+    "pipeline wavelength, flux and error arrays",
+    "five H/He regions masked"
+  ],
+  "artifacts": [
+    "mast/2026-07-31-hst-stis-continuum-slope/continuum_mask_stress.csv",
+    "mast/2026-07-31-hst-stis-continuum-slope/continuum_slope_bootstrap.csv"
+  ],
+  "quality_checks": [
+    {
+      "name": "line-mask width sweep",
+      "status": "pass"
+    },
+    {
+      "name": "sampling bootstrap",
+      "status": "pass"
+    },
+    {
+      "name": "physical atmosphere fit",
+      "status": "not attempted"
+    }
+  ],
+  "limitations": [
+    "bootstrap treats retained samples as exchangeable",
+    "flux-calibration covariance and reddening are omitted",
+    "a power law is descriptive over this wavelength range"
   ]
 }

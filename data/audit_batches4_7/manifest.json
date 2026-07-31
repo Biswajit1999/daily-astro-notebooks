@@ -1,0 +1,16 @@
+{
+  "exact_tables": {
+    "pleiades_gaia_dr3_query.csv": "Gaia DR3 query preserved by the 2026-07-31 Pleiades audit",
+    "ngc188_gaia_dr3_members.csv": "Gaia DR3 member subset from chihuanbin/ngc188; upstream UPMASK probabilities retained",
+    "exoplanet_transiting_archive.csv": "NASA Exoplanet Archive pscomppars query preserved on 2026-07-31",
+    "exoplanet_composite_archive.csv": "NASA Exoplanet Archive pscomppars query preserved on 2026-07-31",
+    "sdss_emission_galaxies.csv": "SDSS DR18 SQL result preserved by the BPT audit"
+  },
+  "digitized_legacy_outputs": {
+    "hyades_cmd_digitized_pixels.csv": "approximate coloured pixels from hr_hyades.png; not catalogue rows",
+    "m67_member_plot_digitized_pixels.csv": "approximate coloured pixels from m67_pm_members.png; not catalogue rows",
+    "sdss_metallicity_plot_digitized_pixels.csv": "approximate coloured pixels from feh_vs_lat.png; not catalogue rows",
+    "sdss_colour_plot_digitized_pixels.csv": "approximate coloured pixels from color_color.png; not catalogue rows",
+    "sdss_white_dwarf_plot_digitized.csv": "approximately digitized plotted spectrum; not calibrated flux samples"
+  }
+}

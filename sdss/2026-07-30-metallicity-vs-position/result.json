@@ -1,0 +1,56 @@
+{
+  "id": "2026-07-30-metallicity-vs-position",
+  "title": "SDSS metallicity\u2013latitude legacy-output audit",
+  "archive": "SDSS legacy catalogue plot",
+  "date": "2026-07-30",
+  "question": "Does the weak negative trend reported in the old plot survive digitization choices?",
+  "sample_size": 3271,
+  "results": [
+    "old source-level Pearson correlation reported as -0.181 for 400 stars",
+    "digitized-pixel Spearman correlation -0.203",
+    "pixel-phase range -0.226 to -0.188"
+  ],
+  "validation": "The sign is checked across five independent pixel phases; magnitude is not treated as a source-level estimate.",
+  "notebook": "sdss/2026-07-30-metallicity-vs-position/notebook.ipynb",
+  "hero": "sdss/2026-07-30-metallicity-vs-position/sdss_metallicity_legacy_audit.png",
+  "figures": [
+    "sdss/2026-07-30-metallicity-vs-position/sdss_metallicity_legacy_audit.png",
+    "sdss/2026-07-30-metallicity-vs-position/sdss_metallicity_digitization_stress.png"
+  ],
+  "research_level": "Exploration",
+  "claim_type": "Digitized correlation audit",
+  "provenance": [
+    "Original SDSS SQL and first five rows printed in notebook",
+    "old output Pearson correlation -0.181",
+    "preserved feh_vs_lat.png"
+  ],
+  "artifacts": [
+    "data/audit_batches4_7/sdss_metallicity_plot_digitized_pixels.csv",
+    "sdss/2026-07-30-metallicity-vs-position/sdss_metallicity_digitization_stress.csv"
+  ],
+  "quality_checks": [
+    {
+      "name": "Original statistic retained",
+      "status": "pass"
+    },
+    {
+      "name": "Digitization stress",
+      "status": "pass"
+    },
+    {
+      "name": "Source table recovery",
+      "status": "not available"
+    }
+  ],
+  "limitations": [
+    "source rows and errors were not saved",
+    "pixel overlap weights dense regions",
+    "latitude range and target selection confound population interpretation"
+  ],
+  "tags": [
+    "SDSS",
+    "metallicity",
+    "Galactic latitude",
+    "legacy audit"
+  ]
+}

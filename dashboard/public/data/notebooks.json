@@ -3,7 +3,7 @@
   "stats": {
     "total": 55,
     "archives": 4,
-    "dense": 39
+    "dense": 55
   },
   "notebooks": [
     {
@@ -388,20 +388,50 @@
         "transits",
         "radius valley"
       ],
+      "figures": [
+        "exoplanet-archive/2026-07-31-exoplanet-radius-valley/radius_valley_period.png",
+        "exoplanet-archive/2026-07-31-exoplanet-radius-valley/radius_valley_kde.png"
+      ],
+      "research_level": "Validated",
+      "claim_type": "Catalogue radius-deficit measurement",
+      "provenance": [
+        "NASA Exoplanet Archive confirmed transiting planets query",
+        "2,070 selected planets with radius and period",
+        "saved query table and analysis subset"
+      ],
+      "artifacts": [
+        "exoplanet-archive/2026-07-31-exoplanet-radius-valley/confirmed_transiting_planets.csv",
+        "exoplanet-archive/2026-07-31-exoplanet-radius-valley/radius_valley_sample.csv",
+        "exoplanet-archive/2026-07-31-exoplanet-radius-valley/period_binned_valleys.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "bootstrap minimum interval",
+          "status": "pass"
+        },
+        {
+          "name": "period-binned slope",
+          "status": "pass"
+        },
+        {
+          "name": "survey completeness correction",
+          "status": "not attempted"
+        }
+      ],
+      "limitations": [
+        "confirmed-planet catalogue combines surveys with different selection functions",
+        "planet-radius uncertainties are not propagated per object",
+        "the descriptive KDE minimum is bandwidth dependent"
+      ],
       "family": "Exoplanets",
       "date_display": "31 Jul 2026",
       "summary": "Where is the radius deficit in the current confirmed transiting-planet catalogue?",
       "sample_size_display": "2,070 samples",
       "dense": true,
-      "research_level": "Dense",
-      "claim_type": "Measured result",
-      "provenance": [],
-      "artifacts": [],
-      "quality_checks": [],
-      "limitations": [],
       "hero_local": "data/images/2026-07-31-exoplanet-radius-valley.png",
       "figures_local": [
-        "data/images/2026-07-31-exoplanet-radius-valley.png"
+        "data/images/2026-07-31-exoplanet-radius-valley.png",
+        "data/images/2026-07-31-exoplanet-radius-valley--figure-2.png"
       ]
     },
     {
@@ -750,20 +780,48 @@
         "image morphology",
         "display image"
       ],
+      "figures": [
+        "mast/2026-07-31-hst-m87-image-morphology/m87_preview_morphology.png",
+        "mast/2026-07-31-hst-m87-image-morphology/m87_morphology_threshold_stress.png"
+      ],
+      "research_level": "Exploration",
+      "claim_type": "Display-image morphology audit",
+      "provenance": [
+        "official HST processed preview saved as m87.jpg",
+        "8,706,420 display pixels",
+        "thresholded intensity moments"
+      ],
+      "artifacts": [
+        "mast/2026-07-31-hst-m87-image-morphology/m87_morphology_threshold_stress.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "background-threshold sweep",
+          "status": "pass"
+        },
+        {
+          "name": "image-boundary completeness",
+          "status": "fail"
+        },
+        {
+          "name": "calibrated photometry claim",
+          "status": "rejected"
+        }
+      ],
+      "limitations": [
+        "M87 reaches the preview boundary",
+        "display pixels have unknown photometric transfer",
+        "no PSF, exposure map, filter calibration, or sky model is applied"
+      ],
       "family": "MAST",
       "date_display": "31 Jul 2026",
       "summary": "What morphology proxies are measured from the preserved preview?",
       "sample_size_display": "8,706,420 samples",
       "dense": true,
-      "research_level": "Dense",
-      "claim_type": "Measured result",
-      "provenance": [],
-      "artifacts": [],
-      "quality_checks": [],
-      "limitations": [],
       "hero_local": "data/images/2026-07-31-hst-m87-image-morphology.png",
       "figures_local": [
-        "data/images/2026-07-31-hst-m87-image-morphology.png"
+        "data/images/2026-07-31-hst-m87-image-morphology.png",
+        "data/images/2026-07-31-hst-m87-image-morphology--figure-2.png"
       ]
     },
     {
@@ -859,20 +917,49 @@
         "STIS",
         "continuum"
       ],
+      "figures": [
+        "mast/2026-07-31-hst-stis-continuum-slope/hd93521_continuum_slope.png",
+        "mast/2026-07-31-hst-stis-continuum-slope/hd93521_continuum_robustness.png"
+      ],
+      "research_level": "Validated",
+      "claim_type": "Empirical continuum-slope measurement",
+      "provenance": [
+        "MAST HST/STIS o49x13010_sx1.fits",
+        "pipeline wavelength, flux and error arrays",
+        "five H/He regions masked"
+      ],
+      "artifacts": [
+        "mast/2026-07-31-hst-stis-continuum-slope/continuum_mask_stress.csv",
+        "mast/2026-07-31-hst-stis-continuum-slope/continuum_slope_bootstrap.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "line-mask width sweep",
+          "status": "pass"
+        },
+        {
+          "name": "sampling bootstrap",
+          "status": "pass"
+        },
+        {
+          "name": "physical atmosphere fit",
+          "status": "not attempted"
+        }
+      ],
+      "limitations": [
+        "bootstrap treats retained samples as exchangeable",
+        "flux-calibration covariance and reddening are omitted",
+        "a power law is descriptive over this wavelength range"
+      ],
       "family": "MAST",
       "date_display": "31 Jul 2026",
       "summary": "What power law describes the optical continuum?",
       "sample_size_display": "524 samples",
       "dense": true,
-      "research_level": "Dense",
-      "claim_type": "Measured result",
-      "provenance": [],
-      "artifacts": [],
-      "quality_checks": [],
-      "limitations": [],
       "hero_local": "data/images/2026-07-31-hst-stis-continuum-slope.png",
       "figures_local": [
-        "data/images/2026-07-31-hst-stis-continuum-slope.png"
+        "data/images/2026-07-31-hst-stis-continuum-slope.png",
+        "data/images/2026-07-31-hst-stis-continuum-slope--figure-2.png"
       ]
     },
     {
@@ -896,20 +983,49 @@
         "STIS",
         "chemistry"
       ],
+      "figures": [
+        "mast/2026-07-31-hst-stis-hd93521-line-inventory/hd93521_normalised_spectrum.png",
+        "mast/2026-07-31-hst-stis-hd93521-line-inventory/hd93521_line_fits.png"
+      ],
+      "research_level": "Validated",
+      "claim_type": "Spectral-feature inventory",
+      "provenance": [
+        "MAST HST/STIS o49x13010_sx1.fits",
+        "pipeline wavelength, flux and error arrays",
+        "laboratory H/He wavelengths"
+      ],
+      "artifacts": [
+        "mast/2026-07-31-hst-stis-hd93521-line-inventory/spectrum_subset.csv",
+        "mast/2026-07-31-hst-stis-hd93521-line-inventory/line_measurements.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "five laboratory-centre checks",
+          "status": "pass"
+        },
+        {
+          "name": "local continuum fits",
+          "status": "pass"
+        },
+        {
+          "name": "chemical abundance inference",
+          "status": "not attempted"
+        }
+      ],
+      "limitations": [
+        "broad blends and rapid rotation complicate centroids",
+        "single-epoch features can be variable",
+        "line identification alone is not an abundance analysis"
+      ],
       "family": "MAST",
       "date_display": "31 Jul 2026",
       "summary": "Which hydrogen and helium lines are measurable in a calibrated HST spectrum?",
       "sample_size_display": "567 samples",
       "dense": true,
-      "research_level": "Dense",
-      "claim_type": "Measured result",
-      "provenance": [],
-      "artifacts": [],
-      "quality_checks": [],
-      "limitations": [],
       "hero_local": "data/images/2026-07-31-hst-stis-hd93521-line-inventory.png",
       "figures_local": [
-        "data/images/2026-07-31-hst-stis-hd93521-line-inventory.png"
+        "data/images/2026-07-31-hst-stis-hd93521-line-inventory.png",
+        "data/images/2026-07-31-hst-stis-hd93521-line-inventory--figure-2.png"
       ]
     },
     {
@@ -933,20 +1049,49 @@
         "equivalent width",
         "systematics"
       ],
+      "figures": [
+        "mast/2026-07-31-hst-halpha-equivalent-width-systematics/halpha_ew_systematics.png",
+        "mast/2026-07-31-hst-halpha-equivalent-width-systematics/halpha_ew_noise_vs_method.png"
+      ],
+      "research_level": "Validated",
+      "claim_type": "Equivalent-width robustness audit",
+      "provenance": [
+        "MAST HST/STIS o49x13010_sx1.fits",
+        "pipeline wavelength, flux and error arrays",
+        "HD 93521 target identity"
+      ],
+      "artifacts": [
+        "mast/2026-07-31-hst-halpha-equivalent-width-systematics/halpha_ew_method_grid.csv",
+        "mast/2026-07-31-hst-halpha-equivalent-width-systematics/halpha_ew_noise_bootstrap.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "continuum and integration grid",
+          "status": "pass"
+        },
+        {
+          "name": "flux-error propagation",
+          "status": "pass"
+        },
+        {
+          "name": "atmosphere or wind inference",
+          "status": "not attempted"
+        }
+      ],
+      "limitations": [
+        "continuum placement dominates the formal flux error",
+        "broad and variable line structure is not modelled",
+        "instrumental and stellar systematics are not captured by independent-pixel resampling"
+      ],
       "family": "MAST",
       "date_display": "31 Jul 2026",
       "summary": "How stable is H\u03b1 equivalent width to continuum choices?",
       "sample_size_display": "567 samples",
       "dense": true,
-      "research_level": "Dense",
-      "claim_type": "Measured result",
-      "provenance": [],
-      "artifacts": [],
-      "quality_checks": [],
-      "limitations": [],
       "hero_local": "data/images/2026-07-31-hst-halpha-equivalent-width-systematics.png",
       "figures_local": [
-        "data/images/2026-07-31-hst-halpha-equivalent-width-systematics.png"
+        "data/images/2026-07-31-hst-halpha-equivalent-width-systematics.png",
+        "data/images/2026-07-31-hst-halpha-equivalent-width-systematics--figure-2.png"
       ]
     },
     {
@@ -1092,6 +1237,71 @@
       "hero_local": "data/images/2026-07-31-bpt-snr-sensitivity.png",
       "figures_local": [
         "data/images/2026-07-31-bpt-snr-sensitivity.png"
+      ]
+    },
+    {
+      "id": "2026-07-30-wide-binary-search-alpha-cen",
+      "title": "Why the Alpha Centauri Gaia cone search returned zero",
+      "archive": "Gaia DR3 + SIMBAD geometry",
+      "date": "2026-07-30",
+      "question": "Was the original zero-row result a companion constraint or a query-geometry/completeness result?",
+      "sample_size": 0,
+      "results": [
+        "original 2\u00b0 Gaia DR3 cone with parallax >50 mas returned zero rows",
+        "Proxima lies 2.21\u00b0 from the chosen centre and is outside that cone",
+        "the zero rows therefore do not constrain wide companions"
+      ],
+      "validation": "Search radius is swept through the geometric inclusion boundary and compared with independent SIMBAD astrometry.",
+      "notebook": "gaia/2026-07-30-wide-binary-search-alpha-cen/notebook.ipynb",
+      "hero": "gaia/2026-07-30-wide-binary-search-alpha-cen/alpha_cen_query_geometry.png",
+      "figures": [
+        "gaia/2026-07-30-wide-binary-search-alpha-cen/alpha_cen_query_geometry.png",
+        "gaia/2026-07-30-wide-binary-search-alpha-cen/alpha_cen_completeness_context.png"
+      ],
+      "research_level": "Validated",
+      "claim_type": "Negative query audit",
+      "provenance": [
+        "Original Gaia DR3 query and zero-row output",
+        "SIMBAD coordinates and proper motion for Proxima Centauri",
+        "Gaia bright/high-proper-motion completeness context"
+      ],
+      "artifacts": [
+        "gaia/2026-07-30-wide-binary-search-alpha-cen/alpha_cen_radius_geometry.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "Original zero result retained",
+          "status": "pass"
+        },
+        {
+          "name": "Cone geometry recomputed",
+          "status": "pass"
+        },
+        {
+          "name": "Companion completeness claim",
+          "status": "rejected"
+        }
+      ],
+      "limitations": [
+        "cone centre was approximate",
+        "Alpha Centauri A/B are exceptionally bright",
+        "geometry alone does not establish Gaia catalogue inclusion"
+      ],
+      "tags": [
+        "Gaia",
+        "Alpha Centauri",
+        "null result",
+        "query audit"
+      ],
+      "family": "Gaia",
+      "date_display": "30 Jul 2026",
+      "summary": "Was the original zero-row result a companion constraint or a query-geometry/completeness result?",
+      "sample_size_display": "0 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-30-wide-binary-search-alpha-cen.png",
+      "figures_local": [
+        "data/images/2026-07-30-wide-binary-search-alpha-cen.png",
+        "data/images/2026-07-30-wide-binary-search-alpha-cen--figure-2.png"
       ]
     },
     {
@@ -1275,6 +1485,73 @@
       ]
     },
     {
+      "id": "2026-07-30-white-dwarf-spectrum",
+      "title": "SDSS white-dwarf Balmer-profile legacy audit",
+      "archive": "SDSS legacy spectrum plot",
+      "date": "2026-07-30",
+      "question": "Are the broad Balmer depressions visible robustly in the preserved spectrum plot?",
+      "sample_size": 895,
+      "results": [
+        "3 of four marked Balmer depressions exceed 8% in the digitized display",
+        "detected: H\u03b3, H\u03b2, H\u03b1",
+        "broad absorption is consistent with the pipeline WD label, but atmospheric parameters are not fitted"
+      ],
+      "validation": "Relative depths are recomputed across four line-window widths.",
+      "notebook": "sdss/2026-07-30-white-dwarf-spectrum/notebook.ipynb",
+      "hero": "sdss/2026-07-30-white-dwarf-spectrum/wd_balmer_legacy_audit.png",
+      "figures": [
+        "sdss/2026-07-30-white-dwarf-spectrum/wd_balmer_legacy_audit.png",
+        "sdss/2026-07-30-white-dwarf-spectrum/wd_balmer_window_stress.png"
+      ],
+      "research_level": "Exploration",
+      "claim_type": "Digitized spectral-feature audit",
+      "provenance": [
+        "Original SDSS position and pipeline WD subclass",
+        "preserved wd_spectrum.png",
+        "approximately digitized plotted curve"
+      ],
+      "artifacts": [
+        "data/audit_batches4_7/sdss_white_dwarf_plot_digitized.csv",
+        "sdss/2026-07-30-white-dwarf-spectrum/wd_balmer_display_depths.csv",
+        "sdss/2026-07-30-white-dwarf-spectrum/wd_balmer_window_stress.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "Pipeline subclass WD retained",
+          "status": "pass"
+        },
+        {
+          "name": "Balmer window stress",
+          "status": "pass"
+        },
+        {
+          "name": "Calibrated FITS recovery",
+          "status": "not available"
+        }
+      ],
+      "limitations": [
+        "plot digitization loses errors and spectral resolution",
+        "continuum placement is approximate",
+        "temperature and gravity require atmosphere-model fitting"
+      ],
+      "tags": [
+        "SDSS",
+        "white dwarf",
+        "Balmer lines",
+        "legacy audit"
+      ],
+      "family": "SDSS",
+      "date_display": "30 Jul 2026",
+      "summary": "Are the broad Balmer depressions visible robustly in the preserved spectrum plot?",
+      "sample_size_display": "895 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-30-white-dwarf-spectrum.png",
+      "figures_local": [
+        "data/images/2026-07-30-white-dwarf-spectrum.png",
+        "data/images/2026-07-30-white-dwarf-spectrum--figure-2.png"
+      ]
+    },
+    {
       "id": "2026-07-30-star-spectrum-classification",
       "title": "SDSS source-identity audit: broad-line quasar",
       "archive": "SDSS DR17",
@@ -1342,6 +1619,137 @@
         "data/images/2026-07-30-star-spectrum-classification.png",
         "data/images/2026-07-30-star-spectrum-classification--figure-2.png",
         "data/images/2026-07-30-star-spectrum-classification--figure-3.png"
+      ]
+    },
+    {
+      "id": "2026-07-30-galaxy-redshift-slice",
+      "title": "SDSS redshift-slice structure audit",
+      "archive": "SDSS DR18",
+      "date": "2026-07-30",
+      "question": "Which redshift concentrations are visible in a preserved 12,000-galaxy SDSS emission-line sample?",
+      "sample_size": 12000,
+      "results": [
+        "12,000 unique emission-line galaxies in 0.001<z<0.30",
+        "strongest 0.005-wide concentration at z\u22480.077 with local excess 4.7 sigma",
+        "RA-quartile strongest bins span 0.028\u20130.077"
+      ],
+      "validation": "Redshift concentration is compared with a smoothed baseline and jackknifed across four RA intervals.",
+      "notebook": "sdss/2026-07-30-galaxy-redshift-slice/notebook.ipynb",
+      "hero": "sdss/2026-07-30-galaxy-redshift-slice/sdss_redshift_slice_audit.png",
+      "figures": [
+        "sdss/2026-07-30-galaxy-redshift-slice/sdss_redshift_slice_audit.png",
+        "sdss/2026-07-30-galaxy-redshift-slice/sdss_redshift_jackknife.png"
+      ],
+      "research_level": "Validated",
+      "claim_type": "Redshift concentration measurement",
+      "provenance": [
+        "SDSS DR18 SQL result preserved by BPT notebook",
+        "12,000 spectra with coordinates, redshifts, and line measurements"
+      ],
+      "artifacts": [
+        "data/audit_batches4_7/sdss_emission_galaxies.csv",
+        "sdss/2026-07-30-galaxy-redshift-slice/sdss_redshift_concentrations.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "Unique spectra",
+          "status": "pass"
+        },
+        {
+          "name": "Redshift range explicit",
+          "status": "pass"
+        },
+        {
+          "name": "RA jackknife",
+          "status": "pass"
+        }
+      ],
+      "limitations": [
+        "z is used as a radial proxy rather than a cosmological distance",
+        "sample requires emission-line measurements",
+        "local excess ignores correlated large-scale-structure covariance"
+      ],
+      "tags": [
+        "SDSS",
+        "galaxies",
+        "large-scale structure",
+        "redshift"
+      ],
+      "family": "SDSS",
+      "date_display": "30 Jul 2026",
+      "summary": "Which redshift concentrations are visible in a preserved 12,000-galaxy SDSS emission-line sample?",
+      "sample_size_display": "12,000 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-30-galaxy-redshift-slice.png",
+      "figures_local": [
+        "data/images/2026-07-30-galaxy-redshift-slice.png",
+        "data/images/2026-07-30-galaxy-redshift-slice--figure-2.png"
+      ]
+    },
+    {
+      "id": "2026-07-30-qso-vs-galaxy-colors",
+      "title": "SDSS quasar\u2013galaxy colour display audit",
+      "archive": "SDSS legacy catalogue plot",
+      "date": "2026-07-30",
+      "question": "How clearly separated are the two rendered colour clouds, without claiming catalogue-level classifier accuracy?",
+      "sample_size": 5440,
+      "results": [
+        "original SQL returned 1,500 labelled objects",
+        "rendered colour-cloud centroid separation approximately 1.31 mag",
+        "pixel-phase separation range 1.26\u20131.35 mag"
+      ],
+      "validation": "Centroid separation is repeated across five independent pixel phases; classification accuracy is deliberately not estimated.",
+      "notebook": "sdss/2026-07-30-qso-vs-galaxy-colors/notebook.ipynb",
+      "hero": "sdss/2026-07-30-qso-vs-galaxy-colors/sdss_colour_legacy_audit.png",
+      "figures": [
+        "sdss/2026-07-30-qso-vs-galaxy-colors/sdss_colour_legacy_audit.png",
+        "sdss/2026-07-30-qso-vs-galaxy-colors/sdss_colour_digitization_stress.png"
+      ],
+      "research_level": "Exploration",
+      "claim_type": "Digitized colour-separation audit",
+      "provenance": [
+        "Original SDSS photometry/spectroscopy join printed in notebook",
+        "preserved color_color.png",
+        "class-coloured pixels digitized approximately"
+      ],
+      "artifacts": [
+        "data/audit_batches4_7/sdss_colour_plot_digitized_pixels.csv",
+        "sdss/2026-07-30-qso-vs-galaxy-colors/sdss_colour_digitization_stress.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "Two labelled rendered clouds",
+          "status": "pass"
+        },
+        {
+          "name": "Digitization stress",
+          "status": "pass"
+        },
+        {
+          "name": "Catalogue classifier performance",
+          "status": "not attempted"
+        }
+      ],
+      "limitations": [
+        "plot pixels are not independent objects",
+        "overplotting alters apparent density",
+        "photometric classifier evaluation needs held-out source rows and errors"
+      ],
+      "tags": [
+        "SDSS",
+        "quasar",
+        "galaxy",
+        "colour selection"
+      ],
+      "family": "SDSS",
+      "date_display": "30 Jul 2026",
+      "summary": "How clearly separated are the two rendered colour clouds, without claiming catalogue-level classifier accuracy?",
+      "sample_size_display": "5,440 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-30-qso-vs-galaxy-colors.png",
+      "figures_local": [
+        "data/images/2026-07-30-qso-vs-galaxy-colors.png",
+        "data/images/2026-07-30-qso-vs-galaxy-colors--figure-2.png"
       ]
     },
     {
@@ -1414,6 +1822,72 @@
       ]
     },
     {
+      "id": "2026-07-30-metallicity-vs-position",
+      "title": "SDSS metallicity\u2013latitude legacy-output audit",
+      "archive": "SDSS legacy catalogue plot",
+      "date": "2026-07-30",
+      "question": "Does the weak negative trend reported in the old plot survive digitization choices?",
+      "sample_size": 3271,
+      "results": [
+        "old source-level Pearson correlation reported as -0.181 for 400 stars",
+        "digitized-pixel Spearman correlation -0.203",
+        "pixel-phase range -0.226 to -0.188"
+      ],
+      "validation": "The sign is checked across five independent pixel phases; magnitude is not treated as a source-level estimate.",
+      "notebook": "sdss/2026-07-30-metallicity-vs-position/notebook.ipynb",
+      "hero": "sdss/2026-07-30-metallicity-vs-position/sdss_metallicity_legacy_audit.png",
+      "figures": [
+        "sdss/2026-07-30-metallicity-vs-position/sdss_metallicity_legacy_audit.png",
+        "sdss/2026-07-30-metallicity-vs-position/sdss_metallicity_digitization_stress.png"
+      ],
+      "research_level": "Exploration",
+      "claim_type": "Digitized correlation audit",
+      "provenance": [
+        "Original SDSS SQL and first five rows printed in notebook",
+        "old output Pearson correlation -0.181",
+        "preserved feh_vs_lat.png"
+      ],
+      "artifacts": [
+        "data/audit_batches4_7/sdss_metallicity_plot_digitized_pixels.csv",
+        "sdss/2026-07-30-metallicity-vs-position/sdss_metallicity_digitization_stress.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "Original statistic retained",
+          "status": "pass"
+        },
+        {
+          "name": "Digitization stress",
+          "status": "pass"
+        },
+        {
+          "name": "Source table recovery",
+          "status": "not available"
+        }
+      ],
+      "limitations": [
+        "source rows and errors were not saved",
+        "pixel overlap weights dense regions",
+        "latitude range and target selection confound population interpretation"
+      ],
+      "tags": [
+        "SDSS",
+        "metallicity",
+        "Galactic latitude",
+        "legacy audit"
+      ],
+      "family": "SDSS",
+      "date_display": "30 Jul 2026",
+      "summary": "Does the weak negative trend reported in the old plot survive digitization choices?",
+      "sample_size_display": "3,271 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-30-metallicity-vs-position.png",
+      "figures_local": [
+        "data/images/2026-07-30-metallicity-vs-position.png",
+        "data/images/2026-07-30-metallicity-vs-position--figure-2.png"
+      ]
+    },
+    {
       "id": "2026-07-30-emission-line-measurement",
       "title": "SDSS galaxy joint H\u03b1 + [N II] audit",
       "archive": "SDSS DR17",
@@ -1483,6 +1957,332 @@
       "figures_local": [
         "data/images/2026-07-30-emission-line-measurement.png",
         "data/images/2026-07-30-emission-line-measurement--figure-2.png"
+      ]
+    },
+    {
+      "id": "2026-07-30-spectral-type-distribution",
+      "title": "SDSS class-composition audit for one sky patch",
+      "archive": "SDSS legacy aggregate",
+      "date": "2026-07-30",
+      "question": "What do the preserved aggregate counts support when the original 800 source rows were not saved?",
+      "sample_size": 800,
+      "results": [
+        "GALAXY 50.0%, STAR 33.5%, QSO 16.5%",
+        "QSO 95% multinomial interval 13.9%\u201319.0%",
+        "aggregate counts reproduce the old output but cannot recover subclass or redshift distributions"
+      ],
+      "validation": "Class fractions use multinomial resampling and interval width is tested at three sample sizes.",
+      "notebook": "sdss/2026-07-30-spectral-type-distribution/notebook.ipynb",
+      "hero": "sdss/2026-07-30-spectral-type-distribution/sdss_class_fraction_audit.png",
+      "figures": [
+        "sdss/2026-07-30-spectral-type-distribution/sdss_class_fraction_audit.png",
+        "sdss/2026-07-30-spectral-type-distribution/sdss_class_precision_stress.png"
+      ],
+      "research_level": "Reproduction",
+      "claim_type": "Multinomial class-fraction audit",
+      "provenance": [
+        "Original SDSS SQL query printed in notebook",
+        "executed aggregate counts: 400 galaxies, 268 stars, 132 QSOs"
+      ],
+      "artifacts": [
+        "sdss/2026-07-30-spectral-type-distribution/sdss_patch_class_fractions.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "Counts sum to 800",
+          "status": "pass"
+        },
+        {
+          "name": "Sampling intervals",
+          "status": "pass"
+        },
+        {
+          "name": "Source-level table",
+          "status": "not available"
+        }
+      ],
+      "limitations": [
+        "source-level rows were not saved",
+        "TOP 800 without explicit ordering is not a random sky sample",
+        "pipeline classes and subclasses are not audited individually"
+      ],
+      "tags": [
+        "SDSS",
+        "spectral classes",
+        "aggregate audit",
+        "selection"
+      ],
+      "family": "SDSS",
+      "date_display": "30 Jul 2026",
+      "summary": "What do the preserved aggregate counts support when the original 800 source rows were not saved?",
+      "sample_size_display": "800 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-30-spectral-type-distribution.png",
+      "figures_local": [
+        "data/images/2026-07-30-spectral-type-distribution.png",
+        "data/images/2026-07-30-spectral-type-distribution--figure-2.png"
+      ]
+    },
+    {
+      "id": "2026-07-30-hr-diagram-pleiades",
+      "title": "Pleiades Gaia colour\u2013magnitude sequence audit",
+      "archive": "Gaia DR3",
+      "date": "2026-07-30",
+      "question": "How narrow is the selected Pleiades sequence, and how sensitive is it to astrometric quality cuts?",
+      "sample_size": 690,
+      "results": [
+        "690 quality-selected sources",
+        "cubic-sequence robust scatter 0.265 mag",
+        "median inverse-parallax distance 136.04 pc; bootstrap 68% 135.92\u2013136.19 pc"
+      ],
+      "validation": "Sequence width and distance are repeated across four RUWE thresholds.",
+      "notebook": "gaia/2026-07-30-hr-diagram-pleiades/notebook.ipynb",
+      "hero": "gaia/2026-07-30-hr-diagram-pleiades/pleiades_cmd_sequence_audit.png",
+      "figures": [
+        "gaia/2026-07-30-hr-diagram-pleiades/pleiades_cmd_sequence_audit.png",
+        "gaia/2026-07-30-hr-diagram-pleiades/pleiades_quality_stress.png"
+      ],
+      "research_level": "Validated",
+      "claim_type": "Cluster sequence measurement",
+      "provenance": [
+        "Gaia DR3 saved query",
+        "source-level parallax, photometry, proper motion, and RUWE retained"
+      ],
+      "artifacts": [
+        "data/audit_batches4_7/pleiades_gaia_dr3_query.csv",
+        "gaia/2026-07-30-hr-diagram-pleiades/pleiades_quality_stress.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "Parallax S/N > 10",
+          "status": "pass"
+        },
+        {
+          "name": "RUWE threshold sweep",
+          "status": "pass"
+        },
+        {
+          "name": "Bootstrap distance",
+          "status": "pass"
+        }
+      ],
+      "limitations": [
+        "inverse parallax is used only at high S/N",
+        "cubic sequence is empirical, not an isochrone",
+        "unresolved binaries and extinction broaden the sequence"
+      ],
+      "tags": [
+        "Gaia",
+        "Pleiades",
+        "CMD",
+        "quality cuts"
+      ],
+      "family": "Gaia",
+      "date_display": "30 Jul 2026",
+      "summary": "How narrow is the selected Pleiades sequence, and how sensitive is it to astrometric quality cuts?",
+      "sample_size_display": "690 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-30-hr-diagram-pleiades.png",
+      "figures_local": [
+        "data/images/2026-07-30-hr-diagram-pleiades.png",
+        "data/images/2026-07-30-hr-diagram-pleiades--figure-2.png"
+      ]
+    },
+    {
+      "id": "2026-07-30-mass-period-trend",
+      "title": "Planet mass\u2013period selection audit",
+      "archive": "NASA Exoplanet Archive",
+      "date": "2026-07-30",
+      "question": "Does the mass\u2013period rank relation persist within the two leading discovery methods?",
+      "sample_size": 5209,
+      "results": [
+        "5,209 unique archive planets pass finite mass/period cuts",
+        "Transit: rho=0.029 (n=4007)",
+        "Radial Velocity: rho=0.714 (n=1119)"
+      ],
+      "validation": "Rank correlation is stratified by discovery method and bootstrapped separately.",
+      "notebook": "exoplanet-archive/2026-07-30-mass-period-trend/notebook.ipynb",
+      "hero": "exoplanet-archive/2026-07-30-mass-period-trend/mass_period_method_audit.png",
+      "figures": [
+        "exoplanet-archive/2026-07-30-mass-period-trend/mass_period_method_audit.png",
+        "exoplanet-archive/2026-07-30-mass-period-trend/mass_period_method_bootstrap.png"
+      ],
+      "research_level": "Validated",
+      "claim_type": "Within-method population correlation",
+      "provenance": [
+        "NASA Exoplanet Archive pscomppars preserved query",
+        "best-mass values converted from Jupiter to Earth masses"
+      ],
+      "artifacts": [
+        "data/audit_batches4_7/exoplanet_composite_archive.csv",
+        "exoplanet-archive/2026-07-30-mass-period-trend/mass_period_method_bootstrap.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "Duplicate planet removal",
+          "status": "pass"
+        },
+        {
+          "name": "Discovery-method stratification",
+          "status": "pass"
+        },
+        {
+          "name": "Bootstrap intervals",
+          "status": "pass"
+        }
+      ],
+      "limitations": [
+        "mass values mix true mass and minimum mass conventions",
+        "method groups have different completeness",
+        "correlations are not occurrence rates"
+      ],
+      "tags": [
+        "exoplanets",
+        "mass",
+        "period",
+        "selection bias"
+      ],
+      "family": "Exoplanets",
+      "date_display": "30 Jul 2026",
+      "summary": "Does the mass\u2013period rank relation persist within the two leading discovery methods?",
+      "sample_size_display": "5,209 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-30-mass-period-trend.png",
+      "figures_local": [
+        "data/images/2026-07-30-mass-period-trend.png",
+        "data/images/2026-07-30-mass-period-trend--figure-2.png"
+      ]
+    },
+    {
+      "id": "2026-07-30-hr-diagram-ngc188",
+      "title": "NGC 188 membership and sequence audit",
+      "archive": "Gaia DR3",
+      "date": "2026-07-30",
+      "question": "How do probability and astrometric-quality cuts change the old cluster sequence and distance?",
+      "sample_size": 1168,
+      "results": [
+        "1168 sources pass p\u22650.90, RUWE<1.4 and parallax S/N>5",
+        "median parallax 0.528 mas; bootstrap 68% 0.527\u20130.530",
+        "probability cut tested from 0.70 to 0.95"
+      ],
+      "validation": "Median parallax and proper-motion widths are repeated across four membership-probability thresholds.",
+      "notebook": "gaia/2026-07-30-hr-diagram-ngc188/notebook.ipynb",
+      "hero": "gaia/2026-07-30-hr-diagram-ngc188/ngc188_membership_cmd.png",
+      "figures": [
+        "gaia/2026-07-30-hr-diagram-ngc188/ngc188_membership_cmd.png",
+        "gaia/2026-07-30-hr-diagram-ngc188/ngc188_membership_stress.png"
+      ],
+      "research_level": "Validated",
+      "claim_type": "Membership-threshold measurement",
+      "provenance": [
+        "Gaia DR3 source rows",
+        "UPMASK membership probabilities from chihuanbin/ngc188 public analysis",
+        "columns reduced without changing values"
+      ],
+      "artifacts": [
+        "data/audit_batches4_7/ngc188_gaia_dr3_members.csv",
+        "gaia/2026-07-30-hr-diagram-ngc188/ngc188_membership_stress.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "UPMASK probability retained",
+          "status": "pass"
+        },
+        {
+          "name": "RUWE and parallax S/N cuts",
+          "status": "pass"
+        },
+        {
+          "name": "Threshold stress test",
+          "status": "pass"
+        }
+      ],
+      "limitations": [
+        "membership probabilities are upstream model outputs",
+        "inverse parallax ignores cluster-level covariance",
+        "selection file is not the original broad cone query"
+      ],
+      "tags": [
+        "Gaia",
+        "NGC 188",
+        "membership",
+        "CMD"
+      ],
+      "family": "Gaia",
+      "date_display": "30 Jul 2026",
+      "summary": "How do probability and astrometric-quality cuts change the old cluster sequence and distance?",
+      "sample_size_display": "1,168 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-30-hr-diagram-ngc188.png",
+      "figures_local": [
+        "data/images/2026-07-30-hr-diagram-ngc188.png",
+        "data/images/2026-07-30-hr-diagram-ngc188--figure-2.png"
+      ]
+    },
+    {
+      "id": "2026-07-30-proper-motion-membership-m67",
+      "title": "M67 proper-motion legacy-output audit",
+      "archive": "Gaia DR3 legacy output",
+      "date": "2026-07-30",
+      "question": "Does the preserved membership plot centre on the stated M67 motion, and what information is missing?",
+      "sample_size": 624,
+      "results": [
+        "original selection retained 612 of 2,000 field sources",
+        "digitized rendered-pixel centroid (-10.85, -2.83) mas/yr",
+        "centroid lies 0.09 mas/yr from the stated selection centre"
+      ],
+      "validation": "Centroid is repeated across four independent x-pixel phases; no intrinsic dispersion is inferred.",
+      "notebook": "gaia/2026-07-30-proper-motion-membership-m67/notebook.ipynb",
+      "hero": "gaia/2026-07-30-proper-motion-membership-m67/m67_legacy_motion_audit.png",
+      "figures": [
+        "gaia/2026-07-30-proper-motion-membership-m67/m67_legacy_motion_audit.png",
+        "gaia/2026-07-30-proper-motion-membership-m67/m67_digitization_stress.png"
+      ],
+      "research_level": "Exploration",
+      "claim_type": "Digitized membership-display audit",
+      "provenance": [
+        "Original Gaia DR3 cone query printed in notebook",
+        "preserved m67_pm_members.png",
+        "original output counts 2,000 field and 612 selected"
+      ],
+      "artifacts": [
+        "data/audit_batches4_7/m67_member_plot_digitized_pixels.csv",
+        "gaia/2026-07-30-proper-motion-membership-m67/m67_digitization_stress.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "Original query and counts retained",
+          "status": "pass"
+        },
+        {
+          "name": "Display centroid cross-check",
+          "status": "pass"
+        },
+        {
+          "name": "Source-level covariance",
+          "status": "not available"
+        }
+      ],
+      "limitations": [
+        "catalogue rows were not saved",
+        "rendered pixels are correlated and overlap",
+        "selection used a fixed circular motion cut without parallax"
+      ],
+      "tags": [
+        "Gaia",
+        "M67",
+        "proper motion",
+        "legacy audit"
+      ],
+      "family": "Gaia",
+      "date_display": "30 Jul 2026",
+      "summary": "Does the preserved membership plot centre on the stated M67 motion, and what information is missing?",
+      "sample_size_display": "624 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-30-proper-motion-membership-m67.png",
+      "figures_local": [
+        "data/images/2026-07-30-proper-motion-membership-m67.png",
+        "data/images/2026-07-30-proper-motion-membership-m67--figure-2.png"
       ]
     },
     {
@@ -1801,6 +2601,138 @@
       ]
     },
     {
+      "id": "2026-07-30-hr-diagram-hyades",
+      "title": "Hyades legacy CMD evidence audit",
+      "archive": "Gaia DR3 legacy output",
+      "date": "2026-07-30",
+      "question": "What quantitative information survives in the first-day Hyades plot when the source rows were not saved?",
+      "sample_size": 1889,
+      "results": [
+        "1889 coloured plot pixels audited; zero are treated as independent stars",
+        "approximate rendered-sequence residual scale 0.431 mag",
+        "original notebook reported 202 candidates and median distance 46.7 pc"
+      ],
+      "validation": "The plot-digitization scale is repeated across four independent x-pixel phases; no source-level uncertainty is claimed.",
+      "notebook": "gaia/2026-07-30-hr-diagram-hyades/notebook.ipynb",
+      "hero": "gaia/2026-07-30-hr-diagram-hyades/hyades_legacy_cmd_audit.png",
+      "figures": [
+        "gaia/2026-07-30-hr-diagram-hyades/hyades_legacy_cmd_audit.png",
+        "gaia/2026-07-30-hr-diagram-hyades/hyades_digitization_stress.png"
+      ],
+      "research_level": "Exploration",
+      "claim_type": "Digitized legacy-output audit",
+      "provenance": [
+        "Original Gaia DR3 ADQL printed in notebook",
+        "preserved hr_hyades.png",
+        "digitized display pixels explicitly not catalogue rows"
+      ],
+      "artifacts": [
+        "data/audit_batches4_7/hyades_cmd_digitized_pixels.csv",
+        "gaia/2026-07-30-hr-diagram-hyades/hyades_digitization_stress.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "Legacy plot preserved",
+          "status": "pass"
+        },
+        {
+          "name": "Digitized pixels labelled approximate",
+          "status": "pass"
+        },
+        {
+          "name": "Source-level inference",
+          "status": "not attempted"
+        }
+      ],
+      "limitations": [
+        "source catalogue rows were not preserved",
+        "overlapping markers weight dense regions repeatedly",
+        "approximate axes and antialiasing limit precision"
+      ],
+      "tags": [
+        "Gaia",
+        "Hyades",
+        "legacy audit",
+        "negative result"
+      ],
+      "family": "Gaia",
+      "date_display": "30 Jul 2026",
+      "summary": "What quantitative information survives in the first-day Hyades plot when the source rows were not saved?",
+      "sample_size_display": "1,889 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-30-hr-diagram-hyades.png",
+      "figures_local": [
+        "data/images/2026-07-30-hr-diagram-hyades.png",
+        "data/images/2026-07-30-hr-diagram-hyades--figure-2.png"
+      ]
+    },
+    {
+      "id": "2026-07-30-hst-cutout-m87",
+      "title": "HST M87 preview field-placement audit",
+      "archive": "MAST \u00b7 HST WFC3 preview",
+      "date": "2026-07-30",
+      "question": "Can the selected HST preview support morphology or jet claims when M87 lies at the frame boundary?",
+      "sample_size": 8706420,
+      "results": [
+        "official preview contains 8,706,420 display pixels",
+        "M87 emission reaches the bottom frame boundary at all tested thresholds",
+        "maximum bright bottom-edge fraction 12.5%; morphology and jet measurements rejected"
+      ],
+      "validation": "Centroid, axis ratio, and edge contact are swept across five thresholds and five crop trims.",
+      "notebook": "mast/2026-07-30-hst-cutout-m87/notebook.ipynb",
+      "hero": "mast/2026-07-30-hst-cutout-m87/m87_preview_boundary_audit.png",
+      "figures": [
+        "mast/2026-07-30-hst-cutout-m87/m87_preview_boundary_audit.png",
+        "mast/2026-07-30-hst-cutout-m87/m87_preview_crop_stress.png"
+      ],
+      "research_level": "Exploration",
+      "claim_type": "Display-image completeness audit",
+      "provenance": [
+        "MAST HST WFC3 preview id5o27qbq_raw.jpg",
+        "original download output retained in executed notebook"
+      ],
+      "artifacts": [
+        "mast/2026-07-30-hst-cutout-m87/m87.jpg",
+        "mast/2026-07-30-hst-cutout-m87/m87_preview_threshold_audit.csv",
+        "mast/2026-07-30-hst-cutout-m87/m87_preview_crop_stress.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "Official preview provenance",
+          "status": "pass"
+        },
+        {
+          "name": "Boundary contact test",
+          "status": "fail for morphology"
+        },
+        {
+          "name": "Calibrated photometry",
+          "status": "not attempted"
+        }
+      ],
+      "limitations": [
+        "M87 is truncated by the frame boundary",
+        "preview stretch and detector mosaic are not calibrated surface brightness",
+        "jet-scale science requires a target-centred calibrated FITS product"
+      ],
+      "tags": [
+        "HST",
+        "M87",
+        "image audit",
+        "field mismatch"
+      ],
+      "family": "MAST",
+      "date_display": "30 Jul 2026",
+      "summary": "Can the selected HST preview support morphology or jet claims when M87 lies at the frame boundary?",
+      "sample_size_display": "8,706,420 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-30-hst-cutout-m87.png",
+      "figures_local": [
+        "data/images/2026-07-30-hst-cutout-m87.png",
+        "data/images/2026-07-30-hst-cutout-m87--figure-2.png"
+      ]
+    },
+    {
       "id": "2026-07-30-hst-image-eagle-nebula",
       "title": "HST Eagle Nebula: pillar-orientation audit",
       "archive": "MAST \u00b7 HST ACS/WFC",
@@ -1860,6 +2792,73 @@
       "figures_local": [
         "data/images/2026-07-30-hst-image-eagle-nebula.png",
         "data/images/2026-07-30-hst-image-eagle-nebula--figure-2.png"
+      ]
+    },
+    {
+      "id": "2026-07-30-rv-curve-hd189733b",
+      "title": "HD 189733 b Keplerian radial-velocity audit",
+      "archive": "NASA Exoplanet Archive",
+      "date": "2026-07-30",
+      "question": "What does the archive orbital solution predict, and how different is it from the old circular sketch?",
+      "sample_size": 1,
+      "results": [
+        "period 2.218576 d, eccentricity 0.0000, adopted K 205.00 m/s",
+        "Keplerian-versus-circular RMS difference 0.000 m/s",
+        "one archive solution reconstructed; this is not a fit to time-series RV observations"
+      ],
+      "validation": "The exact archive row is retained, eccentric and circular models are compared, and inclination sensitivity is exposed.",
+      "notebook": "exoplanet-archive/2026-07-30-rv-curve-hd189733b/notebook.ipynb",
+      "hero": "exoplanet-archive/2026-07-30-rv-curve-hd189733b/rv_keplerian_comparison.png",
+      "figures": [
+        "exoplanet-archive/2026-07-30-rv-curve-hd189733b/rv_keplerian_comparison.png",
+        "exoplanet-archive/2026-07-30-rv-curve-hd189733b/rv_model_sensitivity.png"
+      ],
+      "research_level": "Reproduction",
+      "claim_type": "Archive-orbit reconstruction",
+      "provenance": [
+        "NASA Exoplanet Archive composite row",
+        "target HD 189733 b",
+        "semi-amplitude falls back to the value printed by the original executed notebook when absent from preserved table"
+      ],
+      "artifacts": [
+        "data/audit_batches4_7/exoplanet_composite_archive.csv",
+        "exoplanet-archive/2026-07-30-rv-curve-hd189733b/rv_phase_model.csv",
+        "exoplanet-archive/2026-07-30-rv-curve-hd189733b/inclination_mass_stress.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "Unique archive target",
+          "status": "pass"
+        },
+        {
+          "name": "Kepler equation solved",
+          "status": "pass"
+        },
+        {
+          "name": "Fit to observed RV epochs",
+          "status": "not attempted"
+        }
+      ],
+      "limitations": [
+        "phase zero and argument of periastron are arbitrary",
+        "no observation timestamps or instrumental offsets are fitted",
+        "composite values may come from different references"
+      ],
+      "tags": [
+        "exoplanets",
+        "radial velocity",
+        "HD 189733 b",
+        "orbit model"
+      ],
+      "family": "Exoplanets",
+      "date_display": "30 Jul 2026",
+      "summary": "What does the archive orbital solution predict, and how different is it from the old circular sketch?",
+      "sample_size_display": "1 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-30-rv-curve-hd189733b.png",
+      "figures_local": [
+        "data/images/2026-07-30-rv-curve-hd189733b.png",
+        "data/images/2026-07-30-rv-curve-hd189733b--figure-2.png"
       ]
     },
     {
@@ -1938,355 +2937,200 @@
       ]
     },
     {
-      "id": "2026-07-30-spectral-type-distribution",
-      "title": "What kinds of objects has SDSS classified in one small patch of sky?",
-      "archive": "SDSS",
-      "family": "SDSS",
+      "id": "2026-07-30-transit-depth-vs-radius",
+      "title": "Geometric transit-depth scaling audit",
+      "archive": "NASA Exoplanet Archive",
       "date": "2026-07-30",
-      "date_display": "30 Jul 2026",
-      "summary": "Instead of looking at a single object, I queried a 2x2 degree patch of sky (RA 150-152, Dec 1-3) and asked SDSS's own spectroscopic pipeline what it had classified there \u2014 stars, galaxies, or quasars \u2014 to see the mix.",
-      "question": "Instead of looking at a single object, I queried a 2x2 degree patch of sky (RA 150-152, Dec 1-3) and asked SDSS's own spectroscopic pipeline what it had classified there \u2014 stars, galaxies, or quasars \u2014 to see the mix.",
-      "notebook": "sdss/2026-07-30-spectral-type-distribution/notebook.ipynb",
-      "results": [],
-      "validation": "See the notebook and README for the archive query and interpretation.",
-      "tags": [
-        "SDSS",
-        "real data"
+      "question": "How much of the expected transit-depth variation is explained by planet radius after accounting for host-star radius?",
+      "sample_size": 4711,
+      "results": [
+        "4,711 unique planets with planet and host radii",
+        "archive-sample geometric slope 1.61; bootstrap 68% 1.59\u20131.62",
+        "slope approaches the area-law value 2 when host radius is restricted"
       ],
-      "dense": false,
-      "hero_local": "data/images/2026-07-30-spectral-type-distribution.png",
-      "figures_local": [
-        "data/images/2026-07-30-spectral-type-distribution.png"
-      ]
-    },
-    {
-      "id": "2026-07-30-hr-diagram-hyades",
-      "title": "The Hyades cluster: an HR diagram for the nearest open cluster to us",
-      "archive": "Gaia",
-      "family": "Gaia",
-      "date": "2026-07-30",
-      "date_display": "30 Jul 2026",
-      "summary": "The Hyades is the closest open star cluster to the Sun, about 47 parsecs (roughly 153 light-years) away, which makes it an excellent benchmark since Gaia can measure its stars extremely precisely. I queried real Gaia data for stars in its direction, applied a parallax cut around ",
-      "question": "The Hyades is the closest open star cluster to the Sun, about 47 parsecs (roughly 153 light-years) away, which makes it an excellent benchmark since Gaia can measure its stars extremely precisely. I queried real Gaia data for stars in its direction, applied a parallax cut around ",
-      "notebook": "gaia/2026-07-30-hr-diagram-hyades/notebook.ipynb",
-      "results": [],
-      "validation": "See the notebook and README for the archive query and interpretation.",
-      "tags": [
-        "Gaia",
-        "real data"
+      "validation": "The relation is recomputed in four host-radius intervals and bootstrapped.",
+      "notebook": "exoplanet-archive/2026-07-30-transit-depth-vs-radius/notebook.ipynb",
+      "hero": "exoplanet-archive/2026-07-30-transit-depth-vs-radius/transit_depth_geometry_audit.png",
+      "figures": [
+        "exoplanet-archive/2026-07-30-transit-depth-vs-radius/transit_depth_geometry_audit.png",
+        "exoplanet-archive/2026-07-30-transit-depth-vs-radius/transit_depth_scaling_stress.png"
       ],
-      "dense": false,
-      "hero_local": "data/images/2026-07-30-hr-diagram-hyades.png",
-      "figures_local": [
-        "data/images/2026-07-30-hr-diagram-hyades.png"
-      ]
-    },
-    {
-      "id": "2026-07-30-wide-binary-search-alpha-cen",
-      "title": "Looking for wide binary star pairs near Alpha Centauri",
-      "archive": "Gaia",
-      "family": "Gaia",
-      "date": "2026-07-30",
-      "date_display": "30 Jul 2026",
-      "summary": "A wide binary is a pair of stars far enough apart to look like two separate points in the sky, but still gravitationally bound to each other. The way to tell a real pair from two unrelated stars that just happen to line up is that true binaries share nearly identical parallax (di",
-      "question": "A wide binary is a pair of stars far enough apart to look like two separate points in the sky, but still gravitationally bound to each other. The way to tell a real pair from two unrelated stars that just happen to line up is that true binaries share nearly identical parallax (di",
-      "notebook": "gaia/2026-07-30-wide-binary-search-alpha-cen/notebook.ipynb",
-      "results": [],
-      "validation": "See the notebook and README for the archive query and interpretation.",
-      "tags": [
-        "Gaia",
-        "real data"
+      "research_level": "Validated",
+      "claim_type": "Geometric scaling measurement",
+      "provenance": [
+        "NASA Exoplanet Archive pscomppars preserved query",
+        "planet radius and stellar radius used to calculate geometric depth"
       ],
-      "dense": false,
-      "hero_local": "data/images/2026-07-30-wide-binary-search-alpha-cen.png",
-      "figures_local": [
-        "data/images/2026-07-30-wide-binary-search-alpha-cen.png"
-      ]
-    },
-    {
-      "id": "2026-07-30-white-dwarf-spectrum",
-      "title": "Looking at the spectrum of a known SDSS white dwarf",
-      "archive": "SDSS",
-      "family": "SDSS",
-      "date": "2026-07-30",
-      "date_display": "30 Jul 2026",
-      "summary": "I looked up a real SDSS star that the pipeline classifies as a white dwarf \u2014 the leftover, burnt-out core of a sun-like star after it's used up its fuel \u2014 and examined its spectrum for the telltale signature these objects are known for.",
-      "question": "I looked up a real SDSS star that the pipeline classifies as a white dwarf \u2014 the leftover, burnt-out core of a sun-like star after it's used up its fuel \u2014 and examined its spectrum for the telltale signature these objects are known for.",
-      "notebook": "sdss/2026-07-30-white-dwarf-spectrum/notebook.ipynb",
-      "results": [],
-      "validation": "See the notebook and README for the archive query and interpretation.",
-      "tags": [
-        "SDSS",
-        "real data"
+      "artifacts": [
+        "data/audit_batches4_7/exoplanet_transiting_archive.csv",
+        "exoplanet-archive/2026-07-30-transit-depth-vs-radius/transit_depth_host_radius_stress.csv"
       ],
-      "dense": false,
-      "hero_local": "data/images/2026-07-30-white-dwarf-spectrum.png",
-      "figures_local": [
-        "data/images/2026-07-30-white-dwarf-spectrum.png"
-      ]
-    },
-    {
-      "id": "2026-07-30-mass-period-trend",
-      "title": "Is there a real relationship between planet mass and orbital period?",
-      "archive": "Exoplanets",
+      "quality_checks": [
+        {
+          "name": "Unique planets",
+          "status": "pass"
+        },
+        {
+          "name": "Physical unit conversion",
+          "status": "pass"
+        },
+        {
+          "name": "Host-radius stress test",
+          "status": "pass"
+        }
+      ],
+      "limitations": [
+        "calculated geometric depths are not fitted observed depths",
+        "limb darkening and impact parameter are omitted",
+        "archive sample is heterogeneous"
+      ],
+      "tags": [
+        "exoplanets",
+        "transits",
+        "geometry",
+        "selection effects"
+      ],
       "family": "Exoplanets",
-      "date": "2026-07-30",
       "date_display": "30 Jul 2026",
-      "summary": "I pulled thousands of confirmed exoplanets at once from the NASA Exoplanet Archive and looked for a relationship between planet mass and orbital period, coloring each point by which method found it (radial velocity or transit), expecting to see some kind of clean trend.",
-      "question": "I pulled thousands of confirmed exoplanets at once from the NASA Exoplanet Archive and looked for a relationship between planet mass and orbital period, coloring each point by which method found it (radial velocity or transit), expecting to see some kind of clean trend.",
-      "notebook": "exoplanet-archive/2026-07-30-mass-period-trend/notebook.ipynb",
-      "results": [],
-      "validation": "See the notebook and README for the archive query and interpretation.",
-      "tags": [
-        "Exoplanets",
-        "real data"
-      ],
-      "dense": false,
-      "hero_local": "data/images/2026-07-30-mass-period-trend.png",
+      "summary": "How much of the expected transit-depth variation is explained by planet radius after accounting for host-star radius?",
+      "sample_size_display": "4,711 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-30-transit-depth-vs-radius.png",
       "figures_local": [
-        "data/images/2026-07-30-mass-period-trend.png"
+        "data/images/2026-07-30-transit-depth-vs-radius.png",
+        "data/images/2026-07-30-transit-depth-vs-radius--figure-2.png"
       ]
     },
     {
       "id": "2026-07-30-eccentricity-distribution",
-      "title": "How circular are exoplanet orbits, really?",
-      "archive": "Exoplanets",
-      "family": "Exoplanets",
+      "title": "Exoplanet eccentricity recording audit",
+      "archive": "NASA Exoplanet Archive",
       "date": "2026-07-30",
-      "date_display": "30 Jul 2026",
-      "summary": "Our own solar system's planets have nearly circular orbits (low eccentricity). I wanted to check whether that's typical of planets elsewhere, using real measured orbital eccentricities for thousands of confirmed exoplanets from the NASA Exoplanet Archive, and see whether planets ",
-      "question": "Our own solar system's planets have nearly circular orbits (low eccentricity). I wanted to check whether that's typical of planets elsewhere, using real measured orbital eccentricities for thousands of confirmed exoplanets from the NASA Exoplanet Archive, and see whether planets ",
-      "notebook": "exoplanet-archive/2026-07-30-eccentricity-distribution/notebook.ipynb",
-      "results": [],
-      "validation": "See the notebook and README for the archive query and interpretation.",
-      "tags": [
-        "Exoplanets",
-        "real data"
+      "question": "How strongly does the recorded eccentricity distribution differ between short- and long-period planets?",
+      "sample_size": 5233,
+      "results": [
+        "5,233 unique planets with recorded eccentricity",
+        "long-minus-short median contrast 0.160; bootstrap 95% 0.149\u20130.180",
+        "58.8% of selected rows record exactly zero"
       ],
-      "dense": false,
+      "validation": "Median contrast is bootstrapped and high-eccentricity fraction is swept across four thresholds.",
+      "notebook": "exoplanet-archive/2026-07-30-eccentricity-distribution/notebook.ipynb",
+      "hero": "exoplanet-archive/2026-07-30-eccentricity-distribution/eccentricity_period_groups.png",
+      "figures": [
+        "exoplanet-archive/2026-07-30-eccentricity-distribution/eccentricity_period_groups.png",
+        "exoplanet-archive/2026-07-30-eccentricity-distribution/eccentricity_bootstrap_stress.png"
+      ],
+      "research_level": "Validated",
+      "claim_type": "Period-stratified distribution comparison",
+      "provenance": [
+        "NASA Exoplanet Archive pscomppars preserved query",
+        "unique planet rows with eccentricity and period"
+      ],
+      "artifacts": [
+        "data/audit_batches4_7/exoplanet_composite_archive.csv",
+        "exoplanet-archive/2026-07-30-eccentricity-distribution/eccentricity_threshold_stress.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "Physical eccentricity bounds",
+          "status": "pass"
+        },
+        {
+          "name": "Period stratification",
+          "status": "pass"
+        },
+        {
+          "name": "Threshold stress",
+          "status": "pass"
+        }
+      ],
+      "limitations": [
+        "exact zeros can be fixed assumptions rather than measurements",
+        "uncertainty fields are incomplete",
+        "period groups mix planet masses and methods"
+      ],
+      "tags": [
+        "exoplanets",
+        "eccentricity",
+        "tidal evolution",
+        "archive conventions"
+      ],
+      "family": "Exoplanets",
+      "date_display": "30 Jul 2026",
+      "summary": "How strongly does the recorded eccentricity distribution differ between short- and long-period planets?",
+      "sample_size_display": "5,233 samples",
+      "dense": true,
       "hero_local": "data/images/2026-07-30-eccentricity-distribution.png",
       "figures_local": [
-        "data/images/2026-07-30-eccentricity-distribution.png"
-      ]
-    },
-    {
-      "id": "2026-07-30-rv-curve-hd189733b",
-      "title": "HD 189733 b: a hot Jupiter with one of the best-studied atmospheres",
-      "archive": "Exoplanets",
-      "family": "Exoplanets",
-      "date": "2026-07-30",
-      "date_display": "30 Jul 2026",
-      "summary": "HD 189733 b is a \"hot Jupiter\" \u2014 a gas giant crammed into a scorchingly close orbit around its star \u2014 and it's one of the most intensively studied exoplanets in existence, mostly because it's both bright and nearby, making it a favorite target for atmosphere studies from space te",
-      "question": "HD 189733 b is a \"hot Jupiter\" \u2014 a gas giant crammed into a scorchingly close orbit around its star \u2014 and it's one of the most intensively studied exoplanets in existence, mostly because it's both bright and nearby, making it a favorite target for atmosphere studies from space te",
-      "notebook": "exoplanet-archive/2026-07-30-rv-curve-hd189733b/notebook.ipynb",
-      "results": [],
-      "validation": "See the notebook and README for the archive query and interpretation.",
-      "tags": [
-        "Exoplanets",
-        "real data"
-      ],
-      "dense": false,
-      "hero_local": "data/images/2026-07-30-rv-curve-hd189733b.png",
-      "figures_local": [
-        "data/images/2026-07-30-rv-curve-hd189733b.png"
-      ]
-    },
-    {
-      "id": "2026-07-30-proper-motion-membership-m67",
-      "title": "Finding cluster members of M67 using proper motion alone",
-      "archive": "Gaia",
-      "family": "Gaia",
-      "date": "2026-07-30",
-      "date_display": "30 Jul 2026",
-      "summary": "Proper motion is how fast a star appears to creep across the sky each year. Stars gravitationally bound together in a cluster share almost the same proper motion because they're moving through the galaxy as a group, while foreground and background stars that just happen to be in ",
-      "question": "Proper motion is how fast a star appears to creep across the sky each year. Stars gravitationally bound together in a cluster share almost the same proper motion because they're moving through the galaxy as a group, while foreground and background stars that just happen to be in ",
-      "notebook": "gaia/2026-07-30-proper-motion-membership-m67/notebook.ipynb",
-      "results": [],
-      "validation": "See the notebook and README for the archive query and interpretation.",
-      "tags": [
-        "Gaia",
-        "real data"
-      ],
-      "dense": false,
-      "hero_local": "data/images/2026-07-30-proper-motion-membership-m67.png",
-      "figures_local": [
-        "data/images/2026-07-30-proper-motion-membership-m67.png"
-      ]
-    },
-    {
-      "id": "2026-07-30-metallicity-vs-position",
-      "title": "Does stellar metallicity change with position in the galaxy?",
-      "archive": "SDSS",
-      "family": "SDSS",
-      "date": "2026-07-30",
-      "date_display": "30 Jul 2026",
-      "summary": "I pulled about 400 SDSS stars that have measured stellar parameters from the SEGUE Stellar Parameter Pipeline (the sppParams table) and checked whether their metallicity (how much of their mass is elements heavier than hydrogen and helium \u2014 astronomers lump all of that together a",
-      "question": "I pulled about 400 SDSS stars that have measured stellar parameters from the SEGUE Stellar Parameter Pipeline (the sppParams table) and checked whether their metallicity (how much of their mass is elements heavier than hydrogen and helium \u2014 astronomers lump all of that together a",
-      "notebook": "sdss/2026-07-30-metallicity-vs-position/notebook.ipynb",
-      "results": [],
-      "validation": "See the notebook and README for the archive query and interpretation.",
-      "tags": [
-        "SDSS",
-        "real data"
-      ],
-      "dense": false,
-      "hero_local": "data/images/2026-07-30-metallicity-vs-position.png",
-      "figures_local": [
-        "data/images/2026-07-30-metallicity-vs-position.png"
-      ]
-    },
-    {
-      "id": "2026-07-30-transit-depth-vs-radius",
-      "title": "Does a bigger planet really block more starlight?",
-      "archive": "Exoplanets",
-      "family": "Exoplanets",
-      "date": "2026-07-30",
-      "date_display": "30 Jul 2026",
-      "summary": "When a planet passes in front of its star (a transit), it blocks a small fraction of the star's light \u2014 the transit depth. Simple geometry says a bigger planet should block roughly its own cross-sectional area's worth of light, so I pulled real transit depth and radius measuremen",
-      "question": "When a planet passes in front of its star (a transit), it blocks a small fraction of the star's light \u2014 the transit depth. Simple geometry says a bigger planet should block roughly its own cross-sectional area's worth of light, so I pulled real transit depth and radius measuremen",
-      "notebook": "exoplanet-archive/2026-07-30-transit-depth-vs-radius/notebook.ipynb",
-      "results": [],
-      "validation": "See the notebook and README for the archive query and interpretation.",
-      "tags": [
-        "Exoplanets",
-        "real data"
-      ],
-      "dense": false,
-      "hero_local": "data/images/2026-07-30-transit-depth-vs-radius.png",
-      "figures_local": [
-        "data/images/2026-07-30-transit-depth-vs-radius.png"
-      ]
-    },
-    {
-      "id": "2026-07-30-qso-vs-galaxy-colors",
-      "title": "Can you tell quasars from galaxies just by their colors?",
-      "archive": "SDSS",
-      "family": "SDSS",
-      "date": "2026-07-30",
-      "date_display": "30 Jul 2026",
-      "summary": "Before anyone takes a spectrum of anything, SDSS's photometric survey has already measured every object's brightness through five broad filters (u, g, r, i, z \u2014 running from ultraviolet to near-infrared). I wanted to check whether a simple color-color plot, using just two of thos",
-      "question": "Before anyone takes a spectrum of anything, SDSS's photometric survey has already measured every object's brightness through five broad filters (u, g, r, i, z \u2014 running from ultraviolet to near-infrared). I wanted to check whether a simple color-color plot, using just two of thos",
-      "notebook": "sdss/2026-07-30-qso-vs-galaxy-colors/notebook.ipynb",
-      "results": [],
-      "validation": "See the notebook and README for the archive query and interpretation.",
-      "tags": [
-        "SDSS",
-        "real data"
-      ],
-      "dense": false,
-      "hero_local": "data/images/2026-07-30-qso-vs-galaxy-colors.png",
-      "figures_local": [
-        "data/images/2026-07-30-qso-vs-galaxy-colors.png"
-      ]
-    },
-    {
-      "id": "2026-07-30-hr-diagram-pleiades",
-      "title": "Building a real Hertzsprung-Russell diagram for the Pleiades",
-      "archive": "Gaia",
-      "family": "Gaia",
-      "date": "2026-07-30",
-      "date_display": "30 Jul 2026",
-      "summary": "I pulled real Gaia astrometry and photometry for stars in the direction of the Pleiades, cut the sample down to likely cluster members using a parallax range around the cluster's known distance (about 136 parsecs), and plotted an HR diagram: each star's color against its brightne",
-      "question": "I pulled real Gaia astrometry and photometry for stars in the direction of the Pleiades, cut the sample down to likely cluster members using a parallax range around the cluster's known distance (about 136 parsecs), and plotted an HR diagram: each star's color against its brightne",
-      "notebook": "gaia/2026-07-30-hr-diagram-pleiades/notebook.ipynb",
-      "results": [],
-      "validation": "See the notebook and README for the archive query and interpretation.",
-      "tags": [
-        "Gaia",
-        "real data"
-      ],
-      "dense": false,
-      "hero_local": "data/images/2026-07-30-hr-diagram-pleiades.png",
-      "figures_local": [
-        "data/images/2026-07-30-hr-diagram-pleiades.png"
-      ]
-    },
-    {
-      "id": "2026-07-30-hr-diagram-ngc188",
-      "title": "An HR diagram for NGC 188, one of the oldest nearby open clusters",
-      "archive": "Gaia",
-      "family": "Gaia",
-      "date": "2026-07-30",
-      "date_display": "30 Jul 2026",
-      "summary": "NGC 188 is an open star cluster that's unusually old for its type \u2014 roughly 6-7 billion years, far older than the Pleiades or Hyades I looked at earlier in this folder \u2014 which makes it a good target for seeing how an HR diagram (brightness plotted against color) changes shape as ",
-      "question": "NGC 188 is an open star cluster that's unusually old for its type \u2014 roughly 6-7 billion years, far older than the Pleiades or Hyades I looked at earlier in this folder \u2014 which makes it a good target for seeing how an HR diagram (brightness plotted against color) changes shape as ",
-      "notebook": "gaia/2026-07-30-hr-diagram-ngc188/notebook.ipynb",
-      "results": [],
-      "validation": "See the notebook and README for the archive query and interpretation.",
-      "tags": [
-        "Gaia",
-        "real data"
-      ],
-      "dense": false,
-      "hero_local": "data/images/2026-07-30-hr-diagram-ngc188.png",
-      "figures_local": [
-        "data/images/2026-07-30-hr-diagram-ngc188.png"
-      ]
-    },
-    {
-      "id": "2026-07-30-galaxy-redshift-slice",
-      "title": "A slice through the galaxy redshift survey -- SDSS's own \"cone diagram\"",
-      "archive": "SDSS",
-      "family": "SDSS",
-      "date": "2026-07-30",
-      "date_display": "30 Jul 2026",
-      "summary": "I wanted to make my own small version of one of cosmology's most iconic plots: the \"cone diagram,\" where you take a thin wedge of sky and plot every galaxy in it by redshift (a stand-in for distance) and sky position, and the large-scale structure of the universe shows up as clum",
-      "question": "I wanted to make my own small version of one of cosmology's most iconic plots: the \"cone diagram,\" where you take a thin wedge of sky and plot every galaxy in it by redshift (a stand-in for distance) and sky position, and the large-scale structure of the universe shows up as clum",
-      "notebook": "sdss/2026-07-30-galaxy-redshift-slice/notebook.ipynb",
-      "results": [],
-      "validation": "See the notebook and README for the archive query and interpretation.",
-      "tags": [
-        "SDSS",
-        "real data"
-      ],
-      "dense": false,
-      "hero_local": "data/images/2026-07-30-galaxy-redshift-slice.png",
-      "figures_local": [
-        "data/images/2026-07-30-galaxy-redshift-slice.png"
-      ]
-    },
-    {
-      "id": "2026-07-30-hst-cutout-m87",
-      "title": "A real Hubble image of M87, the galaxy with the famous black hole jet",
-      "archive": "MAST",
-      "family": "MAST",
-      "date": "2026-07-30",
-      "date_display": "30 Jul 2026",
-      "summary": "M87 is a giant elliptical galaxy at the center of the Virgo Cluster, famous for the relativistic jet of material blasting out of its central supermassive black hole \u2014 the same black hole the Event Horizon Telescope imaged directly in 2019. I queried MAST for real Hubble WFC3/UVIS",
-      "question": "M87 is a giant elliptical galaxy at the center of the Virgo Cluster, famous for the relativistic jet of material blasting out of its central supermassive black hole \u2014 the same black hole the Event Horizon Telescope imaged directly in 2019. I queried MAST for real Hubble WFC3/UVIS",
-      "notebook": "mast/2026-07-30-hst-cutout-m87/notebook.ipynb",
-      "results": [],
-      "validation": "See the notebook and README for the archive query and interpretation.",
-      "tags": [
-        "MAST",
-        "real data"
-      ],
-      "dense": false,
-      "hero_local": "data/images/2026-07-30-hst-cutout-m87.jpg",
-      "figures_local": [
-        "data/images/2026-07-30-hst-cutout-m87.jpg"
+        "data/images/2026-07-30-eccentricity-distribution.png",
+        "data/images/2026-07-30-eccentricity-distribution--figure-2.png"
       ]
     },
     {
       "id": "2026-07-30-rv-curve-51-pegasi-b",
-      "title": "51 Pegasi b: the first exoplanet found around a sun-like star",
-      "archive": "Exoplanets",
-      "family": "Exoplanets",
+      "title": "51 Peg b Keplerian radial-velocity audit",
+      "archive": "NASA Exoplanet Archive",
       "date": "2026-07-30",
-      "date_display": "30 Jul 2026",
-      "summary": "51 Pegasi b was the first exoplanet ever confirmed orbiting a normal, sun-like star, discovered in 1995 using the radial velocity method \u2014 watching a star's own light wobble in wavelength as an unseen planet's gravity tugs it back and forth. I pulled its real, current best-fit or",
-      "question": "51 Pegasi b was the first exoplanet ever confirmed orbiting a normal, sun-like star, discovered in 1995 using the radial velocity method \u2014 watching a star's own light wobble in wavelength as an unseen planet's gravity tugs it back and forth. I pulled its real, current best-fit or",
-      "notebook": "exoplanet-archive/2026-07-30-rv-curve-51-pegasi-b/notebook.ipynb",
-      "results": [],
-      "validation": "See the notebook and README for the archive query and interpretation.",
-      "tags": [
-        "Exoplanets",
-        "real data"
+      "question": "What does the archive orbital solution predict, and how different is it from the old circular sketch?",
+      "sample_size": 1,
+      "results": [
+        "period 4.230797 d, eccentricity 0.0063, adopted K 55.77 m/s",
+        "Keplerian-versus-circular RMS difference 0.249 m/s",
+        "one archive solution reconstructed; this is not a fit to time-series RV observations"
       ],
-      "dense": false,
+      "validation": "The exact archive row is retained, eccentric and circular models are compared, and inclination sensitivity is exposed.",
+      "notebook": "exoplanet-archive/2026-07-30-rv-curve-51-pegasi-b/notebook.ipynb",
+      "hero": "exoplanet-archive/2026-07-30-rv-curve-51-pegasi-b/rv_keplerian_comparison.png",
+      "figures": [
+        "exoplanet-archive/2026-07-30-rv-curve-51-pegasi-b/rv_keplerian_comparison.png",
+        "exoplanet-archive/2026-07-30-rv-curve-51-pegasi-b/rv_model_sensitivity.png"
+      ],
+      "research_level": "Reproduction",
+      "claim_type": "Archive-orbit reconstruction",
+      "provenance": [
+        "NASA Exoplanet Archive composite row",
+        "target 51 Peg b",
+        "semi-amplitude falls back to the value printed by the original executed notebook when absent from preserved table"
+      ],
+      "artifacts": [
+        "data/audit_batches4_7/exoplanet_composite_archive.csv",
+        "exoplanet-archive/2026-07-30-rv-curve-51-pegasi-b/rv_phase_model.csv",
+        "exoplanet-archive/2026-07-30-rv-curve-51-pegasi-b/inclination_mass_stress.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "Unique archive target",
+          "status": "pass"
+        },
+        {
+          "name": "Kepler equation solved",
+          "status": "pass"
+        },
+        {
+          "name": "Fit to observed RV epochs",
+          "status": "not attempted"
+        }
+      ],
+      "limitations": [
+        "phase zero and argument of periastron are arbitrary",
+        "no observation timestamps or instrumental offsets are fitted",
+        "composite values may come from different references"
+      ],
+      "tags": [
+        "exoplanets",
+        "radial velocity",
+        "51 Peg b",
+        "orbit model"
+      ],
+      "family": "Exoplanets",
+      "date_display": "30 Jul 2026",
+      "summary": "What does the archive orbital solution predict, and how different is it from the old circular sketch?",
+      "sample_size_display": "1 samples",
+      "dense": true,
       "hero_local": "data/images/2026-07-30-rv-curve-51-pegasi-b.png",
       "figures_local": [
-        "data/images/2026-07-30-rv-curve-51-pegasi-b.png"
+        "data/images/2026-07-30-rv-curve-51-pegasi-b.png",
+        "data/images/2026-07-30-rv-curve-51-pegasi-b--figure-2.png"
       ]
     }
   ]

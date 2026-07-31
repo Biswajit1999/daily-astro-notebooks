@@ -1,0 +1,55 @@
+{
+  "id": "2026-07-30-eccentricity-distribution",
+  "title": "Exoplanet eccentricity recording audit",
+  "archive": "NASA Exoplanet Archive",
+  "date": "2026-07-30",
+  "question": "How strongly does the recorded eccentricity distribution differ between short- and long-period planets?",
+  "sample_size": 5233,
+  "results": [
+    "5,233 unique planets with recorded eccentricity",
+    "long-minus-short median contrast 0.160; bootstrap 95% 0.149\u20130.180",
+    "58.8% of selected rows record exactly zero"
+  ],
+  "validation": "Median contrast is bootstrapped and high-eccentricity fraction is swept across four thresholds.",
+  "notebook": "exoplanet-archive/2026-07-30-eccentricity-distribution/notebook.ipynb",
+  "hero": "exoplanet-archive/2026-07-30-eccentricity-distribution/eccentricity_period_groups.png",
+  "figures": [
+    "exoplanet-archive/2026-07-30-eccentricity-distribution/eccentricity_period_groups.png",
+    "exoplanet-archive/2026-07-30-eccentricity-distribution/eccentricity_bootstrap_stress.png"
+  ],
+  "research_level": "Validated",
+  "claim_type": "Period-stratified distribution comparison",
+  "provenance": [
+    "NASA Exoplanet Archive pscomppars preserved query",
+    "unique planet rows with eccentricity and period"
+  ],
+  "artifacts": [
+    "data/audit_batches4_7/exoplanet_composite_archive.csv",
+    "exoplanet-archive/2026-07-30-eccentricity-distribution/eccentricity_threshold_stress.csv"
+  ],
+  "quality_checks": [
+    {
+      "name": "Physical eccentricity bounds",
+      "status": "pass"
+    },
+    {
+      "name": "Period stratification",
+      "status": "pass"
+    },
+    {
+      "name": "Threshold stress",
+      "status": "pass"
+    }
+  ],
+  "limitations": [
+    "exact zeros can be fixed assumptions rather than measurements",
+    "uncertainty fields are incomplete",
+    "period groups mix planet masses and methods"
+  ],
+  "tags": [
+    "exoplanets",
+    "eccentricity",
+    "tidal evolution",
+    "archive conventions"
+  ]
+}

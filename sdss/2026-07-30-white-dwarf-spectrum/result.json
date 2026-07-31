@@ -1,0 +1,57 @@
+{
+  "id": "2026-07-30-white-dwarf-spectrum",
+  "title": "SDSS white-dwarf Balmer-profile legacy audit",
+  "archive": "SDSS legacy spectrum plot",
+  "date": "2026-07-30",
+  "question": "Are the broad Balmer depressions visible robustly in the preserved spectrum plot?",
+  "sample_size": 895,
+  "results": [
+    "3 of four marked Balmer depressions exceed 8% in the digitized display",
+    "detected: H\u03b3, H\u03b2, H\u03b1",
+    "broad absorption is consistent with the pipeline WD label, but atmospheric parameters are not fitted"
+  ],
+  "validation": "Relative depths are recomputed across four line-window widths.",
+  "notebook": "sdss/2026-07-30-white-dwarf-spectrum/notebook.ipynb",
+  "hero": "sdss/2026-07-30-white-dwarf-spectrum/wd_balmer_legacy_audit.png",
+  "figures": [
+    "sdss/2026-07-30-white-dwarf-spectrum/wd_balmer_legacy_audit.png",
+    "sdss/2026-07-30-white-dwarf-spectrum/wd_balmer_window_stress.png"
+  ],
+  "research_level": "Exploration",
+  "claim_type": "Digitized spectral-feature audit",
+  "provenance": [
+    "Original SDSS position and pipeline WD subclass",
+    "preserved wd_spectrum.png",
+    "approximately digitized plotted curve"
+  ],
+  "artifacts": [
+    "data/audit_batches4_7/sdss_white_dwarf_plot_digitized.csv",
+    "sdss/2026-07-30-white-dwarf-spectrum/wd_balmer_display_depths.csv",
+    "sdss/2026-07-30-white-dwarf-spectrum/wd_balmer_window_stress.csv"
+  ],
+  "quality_checks": [
+    {
+      "name": "Pipeline subclass WD retained",
+      "status": "pass"
+    },
+    {
+      "name": "Balmer window stress",
+      "status": "pass"
+    },
+    {
+      "name": "Calibrated FITS recovery",
+      "status": "not available"
+    }
+  ],
+  "limitations": [
+    "plot digitization loses errors and spectral resolution",
+    "continuum placement is approximate",
+    "temperature and gravity require atmosphere-model fitting"
+  ],
+  "tags": [
+    "SDSS",
+    "white dwarf",
+    "Balmer lines",
+    "legacy audit"
+  ]
+}

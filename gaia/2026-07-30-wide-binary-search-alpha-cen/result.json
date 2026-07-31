@@ -1,0 +1,55 @@
+{
+  "id": "2026-07-30-wide-binary-search-alpha-cen",
+  "title": "Why the Alpha Centauri Gaia cone search returned zero",
+  "archive": "Gaia DR3 + SIMBAD geometry",
+  "date": "2026-07-30",
+  "question": "Was the original zero-row result a companion constraint or a query-geometry/completeness result?",
+  "sample_size": 0,
+  "results": [
+    "original 2\u00b0 Gaia DR3 cone with parallax >50 mas returned zero rows",
+    "Proxima lies 2.21\u00b0 from the chosen centre and is outside that cone",
+    "the zero rows therefore do not constrain wide companions"
+  ],
+  "validation": "Search radius is swept through the geometric inclusion boundary and compared with independent SIMBAD astrometry.",
+  "notebook": "gaia/2026-07-30-wide-binary-search-alpha-cen/notebook.ipynb",
+  "hero": "gaia/2026-07-30-wide-binary-search-alpha-cen/alpha_cen_query_geometry.png",
+  "figures": [
+    "gaia/2026-07-30-wide-binary-search-alpha-cen/alpha_cen_query_geometry.png",
+    "gaia/2026-07-30-wide-binary-search-alpha-cen/alpha_cen_completeness_context.png"
+  ],
+  "research_level": "Validated",
+  "claim_type": "Negative query audit",
+  "provenance": [
+    "Original Gaia DR3 query and zero-row output",
+    "SIMBAD coordinates and proper motion for Proxima Centauri",
+    "Gaia bright/high-proper-motion completeness context"
+  ],
+  "artifacts": [
+    "gaia/2026-07-30-wide-binary-search-alpha-cen/alpha_cen_radius_geometry.csv"
+  ],
+  "quality_checks": [
+    {
+      "name": "Original zero result retained",
+      "status": "pass"
+    },
+    {
+      "name": "Cone geometry recomputed",
+      "status": "pass"
+    },
+    {
+      "name": "Companion completeness claim",
+      "status": "rejected"
+    }
+  ],
+  "limitations": [
+    "cone centre was approximate",
+    "Alpha Centauri A/B are exceptionally bright",
+    "geometry alone does not establish Gaia catalogue inclusion"
+  ],
+  "tags": [
+    "Gaia",
+    "Alpha Centauri",
+    "null result",
+    "query audit"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "2026-07-30-galaxy-redshift-slice",
+  "title": "SDSS redshift-slice structure audit",
+  "archive": "SDSS DR18",
+  "date": "2026-07-30",
+  "question": "Which redshift concentrations are visible in a preserved 12,000-galaxy SDSS emission-line sample?",
+  "sample_size": 12000,
+  "results": [
+    "12,000 unique emission-line galaxies in 0.001<z<0.30",
+    "strongest 0.005-wide concentration at z\u22480.077 with local excess 4.7 sigma",
+    "RA-quartile strongest bins span 0.028\u20130.077"
+  ],
+  "validation": "Redshift concentration is compared with a smoothed baseline and jackknifed across four RA intervals.",
+  "notebook": "sdss/2026-07-30-galaxy-redshift-slice/notebook.ipynb",
+  "hero": "sdss/2026-07-30-galaxy-redshift-slice/sdss_redshift_slice_audit.png",
+  "figures": [
+    "sdss/2026-07-30-galaxy-redshift-slice/sdss_redshift_slice_audit.png",
+    "sdss/2026-07-30-galaxy-redshift-slice/sdss_redshift_jackknife.png"
+  ],
+  "research_level": "Validated",
+  "claim_type": "Redshift concentration measurement",
+  "provenance": [
+    "SDSS DR18 SQL result preserved by BPT notebook",
+    "12,000 spectra with coordinates, redshifts, and line measurements"
+  ],
+  "artifacts": [
+    "data/audit_batches4_7/sdss_emission_galaxies.csv",
+    "sdss/2026-07-30-galaxy-redshift-slice/sdss_redshift_concentrations.csv"
+  ],
+  "quality_checks": [
+    {
+      "name": "Unique spectra",
+      "status": "pass"
+    },
+    {
+      "name": "Redshift range explicit",
+      "status": "pass"
+    },
+    {
+      "name": "RA jackknife",
+      "status": "pass"
+    }
+  ],
+  "limitations": [
+    "z is used as a radial proxy rather than a cosmological distance",
+    "sample requires emission-line measurements",
+    "local excess ignores correlated large-scale-structure covariance"
+  ],
+  "tags": [
+    "SDSS",
+    "galaxies",
+    "large-scale structure",
+    "redshift"
+  ]
+}

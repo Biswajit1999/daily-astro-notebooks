@@ -1,0 +1,55 @@
+{
+  "id": "2026-07-30-transit-depth-vs-radius",
+  "title": "Geometric transit-depth scaling audit",
+  "archive": "NASA Exoplanet Archive",
+  "date": "2026-07-30",
+  "question": "How much of the expected transit-depth variation is explained by planet radius after accounting for host-star radius?",
+  "sample_size": 4711,
+  "results": [
+    "4,711 unique planets with planet and host radii",
+    "archive-sample geometric slope 1.61; bootstrap 68% 1.59\u20131.62",
+    "slope approaches the area-law value 2 when host radius is restricted"
+  ],
+  "validation": "The relation is recomputed in four host-radius intervals and bootstrapped.",
+  "notebook": "exoplanet-archive/2026-07-30-transit-depth-vs-radius/notebook.ipynb",
+  "hero": "exoplanet-archive/2026-07-30-transit-depth-vs-radius/transit_depth_geometry_audit.png",
+  "figures": [
+    "exoplanet-archive/2026-07-30-transit-depth-vs-radius/transit_depth_geometry_audit.png",
+    "exoplanet-archive/2026-07-30-transit-depth-vs-radius/transit_depth_scaling_stress.png"
+  ],
+  "research_level": "Validated",
+  "claim_type": "Geometric scaling measurement",
+  "provenance": [
+    "NASA Exoplanet Archive pscomppars preserved query",
+    "planet radius and stellar radius used to calculate geometric depth"
+  ],
+  "artifacts": [
+    "data/audit_batches4_7/exoplanet_transiting_archive.csv",
+    "exoplanet-archive/2026-07-30-transit-depth-vs-radius/transit_depth_host_radius_stress.csv"
+  ],
+  "quality_checks": [
+    {
+      "name": "Unique planets",
+      "status": "pass"
+    },
+    {
+      "name": "Physical unit conversion",
+      "status": "pass"
+    },
+    {
+      "name": "Host-radius stress test",
+      "status": "pass"
+    }
+  ],
+  "limitations": [
+    "calculated geometric depths are not fitted observed depths",
+    "limb darkening and impact parameter are omitted",
+    "archive sample is heterogeneous"
+  ],
+  "tags": [
+    "exoplanets",
+    "transits",
+    "geometry",
+    "selection effects"
+  ]
+}

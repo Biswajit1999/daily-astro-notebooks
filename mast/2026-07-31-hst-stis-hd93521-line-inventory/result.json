@@ -18,5 +18,39 @@
     "HST",
     "STIS",
     "chemistry"
+  ],
+  "figures": [
+    "mast/2026-07-31-hst-stis-hd93521-line-inventory/hd93521_normalised_spectrum.png",
+    "mast/2026-07-31-hst-stis-hd93521-line-inventory/hd93521_line_fits.png"
+  ],
+  "research_level": "Validated",
+  "claim_type": "Spectral-feature inventory",
+  "provenance": [
+    "MAST HST/STIS o49x13010_sx1.fits",
+    "pipeline wavelength, flux and error arrays",
+    "laboratory H/He wavelengths"
+  ],
+  "artifacts": [
+    "mast/2026-07-31-hst-stis-hd93521-line-inventory/spectrum_subset.csv",
+    "mast/2026-07-31-hst-stis-hd93521-line-inventory/line_measurements.csv"
+  ],
+  "quality_checks": [
+    {
+      "name": "five laboratory-centre checks",
+      "status": "pass"
+    },
+    {
+      "name": "local continuum fits",
+      "status": "pass"
+    },
+    {
+      "name": "chemical abundance inference",
+      "status": "not attempted"
+    }
+  ],
+  "limitations": [
+    "broad blends and rapid rotation complicate centroids",
+    "single-epoch features can be variable",
+    "line identification alone is not an abundance analysis"
   ]
 }

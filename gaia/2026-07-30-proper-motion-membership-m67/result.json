@@ -1,0 +1,56 @@
+{
+  "id": "2026-07-30-proper-motion-membership-m67",
+  "title": "M67 proper-motion legacy-output audit",
+  "archive": "Gaia DR3 legacy output",
+  "date": "2026-07-30",
+  "question": "Does the preserved membership plot centre on the stated M67 motion, and what information is missing?",
+  "sample_size": 624,
+  "results": [
+    "original selection retained 612 of 2,000 field sources",
+    "digitized rendered-pixel centroid (-10.85, -2.83) mas/yr",
+    "centroid lies 0.09 mas/yr from the stated selection centre"
+  ],
+  "validation": "Centroid is repeated across four independent x-pixel phases; no intrinsic dispersion is inferred.",
+  "notebook": "gaia/2026-07-30-proper-motion-membership-m67/notebook.ipynb",
+  "hero": "gaia/2026-07-30-proper-motion-membership-m67/m67_legacy_motion_audit.png",
+  "figures": [
+    "gaia/2026-07-30-proper-motion-membership-m67/m67_legacy_motion_audit.png",
+    "gaia/2026-07-30-proper-motion-membership-m67/m67_digitization_stress.png"
+  ],
+  "research_level": "Exploration",
+  "claim_type": "Digitized membership-display audit",
+  "provenance": [
+    "Original Gaia DR3 cone query printed in notebook",
+    "preserved m67_pm_members.png",
+    "original output counts 2,000 field and 612 selected"
+  ],
+  "artifacts": [
+    "data/audit_batches4_7/m67_member_plot_digitized_pixels.csv",
+    "gaia/2026-07-30-proper-motion-membership-m67/m67_digitization_stress.csv"
+  ],
+  "quality_checks": [
+    {
+      "name": "Original query and counts retained",
+      "status": "pass"
+    },
+    {
+      "name": "Display centroid cross-check",
+      "status": "pass"
+    },
+    {
+      "name": "Source-level covariance",
+      "status": "not available"
+    }
+  ],
+  "limitations": [
+    "catalogue rows were not saved",
+    "rendered pixels are correlated and overlap",
+    "selection used a fixed circular motion cut without parallax"
+  ],
+  "tags": [
+    "Gaia",
+    "M67",
+    "proper motion",
+    "legacy audit"
+  ]
+}

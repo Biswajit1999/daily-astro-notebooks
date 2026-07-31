@@ -18,5 +18,40 @@
     "population",
     "transits",
     "radius valley"
+  ],
+  "figures": [
+    "exoplanet-archive/2026-07-31-exoplanet-radius-valley/radius_valley_period.png",
+    "exoplanet-archive/2026-07-31-exoplanet-radius-valley/radius_valley_kde.png"
+  ],
+  "research_level": "Validated",
+  "claim_type": "Catalogue radius-deficit measurement",
+  "provenance": [
+    "NASA Exoplanet Archive confirmed transiting planets query",
+    "2,070 selected planets with radius and period",
+    "saved query table and analysis subset"
+  ],
+  "artifacts": [
+    "exoplanet-archive/2026-07-31-exoplanet-radius-valley/confirmed_transiting_planets.csv",
+    "exoplanet-archive/2026-07-31-exoplanet-radius-valley/radius_valley_sample.csv",
+    "exoplanet-archive/2026-07-31-exoplanet-radius-valley/period_binned_valleys.csv"
+  ],
+  "quality_checks": [
+    {
+      "name": "bootstrap minimum interval",
+      "status": "pass"
+    },
+    {
+      "name": "period-binned slope",
+      "status": "pass"
+    },
+    {
+      "name": "survey completeness correction",
+      "status": "not attempted"
+    }
+  ],
+  "limitations": [
+    "confirmed-planet catalogue combines surveys with different selection functions",
+    "planet-radius uncertainties are not propagated per object",
+    "the descriptive KDE minimum is bandwidth dependent"
   ]
 }

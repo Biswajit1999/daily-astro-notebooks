@@ -1,0 +1,56 @@
+{
+  "id": "2026-07-30-hst-cutout-m87",
+  "title": "HST M87 preview field-placement audit",
+  "archive": "MAST \u00b7 HST WFC3 preview",
+  "date": "2026-07-30",
+  "question": "Can the selected HST preview support morphology or jet claims when M87 lies at the frame boundary?",
+  "sample_size": 8706420,
+  "results": [
+    "official preview contains 8,706,420 display pixels",
+    "M87 emission reaches the bottom frame boundary at all tested thresholds",
+    "maximum bright bottom-edge fraction 12.5%; morphology and jet measurements rejected"
+  ],
+  "validation": "Centroid, axis ratio, and edge contact are swept across five thresholds and five crop trims.",
+  "notebook": "mast/2026-07-30-hst-cutout-m87/notebook.ipynb",
+  "hero": "mast/2026-07-30-hst-cutout-m87/m87_preview_boundary_audit.png",
+  "figures": [
+    "mast/2026-07-30-hst-cutout-m87/m87_preview_boundary_audit.png",
+    "mast/2026-07-30-hst-cutout-m87/m87_preview_crop_stress.png"
+  ],
+  "research_level": "Exploration",
+  "claim_type": "Display-image completeness audit",
+  "provenance": [
+    "MAST HST WFC3 preview id5o27qbq_raw.jpg",
+    "original download output retained in executed notebook"
+  ],
+  "artifacts": [
+    "mast/2026-07-30-hst-cutout-m87/m87.jpg",
+    "mast/2026-07-30-hst-cutout-m87/m87_preview_threshold_audit.csv",
+    "mast/2026-07-30-hst-cutout-m87/m87_preview_crop_stress.csv"
+  ],
+  "quality_checks": [
+    {
+      "name": "Official preview provenance",
+      "status": "pass"
+    },
+    {
+      "name": "Boundary contact test",
+      "status": "fail for morphology"
+    },
+    {
+      "name": "Calibrated photometry",
+      "status": "not attempted"
+    }
+  ],
+  "limitations": [
+    "M87 is truncated by the frame boundary",
+    "preview stretch and detector mosaic are not calibrated surface brightness",
+    "jet-scale science requires a target-centred calibrated FITS product"
+  ],
+  "tags": [
+    "HST",
+    "M87",
+    "image audit",
+    "field mismatch"
+  ]
+}
