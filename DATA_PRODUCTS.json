@@ -414,6 +414,17 @@
       ]
     },
     {
+      "id": "2026-08-01-uncover-highz-line-diagnostics",
+      "archive": "UNCOVER / MAST",
+      "research_level": "Spectroscopic audit",
+      "claim_type": "Public line-measurement inventory",
+      "provenance": [
+        "UNCOVER DR4.1 public release; Price et al. (2025)",
+        "Solid/secure selection: flag_zspec_qual in {2,3}",
+        "Frozen derivative checksums: data/uncover_dr4_spectroscopy/manifest.json"
+      ]
+    },
+    {
       "id": "2026-08-01-uncover-lensing-brightness",
       "archive": "UNCOVER / MAST",
       "research_level": "Exploration",
@@ -436,6 +447,39 @@
       ]
     },
     {
+      "id": "2026-08-01-uncover-nirspec-spectral-atlas",
+      "archive": "UNCOVER / MAST",
+      "research_level": "Spectroscopic audit",
+      "claim_type": "Multi-telescope data atlas",
+      "provenance": [
+        "UNCOVER DR4.1 public release; Price et al. (2025)",
+        "Solid/secure selection: flag_zspec_qual in {2,3}",
+        "Frozen derivative checksums: data/uncover_dr4_spectroscopy/manifest.json"
+      ]
+    },
+    {
+      "id": "2026-08-01-uncover-photz-specz-validation",
+      "archive": "UNCOVER / MAST",
+      "research_level": "Spectroscopic audit",
+      "claim_type": "Matched-sample redshift validation",
+      "provenance": [
+        "UNCOVER DR4.1 public release; Price et al. (2025)",
+        "Solid/secure selection: flag_zspec_qual in {2,3}",
+        "Frozen derivative checksums: data/uncover_dr4_spectroscopy/manifest.json"
+      ]
+    },
+    {
+      "id": "2026-08-01-uncover-redshift-interval-calibration",
+      "archive": "UNCOVER / MAST",
+      "research_level": "Spectroscopic audit",
+      "claim_type": "Photometric interval calibration audit",
+      "provenance": [
+        "UNCOVER DR4.1 public release; Price et al. (2025)",
+        "Solid/secure selection: flag_zspec_qual in {2,3}",
+        "Frozen derivative checksums: data/uncover_dr4_spectroscopy/manifest.json"
+      ]
+    },
+    {
       "id": "2026-08-01-uncover-size-redshift",
       "archive": "UNCOVER / MAST",
       "research_level": "Exploration",
@@ -455,6 +499,17 @@
         "UNCOVER DR3 SUPER catalog, Zenodo DOI 10.5281/zenodo.11059273",
         "Upstream MD5 baeb44ce166c920050ceb93220b12e05",
         "Selection: use_phot=1, flag_eazy=1, 6 <= z_phot < 15"
+      ]
+    },
+    {
+      "id": "2026-08-01-uncover-spectroscopic-evidence",
+      "archive": "UNCOVER / MAST",
+      "research_level": "Spectroscopic audit",
+      "claim_type": "Release evidence-flag audit",
+      "provenance": [
+        "UNCOVER DR4.1 public release; Price et al. (2025)",
+        "Solid/secure selection: flag_zspec_qual in {2,3}",
+        "Frozen derivative checksums: data/uncover_dr4_spectroscopy/manifest.json"
       ]
     },
     {
@@ -977,6 +1032,18 @@
       "sha256": "ec54ea73aba7b819a3cf3b8419e7c020a4598f30570a2e1f332468b1e19b7025"
     },
     {
+      "path": "mast/2026-08-01-uncover-highz-line-diagnostics/highz_line_detection_counts.csv",
+      "notebook_id": "2026-08-01-uncover-highz-line-diagnostics",
+      "bytes": 974,
+      "sha256": "b8bf522e3e5688a204d6562333b81a9e804a4756db3405ba20e6e822142d36ae"
+    },
+    {
+      "path": "mast/2026-08-01-uncover-highz-line-diagnostics/oiii5007_lensing_scale.csv",
+      "notebook_id": "2026-08-01-uncover-highz-line-diagnostics",
+      "bytes": 4037,
+      "sha256": "a2ebbbf943111eab7c7ef5c2b7b6b8b5cf926f9a9c93288a62896c94a2439494"
+    },
+    {
       "path": "mast/2026-08-01-uncover-lensing-brightness/magnification_cap_sensitivity.csv",
       "notebook_id": "2026-08-01-uncover-lensing-brightness",
       "bytes": 297,
@@ -1001,6 +1068,30 @@
       "sha256": "b933f5cdae379e9cf5005ebc464b04a0428ed58b46bfecfc8a742fafd325f800"
     },
     {
+      "path": "mast/2026-08-01-uncover-nirspec-spectral-atlas/spectral_atlas_sources.csv",
+      "notebook_id": "2026-08-01-uncover-nirspec-spectral-atlas",
+      "bytes": 352,
+      "sha256": "0b2a724495a8c21fc6afb51e06c6c73339a99a50cf2f6efc75869a59ba89030e"
+    },
+    {
+      "path": "mast/2026-08-01-uncover-nirspec-spectral-atlas/hst_rgb_channels.csv",
+      "notebook_id": "2026-08-01-uncover-nirspec-spectral-atlas",
+      "bytes": 45,
+      "sha256": "b2d0316c39ffa32ff9ad59da079f0147d5130c54dba218237a574d693ed7f264"
+    },
+    {
+      "path": "mast/2026-08-01-uncover-photz-specz-validation/photz_specz_residuals.csv",
+      "notebook_id": "2026-08-01-uncover-photz-specz-validation",
+      "bytes": 3427,
+      "sha256": "e387a906b928b1845fc86347b4a050031bfac07f6712646a62048b8dc8d99850"
+    },
+    {
+      "path": "mast/2026-08-01-uncover-redshift-interval-calibration/coverage_curve.csv",
+      "notebook_id": "2026-08-01-uncover-redshift-interval-calibration",
+      "bytes": 968,
+      "sha256": "10333438a89aaa8fb7f690f565b1385cddd7669c6ed2ea2d0ca5694054c0a80f"
+    },
+    {
       "path": "mast/2026-08-01-uncover-size-redshift/size_proxy_by_redshift.csv",
       "notebook_id": "2026-08-01-uncover-size-redshift",
       "bytes": 379,
@@ -1023,6 +1114,18 @@
       "notebook_id": "2026-08-01-uncover-spatial-selection",
       "bytes": 514,
       "sha256": "67a790d6a16cccb066d611485bc4a0fd798809ce9d1ea49812e0285f247eaff1"
+    },
+    {
+      "path": "mast/2026-08-01-uncover-spectroscopic-evidence/spectroscopic_evidence_summary.csv",
+      "notebook_id": "2026-08-01-uncover-spectroscopic-evidence",
+      "bytes": 317,
+      "sha256": "a1a0e510a760d721951f473f6c2e76c326fb509773f17b9907cc126bd7cc7166"
+    },
+    {
+      "path": "mast/2026-08-01-uncover-spectroscopic-evidence/background_flag_stress.csv",
+      "notebook_id": "2026-08-01-uncover-spectroscopic-evidence",
+      "bytes": 98,
+      "sha256": "1ea63f5ab158c695ff220d51da1ef4625700e1fe3fb90a6f357ec9d885e88e40"
     },
     {
       "path": "sdss/2026-07-30-emission-line-measurement/galaxy_sdss_spectrum.csv",

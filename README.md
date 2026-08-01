@@ -48,7 +48,7 @@ Each dated subfolder contains:
 
 ## What's here so far
 
-**60 notebooks, 4 archives, 3 observing-log dates — all 60 meet the deeper analysis standard, including 41 full scientific audits.**
+**65 notebooks, 4 archives, 3 observing-log dates — all 65 meet the deeper analysis standard, including 46 full scientific audits.**
 
 The [dashboard](https://biswajit1999.github.io/daily-astro-notebooks/) is built from the repository itself. A new notebook appears there automatically after it is merged into `master` and the Pages workflow completes. Motion for React now gives the catalogue smooth filtering, measured entrance transitions, animated counts, and an accessible reduced-motion mode.
 
@@ -65,6 +65,9 @@ The [dashboard](https://biswajit1999.github.io/daily-astro-notebooks/) is built 
 | Does SN 1987A look the same across JWST filters? | Four calibrated NIRCam images | The PSF-matched ring/ejecta ratio spans a factor of **4.14** from F150W to F444W |
 | How stable is the UNCOVER high-redshift candidate count? | 4,731 quality-flagged photometric candidates | **1,207** retain a central 68% redshift-posterior width below 2 |
 | How much does cluster lensing change the inferred brightness? | 1,179 UNCOVER candidates with F444W S/N >= 5 | Median de-lensed/observed flux proxy **0.711** (bootstrap 95% **0.706–0.718**) |
+| How well did photometric redshifts survive spectroscopy? | 44 UNCOVER DR3 candidates with solid/secure DR4.1 matches | **41 remain at z >= 6**; normalized scatter **0.017**; **6.8%** outliers at the stated threshold |
+| Were the central 68% redshift intervals calibrated? | The same 44 matched objects | Only **31.8%** contain the later spectroscopic value (Wilson 95% **20.0–46.6%**) |
+| Which high-redshift lines are most often measured? | 48 solid/secure DR4.1 objects at z >= 6 | [O III] 5007 reaches reported S/N >= 3 in **39 objects** |
 
 ### 50-notebook expansion
 
@@ -199,7 +202,32 @@ needed completeness, source-plane, PSF, and lens-model work. UNCOVER DR4.1
 spectroscopy and its updated v2.0 lens model are named as the next independent
 validation step.
 
-All 60 plotting notebooks now import `scienceplots` and use the `science` plus
+### Scientific Audit Batch 10 — spectroscopy tests the candidates
+
+Five notebooks now carry out that independent check using the public UNCOVER
+DR4.1 release. The repository preserves 409 solid or secure redshifts, compact
+high-redshift line and lens-model tables, six recommended calibrated NIRSpec
+FITS spectra, and exact checksums. Of the 44 DR3 high-redshift candidates with
+solid or secure spectroscopic matches, **41 remain at z >= 6**. The normalized
+median absolute deviation is **0.017**, while **6.8%** cross the stated outlier
+threshold. This is agreement for the targeted subset, not a purity estimate
+for all photometric candidates.
+
+The central 68% photometric interval contains the later spectroscopic value for
+only **14 of 44 objects (31.8%)**, with a Wilson 95% interval of **20.0–46.6%**.
+A width stress test reaches about 68% empirical coverage near a factor of
+**2.1**, showing that the published central intervals are too narrow for this
+comparison. That scale is a diagnostic, not a replacement redshift posterior.
+
+The connected notebooks also count the release's line and break evidence,
+inventory high-redshift line measurements without claiming chemical
+abundances, and show lensing's effect on the inferred flux scale. A final atlas
+pairs six real 1D spectra with their real 2D NIRSpec slit images across
+**z = 7.88–13.16** and adds a three-filter HST Frontier Fields cutout from the
+MAST Astrocut service. The imaging colours are a documented display mapping;
+the spectra, errors, detector pixels, and release redshifts remain visible.
+
+All 65 plotting notebooks now import `scienceplots` and use the `science` plus
 `no-latex` style, giving cleaner figures while remaining reliable in Colab.
 
 Reusable outputs declared by audited notebooks are indexed with file sizes and
@@ -226,7 +254,7 @@ metadata are available in [`CITATION.cff`](CITATION.cff).
 </details>
 
 <details>
-<summary><b>mast/</b> — 22 notebooks</summary>
+<summary><b>mast/</b> — 27 notebooks</summary>
 
 - [`jwst-image-carina-nebula`](mast/2026-07-30-jwst-image-carina-nebula/) — real JWST NIRCam image of the Carina Nebula
 - [`hst-image-eagle-nebula`](mast/2026-07-30-hst-image-eagle-nebula/) — Hubble image of the Eagle Nebula (Pillars of Creation)
@@ -250,6 +278,11 @@ metadata are available in [`CITATION.cff`](CITATION.cff).
 - [`uncover-lensing-brightness`](mast/2026-08-01-uncover-lensing-brightness/) — comparing observed and approximately de-lensed F444W fluxes
 - [`uncover-size-redshift`](mast/2026-08-01-uncover-size-redshift/) — auditing a PSF-affected, lens-corrected radius proxy
 - [`uncover-spatial-selection`](mast/2026-08-01-uncover-spatial-selection/) — mapping candidate density against image depth and magnification
+- [`uncover-photz-specz-validation`](mast/2026-08-01-uncover-photz-specz-validation/) — matching DR3 candidate redshifts to solid or secure DR4.1 spectroscopy
+- [`uncover-redshift-interval-calibration`](mast/2026-08-01-uncover-redshift-interval-calibration/) — testing whether the central 68% photometric intervals contain the later spectroscopic value
+- [`uncover-spectroscopic-evidence`](mast/2026-08-01-uncover-spectroscopic-evidence/) — auditing line, break, exposure, and background-advisory evidence
+- [`uncover-highz-line-diagnostics`](mast/2026-08-01-uncover-highz-line-diagnostics/) — screening public high-redshift line fits by their reported uncertainties and lensing scale
+- [`uncover-nirspec-spectral-atlas`](mast/2026-08-01-uncover-nirspec-spectral-atlas/) — pairing six real 1D/2D JWST spectra with independent HST imaging context
 
 </details>
 

@@ -1,0 +1,45 @@
+{
+  "id": "2026-08-01-uncover-highz-line-diagnostics",
+  "title": "Which lines are measured in the high-redshift spectra?",
+  "archive": "UNCOVER / MAST",
+  "date": "2026-08-01",
+  "question": "Which line measurements reach S/N above three, and how does lensing change their scale?",
+  "sample_size": 48,
+  "results": [
+    "Line catalogue contains 48 solid/secure z>=6 objects",
+    "Most common S/N>=3 line: OIII-5007 (39 objects)",
+    "[O III] 5007 has S/N>=3 in 39 objects"
+  ],
+  "validation": "Every line is screened by its reported uncertainty; magnification is shown as a scale correction with release intervals retained.",
+  "notebook": "mast/2026-08-01-uncover-highz-line-diagnostics/notebook.ipynb",
+  "hero": "mast/2026-08-01-uncover-highz-line-diagnostics/highz_line_detection_counts.png",
+  "figures": [
+    "mast/2026-08-01-uncover-highz-line-diagnostics/highz_line_detection_counts.png",
+    "mast/2026-08-01-uncover-highz-line-diagnostics/oiii5007_lensing_correction.png"
+  ],
+  "research_level": "Spectroscopic audit",
+  "claim_type": "Public line-measurement inventory",
+  "provenance": [
+    "UNCOVER DR4.1 public release; Price et al. (2025)",
+    "Solid/secure selection: flag_zspec_qual in {2,3}",
+    "Frozen derivative checksums: data/uncover_dr4_spectroscopy/manifest.json"
+  ],
+  "artifacts": [
+    "mast/2026-08-01-uncover-highz-line-diagnostics/highz_line_detection_counts.csv",
+    "mast/2026-08-01-uncover-highz-line-diagnostics/oiii5007_lensing_scale.csv"
+  ],
+  "quality_checks": [
+    {
+      "name": "finite uncertainty and S/N screen",
+      "status": "passed"
+    },
+    {
+      "name": "lensing units stated",
+      "status": "passed"
+    }
+  ],
+  "limitations": [
+    "Line fluxes are release fits and uncorrected for slit loss.",
+    "No abundance or luminosity is inferred."
+  ]
+}

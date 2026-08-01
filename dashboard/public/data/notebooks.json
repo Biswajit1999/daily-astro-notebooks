@@ -1,11 +1,121 @@
 {
   "generated": "2026-08-01",
   "stats": {
-    "total": 60,
+    "total": 65,
     "archives": 4,
-    "dense": 60
+    "dense": 65
   },
   "notebooks": [
+    {
+      "id": "2026-08-01-uncover-highz-line-diagnostics",
+      "title": "Which lines are measured in the high-redshift spectra?",
+      "archive": "UNCOVER / MAST",
+      "date": "2026-08-01",
+      "question": "Which line measurements reach S/N above three, and how does lensing change their scale?",
+      "sample_size": 48,
+      "results": [
+        "Line catalogue contains 48 solid/secure z>=6 objects",
+        "Most common S/N>=3 line: OIII-5007 (39 objects)",
+        "[O III] 5007 has S/N>=3 in 39 objects"
+      ],
+      "validation": "Every line is screened by its reported uncertainty; magnification is shown as a scale correction with release intervals retained.",
+      "notebook": "mast/2026-08-01-uncover-highz-line-diagnostics/notebook.ipynb",
+      "hero": "mast/2026-08-01-uncover-highz-line-diagnostics/highz_line_detection_counts.png",
+      "figures": [
+        "mast/2026-08-01-uncover-highz-line-diagnostics/highz_line_detection_counts.png",
+        "mast/2026-08-01-uncover-highz-line-diagnostics/oiii5007_lensing_correction.png"
+      ],
+      "research_level": "Spectroscopic audit",
+      "claim_type": "Public line-measurement inventory",
+      "provenance": [
+        "UNCOVER DR4.1 public release; Price et al. (2025)",
+        "Solid/secure selection: flag_zspec_qual in {2,3}",
+        "Frozen derivative checksums: data/uncover_dr4_spectroscopy/manifest.json"
+      ],
+      "artifacts": [
+        "mast/2026-08-01-uncover-highz-line-diagnostics/highz_line_detection_counts.csv",
+        "mast/2026-08-01-uncover-highz-line-diagnostics/oiii5007_lensing_scale.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "finite uncertainty and S/N screen",
+          "status": "passed"
+        },
+        {
+          "name": "lensing units stated",
+          "status": "passed"
+        }
+      ],
+      "limitations": [
+        "Line fluxes are release fits and uncorrected for slit loss.",
+        "No abundance or luminosity is inferred."
+      ],
+      "family": "MAST",
+      "date_display": "01 Aug 2026",
+      "summary": "Which line measurements reach S/N above three, and how does lensing change their scale?",
+      "sample_size_display": "48 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-08-01-uncover-highz-line-diagnostics.png",
+      "figures_local": [
+        "data/images/2026-08-01-uncover-highz-line-diagnostics.png",
+        "data/images/2026-08-01-uncover-highz-line-diagnostics--figure-2.png"
+      ]
+    },
+    {
+      "id": "2026-08-01-uncover-spectroscopic-evidence",
+      "title": "What supports the UNCOVER redshifts?",
+      "archive": "UNCOVER / MAST",
+      "date": "2026-08-01",
+      "question": "How do spectral evidence and the background advisory relate to solid or secure redshifts?",
+      "sample_size": 409,
+      "results": [
+        "409 solid/secure redshifts are classified",
+        "Most common primary evidence: emission line (325 objects)",
+        "Background advisory applies to 224 objects"
+      ],
+      "validation": "Raw evidence flags, a declared category priority, and background-flag exclusion are all reported.",
+      "notebook": "mast/2026-08-01-uncover-spectroscopic-evidence/notebook.ipynb",
+      "hero": "mast/2026-08-01-uncover-spectroscopic-evidence/spectroscopic_evidence_counts.png",
+      "figures": [
+        "mast/2026-08-01-uncover-spectroscopic-evidence/spectroscopic_evidence_counts.png",
+        "mast/2026-08-01-uncover-spectroscopic-evidence/evidence_redshift_ranges.png"
+      ],
+      "research_level": "Spectroscopic audit",
+      "claim_type": "Release evidence-flag audit",
+      "provenance": [
+        "UNCOVER DR4.1 public release; Price et al. (2025)",
+        "Solid/secure selection: flag_zspec_qual in {2,3}",
+        "Frozen derivative checksums: data/uncover_dr4_spectroscopy/manifest.json"
+      ],
+      "artifacts": [
+        "mast/2026-08-01-uncover-spectroscopic-evidence/spectroscopic_evidence_summary.csv",
+        "mast/2026-08-01-uncover-spectroscopic-evidence/background_flag_stress.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "quality flag selection",
+          "status": "passed"
+        },
+        {
+          "name": "background advisory stress test",
+          "status": "passed"
+        }
+      ],
+      "limitations": [
+        "Evidence flags are release classifications, not independent refits.",
+        "Primary-category priority is a display choice."
+      ],
+      "family": "MAST",
+      "date_display": "01 Aug 2026",
+      "summary": "How do spectral evidence and the background advisory relate to solid or secure redshifts?",
+      "sample_size_display": "409 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-08-01-uncover-spectroscopic-evidence.png",
+      "figures_local": [
+        "data/images/2026-08-01-uncover-spectroscopic-evidence.png",
+        "data/images/2026-08-01-uncover-spectroscopic-evidence--figure-2.png"
+      ]
+    },
     {
       "id": "2026-08-01-hst-jwst-sn1987a-comparison",
       "title": "SN 1987A: registered Hubble\u2013Webb structure comparison",
@@ -147,6 +257,121 @@
       "figures_local": [
         "data/images/2026-08-01-hst-sn1987a-lightcurve.png",
         "data/images/2026-08-01-hst-sn1987a-lightcurve--figure-2.png"
+      ]
+    },
+    {
+      "id": "2026-08-01-uncover-nirspec-spectral-atlas",
+      "title": "Real HST images and JWST spectra of distant galaxies",
+      "archive": "UNCOVER / MAST",
+      "date": "2026-08-01",
+      "question": "What do calibrated 1D and 2D NIRSpec data look like for six z=7.88 to 13.16 galaxies?",
+      "sample_size": 6,
+      "results": [
+        "Six real spectra span z=7.88-13.16",
+        "Each 1D extraction is paired with its real 2D slit image",
+        "A three-filter HST Frontier Fields cutout supplies independent imaging context"
+      ],
+      "validation": "The 1D spectrum, 2D detector image, error array, release redshift, and independent HST cutout are shown together.",
+      "notebook": "mast/2026-08-01-uncover-nirspec-spectral-atlas/notebook.ipynb",
+      "hero": "mast/2026-08-01-uncover-nirspec-spectral-atlas/nirspec_1d_atlas.png",
+      "figures": [
+        "mast/2026-08-01-uncover-nirspec-spectral-atlas/nirspec_1d_atlas.png",
+        "mast/2026-08-01-uncover-nirspec-spectral-atlas/nirspec_2d_atlas.png",
+        "mast/2026-08-01-uncover-nirspec-spectral-atlas/hst_rgb_60157.png"
+      ],
+      "research_level": "Spectroscopic audit",
+      "claim_type": "Multi-telescope data atlas",
+      "provenance": [
+        "UNCOVER DR4.1 public release; Price et al. (2025)",
+        "Solid/secure selection: flag_zspec_qual in {2,3}",
+        "Frozen derivative checksums: data/uncover_dr4_spectroscopy/manifest.json"
+      ],
+      "artifacts": [
+        "mast/2026-08-01-uncover-nirspec-spectral-atlas/spectral_atlas_sources.csv",
+        "mast/2026-08-01-uncover-nirspec-spectral-atlas/hst_rgb_channels.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "FITS wavelength and flux units",
+          "status": "passed"
+        },
+        {
+          "name": "1D/2D agreement view",
+          "status": "passed"
+        },
+        {
+          "name": "HST filter provenance",
+          "status": "passed"
+        }
+      ],
+      "limitations": [
+        "The atlas does not refit redshifts or lines.",
+        "RGB colours are a display mapping, not human-visible rest-frame colour."
+      ],
+      "family": "MAST",
+      "date_display": "01 Aug 2026",
+      "summary": "What do calibrated 1D and 2D NIRSpec data look like for six z=7.88 to 13.16 galaxies?",
+      "sample_size_display": "6 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-08-01-uncover-nirspec-spectral-atlas.png",
+      "figures_local": [
+        "data/images/2026-08-01-uncover-nirspec-spectral-atlas.png",
+        "data/images/2026-08-01-uncover-nirspec-spectral-atlas--figure-2.png",
+        "data/images/2026-08-01-uncover-nirspec-spectral-atlas--figure-3.png"
+      ]
+    },
+    {
+      "id": "2026-08-01-uncover-photz-specz-validation",
+      "title": "Photometric versus spectroscopic redshift",
+      "archive": "UNCOVER / MAST",
+      "date": "2026-08-01",
+      "question": "How well did DR3 high-redshift estimates agree with solid or secure DR4.1 spectroscopy?",
+      "sample_size": 44,
+      "results": [
+        "41 of 44 matched candidates have zspec >= 6",
+        "Normalized median absolute deviation = 0.017",
+        "Outlier fraction at |dz|/(1+zspec)>0.15 = 6.8%"
+      ],
+      "validation": "Robust scatter, explicit outlier threshold, and row-level residual table expose both agreement and failures.",
+      "notebook": "mast/2026-08-01-uncover-photz-specz-validation/notebook.ipynb",
+      "hero": "mast/2026-08-01-uncover-photz-specz-validation/photz_specz_validation.png",
+      "figures": [
+        "mast/2026-08-01-uncover-photz-specz-validation/photz_specz_validation.png",
+        "mast/2026-08-01-uncover-photz-specz-validation/normalized_redshift_residuals.png"
+      ],
+      "research_level": "Spectroscopic audit",
+      "claim_type": "Matched-sample redshift validation",
+      "provenance": [
+        "UNCOVER DR4.1 public release; Price et al. (2025)",
+        "Solid/secure selection: flag_zspec_qual in {2,3}",
+        "Frozen derivative checksums: data/uncover_dr4_spectroscopy/manifest.json"
+      ],
+      "artifacts": [
+        "mast/2026-08-01-uncover-photz-specz-validation/photz_specz_residuals.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "catalogue-ID join",
+          "status": "passed"
+        },
+        {
+          "name": "robust scatter",
+          "status": "passed"
+        }
+      ],
+      "limitations": [
+        "The spectroscopic targets are not a random sample.",
+        "Unmatched candidates receive no verdict."
+      ],
+      "family": "MAST",
+      "date_display": "01 Aug 2026",
+      "summary": "How well did DR3 high-redshift estimates agree with solid or secure DR4.1 spectroscopy?",
+      "sample_size_display": "44 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-08-01-uncover-photz-specz-validation.png",
+      "figures_local": [
+        "data/images/2026-08-01-uncover-photz-specz-validation.png",
+        "data/images/2026-08-01-uncover-photz-specz-validation--figure-2.png"
       ]
     },
     {
@@ -654,6 +879,60 @@
       "figures_local": [
         "data/images/2026-08-01-uncover-size-redshift.png",
         "data/images/2026-08-01-uncover-size-redshift--figure-2.png"
+      ]
+    },
+    {
+      "id": "2026-08-01-uncover-redshift-interval-calibration",
+      "title": "Are the photometric redshift intervals calibrated?",
+      "archive": "UNCOVER / MAST",
+      "date": "2026-08-01",
+      "question": "How often does DR4.1 zspec fall inside the DR3 central 68 percent interval?",
+      "sample_size": 44,
+      "results": [
+        "Observed central-68% coverage = 31.8% (14/44)",
+        "Wilson 95% interval = 20.0%-46.6%",
+        "Nearest global width scale for 68% coverage = 2.10"
+      ],
+      "validation": "Wilson uncertainty and an interval-width stress curve quantify finite-sample and calibration effects.",
+      "notebook": "mast/2026-08-01-uncover-redshift-interval-calibration/notebook.ipynb",
+      "hero": "mast/2026-08-01-uncover-redshift-interval-calibration/redshift_interval_coverage.png",
+      "figures": [
+        "mast/2026-08-01-uncover-redshift-interval-calibration/redshift_interval_coverage.png",
+        "mast/2026-08-01-uncover-redshift-interval-calibration/redshift_interval_audit.png"
+      ],
+      "research_level": "Spectroscopic audit",
+      "claim_type": "Photometric interval calibration audit",
+      "provenance": [
+        "UNCOVER DR4.1 public release; Price et al. (2025)",
+        "Solid/secure selection: flag_zspec_qual in {2,3}",
+        "Frozen derivative checksums: data/uncover_dr4_spectroscopy/manifest.json"
+      ],
+      "artifacts": [
+        "mast/2026-08-01-uncover-redshift-interval-calibration/coverage_curve.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "interval ordering",
+          "status": "passed"
+        },
+        {
+          "name": "binomial uncertainty",
+          "status": "passed"
+        }
+      ],
+      "limitations": [
+        "Only targeted matches are tested.",
+        "Global interval scaling is diagnostic, not a posterior recalibration."
+      ],
+      "family": "MAST",
+      "date_display": "01 Aug 2026",
+      "summary": "How often does DR4.1 zspec fall inside the DR3 central 68 percent interval?",
+      "sample_size_display": "44 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-08-01-uncover-redshift-interval-calibration.png",
+      "figures_local": [
+        "data/images/2026-08-01-uncover-redshift-interval-calibration.png",
+        "data/images/2026-08-01-uncover-redshift-interval-calibration--figure-2.png"
       ]
     },
     {

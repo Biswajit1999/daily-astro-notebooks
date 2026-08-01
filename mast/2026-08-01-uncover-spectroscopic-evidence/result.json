@@ -1,0 +1,45 @@
+{
+  "id": "2026-08-01-uncover-spectroscopic-evidence",
+  "title": "What supports the UNCOVER redshifts?",
+  "archive": "UNCOVER / MAST",
+  "date": "2026-08-01",
+  "question": "How do spectral evidence and the background advisory relate to solid or secure redshifts?",
+  "sample_size": 409,
+  "results": [
+    "409 solid/secure redshifts are classified",
+    "Most common primary evidence: emission line (325 objects)",
+    "Background advisory applies to 224 objects"
+  ],
+  "validation": "Raw evidence flags, a declared category priority, and background-flag exclusion are all reported.",
+  "notebook": "mast/2026-08-01-uncover-spectroscopic-evidence/notebook.ipynb",
+  "hero": "mast/2026-08-01-uncover-spectroscopic-evidence/spectroscopic_evidence_counts.png",
+  "figures": [
+    "mast/2026-08-01-uncover-spectroscopic-evidence/spectroscopic_evidence_counts.png",
+    "mast/2026-08-01-uncover-spectroscopic-evidence/evidence_redshift_ranges.png"
+  ],
+  "research_level": "Spectroscopic audit",
+  "claim_type": "Release evidence-flag audit",
+  "provenance": [
+    "UNCOVER DR4.1 public release; Price et al. (2025)",
+    "Solid/secure selection: flag_zspec_qual in {2,3}",
+    "Frozen derivative checksums: data/uncover_dr4_spectroscopy/manifest.json"
+  ],
+  "artifacts": [
+    "mast/2026-08-01-uncover-spectroscopic-evidence/spectroscopic_evidence_summary.csv",
+    "mast/2026-08-01-uncover-spectroscopic-evidence/background_flag_stress.csv"
+  ],
+  "quality_checks": [
+    {
+      "name": "quality flag selection",
+      "status": "passed"
+    },
+    {
+      "name": "background advisory stress test",
+      "status": "passed"
+    }
+  ],
+  "limitations": [
+    "Evidence flags are release classifications, not independent refits.",
+    "Primary-category priority is a display choice."
+  ]
+}

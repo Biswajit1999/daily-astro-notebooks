@@ -1,0 +1,44 @@
+{
+  "id": "2026-08-01-uncover-photz-specz-validation",
+  "title": "Photometric versus spectroscopic redshift",
+  "archive": "UNCOVER / MAST",
+  "date": "2026-08-01",
+  "question": "How well did DR3 high-redshift estimates agree with solid or secure DR4.1 spectroscopy?",
+  "sample_size": 44,
+  "results": [
+    "41 of 44 matched candidates have zspec >= 6",
+    "Normalized median absolute deviation = 0.017",
+    "Outlier fraction at |dz|/(1+zspec)>0.15 = 6.8%"
+  ],
+  "validation": "Robust scatter, explicit outlier threshold, and row-level residual table expose both agreement and failures.",
+  "notebook": "mast/2026-08-01-uncover-photz-specz-validation/notebook.ipynb",
+  "hero": "mast/2026-08-01-uncover-photz-specz-validation/photz_specz_validation.png",
+  "figures": [
+    "mast/2026-08-01-uncover-photz-specz-validation/photz_specz_validation.png",
+    "mast/2026-08-01-uncover-photz-specz-validation/normalized_redshift_residuals.png"
+  ],
+  "research_level": "Spectroscopic audit",
+  "claim_type": "Matched-sample redshift validation",
+  "provenance": [
+    "UNCOVER DR4.1 public release; Price et al. (2025)",
+    "Solid/secure selection: flag_zspec_qual in {2,3}",
+    "Frozen derivative checksums: data/uncover_dr4_spectroscopy/manifest.json"
+  ],
+  "artifacts": [
+    "mast/2026-08-01-uncover-photz-specz-validation/photz_specz_residuals.csv"
+  ],
+  "quality_checks": [
+    {
+      "name": "catalogue-ID join",
+      "status": "passed"
+    },
+    {
+      "name": "robust scatter",
+      "status": "passed"
+    }
+  ],
+  "limitations": [
+    "The spectroscopic targets are not a random sample.",
+    "Unmatched candidates receive no verdict."
+  ]
+}
