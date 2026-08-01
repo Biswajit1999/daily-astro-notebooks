@@ -35,10 +35,11 @@ import warnings
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
+import scienceplots
 from scipy import stats
 
 warnings.filterwarnings("ignore", category=RuntimeWarning)
-plt.style.use("seaborn-v0_8-whitegrid")
+plt.style.use(["science", "no-latex"])
 COLORS = {"navy": "#071426", "blue": "#4cc9f0", "cyan": "#72efdd",
           "gold": "#ffca58", "orange": "#ff7b54", "pink": "#ef5da8"}
 RNG = np.random.default_rng(1999)

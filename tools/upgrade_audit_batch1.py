@@ -65,10 +65,11 @@ next data product needed for a stronger conclusion.
 COMMON="""
 from pathlib import Path
 import json, numpy as np, pandas as pd, matplotlib.pyplot as plt
+import scienceplots
 from PIL import Image
 from scipy import ndimage
 RNG=np.random.default_rng(1999)
-plt.style.use('seaborn-v0_8-whitegrid')
+plt.style.use(["science", "no-latex"])
 """
 
 def write_nb(folder,title,question,cells,refs):

@@ -1,0 +1,48 @@
+{
+  "id": "2026-08-01-uncover-size-redshift",
+  "title": "Do UNCOVER high-z candidates show a change in catalogue size proxy?",
+  "archive": "UNCOVER / MAST",
+  "date": "2026-08-01",
+  "question": "How does the observed flux-radius proxy vary across redshift bins after a simple lens correction?",
+  "sample_size": 1127,
+  "results": [
+    "1,127 candidates pass the flux, radius, and magnification cuts",
+    "Median approximate de-lensed radius proxy = 0.80 kpc"
+  ],
+  "validation": "Bootstrap intervals and five radius-cut choices expose sampling and threshold sensitivity; PSF and shear modelling remain outstanding.",
+  "notebook": "mast/2026-08-01-uncover-size-redshift/notebook.ipynb",
+  "hero": "mast/2026-08-01-uncover-size-redshift/size_proxy_scatter.png",
+  "figures": [
+    "mast/2026-08-01-uncover-size-redshift/size_proxy_scatter.png",
+    "mast/2026-08-01-uncover-size-redshift/size_proxy_binned.png"
+  ],
+  "research_level": "Exploration",
+  "claim_type": "Photometric candidate analysis",
+  "provenance": [
+    "UNCOVER DR3 SUPER catalog, Zenodo DOI 10.5281/zenodo.11059273",
+    "Upstream MD5 baeb44ce166c920050ceb93220b12e05",
+    "Selection: use_phot=1, flag_eazy=1, 6 <= z_phot < 15"
+  ],
+  "artifacts": [
+    "mast/2026-08-01-uncover-size-redshift/size_proxy_by_redshift.csv",
+    "mast/2026-08-01-uncover-size-redshift/size_cut_sensitivity.csv"
+  ],
+  "quality_checks": [
+    {
+      "name": "F444W S/N >= 5",
+      "status": "passed"
+    },
+    {
+      "name": "radius and magnification cuts",
+      "status": "passed"
+    },
+    {
+      "name": "cut sensitivity",
+      "status": "passed"
+    }
+  ],
+  "limitations": [
+    "The catalogue flux radius is PSF affected.",
+    "Dividing by sqrt(mu) ignores directional shear and is only a proxy."
+  ]
+}

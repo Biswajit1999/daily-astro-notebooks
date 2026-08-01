@@ -34,3 +34,12 @@ The goal is a small, reproducible scientific investigation rather than a collect
 ## Review checklist
 
 Before merging, restart and run every cell, confirm there are no hidden errors, verify that figure labels include units, check that the README agrees with the printed results, and make sure every external data product and paper is cited.
+
+## Plot style
+
+Every notebook that imports Matplotlib must also import `scienceplots` and use
+`plt.style.use(["science", "no-latex"])`. The `no-latex` option retains the
+clean scientific layout without requiring a TeX installation in Google Colab.
+Figures should still choose readable dimensions, units, uncertainty displays,
+and color maps appropriate to the measurement; a style sheet does not replace
+those scientific decisions.

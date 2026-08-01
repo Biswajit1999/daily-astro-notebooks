@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated": "2026-07-31",
+  "generated": "2026-08-01",
   "description": "Checksums and provenance for reusable outputs named by scientifically audited notebooks.",
   "notebooks": [
     {
@@ -400,6 +400,61 @@
         "MAST JWST program 1726, PI Matsuura",
         "jw01726-o001_t001 NIRCam I2D mosaics",
         "F150W, F200W, F444W observed 2022-09-02"
+      ]
+    },
+    {
+      "id": "2026-08-01-uncover-highz-candidate-census",
+      "archive": "UNCOVER / MAST",
+      "research_level": "Exploration",
+      "claim_type": "Photometric candidate analysis",
+      "provenance": [
+        "UNCOVER DR3 SUPER catalog, Zenodo DOI 10.5281/zenodo.11059273",
+        "Upstream MD5 baeb44ce166c920050ceb93220b12e05",
+        "Selection: use_phot=1, flag_eazy=1, 6 <= z_phot < 15"
+      ]
+    },
+    {
+      "id": "2026-08-01-uncover-lensing-brightness",
+      "archive": "UNCOVER / MAST",
+      "research_level": "Exploration",
+      "claim_type": "Photometric candidate analysis",
+      "provenance": [
+        "UNCOVER DR3 SUPER catalog, Zenodo DOI 10.5281/zenodo.11059273",
+        "Upstream MD5 baeb44ce166c920050ceb93220b12e05",
+        "Selection: use_phot=1, flag_eazy=1, 6 <= z_phot < 15"
+      ]
+    },
+    {
+      "id": "2026-08-01-uncover-lyman-break-stacks",
+      "archive": "UNCOVER / MAST",
+      "research_level": "Exploration",
+      "claim_type": "Photometric candidate analysis",
+      "provenance": [
+        "UNCOVER DR3 SUPER catalog, Zenodo DOI 10.5281/zenodo.11059273",
+        "Upstream MD5 baeb44ce166c920050ceb93220b12e05",
+        "Selection: use_phot=1, flag_eazy=1, 6 <= z_phot < 15"
+      ]
+    },
+    {
+      "id": "2026-08-01-uncover-size-redshift",
+      "archive": "UNCOVER / MAST",
+      "research_level": "Exploration",
+      "claim_type": "Photometric candidate analysis",
+      "provenance": [
+        "UNCOVER DR3 SUPER catalog, Zenodo DOI 10.5281/zenodo.11059273",
+        "Upstream MD5 baeb44ce166c920050ceb93220b12e05",
+        "Selection: use_phot=1, flag_eazy=1, 6 <= z_phot < 15"
+      ]
+    },
+    {
+      "id": "2026-08-01-uncover-spatial-selection",
+      "archive": "UNCOVER / MAST",
+      "research_level": "Exploration",
+      "claim_type": "Photometric candidate analysis",
+      "provenance": [
+        "UNCOVER DR3 SUPER catalog, Zenodo DOI 10.5281/zenodo.11059273",
+        "Upstream MD5 baeb44ce166c920050ceb93220b12e05",
+        "Selection: use_phot=1, flag_eazy=1, 6 <= z_phot < 15"
       ]
     },
     {
@@ -914,6 +969,60 @@
       "notebook_id": "2026-08-01-jwst-sn1987a-rgb",
       "bytes": 268,
       "sha256": "8f4b5b9035e34c09a19d72fe289b5db03a58200a1406c46084f7045e3aa02f54"
+    },
+    {
+      "path": "mast/2026-08-01-uncover-highz-candidate-census/selection_sensitivity.csv",
+      "notebook_id": "2026-08-01-uncover-highz-candidate-census",
+      "bytes": 288,
+      "sha256": "ec54ea73aba7b819a3cf3b8419e7c020a4598f30570a2e1f332468b1e19b7025"
+    },
+    {
+      "path": "mast/2026-08-01-uncover-lensing-brightness/magnification_cap_sensitivity.csv",
+      "notebook_id": "2026-08-01-uncover-lensing-brightness",
+      "bytes": 297,
+      "sha256": "b5778ae6654c5612777deb19d1328fa78f3dca118a53b0491a9ce3f21178c253"
+    },
+    {
+      "path": "mast/2026-08-01-uncover-lensing-brightness/lensing_working_sample.csv",
+      "notebook_id": "2026-08-01-uncover-lensing-brightness",
+      "bytes": 93647,
+      "sha256": "909a62952c6b0aadee23127d4e6160474c8f26877b85f4f733e123935be9fb15"
+    },
+    {
+      "path": "mast/2026-08-01-uncover-lyman-break-stacks/median_sed_stacks.csv",
+      "notebook_id": "2026-08-01-uncover-lyman-break-stacks",
+      "bytes": 1538,
+      "sha256": "8a0b7ce54e9a2fb42e570ce69d169bb2c895cfca9f2c11c961ffc7ee25fbe97b"
+    },
+    {
+      "path": "mast/2026-08-01-uncover-lyman-break-stacks/dropout_ratio_summary.csv",
+      "notebook_id": "2026-08-01-uncover-lyman-break-stacks",
+      "bytes": 300,
+      "sha256": "b933f5cdae379e9cf5005ebc464b04a0428ed58b46bfecfc8a742fafd325f800"
+    },
+    {
+      "path": "mast/2026-08-01-uncover-size-redshift/size_proxy_by_redshift.csv",
+      "notebook_id": "2026-08-01-uncover-size-redshift",
+      "bytes": 379,
+      "sha256": "30f8df28c3c7e3c9ad333377cde11778c83141228249665eabfee11868bb17c2"
+    },
+    {
+      "path": "mast/2026-08-01-uncover-size-redshift/size_cut_sensitivity.csv",
+      "notebook_id": "2026-08-01-uncover-size-redshift",
+      "bytes": 183,
+      "sha256": "1d782cf1636eaf101b29793049b2d86db24220c7f4330741ca00a54f73338020"
+    },
+    {
+      "path": "mast/2026-08-01-uncover-spatial-selection/spatial_grid_summary.csv",
+      "notebook_id": "2026-08-01-uncover-spatial-selection",
+      "bytes": 1454,
+      "sha256": "adf8c9ff544069fdb504711663fb8144728d8becce08c567616553365b3a76f3"
+    },
+    {
+      "path": "mast/2026-08-01-uncover-spatial-selection/spatial_binning_sensitivity.csv",
+      "notebook_id": "2026-08-01-uncover-spatial-selection",
+      "bytes": 514,
+      "sha256": "67a790d6a16cccb066d611485bc4a0fd798809ce9d1ea49812e0285f247eaff1"
     },
     {
       "path": "sdss/2026-07-30-emission-line-measurement/galaxy_sdss_spectrum.csv",

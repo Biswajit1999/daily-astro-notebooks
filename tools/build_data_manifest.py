@@ -42,7 +42,7 @@ def main() -> None:
             })
     payload = {
         "schema_version": "1.0",
-        "generated": "2026-07-31",
+        "generated": "2026-08-01",
         "description": "Checksums and provenance for reusable outputs named by scientifically audited notebooks.",
         "notebooks": notebooks,
         "products": products,

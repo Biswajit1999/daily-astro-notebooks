@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
+import { AnimatePresence, animate, motion, useReducedMotion } from "motion/react";
 
 const REPO = "https://github.com/Biswajit1999/daily-astro-notebooks";
 
@@ -8,16 +9,35 @@ function Mark() {
 
 function Arrow() { return <span aria-hidden="true">↗</span>; }
 
+function Count({ value }) {
+  const reduceMotion = useReducedMotion();
+  const [display, setDisplay] = useState(value || "—");
+  useEffect(() => {
+    const target = Number(value);
+    if (!Number.isFinite(target)) return setDisplay("—");
+    if (reduceMotion) return setDisplay(target);
+    const controls = animate(0, target, {
+      duration: 1.1,
+      ease: "easeOut",
+      onUpdate: (latest) => setDisplay(Math.round(latest)),
+    });
+    return () => controls.stop();
+  }, [value, reduceMotion]);
+  return <strong>{display}</strong>;
+}
+
 function ResearchModal({item,onClose}) {
+  const reduceMotion = useReducedMotion();
   const [figure,setFigure]=useState(0); const figures=item.figures_local?.length?item.figures_local:(item.hero_local?[item.hero_local]:[]);
-  return <div className="modal-layer" onMouseDown={onClose}><section className="modal research-modal" role="dialog" aria-modal="true" onMouseDown={e=>e.stopPropagation()}>
+  return <motion.div className="modal-layer" onMouseDown={onClose} initial={{opacity:0}} animate={{opacity:1}} exit={{opacity:0}}><motion.section className="modal research-modal" role="dialog" aria-modal="true" onMouseDown={e=>e.stopPropagation()} initial={reduceMotion?false:{opacity:0,y:24,scale:.985}} animate={{opacity:1,y:0,scale:1}} exit={reduceMotion?{opacity:0}:{opacity:0,y:18,scale:.985}} transition={{duration:.25}}>
     <button className="close" onClick={onClose}>×</button><div className="evidence-panel">{figures[figure]&&<img src={`${import.meta.env.BASE_URL}${figures[figure]}`} alt={`Evidence for ${item.title}`}/>}<div className="figure-tabs">{figures.map((x,i)=><button className={i===figure?'active':''} onClick={()=>setFigure(i)} key={x}>Figure {i+1}</button>)}</div></div>
     <div className="research-copy"><div className="research-badges"><span className={(item.research_level||'').toLowerCase()}>{item.research_level||'Notebook'}</span>{item.claim_type&&<span>{item.claim_type}</span>}</div><p className="meta">{item.archive} · {item.date_display}</p><h2>{item.title}</h2><p className="question">{item.question||item.summary}</p>
     {item.results?.length>0&&<ul>{item.results.map(x=><li key={x}>{x}</li>)}</ul>}{item.quality_checks?.length>0&&<div className="audit-block"><b>Quality checks</b><div className="quality-grid">{item.quality_checks.map(x=><span className={x.status.replace(' ','-')} key={x.name}>{x.name}<small>{x.status}</small></span>)}</div></div>}{item.provenance?.length>0&&<div className="audit-block"><b>Data provenance</b><ol>{item.provenance.map(x=><li key={x}>{x}</li>)}</ol></div>}{item.limitations?.length>0&&<div className="audit-block"><b>Claim boundary</b><p>{item.limitations.join(' · ')}</p></div>}<div className="modal-actions"><a className="primary dark" href={`${REPO}/blob/master/${item.notebook}`}>Open notebook <Arrow/></a>{item.artifacts?.[0]&&<a href={`${REPO}/raw/master/${item.artifacts[0]}`}>Download data ↓</a>}</div></div>
-  </section></div>
+  </motion.section></motion.div>
 }
 
 export default function App() {
+  const reduceMotion = useReducedMotion();
   const [catalog, setCatalog] = useState({ notebooks: [], stats: {} });
   const [archive, setArchive] = useState("All");
   const [query, setQuery] = useState("");
@@ -58,59 +78,60 @@ export default function App() {
       <section className="hero" id="top">
         <img className="hero-image" src={`${import.meta.env.BASE_URL}data/images/banner.png`} alt="Carina, Eagle and Ring Nebulae blended into a dark astronomical banner" />
         <div className="hero-overlay" /><div className="coordinate-grid" />
-        <div className="hero-copy">
+        <div className="cosmic-motion" aria-hidden="true"><i /><i /><i /></div>
+        <motion.div className="hero-copy" initial={reduceMotion?false:{opacity:0,y:28}} animate={{opacity:1,y:0}} transition={{duration:.7,ease:"easeOut"}}>
           <p className="eyebrow"><span /> Public archive data · analysed daily</p>
           <h1>One sky.<br /><em>A new question every day.</em></h1>
           <p className="lede">Reproducible notebooks that turn real telescope images, spectra, light curves, and catalogues into measured results—with uncertainty and honest limits.</p>
           <div className="hero-actions"><a className="primary" href="#latest">Explore today’s analyses ↓</a><a href="#standard">Read the method <Arrow /></a></div>
-        </div>
-        {featured && <aside className="result-instrument">
+        </motion.div>
+        {featured && <motion.aside className="result-instrument" initial={reduceMotion?false:{opacity:0,x:26}} animate={{opacity:1,x:0}} transition={{duration:.65,delay:.18}}>
           <div><span>Latest result</span><time>{featured.date_display}</time></div>
           <p>{featured.archive}</p><h2>{featured.title}</h2>
           <strong>{featured.results?.[0]}</strong>
           <small>{featured.sample_size_display}</small>
           <a href={`${REPO}/blob/master/${featured.notebook}`}>Open notebook <Arrow /></a>
-        </aside>}
-        <div className="stats">
-          <div><strong>{catalog.stats.total || "—"}</strong><span>real-data notebooks</span></div>
-          <div><strong>{catalog.stats.archives || "—"}</strong><span>public archives</span></div>
-          <div><strong>{catalog.stats.dense || "—"}</strong><span>dense analyses</span></div>
-          <div><strong>0</strong><span>unlabelled simulations</span></div>
-        </div>
+        </motion.aside>}
+        <motion.div className="stats" initial={reduceMotion?false:{opacity:0,y:15}} animate={{opacity:1,y:0}} transition={{duration:.55,delay:.35}}>
+          <div><Count value={catalog.stats.total}/><span>real-data notebooks</span></div>
+          <div><Count value={catalog.stats.archives}/><span>public archives</span></div>
+          <div><Count value={catalog.stats.dense}/><span>dense analyses</span></div>
+          <div><Count value={0}/><span>unlabelled simulations</span></div>
+        </motion.div>
       </section>
 
       <div className="principles"><span>Live archive queries</span><i /><span>Outputs preserved</span><i /><span>Uncertainty reported</span><i /><span>Literature checked</span><i /><span>Limits stated</span></div>
-      {audited.length>0&&<section className="audit-strip"><div><p>Scientific audit layer</p><h2>{audited.length} notebooks expose evidence, provenance, and failure limits.</h2></div><div><b>{audited.filter(x=>x.research_level==='Validated').length}</b> validated · <b>{audited.filter(x=>x.research_level==='Exploration').length}</b> exploratory</div></section>}
+      {audited.length>0&&<motion.section className="audit-strip" initial={reduceMotion?false:{opacity:0,y:22}} whileInView={{opacity:1,y:0}} viewport={{once:true,amount:.25}}><div><p>Scientific audit layer</p><h2>{audited.length} notebooks expose evidence, provenance, and failure limits.</h2></div><div><b>{audited.filter(x=>x.research_level==='Validated').length}</b> validated · <b>{audited.filter(x=>x.research_level==='Exploration').length}</b> exploratory</div></motion.section>}
 
       <section className="latest" id="latest">
         <div className="section-heading"><div><p>01 / Latest observing log</p><h2>Five questions. Five measured answers.</h2></div><span>Each analysis includes the query, selected data, figures, uncertainty, literature comparison, and a clear boundary around the claim.</span></div>
-        {featured && <article className="feature">
+        {featured && <motion.article className="feature" initial={reduceMotion?false:{opacity:0,y:30}} whileInView={{opacity:1,y:0}} viewport={{once:true,amount:.16}} transition={{duration:.55}}>
           <figure><img src={`${import.meta.env.BASE_URL}${featured.hero_local}`} alt={`Main result plot for ${featured.title}`} /><figcaption>Real archive output · {featured.date_display}</figcaption></figure>
           <div className="feature-copy"><p className="meta">{featured.archive} · {featured.sample_size_display}</p><h3>{featured.title}</h3><p className="question">{featured.question}</p>
             <dl>{featured.results.map((result) => <div key={result}><dt>Measured</dt><dd>{result}</dd></div>)}</dl>
             <div className="validation"><b>Literature check</b><p>{featured.validation}</p></div>
             <a className="primary dark" href={`${REPO}/blob/master/${featured.notebook}`}>Inspect the full analysis <Arrow /></a>
           </div>
-        </article>}
+        </motion.article>}
       </section>
 
       <section className="catalogue" id="catalogue">
         <div className="section-heading compact"><div><p>02 / Notebook catalogue</p><h2>Search every result.</h2></div><span>{shown.length} of {catalog.notebooks.length} notebooks shown</span></div>
         <div className="controls"><div className="tabs">{archives.map((item) => <button className={archive === item ? "active" : ""} onClick={() => setArchive(item)} key={item}>{item}</button>)}</div><label><span aria-hidden="true">⌕</span><input aria-label="Search notebooks" placeholder="Search question, target, result…" value={query} onChange={(event) => setQuery(event.target.value)} /></label></div>
         {loadError && <div className="empty"><b>The notebook catalogue could not be loaded.</b><p>The repository remains available from the link above.</p></div>}
-        <div className="cards">{shown.map((item, index) => <article className={item.dense ? "card dense" : "card"} key={item.id}>
+        <motion.div className="cards" layout>{<AnimatePresence mode="popLayout">{shown.map((item, index) => <motion.article layout initial={reduceMotion?false:{opacity:0,y:18}} animate={{opacity:1,y:0}} exit={{opacity:0,scale:.97}} transition={{duration:.22,delay:reduceMotion?0:Math.min(index,8)*.025}} className={item.dense ? "card dense" : "card"} key={item.id}>
           <button onClick={() => setSelected(item)} aria-label={`Preview ${item.title}`}>
             {item.hero_local ? <div className="thumb"><img src={`${import.meta.env.BASE_URL}${item.hero_local}`} alt="" /><span>{String(index + 1).padStart(2, "0")}</span></div> : <div className="thumb placeholder"><Mark /><span>{String(index + 1).padStart(2, "0")}</span></div>}
             <div className="card-body">{item.research_level&&<div className="research-badges"><span className={item.research_level.toLowerCase()}>{item.research_level}</span>{item.claim_type&&<span>{item.claim_type}</span>}</div>}<p className="meta">{item.archive} · {item.date_display}</p><h3>{item.title}</h3><p>{item.summary}</p>{item.results?.length > 0 && <strong>{item.results[0]}</strong>}<div>{item.tags?.slice(0, 3).map((tag) => <i key={tag}>{tag}</i>)}</div></div>
           </button><a href={`${REPO}/blob/master/${item.notebook}`}>Open notebook <Arrow /></a>
-        </article>)}</div>
+        </motion.article>)}</AnimatePresence>}</motion.div>
         {!loadError && shown.length === 0 && <div className="empty"><b>No matching notebook.</b><p>Try a broader search or another archive.</p></div>}
       </section>
 
       <section className="standard" id="standard"><div><p className="light">03 / Analysis standard</p><h2>A notebook is finished when the claim is testable.</h2><span>The dense format is designed for learning in public without confusing a plotted pattern with a scientific conclusion.</span></div><ol>{[["Question","One narrow, measurable problem."],["Provenance","Exact archive query or product ID."],["Quality","Missing data, flags, and cuts inspected."],["Uncertainty","Errors, intervals, or resampling."],["Validation","Compared with a paper or physical expectation."],["Limits","What the data cannot establish."]].map(([title,text], index) => <li key={title}><b>0{index+1}</b><div><strong>{title}</strong><span>{text}</span></div></li>)}</ol></section>
       <footer><div className="brand"><Mark /><span>Daily Astro <b>Notebooks</b></span></div><p>Real public astronomy data, analysed by Biswajit.</p><a href={REPO}>GitHub repository <Arrow /></a></footer>
 
-      {selected&&<ResearchModal item={selected} onClose={()=>setSelected(null)}/>}
+      <AnimatePresence>{selected&&<ResearchModal item={selected} onClose={()=>setSelected(null)}/>}</AnimatePresence>
     </main>
   );
 }

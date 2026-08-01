@@ -81,6 +81,7 @@ COMMON = r"""
 from pathlib import Path
 import json, warnings
 import numpy as np, pandas as pd, matplotlib.pyplot as plt
+import scienceplots
 from PIL import Image, ImageDraw
 from scipy import ndimage, stats
 from astropy.io import fits
@@ -89,7 +90,7 @@ from astropy.wcs.utils import proj_plane_pixel_scales
 import astropy.units as u
 
 RNG=np.random.default_rng(1999)
-plt.style.use('seaborn-v0_8-whitegrid')
+plt.style.use(["science", "no-latex"])
 DATA=Path('../../data/sn1987a')
 assert DATA.is_dir(), 'Run from the notebook folder inside a complete repository checkout.'
 TARGET_RA=83.8666125; TARGET_DEC=-69.2697528

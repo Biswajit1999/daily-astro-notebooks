@@ -18,9 +18,10 @@ COMMON = """
 from pathlib import Path
 import json, warnings
 import numpy as np, pandas as pd, matplotlib.pyplot as plt
+import scienceplots
 from scipy.optimize import curve_fit
 RNG = np.random.default_rng(1999)
-plt.style.use('seaborn-v0_8-whitegrid')
+plt.style.use(["science", "no-latex"])
 """
 
 PROTOCOL = """

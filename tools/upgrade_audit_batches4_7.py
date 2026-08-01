@@ -59,11 +59,12 @@ COMMON="""
 from pathlib import Path
 import json, warnings
 import numpy as np, pandas as pd, matplotlib.pyplot as plt
+import scienceplots
 from scipy import stats, ndimage, signal
 from PIL import Image
 
 RNG=np.random.default_rng(1999)
-plt.style.use('seaborn-v0_8-whitegrid')
+plt.style.use(["science", "no-latex"])
 DATA=Path('../../data/audit_batches4_7')
 assert DATA.is_dir(), 'Run from the notebook folder in a complete checkout.'
 

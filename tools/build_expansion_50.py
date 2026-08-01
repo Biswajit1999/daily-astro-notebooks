@@ -25,10 +25,11 @@ import json
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
+import scienceplots
 from scipy import stats
 
 RNG = np.random.default_rng(1999)
-plt.style.use("seaborn-v0_8-whitegrid")
+plt.style.use(["science", "no-latex"])
 COLORS = {"navy":"#071426", "blue":"#1797c9", "cyan":"#2fc6b4",
           "gold":"#f4b942", "orange":"#ef6a45", "rose":"#ce4f78"}
 """

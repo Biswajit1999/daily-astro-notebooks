@@ -48,9 +48,9 @@ Each dated subfolder contains:
 
 ## What's here so far
 
-**55 notebooks, 4 archives, 3 observing-log dates — all 55 meet the deeper analysis standard, including 36 full scientific audits.**
+**60 notebooks, 4 archives, 3 observing-log dates — all 60 meet the deeper analysis standard, including 41 full scientific audits.**
 
-The [dashboard](https://biswajit1999.github.io/daily-astro-notebooks/) is built from the repository itself. A new notebook appears there automatically after it is merged into `master` and the Pages workflow completes.
+The [dashboard](https://biswajit1999.github.io/daily-astro-notebooks/) is built from the repository itself. A new notebook appears there automatically after it is merged into `master` and the Pages workflow completes. Motion for React now gives the catalogue smooth filtering, measured entrance transitions, animated counts, and an accessible reduced-motion mode.
 
 ### Latest results
 
@@ -63,6 +63,8 @@ The [dashboard](https://biswajit1999.github.io/daily-astro-notebooks/) is built 
 | What powers the emission in nearby galaxies? | SDSS, 12,000 spectra | **73.1%** star-forming, **17.3%** composite, **9.6%** active-galaxy branch in the selected sample |
 | How did SN 1987A's optical structures evolve? | HST imaging and published calibrated photometry | F625W ring flux fell **47.9%**, while ejecta flux rose **19.8%**, over the tabulated interval |
 | Does SN 1987A look the same across JWST filters? | Four calibrated NIRCam images | The PSF-matched ring/ejecta ratio spans a factor of **4.14** from F150W to F444W |
+| How stable is the UNCOVER high-redshift candidate count? | 4,731 quality-flagged photometric candidates | **1,207** retain a central 68% redshift-posterior width below 2 |
+| How much does cluster lensing change the inferred brightness? | 1,179 UNCOVER candidates with F444W S/N >= 5 | Median de-lensed/observed flux proxy **0.711** (bootstrap 95% **0.706–0.718**) |
 
 ### 50-notebook expansion
 
@@ -180,6 +182,26 @@ and period slope of **−0.13 ± 0.04**, while explicitly separating a catalogue
 deficit from an occurrence-rate measurement. Survey completeness is not
 modelled here.
 
+### Scientific Audit Batch 9 — high-redshift galaxy candidates
+
+Five connected notebooks analyse a compact derivative of the UNCOVER DR3
+“SUPER” photometric catalogue behind Abell 2744. They test the z >= 6 candidate
+census against posterior width, trace the redward migration of the broad-band
+Lyman-break signature, separate observed F444W brightness from a simple lens-
+corrected proxy, audit catalogue size proxies, and map spatial selection against
+image weight and magnification. The repository preserves 4,731 selected rows in
+a 1.7 MB CSV rather than committing the 84 MB upstream FITS catalogue.
+
+These objects are consistently called *photometric high-redshift candidates*.
+The notebooks do not promote them to spectroscopic confirmations and do not
+derive a luminosity function, abundance, or intrinsic size relation without the
+needed completeness, source-plane, PSF, and lens-model work. UNCOVER DR4.1
+spectroscopy and its updated v2.0 lens model are named as the next independent
+validation step.
+
+All 60 plotting notebooks now import `scienceplots` and use the `science` plus
+`no-latex` style, giving cleaner figures while remaining reliable in Colab.
+
 Reusable outputs declared by audited notebooks are indexed with file sizes and
 SHA-256 checksums in [`DATA_PRODUCTS.json`](DATA_PRODUCTS.json). Project citation
 metadata are available in [`CITATION.cff`](CITATION.cff).
@@ -204,7 +226,7 @@ metadata are available in [`CITATION.cff`](CITATION.cff).
 </details>
 
 <details>
-<summary><b>mast/</b> — 17 notebooks</summary>
+<summary><b>mast/</b> — 22 notebooks</summary>
 
 - [`jwst-image-carina-nebula`](mast/2026-07-30-jwst-image-carina-nebula/) — real JWST NIRCam image of the Carina Nebula
 - [`hst-image-eagle-nebula`](mast/2026-07-30-hst-image-eagle-nebula/) — Hubble image of the Eagle Nebula (Pillars of Creation)
@@ -223,6 +245,11 @@ metadata are available in [`CITATION.cff`](CITATION.cff).
 - [`jwst-sn1987a-rgb`](mast/2026-08-01-jwst-sn1987a-rgb/) — reconstructing a documented three-filter NIRCam false-colour image
 - [`jwst-sn1987a-filter-morphology`](mast/2026-08-01-jwst-sn1987a-filter-morphology/) — PSF-matching four filters and testing the ring/ejecta ratio across apertures
 - [`hst-jwst-sn1987a-comparison`](mast/2026-08-01-hst-jwst-sn1987a-comparison/) — comparing registered normalized structure across HST and JWST with explicit limits
+- [`uncover-highz-candidate-census`](mast/2026-08-01-uncover-highz-candidate-census/) — stress-testing the z >= 6 photometric-candidate count against posterior width
+- [`uncover-lyman-break-stacks`](mast/2026-08-01-uncover-lyman-break-stacks/) — tracing broad-band blue suppression across photometric-redshift bins
+- [`uncover-lensing-brightness`](mast/2026-08-01-uncover-lensing-brightness/) — comparing observed and approximately de-lensed F444W fluxes
+- [`uncover-size-redshift`](mast/2026-08-01-uncover-size-redshift/) — auditing a PSF-affected, lens-corrected radius proxy
+- [`uncover-spatial-selection`](mast/2026-08-01-uncover-spatial-selection/) — mapping candidate density against image depth and magnification
 
 </details>
 
@@ -299,7 +326,7 @@ Contribution guidance is in [CONTRIBUTING.md](CONTRIBUTING.md).
 ## Tools used
 
 `astropy` · `astroquery` (`.mast`, `.gaia`, `.sdss`) · `lightkurve` · `pyvo`
-· `numpy` / `matplotlib` · `sdss_access`
+· `numpy` / `matplotlib` · `SciencePlots` · `sdss_access` · `Motion for React`
 
 ## Citing the data
 
@@ -313,5 +340,5 @@ general rule:
 
 ---
 
-Maintained by **Biswajit** ([@Biswajit1999](https://github.com/Biswajit1999)).
+Maintained by **Biswajit Jana** ([@Biswajit1999](https://github.com/Biswajit1999)).
 New real-data notebooks added daily.

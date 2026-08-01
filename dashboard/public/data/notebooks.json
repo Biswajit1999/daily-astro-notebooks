@@ -1,9 +1,9 @@
 {
   "generated": "2026-08-01",
   "stats": {
-    "total": 55,
+    "total": 60,
     "archives": 4,
-    "dense": 55
+    "dense": 60
   },
   "notebooks": [
     {
@@ -297,6 +297,64 @@
       ]
     },
     {
+      "id": "2026-08-01-uncover-spatial-selection",
+      "title": "Is the sky density of UNCOVER high-z candidates spatially uniform?",
+      "archive": "UNCOVER / MAST",
+      "date": "2026-08-01",
+      "question": "Do candidate surface-density variations track F444W coverage and lensing structure?",
+      "sample_size": 4639,
+      "results": [
+        "The 7x7 occupied-cell depth relation has Spearman rho = 0.42 (p = 0.0125)",
+        "Grid stress-test rho spans 0.42 to 0.57"
+      ],
+      "validation": "The relation is repeated across five grid resolutions and is interpreted only as a selection diagnostic.",
+      "notebook": "mast/2026-08-01-uncover-spatial-selection/notebook.ipynb",
+      "hero": "mast/2026-08-01-uncover-spatial-selection/highz_candidate_sky_map.png",
+      "figures": [
+        "mast/2026-08-01-uncover-spatial-selection/highz_candidate_sky_map.png",
+        "mast/2026-08-01-uncover-spatial-selection/candidate_density_depth_relation.png"
+      ],
+      "research_level": "Exploration",
+      "claim_type": "Photometric candidate analysis",
+      "provenance": [
+        "UNCOVER DR3 SUPER catalog, Zenodo DOI 10.5281/zenodo.11059273",
+        "Upstream MD5 baeb44ce166c920050ceb93220b12e05",
+        "Selection: use_phot=1, flag_eazy=1, 6 <= z_phot < 15"
+      ],
+      "artifacts": [
+        "mast/2026-08-01-uncover-spatial-selection/spatial_grid_summary.csv",
+        "mast/2026-08-01-uncover-spatial-selection/spatial_binning_sensitivity.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "finite coordinate and weight cut",
+          "status": "passed"
+        },
+        {
+          "name": "five grid resolutions",
+          "status": "passed"
+        },
+        {
+          "name": "lensing shown explicitly",
+          "status": "passed"
+        }
+      ],
+      "limitations": [
+        "Counts are not corrected by source-plane area or completeness.",
+        "A single cluster field cannot establish cosmic clustering."
+      ],
+      "family": "MAST",
+      "date_display": "01 Aug 2026",
+      "summary": "Do candidate surface-density variations track F444W coverage and lensing structure?",
+      "sample_size_display": "4,639 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-08-01-uncover-spatial-selection.png",
+      "figures_local": [
+        "data/images/2026-08-01-uncover-spatial-selection.png",
+        "data/images/2026-08-01-uncover-spatial-selection--figure-2.png"
+      ]
+    },
+    {
       "id": "2026-08-01-hst-sn1987a-timelapse",
       "title": "Hubble SN 1987A: registered 1994\u20132006 time-lapse",
       "archive": "NASA / HST release imagery",
@@ -365,6 +423,237 @@
       "figures_local": [
         "data/images/2026-08-01-hst-sn1987a-timelapse.png",
         "data/images/2026-08-01-hst-sn1987a-timelapse--figure-2.png"
+      ]
+    },
+    {
+      "id": "2026-08-01-uncover-lensing-brightness",
+      "title": "How strongly does Abell 2744 lensing change candidate brightness rankings?",
+      "archive": "UNCOVER / MAST",
+      "date": "2026-08-01",
+      "question": "How do observed and approximately de-lensed F444W fluxes differ across the high-z sample?",
+      "sample_size": 1179,
+      "results": [
+        "Primary sample contains 1,179 candidates with F444W S/N >= 5 and mu <= 30",
+        "Median intrinsic/observed flux ratio = 0.711 (bootstrap 95% 0.706\u20130.718)"
+      ],
+      "validation": "Results are repeated across five magnification caps; a future DR4 v2.0 lens-map match is required for precision use.",
+      "notebook": "mast/2026-08-01-uncover-lensing-brightness/notebook.ipynb",
+      "hero": "mast/2026-08-01-uncover-lensing-brightness/lensing_brightness_comparison.png",
+      "figures": [
+        "mast/2026-08-01-uncover-lensing-brightness/lensing_brightness_comparison.png",
+        "mast/2026-08-01-uncover-lensing-brightness/magnification_cap_stress.png"
+      ],
+      "research_level": "Exploration",
+      "claim_type": "Photometric candidate analysis",
+      "provenance": [
+        "UNCOVER DR3 SUPER catalog, Zenodo DOI 10.5281/zenodo.11059273",
+        "Upstream MD5 baeb44ce166c920050ceb93220b12e05",
+        "Selection: use_phot=1, flag_eazy=1, 6 <= z_phot < 15"
+      ],
+      "artifacts": [
+        "mast/2026-08-01-uncover-lensing-brightness/magnification_cap_sensitivity.csv",
+        "mast/2026-08-01-uncover-lensing-brightness/lensing_working_sample.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "F444W S/N >= 5",
+          "status": "passed"
+        },
+        {
+          "name": "magnification cap stress test",
+          "status": "passed"
+        },
+        {
+          "name": "bootstrap interval",
+          "status": "passed"
+        }
+      ],
+      "limitations": [
+        "F444W/mu is a flux proxy, not a luminosity function.",
+        "DR3 magnifications are superseded by the DR4 v2.0 lens model."
+      ],
+      "family": "MAST",
+      "date_display": "01 Aug 2026",
+      "summary": "How do observed and approximately de-lensed F444W fluxes differ across the high-z sample?",
+      "sample_size_display": "1,179 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-08-01-uncover-lensing-brightness.png",
+      "figures_local": [
+        "data/images/2026-08-01-uncover-lensing-brightness.png",
+        "data/images/2026-08-01-uncover-lensing-brightness--figure-2.png"
+      ]
+    },
+    {
+      "id": "2026-08-01-uncover-highz-candidate-census",
+      "title": "How stable is the UNCOVER z >= 6 candidate count?",
+      "archive": "UNCOVER / MAST",
+      "date": "2026-08-01",
+      "question": "How many quality-flagged candidates remain when the redshift posterior must be narrow?",
+      "sample_size": 4731,
+      "results": [
+        "1,207 of 4,731 candidates have 68% posterior width < 2",
+        "Strict-sample median z = 6.78 (bootstrap 95% 6.74\u20136.89)"
+      ],
+      "validation": "The sensitivity curve is the validation: the reported census is not treated as threshold-free.",
+      "notebook": "mast/2026-08-01-uncover-highz-candidate-census/notebook.ipynb",
+      "hero": "mast/2026-08-01-uncover-highz-candidate-census/highz_redshift_distribution.png",
+      "figures": [
+        "mast/2026-08-01-uncover-highz-candidate-census/highz_redshift_distribution.png",
+        "mast/2026-08-01-uncover-highz-candidate-census/posterior_width_sensitivity.png"
+      ],
+      "research_level": "Exploration",
+      "claim_type": "Photometric candidate analysis",
+      "provenance": [
+        "UNCOVER DR3 SUPER catalog, Zenodo DOI 10.5281/zenodo.11059273",
+        "Upstream MD5 baeb44ce166c920050ceb93220b12e05",
+        "Selection: use_phot=1, flag_eazy=1, 6 <= z_phot < 15"
+      ],
+      "artifacts": [
+        "mast/2026-08-01-uncover-highz-candidate-census/selection_sensitivity.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "release photometry flag",
+          "status": "passed"
+        },
+        {
+          "name": "EAzY reliability flag",
+          "status": "passed"
+        },
+        {
+          "name": "posterior-width stress test",
+          "status": "passed"
+        }
+      ],
+      "limitations": [
+        "Photometric candidates are not spectroscopic confirmations.",
+        "No completeness or lensing-area correction is applied."
+      ],
+      "family": "MAST",
+      "date_display": "01 Aug 2026",
+      "summary": "How many quality-flagged candidates remain when the redshift posterior must be narrow?",
+      "sample_size_display": "4,731 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-08-01-uncover-highz-candidate-census.png",
+      "figures_local": [
+        "data/images/2026-08-01-uncover-highz-candidate-census.png",
+        "data/images/2026-08-01-uncover-highz-candidate-census--figure-2.png"
+      ]
+    },
+    {
+      "id": "2026-08-01-uncover-lyman-break-stacks",
+      "title": "Does the Lyman-break migration appear in stacked UNCOVER photometry?",
+      "archive": "UNCOVER / MAST",
+      "date": "2026-08-01",
+      "question": "Do median broad-band flux patterns move to longer wavelengths with candidate redshift?",
+      "sample_size": 1182,
+      "results": [
+        "1,182 candidates pass the F444W signal-to-noise display cut",
+        "Median blue/red ratios span 0.319\u20130.754 across the three bins"
+      ],
+      "validation": "The wavelength of blue suppression shifts redward across bins as expected for a Lyman break, but this is not independent of the photometric-redshift fit.",
+      "notebook": "mast/2026-08-01-uncover-lyman-break-stacks/notebook.ipynb",
+      "hero": "mast/2026-08-01-uncover-lyman-break-stacks/lyman_break_median_stacks.png",
+      "figures": [
+        "mast/2026-08-01-uncover-lyman-break-stacks/lyman_break_median_stacks.png",
+        "mast/2026-08-01-uncover-lyman-break-stacks/dropout_ratio_bootstrap.png"
+      ],
+      "research_level": "Exploration",
+      "claim_type": "Photometric candidate analysis",
+      "provenance": [
+        "UNCOVER DR3 SUPER catalog, Zenodo DOI 10.5281/zenodo.11059273",
+        "Upstream MD5 baeb44ce166c920050ceb93220b12e05",
+        "Selection: use_phot=1, flag_eazy=1, 6 <= z_phot < 15"
+      ],
+      "artifacts": [
+        "mast/2026-08-01-uncover-lyman-break-stacks/median_sed_stacks.csv",
+        "mast/2026-08-01-uncover-lyman-break-stacks/dropout_ratio_summary.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "negative blue flux retained",
+          "status": "passed"
+        },
+        {
+          "name": "red-band S/N >= 5",
+          "status": "passed"
+        },
+        {
+          "name": "bootstrap intervals",
+          "status": "passed"
+        }
+      ],
+      "limitations": [
+        "Broad-band stacks cannot identify chemical abundances.",
+        "The colour check reuses photometry that informed z_phot."
+      ],
+      "family": "MAST",
+      "date_display": "01 Aug 2026",
+      "summary": "Do median broad-band flux patterns move to longer wavelengths with candidate redshift?",
+      "sample_size_display": "1,182 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-08-01-uncover-lyman-break-stacks.png",
+      "figures_local": [
+        "data/images/2026-08-01-uncover-lyman-break-stacks.png",
+        "data/images/2026-08-01-uncover-lyman-break-stacks--figure-2.png"
+      ]
+    },
+    {
+      "id": "2026-08-01-uncover-size-redshift",
+      "title": "Do UNCOVER high-z candidates show a change in catalogue size proxy?",
+      "archive": "UNCOVER / MAST",
+      "date": "2026-08-01",
+      "question": "How does the observed flux-radius proxy vary across redshift bins after a simple lens correction?",
+      "sample_size": 1127,
+      "results": [
+        "1,127 candidates pass the flux, radius, and magnification cuts",
+        "Median approximate de-lensed radius proxy = 0.80 kpc"
+      ],
+      "validation": "Bootstrap intervals and five radius-cut choices expose sampling and threshold sensitivity; PSF and shear modelling remain outstanding.",
+      "notebook": "mast/2026-08-01-uncover-size-redshift/notebook.ipynb",
+      "hero": "mast/2026-08-01-uncover-size-redshift/size_proxy_scatter.png",
+      "figures": [
+        "mast/2026-08-01-uncover-size-redshift/size_proxy_scatter.png",
+        "mast/2026-08-01-uncover-size-redshift/size_proxy_binned.png"
+      ],
+      "research_level": "Exploration",
+      "claim_type": "Photometric candidate analysis",
+      "provenance": [
+        "UNCOVER DR3 SUPER catalog, Zenodo DOI 10.5281/zenodo.11059273",
+        "Upstream MD5 baeb44ce166c920050ceb93220b12e05",
+        "Selection: use_phot=1, flag_eazy=1, 6 <= z_phot < 15"
+      ],
+      "artifacts": [
+        "mast/2026-08-01-uncover-size-redshift/size_proxy_by_redshift.csv",
+        "mast/2026-08-01-uncover-size-redshift/size_cut_sensitivity.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "F444W S/N >= 5",
+          "status": "passed"
+        },
+        {
+          "name": "radius and magnification cuts",
+          "status": "passed"
+        },
+        {
+          "name": "cut sensitivity",
+          "status": "passed"
+        }
+      ],
+      "limitations": [
+        "The catalogue flux radius is PSF affected.",
+        "Dividing by sqrt(mu) ignores directional shear and is only a proxy."
+      ],
+      "family": "MAST",
+      "date_display": "01 Aug 2026",
+      "summary": "How does the observed flux-radius proxy vary across redshift bins after a simple lens correction?",
+      "sample_size_display": "1,127 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-08-01-uncover-size-redshift.png",
+      "figures_local": [
+        "data/images/2026-08-01-uncover-size-redshift.png",
+        "data/images/2026-08-01-uncover-size-redshift--figure-2.png"
       ]
     },
     {
