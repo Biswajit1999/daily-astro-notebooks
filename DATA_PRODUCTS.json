@@ -348,6 +348,61 @@
       ]
     },
     {
+      "id": "2026-08-01-asassn18tb-background-systematics",
+      "archive": "MAST / TESS / DES",
+      "research_level": "Time-domain audit",
+      "claim_type": "Background-treatment stress test",
+      "provenance": [
+        "MAST TESSCut SPOC FFI cutouts, Sectors 1 and 2",
+        "MIT TESS Transients cleaned light curve for SN 2018fhw",
+        "DES DR2 g/r/i HiPS FITS cutouts via CDS"
+      ]
+    },
+    {
+      "id": "2026-08-01-asassn18tb-des-host",
+      "archive": "MAST / TESS / DES",
+      "research_level": "Time-domain audit",
+      "claim_type": "Pre-explosion host-environment audit",
+      "provenance": [
+        "MAST TESSCut SPOC FFI cutouts, Sectors 1 and 2",
+        "MIT TESS Transients cleaned light curve for SN 2018fhw",
+        "DES DR2 g/r/i HiPS FITS cutouts via CDS"
+      ]
+    },
+    {
+      "id": "2026-08-01-asassn18tb-independent-photometry",
+      "archive": "MAST / TESS / DES",
+      "research_level": "Time-domain audit",
+      "claim_type": "Independent light-curve shape recovery",
+      "provenance": [
+        "MAST TESSCut SPOC FFI cutouts, Sectors 1 and 2",
+        "MIT TESS Transients cleaned light curve for SN 2018fhw",
+        "DES DR2 g/r/i HiPS FITS cutouts via CDS"
+      ]
+    },
+    {
+      "id": "2026-08-01-asassn18tb-rise-model",
+      "archive": "MAST / TESS / DES",
+      "research_level": "Time-domain audit",
+      "claim_type": "Conditional early-rise remeasurement",
+      "provenance": [
+        "MAST TESSCut SPOC FFI cutouts, Sectors 1 and 2",
+        "MIT TESS Transients cleaned light curve for SN 2018fhw",
+        "DES DR2 g/r/i HiPS FITS cutouts via CDS"
+      ]
+    },
+    {
+      "id": "2026-08-01-asassn18tb-tess-animation",
+      "archive": "MAST / TESS / DES",
+      "research_level": "Time-domain audit",
+      "claim_type": "Real detector-image diagnostic sequence",
+      "provenance": [
+        "MAST TESSCut SPOC FFI cutouts, Sectors 1 and 2",
+        "MIT TESS Transients cleaned light curve for SN 2018fhw",
+        "DES DR2 g/r/i HiPS FITS cutouts via CDS"
+      ]
+    },
+    {
       "id": "2026-08-01-hst-jwst-sn1987a-comparison",
       "archive": "MAST \u00b7 HST WFC3 + JWST NIRCam",
       "research_level": "Exploration",
@@ -928,6 +983,42 @@
       "notebook_id": "2026-07-31-hst-stis-hd93521-line-inventory",
       "bytes": 740,
       "sha256": "14f85e2e66e046f53fd2cc0ef485a1e4bddd95627d45989e2973c320423c0772"
+    },
+    {
+      "path": "mast/2026-08-01-asassn18tb-background-systematics/background_correction_stress.csv",
+      "notebook_id": "2026-08-01-asassn18tb-background-systematics",
+      "bytes": 187,
+      "sha256": "fe8dc42cea5ac98c3c01e1e09cb0db4786b618f1d56fb2f76c1de9406c1b6d0c"
+    },
+    {
+      "path": "mast/2026-08-01-asassn18tb-des-host/host_centroid_sensitivity.csv",
+      "notebook_id": "2026-08-01-asassn18tb-des-host",
+      "bytes": 286,
+      "sha256": "ea7c2c50470c6ca3ab469f3991e1899c1c5f64c23a898d8b5bd461f69f63bb57"
+    },
+    {
+      "path": "mast/2026-08-01-asassn18tb-independent-photometry/aperture_vs_mit_lightcurve.csv",
+      "notebook_id": "2026-08-01-asassn18tb-independent-photometry",
+      "bytes": 119166,
+      "sha256": "a7d0deeb5dc331794b879d934199451500ee4f3884cf93105e6df62181c5265e"
+    },
+    {
+      "path": "mast/2026-08-01-asassn18tb-rise-model/rise_fit_window_sensitivity.csv",
+      "notebook_id": "2026-08-01-asassn18tb-rise-model",
+      "bytes": 286,
+      "sha256": "a739cd5ea24fc151a4aa6e59f526b7614cf315e7ea1501eefd2d3796d07494d6"
+    },
+    {
+      "path": "mast/2026-08-01-asassn18tb-tess-animation/movie_frame_brightness.csv",
+      "notebook_id": "2026-08-01-asassn18tb-tess-animation",
+      "bytes": 1690,
+      "sha256": "72a43e162ae725760f14ff1419cb6526519270ed26194dd375a255bd486f6ff1"
+    },
+    {
+      "path": "mast/2026-08-01-asassn18tb-tess-animation/asassn18tb_tess_rise.gif",
+      "notebook_id": "2026-08-01-asassn18tb-tess-animation",
+      "bytes": 316499,
+      "sha256": "d9dcaf941c6431d5302294bff5a666b4ecfdfc9e4f4064636ea44b6c56bafab3"
     },
     {
       "path": "data/sn1987a/hst_f625w_2018_cutout.fits",

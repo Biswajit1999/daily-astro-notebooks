@@ -48,7 +48,7 @@ Each dated subfolder contains:
 
 ## What's here so far
 
-**65 notebooks, 4 archives, 3 observing-log dates — all 65 meet the deeper analysis standard, including 46 full scientific audits.**
+**70 notebooks, 4 archives, 3 observing-log dates — all 70 meet the deeper analysis standard, including 51 full scientific audits.**
 
 The [dashboard](https://biswajit1999.github.io/daily-astro-notebooks/) is built from the repository itself. A new notebook appears there automatically after it is merged into `master` and the Pages workflow completes. Motion for React now gives the catalogue smooth filtering, measured entrance transitions, animated counts, and an accessible reduced-motion mode.
 
@@ -68,6 +68,8 @@ The [dashboard](https://biswajit1999.github.io/daily-astro-notebooks/) is built 
 | How well did photometric redshifts survive spectroscopy? | 44 UNCOVER DR3 candidates with solid/secure DR4.1 matches | **41 remain at z >= 6**; normalized scatter **0.017**; **6.8%** outliers at the stated threshold |
 | Were the central 68% redshift intervals calibrated? | The same 44 matched objects | Only **31.8%** contain the later spectroscopic value (Wilson 95% **20.0–46.6%**) |
 | Which high-redshift lines are most often measured? | 48 solid/secure DR4.1 objects at z >= 6 | [O III] 5007 reaches reported S/N >= 3 in **39 objects** |
+| Can TESS independently recover the rise of ASASSN-18tb? | 1,282 Sector 1 cadences | A separate pixel-aperture extraction correlates with the public difference light curve at **r = 0.989** |
+| Is a fixed t-squared rise adequate? | 83 four-hour TESS bins | Free fit gives **alpha = 1.545**, first light **MJD 58341.54**, and improves AIC by **43.2** |
 
 ### 50-notebook expansion
 
@@ -227,7 +229,36 @@ pairs six real 1D spectra with their real 2D NIRSpec slit images across
 MAST Astrocut service. The imaging colours are a documented display mapping;
 the spectra, errors, detector pixels, and release redshifts remain visible.
 
-All 65 plotting notebooks now import `scienceplots` and use the `science` plus
+### Scientific Audit Batch 11 — a supernova in motion
+
+Five connected notebooks follow ASASSN-18tb (SN 2018fhw) through real TESS
+pixels, public difference photometry, and pre-explosion DES imaging. The
+repository now includes both MAST TESSCut cubes, the automatically processed
+MIT TESS Transients light curve, DES DR2 g/r/i FITS cutouts, exact checksums,
+and a directly playable 29-frame GIF.
+
+The animation is deliberately diagnostic rather than cinematic. Fixed display
+limits reveal strong off-target residuals, so it is not presented as a clean
+resolved view of the supernova. A separately measured central aperture does,
+however, follow the public light-curve shape at **r = 0.985**, while the full
+cadence-level independent extraction reaches **r = 0.989**. This shows both the
+real rise and the reason a proper difference-imaging pipeline is necessary.
+
+The compact free-power-law fit gives an index of **1.545** and first light at
+**MJD 58341.54**. The latter agrees closely with the published MJD 58341.68;
+the index changes from **1.37 to 1.66** as the fit window changes and is not
+claimed as a replacement for the published 1.69 +/- 0.04 measurement. A
+held-out baseline test also finds that blindly subtracting the supplied
+background model increases RMS by **4.7%** for this event. Finally, an i/r/g
+DES composite locates the reported supernova position inside its early-type
+host and exposes the sensitivity of a simple host-centre measurement.
+
+<p align="center">
+  <img src="mast/2026-08-01-asassn18tb-tess-animation/asassn18tb_tess_rise.gif" alt="Fixed-scale TESS difference-field animation around ASASSN-18tb; the target is marked and off-target residuals remain visible" width="520">
+</p>
+<p align="center"><em>Real TESS Sector 1 pixels in half-day bins. The cyan circle is the transient coordinate; visible off-target residuals are retained as part of the systematic audit.</em></p>
+
+All 70 plotting notebooks now import `scienceplots` and use the `science` plus
 `no-latex` style, giving cleaner figures while remaining reliable in Colab.
 
 Reusable outputs declared by audited notebooks are indexed with file sizes and
@@ -254,7 +285,7 @@ metadata are available in [`CITATION.cff`](CITATION.cff).
 </details>
 
 <details>
-<summary><b>mast/</b> — 27 notebooks</summary>
+<summary><b>mast/</b> — 32 notebooks</summary>
 
 - [`jwst-image-carina-nebula`](mast/2026-07-30-jwst-image-carina-nebula/) — real JWST NIRCam image of the Carina Nebula
 - [`hst-image-eagle-nebula`](mast/2026-07-30-hst-image-eagle-nebula/) — Hubble image of the Eagle Nebula (Pillars of Creation)
@@ -283,6 +314,11 @@ metadata are available in [`CITATION.cff`](CITATION.cff).
 - [`uncover-spectroscopic-evidence`](mast/2026-08-01-uncover-spectroscopic-evidence/) — auditing line, break, exposure, and background-advisory evidence
 - [`uncover-highz-line-diagnostics`](mast/2026-08-01-uncover-highz-line-diagnostics/) — screening public high-redshift line fits by their reported uncertainties and lensing scale
 - [`uncover-nirspec-spectral-atlas`](mast/2026-08-01-uncover-nirspec-spectral-atlas/) — pairing six real 1D/2D JWST spectra with independent HST imaging context
+- [`asassn18tb-tess-animation`](mast/2026-08-01-asassn18tb-tess-animation/) — animating fixed-scale real TESS difference fields while retaining off-target residuals
+- [`asassn18tb-independent-photometry`](mast/2026-08-01-asassn18tb-independent-photometry/) — comparing a separate aperture extraction with public forced photometry cadence by cadence
+- [`asassn18tb-background-systematics`](mast/2026-08-01-asassn18tb-background-systematics/) — testing background corrections on held-out pre-explosion data
+- [`asassn18tb-rise-model`](mast/2026-08-01-asassn18tb-rise-model/) — comparing a free early-rise power law with a fixed t-squared model
+- [`asassn18tb-des-host`](mast/2026-08-01-asassn18tb-des-host/) — building a real DES i/r/g host composite and stressing the inferred positional offset
 
 </details>
 

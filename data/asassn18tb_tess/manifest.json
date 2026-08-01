@@ -1,0 +1,51 @@
+{
+  "dataset": "ASASSN-18tb / SN 2018fhw TESS time series and DES DR2 host imaging",
+  "retrieved_utc": "2026-08-01",
+  "coordinates_icrs_deg": {
+    "ra": 64.526108,
+    "dec": -63.615069
+  },
+  "sources": [
+    "https://mast.stsci.edu/tesscut/",
+    "https://tess.mit.edu/public/tesstransients/",
+    "https://alasky.cds.unistra.fr/hips-image-services/hips2fits"
+  ],
+  "paper": "https://doi.org/10.1093/mnras/stz1445",
+  "files": [
+    {
+      "path": "data/asassn18tb_tess/README.md",
+      "bytes": 1134,
+      "sha256": "90bc8c349afdd264db7d363a87f73de26362e75d3e2a1acfbd00e7ac4dafd688"
+    },
+    {
+      "path": "data/asassn18tb_tess/des_dr2_g.fits",
+      "bytes": 267840,
+      "sha256": "7ef4f5566c0c6c8ddd28e71174dc80c26e9b1ad82c97a0f9462eb9497db59455"
+    },
+    {
+      "path": "data/asassn18tb_tess/des_dr2_i.fits",
+      "bytes": 267840,
+      "sha256": "1d759d028051acfd9769506bd1eb51b98a70150845f58f4f9e14f8c83fa35660"
+    },
+    {
+      "path": "data/asassn18tb_tess/des_dr2_r.fits",
+      "bytes": 267840,
+      "sha256": "de0c9d9ffebf1fb5e61334f50a40a7c767e4454dd048cd502a4600a39ce77519"
+    },
+    {
+      "path": "data/asassn18tb_tess/lc_2018fhw_cleaned.txt",
+      "bytes": 161664,
+      "sha256": "32ec83de66606082ba04c8c5031ddd4c7604cfb58e8d4e418600ccf7378415e2"
+    },
+    {
+      "path": "data/asassn18tb_tess/tesscut_sector1.fits",
+      "bytes": 5895360,
+      "sha256": "ffe4ae7a32e87f2a27a7dd7ad98060162faa7f36e489a1a291822e0c4ad82046"
+    },
+    {
+      "path": "data/asassn18tb_tess/tesscut_sector2.fits",
+      "bytes": 5725440,
+      "sha256": "de5828918c0ffcd132a13dbb42119c53fdeea7e5ccfdef3ef3ca28404c3571a9"
+    }
+  ]
+}

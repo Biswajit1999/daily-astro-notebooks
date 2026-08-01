@@ -1,0 +1,50 @@
+{
+  "id": "2026-08-01-asassn18tb-tess-animation",
+  "title": "A real TESS field movie during a supernova rise",
+  "archive": "MAST / TESS / DES",
+  "date": "2026-08-01",
+  "question": "What can raw TESS cutouts show, and where do simple difference images fail to isolate the supernova?",
+  "sample_size": 1282,
+  "results": [
+    "1282 Sector 1 cadences form 29 half-day movie frames",
+    "The central aperture trace correlates with the public light curve at r=0.985",
+    "Stronger off-target residuals show that the simple movie does not cleanly isolate the supernova",
+    "A directly playable animated GIF is saved"
+  ],
+  "validation": "Fixed display limits, the WCS target marker, and a separately plotted aperture trace distinguish a measured rise from off-target image residuals.",
+  "notebook": "mast/2026-08-01-asassn18tb-tess-animation/notebook.ipynb",
+  "hero": "mast/2026-08-01-asassn18tb-tess-animation/tess_rise_montage.png",
+  "figures": [
+    "mast/2026-08-01-asassn18tb-tess-animation/tess_rise_montage.png",
+    "mast/2026-08-01-asassn18tb-tess-animation/movie_brightness_trace.png"
+  ],
+  "research_level": "Time-domain audit",
+  "claim_type": "Real detector-image diagnostic sequence",
+  "provenance": [
+    "MAST TESSCut SPOC FFI cutouts, Sectors 1 and 2",
+    "MIT TESS Transients cleaned light curve for SN 2018fhw",
+    "DES DR2 g/r/i HiPS FITS cutouts via CDS"
+  ],
+  "artifacts": [
+    "mast/2026-08-01-asassn18tb-tess-animation/movie_frame_brightness.csv",
+    "mast/2026-08-01-asassn18tb-tess-animation/asassn18tb_tess_rise.gif"
+  ],
+  "quality_checks": [
+    {
+      "name": "quality-zero frame selection",
+      "status": "passed"
+    },
+    {
+      "name": "fixed animation scale",
+      "status": "passed"
+    },
+    {
+      "name": "off-target residual check",
+      "status": "passed"
+    }
+  ],
+  "limitations": [
+    "TESS pixels blend the host and nearby sources.",
+    "The animation covers the Sector 1 rise, not the full decline."
+  ]
+}

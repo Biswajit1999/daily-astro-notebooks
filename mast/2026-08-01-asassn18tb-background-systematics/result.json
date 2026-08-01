@@ -1,0 +1,44 @@
+{
+  "id": "2026-08-01-asassn18tb-background-systematics",
+  "title": "How much does scattered-light treatment matter?",
+  "archive": "MAST / TESS / DES",
+  "date": "2026-08-01",
+  "question": "Does subtracting the supplied background model reduce pre-explosion scatter?",
+  "sample_size": 494,
+  "results": [
+    "Held-out raw RMS = 1543.7",
+    "Unit background subtraction changes RMS by +4.7%",
+    "A trained coefficient of -3.45 also fails the held-out improvement test"
+  ],
+  "validation": "Correction choices are judged on a held-out half of the pre-explosion baseline rather than the fitted points.",
+  "notebook": "mast/2026-08-01-asassn18tb-background-systematics/notebook.ipynb",
+  "hero": "mast/2026-08-01-asassn18tb-background-systematics/background_method_comparison.png",
+  "figures": [
+    "mast/2026-08-01-asassn18tb-background-systematics/background_method_comparison.png",
+    "mast/2026-08-01-asassn18tb-background-systematics/background_time_series.png"
+  ],
+  "research_level": "Time-domain audit",
+  "claim_type": "Background-treatment stress test",
+  "provenance": [
+    "MAST TESSCut SPOC FFI cutouts, Sectors 1 and 2",
+    "MIT TESS Transients cleaned light curve for SN 2018fhw",
+    "DES DR2 g/r/i HiPS FITS cutouts via CDS"
+  ],
+  "artifacts": [
+    "mast/2026-08-01-asassn18tb-background-systematics/background_correction_stress.csv"
+  ],
+  "quality_checks": [
+    {
+      "name": "pre-explosion control window",
+      "status": "passed"
+    },
+    {
+      "name": "held-out comparison",
+      "status": "passed"
+    }
+  ],
+  "limitations": [
+    "This test does not reproduce the paper's spatial comparison-star correction.",
+    "The optimal method can vary across time."
+  ]
+}

@@ -1,9 +1,9 @@
 {
   "generated": "2026-08-01",
   "stats": {
-    "total": 65,
+    "total": 70,
     "archives": 4,
-    "dense": 65
+    "dense": 70
   },
   "notebooks": [
     {
@@ -114,6 +114,60 @@
       "figures_local": [
         "data/images/2026-08-01-uncover-spectroscopic-evidence.png",
         "data/images/2026-08-01-uncover-spectroscopic-evidence--figure-2.png"
+      ]
+    },
+    {
+      "id": "2026-08-01-asassn18tb-des-host",
+      "title": "The DES host galaxy around ASASSN-18tb",
+      "archive": "MAST / TESS / DES",
+      "date": "2026-08-01",
+      "question": "What does pre-explosion DES imaging show about the host environment and positional offset?",
+      "sample_size": 3,
+      "results": [
+        "A real DES DR2 i/r/g composite resolves the early-type host",
+        "Simple DES centroid models give a median projected offset of 3.02 arcsec",
+        "Published 2MASS-based offset is 5.16 arcsec"
+      ],
+      "validation": "The host offset is stressed across four fitting boxes and compared with the published 2MASS-centre value.",
+      "notebook": "mast/2026-08-01-asassn18tb-des-host/notebook.ipynb",
+      "hero": "mast/2026-08-01-asassn18tb-des-host/des_host_rgb.png",
+      "figures": [
+        "mast/2026-08-01-asassn18tb-des-host/des_host_rgb.png",
+        "mast/2026-08-01-asassn18tb-des-host/host_offset_stress.png"
+      ],
+      "research_level": "Time-domain audit",
+      "claim_type": "Pre-explosion host-environment audit",
+      "provenance": [
+        "MAST TESSCut SPOC FFI cutouts, Sectors 1 and 2",
+        "MIT TESS Transients cleaned light curve for SN 2018fhw",
+        "DES DR2 g/r/i HiPS FITS cutouts via CDS"
+      ],
+      "artifacts": [
+        "mast/2026-08-01-asassn18tb-des-host/host_centroid_sensitivity.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "three-filter FITS provenance",
+          "status": "passed"
+        },
+        {
+          "name": "centroid box-size stress",
+          "status": "passed"
+        }
+      ],
+      "limitations": [
+        "DES coadds predate the explosion and do not show the supernova.",
+        "A Gaussian is only a centre proxy for this structured galaxy."
+      ],
+      "family": "MAST",
+      "date_display": "01 Aug 2026",
+      "summary": "What does pre-explosion DES imaging show about the host environment and positional offset?",
+      "sample_size_display": "3 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-08-01-asassn18tb-des-host.png",
+      "figures_local": [
+        "data/images/2026-08-01-asassn18tb-des-host.png",
+        "data/images/2026-08-01-asassn18tb-des-host--figure-2.png"
       ]
     },
     {
@@ -257,6 +311,65 @@
       "figures_local": [
         "data/images/2026-08-01-hst-sn1987a-lightcurve.png",
         "data/images/2026-08-01-hst-sn1987a-lightcurve--figure-2.png"
+      ]
+    },
+    {
+      "id": "2026-08-01-asassn18tb-rise-model",
+      "title": "Remeasuring the early supernova rise",
+      "archive": "MAST / TESS / DES",
+      "date": "2026-08-01",
+      "question": "Is the public light curve better described by a free power law than a fixed t-squared rise?",
+      "sample_size": 83,
+      "results": [
+        "Free-index fit gives alpha=1.545",
+        "First light MJD=58341.54",
+        "Free model improves AIC by 43.2 over fixed alpha=2",
+        "Window stress spans alpha=1.37-1.66"
+      ],
+      "validation": "The remeasurement is compared with the published alpha=1.69 and first-light MJD 58341.68, then stressed across fit windows.",
+      "notebook": "mast/2026-08-01-asassn18tb-rise-model/notebook.ipynb",
+      "hero": "mast/2026-08-01-asassn18tb-rise-model/early_rise_powerlaw_fit.png",
+      "figures": [
+        "mast/2026-08-01-asassn18tb-rise-model/early_rise_powerlaw_fit.png",
+        "mast/2026-08-01-asassn18tb-rise-model/rise_fit_sensitivity.png"
+      ],
+      "research_level": "Time-domain audit",
+      "claim_type": "Conditional early-rise remeasurement",
+      "provenance": [
+        "MAST TESSCut SPOC FFI cutouts, Sectors 1 and 2",
+        "MIT TESS Transients cleaned light curve for SN 2018fhw",
+        "DES DR2 g/r/i HiPS FITS cutouts via CDS"
+      ],
+      "artifacts": [
+        "mast/2026-08-01-asassn18tb-rise-model/rise_fit_window_sensitivity.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "pre-explosion baseline",
+          "status": "passed"
+        },
+        {
+          "name": "fit-window stress test",
+          "status": "passed"
+        },
+        {
+          "name": "literature comparison",
+          "status": "passed"
+        }
+      ],
+      "limitations": [
+        "Formal fit errors omit correlated TESS systematics.",
+        "This compact fit does not constrain a companion radius."
+      ],
+      "family": "MAST",
+      "date_display": "01 Aug 2026",
+      "summary": "Is the public light curve better described by a free power law than a fixed t-squared rise?",
+      "sample_size_display": "83 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-08-01-asassn18tb-rise-model.png",
+      "figures_local": [
+        "data/images/2026-08-01-asassn18tb-rise-model.png",
+        "data/images/2026-08-01-asassn18tb-rise-model--figure-2.png"
       ]
     },
     {
@@ -580,6 +693,60 @@
       ]
     },
     {
+      "id": "2026-08-01-asassn18tb-independent-photometry",
+      "title": "Independent aperture photometry from the TESS pixels",
+      "archive": "MAST / TESS / DES",
+      "date": "2026-08-01",
+      "question": "Does a simple reference-subtracted aperture recover the published light-curve shape?",
+      "sample_size": 1266,
+      "results": [
+        "Independent and MIT extractions have Pearson r=0.989",
+        "Pre-explosion residual RMS = 2257.0",
+        "Rising-phase residual RMS = 2434.8"
+      ],
+      "validation": "A separate aperture extraction is compared cadence by cadence with the public forced-photometry product.",
+      "notebook": "mast/2026-08-01-asassn18tb-independent-photometry/notebook.ipynb",
+      "hero": "mast/2026-08-01-asassn18tb-independent-photometry/independent_lightcurve_comparison.png",
+      "figures": [
+        "mast/2026-08-01-asassn18tb-independent-photometry/independent_lightcurve_comparison.png",
+        "mast/2026-08-01-asassn18tb-independent-photometry/extraction_agreement_audit.png"
+      ],
+      "research_level": "Time-domain audit",
+      "claim_type": "Independent light-curve shape recovery",
+      "provenance": [
+        "MAST TESSCut SPOC FFI cutouts, Sectors 1 and 2",
+        "MIT TESS Transients cleaned light curve for SN 2018fhw",
+        "DES DR2 g/r/i HiPS FITS cutouts via CDS"
+      ],
+      "artifacts": [
+        "mast/2026-08-01-asassn18tb-independent-photometry/aperture_vs_mit_lightcurve.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "pre-explosion reference",
+          "status": "passed"
+        },
+        {
+          "name": "cadence-level comparison",
+          "status": "passed"
+        }
+      ],
+      "limitations": [
+        "The linear scale is empirical.",
+        "Neither extraction spatially resolves the host galaxy."
+      ],
+      "family": "MAST",
+      "date_display": "01 Aug 2026",
+      "summary": "Does a simple reference-subtracted aperture recover the published light-curve shape?",
+      "sample_size_display": "1,266 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-08-01-asassn18tb-independent-photometry.png",
+      "figures_local": [
+        "data/images/2026-08-01-asassn18tb-independent-photometry.png",
+        "data/images/2026-08-01-asassn18tb-independent-photometry--figure-2.png"
+      ]
+    },
+    {
       "id": "2026-08-01-hst-sn1987a-timelapse",
       "title": "Hubble SN 1987A: registered 1994\u20132006 time-lapse",
       "archive": "NASA / HST release imagery",
@@ -766,6 +933,60 @@
       ]
     },
     {
+      "id": "2026-08-01-asassn18tb-background-systematics",
+      "title": "How much does scattered-light treatment matter?",
+      "archive": "MAST / TESS / DES",
+      "date": "2026-08-01",
+      "question": "Does subtracting the supplied background model reduce pre-explosion scatter?",
+      "sample_size": 494,
+      "results": [
+        "Held-out raw RMS = 1543.7",
+        "Unit background subtraction changes RMS by +4.7%",
+        "A trained coefficient of -3.45 also fails the held-out improvement test"
+      ],
+      "validation": "Correction choices are judged on a held-out half of the pre-explosion baseline rather than the fitted points.",
+      "notebook": "mast/2026-08-01-asassn18tb-background-systematics/notebook.ipynb",
+      "hero": "mast/2026-08-01-asassn18tb-background-systematics/background_method_comparison.png",
+      "figures": [
+        "mast/2026-08-01-asassn18tb-background-systematics/background_method_comparison.png",
+        "mast/2026-08-01-asassn18tb-background-systematics/background_time_series.png"
+      ],
+      "research_level": "Time-domain audit",
+      "claim_type": "Background-treatment stress test",
+      "provenance": [
+        "MAST TESSCut SPOC FFI cutouts, Sectors 1 and 2",
+        "MIT TESS Transients cleaned light curve for SN 2018fhw",
+        "DES DR2 g/r/i HiPS FITS cutouts via CDS"
+      ],
+      "artifacts": [
+        "mast/2026-08-01-asassn18tb-background-systematics/background_correction_stress.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "pre-explosion control window",
+          "status": "passed"
+        },
+        {
+          "name": "held-out comparison",
+          "status": "passed"
+        }
+      ],
+      "limitations": [
+        "This test does not reproduce the paper's spatial comparison-star correction.",
+        "The optimal method can vary across time."
+      ],
+      "family": "MAST",
+      "date_display": "01 Aug 2026",
+      "summary": "Does subtracting the supplied background model reduce pre-explosion scatter?",
+      "sample_size_display": "494 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-08-01-asassn18tb-background-systematics.png",
+      "figures_local": [
+        "data/images/2026-08-01-asassn18tb-background-systematics.png",
+        "data/images/2026-08-01-asassn18tb-background-systematics--figure-2.png"
+      ]
+    },
+    {
       "id": "2026-08-01-uncover-lyman-break-stacks",
       "title": "Does the Lyman-break migration appear in stacked UNCOVER photometry?",
       "archive": "UNCOVER / MAST",
@@ -933,6 +1154,66 @@
       "figures_local": [
         "data/images/2026-08-01-uncover-redshift-interval-calibration.png",
         "data/images/2026-08-01-uncover-redshift-interval-calibration--figure-2.png"
+      ]
+    },
+    {
+      "id": "2026-08-01-asassn18tb-tess-animation",
+      "title": "A real TESS field movie during a supernova rise",
+      "archive": "MAST / TESS / DES",
+      "date": "2026-08-01",
+      "question": "What can raw TESS cutouts show, and where do simple difference images fail to isolate the supernova?",
+      "sample_size": 1282,
+      "results": [
+        "1282 Sector 1 cadences form 29 half-day movie frames",
+        "The central aperture trace correlates with the public light curve at r=0.985",
+        "Stronger off-target residuals show that the simple movie does not cleanly isolate the supernova",
+        "A directly playable animated GIF is saved"
+      ],
+      "validation": "Fixed display limits, the WCS target marker, and a separately plotted aperture trace distinguish a measured rise from off-target image residuals.",
+      "notebook": "mast/2026-08-01-asassn18tb-tess-animation/notebook.ipynb",
+      "hero": "mast/2026-08-01-asassn18tb-tess-animation/tess_rise_montage.png",
+      "figures": [
+        "mast/2026-08-01-asassn18tb-tess-animation/tess_rise_montage.png",
+        "mast/2026-08-01-asassn18tb-tess-animation/movie_brightness_trace.png"
+      ],
+      "research_level": "Time-domain audit",
+      "claim_type": "Real detector-image diagnostic sequence",
+      "provenance": [
+        "MAST TESSCut SPOC FFI cutouts, Sectors 1 and 2",
+        "MIT TESS Transients cleaned light curve for SN 2018fhw",
+        "DES DR2 g/r/i HiPS FITS cutouts via CDS"
+      ],
+      "artifacts": [
+        "mast/2026-08-01-asassn18tb-tess-animation/movie_frame_brightness.csv",
+        "mast/2026-08-01-asassn18tb-tess-animation/asassn18tb_tess_rise.gif"
+      ],
+      "quality_checks": [
+        {
+          "name": "quality-zero frame selection",
+          "status": "passed"
+        },
+        {
+          "name": "fixed animation scale",
+          "status": "passed"
+        },
+        {
+          "name": "off-target residual check",
+          "status": "passed"
+        }
+      ],
+      "limitations": [
+        "TESS pixels blend the host and nearby sources.",
+        "The animation covers the Sector 1 rise, not the full decline."
+      ],
+      "family": "MAST",
+      "date_display": "01 Aug 2026",
+      "summary": "What can raw TESS cutouts show, and where do simple difference images fail to isolate the supernova?",
+      "sample_size_display": "1,282 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-08-01-asassn18tb-tess-animation.png",
+      "figures_local": [
+        "data/images/2026-08-01-asassn18tb-tess-animation.png",
+        "data/images/2026-08-01-asassn18tb-tess-animation--figure-2.png"
       ]
     },
     {
