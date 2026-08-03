@@ -1,7 +1,0 @@
-==== 2026-07-30-hr-diagram-pleiades ERRORS: []
-==== 2026-07-30-hr-diagram-hyades ERRORS: []
-==== 2026-07-30-hr-diagram-ngc188 ERRORS: []
-==== 2026-07-30-proper-motion-membership-m67 ERRORS: []
-==== 2026-07-30-parallax-distance-vega ERRORS: []
-==== 2026-07-30-parallax-distance-sirius ERRORS: []
-==== 2026-07-30-wide-binary-search-alpha-cen ERRORS: []
