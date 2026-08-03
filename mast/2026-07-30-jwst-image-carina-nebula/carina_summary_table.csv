@@ -1,0 +1,2 @@
+frame_width_px,frame_height_px,total_pixels,brightest_region_x_px,brightest_region_y_px,peak_radial_radius_px,pixel_scale,angular_size_estimate,product
+2075,2068,4291100,0,0,24.814689529229653,"not available (display-stretched preview, no WCS)",not available without calibrated FITS/WCS product,jw05408024001_02101_00001_nrcblong_i2d.jpg
