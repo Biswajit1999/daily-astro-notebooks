@@ -1,0 +1,3 @@
+feature,mu_rest_A,sigma_obs_kms,sigma_inst_kms,sigma_measured_kms,sigma_pipeline_kms
+Ca II K,3935.32,614.6,73.5,610.2,268.4
+Mg b blend,5176.48,567.3,60.9,564.0,268.4

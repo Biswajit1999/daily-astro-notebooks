@@ -1,0 +1,31 @@
+obs_wave_A,rest_wave_A,literature_match,residual_A,snr,ew_A,type
+3731.64,3584.41,no match,,-6.35,2.998,absorption
+3868.12,3715.5,no match,,5.09,-1.106,emission
+3890.45,3736.95,no match,,-6.82,2.108,absorption
+3903.01,3749.02,no match,,-5.5,1.47,absorption
+3938.22,3782.83,no match,,5.25,-1.733,emission
+3994.85,3837.23,no match,,-6.24,2.135,absorption
+4056.02,3895.98,no match,,5.42,-2.468,emission
+4061.63,3901.37,no match,,6.4,-2.749,emission
+4069.11,3908.56,no match,,5.93,-2.269,emission
+4074.74,3913.97,no match,,6.29,-2.163,emission
+4095.43,3933.84,Ca II K,-0.93,-17.26,3.986,absorption
+4104.88,3942.91,no match,,-6.73,2.048,absorption
+4133.33,3970.25,Ca II H,0.66,-16.82,3.923,absorption
+4399.47,4225.88,no match,,-6.83,0.83,absorption
+4483.32,4306.43,G-band,2.03,-13.92,2.617,absorption
+4567.72,4387.5,no match,,-6.88,1.194,absorption
+5062.91,4863.15,H-beta,0.47,-6.01,1.034,absorption
+5220.35,5014.38,no match,,-5.12,0.768,absorption
+5385.18,5172.7,Mg b,-2.6,-13.81,2.343,absorption
+5391.38,5178.66,Mg b,3.36,-10.28,2.104,absorption
+5398.83,5185.82,no match,,-8.05,1.483,absorption
+5487.82,5271.29,no match,,-7.91,1.265,absorption
+6137.62,5895.46,Na D,2.56,-23.76,3.503,absorption
+6837.54,6567.76,H-alpha,3.15,-5.12,0.763,absorption
+8053.78,7736.01,no match,,-10.15,0.464,absorption
+8894.06,8543.14,Ca II IR-2,1.05,-9.14,2.06,absorption
+8997.04,8642.06,no match,,9.05,-0.756,emission
+9026.09,8669.96,no match,,-13.06,2.594,absorption
+9319.66,8951.94,no match,,-5.36,0.142,absorption
+9321.81,8954.01,no match,,7.24,0.036,emission
