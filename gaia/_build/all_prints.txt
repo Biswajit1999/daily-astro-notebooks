@@ -1,0 +1,32 @@
+Traceback (most recent call last):
+  File "<string>", line 13, in <module>
+  File "C:\Users\biswa\anaconda3\lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2265' in position 19: character maps to <undefined>
+========= 2026-07-30-hr-diagram-pleiades
+690 quality-selected Gaia rows
+
+690 quality-selected sources
+cubic-sequence robust scatter 0.265 mag
+median inverse-parallax distance 136.04 pc; bootstrap 68% 135.92–136.19 pc
+
+                name status
+   Parallax S/N > 10   pass
+RUWE threshold sweep   pass
+  Bootstrap distance   pass
+
+========= 2026-07-30-hr-diagram-hyades
+1889 coloured display pixels; these are not stars
+
+1889 coloured plot pixels audited; zero are treated as independent stars
+approximate rendered-sequence residual scale 0.431 mag
+original notebook reported 202 candidates and median distance 46.7 pc
+
+                                 name        status
+                Legacy plot preserved          pass
+Digitized pixels labelled approximate          pass
+               Source-level inference not attempted
+
+========= 2026-07-30-hr-diagram-ngc188
+1168 high-probability quality-selected rows
+

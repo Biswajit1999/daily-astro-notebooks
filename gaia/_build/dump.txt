@@ -1,0 +1,142 @@
+==== gaia/2026-07-30-hr-diagram-ngc188/notebook.ipynb
+from pathlib import Path
+import json, warnings
+import numpy as np, pandas as pd, matplotlib.pyplot as plt
+import scienceplots
+from scipy import stats, ndimage, signal
+from PIL import Image
+
+RNG=np.random.default_rng(1999)
+plt.style.use(["science", "no-latex"])
+DATA=Path('../../data/audit_batches4_7')
+assert DATA.is_dir(), 'Run from the notebook folder in a complete checkout.'
+
+def bootstrap(values, statistic=np.median, draws=1000):
+    values=np.asarray(values,float); values=values[np.isfinite(v
+--
+raw=pd.read_csv(DATA/'ngc188_gaia_dr3_members.csv'); base=raw.dropna(subset=['parallax','parallax_error','pmra','pmdec','phot_g_mean_mag','bp_rp','ruwe','upmask_prob']).copy(); base['snr']=base.parallax/base.parallax_error; base['abs_g']=base.phot_g_mean_mag-5*np.log10(1000/base.parallax)+5; sample=base[(base.upmask_prob>=.9)&(base.snr>5)&(base.ruwe<1.4)].copy(); print(len(sample),'high-probability quality-selected rows')
+--
+fig,ax=plt.subplots(1,2,figsize=(11,5)); ax[0].scatter(sample.bp_rp,sample.abs_g,c=sample.upmask_prob,s=7,cmap='viridis'); ax[0].invert_yaxis(); ax[0].set(xlabel='BP−RP',ylabel='Absolute G',title='NGC 188 high-probability CMD'); ax[1].scatter(base.pmra,base.pmdec,s=3,alpha=.1,label='candidate file'); ax[1].scatter(sample.pmra,sample.pmdec,s=6,alpha=.5,label='quality + p≥0.9'); ax[1].set(xlabel='pmRA (mas/yr)',ylabel='pmDec (mas/yr)',title='Proper-motion concentration'); ax[1].legend(); fig.tight
+--
+rows=[]
+for pcut in [.70,.80,.90,.95]:
+ s=base[(base.upmask_prob>=pcut)&(base.snr>5)&(base.ruwe<1.4)]; rows.append((pcut,len(s),np.median(s.parallax),np.std(s.pmra),np.std(s.pmdec)))
+stress=pd.DataFrame(rows,columns=['probability_min','n','median_parallax_mas','pmra_std','pmdec_std']); stress.to_csv('ngc188_membership_stress.csv',index=False); fig,ax=plt.subplots(1,2,figsize=(10,4)); ax[0].plot(stress.probability_min,stress.median_parallax_mas,'o-'); ax[0].set(xlabel='UPMASK probability minimum'
+--
+b=bootstrap(sample.parallax); lo,hi=np.percentile(b,[16,84]); sample_size=len(sample); results=[f'{sample_size} sources pass p≥0.90, RUWE<1.4 and parallax S/N>5',f'median parallax {np.median(sample.parallax):.3f} mas; bootstrap 68% {lo:.3f}–{hi:.3f}',f'probability cut tested from 0.70 to 0.95']; validation='Median parallax and proper-motion widths are repeated across four membership-probability thresholds.'; quality_checks=[{'name':'UPMASK probability retained','status':'pass'},{'name':'RUWE and
+--
+result={'id':'2026-07-30-hr-diagram-ngc188','title':'NGC 188 membership and sequence audit','archive':'Gaia DR3','date':'2026-07-30','question':'How do probability and astrometric-quality cuts change the old cluster sequence and distance?','sample_size':int(sample_size),'results':results,'validation':validation,'notebook':'gaia/2026-07-30-hr-diagram-ngc188/notebook.ipynb','hero':'gaia/2026-07-30-hr-diagram-ngc188/ngc188_membership_cmd.png','figures':['gaia/2026-07-30-hr-diagram-ngc188/ngc188_mem
+--
+print(pd.DataFrame(result['quality_checks']).to_string(index=False))
+--
+==== gaia/2026-07-30-proper-motion-membership-m67/notebook.ipynb
+from pathlib import Path
+import json, warnings
+import numpy as np, pandas as pd, matplotlib.pyplot as plt
+import scienceplots
+from scipy import stats, ndimage, signal
+from PIL import Image
+
+RNG=np.random.default_rng(1999)
+plt.style.use(["science", "no-latex"])
+DATA=Path('../../data/audit_batches4_7')
+assert DATA.is_dir(), 'Run from the notebook folder in a complete checkout.'
+
+def bootstrap(values, statistic=np.median, draws=1000):
+    values=np.asarray(values,float); values=values[np.isfinite(v
+--
+sample=pd.read_csv(DATA/'m67_member_plot_digitized_pixels.csv'); x=sample.pmra_approx.to_numpy(); y=sample.pmdec_approx.to_numpy(); print(len(sample),'rendered crimson pixels; original notebook reported 612 candidates from 2,000 field stars')
+--
+cx,cy=np.median(x),np.median(y); cov=np.cov(x,y); vals,vecs=np.linalg.eigh(cov); fig,ax=plt.subplots(1,2,figsize=(10,4.5)); ax[0].scatter(x,y,s=3,alpha=.25); ax[0].plot(-10.9,-2.9,'kx',ms=10,label='stated selection centre'); ax[0].set(xlabel='Approx. pmRA',ylabel='Approx. pmDec',title='Digitized selected-pixel cloud'); ax[0].legend(); ax[1].hist2d(x,y,bins=35,cmap='magma'); ax[1].set(xlabel='Approx. pmRA',ylabel='Approx. pmDec',title='Rendered density, not source density'); fig.tight_layout(); f
+--
+rows=[]
+for phase in range(4):
+ s=sample[sample.pixel_x.astype(int)%4==phase]; rows.append((phase,len(s),np.median(s.pmra_approx),np.median(s.pmdec_approx)))
+stress=pd.DataFrame(rows,columns=['pixel_phase','n_pixels','median_pmra','median_pmdec']); stress.to_csv('m67_digitization_stress.csv',index=False); fig,ax=plt.subplots(figsize=(7,4)); ax.scatter(stress.median_pmra,stress.median_pmdec,c=stress.pixel_phase,s=80); ax.plot(-10.9,-2.9,'kx',ms=12); ax.set(xlabel='Median pmRA',ylabel='Median pmDe
+--
+offset=np.hypot(cx+10.9,cy+2.9); sample_size=len(sample); results=[f'original selection retained 612 of 2,000 field sources',f'digitized rendered-pixel centroid ({cx:.2f}, {cy:.2f}) mas/yr',f'centroid lies {offset:.2f} mas/yr from the stated selection centre']; validation='Centroid is repeated across four independent x-pixel phases; no intrinsic dispersion is inferred.'; quality_checks=[{'name':'Original query and counts retained','status':'pass'},{'name':'Display centroid cross-check','status':
+--
+result={'id':'2026-07-30-proper-motion-membership-m67','title':'M67 proper-motion legacy-output audit','archive':'Gaia DR3 legacy output','date':'2026-07-30','question':'Does the preserved membership plot centre on the stated M67 motion, and what information is missing?','sample_size':int(sample_size),'results':results,'validation':validation,'notebook':'gaia/2026-07-30-proper-motion-membership-m67/notebook.ipynb','hero':'gaia/2026-07-30-proper-motion-membership-m67/m67_legacy_motion_audit.png',
+--
+print(pd.DataFrame(result['quality_checks']).to_string(index=False))
+--
+==== gaia/2026-07-30-parallax-distance-vega/notebook.ipynb
+from pathlib import Path
+import json
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import scienceplots
+from scipy import stats
+
+RNG = np.random.default_rng(1999)
+plt.style.use(["science", "no-latex"])
+COLORS={"navy":"#071426","blue":"#1797c9","cyan":"#2fc6b4","gold":"#f4b942","orange":"#ef6a45","rose":"#ce4f78"}
+--
+audit=pd.DataFrame([{"catalogue":"Hipparcos I/311/hip2","source_id":"HIP 91262","parallax_mas":130.23,"parallax_error_mas":0.36,"identity":"source-checked Vega"},{"catalogue":"Gaia DR3 cone result","source_id":"2097892344993257344","parallax_mas":1.542,"parallax_error_mas":0.013214312,"identity":"brightest returned row; not assumed to be Vega"}]); audit.to_csv("vega_source_audit.csv",index=False); print(audit)
+--
+hip_distance=1000/130.23; hip_error=1000*0.36/130.23**2; gaia_distance=1000/1.542; ratio=gaia_distance/hip_distance
+print(f"HIP distance={hip_distance:.3f}±{hip_error:.3f} pc ({hip_distance*3.26156:.2f} ly)"); print(f"Cone-row distance={gaia_distance:.3f} pc; ratio={ratio:.1f}")
+--
+fig,axes=plt.subplots(1,2,figsize=(11,4.8)); axes[0].bar(["source-checked\nHipparcos","first Gaia\ncone row"],[130.23,1.542],yerr=[0.36,0.013214312],color=[COLORS["cyan"],COLORS["rose"]]); axes[0].set(ylabel="Parallax (mas)",title="Catalogue values are not interchangeable"); axes[1].bar(["source-checked\nHipparcos","first Gaia\ncone row"],[hip_distance,gaia_distance],color=[COLORS["cyan"],COLORS["rose"]]); axes[1].set(ylabel="Distance from inverse parallax (pc)",title="Source identity controls t
+--
+hip_snr=130.23/0.36; gaia_snr=1.542/0.013214312; brightness_warning=True; print(f"Parallax S/N: Hipparcos={hip_snr:.0f}, cone row={gaia_snr:.0f}"); print("Returned Gaia G magnitude:",9.666267)
+--
+result={"id":"2026-07-30-parallax-distance-vega","title":"Vega parallax source audit","archive":"Gaia DR3 + Hipparcos","date":"2026-07-30","question":"Did the positional cone search return the named bright star?","sample_size":2,"results":[f"source-checked distance {hip_distance:.3f} ± {hip_error:.3f} pc",f"{hip_distance*3.26156:.2f} light-years",f"cone-row distance ratio {ratio:.1f}×"],"validation":"The cone-search row is compared with the named Hipparcos identifier and expected brightness.","n
+--
+==== gaia/2026-07-30-parallax-distance-sirius/notebook.ipynb
+from pathlib import Path
+import json
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import scienceplots
+from scipy import stats
+
+RNG = np.random.default_rng(1999)
+plt.style.use(["science", "no-latex"])
+COLORS={"navy":"#071426","blue":"#1797c9","cyan":"#2fc6b4","gold":"#f4b942","orange":"#ef6a45","rose":"#ce4f78"}
+--
+audit=pd.DataFrame([{"catalogue":"Hipparcos I/311/hip2","source_id":"HIP 32349","parallax_mas":379.21,"parallax_error_mas":1.58,"identity":"source-checked Sirius"},{"catalogue":"Gaia DR3 cone result","source_id":"2947050466531873024","parallax_mas":374.4895885,"parallax_error_mas":0.2,"identity":"brightest returned row; not assumed to be Sirius"}]); audit.to_csv("sirius_source_audit.csv",index=False); print(audit)
+--
+hip_distance=1000/379.21; hip_error=1000*1.58/379.21**2; gaia_distance=1000/374.4895885; ratio=gaia_distance/hip_distance
+print(f"HIP distance={hip_distance:.3f}±{hip_error:.3f} pc ({hip_distance*3.26156:.2f} ly)"); print(f"Cone-row distance={gaia_distance:.3f} pc; ratio={ratio:.1f}")
+--
+fig,axes=plt.subplots(1,2,figsize=(11,4.8)); axes[0].bar(["source-checked\nHipparcos","first Gaia\ncone row"],[379.21,374.4895885],yerr=[1.58,0.2],color=[COLORS["cyan"],COLORS["rose"]]); axes[0].set(ylabel="Parallax (mas)",title="Catalogue values are not interchangeable"); axes[1].bar(["source-checked\nHipparcos","first Gaia\ncone row"],[hip_distance,gaia_distance],color=[COLORS["cyan"],COLORS["rose"]]); axes[1].set(ylabel="Distance from inverse parallax (pc)",title="Source identity controls the
+--
+hip_snr=379.21/1.58; gaia_snr=374.4895885/0.2; brightness_warning=False; print(f"Parallax S/N: Hipparcos={hip_snr:.0f}, cone row={gaia_snr:.0f}"); print("Returned Gaia G magnitude:",8.524133)
+--
+result={"id":"2026-07-30-parallax-distance-sirius","title":"Sirius parallax source audit","archive":"Gaia DR3 + Hipparcos","date":"2026-07-30","question":"Did the positional cone search return the named bright star?","sample_size":2,"results":[f"source-checked distance {hip_distance:.3f} ± {hip_error:.3f} pc",f"{hip_distance*3.26156:.2f} light-years",f"cone-row distance ratio {ratio:.1f}×"],"validation":"The cone-search row is compared with the named Hipparcos identifier and expected brightness.
+--
+==== gaia/2026-07-30-wide-binary-search-alpha-cen/notebook.ipynb
+from pathlib import Path
+import json, warnings
+import numpy as np, pandas as pd, matplotlib.pyplot as plt
+import scienceplots
+from scipy import stats, ndimage, signal
+from PIL import Image
+
+RNG=np.random.default_rng(1999)
+plt.style.use(["science", "no-latex"])
+DATA=Path('../../data/audit_batches4_7')
+assert DATA.is_dir(), 'Run from the notebook folder in a complete checkout.'
+
+def bootstrap(values, statistic=np.median, draws=1000):
+    values=np.asarray(values,float); values=values[np.isfinite(v
+--
+from astropy.coordinates import SkyCoord
+import astropy.units as u
+alpha=SkyCoord(219.9*u.deg,-60.8*u.deg); proxima=SkyCoord('14h29m42.9487s','-62d40m46.141s'); sep=alpha.separation(proxima).deg; radii=np.linspace(.5,3.5,61); included=radii>=sep; audit=pd.DataFrame({'search_radius_deg':radii,'proxima_geometrically_included':included}); audit.to_csv('alpha_cen_radius_geometry.csv',index=False); print('Alpha-centred separation to Proxima:',sep,'deg')
+--
+fig,ax=plt.subplots(figsize=(7,6)); ax.scatter([0],[0],s=120,label='original cone centre'); dx=(proxima.ra.deg-alpha.ra.deg)*np.cos(alpha.dec.radian); dy=proxima.dec.deg-alpha.dec.deg; ax.scatter([dx],[dy],s=120,label='Proxima')
+for r,ls in [(2,'--'),(2.5,':')]: ax.add_patch(plt.Circle((0,0),r,fill=False,ls=ls,label=f'{r}° radius'))
+ax.set(aspect='equal',xlabel='Approx. RA offset (deg)',ylabel='Dec offset (deg)',title='Original cone geometry'); ax.legend(); fig.tight_layout(); fig.savefig('alpha
+--
+fig,ax=plt.subplots(1,2,figsize=(10,4)); ax[0].step(radii,included.astype(int),where='mid'); ax[0].axvline(2,color='r',ls='--'); ax[0].set(xlabel='Cone radius (deg)',ylabel='Proxima inside geometry',title='Radius stress test'); pm=np.array([-3781.741,769.465]); ax[1].quiver([0],[0],[pm[0]],[pm[1]],angles='xy',scale_units='xy',scale=1); ax[1].set_xlim(-4200,500); ax[1].set_ylim(-500,1200); ax[1].set(xlabel='pmRA (mas/yr)',ylabel='pmDec (mas/yr)',title='Proxima high proper motion (SIMBAD)'); fig.t
+--
+sample_size=0; results=['original 2° Gaia DR3 cone with parallax >50 mas returned zero rows',f'Proxima lies {sep:.2f}° from the chosen centre and is outside that cone','the zero rows therefore do not constrain wide companions']; validation='Search radius is swept through the geometric inclusion boundary and compared with independent SIMBAD astrometry.'; quality_checks=[{'name':'Original zero result retained','status':'pass'},{'name':'Cone geometry recomputed','status':'pass'},{'name':'Companion 
+--
+result={'id':'2026-07-30-wide-binary-search-alpha-cen','title':'Why the Alpha Centauri Gaia cone search returned zero','archive':'Gaia DR3 + SIMBAD geometry','date':'2026-07-30','question':'Was the original zero-row result a companion constraint or a query-geometry/completeness result?','sample_size':int(sample_size),'results':results,'validation':validation,'notebook':'gaia/2026-07-30-wide-binary-search-alpha-cen/notebook.ipynb','hero':'gaia/2026-07-30-wide-binary-search-alpha-cen/alpha_cen_que
+--
+print(pd.DataFrame(result['quality_checks']).to_string(index=False))
+--
