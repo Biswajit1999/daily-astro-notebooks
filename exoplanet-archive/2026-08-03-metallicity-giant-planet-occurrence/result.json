@@ -1,0 +1,21 @@
+{
+  "id": "2026-08-03-metallicity-giant-planet-occurrence",
+  "title": "Does host-star metallicity predict giant-planet occurrence?",
+  "archive": "NASA Exoplanet Archive",
+  "date": "2026-08-03",
+  "question": "Among RV-detected hosts, does giant-planet occurrence rise with stellar metallicity?",
+  "sample_size": 815,
+  "results": [
+    "point-biserial r=0.103 (p=0.0031) between giant-host flag and [Fe/H]",
+    "giant-host fraction by tercile: {'metal-poor': 0.719, 'mid': 0.712, 'metal-rich': 0.859}",
+    "stricter (>=1.0 Mjup) threshold: r=0.096 (p=0.0063)"
+  ],
+  "validation": "Correlation stays positive and significant when the giant-planet mass threshold is raised from 0.3 to 1.0 Jupiter masses.",
+  "notebook": "exoplanet-archive/2026-08-03-metallicity-giant-planet-occurrence/notebook.ipynb",
+  "hero": "exoplanet-archive/2026-08-03-metallicity-giant-planet-occurrence/metallicity_giant_occurrence.png",
+  "tags": [
+    "stellar metallicity",
+    "giant planets",
+    "occurrence rate"
+  ]
+}

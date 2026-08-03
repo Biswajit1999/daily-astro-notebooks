@@ -1,0 +1,22 @@
+{
+  "id": "2026-08-03-planet-density-composition",
+  "title": "Sorting exoplanets by bulk density into likely compositions",
+  "archive": "NASA Exoplanet Archive",
+  "date": "2026-08-03",
+  "question": "How many confirmed exoplanets fall into each density-based composition class?",
+  "sample_size": 6253,
+  "results": [
+    "volatile/water-rich: 2020 planets, median density 2.17 g/cm^3",
+    "rocky, Earth-like: 2000 planets, median density 4.50 g/cm^3",
+    "H/He-dominated envelope: 1576 planets, median density 0.63 g/cm^3",
+    "iron-rich: 657 planets, median density 10.85 g/cm^3"
+  ],
+  "validation": "Class ranking by size is unchanged when density-boundary thresholds are shifted down by 20%.",
+  "notebook": "exoplanet-archive/2026-08-03-planet-density-composition/notebook.ipynb",
+  "hero": "exoplanet-archive/2026-08-03-planet-density-composition/density_composition_classes.png",
+  "tags": [
+    "bulk density",
+    "composition",
+    "mass-radius"
+  ]
+}

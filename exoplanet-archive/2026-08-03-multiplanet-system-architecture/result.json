@@ -1,0 +1,21 @@
+{
+  "id": "2026-08-03-multiplanet-system-architecture",
+  "title": "Orbital spacing in three real multi-planet systems",
+  "archive": "NASA Exoplanet Archive",
+  "date": "2026-08-03",
+  "question": "Which of TRAPPIST-1, Kepler-90, HD 219134 sits closest to a low-integer resonance chain?",
+  "sample_size": 21,
+  "results": [
+    "TRAPPIST-1: mean deviation 1.21% from nearest low-integer resonance",
+    "HD 219134: mean deviation 1.52% from nearest low-integer resonance",
+    "Kepler-90: mean deviation 2.02% from nearest low-integer resonance"
+  ],
+  "validation": "Repeated with denominator cap of 3 instead of 4; system ranking unchanged.",
+  "notebook": "exoplanet-archive/2026-08-03-multiplanet-system-architecture/notebook.ipynb",
+  "hero": "exoplanet-archive/2026-08-03-multiplanet-system-architecture/resonance_chain_comparison.png",
+  "tags": [
+    "multi-planet systems",
+    "orbital resonance",
+    "architecture"
+  ]
+}
