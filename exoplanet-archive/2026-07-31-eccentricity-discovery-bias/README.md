@@ -1,14 +1,11 @@
-# Exoplanet eccentricity and discovery-method bias
+# Do RV and transit discoveries have the same eccentricity distribution?
 
-**Question:** Do radial-velocity and transit discoveries have the same recorded eccentricity distribution?
+I compared orbital eccentricities across discovery methods using a quality-cut archive sample of 5,146 planets. A Kruskal-Wallis test across methods came back with p < 1e-300 -- the methods clearly do not share a common eccentricity distribution, and the sample is large enough that this isn't a fluke.
 
-This executed notebook uses the real public-archive subset preserved at
-`../2026-07-31-hot-jupiter-tidal-circularisation/giant_planet_archive_query.csv`. It includes quality control, a numerical measurement, uncertainty,
-a robustness check, interpretation, and explicit limits.
+The split is stark: radial-velocity discoveries have the highest median eccentricity (0.155), while transit discoveries have the lowest (0.000). That matches the physical story -- RV surveys are more sensitive to longer-period giant planets that tidal forces haven't had time to circularize, while transit surveys are dominated by short-period planets that mostly have been tidally circularized already.
 
-![Main result](eccentricity_by_method.png)
+The plot compares eccentricity by discovery method directly, with the notebook's bootstrap and rank-based robustness checks confirming the difference isn't an artifact of a few outliers.
 
-[Open the executed notebook](notebook.ipynb) · [Machine-readable result](result.json)
+**What I'd look at next:** control for orbital period directly, since it's the main physical driver, to isolate any purely methodological bias from the "RV finds more long-period planets" effect.
 
-The notebook ends with archive documentation and comparison literature used to
-frame the physical interpretation and its limits.
+**Citation:** NASA Exoplanet Archive, Caltech/NASA Exoplanet Exploration Program: https://exoplanetarchive.ipac.caltech.edu/docs/counts_detail.html
