@@ -1,0 +1,10 @@
+metric,value
+Knots measured,30
+Baseline (years),8.96
+Assumed remnant age at epoch 1 (years),951.6800000000001
+Median knot distance from pulsar (arcsec),38.8
+Expected shift over baseline if homologous expansion (arcsec),0.365
+Measured scatter (std) of radial shift component (arcsec),0.056
+Mean measured radial component (arcsec),-0.020
+p-value (mean radial component > 0),0.064
+p-value (radial component increases with distance),0.972

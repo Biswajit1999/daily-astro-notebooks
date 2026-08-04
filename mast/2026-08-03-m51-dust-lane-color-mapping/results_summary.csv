@@ -1,0 +1,7 @@
+metric,value
+Disk pixels analysed,2275350
+Dust-lane-flagged pixels,455070
+Dust-lane fraction of disk,20.0%
+Connected dust-flagged regions,702
+Largest region size (pixels),120754
+Largest region fraction of flagged pixels,26.5%

@@ -1,0 +1,15 @@
+{
+  "id": "2026-08-03-m51-dust-lane-color-mapping",
+  "title": "Mapping M51's dust lanes with two real HST filters",
+  "archive": "MAST / HST (ACS/WFC)",
+  "date": "2026-08-03",
+  "target": "M51 / Whirlpool Galaxy (NGC 5194)",
+  "question": "Does a simple two-filter (F435W/F814W) color-difference comparison recover M51's known dust-lane structure?",
+  "disk_pixels_analyzed": 2275350,
+  "dust_flagged_pixels": 455070,
+  "dust_flagged_fraction": 0.2,
+  "n_connected_regions": 702,
+  "largest_region_fraction_of_flagged": 0.26535258311908055,
+  "proposal_id": 10452,
+  "claim_type": "illustrative preview-image color-difference map, not a calibrated extinction measurement"
+}

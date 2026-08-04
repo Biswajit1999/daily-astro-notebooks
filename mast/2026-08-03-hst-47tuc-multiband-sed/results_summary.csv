@@ -1,0 +1,9 @@
+metric,value
+Filters used,"F435W, F475W, F555W, F606W, F814W"
+Reference (F555W) star-like sources,6017
+Sources matched in all 5 filters,3712
+Faintest/reddest bin median color,2.50
+Brightest/bluest bin median color,0.67
+Color increases monotonically with fainter magnitude,True
+Bright (F814W<17) sources in raw catalog,10784
+Bright sources surviving star-like cut,0
