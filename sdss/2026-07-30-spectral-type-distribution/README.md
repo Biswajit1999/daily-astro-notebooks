@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana  
+**Date:** January 7, 2026
+
 # SDSS class-composition audit for one sky patch
 
 **Question:** What do the preserved aggregate counts support when the original 800 source rows were not saved?

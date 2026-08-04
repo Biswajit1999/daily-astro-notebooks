@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana  
+**Date:** June 11, 2026
+
 # SDSS white-dwarf Balmer-profile legacy audit
 
 **Question:** Are the broad Balmer depressions visible robustly in the preserved spectrum plot?

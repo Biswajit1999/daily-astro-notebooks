@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana  
+**Date:** June 9, 2026
+
 # SDSS galaxy joint Hα + [N II] audit
 
 A constrained three-line fit replaces the old single-Gaussian measurement and corrects its wavelength-unit error.

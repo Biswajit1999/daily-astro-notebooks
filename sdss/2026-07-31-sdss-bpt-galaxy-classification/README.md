@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana  
+**Date:** January 7, 2026
+
 # SDSS emission-line galaxies: star formation, composites, and AGN on the BPT diagram
 
 This notebook queries 12,000 low-redshift SDSS spectra with strong Hα, Hβ,

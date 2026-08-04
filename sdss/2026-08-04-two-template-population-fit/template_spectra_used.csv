@@ -1,0 +1,17 @@
+plate,mjd,fiber,z,subclass,sn_median,role
+6425,56298,376,0.0437,STARFORMING,65.4,young_template
+1876,54464,452,0.036,STARFORMING,64.5,young_template
+539,52017,194,0.0351,STARFORMING,64.0,young_template
+459,51924,194,0.036,STARFORMING,63.3,young_template
+2520,54584,622,0.035,STARFORMING,62.1,young_template
+3692,55186,374,0.051,STARFORMING,62.0,young_template
+4208,55476,586,0.0421,STARFORMING,60.6,young_template
+2636,54082,164,0.0552,STARFORMING,60.0,young_template
+6138,56598,364,0.0657,(none),98.5,old_template
+6138,56598,959,0.0794,(none),80.5,old_template
+394,51913,404,0.0654,(none),77.9,old_template
+394,51913,625,0.0448,(none),75.2,old_template
+394,51913,576,0.0431,(none),73.5,old_template
+548,51986,446,0.0469,(none),72.3,old_template
+2828,54438,520,0.0335,(none),66.6,old_template
+394,51913,33,0.0433,(none),66.4,old_template

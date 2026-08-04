@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana  
+**Date:** May 13, 2026
+
 # NGC 7647: a quiescent elliptical, for contrast with the AGN notebook
 
 This is the deliberate opposite case to my NGC 5875 notebook: I ran the exact same automated line-ID pipeline

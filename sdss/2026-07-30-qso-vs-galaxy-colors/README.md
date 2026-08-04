@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana  
+**Date:** June 3, 2026
+
 # SDSS quasar–galaxy colour display audit
 
 **Question:** How clearly separated are the two rendered colour clouds, without claiming catalogue-level classifier accuracy?

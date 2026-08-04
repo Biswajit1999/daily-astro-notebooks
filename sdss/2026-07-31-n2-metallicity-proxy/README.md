@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana  
+**Date:** July 4, 2026
+
 # Gas-phase metallicity from the SDSS N2 proxy
 
 **Question:** What oxygen-abundance distribution is implied for the star-forming BPT branch?

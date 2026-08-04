@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana  
+**Date:** January 15, 2026
+
 # How BPT class fractions depend on line signal-to-noise
 
 **Question:** How much do star-forming, composite, and AGN fractions move when the line-quality threshold changes?

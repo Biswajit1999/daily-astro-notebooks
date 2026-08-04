@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana  
+**Date:** May 5, 2026
+
 # Emission-line excitation against redshift in SDSS
 
 **Question:** Does the observed [O III]/H-beta ratio change across this low-redshift selected sample?

@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana  
+**Date:** February 10, 2026
+
 # Balmer decrement as a dust indicator in SDSS galaxies
 
 **Question:** What colour excess is implied by the observed H-alpha to H-beta ratio?

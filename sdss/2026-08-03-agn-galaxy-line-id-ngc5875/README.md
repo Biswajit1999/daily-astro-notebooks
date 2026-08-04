@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana  
+**Date:** July 16, 2026
+
 # NGC 5875: galaxy image + spectrum line identification vs. literature
 
 I wanted to do a full, honest, end-to-end line-identification exercise on one real SDSS galaxy: pull the

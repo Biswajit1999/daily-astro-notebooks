@@ -1,0 +1,2 @@
+target_plate,target_mjd,target_fiber,target_z,pipeline_subclass,target_d4000,d4000_young_template,d4000_old_template,w_young,w_old,young_fraction_nnls,young_fraction_d4000_crosscheck,nnls_residual_norm
+781,52373,284,0.06984183937311172,STARFORMING,1.6426655753841837,1.4723140086181434,1.9658431940181444,0.37623839658494074,0.5968199385283517,0.38665554058599744,0.654829801751295,3.4915745629734025

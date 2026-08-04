@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana  
+**Date:** July 29, 2026
+
 # SDSS source-identity audit: broad-line quasar
 
 The exact product is not a star. SDSS labels it QSO/BROADLINE, and broad Balmer-line fits support that correction.

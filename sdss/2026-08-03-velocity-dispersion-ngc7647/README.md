@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana  
+**Date:** April 18, 2026
+
 # NGC 7647: measuring stellar velocity dispersion from absorption line widths
 
 SDSS's own pipeline reports NGC 7647's stellar velocity dispersion as 268.4 +/- 4.7 km/s, from a full

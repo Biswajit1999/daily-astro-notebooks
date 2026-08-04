@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana  
+**Date:** February 25, 2026
+
 # Does the SDSS fiber-aperture upgrade actually show up in spectral S/N?
 
 Legacy SDSS-I/II spectroscopy used 3-arcsecond-diameter fibers; BOSS and eBOSS switched to smaller,

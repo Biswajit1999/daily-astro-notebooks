@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana  
+**Date:** May 31, 2026
+
 # Three real SDSS galaxies, overlaid: AGN vs. star-forming vs. quiescent
 
 I wanted to put three real, different galaxy types on the same rest-frame, continuum-normalized axis and

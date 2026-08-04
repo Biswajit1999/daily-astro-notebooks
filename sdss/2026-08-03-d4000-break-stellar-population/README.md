@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana  
+**Date:** February 4, 2026
+
 # The 4000-Angstrom break as a real stellar-population age diagnostic
 
 Old stellar populations pile up metal absorption right around 4000 Angstroms (rest frame), producing a real

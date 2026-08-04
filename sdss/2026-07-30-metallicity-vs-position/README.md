@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana  
+**Date:** March 3, 2026
+
 # SDSS metallicity–latitude legacy-output audit
 
 **Question:** Does the weak negative trend reported in the old plot survive digitization choices?
