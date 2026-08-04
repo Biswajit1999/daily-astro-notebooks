@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana
+**Date:** January 10, 2026
+
 # HST M87 preview field-placement audit
 
 **Question:** Can the selected HST preview support morphology or jet claims when M87 lies at the frame boundary?

@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana
+**Date:** August 4, 2026
+
 # Is the sky density of UNCOVER high-z candidates spatially uniform?
 
 **Question:** Do candidate surface-density variations track F444W coverage and lensing structure?

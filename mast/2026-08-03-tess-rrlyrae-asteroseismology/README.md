@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana
+**Date:** July 10, 2026
+
 # TESS light curve of RR Lyrae itself: recovering the pulsation period, and looking for the Blazhko effect
 
 **Question:** Can a blind period search on real TESS light curves recover RR Lyrae's known pulsation period, and is there evidence for its famous Blazhko amplitude modulation?

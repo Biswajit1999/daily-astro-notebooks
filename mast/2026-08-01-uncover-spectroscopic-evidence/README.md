@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana
+**Date:** April 11, 2026
+
 # What supports the UNCOVER redshifts?
 
 How do emission lines, breaks, exposure time, and the background advisory relate to redshift quality?

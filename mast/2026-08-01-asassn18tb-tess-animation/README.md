@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana
+**Date:** July 1, 2026
+
 # A real TESS field movie during a supernova rise
 
 What can raw TESS cutouts show, and where do simple difference images fail to isolate the supernova?

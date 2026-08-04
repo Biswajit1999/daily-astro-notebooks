@@ -1,0 +1,32 @@
+{
+  "id": "2026-08-04-ss-cygni-tess-outburst-recurrence",
+  "title": "SS Cygni across five real TESS years: measuring dwarf-nova outburst amplitude and recurrence directly from the light curve",
+  "archive": "MAST / TESS (SPOC)",
+  "date": "2026-08-04",
+  "target": "SS Cygni (TIC 190696047)",
+  "question": "Can a simple, transparent outburst detector applied to five real TESS epochs (2019-2024) of SS Cygni recover quantitative outburst amplitudes/durations and a recurrence time consistent with the published historical range?",
+  "sectors_used": [
+    15,
+    16,
+    56,
+    76,
+    83
+  ],
+  "n_outbursts_detected": 9,
+  "mean_peak_amplitude_mag": 1.6598070859909058,
+  "mean_duration_days": 5.9911792425287125,
+  "n_direct_recurrence_measurements": 4,
+  "direct_recurrence_gaps_days": [
+    13.576668987194353,
+    16.747142490173246,
+    9.388898217177484,
+    5.830516801817794
+  ],
+  "literature_recurrence_range_days": [
+    7,
+    50
+  ],
+  "literature_mean_recurrence_days": 40.0,
+  "n_gaps_in_literature_range": 3,
+  "claim_type": "confirmed outburst detection and amplitude/duration measurement (primary); small-sample consistency check against published recurrence statistics (secondary, explicitly not a re-derivation)"
+}

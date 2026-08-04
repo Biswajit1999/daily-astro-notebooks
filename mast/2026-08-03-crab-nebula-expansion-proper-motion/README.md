@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana
+**Date:** May 21, 2026
+
 # Does the Crab Nebula visibly expand between two real HST epochs 9 years apart?
 
 **Question:** Can a simple knot-centroiding measurement, applied to two real HST/ACS images of the Crab Nebula taken 9 years apart, detect its well-documented outward expansion?

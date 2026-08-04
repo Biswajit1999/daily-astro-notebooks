@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana
+**Date:** January 13, 2026
+
 # Pillars of Creation, twice: comparing real HST and JWST resolution on the same field
 
 **Question:** Does the apparent point-source sharpness in real HST vs JWST images of the same field match the diffraction-limit prediction for a 2.4 m visible-light telescope vs a 6.5 m infrared telescope?

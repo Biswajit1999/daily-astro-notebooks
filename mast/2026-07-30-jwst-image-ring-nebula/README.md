@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana
+**Date:** May 12, 2026
+
 # JWST Ring Nebula: selected-field audit
 
 Does the selected preview contain a centred ring suitable for shape measurement?

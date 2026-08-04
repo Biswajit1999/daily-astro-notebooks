@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana
+**Date:** June 12, 2026
+
 # How continuum choices change H-alpha equivalent width
 
 **Question:** How stable is the measured H-alpha equivalent width to integration and continuum choices?

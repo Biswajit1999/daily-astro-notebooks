@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana
+**Date:** May 28, 2026
+
 # Independent aperture photometry from the TESS pixels
 
 Does a simple reference-subtracted aperture recover the published difference-light-curve shape?

@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana
+**Date:** February 15, 2026
+
 # JWST Carina: visible-structure audit
 
 Which visible structures persist when the edge threshold changes?

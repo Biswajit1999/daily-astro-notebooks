@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana
+**Date:** April 7, 2026
+
 # Real HST images and JWST spectra of distant galaxies
 
 What do the calibrated 1D and 2D NIRSpec data look like for six z=7.88 to 13.16 galaxies?

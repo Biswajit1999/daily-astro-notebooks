@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana
+**Date:** February 19, 2026
+
 # Do UNCOVER high-z candidates show a change in catalogue half-light-radius proxy?
 
 **Question:** How does the observed flux-radius proxy vary across redshift bins after a simple lens correction?

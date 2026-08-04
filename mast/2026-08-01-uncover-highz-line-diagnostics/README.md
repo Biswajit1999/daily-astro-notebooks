@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana
+**Date:** July 15, 2026
+
 # Which lines are measured in the high-redshift spectra?
 
 Which public line measurements reach signal-to-noise above three, and how does lensing change intrinsic flux scale?

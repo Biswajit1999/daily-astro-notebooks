@@ -1,0 +1,16 @@
+{
+  "id": "2026-08-04-ngc6397-cmd-pixel-photometry",
+  "title": "NGC 6397 from raw pixels: real DAOStarFinder detection, real aperture photometry, and a real color-magnitude diagram",
+  "archive": "MAST / HST ACS/WFC (GO-10424)",
+  "date": "2026-08-04",
+  "target": "NGC 6397 (globular cluster), visit 10",
+  "question": "Can a from-scratch pixel-level detection-and-aperture-photometry pipeline on real HST F606W/F814W mosaics recover a clean CMD, agree with MAST's own catalog, and honestly characterize its own completeness?",
+  "n_detected_f814w": 8861,
+  "n_catalog_two_band": 8523,
+  "n_matched_vs_mast_pointcat": 4573,
+  "median_offset_vs_mast_mag": -0.23376002960135978,
+  "robust_scatter_vs_mast_mag": 0.04585800349535617,
+  "completeness_50pct_f814w_stmag": 27.0,
+  "fraction_catalog_below_completeness": 0.0010559662090813093,
+  "claim_type": "confirmed CMD recovery and external catalog validation (primary); real, disclosed completeness limitation (secondary, explicitly quantified rather than assumed)"
+}

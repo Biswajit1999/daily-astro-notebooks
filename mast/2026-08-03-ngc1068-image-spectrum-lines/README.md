@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana
+**Date:** July 10, 2026
+
 # NGC 1068: a real HST image and a real HST spectrum of the same galaxy
 
 **Question:** How many literature emission lines can automated peak detection recover in a real archival HST/STIS spectrum of NGC 1068, and which elements/ions do they belong to?

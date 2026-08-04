@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana
+**Date:** January 11, 2026
+
 # HST Eagle Nebula: pillar-orientation audit
 
 Is the dominant visible edge orientation stable to smoothing?

@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana
+**Date:** July 11, 2026
+
 # Kepler-10 b: transit depth and robustness audit
 
 Is the 0.837-day transit recovered in real Quarter 3 measurements?

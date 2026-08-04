@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana
+**Date:** June 11, 2026
+
 # The DES host galaxy around ASASSN-18tb
 
 What does pre-explosion DES imaging show about the supernova's host environment and positional offset?

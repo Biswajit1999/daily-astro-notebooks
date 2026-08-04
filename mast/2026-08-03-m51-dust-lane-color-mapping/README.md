@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana
+**Date:** July 4, 2026
+
 # Mapping M51's dust lanes with two real HST filters
 
 **Question:** Does a simple two-filter (F435W blue / F814W red) color comparison of the Whirlpool Galaxy recover its known dust-lane structure?

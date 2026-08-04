@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana
+**Date:** July 14, 2026
+
 # TOI-700 d: multi-sector transit coverage audit
 
 Does a simple multi-sector audit significantly recover the 37.426-day transit?

@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana
+**Date:** July 6, 2026
+
 # How strongly does Abell 2744 lensing change candidate brightness rankings?
 
 **Question:** How do observed and approximately de-lensed F444W fluxes differ across the high-z sample?

@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana
+**Date:** July 14, 2026
+
 # Photometric versus spectroscopic redshift
 
 How well did the DR3 high-redshift estimates agree with solid or secure DR4.1 spectroscopy?

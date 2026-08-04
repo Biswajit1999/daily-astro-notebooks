@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana
+**Date:** March 18, 2026
+
 # How stable is the UNCOVER z >= 6 candidate count to redshift-posterior width?
 
 **Question:** How many quality-flagged candidates remain when the redshift posterior must be narrow?

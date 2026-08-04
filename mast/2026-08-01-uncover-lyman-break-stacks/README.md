@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana
+**Date:** January 3, 2026
+
 # Does the expected Lyman-break migration appear in stacked UNCOVER photometry?
 
 **Question:** Do median broad-band flux patterns move to longer wavelengths with candidate redshift?

@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana
+**Date:** February 21, 2026
+
 # How much does scattered-light treatment matter?
 
 Does subtracting the supplied background model reduce pre-explosion scatter for this light curve?

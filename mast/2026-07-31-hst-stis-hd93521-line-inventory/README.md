@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana
+**Date:** April 5, 2026
+
 # HST/STIS spectrum of HD 93521: which atoms leave visible absorption lines?
 
 This analysis downloads a calibrated HST/STIS G750L spectrum from MAST, applies

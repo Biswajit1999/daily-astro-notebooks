@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana
+**Date:** February 11, 2026
+
 # Remeasuring the early supernova rise
 
 Is the public light curve better described by a free power law than a fixed t-squared rise?

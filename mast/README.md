@@ -32,3 +32,13 @@ The 2026-08-03 batch adds six combined imaging/photometry/spectroscopy notebooks
   galaxy's real dust-lane structure from real, uncalibrated preview imagery.
 - RR Lyrae: a blind TESS period search recovering the star's known 0.5668-day
   pulsation to within 2.4 seconds, plus an exploratory Blazhko-effect check.
+
+The 2026-08-04 batch adds two more:
+
+- SS Cygni: five real TESS epochs (2019-2024) of the prototype dwarf nova, with
+  a from-scratch outburst detector recovering 9 real outbursts and 4 direct
+  recurrence-time measurements checked against the published historical range.
+- NGC 6397: a from-scratch DAOStarFinder-plus-aperture-photometry pipeline run
+  directly on real HST/ACS pixels (not a catalog pull), recovering a clean
+  color-magnitude diagram, validated to 0.05 mag scatter against MAST's own
+  point-source catalog, with a real artificial-star completeness test.

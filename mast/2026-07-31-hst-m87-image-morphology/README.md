@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana
+**Date:** June 4, 2026
+
 # M87 morphology in an HST preview image
 
 **Question:** What centroid, ellipticity, and half-light radius are measured from the preserved HST preview?

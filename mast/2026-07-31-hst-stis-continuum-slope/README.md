@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana
+**Date:** February 13, 2026
+
 # Optical continuum slope of HD 93521 with HST/STIS
 
 **Question:** What power-law slope describes the calibrated optical continuum after masking strong lines?

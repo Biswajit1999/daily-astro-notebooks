@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana
+**Date:** January 14, 2026
+
 # Five real HST filters of 47 Tucanae: do the colors look like a globular cluster?
 
 **Question:** Does real, cross-matched multi-band HST photometry of 47 Tuc trace the color-magnitude trend expected along the main sequence of an old stellar population?
