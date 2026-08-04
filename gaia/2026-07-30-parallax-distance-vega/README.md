@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana  
+**Date:** February 18, 2026
+
 # How far away is Vega, really? Measuring it from a real parallax
 
 I first tried Gaia DR3 directly, querying a small cone around Vega's coordinates. It's a useful

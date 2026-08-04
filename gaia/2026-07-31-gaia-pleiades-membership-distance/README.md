@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana  
+**Date:** February 14, 2026
+
 # Gaia DR3 Pleiades membership, distance, and colour–magnitude sequence
 
 This notebook retrieves Gaia DR3 astrometry within 1.5° of the Pleiades,

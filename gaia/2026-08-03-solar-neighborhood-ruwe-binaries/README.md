@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana  
+**Date:** May 24, 2026
+
 # Hunting unresolved binaries in the solar neighborhood with Gaia's RUWE
 
 I pulled a real sample of 12,000 bright (G < 12), nearby (parallax > 10 mas, so within 100 pc) Gaia

@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana  
+**Date:** February 26, 2026
+
 # A Milky Way rotation curve from real Gaia DR3 radial velocities
 
 I pulled a real sample of 12,000 Gaia DR3 stars that have measured radial velocities (line-of-sight

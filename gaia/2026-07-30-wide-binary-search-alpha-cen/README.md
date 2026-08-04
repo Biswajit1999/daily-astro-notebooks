@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana  
+**Date:** June 2, 2026
+
 # Looking for wide binary star pairs near Alpha Centauri
 
 I looked up real Hipparcos astrometry for Alpha Centauri A and B (parallax ~755-797 mas, so I

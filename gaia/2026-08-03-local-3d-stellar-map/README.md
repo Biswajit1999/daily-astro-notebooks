@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana  
+**Date:** April 21, 2026
+
 # Mapping the local stellar neighborhood in 3D with real Gaia DR3 parallaxes
 
 I pulled a real sample of 6,000 bright (G < 10), nearby Gaia DR3 stars with parallax > 10

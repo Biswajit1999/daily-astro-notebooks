@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana  
+**Date:** July 24, 2026
+
 # A projected mass-segregation proxy in the Pleiades
 
 **Question:** Are brighter cluster members more centrally concentrated on the sky?

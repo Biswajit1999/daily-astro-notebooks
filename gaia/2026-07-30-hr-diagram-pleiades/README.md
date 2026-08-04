@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana  
+**Date:** February 10, 2026
+
 # Building a real Hertzsprung-Russell diagram for the Pleiades
 
 I queried Gaia DR3 directly for a 1.0 degree field around the Pleiades and worked through a

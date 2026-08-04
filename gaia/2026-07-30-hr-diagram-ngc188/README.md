@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana  
+**Date:** March 5, 2026
+
 # NGC 188: an HR diagram for one of the oldest nearby open clusters, and its real turnoff
 
 NGC 188 is roughly 6-7 billion years old, far older than the Hyades or Pleiades I looked at in

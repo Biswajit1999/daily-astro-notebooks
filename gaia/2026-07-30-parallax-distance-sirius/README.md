@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana  
+**Date:** March 7, 2026
+
 # Measuring the distance to Sirius, the brightest star in our sky
 
 Same approach as the Vega notebook: I queried Gaia DR3 around Sirius's coordinates first, and

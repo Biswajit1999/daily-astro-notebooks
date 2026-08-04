@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana  
+**Date:** May 18, 2026
+
 # Pleiades colour–magnitude outliers and Gaia RUWE
 
 **Question:** Are stars above the fitted single-star sequence more likely to have elevated RUWE?

@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana  
+**Date:** April 29, 2026
+
 # Pleiades proper-motion dispersion after measurement errors
 
 **Question:** How much proper-motion scatter remains after subtracting the reported Gaia uncertainties?

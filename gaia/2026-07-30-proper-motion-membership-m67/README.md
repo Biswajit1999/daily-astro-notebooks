@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana  
+**Date:** April 16, 2026
+
 # Finding M67 cluster members with a real proper-motion cut
 
 I queried Gaia DR3 for a 0.6 degree field around M67, getting 2826 sources with valid parallax

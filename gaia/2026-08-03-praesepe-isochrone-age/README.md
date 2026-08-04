@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana  
+**Date:** June 27, 2026
+
 # Praesepe (M44): a turnoff age from real Gaia DR3 data
 
 I pulled a real Gaia DR3 sample around Praesepe (M44), the open cluster also called the Beehive,

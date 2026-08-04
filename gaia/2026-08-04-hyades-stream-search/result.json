@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-04-hyades-stream-search",
+  "title": "Hyades moving group / stream search via field kinematic clustering",
+  "n_core": 85,
+  "core_U": 53.19633893216609,
+  "core_V": -6.952011226147163,
+  "core_W": 6.047391707937327,
+  "core_sigma_U": 2.748924562011192,
+  "core_sigma_V": 0.5030260504916799,
+  "core_sigma_W": 1.2259486765604595,
+  "n_field": 5804,
+  "velocity_tolerance_km_s": 5.0,
+  "n_stream_candidates": 23,
+  "matched_fraction_pct": 0.39627842866988283,
+  "null_mean_matches": 14.26,
+  "null_std_matches": 16.120868462958192,
+  "overdensity_sigma": 0.5421544143283831,
+  "example_candidate_source_ids": [
+    1452083298377571072,
+    6224884741352794368,
+    4407591852581969792,
+    2325690465406097280,
+    1543256280023747200
+  ]
+}

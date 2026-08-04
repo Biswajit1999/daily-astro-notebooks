@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana  
+**Date:** June 8, 2026
+
 # Can Gaia resolve the Pleiades line-of-sight depth?
 
 **Question:** Is the observed parallax width larger than the reported measurement errors?

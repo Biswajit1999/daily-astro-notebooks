@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana  
+**Date:** July 11, 2026
+
 # The Hyades cluster: an HR diagram for the nearest open cluster to us
 
 I ran the same real Gaia DR3 pipeline here as in the Pleiades notebook, this time on a 3.0
