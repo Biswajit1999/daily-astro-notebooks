@@ -1,0 +1,16 @@
+{
+  "id": "2026-08-03-praesepe-isochrone-age",
+  "title": "Praesepe main-sequence turnoff age",
+  "n_raw": 549,
+  "n_members": 540,
+  "median_distance_pc": 185.12577310367803,
+  "turnoff_bp_rp": 0.225,
+  "turnoff_abs_g": -0.07625674553954731,
+  "turnoff_mass_msun": 3.636763474726438,
+  "estimated_age_myr": 396.47185102561684,
+  "literature_age_range_myr": [
+    590,
+    800
+  ],
+  "consistent_with_literature": false
+}
