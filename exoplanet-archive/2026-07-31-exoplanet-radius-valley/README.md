@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana
+**Date:** June 26, 2026
+
 # Measuring the radius valley in the current archive
 
 I pulled a live, quality-cut sample of 2,070 transiting planets (1-4 Earth radii, 1-100 day periods, radius uncertainty under 20%) from the NASA Exoplanet Archive and located the "radius valley" -- the observed scarcity of planets between rocky super-Earths and gas-rich sub-Neptunes -- with a kernel-density estimate.

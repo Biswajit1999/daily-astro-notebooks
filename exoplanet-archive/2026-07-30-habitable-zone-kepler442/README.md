@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana
+**Date:** August 3, 2026
+
 # Is Kepler-442 b actually in the habitable zone?
 
 I pulled the real Kepler-442 system parameters from the NASA Exoplanet Archive: host-star Teff (4402 K, within the Kopparapu et al. 2013 fit's valid 2600-7200 K range), luminosity (0.117 solar luminosities), and the one confirmed planet's semi-major axis (0.409 AU).

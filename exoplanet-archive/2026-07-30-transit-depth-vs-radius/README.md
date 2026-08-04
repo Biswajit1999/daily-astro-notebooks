@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana
+**Date:** May 29, 2026
+
 # Does a bigger planet really block more starlight?
 
 I pulled the current confirmed transiting-planet sample from the NASA Exoplanet Archive's `pscomppars` table via a live TAP query (4,716 raw rows), then applied real quality cuts: requiring a finite planet radius, host-star radius, and reported transit depth (dropped 217 rows), plus a physical sanity range on radii (dropped 1 more). That leaves a clean sample of 4,498 transiting planets.

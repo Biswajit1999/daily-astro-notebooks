@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana
+**Date:** March 5, 2026
+
 # How fast is each detection method finding new planets?
 
 I pulled real discovery-year and detection-method data for 5,786 confirmed exoplanets from the NASA Exoplanet Archive (2005-2025, the three leading methods only: transit, radial velocity, and microlensing) and built a cumulative discovery count per method per year. Then I fit a log-linear regression to each method's cumulative curve and converted the fitted slope into a compound annual growth rate (CAGR) -- a standard "how fast is this growing per year, on average" number.

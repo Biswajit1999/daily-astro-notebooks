@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana
+**Date:** April 28, 2026
+
 # What are exoplanets probably made of? A density-based sort
 
 I pulled real mass and radius values for 6,253 confirmed exoplanets from the NASA Exoplanet Archive and computed each one's bulk density the same way you'd compute it for any object: mass divided by volume. Then I sorted every planet into one of four composition classes using real, measured solar-system densities as dividing lines: pure iron (~8.0 g/cm^3) at the dense end, Earth's own density (5.51 g/cm^3) for rocky worlds, Neptune's density (1.64 g/cm^3) for ice-and-gas-rich planets, and Jupiter's density (1.33 g/cm^3) for hydrogen/helium-dominated giants.

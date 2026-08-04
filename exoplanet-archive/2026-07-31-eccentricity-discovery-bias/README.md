@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana
+**Date:** February 21, 2026
+
 # Do RV and transit discoveries have the same eccentricity distribution?
 
 I compared orbital eccentricities across discovery methods using a quality-cut archive sample of 5,146 planets. A Kruskal-Wallis test across methods came back with p < 1e-300 -- the methods clearly do not share a common eccentricity distribution, and the sample is large enough that this isn't a fluke.

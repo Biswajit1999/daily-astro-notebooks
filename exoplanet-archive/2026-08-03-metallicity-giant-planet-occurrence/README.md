@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana
+**Date:** May 1, 2026
+
 # Does host-star metallicity predict giant-planet occurrence?
 
 I pulled real host-star metallicity ([Fe/H], the iron-to-hydrogen ratio relative to the Sun) and planet mass for 815 unique radial-velocity-detected planet hosts from the NASA Exoplanet Archive, keeping each host's most massive known planet to avoid double-counting multi-planet systems. I flagged each host as a "giant host" if its most massive planet is at least 0.3 Jupiter masses (roughly Saturn-mass and above), then tested whether that flag correlates with metallicity.

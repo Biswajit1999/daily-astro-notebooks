@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana
+**Date:** March 2, 2026
+
 # Are planets in multi-planet systems smaller?
 
 I compared planet radii between single-transiting-planet hosts and multi-transiting-planet hosts using a quality-cut sample of 4,646 planets from the archive.

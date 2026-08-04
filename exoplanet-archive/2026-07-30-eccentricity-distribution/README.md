@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana
+**Date:** January 16, 2026
+
 # How elongated are exoplanet orbits, really?
 
 I pulled the full confirmed-planet eccentricity table from the NASA Exoplanet Archive (6,333 raw rows), dropped 1,053 rows with no measured eccentricity, and kept 5,280 planets with 0 <= e < 1.

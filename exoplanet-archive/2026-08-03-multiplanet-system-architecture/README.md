@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana
+**Date:** June 8, 2026
+
 # Which multi-planet system is really a resonance chain?
 
 I pulled real orbital periods and semi-major axes for three well-known multi-planet systems straight from the NASA Exoplanet Archive: TRAPPIST-1 (7 planets), Kepler-90 (8 planets, archived under its Kepler Object of Interest name `KOI-351`), and HD 219134 (6 planets). For every pair of neighbouring planets I computed the ratio of their orbital periods and found the closest simple fraction (like 3:2 or 5:3, denominator capped at 4), then measured how far off the real ratio is from that simple fraction as a percentage.

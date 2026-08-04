@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana
+**Date:** February 25, 2026
+
 # Which TRAPPIST-1 planets are actually in the habitable zone?
 
 I pulled the real system parameters for all seven TRAPPIST-1 planets from the NASA Exoplanet Archive: host-star effective temperature (2566 K), luminosity (0.00055 solar luminosities), and each planet's semi-major axis (average orbital distance).

@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana
+**Date:** August 4, 2026
+
 # Are short-period hot Jupiters more circular than longer-period giants?
 
 I pulled a real archive sample of 944 confirmed giant planets with published periods, eccentricities, and radii, then compared planets inside 5 days to a 10-100 day control group -- a direct test of tidal circularization, where a star's tidal pull damps an orbit's eccentricity fastest at short period.

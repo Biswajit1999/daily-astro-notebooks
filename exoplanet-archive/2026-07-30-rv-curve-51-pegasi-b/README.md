@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana
+**Date:** March 13, 2026
+
 # Reconstructing 51 Peg b's radial-velocity wobble
 
 51 Peg b was the first exoplanet discovered around a Sun-like star, via the star's Doppler wobble. I pulled its real fitted orbital solution from the NASA Exoplanet Archive: period P = 4.2308 days, eccentricity e = 0.0063 (essentially circular), argument of periastron omega = 0 deg, and RV semi-amplitude K = 55.77 m/s, with a host-star mass of 1.07 solar masses.

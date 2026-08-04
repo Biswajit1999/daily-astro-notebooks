@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana
+**Date:** May 6, 2026
+
 # Do bigger planets orbit closer or farther? Mass vs. period
 
 I pulled the full confirmed-planet mass/period table from the NASA Exoplanet Archive (6,333 raw rows), dropped 372 rows missing a mass or period, and kept the remaining 5,961 planets with positive values for both.

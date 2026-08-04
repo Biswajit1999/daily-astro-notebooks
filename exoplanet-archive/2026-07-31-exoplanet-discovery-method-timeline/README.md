@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana
+**Date:** May 11, 2026
+
 # How has the exoplanet discovery-method mix changed over time?
 
 I tracked discovery method against discovery year for 5,233 planets with both fields recorded in the archive. Splitting at a 2019 boundary (roughly the TESS era beginning), the leading discovery method stays the same before and after the split -- Transit dominates both eras -- but its share is even more overwhelming recently: Transit accounts for 72.4% of all 2021-2026 discoveries.

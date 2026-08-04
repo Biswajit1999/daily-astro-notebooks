@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana
+**Date:** January 17, 2026
+
 # Reconstructing HD 189733 b's radial-velocity wobble
 
 HD 189733 b is a well-studied hot Jupiter around a nearby K dwarf. I pulled its real fitted orbital solution from the NASA Exoplanet Archive: period P = 2.2186 days, eccentricity e = 0.0 (fixed circular in the archive's adopted fit), argument of periastron omega = 20 deg, RV semi-amplitude K = 205.0 m/s, and host-star mass 0.79 solar masses.

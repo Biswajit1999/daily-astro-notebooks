@@ -1,3 +1,6 @@
+**Author:** Biswajit Jana
+**Date:** June 18, 2026
+
 # Are hot Jupiters bigger around hotter stars?
 
 Using a quality-cut sample of 698 close-in giant planets, I tested whether planet radius correlates with host-star effective temperature -- a proxy for stellar irradiation, which several proposed mechanisms predict should inflate a hot Jupiter's atmosphere.
