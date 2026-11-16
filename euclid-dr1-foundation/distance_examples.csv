@@ -1,0 +1,4 @@
+series_day,object,instrument_or_release,z_spec,z_err,reference,comoving_gpc,comoving_gpc_low,comoving_gpc_high,luminosity_gpc,luminosity_gpc_low,luminosity_gpc_high,lookback_gyr,lookback_gyr_low,lookback_gyr_high
+Day 3,2695057816657579082,DESI DR1,0.905244,,https://arxiv.org/abs/2503.14745,3.153431,,,6.008055,,,7.530805,,
+Day 5,Carousel 1a,VLT/MUSE,0.96196,1e-05,https://doi.org/10.3847/1538-4357/ad65d3,3.300030,3.300005,3.300056,6.474527,6.474445,6.474610,7.778125,7.778083,7.778167
+Day 5,Carousel 2a,VLT/MUSE,0.96154,3e-05,https://doi.org/10.3847/1538-4357/ad65d3,3.298963,3.298886,3.299039,6.471047,6.470799,6.471296,7.776350,7.776223,7.776477

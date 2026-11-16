@@ -2,6 +2,8 @@
 
 Biswajit Jana
 
+[Day 1–7 publication series, reports, and distance examples](publication-series.md)
+
 | Study | Data and result | Report |
 |---|---|---|
 | [Hα measurements and optical aperture sizes in Euclid Deep Field North](edf-north-halpha/) | MER VIS imaging, NISP slitless spectra and DESI redshifts. The direct VIS size contrast spans zero. Fourteen warning-inclusive dual-grism detections yield five candidates that survive peak-bin removal. | [PDF](edf-north-halpha/report/Euclid_EDF_North_Halpha.pdf) |
