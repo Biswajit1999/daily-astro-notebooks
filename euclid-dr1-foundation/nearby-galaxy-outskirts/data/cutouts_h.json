@@ -1,0 +1,84 @@
+[
+  {
+    "target": "IC2058",
+    "band": "h",
+    "key": "dr1/MER/102014352/NISP/EUC_MER_BGSUB-MOSAIC-NIR-H_TILE102014352-5846A2_20250814T133851.802534Z_00.00.fits",
+    "bounds": [
+      7896,
+      10296,
+      10851,
+      13251
+    ],
+    "pixel_sha256": "ffe99808fab750216e701c05968615013af468a9b08350813cf26be9b4294052"
+  },
+  {
+    "target": "IC1914",
+    "band": "h",
+    "key": "dr1/MER/102020046/NISP/EUC_MER_BGSUB-MOSAIC-NIR-H_TILE102020046-A64936_20250805T081200.265721Z_00.00.fits",
+    "bounds": [
+      1006,
+      3406,
+      4795,
+      7195
+    ],
+    "pixel_sha256": "05faf9ab908ad8eacd67980c001f9e2ce4bcd2246188ddf8ba58262a1db57daa"
+  },
+  {
+    "target": "NGC1389",
+    "band": "h",
+    "key": "dr1/MER/102034972/NISP/EUC_MER_BGSUB-MOSAIC-NIR-H_TILE102034972-5535CD_20250803T112208.309522Z_00.00.fits",
+    "bounds": [
+      9147,
+      11547,
+      1623,
+      4023
+    ],
+    "pixel_sha256": "2efb7b3f83060c6791e5b531cf99b1ea16cf72d0e3ecffc811f1e48188ca7706"
+  },
+  {
+    "target": "ESO248-002",
+    "band": "h",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "target": "ESO361-015",
+    "band": "h",
+    "key": "dr1/MER/102037992/NISP/EUC_MER_BGSUB-MOSAIC-NIR-H_TILE102037992-DB0770_20250725T185605.764716Z_00.00.fits",
+    "bounds": [
+      6316,
+      8716,
+      2491,
+      4891
+    ],
+    "pixel_sha256": "e4532117d2f1b8f0fd4a1c6f48ec086c5df6b4829a235648b179d5c9135cce8e"
+  },
+  {
+    "target": "IC0335",
+    "band": "h",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "target": "NGC1351A",
+    "band": "h",
+    "key": "dr1/MER/102035559/NISP/EUC_MER_BGSUB-MOSAIC-NIR-H_TILE102035559-B08A81_20250805T091400.445006Z_00.00.fits",
+    "bounds": [
+      7618,
+      10018,
+      1988,
+      4388
+    ],
+    "pixel_sha256": "dd7e5f875dc7b355b81305723366e72cfd516c9072cc45edac7cd25d15cc2b7e"
+  },
+  {
+    "target": "NGC1484",
+    "band": "h",
+    "key": "dr1/MER/102033228/NISP/EUC_MER_BGSUB-MOSAIC-NIR-H_TILE102033228-43C89D_20250809T052853.683134Z_00.00.fits",
+    "bounds": [
+      5352,
+      7752,
+      9444,
+      11844
+    ],
+    "pixel_sha256": "93d26009435b23ccdf6d3a0d1babf95cbab7cc9f8e6d70baefb706f25a5c64b9"
+  }
+]

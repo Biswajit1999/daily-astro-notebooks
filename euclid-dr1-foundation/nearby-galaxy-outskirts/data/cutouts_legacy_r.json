@@ -1,0 +1,50 @@
+[
+  {
+    "target": "IC2058",
+    "band": "legacy_r",
+    "url": "https://www.legacysurvey.org/viewer/fits-cutout?ra=64.476119&dec=-55.933017&size=480&pixscale=0.5&layer=ls-dr10&bands=r",
+    "file_sha256": "6abae875dafe2a497ed8202b59de063385f5ad397b6f3b92c808dac3e2f37b39"
+  },
+  {
+    "target": "IC1914",
+    "band": "legacy_r",
+    "url": "https://www.legacysurvey.org/viewer/fits-cutout?ra=49.8551&dec=-49.59967&size=480&pixscale=0.5&layer=ls-dr10&bands=r",
+    "file_sha256": "64098ecb09faa0df282d61cdfd1ade729471b3849b50979403b2f299860f4471"
+  },
+  {
+    "target": "NGC1389",
+    "band": "legacy_r",
+    "url": "https://www.legacysurvey.org/viewer/fits-cutout?ra=54.298861&dec=-35.746101&size=480&pixscale=0.5&layer=ls-dr10&bands=r",
+    "file_sha256": "ad976e3e7e5b35bb84bf3a35d2680de11d0e670872c92664a16430c6b1b757b8"
+  },
+  {
+    "target": "ESO248-002",
+    "band": "legacy_r",
+    "url": "https://www.legacysurvey.org/viewer/fits-cutout?ra=46.276229&dec=-45.961821&size=480&pixscale=0.5&layer=ls-dr10&bands=r",
+    "file_sha256": "002fc339ad1defbd69204e67ab152edc6857d854a0de5bdcbd38cb720e20c492"
+  },
+  {
+    "target": "ESO361-015",
+    "band": "legacy_r",
+    "url": "https://www.legacysurvey.org/viewer/fits-cutout?ra=72.989&dec=-33.17927&size=480&pixscale=0.5&layer=ls-dr10&bands=r",
+    "file_sha256": "a5f55db41b43d16983050fc754df291a08912025abc26c4a080f8d7ee0d8f287"
+  },
+  {
+    "target": "IC0335",
+    "band": "legacy_r",
+    "url": "https://www.legacysurvey.org/viewer/fits-cutout?ra=53.87942&dec=-34.447001&size=480&pixscale=0.5&layer=ls-dr10&bands=r",
+    "file_sha256": "8d243a60fd6a2fb6fb870cfd70f80958a65b6cdb1dad0d26fcea171b59350dbe"
+  },
+  {
+    "target": "NGC1351A",
+    "band": "legacy_r",
+    "url": "https://www.legacysurvey.org/viewer/fits-cutout?ra=52.203007&dec=-35.178076&size=480&pixscale=0.5&layer=ls-dr10&bands=r",
+    "file_sha256": "3c50c5bb37a0c2dedfa62791690da4c5f330ec0d9e27dd43d8de5160d7469cdb"
+  },
+  {
+    "target": "NGC1484",
+    "band": "legacy_r",
+    "url": "https://www.legacysurvey.org/viewer/fits-cutout?ra=58.574062&dec=-36.970931&size=480&pixscale=0.5&layer=ls-dr10&bands=r",
+    "file_sha256": "04faac791cd3439ab67c14223aad1be6c2ff8d56ba15b1999ce3ccec572c7d38"
+  }
+]

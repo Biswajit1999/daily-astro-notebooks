@@ -1,0 +1,74 @@
+[
+  {
+    "name": "ESO248-002",
+    "tile": 102023455,
+    "parquet": "contributed/dr1/hats/reformatted_catalogs/mer_catalogue_wide_survey/euclid_dr1_reformatted_catalogs_mer_catalogue_wide_survey-hats/dataset/Norder=5/Dir=0/Npix=8445/part0.snappy.parquet",
+    "rows": 1065,
+    "tiles": {
+      "102023455": 1065
+    }
+  },
+  {
+    "name": "ESO361-015",
+    "tile": 102037992,
+    "parquet": "contributed/dr1/hats/reformatted_catalogs/mer_catalogue_wide_survey/euclid_dr1_reformatted_catalogs_mer_catalogue_wide_survey-hats/dataset/Norder=5/Dir=0/Npix=8656/part0.snappy.parquet",
+    "rows": 344,
+    "tiles": {
+      "102037992": 344
+    }
+  },
+  {
+    "name": "IC0335",
+    "tile": 102036156,
+    "parquet": "contributed/dr1/hats/reformatted_catalogs/mer_catalogue_wide_survey/euclid_dr1_reformatted_catalogs_mer_catalogue_wide_survey-hats/dataset/Norder=5/Dir=0/Npix=8635/part0.snappy.parquet",
+    "rows": 1661,
+    "tiles": {
+      "102036156": 1661
+    }
+  },
+  {
+    "name": "IC1914",
+    "tile": 102020046,
+    "parquet": "contributed/dr1/hats/reformatted_catalogs/mer_catalogue_wide_survey/euclid_dr1_reformatted_catalogs_mer_catalogue_wide_survey-hats/dataset/Norder=5/Dir=0/Npix=8436/part0.snappy.parquet",
+    "rows": 830,
+    "tiles": {
+      "102020046": 830
+    }
+  },
+  {
+    "name": "IC2058",
+    "tile": 102014352,
+    "parquet": "contributed/dr1/hats/reformatted_catalogs/mer_catalogue_wide_survey/euclid_dr1_reformatted_catalogs_mer_catalogue_wide_survey-hats/dataset/Norder=5/Dir=0/Npix=8488/part0.snappy.parquet",
+    "rows": 1101,
+    "tiles": {
+      "102014352": 1101
+    }
+  },
+  {
+    "name": "NGC1351A",
+    "tile": 102035559,
+    "parquet": "contributed/dr1/hats/reformatted_catalogs/mer_catalogue_wide_survey/euclid_dr1_reformatted_catalogs_mer_catalogue_wide_survey-hats/dataset/Norder=5/Dir=0/Npix=8634/part0.snappy.parquet",
+    "rows": 1091,
+    "tiles": {
+      "102035559": 1091
+    }
+  },
+  {
+    "name": "NGC1389",
+    "tile": 102034972,
+    "parquet": "contributed/dr1/hats/reformatted_catalogs/mer_catalogue_wide_survey/euclid_dr1_reformatted_catalogs_mer_catalogue_wide_survey-hats/dataset/Norder=5/Dir=0/Npix=8633/part0.snappy.parquet",
+    "rows": 1356,
+    "tiles": {
+      "102034972": 1356
+    }
+  },
+  {
+    "name": "NGC1484",
+    "tile": 102033228,
+    "parquet": "contributed/dr1/hats/reformatted_catalogs/mer_catalogue_wide_survey/euclid_dr1_reformatted_catalogs_mer_catalogue_wide_survey-hats/dataset/Norder=5/Dir=0/Npix=8628/part0.snappy.parquet",
+    "rows": 1300,
+    "tiles": {
+      "102033228": 1300
+    }
+  }
+]

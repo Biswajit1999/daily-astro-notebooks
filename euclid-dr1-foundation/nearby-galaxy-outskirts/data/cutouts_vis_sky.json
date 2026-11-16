@@ -1,0 +1,98 @@
+[
+  {
+    "target": "IC2058",
+    "band": "vis_sky",
+    "key": "dr1/MER/102014352/VIS/EUC_MER_BGMOD-VIS_TILE102014352-C3B94F_20250814T153355.336257Z_00.00.fits",
+    "bounds": [
+      7896,
+      10296,
+      10851,
+      13251
+    ],
+    "pixel_sha256": "b7c55130bd097656dd9b8ea99cf327a2e3a502783a075c84d97ff01ade49e5a9"
+  },
+  {
+    "target": "IC1914",
+    "band": "vis_sky",
+    "key": "dr1/MER/102020046/VIS/EUC_MER_BGMOD-VIS_TILE102020046-32ACAB_20250805T103853.845794Z_00.00.fits",
+    "bounds": [
+      1006,
+      3406,
+      4795,
+      7195
+    ],
+    "pixel_sha256": "f02438c86cf45d8c3eec394ad32956f97139c06222885acb60e1dbd568545dc3"
+  },
+  {
+    "target": "NGC1389",
+    "band": "vis_sky",
+    "key": "dr1/MER/102034972/VIS/EUC_MER_BGMOD-VIS_TILE102034972-E88434_20250803T120000.109576Z_00.00.fits",
+    "bounds": [
+      9147,
+      11547,
+      1623,
+      4023
+    ],
+    "pixel_sha256": "3eeabc2873719aaac16f3d9c0b7490b1c14455ba3db899cc4a9389beddbd2975"
+  },
+  {
+    "target": "ESO248-002",
+    "band": "vis_sky",
+    "key": "dr1/MER/102023455/VIS/EUC_MER_BGMOD-VIS_TILE102023455-73A587_20250726T125030.701409Z_00.00.fits",
+    "bounds": [
+      10704,
+      13104,
+      9772,
+      12172
+    ],
+    "pixel_sha256": "5f51b1b1e385a1bcf60972658a44c6c1cf4906d6bba5319fc41bbf6e813df8e9"
+  },
+  {
+    "target": "ESO361-015",
+    "band": "vis_sky",
+    "key": "dr1/MER/102037992/VIS/EUC_MER_BGMOD-VIS_TILE102037992-E070A7_20250726T061111.985025Z_00.00.fits",
+    "bounds": [
+      6316,
+      8716,
+      2491,
+      4891
+    ],
+    "pixel_sha256": "0e53490837a2fb9a2a84104d3e0d1f30613486778e5c056e2dcf563b2405075f"
+  },
+  {
+    "target": "IC0335",
+    "band": "vis_sky",
+    "key": "dr1/MER/102036156/VIS/EUC_MER_BGMOD-VIS_TILE102036156-C3EFCB_20250814T193506.931247Z_00.00.fits",
+    "bounds": [
+      2381,
+      4781,
+      10301,
+      12701
+    ],
+    "pixel_sha256": "f1b522ebfd8083240d15cf9d6a3e8adb25c2036fd8158d57176081e0b7fc118f"
+  },
+  {
+    "target": "NGC1351A",
+    "band": "vis_sky",
+    "key": "dr1/MER/102035559/VIS/EUC_MER_BGMOD-VIS_TILE102035559-8C07EB_20250805T100618.208764Z_00.00.fits",
+    "bounds": [
+      7618,
+      10018,
+      1988,
+      4388
+    ],
+    "pixel_sha256": "87f830b0b5e417c2e0d1c71dbe978706a2863803643ebb7149f76eaa77eb6cf3"
+  },
+  {
+    "target": "NGC1484",
+    "band": "vis_sky",
+    "key": "dr1/MER/102033228/VIS/EUC_MER_BGMOD-VIS_TILE102033228-550971_20250809T073422.697921Z_00.00.fits",
+    "bounds": [
+      5352,
+      7752,
+      9444,
+      11844
+    ],
+    "pixel_sha256": "feb0e049d873371a57a09842d1ac702575d4acefe987f28c9412ff3fbe68e099"
+  }
+]
