@@ -2,9 +2,7 @@
 
 Biswajit Jana · Day 2 · 15 November 2026
 
-> This component is included in the [combined EDF North Hα study](../edf-north-halpha/).
-
-[Download the two-page A&A-format report](report/Euclid_Day_2.pdf) · [LaTeX source](../manuscripts/day2.tex)
+[Download the two-page report](report/Euclid_Day_2.pdf)
 
 ## Abstract
 
@@ -48,7 +46,7 @@ The spectral screen uses 858 objects with both grism spectra in the three sample
 | Direct VIS radius, reliable red Hα, ≥2.0″ isolation | 398 | +0.01402 | −0.0173 to +0.0443 |
 | Direct VIS radius, reliable red Hα, ≥2.5″ isolation | 233 | +0.01719 | −0.0211 to +0.0624 |
 
-The first two rows resample objects within cells. The last three resample whole tiles, with five tiles contributing eligible cells at the 2.0″ cut. The two 398-object rows use the same galaxies, so the 0.01961 dex reduction in the contrast isolates the change in the Hα estimate for this comparison. In linear units, the reliable-red result corresponds to a +3.3% aperture-radius ratio difference, with descriptive endpoints of −3.9% and +10.7%. At 2.0″ the reliable-red contrast is positive in three tiles and negative in two. The matched comparison and the breadth of the bootstrap distributions matter more for interpretation than the narrower interval from the original object bootstrap.
+The first two rows resample objects within cells. The last three resample whole tiles, with five tiles contributing eligible cells at the 2.0″ cut. The two 398-object rows use the same galaxies, giving a direct comparison of the Hα flux choices for the same VIS measurement. At 2.0″ the reliable-red contrast is positive in three tiles and negative in two. The matched comparison and the breadth of the bootstrap distributions matter more for interpretation than the narrower interval from the original object bootstrap.
 
 ![Comparison of MER and direct VIS aperture-radius contrasts under different isolation cuts](analysis/joint_audit/vis_radius_contrasts.png)
 

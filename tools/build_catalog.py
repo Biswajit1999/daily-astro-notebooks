@@ -108,46 +108,11 @@ def dense_entry(folder: Path, result_path: Path) -> dict:
     }
 
 
-
-EUCLID_REPORTS = (
-    (
-        "edf-north-halpha",
-        "Deep Field North",
-        "analysis/euclid_vis_targets.png",
-        "report/Euclid_EDF_North_Halpha.pdf",
-        "The direct VIS radius contrast spans zero. Fourteen warning-inclusive dual-grism detections yield five candidates that survive peak-bin removal.",
-        "Observed Euclid VIS stamps of the seven galaxy sources analysed in Deep Field North",
-    ),
-)
-
-
-def euclid_reports():
-    reports = []
-    for entry, label, figure, pdf, finding, alt in EUCLID_REPORTS:
-        folder = ROOT / "euclid-dr1-foundation" / entry
-        title = (folder / "README.md").read_text(encoding="utf-8").splitlines()[0].removeprefix("# ")
-        image = IMAGES / f"euclid-{entry}.png"
-        destination = PUBLIC / Path(pdf).name
-        shutil.copy2(folder / figure, image)
-        shutil.copy2(folder / pdf, destination)
-        reports.append({
-            "id": entry, "label": label, "title": title, "finding": finding,
-            "alt": alt, "image": f"data/images/{image.name}",
-            "pdf": f"data/{destination.name}", "folder": folder.relative_to(ROOT).as_posix(),
-        })
-    return reports
-
-
 def main():
     if PUBLIC.exists():
         shutil.rmtree(PUBLIC)
     IMAGES.mkdir(parents=True)
     shutil.copy2(ROOT / "assets" / "banner.png", IMAGES / "banner.png")
-    for entry, day in (("2026-11-14-day01", 1), ("2026-11-15-day02", 2), ("day03-cross-grism", 3)):
-        filename = f"Euclid_Day_{day}.pdf"
-        archived = ROOT / "euclid-dr1-foundation" / entry / "report" / filename
-        shutil.copy2(archived, PUBLIC / filename)
-
 
     notebooks = []
     for archive in ARCHIVES:
@@ -184,7 +149,6 @@ def main():
             "dense": sum(item["dense"] for item in notebooks),
         },
         "notebooks": notebooks,
-        "euclid_reports": euclid_reports(),
     }
     (PUBLIC / "notebooks.json").write_text(json.dumps(payload, indent=2), encoding="utf-8")
     print(f"Dashboard catalogue: {len(notebooks)} notebooks, {payload['stats']['dense']} dense")

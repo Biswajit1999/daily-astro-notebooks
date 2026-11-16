@@ -71,7 +71,7 @@ export default function App() {
     <main>
       <header className="topbar">
         <a className="brand" href="#top"><Mark /><span>Daily Astro <b>Notebooks</b></span></a>
-        <nav><a href="#euclid">Euclid</a><a href="#latest">Notebooks</a><a href="#catalogue">Catalogue</a><a href="#standard">Standard</a></nav>
+        <nav><a href="#latest">Latest</a><a href="#catalogue">Catalogue</a><a href="#standard">Standard</a></nav>
         <a className="repo-link" href={REPO}>Repository <Arrow /></a>
       </header>
 
@@ -83,7 +83,7 @@ export default function App() {
           <p className="eyebrow"><span /> Public archive data · analysed daily</p>
           <h1>One sky.<br /><em>A new question every day.</em></h1>
           <p className="lede">Reproducible notebooks that turn real telescope images, spectra, light curves, and catalogues into measured results—with uncertainty and honest limits.</p>
-          <div className="hero-actions"><a className="primary" href="#euclid">Read the Euclid reports ↓</a><a href="#catalogue">Browse notebooks <Arrow /></a></div>
+          <div className="hero-actions"><a className="primary" href="#latest">Explore today’s analyses ↓</a><a href="#standard">Read the method <Arrow /></a></div>
         </motion.div>
         {featured && <motion.aside className="result-instrument" initial={reduceMotion?false:{opacity:0,x:26}} animate={{opacity:1,x:0}} transition={{duration:.65,delay:.18}}>
           <div><span>Latest result</span><time>{featured.date_display}</time></div>
@@ -102,28 +102,6 @@ export default function App() {
 
       <div className="principles"><span>Live archive queries</span><i /><span>Outputs preserved</span><i /><span>Uncertainty reported</span><i /><span>Literature checked</span><i /><span>Limits stated</span></div>
       {audited.length>0&&<motion.section className="audit-strip" initial={reduceMotion?false:{opacity:0,y:22}} whileInView={{opacity:1,y:0}} viewport={{once:true,amount:.25}}><div><p>Scientific audit layer</p><h2>{audited.length} notebooks expose evidence, provenance, and failure limits.</h2></div><div><b>{audited.filter(x=>x.research_level==='Validated').length}</b> validated · <b>{audited.filter(x=>x.research_level==='Exploration').length}</b> exploratory</div></motion.section>}
-
-      <section className="euclid latest" id="euclid" aria-labelledby="euclid-heading">
-        <div className="section-heading">
-          <div><p>Open-data studies</p><h2 id="euclid-heading">Euclid DR1-Foundation</h2></div>
-          <span>Each study brings together the observed target images, measurements, and analysis code for one research question.</span>
-        </div>
-        {loadError && <p>The reports are available in the <a href={`${REPO}/tree/master/euclid-dr1-foundation`}>Euclid research folder</a>.</p>}
-        <div className="euclid-reports">
-          {catalog.euclid_reports?.map((report) => <article key={report.id} className="euclid-report">
-            <figure><img src={`${import.meta.env.BASE_URL}${report.image}`} alt={report.alt} loading="lazy" /></figure>
-            <div>
-              <p className="meta">{report.label} · Biswajit Jana</p>
-              <h3>{report.title}</h3>
-              <p>{report.finding}</p>
-              <div className="euclid-report-links">
-                <a className="primary dark" href={`${import.meta.env.BASE_URL}${report.pdf}`}>Download PDF ↓</a>
-                <a href={`${REPO}/tree/master/${report.folder}`}>Report and code <Arrow /></a>
-              </div>
-            </div>
-          </article>)}
-        </div>
-      </section>
 
       <section className="latest" id="latest">
         <div className="section-heading"><div><p>01 / Latest observing log</p><h2>Five questions. Five measured answers.</h2></div><span>Each analysis includes the query, selected data, figures, uncertainty, literature comparison, and a clear boundary around the claim.</span></div>

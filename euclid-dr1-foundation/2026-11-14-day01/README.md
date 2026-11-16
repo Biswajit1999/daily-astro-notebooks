@@ -2,9 +2,7 @@
 
 Biswajit Jana · Day 1 · 14 November 2026
 
-> This component is included in the [combined EDF North Hα study](../edf-north-halpha/).
-
-[Download the two-page A&A-format report](report/Euclid_Day_1.pdf) · [LaTeX source](../manuscripts/day1.tex)
+[Download the two-page report](report/Euclid_Day_1.pdf)
 
 ## Abstract
 
@@ -50,7 +48,7 @@ The statistic uses redshift bins [0.90, 1.10), [1.10, 1.30) and [1.30, 1.50), wi
 
 Tile `101834044` accounts for 327 of the 426 selected objects. The other 99 lie in four tiles, chiefly `101834045` (63) and `101834632` (34). Their median VIS aperture flux is 1.062 µJy, compared with 0.967 µJy in the matched sample. They had no morphological measurement in the input used here.
 
-Within the matched tile, 155 objects have nonzero VIS flags and 177 have nonzero detection-quality flags. These counts overlap. None has a spurious probability ≥0.5. Relative to the excluded group, the retained group has a 7.5% smaller median Kron aperture and 13.8% lower median Hα flux. The median redshifts are 1.142 and 1.145, respectively.
+Within the matched tile, 155 objects have nonzero VIS flags and 177 have nonzero detection-quality flags. These counts overlap. None has a spurious probability ≥0.5. The final exclusions leave a subsample with lower median Kron radius, Hα flux and VIS brightness.
 
 | Matched morphology group | N | Median Kron radius (pixels) | Median Hα flux (10⁻¹⁶ erg s⁻¹ cm⁻²) | Median VIS flux (µJy) |
 |---|---:|---:|---:|---:|

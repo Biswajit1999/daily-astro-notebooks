@@ -21,16 +21,6 @@ Each notebook is written to run in Google Colab: open it straight from GitHub
 using the "Open in Colab" badge at the top of the notebook — no download,
 no setup, just run it.
 
-## Euclid DR1-Foundation
-
-The Deep Field North study examines how imaging cuts, aperture definitions and spectral masks affect measured Hα fluxes and optical aperture radii.
-
-| Report | Finding | PDF |
-|---|---|---|
-| [Hα measurements and optical aperture sizes in Euclid Deep Field North](euclid-dr1-foundation/edf-north-halpha/) | The direct VIS size contrast spans zero. Of 14 dual-grism candidates, five remain above the red-grism threshold after removing the strongest red core bin. | [Download](euclid-dr1-foundation/edf-north-halpha/report/Euclid_EDF_North_Halpha.pdf) |
-
-[View the Euclid research page](https://biswajit1999.github.io/daily-astro-notebooks/#euclid) · [Browse the reports and analysis code](euclid-dr1-foundation/)
-
 ## Why this exists
 
 I wanted a public, dated paper trail of hands-on data analysis across the
@@ -47,9 +37,8 @@ every day instead of talking about it.
 | [`mast/`](mast/) | MAST (Hubble, JWST, Kepler, TESS) | Real telescope images of nebulae and galaxies, exoplanet-host light curves, transit periodograms — via `astroquery.mast` + `lightkurve` |
 | [`gaia/`](gaia/) | ESA Gaia | HR diagrams, cluster membership by proper motion, parallax-based distances, wide binaries — via `astroquery.gaia` (TAP) |
 | [`exoplanet-archive/`](exoplanet-archive/) | NASA Exoplanet Archive | Transit depth vs. radius, habitable-zone checks, radial-velocity curves, mass–period trends — via TAP queries |
-| [`euclid-dr1-foundation/`](euclid-dr1-foundation/) | ESA Euclid DR1-Foundation | Scientific reports, VIS and Subaru imaging, NISP spectroscopy and reproducible analysis. |
 
-Each dated notebook subfolder contains:
+Each dated subfolder contains:
 
 - `notebook.ipynb` — the analysis, run end-to-end with real output baked in
   (printed values, real plots — not just code)
