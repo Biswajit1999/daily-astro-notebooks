@@ -1,0 +1,43 @@
+{
+  "started_utc": "2026-11-16T13:27:07.366499+00:00",
+  "endpoint_url": null,
+  "raw_sha256": "57bfd161af02aee9717203b7815b952ba343c2ad92a5d9a2b4a5b3ac10d5e6f0",
+  "raw_rows": 3458,
+  "malformed": 0,
+  "duplicate_rows": 0,
+  "primary_rows": 3458,
+  "primary_clean_flags": 2676,
+  "clean_controls": 1385,
+  "clean": 1413,
+  "template_box": 28,
+  "positive_aperture_photometry": 28,
+  "nominal_aperture_box": 13,
+  "secure": 0,
+  "nominal_wilson95": [
+    0.29531569982795786,
+    0.6418731076553167
+  ],
+  "audited": [
+    {
+      "id": "F01",
+      "object_id": -530169732281167197,
+      "tileid": 101375806,
+      "ra": 53.01697326890141,
+      "dec": -28.116719732749868
+    },
+    {
+      "id": "F02",
+      "object_id": -529806031282019831,
+      "tileid": 101374533,
+      "ra": 52.980603108749335,
+      "dec": -28.201983124408407
+    },
+    {
+      "id": "F03",
+      "object_id": -529345576280445515,
+      "tileid": 101375805,
+      "ra": 52.934557697231355,
+      "dec": -28.044551598246933
+    }
+  ]
+}

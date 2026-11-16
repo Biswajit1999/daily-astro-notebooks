@@ -1,0 +1,44 @@
+{
+  "utc": "2026-11-16T13:40:29.632424+00:00",
+  "endpoint": "https://archive.eso.org/tap_cat/sync",
+  "catalogues": {
+    "VANDELS_SPECTRO_V4": {
+      "adql": "SELECT TOP 2000 id,alpha,delta,zspec,zflg FROM VANDELS_SPECTRO_V4 WHERE alpha >= 52.783 AND alpha <= 53.083 AND delta >= -28.2135 AND delta <= -27.9635",
+      "cone_rows": 0,
+      "targets": {
+        "F01": {
+          "within_one_arcsec": 0,
+          "nearest_arcsec": null
+        },
+        "F02": {
+          "within_one_arcsec": 0,
+          "nearest_arcsec": null
+        },
+        "F03": {
+          "within_one_arcsec": 0,
+          "nearest_arcsec": null
+        }
+      },
+      "positive_redshift_matches_within_one_arcsec": 0
+    },
+    "GOODS_VIMOS_SPEC_V1": {
+      "adql": "SELECT TOP 2000 ID_VIMOS,RAJ2000_VIMOS,DEJ2000_VIMOS,SPEC_Z FROM GOODS_VIMOS_SPEC_V1 WHERE RAJ2000_VIMOS >= 52.783 AND RAJ2000_VIMOS <= 53.083 AND DEJ2000_VIMOS >= -28.2135 AND DEJ2000_VIMOS <= -27.9635",
+      "cone_rows": 4,
+      "targets": {
+        "F01": {
+          "within_one_arcsec": 0,
+          "nearest_arcsec": 486.4909531346971
+        },
+        "F02": {
+          "within_one_arcsec": 0,
+          "nearest_arcsec": 788.0381790117125
+        },
+        "F03": {
+          "within_one_arcsec": 0,
+          "nearest_arcsec": 287.03737201628684
+        }
+      },
+      "positive_redshift_matches_within_one_arcsec": 0
+    }
+  }
+}

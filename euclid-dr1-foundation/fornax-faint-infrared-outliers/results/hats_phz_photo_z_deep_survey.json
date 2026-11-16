@@ -1,0 +1,118 @@
+{
+  "partition_index": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/contributed/dr1/hats/reformatted_catalogs/phz_photo_z_deep_survey/euclid_dr1_reformatted_catalogs_phz_photo_z_deep_survey-hats/partition_info.csv",
+  "sources": [
+    {
+      "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/contributed/dr1/hats/reformatted_catalogs/phz_photo_z_deep_survey/euclid_dr1_reformatted_catalogs_phz_photo_z_deep_survey-hats/dataset/Norder=6/Dir=30000/Npix=35934/part0.snappy.parquet",
+      "etag": "\"332ac4647d6d0b9a4ec977e619d0089f-7\"",
+      "verified_ranges": [
+        {
+          "start": 842989768,
+          "end": 843011624,
+          "sha256": "c99dd25d5e42a063178c7a808ed4e08785984364526fecf6d5a4eef25cace17d"
+        },
+        {
+          "start": 5638447,
+          "end": 7236902,
+          "sha256": "77c0b93abe68ac991b9e430eb77734ae671a184f55421dd5fb9886d8d28ecb6f"
+        },
+        {
+          "start": 360126509,
+          "end": 361708674,
+          "sha256": "f30e7d22dcf4b02d7a9821c22bbe4e89fd9ff81a4d97638332a473e636e65cc4"
+        },
+        {
+          "start": 706047758,
+          "end": 706701128,
+          "sha256": "f03bd7b1dbb4a94eba2a9a12e5d2b4c008595c90ed97704b755c36bde70c8ec7"
+        },
+        {
+          "start": 338861904,
+          "end": 339072696,
+          "sha256": "f153ef12ff25bbbf8e721a9bd1d3c1ff32cdf075a4151fa2492f5a7f96998d60"
+        },
+        {
+          "start": 340334100,
+          "end": 341338127,
+          "sha256": "4a00ae1b4bc5139fb04916427d7cb0861560c5d28c2dae787e59bd59aed8f6f2"
+        },
+        {
+          "start": 342333496,
+          "end": 343335975,
+          "sha256": "75e14ec2a2fc5fe55713fb353368f0fc87497f4ca930414593dc5e00b06c0ca7"
+        },
+        {
+          "start": 353485083,
+          "end": 353526152,
+          "sha256": "5801c981ba9b60c61fb97d24dc91e1efb6bb93cf06e2b26fd04f9b5d1a8fe28a"
+        }
+      ],
+      "fields": [
+        "object_id",
+        "phz_median",
+        "phz_mode_1",
+        "phz_mode_2",
+        "phz_flags"
+      ],
+      "published_count": 395252
+    },
+    {
+      "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/contributed/dr1/hats/reformatted_catalogs/phz_photo_z_deep_survey/euclid_dr1_reformatted_catalogs_phz_photo_z_deep_survey-hats/dataset/Norder=6/Dir=30000/Npix=35935/part0.snappy.parquet",
+      "etag": "\"e6313611242fc4f1fdd2486bd63f5269-6\"",
+      "verified_ranges": [
+        {
+          "start": 802430066,
+          "end": 802451920,
+          "sha256": "a6f271689f4998f5f27c00877419a6bb12052b61b6b801aa99d5acb60b8b8326"
+        },
+        {
+          "start": 5583571,
+          "end": 7165736,
+          "sha256": "9618e37ca4175d8b0642512d784c39837c76b1555dfcbab5ce1b1565b34d6b1c"
+        },
+        {
+          "start": 348730297,
+          "end": 350312462,
+          "sha256": "084eb3dea7bfce6fa8cf4590993e9603c72bd6914363a3f3520d8e23807c38ff"
+        },
+        {
+          "start": 689945464,
+          "end": 690492681,
+          "sha256": "140d0fee77579cc92d926eeb92d230e44736105d5a940229c39dd54204201ea5"
+        },
+        {
+          "start": 672525627,
+          "end": 672733860,
+          "sha256": "4bcdd6f9339cc65fa4861ec7856fc63dcbe49c9ff3452fefe436980a40c34022"
+        },
+        {
+          "start": 673979879,
+          "end": 674970356,
+          "sha256": "c35d0bf78b8b0f417273f081861bf6374b2e18a5a0f6b5acd39d1df888399334"
+        },
+        {
+          "start": 675950391,
+          "end": 676939476,
+          "sha256": "1ba292a5f520049c64b77f43a26dc6fd54a0ab451be8019ed4aa957cda3a2e48"
+        },
+        {
+          "start": 686959055,
+          "end": 687000231,
+          "sha256": "0ebb869cd2e13f53be6d09764dd7381169e04028b32d6111668e7cabf530ae5e"
+        }
+      ],
+      "fields": [
+        "object_id",
+        "phz_median",
+        "phz_mode_1",
+        "phz_mode_2",
+        "phz_flags"
+      ],
+      "published_count": 382610
+    }
+  ],
+  "rows": {
+    "F01": 1,
+    "F02": 1,
+    "F03": 1
+  }
+}

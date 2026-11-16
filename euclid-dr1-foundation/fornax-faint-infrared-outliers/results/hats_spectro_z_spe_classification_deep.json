@@ -1,0 +1,59 @@
+{
+  "partition_index": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/contributed/dr1/hats/reformatted_catalogs/spectro_z_spe_classification_deep/euclid_dr1_reformatted_catalogs_spectro_z_spe_classification_deep-hats/partition_info.csv",
+  "sources": [
+    {
+      "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/contributed/dr1/hats/reformatted_catalogs/spectro_z_spe_classification_deep/euclid_dr1_reformatted_catalogs_spectro_z_spe_classification_deep-hats/dataset/Norder=1/Dir=0/Npix=35/part0.snappy.parquet",
+      "etag": "\"a1ac53e43ddf2075c89de5d2eed43eba\"",
+      "verified_ranges": [
+        {
+          "start": 46433775,
+          "end": 46444577,
+          "sha256": "65d501c19e6af7b9ab464b542dba2396e23ee7f4b251fa8ec2cfaed4237e40d3"
+        },
+        {
+          "start": 6578726,
+          "end": 8423208,
+          "sha256": "9e521cd176f94f18d4bca75e8954fccda49944b1fd260ba7b161ecd2ba2c159a"
+        },
+        {
+          "start": 15319226,
+          "end": 17163708,
+          "sha256": "3aff4dee16e56dad075b592814c303a79510f28439e65761af7a34b4850cff96"
+        },
+        {
+          "start": 24043840,
+          "end": 25888322,
+          "sha256": "ddaa61f598b111cbd919f39fd6b52cbd77c0ac9888373ea4a3fe7f402ecafcc5"
+        },
+        {
+          "start": 32584097,
+          "end": 34372707,
+          "sha256": "323d6e480b7fa8e0b4577a31bd83813094779ef67709b8e6438fde585ac538b1"
+        },
+        {
+          "start": 41212301,
+          "end": 43056783,
+          "sha256": "761e0ceca23a3f49a24cb68b56e82aa3a4ac45881c222b1d142e6648b9ff090e"
+        },
+        {
+          "start": 45683190,
+          "end": 46336560,
+          "sha256": "c45103c950414ef7250d17ed22dc34bb5d334ab71bd18cfd08c5c0946998a901"
+        }
+      ],
+      "fields": [
+        "object_id",
+        "spe_class",
+        "spe_star_prob",
+        "spe_gal_prob",
+        "spe_qso_prob"
+      ],
+      "published_count": 1041602
+    }
+  ],
+  "rows": {
+    "F01": 0,
+    "F02": 0,
+    "F03": 0
+  }
+}

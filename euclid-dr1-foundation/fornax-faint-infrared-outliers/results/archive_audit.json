@@ -1,0 +1,323 @@
+{
+  "utc": "2026-11-16T13:32:49.402335+00:00",
+  "targets": [
+    {
+      "id": "F01",
+      "object_id": -530169732281167197,
+      "tileid": 101375806,
+      "ra": 53.01697326890141,
+      "dec": -28.116719732749868,
+      "images": {
+        "VIS": {
+          "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101375806/VIS/EUC_MER_BGSUB-MOSAIC-VIS_TILE101375806-EB03A2_20250801T112758.518482Z_00.00.fits",
+          "etag": "\"6fb44ef2bd2668407ea57d6e821d521f-80\"",
+          "fits_header_sha256": "8637d654f025b43577c0fe67305ebf3e17a109ab18f4db2a1f4491e97c7f81a7",
+          "data_range": [
+            31584960,
+            41580959
+          ],
+          "data_range_sha256": "8d9ca058f750525f417c24c1280ef39c37aa4abe5c94da59d203e05127e134b1",
+          "tile_id": null,
+          "bunit": "ADU/s",
+          "fwhm": null,
+          "magzero": 24.5,
+          "pplanid": "MER_ProcessTile_EUCLID_2.0.32-DATA_RELEASE_DEEP-vdupont-PLAN-000000",
+          "finite_fraction": 1.0,
+          "local_background": 0.00012990216629154547,
+          "pixel_mad_sigma": 0.0014512965862158423,
+          "aperture_robust_snr": 16.920087898831433,
+          "blank_apertures": 76,
+          "aperture_diameter_arcsec": 1.6
+        },
+        "Y": {
+          "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101375806/NISP/EUC_MER_BGSUB-MOSAIC-NIR-Y_TILE101375806-4C6985_20250801T105453.559903Z_00.00.fits",
+          "etag": "\"198cb38bcd91892969d02478fff79dc5-80\"",
+          "fits_header_sha256": "ba5db719f9233721d69f3799d84756c8e74028f2b5e4a28534dbb5980a16ffbc",
+          "data_range": [
+            31584960,
+            41580959
+          ],
+          "data_range_sha256": "63a264baf1ca8befd35b6457b0799500e0ae1e2a2eaf9ce53fd7835327b273c6",
+          "tile_id": null,
+          "bunit": "ELECTRON/s",
+          "fwhm": null,
+          "magzero": 29.8,
+          "pplanid": "MER_ProcessTile_EUCLID_2.0.32-DATA_RELEASE_DEEP-vdupont-PLAN-000000",
+          "finite_fraction": 1.0,
+          "local_background": 0.03346447649786406,
+          "pixel_mad_sigma": 0.3697893644990209,
+          "aperture_robust_snr": 14.970575723947594,
+          "blank_apertures": 76,
+          "aperture_diameter_arcsec": 1.6
+        },
+        "J": {
+          "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101375806/NISP/EUC_MER_BGSUB-MOSAIC-NIR-J_TILE101375806-2E0E61_20250801T105423.542532Z_00.00.fits",
+          "etag": "\"b77a5fa79738e2bf0a05e513fe8519a4-80\"",
+          "fits_header_sha256": "b293ad14ef6212fc03b1d4fc133b27143d690b6f948418bbba47f402734dff29",
+          "data_range": [
+            31584960,
+            41580959
+          ],
+          "data_range_sha256": "f1d423abe062d83f0d7d0a9f4d23f9fc546cd18363aa195707cea81996ece959",
+          "tile_id": null,
+          "bunit": "ELECTRON/s",
+          "fwhm": null,
+          "magzero": 30.1,
+          "pplanid": "MER_ProcessTile_EUCLID_2.0.32-DATA_RELEASE_DEEP-vdupont-PLAN-000000",
+          "finite_fraction": 1.0,
+          "local_background": 0.07437420209932669,
+          "pixel_mad_sigma": 0.4425530407685775,
+          "aperture_robust_snr": 12.380109333406079,
+          "blank_apertures": 76,
+          "aperture_diameter_arcsec": 1.6
+        },
+        "H": {
+          "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101375806/NISP/EUC_MER_BGSUB-MOSAIC-NIR-H_TILE101375806-11AE48_20250801T105510.106522Z_00.00.fits",
+          "etag": "\"ae6ab5e1078cc65f27a508af241b671e-80\"",
+          "fits_header_sha256": "7876a50becf47f0d52ca0fc1986d7a1052465aeea2483c20fa6394d61cc7788b",
+          "data_range": [
+            31584960,
+            41580959
+          ],
+          "data_range_sha256": "c86537c3ff0551d94d2461408ea6860daa1f04f8f051447135f1618eb4fd44f1",
+          "tile_id": null,
+          "bunit": "ELECTRON/s",
+          "fwhm": null,
+          "magzero": 30.0,
+          "pplanid": "MER_ProcessTile_EUCLID_2.0.32-DATA_RELEASE_DEEP-vdupont-PLAN-000000",
+          "finite_fraction": 1.0,
+          "local_background": 0.01581962137656661,
+          "pixel_mad_sigma": 0.40641847793057484,
+          "aperture_robust_snr": 9.03939959618577,
+          "blank_apertures": 76,
+          "aperture_diameter_arcsec": 1.6
+        },
+        "DECam z": {
+          "url": "https://www.legacysurvey.org/viewer/fits-cutout?ra=53.01697326890141&dec=-28.116719732749868&layer=ls-dr10&pixscale=0.262&bands=z&size=100",
+          "sha256": "ea3db1d49cc604b92fa2afeed6feecf568da1b518abc12db014620512f2376e0",
+          "bunit": null,
+          "release": "DR10",
+          "brick": null,
+          "finite_fraction": 1.0,
+          "local_background": 0.0006182760698720813,
+          "pixel_mad_sigma": 0.001955046085640788,
+          "aperture_robust_snr": 10.286654472351074,
+          "blank_apertures": 76,
+          "aperture_diameter_arcsec": 1.6
+        }
+      }
+    },
+    {
+      "id": "F02",
+      "object_id": -529806031282019831,
+      "tileid": 101374533,
+      "ra": 52.980603108749335,
+      "dec": -28.201983124408407,
+      "images": {
+        "VIS": {
+          "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101374533/VIS/EUC_MER_BGSUB-MOSAIC-VIS_TILE101374533-7A32B5_20250802T180657.406668Z_00.00.fits",
+          "etag": "\"270def31d62e938582cb6e2fe36a968b-80\"",
+          "fits_header_sha256": "92881cb6ed7f60d9c5677f77955ce2e33f4c3b92d9cfe173db5f03cc87be8285",
+          "data_range": [
+            273569760,
+            283606559
+          ],
+          "data_range_sha256": "480150505af7bfe7e3b3c8947bf75f3bdb37cf36c29d333f8171e9b780273d66",
+          "tile_id": null,
+          "bunit": "ADU/s",
+          "fwhm": null,
+          "magzero": 24.5,
+          "pplanid": "MER_ProcessTile_EUCLID_2.0.32-DATA_RELEASE_DEEP-vdupont-PLAN-000000",
+          "finite_fraction": 1.0,
+          "local_background": 0.0010085658466044034,
+          "pixel_mad_sigma": 0.0020774813945490045,
+          "aperture_robust_snr": 4.516540187047176,
+          "blank_apertures": 76,
+          "aperture_diameter_arcsec": 1.6
+        },
+        "Y": {
+          "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101374533/NISP/EUC_MER_BGSUB-MOSAIC-NIR-Y_TILE101374533-D63849_20250802T170138.377891Z_00.00.fits",
+          "etag": "\"6042594f8d80bab0a7a7bee05d808245-80\"",
+          "fits_header_sha256": "be52d2f304150d0f7e9c137ad4d4c47c436b211863dc7e8d21eb9dffa6aeb569",
+          "data_range": [
+            273569760,
+            283606559
+          ],
+          "data_range_sha256": "f6d55501c2e4585850ec9f2c776149224d1124d8c829561069d3439bf0c80ace",
+          "tile_id": null,
+          "bunit": "ELECTRON/s",
+          "fwhm": null,
+          "magzero": 29.8,
+          "pplanid": "MER_ProcessTile_EUCLID_2.0.32-DATA_RELEASE_DEEP-vdupont-PLAN-000000",
+          "finite_fraction": 1.0,
+          "local_background": 0.17510463973576354,
+          "pixel_mad_sigma": 0.5019853396907008,
+          "aperture_robust_snr": 3.859920959569238,
+          "blank_apertures": 76,
+          "aperture_diameter_arcsec": 1.6
+        },
+        "J": {
+          "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101374533/NISP/EUC_MER_BGSUB-MOSAIC-NIR-J_TILE101374533-112A58_20250802T170015.566312Z_00.00.fits",
+          "etag": "\"6b2ba9fb4814de0f1e6f14e5607769a0-80\"",
+          "fits_header_sha256": "17ee87afac457277abdde47cd5761c4f75cb9471c48481b7c642c2204f7b94ba",
+          "data_range": [
+            273569760,
+            283606559
+          ],
+          "data_range_sha256": "0b9370f62e16415855ee910a16102b95bfc4d40b80efb555330694e82eee50a1",
+          "tile_id": null,
+          "bunit": "ELECTRON/s",
+          "fwhm": null,
+          "magzero": 30.1,
+          "pplanid": "MER_ProcessTile_EUCLID_2.0.32-DATA_RELEASE_DEEP-vdupont-PLAN-000000",
+          "finite_fraction": 1.0,
+          "local_background": 0.48589538789333536,
+          "pixel_mad_sigma": 0.6810799423392608,
+          "aperture_robust_snr": 2.703024973283376,
+          "blank_apertures": 76,
+          "aperture_diameter_arcsec": 1.6
+        },
+        "H": {
+          "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101374533/NISP/EUC_MER_BGSUB-MOSAIC-NIR-H_TILE101374533-575DDA_20250802T171000.472463Z_00.00.fits",
+          "etag": "\"b36f2f83ebef0a883236c06a0578a870-80\"",
+          "fits_header_sha256": "65e620dc8a17aadfb344f481a02c73237ac3856f4acbbc89d2b8b83e00049e42",
+          "data_range": [
+            273569760,
+            283606559
+          ],
+          "data_range_sha256": "98d0f6836e3936d2f5600240aa19730c765d9ce6230668bb068b226da6fdf7f9",
+          "tile_id": null,
+          "bunit": "ELECTRON/s",
+          "fwhm": null,
+          "magzero": 30.0,
+          "pplanid": "MER_ProcessTile_EUCLID_2.0.32-DATA_RELEASE_DEEP-vdupont-PLAN-000000",
+          "finite_fraction": 1.0,
+          "local_background": 0.2959656051499098,
+          "pixel_mad_sigma": 0.5719241265836283,
+          "aperture_robust_snr": 2.7916270278795543,
+          "blank_apertures": 76,
+          "aperture_diameter_arcsec": 1.6
+        },
+        "DECam z": {
+          "url": "https://www.legacysurvey.org/viewer/fits-cutout?ra=52.980603108749335&dec=-28.201983124408407&layer=ls-dr10&pixscale=0.262&bands=z&size=100",
+          "sha256": "e399cc33bf7bec883e165162b128e24eb3838b2d50125e9d6dedc5e9d72c8470",
+          "bunit": null,
+          "release": "DR10",
+          "brick": null,
+          "finite_fraction": 1.0,
+          "local_background": 0.0002429302257951349,
+          "pixel_mad_sigma": 0.0022335087414830923,
+          "aperture_robust_snr": 6.314541816711426,
+          "blank_apertures": 76,
+          "aperture_diameter_arcsec": 1.6
+        }
+      }
+    },
+    {
+      "id": "F03",
+      "object_id": -529345576280445515,
+      "tileid": 101375805,
+      "ra": 52.934557697231355,
+      "dec": -28.044551598246933,
+      "images": {
+        "VIS": {
+          "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101375805/VIS/EUC_MER_BGSUB-MOSAIC-VIS_TILE101375805-68F71D_20250802T181117.115927Z_00.00.fits",
+          "etag": "\"dbab5f147dce293d8ba3150a669c81e5-80\"",
+          "fits_header_sha256": "5ab64fb3de625d2c01e8124ea1c94ea6a07f1a69df59966d2e2803e114469c38",
+          "data_range": [
+            137542560,
+            147579359
+          ],
+          "data_range_sha256": "ff81d6e2ed5b0b5713ee9b7f1ed48e8dd618dac2fbb52185d23b5e84f5bbe976",
+          "tile_id": null,
+          "bunit": "ADU/s",
+          "fwhm": null,
+          "magzero": 24.5,
+          "pplanid": "MER_ProcessTile_EUCLID_2.0.32-DATA_RELEASE_DEEP-vdupont-PLAN-000000",
+          "finite_fraction": 1.0,
+          "local_background": 1.9170041691834126e-05,
+          "pixel_mad_sigma": 0.0014288067129925525,
+          "aperture_robust_snr": 16.895163528026615,
+          "blank_apertures": 76,
+          "aperture_diameter_arcsec": 1.6
+        },
+        "Y": {
+          "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101375805/NISP/EUC_MER_BGSUB-MOSAIC-NIR-Y_TILE101375805-63CEA0_20250802T173718.146550Z_00.00.fits",
+          "etag": "\"02a7ec4b311234dc69e02f5ec2567dcd-80\"",
+          "fits_header_sha256": "4eadb2769e99523c4796fc0367bfcbafe8b553040b2b0a88d43a0f51a90e3bda",
+          "data_range": [
+            137542560,
+            147579359
+          ],
+          "data_range_sha256": "a1399cd0f6b956596ff9918b5090551ef6ee89ffa3ea5f7fdee12aaa6b0f9baa",
+          "tile_id": null,
+          "bunit": "ELECTRON/s",
+          "fwhm": null,
+          "magzero": 29.8,
+          "pplanid": "MER_ProcessTile_EUCLID_2.0.32-DATA_RELEASE_DEEP-vdupont-PLAN-000000",
+          "finite_fraction": 1.0,
+          "local_background": 0.005210541142896673,
+          "pixel_mad_sigma": 0.4076703334919474,
+          "aperture_robust_snr": 7.721980165672749,
+          "blank_apertures": 76,
+          "aperture_diameter_arcsec": 1.6
+        },
+        "J": {
+          "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101375805/NISP/EUC_MER_BGSUB-MOSAIC-NIR-J_TILE101375805-157DF9_20250802T174011.215566Z_00.00.fits",
+          "etag": "\"0418544d360522becbdab9b6b64492ff-80\"",
+          "fits_header_sha256": "40ab52057f8fc7896ab1bc932e0deedb3c13d6221ffad37eb41fe50476b86f34",
+          "data_range": [
+            137542560,
+            147579359
+          ],
+          "data_range_sha256": "4257f597aa5099128aacffd6381592c774f4ad15438c8319ff2bdf0be188038f",
+          "tile_id": null,
+          "bunit": "ELECTRON/s",
+          "fwhm": null,
+          "magzero": 30.1,
+          "pplanid": "MER_ProcessTile_EUCLID_2.0.32-DATA_RELEASE_DEEP-vdupont-PLAN-000000",
+          "finite_fraction": 1.0,
+          "local_background": 0.0912593711656059,
+          "pixel_mad_sigma": 0.4819223005298203,
+          "aperture_robust_snr": 11.71264279655062,
+          "blank_apertures": 76,
+          "aperture_diameter_arcsec": 1.6
+        },
+        "H": {
+          "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101375805/NISP/EUC_MER_BGSUB-MOSAIC-NIR-H_TILE101375805-EA72FF_20250802T173653.034068Z_00.00.fits",
+          "etag": "\"d10a328b6bd7dbc45d394e37f91efe35-80\"",
+          "fits_header_sha256": "19ae9918e10c1a28ff448b46d5818835e638fa11e7715657ca495dfac18b7de0",
+          "data_range": [
+            137542560,
+            147579359
+          ],
+          "data_range_sha256": "e279133044b043401bc75e8182effb003a1cbd31e443711877c87edeef5ff132",
+          "tile_id": null,
+          "bunit": "ELECTRON/s",
+          "fwhm": null,
+          "magzero": 30.0,
+          "pplanid": "MER_ProcessTile_EUCLID_2.0.32-DATA_RELEASE_DEEP-vdupont-PLAN-000000",
+          "finite_fraction": 1.0,
+          "local_background": 0.11057354302676398,
+          "pixel_mad_sigma": 0.44655621576383864,
+          "aperture_robust_snr": 8.054927954880975,
+          "blank_apertures": 76,
+          "aperture_diameter_arcsec": 1.6
+        },
+        "DECam z": {
+          "url": "https://www.legacysurvey.org/viewer/fits-cutout?ra=52.934557697231355&dec=-28.044551598246933&layer=ls-dr10&pixscale=0.262&bands=z&size=100",
+          "sha256": "201ddd421999dce28ed2e673ce76f62f7f4dbb5a2410b9efc0433ac21d835235",
+          "bunit": null,
+          "release": "DR10",
+          "brick": null,
+          "finite_fraction": 1.0,
+          "local_background": -0.0004445739323273301,
+          "pixel_mad_sigma": 0.002167905680835247,
+          "aperture_robust_snr": 9.103891372680664,
+          "blank_apertures": 76,
+          "aperture_diameter_arcsec": 1.6
+        }
+      }
+    }
+  ]
+}

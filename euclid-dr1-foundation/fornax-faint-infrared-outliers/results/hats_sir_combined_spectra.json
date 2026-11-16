@@ -1,0 +1,128 @@
+{
+  "partition_index": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/contributed/dr1/hats/reformatted_catalogs/sir_combined_spectra/euclid_dr1_reformatted_catalogs_sir_combined_spectra-hats/partition_info.csv",
+  "sources": [
+    {
+      "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/contributed/dr1/hats/reformatted_catalogs/sir_combined_spectra/euclid_dr1_reformatted_catalogs_sir_combined_spectra-hats/dataset/Norder=7/Dir=140000/Npix=143739/part0.snappy.parquet",
+      "etag": "\"f4ca66525c18dafdcb1f35c33642d935-4\"",
+      "verified_ranges": [
+        {
+          "start": 437607278,
+          "end": 437616996,
+          "sha256": "4344064e8919eed65eeabd7376af2bf7222a06a0e1911608eacdd567365f957e"
+        },
+        {
+          "start": 667179,
+          "end": 870126,
+          "sha256": "2142071cdb40c6ecf4aff8d437263ecb9ac90109431557898eb46738a76906be"
+        },
+        {
+          "start": 161544591,
+          "end": 161746680,
+          "sha256": "5fa5c7192d4573c943dcb2a6f5290c6b50af8148eb4db6f79cf4ff01fa334e0d"
+        },
+        {
+          "start": 324788248,
+          "end": 324929053,
+          "sha256": "731b3b8e9b3752dbe7305cffbec51646b41857eec5bd6e1a383d82e9aadec1b4"
+        },
+        {
+          "start": 161746681,
+          "end": 161754088,
+          "sha256": "70d029aa7eec5658ed9fa215dee4ee22ae5d9ac2e14ab4243e72e99d364d4593"
+        },
+        {
+          "start": 161754089,
+          "end": 161757903,
+          "sha256": "65343de9dda075ae75ef3c51d9243c6c5c2b58cbb9630625fd7a0123275e6180"
+        },
+        {
+          "start": 161757904,
+          "end": 161771116,
+          "sha256": "91d3c26701905c1ee27b6a0db6b277f51b9898d89510f89f7967cc0dd2eacb92"
+        },
+        {
+          "start": 162174898,
+          "end": 165097048,
+          "sha256": "bc73d0fafc0adcd8e63ea281d7a4e74b65f2090e695a861256f3283f308c19b6"
+        },
+        {
+          "start": 165097049,
+          "end": 217465250,
+          "sha256": "c06a7f0162dbf25d6f548a74d3c855f1c077d3156630b1d9661d73d460cf7142"
+        },
+        {
+          "start": 217465251,
+          "end": 221121409,
+          "sha256": "8db80afcbc5d0fd38527090daa75acb09be18e8f595d192a273d81383c24f60f"
+        },
+        {
+          "start": 221121410,
+          "end": 273468219,
+          "sha256": "943a8237f2f19e7e048c3a76081358c4dadb2c0a095a871ed47ba1a665f8f85c"
+        },
+        {
+          "start": 273468220,
+          "end": 319834237,
+          "sha256": "d415ed47881190f58f5501dd306f8342dd305aa86f18e2cb0934e8a19989c5e3"
+        },
+        {
+          "start": 319834238,
+          "end": 324326208,
+          "sha256": "bd61df2afeec84617e47b343984d41e197108d1774268c10d9499bde34744c39"
+        }
+      ],
+      "fields": [
+        "object_id",
+        "tileid",
+        "lrange",
+        "n_dith",
+        "spectrum"
+      ],
+      "published_count": 78231
+    },
+    {
+      "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/contributed/dr1/hats/reformatted_catalogs/sir_combined_spectra/euclid_dr1_reformatted_catalogs_sir_combined_spectra-hats/dataset/Norder=7/Dir=140000/Npix=143742/part0.snappy.parquet",
+      "etag": "\"a00a7624dc7c5d16d60a6d602e7a7c75-5\"",
+      "verified_ranges": [
+        {
+          "start": 610940370,
+          "end": 610952227,
+          "sha256": "27ac2e03065dd069b8e9a4942330a423a9d766c0ffa115e076b3f0dcea66f57a"
+        },
+        {
+          "start": 631032,
+          "end": 826589,
+          "sha256": "7d192e34d9c0d8ec9c5f7506e9a024a2c6832ea1df2298017f756958d454bf33"
+        },
+        {
+          "start": 167801399,
+          "end": 168003337,
+          "sha256": "8928b2c59b1e777c1b323ec4813a653dc870823cd04ecdb3c3a9d2990175e3f4"
+        },
+        {
+          "start": 338833104,
+          "end": 339025893,
+          "sha256": "a3974d19e79e79521ff4565a37447811d7c8e192efa46840161ecf1972b17a1b"
+        },
+        {
+          "start": 505557641,
+          "end": 505675861,
+          "sha256": "bdbb319a95080b1979ffd1e020f0bb2b19b289460ce68457dc21a0f5d35b624c"
+        }
+      ],
+      "fields": [
+        "object_id",
+        "tileid",
+        "lrange",
+        "n_dith",
+        "spectrum"
+      ],
+      "published_count": 104902
+    }
+  ],
+  "rows": {
+    "F01": 0,
+    "F02": 2,
+    "F03": 0
+  }
+}

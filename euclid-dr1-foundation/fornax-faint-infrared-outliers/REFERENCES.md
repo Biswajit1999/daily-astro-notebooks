@@ -1,0 +1,22 @@
+# References and dataset identifiers
+
+- Euclid Collaboration, Aussel et al. (2026), DR1 release overview. [Release paper](https://pubs.euclid-ec.org/public/dr1/aussel.pdf) · [ESA explanatory supplement](https://euclid.esac.esa.int/dr/dr1/expsup/)
+- Euclid Collaboration, Kümmel et al. (2026), DR1 MER image processing and catalogues, referenced in Aussel et al. and the IRSA tutorial. [IRSA DR1 MER imaging tutorial](https://caltech-ipac.github.io/irsa-tutorials/euclid-intro-mer-images/) · [NASA/IPAC release page](https://irsa.ipac.caltech.edu/data/Euclid/docs/overview_dr1.html)
+- Euclid DR1-F [MER Deep Survey 10.26131/IRSA675](https://doi.org/10.26131/IRSA675), [MER mosaics 10.26131/IRSA683](https://doi.org/10.26131/IRSA683), [PHZ class 10.26131/IRSA688](https://doi.org/10.26131/IRSA688), [PHZ redshifts 10.26131/IRSA690](https://doi.org/10.26131/IRSA690), [SPE class 10.26131/IRSA694](https://doi.org/10.26131/IRSA694), [SPE galaxy candidates 10.26131/IRSA696](https://doi.org/10.26131/IRSA696), [SIR spectra 10.26131/IRSA680](https://doi.org/10.26131/IRSA680).
+- Kiwy et al. (2026), AJ 171, 108. Q1 T-dwarf selection and spectroscopy. [ADS bibliography](https://ui.adsabs.harvard.edu/abs/2026AJ....171..108K/abstract) · [arXiv:2512.17494](https://arxiv.org/abs/2512.17494)
+- Žerjal et al. (2026), A&A 711, A37, Q1 photometric selection. [arXiv:2503.22497](https://arxiv.org/abs/2503.22497) · [IPAC publication metadata](https://www.ipac.caltech.edu/publication/2026A%26A...711A..37Z)
+- Domínguez-Tagle et al. (2026), Q1 dwarf spectra. [arXiv:2503.22442](https://arxiv.org/abs/2503.22442) · [Published article](https://doi.org/10.1051/0004-6361/202660157)
+- Martín et al., Fornax and the other Euclid deep fields in ground-based reconnaissance. [10.1051/0004-6361/202348769](https://doi.org/10.1051/0004-6361/202348769)
+- Dey et al. (2019), Legacy Imaging Surveys. [10.3847/1538-3881/ab089d](https://doi.org/10.3847/1538-3881/ab089d) · [Legacy DR10, Blanco/DECam z](https://www.legacysurvey.org/dr10/description/)
+- Jarvis et al. (2013), VIDEO. [10.1093/mnras/sts118](https://doi.org/10.1093/mnras/sts118) · [VISTA/VIRCAM VIDEO DR5 10.18727/archive/58](https://doi.org/10.18727/archive/58) · [DR5 release notes and band definitions](https://www.eso.org/rm/api/v1/public/releaseDescriptions/189)
+- McMahon et al., VISTA/VIRCAM VHS DR5. [10.18727/archive/57](https://doi.org/10.18727/archive/57)
+- Gaia Collaboration, Vallenari et al. (2023), Gaia DR3. [10.1051/0004-6361/202243940](https://doi.org/10.1051/0004-6361/202243940)
+- Marocco et al. (2021), WISE/NEOWISE CatWISE2020. [10.3847/1538-4365/abd805](https://doi.org/10.3847/1538-4365/abd805)
+- Garilli et al. (2021), VLT/VIMOS VANDELS DR4. [10.1051/0004-6361/202040059](https://doi.org/10.1051/0004-6361/202040059) · [ESO 10.18727/archive/53](https://doi.org/10.18727/archive/53)
+- VLT/VIMOS GOODS spectroscopy, ESO `GOODS_VIMOS_SPEC_V1`. [ESO GOODS release](https://www.eso.org/sci/activities/garching/projects/GOODS/GOODS_spectroscopy.html) · Cooper et al. (2012), Magellan/IMACS ACES [10.1111/j.1365-2966.2012.21524.x](https://doi.org/10.1111/j.1365-2966.2012.21524.x)
+- Schirmer et al. (2022), NISP photometric system. [10.1051/0004-6361/202141915](https://doi.org/10.1051/0004-6361/202141915) · [Euclid response curves](https://euclid.caltech.edu/page/filters) · [SVO VIRCAM response profiles](https://svo2.cab.inta-csic.es/theory/fps/)
+- Coleman, Wu & Weedman (1980) and Kinney et al. (1996), galaxy templates as distributed by [EAZY](https://github.com/gbrammer/eazy-photoz/tree/master/templates/CWW%2BKIN). [Brammer et al. (2008)](https://doi.org/10.1086/591786)
+- Selsing et al. (2016), observed X-shooter luminous blue quasar composite. [10.1051/0004-6361/201527096](https://doi.org/10.1051/0004-6361/201527096)
+- Pickles (1998), stellar flux library. [10.1086/316197](https://doi.org/10.1086/316197) · [STScI templates](https://ssb.stsci.edu/cdbs/deliveries/etc/trds.24.3xxxx/grid/pickles/dat_uvk/)
+- Burgasser et al. (2004/2006), [SpeX Prism spectral library](https://www.cass.ucsd.edu/~ajb/browndwarfs/spexprism/html/tdwarf.html). Input file URLs and SHA-256 hashes are in `results/template_fits.json`.
+- Schlafly & Finkbeiner (2011), Galactic reddening recalibration. [10.1088/0004-637X/737/2/103](https://doi.org/10.1088/0004-637X/737/2/103) · [IRSA dust service](https://irsa.ipac.caltech.edu/applications/DUST/)

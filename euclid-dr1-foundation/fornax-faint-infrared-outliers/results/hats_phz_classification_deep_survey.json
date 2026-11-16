@@ -1,0 +1,124 @@
+{
+  "partition_index": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/contributed/dr1/hats/reformatted_catalogs/phz_classification_deep_survey/euclid_dr1_reformatted_catalogs_phz_classification_deep_survey-hats/partition_info.csv",
+  "sources": [
+    {
+      "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/contributed/dr1/hats/reformatted_catalogs/phz_classification_deep_survey/euclid_dr1_reformatted_catalogs_phz_classification_deep_survey-hats/dataset/Norder=3/Dir=0/Npix=561/part0.snappy.parquet",
+      "etag": "\"f96191247a7f8317f8cccdb8d2592598-2\"",
+      "verified_ranges": [
+        {
+          "start": 227479648,
+          "end": 227497915,
+          "sha256": "97405b15d4143492e5fbe6613ffc1c66cd9a8f9fa78b2db79201320c76aef76e"
+        },
+        {
+          "start": 22727557,
+          "end": 29293217,
+          "sha256": "d9f89facc0634aac72a3498b4536146d829f013b5c3f58700648191367585ad0"
+        },
+        {
+          "start": 59714464,
+          "end": 66280125,
+          "sha256": "75c541b07d7a0344e0fb22608fffd3a8b4d8a42986cf30e2caac49564aba2882"
+        },
+        {
+          "start": 96710717,
+          "end": 103276374,
+          "sha256": "77be283192ae0c8a0befb97e61ec766ee31f9dafdd4e35c0577f485f6d1236b0"
+        },
+        {
+          "start": 133713798,
+          "end": 140279458,
+          "sha256": "71cc43aca5b4d0d4d70f6f113160becafebdd0aaf8159b2c6177003df490036a"
+        },
+        {
+          "start": 170715573,
+          "end": 177281233,
+          "sha256": "75dd3d8f20230fb4849141707180681dd5bb184fd05770e6b93299d697f16257"
+        },
+        {
+          "start": 207587550,
+          "end": 214117576,
+          "sha256": "915be3bd63c2f41131e57b2e5ea70b8bc955306d9bb743f196a26ace9bd9675a"
+        },
+        {
+          "start": 225280813,
+          "end": 226266818,
+          "sha256": "b308f993f801404ebe229d692463d87801f912f8d45fce223a253e05be60256b"
+        },
+        {
+          "start": 66304453,
+          "end": 70017016,
+          "sha256": "bc7489c6f971b417ddb8c169ba579f8d88d3c0079d2001adb2be48cd62656463"
+        },
+        {
+          "start": 70017017,
+          "end": 73718421,
+          "sha256": "88bd7f40fde9a999127176c8d6ef1d1077c5167894d98204f01db9b7f4f7a896"
+        },
+        {
+          "start": 73718422,
+          "end": 73720998,
+          "sha256": "261540c449b2d5dd87791f6c2e794ad48903f1ed37ae5709a9fc829300e59c02"
+        },
+        {
+          "start": 73723576,
+          "end": 73807801,
+          "sha256": "02ade56a647a9a75e662d6013d135396c4afe1117eab2a1f66c2667227007a2e"
+        },
+        {
+          "start": 103304448,
+          "end": 107018501,
+          "sha256": "bc8631fdfbc06ae3787f054ef4be1e87acc1f0e8a4bc8cf8bd4f34d0f2aee20d"
+        },
+        {
+          "start": 107018502,
+          "end": 110722224,
+          "sha256": "fc22d04d081245915371fcfadce0722073f00af79ad7a84ad7396de59c9c335d"
+        },
+        {
+          "start": 110722225,
+          "end": 110724801,
+          "sha256": "261540c449b2d5dd87791f6c2e794ad48903f1ed37ae5709a9fc829300e59c02"
+        },
+        {
+          "start": 110727379,
+          "end": 110808769,
+          "sha256": "9e797a4a95ce4b3ce0f653720befc3c44be831d15f936c11f4f13a9980dcbfc1"
+        },
+        {
+          "start": 140307330,
+          "end": 144020967,
+          "sha256": "36aa4fcb752de97b01d196e6f1cdff8cabc0d00a7e67240ceaa48323105058b5"
+        },
+        {
+          "start": 144020968,
+          "end": 147722521,
+          "sha256": "f49d37c74e97f0e807c4285634ba2c702422b8dad5270180171198c675dfa394"
+        },
+        {
+          "start": 147722522,
+          "end": 147725098,
+          "sha256": "261540c449b2d5dd87791f6c2e794ad48903f1ed37ae5709a9fc829300e59c02"
+        },
+        {
+          "start": 147727676,
+          "end": 147809235,
+          "sha256": "91f39620fc0da9e5a8901c4ce998bc582e0f7852abb8231a81455dcefd8b5119"
+        }
+      ],
+      "fields": [
+        "object_id",
+        "phz_classification",
+        "phz_star_prob",
+        "phz_gal_prob",
+        "phz_qso_prob"
+      ],
+      "published_count": 4812442
+    }
+  ],
+  "rows": {
+    "F01": 1,
+    "F02": 1,
+    "F03": 1
+  }
+}

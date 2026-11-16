@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VOTABLE version="1.3" xmlns="http://www.ivoa.net/xml/VOTable/v1.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.ivoa.net/xml/VOTable/v1.3 http://www.ivoa.net/xml/VOTable/v1.3">
+<RESOURCE type="results">
+<INFO name="QUERY_STATUS" value="OK"/>
+<INFO name="PROVIDER" value="ESO">TAP service for catalogs</INFO>
+<INFO name="QUERY" value="SELECT TOP 999 VIDEOID,IAUNAME,FIELDNAME,RA2000,DEC2000,Z_MAG_APER_3,Z_MAGERR_APER_3,Y_MAG_APER_3,Y_MAGERR_APER_3,J_MAG_APER_3,J_MAGERR_APER_3,H_MAG_APER_3,H_MAGERR_APER_3,KS_MAG_APER_3,KS_MAGERR_APER_3,Z_FLAGS,Y_FLAGS,J_FLAGS,H_FLAGS,KS_FLAGS FROM VIDEO_CAT_DR5 WHERE RA2000 &gt;= 52.977269775416 AND RA2000 &lt;= 52.983936442083 AND DEC2000 &gt;= -28.205316457742 AND DEC2000 &lt;= -28.198649791075"/>
+<TABLE name="result_S1794835933072">
+<FIELD datatype="long" name="VIDEOID" ucd="meta.id;meta.main">
+<DESCRIPTION>Unique identifier of object</DESCRIPTION>
+</FIELD>
+<FIELD arraysize="*" datatype="char" name="IAUNAME" ucd="meta.id">
+<DESCRIPTION>IAU Name (not unique)</DESCRIPTION>
+</FIELD>
+<FIELD arraysize="*" datatype="char" name="FIELDNAME" ucd="meta.id">
+<DESCRIPTION>the name of the pointing e.g. B418</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="RA2000" ucd="pos.eq.ra;meta.main" unit="deg">
+<DESCRIPTION>ICRS Right Ascension of object, calibrated using 2MASS</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="DEC2000" ucd="pos.eq.dec;meta.main" unit="deg">
+<DESCRIPTION>ICRS Declination of object, calibrated using 2MASS</DESCRIPTION>
+</FIELD>
+<FIELD datatype="float" name="Z_MAG_APER_3" ucd="phot.mag;em.opt.I" unit="mag">
+<DESCRIPTION>Z band 3 arcsec diameter circlular aperture magnitude</DESCRIPTION>
+</FIELD>
+<FIELD datatype="float" name="Z_MAGERR_APER_3" ucd="stat.error;phot.mag;em.opt.I" unit="mag">
+<DESCRIPTION>Error in Z band 3 arcsec diameter circlular aperture magnitude</DESCRIPTION>
+</FIELD>
+<FIELD datatype="float" name="Y_MAG_APER_3" ucd="phot.mag;em.IR.NIR" unit="mag">
+<DESCRIPTION>Y band 3 arcsec diameter circlular aperture magnitude</DESCRIPTION>
+</FIELD>
+<FIELD datatype="float" name="Y_MAGERR_APER_3" ucd="stat.error;phot.mag;em.IR.NIR" unit="mag">
+<DESCRIPTION>Error in Y band 3 arcsec diameter circlular aperture magnitude</DESCRIPTION>
+</FIELD>
+<FIELD datatype="float" name="J_MAG_APER_3" ucd="phot.mag;em.IR.J" unit="mag">
+<DESCRIPTION>J band 3 arcsec diameter circlular aperture magnitude</DESCRIPTION>
+</FIELD>
+<FIELD datatype="float" name="J_MAGERR_APER_3" ucd="stat.error;phot.mag;em.IR.J" unit="mag">
+<DESCRIPTION>Error in J band 3 arcsec diameter circlular aperture magnitude</DESCRIPTION>
+</FIELD>
+<FIELD datatype="float" name="H_MAG_APER_3" ucd="phot.mag;em.IR.H" unit="mag">
+<DESCRIPTION>H band 3 arcsec diameter circlular aperture magnitude</DESCRIPTION>
+</FIELD>
+<FIELD datatype="float" name="H_MAGERR_APER_3" ucd="stat.error;phot.mag;em.IR.H" unit="mag">
+<DESCRIPTION>Error in H band 3 arcsec diameter circlular aperture magnitude</DESCRIPTION>
+</FIELD>
+<FIELD datatype="float" name="KS_MAG_APER_3" ucd="phot.mag;em.IR.K" unit="mag">
+<DESCRIPTION>Ks band 3 arcsec diameter circlular aperture magnitude</DESCRIPTION>
+</FIELD>
+<FIELD datatype="float" name="KS_MAGERR_APER_3" ucd="stat.error;phot.mag;em.IR.K" unit="mag">
+<DESCRIPTION>Error in Ks band 3 arcsec diameter circlular aperture magnitude</DESCRIPTION>
+</FIELD>
+<FIELD datatype="short" name="Z_FLAGS" ucd="meta.code;em.opt.I">
+<DESCRIPTION>SExtractor flags for Z image objects</DESCRIPTION>
+</FIELD>
+<FIELD datatype="short" name="Y_FLAGS" ucd="meta.code;em.IR.NIR">
+<DESCRIPTION>SExtractor flags for Y image objects</DESCRIPTION>
+</FIELD>
+<FIELD datatype="short" name="J_FLAGS" ucd="meta.code;em.IR.J">
+<DESCRIPTION>SExtractor flags for J image objects</DESCRIPTION>
+</FIELD>
+<FIELD datatype="short" name="H_FLAGS" ucd="meta.code;em.IR.H">
+<DESCRIPTION>SExtractor flags for H image objects</DESCRIPTION>
+</FIELD>
+<FIELD datatype="short" name="KS_FLAGS" ucd="meta.code;em.IR.K">
+<DESCRIPTION>SExtractor flags for Ks image objects</DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA>
+  <TR>
+    <TD>644247494338</TD>
+    <TD>video J033155.55-281219.02</TD>
+    <TD>CDFS</TD>
+    <TD>52.981459460537394</TD>
+    <TD>-28.205282561187314</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD>24.988848</TD>
+    <TD>0.093847655</TD>
+    <TD>24.316532</TD>
+    <TD>0.08056656</TD>
+    <TD>23.109661</TD>
+    <TD>0.04462726</TD>
+    <TD>22.600359</TD>
+    <TD>0.046863526</TD>
+    <TD>1</TD>
+    <TD>0</TD>
+    <TD>0</TD>
+    <TD>0</TD>
+    <TD>0</TD>
+  </TR>
+  <TR>
+    <TD>644247494674</TD>
+    <TD>video J033155.70-281215.12</TD>
+    <TD>CDFS</TD>
+    <TD>52.98208653426588</TD>
+    <TD>-28.204200371113345</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD>25.172874</TD>
+    <TD>0.11156461</TD>
+    <TD>24.242401</TD>
+    <TD>0.07562179</TD>
+    <TD>24.182318</TD>
+    <TD>0.12013816</TD>
+    <TD>22.992725</TD>
+    <TD>0.067485936</TD>
+    <TD>1</TD>
+    <TD>0</TD>
+    <TD>0</TD>
+    <TD>0</TD>
+    <TD>0</TD>
+  </TR>
+  <TR>
+    <TD>644247494769</TD>
+    <TD>video J033155.06-281214.03</TD>
+    <TD>CDFS</TD>
+    <TD>52.97941068655186</TD>
+    <TD>-28.20389775207465</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD>23.083353</TD>
+    <TD>0.016244715</TD>
+    <TD>22.91579</TD>
+    <TD>0.02224868</TD>
+    <TD>22.752254</TD>
+    <TD>0.03228311</TD>
+    <TD>22.51265</TD>
+    <TD>0.043354128</TD>
+    <TD>1</TD>
+    <TD>0</TD>
+    <TD>0</TD>
+    <TD>0</TD>
+    <TD>0</TD>
+  </TR>
+  <TR>
+    <TD>644247494971</TD>
+    <TD>video J033155.33-281211.72</TD>
+    <TD>CDFS</TD>
+    <TD>52.980521562414275</TD>
+    <TD>-28.203255402184027</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD>23.45467</TD>
+    <TD>0.022913577</TD>
+    <TD>22.962164</TD>
+    <TD>0.023276651</TD>
+    <TD>22.446753</TD>
+    <TD>0.024279475</TD>
+    <TD>22.174032</TD>
+    <TD>0.031766195</TD>
+    <TD>1</TD>
+    <TD>0</TD>
+    <TD>0</TD>
+    <TD>0</TD>
+    <TD>0</TD>
+  </TR>
+  <TR>
+    <TD>644247495017</TD>
+    <TD>video J033154.66-281211.31</TD>
+    <TD>CDFS</TD>
+    <TD>52.97773774994362</TD>
+    <TD>-28.203141218736082</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD>21.620224</TD>
+    <TD>0.0042387</TD>
+    <TD>21.165157</TD>
+    <TD>0.004457358</TD>
+    <TD>20.658178</TD>
+    <TD>0.004689121</TD>
+    <TD>20.138142</TD>
+    <TD>0.004886104</TD>
+    <TD>1</TD>
+    <TD>0</TD>
+    <TD>0</TD>
+    <TD>0</TD>
+    <TD>0</TD>
+  </TR>
+  <TR>
+    <TD>644247495309</TD>
+    <TD>video J033155.89-281208.34</TD>
+    <TD>CDFS</TD>
+    <TD>52.982888290495154</TD>
+    <TD>-28.20231618544628</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD>24.884905</TD>
+    <TD>0.085620545</TD>
+    <TD>24.046846</TD>
+    <TD>0.06329221</TD>
+    <TD>24.734993</TD>
+    <TD>0.19996747</TD>
+    <TD>23.46226</TD>
+    <TD>0.10408871</TD>
+    <TD>1</TD>
+    <TD>0</TD>
+    <TD>0</TD>
+    <TD>0</TD>
+    <TD>0</TD>
+  </TR>
+  <TR>
+    <TD>644248076048</TD>
+    <TD>video J033155.34-281207.23</TD>
+    <TD>CDFS</TD>
+    <TD>52.98056866262292</TD>
+    <TD>-28.2020072259364</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD>24.215593</TD>
+    <TD>0.046261262</TD>
+    <TD>24.346077</TD>
+    <TD>0.08353225</TD>
+    <TD>24.178785</TD>
+    <TD>0.12047731</TD>
+    <TD>23.968132</TD>
+    <TD>0.16614006</TD>
+    <TD>1</TD>
+    <TD>0</TD>
+    <TD>0</TD>
+    <TD>0</TD>
+    <TD>0</TD>
+  </TR>
+  <TR>
+    <TD>644248076251</TD>
+    <TD>video J033154.70-281156.24</TD>
+    <TD>CDFS</TD>
+    <TD>52.97790506795247</TD>
+    <TD>-28.19895443032851</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD>25.562374</TD>
+    <TD>0.16028373</TD>
+    <TD>24.548656</TD>
+    <TD>0.100951605</TD>
+    <TD>25.574736</TD>
+    <TD>0.43745157</TD>
+    <TD>23.94972</TD>
+    <TD>0.16363484</TD>
+    <TD>1</TD>
+    <TD>0</TD>
+    <TD>0</TD>
+    <TD>0</TD>
+    <TD>0</TD>
+  </TR>
+  <TR>
+    <TD>644247496282</TD>
+    <TD>video J033155.57-281157.07</TD>
+    <TD>CDFS</TD>
+    <TD>52.981543042357494</TD>
+    <TD>-28.199187352293144</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD>22.675495</TD>
+    <TD>0.011276801</TD>
+    <TD>22.677885</TD>
+    <TD>0.018096456</TD>
+    <TD>22.652529</TD>
+    <TD>0.029592164</TD>
+    <TD>23.398329</TD>
+    <TD>0.098752566</TD>
+    <TD>1</TD>
+    <TD>0</TD>
+    <TD>0</TD>
+    <TD>0</TD>
+    <TD>0</TD>
+  </TR>
+  <TR>
+    <TD>644248234187</TD>
+    <TD>video J033155.22-281217.52</TD>
+    <TD>CDFS</TD>
+    <TD>52.9800858136465</TD>
+    <TD>-28.20486704250102</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD>25.828938</TD>
+    <TD>0.20315976</TD>
+    <TD>26.021782</TD>
+    <TD>0.38853437</TD>
+    <TD>24.503815</TD>
+    <TD>0.16141832</TD>
+    <TD>25.007135</TD>
+    <TD>0.43043298</TD>
+    <TD>1</TD>
+    <TD>0</TD>
+    <TD>0</TD>
+    <TD>0</TD>
+    <TD>0</TD>
+  </TR>
+  <TR>
+    <TD>644248234304</TD>
+    <TD>video J033155.46-281213.16</TD>
+    <TD>CDFS</TD>
+    <TD>52.981081759259915</TD>
+    <TD>-28.203656514622523</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD>25.340721</TD>
+    <TD>0.1302559</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD>25.596235</TD>
+    <TD>0.44179878</TD>
+    <TD>24.074392</TD>
+    <TD>0.18295276</TD>
+    <TD>1</TD>
+    <TD>0</TD>
+    <TD>0</TD>
+    <TD>0</TD>
+    <TD>0</TD>
+  </TR>
+  <TR>
+    <TD>644248234465</TD>
+    <TD>video J033154.62-281206.48</TD>
+    <TD>CDFS</TD>
+    <TD>52.977594748166034</TD>
+    <TD>-28.201800820091663</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD>24.105833</TD>
+    <TD>0.04174689</TD>
+    <TD>25.064936</TD>
+    <TD>0.16182461</TD>
+    <TD>25.373419</TD>
+    <TD>0.3610867</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD>3</TD>
+    <TD>2</TD>
+    <TD>2</TD>
+    <TD>2</TD>
+    <TD>2</TD>
+  </TR>
+  <TR>
+    <TD>644248234553</TD>
+    <TD>video J033154.98-281202.94</TD>
+    <TD>CDFS</TD>
+    <TD>52.97909035521912</TD>
+    <TD>-28.200815501164108</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD>24.316904</TD>
+    <TD>0.05094582</TD>
+    <TD>24.226807</TD>
+    <TD>0.07498029</TD>
+    <TD>24.006039</TD>
+    <TD>0.10291687</TD>
+    <TD>24.122303</TD>
+    <TD>0.19136299</TD>
+    <TD>3</TD>
+    <TD>2</TD>
+    <TD>2</TD>
+    <TD>2</TD>
+    <TD>2</TD>
+  </TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+</RESOURCE>
+</VOTABLE>

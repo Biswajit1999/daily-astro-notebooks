@@ -1,0 +1,78 @@
+\                                                                               
+\fixlen = T
+\RowsRetrieved =                 0
+\ORIGIN  = 'IPAC Infrared Science Archive (IRSA), Caltech/JPL'
+\SIMULATED_TABLE  = 'n'
+\DATETIME= '2026-11-16 05:32:10'
+\DATABASE= 'CatWISE2020 Catalog (catwise_2020)'
+\EQUINOX = 'J2000'
+\SKYAREA = 'within 10 arcsec of  ra=52.93456 dec=-28.04455 Eq J2000 '
+\StatusFile = '/workspace/TMP_LhvzR9_14018/Gator/irsa/14018/log.14018.html'
+\SQL     = 'WHERE (no constraints) 
+\SQL     = 'SELECT (28 column names follow in next row.)'
+\ 
+\ source_name 
+\ ___ source hexagesimal designation
+\ source_id 
+\ ___ tile name + processing code + wphot index
+\ ra (deg) 
+\ ___ right ascension (J2000)
+\ dec (deg) 
+\ ___ declination (J2000)
+\ clon 
+\ ___ Right ascention in Sexagesimal format.
+\ clat 
+\ ___ Declination in Sexagesimal format.
+\ sigra (arcsec) 
+\ ___ uncertainty in RA
+\ sigdec (arcsec) 
+\ ___ uncertainty in DEC
+\ w1snr 
+\ ___ instrumental profile-fit photometry S/N ratio, band 1
+\ w2snr 
+\ ___ instrumental profile-fit photometry S/N ratio, band 2
+\ w1mpro (mag) 
+\ ___ instrumental profile-fit photometry magnitude, band 1
+\ w1sigmpro (mag) 
+\ ___ instrumental profile-fit photometry flux uncertainty in mag units, band 1
+\ w2mpro (mag) 
+\ ___ instrumental profile-fit photometry magnitude, band 2
+\ w2sigmpro (mag) 
+\ ___ instrumental profile-fit photometry flux uncertainty in mag units, band 2
+\ rchi2 
+\ ___ instrumental profile-fit photometry reduced chi squared, total
+\ nb 
+\ ___ number of blend components used in each fit
+\ w1nm 
+\ ___ number of profile-fit flux measurements for source with SNR &gt;= 3, band 1
+\ w1m 
+\ ___ number of profile-fit flux measurements for source, band 1
+\ w2nm 
+\ ___ number of profile-fit flux measurements for source with SNR &gt;= 3, band 2
+\ w2m 
+\ ___ number of profile-fit flux measurements for source, band 2
+\ meanobsmjd (d) 
+\ ___ mean observation epoch
+\ pmra (arcsec/yr) 
+\ ___ Apparent motion in RA
+\ pmdec (arcsec/yr) 
+\ ___ Apparent motion in Dec
+\ sigpmra (arcsec/yr) 
+\ ___ Uncertainty in the RA motion estimate
+\ sigpmdec (arcsec/yr) 
+\ ___ Uncertainty in the Dec motion estimate
+\ rchi2_pm 
+\ ___ Combined Reduced chi^2 in all bands for the psf photometry includes src motion
+\ cc_flags 
+\ ___ worst case 4 character cc_flag from AllWISE
+\ ab_flags 
+\ ___ unWISE artifact bitmask contamination flags
+\ dist (arcsec) 
+\ ___ Distance between the target position and each source in arcsec.
+\ angle (deg) 
+\ ___ Position Angle in degree.
+\ 
+|                source_name|                 source_id|           ra|          dec|          clon|          clat|     sigra|    sigdec|   w1snr|   w2snr|  w1mpro|  w1sigmpro|  w2mpro|  w2sigmpro|       rchi2|   nb|    w1nm|    w1m|    w2nm|    w2m|    meanobsmjd|       pmra|      pmdec|   sigpmra|  sigpmdec|    rchi2_pm|         cc_flags|         ab_flags|           dist|       angle|
+|                       char|                      char|       double|       double|          char|          char|    double|    double|  double|  double|  double|     double|  double|     double|      double|  int|     int|    int|     int|    int|        double|     double|     double|    double|    double|      double|             char|             char|         double|      double|
+|                           |                          |          deg|          deg|              |              |    arcsec|    arcsec|        |        |     mag|        mag|     mag|        mag|            |     |        |       |        |       |             d|  arcsec/yr|  arcsec/yr| arcsec/yr| arcsec/yr|            |                 |                 |         arcsec|         deg|
+|                       null|                      null|         null|         null|          null|          null|      null|      null|    null|    null|    null|       null|    null|       null|        null| null|    null|   null|    null|   null|          null|       null|       null|      null|      null|        null|             null|             null|           null|        null|
