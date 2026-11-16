@@ -118,6 +118,14 @@ EUCLID_REPORTS = (
         "The direct VIS radius contrast spans zero. Fourteen warning-inclusive dual-grism detections yield five candidates that survive peak-bin removal.",
         "Observed Euclid VIS stamps of the seven galaxy sources analysed in Deep Field North",
     ),
+    (
+        "ngc4236-uv-optical",
+        "NGC 4236",
+        "analysis/outer_uv_vis.png",
+        "report/NGC4236_UV_VIS.pdf",
+        "Gaia identifies a foreground star at the optical counterpart of one of 23 exterior UV peaks. SINGS imaging covers 10 of the 23 positions in both bands, and the link to extraplanar ionised gas remains unresolved.",
+        "GALEX far-ultraviolet image of NGC 4236 with marked candidates and four observed Euclid VIS cutouts",
+    ),
 )
 
 
