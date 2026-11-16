@@ -1,0 +1,288 @@
+{
+  "seed": 20261115,
+  "draws": 4000,
+  "ambiguous_red_fits": 0,
+  "minimum_objects_per_halpha_half": 5,
+  "selections": {
+    "2.0": {
+      "day02_median": {
+        "n_selected": 532,
+        "n_in_cells": 398,
+        "tiles": [
+          {
+            "tileid": 101833450,
+            "n_selected": 56,
+            "n_in_cells": 27,
+            "cells": 2,
+            "effect_dex": 0.07827456686650255
+          },
+          {
+            "tileid": 101833451,
+            "n_selected": 34,
+            "n_in_cells": 0,
+            "cells": 0,
+            "effect_dex": null
+          },
+          {
+            "tileid": 101834043,
+            "n_selected": 85,
+            "n_in_cells": 85,
+            "cells": 6,
+            "effect_dex": 0.016882971203645625
+          },
+          {
+            "tileid": 101834044,
+            "n_selected": 129,
+            "n_in_cells": 129,
+            "cells": 6,
+            "effect_dex": 0.08127985801736369
+          },
+          {
+            "tileid": 101834045,
+            "n_selected": 70,
+            "n_in_cells": 60,
+            "cells": 4,
+            "effect_dex": 0.03789524510915416
+          },
+          {
+            "tileid": 101834631,
+            "n_selected": 46,
+            "n_in_cells": 0,
+            "cells": 0,
+            "effect_dex": null
+          },
+          {
+            "tileid": 101834632,
+            "n_selected": 106,
+            "n_in_cells": 97,
+            "cells": 5,
+            "effect_dex": -0.030139739862648174
+          },
+          {
+            "tileid": 101834633,
+            "n_selected": 6,
+            "n_in_cells": 0,
+            "cells": 0,
+            "effect_dex": null
+          }
+        ],
+        "pooled_within_tile_dex": 0.03362745598446668,
+        "within_cell_label_permutation_p": 0.06223444138965259,
+        "tile_sign_flip_p": 0.3125,
+        "tile_bootstrap_percentiles_dex": [
+          -0.011609855599017182,
+          0.07101131058346795
+        ]
+      },
+      "reliable_red": {
+        "n_selected": 532,
+        "n_in_cells": 398,
+        "tiles": [
+          {
+            "tileid": 101833450,
+            "n_selected": 56,
+            "n_in_cells": 27,
+            "cells": 2,
+            "effect_dex": 0.07827456686650255
+          },
+          {
+            "tileid": 101833451,
+            "n_selected": 34,
+            "n_in_cells": 0,
+            "cells": 0,
+            "effect_dex": null
+          },
+          {
+            "tileid": 101834043,
+            "n_selected": 85,
+            "n_in_cells": 85,
+            "cells": 6,
+            "effect_dex": -0.007794452111535133
+          },
+          {
+            "tileid": 101834044,
+            "n_selected": 129,
+            "n_in_cells": 129,
+            "cells": 6,
+            "effect_dex": 0.03902013961394231
+          },
+          {
+            "tileid": 101834045,
+            "n_selected": 70,
+            "n_in_cells": 60,
+            "cells": 4,
+            "effect_dex": 0.0347858722039218
+          },
+          {
+            "tileid": 101834631,
+            "n_selected": 46,
+            "n_in_cells": 0,
+            "cells": 0,
+            "effect_dex": null
+          },
+          {
+            "tileid": 101834632,
+            "n_selected": 106,
+            "n_in_cells": 97,
+            "cells": 5,
+            "effect_dex": -0.03086141184440809
+          },
+          {
+            "tileid": 101834633,
+            "n_selected": 6,
+            "n_in_cells": 0,
+            "cells": 0,
+            "effect_dex": null
+          }
+        ],
+        "pooled_within_tile_dex": 0.014015272033772268,
+        "within_cell_label_permutation_p": 0.44063984003999,
+        "tile_sign_flip_p": 0.5,
+        "tile_bootstrap_percentiles_dex": [
+          -0.017330382899009022,
+          0.04433904054607363
+        ]
+      }
+    },
+    "2.5": {
+      "day02_median": {
+        "n_selected": 358,
+        "n_in_cells": 233,
+        "tiles": [
+          {
+            "tileid": 101833450,
+            "n_selected": 40,
+            "n_in_cells": 21,
+            "cells": 2,
+            "effect_dex": 0.07354730045567026
+          },
+          {
+            "tileid": 101833451,
+            "n_selected": 26,
+            "n_in_cells": 0,
+            "cells": 0,
+            "effect_dex": null
+          },
+          {
+            "tileid": 101834043,
+            "n_selected": 56,
+            "n_in_cells": 42,
+            "cells": 4,
+            "effect_dex": 0.09095767134244703
+          },
+          {
+            "tileid": 101834044,
+            "n_selected": 80,
+            "n_in_cells": 80,
+            "cells": 6,
+            "effect_dex": 0.0783593457836596
+          },
+          {
+            "tileid": 101834045,
+            "n_selected": 45,
+            "n_in_cells": 26,
+            "cells": 2,
+            "effect_dex": -0.001070021576048459
+          },
+          {
+            "tileid": 101834631,
+            "n_selected": 31,
+            "n_in_cells": 0,
+            "cells": 0,
+            "effect_dex": null
+          },
+          {
+            "tileid": 101834632,
+            "n_selected": 75,
+            "n_in_cells": 64,
+            "cells": 4,
+            "effect_dex": -0.05004819065587875
+          },
+          {
+            "tileid": 101834633,
+            "n_selected": 5,
+            "n_in_cells": 0,
+            "cells": 0,
+            "effect_dex": null
+          }
+        ],
+        "pooled_within_tile_dex": 0.03606248242785888,
+        "within_cell_label_permutation_p": 0.10847288177955511,
+        "tile_sign_flip_p": 0.375,
+        "tile_bootstrap_percentiles_dex": [
+          -0.024464259782775746,
+          0.08251543045920617
+        ]
+      },
+      "reliable_red": {
+        "n_selected": 358,
+        "n_in_cells": 233,
+        "tiles": [
+          {
+            "tileid": 101833450,
+            "n_selected": 40,
+            "n_in_cells": 21,
+            "cells": 2,
+            "effect_dex": 0.07354730045567026
+          },
+          {
+            "tileid": 101833451,
+            "n_selected": 26,
+            "n_in_cells": 0,
+            "cells": 0,
+            "effect_dex": null
+          },
+          {
+            "tileid": 101834043,
+            "n_selected": 56,
+            "n_in_cells": 42,
+            "cells": 4,
+            "effect_dex": 0.07639623592701776
+          },
+          {
+            "tileid": 101834044,
+            "n_selected": 80,
+            "n_in_cells": 80,
+            "cells": 6,
+            "effect_dex": 0.02441466782708035
+          },
+          {
+            "tileid": 101834045,
+            "n_selected": 45,
+            "n_in_cells": 26,
+            "cells": 2,
+            "effect_dex": -0.001070021576048459
+          },
+          {
+            "tileid": 101834631,
+            "n_selected": 31,
+            "n_in_cells": 0,
+            "cells": 0,
+            "effect_dex": null
+          },
+          {
+            "tileid": 101834632,
+            "n_selected": 75,
+            "n_in_cells": 64,
+            "cells": 4,
+            "effect_dex": -0.04175885167302789
+          },
+          {
+            "tileid": 101834633,
+            "n_selected": 5,
+            "n_in_cells": 0,
+            "cells": 0,
+            "effect_dex": null
+          }
+        ],
+        "pooled_within_tile_dex": 0.017192796466176843,
+        "within_cell_label_permutation_p": 0.4561359660084979,
+        "tile_sign_flip_p": 0.5,
+        "tile_bootstrap_percentiles_dex": [
+          -0.02106287564992822,
+          0.06235822286862094
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "2697432168658721533": {
+    "spectral_peak_A": 15759.2001953125,
+    "offset_A": 4.425899947882499,
+    "peak_mask": 0,
+    "peak_ndith": 23,
+    "fitted_flux_1e16": 3.548920569350496,
+    "fitted_formal_snr": 18.499425876907978,
+    "sideband_rms": 1.3026201758691618,
+    "after_largest_bin_removed_status": "insufficient_usable_bins",
+    "dither_centre_sensitivity": [
+      {
+        "offset_A": -26.8,
+        "n_common_dithers": 10,
+        "weighted_flux_1e16": 2.322173699206489,
+        "formal_snr": 10.074329326678303
+      },
+      {
+        "offset_A": -13.4,
+        "n_common_dithers": 10,
+        "weighted_flux_1e16": 3.0258272765006597,
+        "formal_snr": 13.129063178046172
+      },
+      {
+        "offset_A": 0.0,
+        "n_common_dithers": 10,
+        "weighted_flux_1e16": 3.3800008674918245,
+        "formal_snr": 14.498140468223504
+      },
+      {
+        "offset_A": 13.4,
+        "n_common_dithers": 10,
+        "weighted_flux_1e16": 3.280748964790933,
+        "formal_snr": 14.107272639067622
+      },
+      {
+        "offset_A": 26.8,
+        "n_common_dithers": 10,
+        "weighted_flux_1e16": 2.760932128035451,
+        "formal_snr": 12.201502517010496
+      }
+    ]
+  },
+  "2693965274658805116": {
+    "spectral_peak_A": 13829.599609375,
+    "offset_A": 0.9369904267787206,
+    "peak_mask": 2,
+    "peak_ndith": 17,
+    "fitted_flux_1e16": 4.0127900705411355,
+    "fitted_formal_snr": 21.227001603677937,
+    "sideband_rms": 2.5016525567245114,
+    "after_largest_bin_removed_status": "fitted",
+    "after_largest_bin_removed_flux_1e16": 0.3118276425383251,
+    "after_largest_bin_removed_snr": 1.1374711607143033,
+    "dither_centre_sensitivity": [
+      {
+        "offset_A": -26.8,
+        "n_common_dithers": 10,
+        "weighted_flux_1e16": 0.14034170198071463,
+        "formal_snr": 0.41643215849440646
+      },
+      {
+        "offset_A": -13.4,
+        "n_common_dithers": 10,
+        "weighted_flux_1e16": 0.129568418287087,
+        "formal_snr": 0.3762614042725981
+      },
+      {
+        "offset_A": 0.0,
+        "n_common_dithers": 10,
+        "weighted_flux_1e16": 0.07433666556069699,
+        "formal_snr": 0.2214955350021148
+      },
+      {
+        "offset_A": 13.4,
+        "n_common_dithers": 10,
+        "weighted_flux_1e16": -0.09892851251965573,
+        "formal_snr": -0.29990661912031286
+      },
+      {
+        "offset_A": 26.8,
+        "n_common_dithers": 10,
+        "weighted_flux_1e16": -0.2602990738597121,
+        "formal_snr": -0.7741511950743417
+      }
+    ]
+  }
+}

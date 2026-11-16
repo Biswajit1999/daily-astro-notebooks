@@ -1,0 +1,56 @@
+{
+  "definitions": {
+    "flux_Halpha": "10^-16 erg/s/cm^2",
+    "flux_VIS": "microJy",
+    "Kron_radius": "pixels"
+  },
+  "tile_counts": {
+    "101833450": 1,
+    "101834044": 327,
+    "101834045": 63,
+    "101834631": 1,
+    "101834632": 34
+  },
+  "matched_cut_failures_overlapping": {
+    "nonzero_VIS_flag": 155,
+    "nonzero_detection_quality_flag": 177,
+    "spurious_probability_at_least_0_5": 0
+  },
+  "groups": {
+    "selected": {
+      "n": 426,
+      "median_z": 1.141808032989502,
+      "median_Halpha": 1.321329112243795,
+      "median_VIS": 0.9801409840583801,
+      "median_Kron": null
+    },
+    "size_matched": {
+      "n": 327,
+      "median_z": 1.1439508199691772,
+      "median_Halpha": 1.3253059981056028,
+      "median_VIS": 0.9672906994819641,
+      "median_Kron": 27.028968811035156
+    },
+    "unmatched": {
+      "n": 99,
+      "median_z": 1.124954342842102,
+      "median_Halpha": 1.313000197568774,
+      "median_VIS": 1.061611533164978,
+      "median_Kron": null
+    },
+    "quality_passing": {
+      "n": 150,
+      "median_z": 1.141808271408081,
+      "median_Halpha": 1.1825830806192335,
+      "median_VIS": 0.8751795887947083,
+      "median_Kron": 26.217257499694824
+    },
+    "excluded_after_matching": {
+      "n": 177,
+      "median_z": 1.145237684249878,
+      "median_Halpha": 1.3716909781351263,
+      "median_VIS": 1.11578369140625,
+      "median_Kron": 28.341691970825195
+    }
+  }
+}

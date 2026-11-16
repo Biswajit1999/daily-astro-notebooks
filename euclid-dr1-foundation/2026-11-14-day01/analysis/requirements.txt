@@ -1,0 +1,7 @@
+# Installation requirements; runtime package versions are recorded in the fetch/analysis manifests.
+numpy>=2.0,<3
+pandas>=2.2,<3
+matplotlib>=3.9,<4
+astropy>=7,<9
+astroquery>=0.4.11,<0.6
+pytest>=8,<10

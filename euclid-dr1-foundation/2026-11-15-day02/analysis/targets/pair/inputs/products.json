@@ -1,0 +1,76 @@
+{
+  "archive": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/",
+  "mer_fits_key": "dr1/catalogs/MER_FINAL_CATALOG/101834632/EUC_MER_FINAL-CAT_TILE101834632-7E75EE_20250821T222943.451669Z_00.00.fits",
+  "image_fits_keys": {
+    "VIS": "dr1/MER/101834632/VIS/EUC_MER_BGSUB-MOSAIC-VIS_TILE101834632-A56210_20250820T085037.062669Z_00.00.fits",
+    "VIS-FLAG": "dr1/MER/101834632/VIS/EUC_MER_MOSAIC-VIS-FLAG_TILE101834632-DCD509_20250814T175802.163073Z_00.00.fits",
+    "NIR-H": "dr1/MER/101834632/NISP/EUC_MER_BGSUB-MOSAIC-NIR-H_TILE101834632-BBEE0A_20250814T074115.913393Z_00.00.fits",
+    "NIR-J": "dr1/MER/101834632/NISP/EUC_MER_BGSUB-MOSAIC-NIR-J_TILE101834632-E5875D_20250814T074033.627117Z_00.00.fits",
+    "NIR-Y": "dr1/MER/101834632/NISP/EUC_MER_BGSUB-MOSAIC-NIR-Y_TILE101834632-DDCBF_20250814T075003.826512Z_00.00.fits",
+    "HSC-I2": "dr1/MER/101834632/HSC/EUC_MER_BGSUB-MOSAIC-WISHES-I2_TILE101834632-997A25_20250813T234038.730099Z_00.00.fits"
+  },
+  "cutout_xy_bounds_half_open": {
+    "VIS": [
+      [
+        1606,
+        1691
+      ],
+      [
+        4890,
+        4975
+      ]
+    ],
+    "VIS-FLAG": [
+      [
+        1606,
+        1691
+      ],
+      [
+        4890,
+        4975
+      ]
+    ],
+    "NIR-H": [
+      [
+        1598,
+        1699
+      ],
+      [
+        4885,
+        4986
+      ]
+    ],
+    "NIR-J": [
+      [
+        1598,
+        1699
+      ],
+      [
+        4885,
+        4986
+      ]
+    ],
+    "NIR-Y": [
+      [
+        1598,
+        1699
+      ],
+      [
+        4885,
+        4986
+      ]
+    ]
+  },
+  "sir_hats_partition": "contributed/dr1/hats/reformatted_catalogs/sir_combined_spectra/euclid_dr1_reformatted_catalogs_sir_combined_spectra-hats/dataset/Norder=7/Dir=60000/Npix=61439/part0.snappy.parquet",
+  "sir_hats_partition_archive_md5": "10da20a9b6fdd91e91e91d52d9720432",
+  "spe_hats_catalogue": "spectro_z_spe_galaxy_candidates_deep (rank 0)",
+  "phz_hats_catalogue": "phz_photo_z_deep_survey",
+  "q1_tap": "https://datalab.noirlab.edu/tap/sync",
+  "q1_adql": "SELECT TOP 150 object_id,right_ascension,declination FROM euclid_q1.object WHERE right_ascension BETWEEN 270.064 AND 270.073 AND declination BETWEEN 66.243 AND 66.247",
+  "inputs_sha256": {
+    "q1_nearby.csv": "4657caf49e8ac9832e797fee0b7294e7086349f1adb705377ebf46f010911119",
+    "dr1_targets.csv": "9f2f58a9cd875211d02e1334bedf6250a8c487e5ba099e6288927f1564a49fff",
+    "sir_1d.parquet": "f00b8b4c85bc34cf839ebf94959cea2400483f1fc89c562aec1cdde1631ace20",
+    "image_stamps.fits.gz": "117411cf54c67bb8b2eecbe65d61a678edd22373213a5c31e5e61a2d04a13bb3"
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "ambiguous_red_fits": 0,
+  "minimum_neighbour_distance_arcsec": {
+    "2.0": {
+      "n": 592,
+      "leave_tile_out": {
+        "101833450": {
+          "n": 530,
+          "cells": 9,
+          "effect_dex": 0.03293593902136854
+        },
+        "101833451": {
+          "n": 549,
+          "cells": 9,
+          "effect_dex": 0.042481510779793154
+        },
+        "101834043": {
+          "n": 502,
+          "cells": 9,
+          "effect_dex": 0.04625383244229079
+        },
+        "101834044": {
+          "n": 452,
+          "cells": 9,
+          "effect_dex": 0.037618979617602084
+        },
+        "101834045": {
+          "n": 514,
+          "cells": 9,
+          "effect_dex": 0.032949888159703684
+        },
+        "101834631": {
+          "n": 539,
+          "cells": 9,
+          "effect_dex": 0.04184237717923711
+        },
+        "101834632": {
+          "n": 475,
+          "cells": 9,
+          "effect_dex": 0.06709781589812348
+        },
+        "101834633": {
+          "n": 583,
+          "cells": 9,
+          "effect_dex": 0.04638901345889071
+        }
+      },
+      "red_grism": {
+        "n_input": 532,
+        "status": "COMPUTED",
+        "cells": 9,
+        "n": 532,
+        "weighted_median_log10_radius_difference": 0.02459388859452105,
+        "ratio_of_aperture_radius_proxies": 1.0582636735647317,
+        "bootstrap_95_interval_log10": [
+          -0.015819664383867747,
+          0.05706008964516571
+        ],
+        "permutation_two_sided_p": 0.12593703148425786,
+        "iterations": 2000,
+        "random_seed": 20261115
+      },
+      "day02_median_on_same_objects": {
+        "n_input": 532,
+        "status": "COMPUTED",
+        "cells": 9,
+        "n": 532,
+        "weighted_median_log10_radius_difference": 0.03119805101113858,
+        "ratio_of_aperture_radius_proxies": 1.0744792946793602,
+        "bootstrap_95_interval_log10": [
+          -0.008526857971842482,
+          0.06189224206462676
+        ],
+        "permutation_two_sided_p": 0.05297351324337831,
+        "iterations": 2000,
+        "random_seed": 20261115
+      }
+    },
+    "2.5": {
+      "n": 402,
+      "leave_tile_out": {
+        "101833450": {
+          "n": 356,
+          "cells": 9,
+          "effect_dex": 0.03013641190096537
+        },
+        "101833451": {
+          "n": 370,
+          "cells": 9,
+          "effect_dex": 0.03557843155331951
+        },
+        "101834043": {
+          "n": 343,
+          "cells": 9,
+          "effect_dex": 0.042185528509068385
+        },
+        "101834044": {
+          "n": 255,
+          "cells": 6,
+          "effect_dex": 0.026081587248666032
+        },
+        "101834045": {
+          "n": 351,
+          "cells": 9,
+          "effect_dex": 0.026473668961626905
+        },
+        "101834631": {
+          "n": 367,
+          "cells": 9,
+          "effect_dex": 0.04659737639112267
+        },
+        "101834632": {
+          "n": 320,
+          "cells": 9,
+          "effect_dex": 0.0472723101590551
+        },
+        "101834633": {
+          "n": 394,
+          "cells": 9,
+          "effect_dex": 0.03641158718757571
+        }
+      },
+      "red_grism": {
+        "n_input": 358,
+        "status": "COMPUTED",
+        "cells": 9,
+        "n": 358,
+        "weighted_median_log10_radius_difference": 0.02284018828421967,
+        "ratio_of_aperture_radius_proxies": 1.0539989744007934,
+        "bootstrap_95_interval_log10": [
+          -0.01585817115508268,
+          0.07047103481157009
+        ],
+        "permutation_two_sided_p": 0.2623688155922039,
+        "iterations": 2000,
+        "random_seed": 20261115
+      },
+      "day02_median_on_same_objects": {
+        "n_input": 358,
+        "status": "COMPUTED",
+        "cells": 9,
+        "n": 358,
+        "weighted_median_log10_radius_difference": 0.01947091523562305,
+        "ratio_of_aperture_radius_proxies": 1.0458536471475084,
+        "bootstrap_95_interval_log10": [
+          -0.020934737272633078,
+          0.06512926606868372
+        ],
+        "permutation_two_sided_p": 0.33933033483258374,
+        "iterations": 2000,
+        "random_seed": 20261115
+      }
+    }
+  }
+}

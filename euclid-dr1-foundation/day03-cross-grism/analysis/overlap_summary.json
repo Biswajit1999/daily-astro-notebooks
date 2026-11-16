@@ -1,0 +1,154 @@
+{
+  "paired_parent": 858,
+  "nominal_centre_overlap": 407,
+  "real_line": {
+    "geometric_overlap": 356,
+    "both_fit": 0,
+    "fit_blue_only": 104,
+    "fit_red_only": 0,
+    "blue_fit_all": 104,
+    "red_fit_all": 0,
+    "blue_above_5_all": 54,
+    "red_above_5_all": 0,
+    "both_above_5": 0,
+    "blue_only_above_5": 0,
+    "red_only_above_5": 0,
+    "neither_above_5": 0,
+    "both_below_minus_5": 0,
+    "both_above_5_log_ratio_median": null
+  },
+  "warning_inclusive_real_line": {
+    "geometric_overlap": 356,
+    "both_fit": 22,
+    "fit_blue_only": 158,
+    "fit_red_only": 24,
+    "blue_fit_all": 180,
+    "red_fit_all": 46,
+    "blue_above_5_all": 106,
+    "red_above_5_all": 35,
+    "both_above_5": 14,
+    "blue_only_above_5": 0,
+    "red_only_above_5": 6,
+    "neither_above_5": 2,
+    "both_below_minus_5": 0,
+    "both_above_5_log_ratio_median": -0.03180190082762738
+  },
+  "red_strict_core_lt_5": 353,
+  "red_strict_either_sideband_lt_5": 355,
+  "warning_dual_clean_imaging": 8,
+  "red_strict_zero_core": 311,
+  "strict_blue_above_5_with_desi_galaxy": 3,
+  "warning_dual_brightest_red_bin_test": {
+    "remains_above_5": 5,
+    "fit_below_5": 1,
+    "coverage_failure": 8,
+    "independent_desi_galaxy_matches": 3,
+    "above_5_both_at_desi_centre": 2,
+    "above_5_both_at_desi_centre_and_red_peak_removal": 0
+  },
+  "warning_dual_object_ids": [
+    "2693214850660403334",
+    "2693615105660260031",
+    "2693762580658336555",
+    "2694772853658118432",
+    "2694966834660173361",
+    "2695057816657579082",
+    "2697445059661880720",
+    "2699698152661101399",
+    "2700187819661048464",
+    "2700933273661649762",
+    "2701483215660918258",
+    "2701753924660990612",
+    "2702742695661797935",
+    "2702787180660914501"
+  ],
+  "other_centres": {
+    "-440": {
+      "geometric_overlap": 327,
+      "both_fit": 0,
+      "fit_blue_only": 125,
+      "fit_red_only": 0,
+      "blue_fit_all": 125,
+      "red_fit_all": 0,
+      "blue_above_5_all": 0,
+      "red_above_5_all": 0,
+      "both_above_5": 0,
+      "blue_only_above_5": 0,
+      "red_only_above_5": 0,
+      "neither_above_5": 0,
+      "both_below_minus_5": 0,
+      "both_above_5_log_ratio_median": null
+    },
+    "-300": {
+      "geometric_overlap": 356,
+      "both_fit": 0,
+      "fit_blue_only": 133,
+      "fit_red_only": 0,
+      "blue_fit_all": 133,
+      "red_fit_all": 0,
+      "blue_above_5_all": 0,
+      "red_above_5_all": 0,
+      "both_above_5": 0,
+      "blue_only_above_5": 0,
+      "red_only_above_5": 0,
+      "neither_above_5": 0,
+      "both_below_minus_5": 0,
+      "both_above_5_log_ratio_median": null
+    },
+    "300": {
+      "geometric_overlap": 286,
+      "both_fit": 0,
+      "fit_blue_only": 69,
+      "fit_red_only": 0,
+      "blue_fit_all": 69,
+      "red_fit_all": 0,
+      "blue_above_5_all": 1,
+      "red_above_5_all": 0,
+      "both_above_5": 0,
+      "blue_only_above_5": 0,
+      "red_only_above_5": 0,
+      "neither_above_5": 0,
+      "both_below_minus_5": 0,
+      "both_above_5_log_ratio_median": null
+    },
+    "440": {
+      "geometric_overlap": 226,
+      "both_fit": 0,
+      "fit_blue_only": 38,
+      "fit_red_only": 1,
+      "blue_fit_all": 38,
+      "red_fit_all": 1,
+      "blue_above_5_all": 1,
+      "red_above_5_all": 0,
+      "both_above_5": 0,
+      "blue_only_above_5": 0,
+      "red_only_above_5": 0,
+      "neither_above_5": 0,
+      "both_below_minus_5": 0,
+      "both_above_5_log_ratio_median": null
+    }
+  },
+  "common_sources_all_offsets": 0,
+  "common_source_results": {},
+  "both_above_5_all_widths": 0,
+  "dual_within_half_dex": 0,
+  "desi_galaxies_within_0_2arcsec_dual": 0,
+  "input_products": [
+    {
+      "key": "contributed/dr1/hats/reformatted_catalogs/sir_combined_spectra/euclid_dr1_reformatted_catalogs_sir_combined_spectra-hats/dataset/Norder=7/Dir=60000/Npix=61439/part0.snappy.parquet",
+      "archive_md5": "10da20a9b6fdd91e91e91d52d9720432"
+    },
+    {
+      "key": "contributed/dr1/hats/reformatted_catalogs/sir_combined_spectra/euclid_dr1_reformatted_catalogs_sir_combined_spectra-hats/dataset/Norder=8/Dir=160000/Npix=163831/part0.snappy.parquet",
+      "archive_md5": "07ef120d6e2994fb4e2167e830cb61b4"
+    },
+    {
+      "key": "contributed/dr1/hats/reformatted_catalogs/sir_combined_spectra/euclid_dr1_reformatted_catalogs_sir_combined_spectra-hats/dataset/Norder=8/Dir=160000/Npix=163837/part0.snappy.parquet",
+      "archive_md5": "45ba9d62a5133dbf90e031c5e23299b2"
+    }
+  ],
+  "catalogue_inputs_sha256": {
+    "observed_results/all_morphology_matched.csv.gz": "38f3f24eccc01b14f491f73e16cf804487260f391d2d41fcc491b31096d3d584",
+    "validation/desi_pairs.csv": "febb90cd9f650eaf499de2150f50b618ac0b62d6e516d6325fce9b607fc66cf8"
+  }
+}

@@ -1,0 +1,63 @@
+[
+  {
+    "panel": "A and B",
+    "mer_ids": [
+      "2700686070662453859",
+      "2700684940662448691"
+    ],
+    "tile": 101834632,
+    "archive_url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101834632/VIS/EUC_MER_BGSUB-MOSAIC-VIS_TILE101834632-A56210_20250820T085037.062669Z_00.00.fits",
+    "scale_arcsec_per_pixel": 0.100000000000008,
+    "image_pixel_sha256": "bff020e744e6ad89c1cc458b867f290a41ef8804bc9ef6c3793a84e2633cbebc"
+  },
+  {
+    "panel": "C",
+    "mer_ids": [
+      "2697432168658721533"
+    ],
+    "tile": 101834044,
+    "archive_url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101834044/VIS/EUC_MER_BGSUB-MOSAIC-VIS_TILE101834044-F20EA5_20250828T043943.523084Z_00.00.fits",
+    "scale_arcsec_per_pixel": 0.100000000000008,
+    "image_pixel_sha256": "f2245df4d38c51d47290a937270856c5f5c53e489dffdd28b47ec99cdd108672"
+  },
+  {
+    "panel": "D",
+    "mer_ids": [
+      "2693965274658805116"
+    ],
+    "tile": 101834044,
+    "archive_url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101834044/VIS/EUC_MER_BGSUB-MOSAIC-VIS_TILE101834044-F20EA5_20250828T043943.523084Z_00.00.fits",
+    "scale_arcsec_per_pixel": 0.100000000000008,
+    "image_pixel_sha256": "fe2be13e56b46a2d3c320c8253c7eb49432370a9225ab2990f9088a43691d17c"
+  },
+  {
+    "panel": "E",
+    "mer_ids": [
+      "2703247763660016093"
+    ],
+    "tile": 101834045,
+    "archive_url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101834045/VIS/EUC_MER_BGSUB-MOSAIC-VIS_TILE101834045-514292_20250830T145959.190686Z_00.00.fits",
+    "scale_arcsec_per_pixel": 0.100000000000008,
+    "image_pixel_sha256": "3a9648f9f03404ea2a7f9cee7c9596e54ac0cd7718ed099c05122f573e19242c"
+  },
+  {
+    "panel": "X",
+    "mer_ids": [
+      "2693214850660403334"
+    ],
+    "tile": 101834043,
+    "archive_url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101834043/VIS/EUC_MER_BGSUB-MOSAIC-VIS_TILE101834043-B9D6CF_20250829T153145.525191Z_00.00.fits",
+    "scale_arcsec_per_pixel": 0.100000000000008,
+    "image_pixel_sha256": "cd6e7218ca038538c04c0008ff53d37116007b78edcba23e78a3fdd872487453"
+  },
+  {
+    "panel": "Y",
+    "mer_ids": [
+      "2695057816657579082"
+    ],
+    "tile": 101833450,
+    "archive_url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101833450/VIS/EUC_MER_BGSUB-MOSAIC-VIS_TILE101833450-1AA726_20250827T085934.342276Z_00.00.fits",
+    "scale_arcsec_per_pixel": 0.100000000000008,
+    "image_pixel_sha256": "f9cfa7086989e109f5e31dee7fbfcbb1eb4e133341e52f7e0e2b25727a3bc894"
+  }
+]

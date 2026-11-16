@@ -1,0 +1,84 @@
+{
+  "data_release": "Euclid DR1-Foundation",
+  "run_date": "2026-11-15",
+  "source_matches": 17,
+  "fits_templates_sigma_A": [
+    20.0,
+    30.0,
+    45.0
+  ],
+  "half_window_A": 250.0,
+  "core_half_width_A": 45.0,
+  "inner_sideband_A": 125.0,
+  "quality_strictly_greater_than": 0.8,
+  "fits_signal_unit": "10**-16 erg/s/cm2/Angstrom",
+  "fits_variance_unit": "10**-32 erg2/s2/cm4/Angstrom2",
+  "hats_to_fits_signal_variance_factors": [
+    1.0,
+    1.0
+  ],
+  "archive_url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/",
+  "blue_fits_hats_matches": 17,
+  "fits_products": [
+    {
+      "key": "dr1/SIR_COMBINED_SPECTRA/101834044/EUC_SIR_W-COMBSPEC_101834044_20250907T182236.823498Z.fits",
+      "sha256": "b074bf7f01d3785bb2a6dd876890fcda757d0aae7ab04868e74e7e8e356c6d0b",
+      "grism": "BGS",
+      "obsids": "2097,2212,6160"
+    },
+    {
+      "key": "dr1/SIR_COMBINED_SPECTRA/101834044/EUC_SIR_W-COMBSPEC_101834044_20250907T182335.220974Z.fits",
+      "sha256": "4508a3b108606b1d4154f5a80ebf08f938952dbd34cc5cbb12d5cde9221a3a91",
+      "grism": "BGS",
+      "obsids": "2097,2212,6160"
+    },
+    {
+      "key": "dr1/SIR_COMBINED_SPECTRA/101834632/EUC_SIR_W-COMBSPEC_101834632_20250907T184248.416665Z.fits",
+      "sha256": "472b0d313647efa8780a0bf0561d4c2f4f628cd7273d23661ddf212f230b6865",
+      "grism": "BGS",
+      "obsids": "2090,2097,2205,2212,6160,6161"
+    },
+    {
+      "key": "dr1/SIR_COMBINED_SPECTRA/101834632/EUC_SIR_W-COMBSPEC_101834632_20250907T184347.611550Z.fits",
+      "sha256": "0cf0910c17cd6d36277f1a8335514b8a9af1b73d52cc76b6aaeb404b9f95192c",
+      "grism": "BGS",
+      "obsids": "2090,2097,2205,2212,6160,6161"
+    }
+  ],
+  "hats_products": [
+    {
+      "key": "contributed/dr1/hats/reformatted_catalogs/sir_combined_spectra/euclid_dr1_reformatted_catalogs_sir_combined_spectra-hats/dataset/Norder=7/Dir=60000/Npix=61439/part0.snappy.parquet",
+      "archive_md5": "10da20a9b6fdd91e91e91d52d9720432"
+    },
+    {
+      "key": "contributed/dr1/hats/reformatted_catalogs/sir_combined_spectra/euclid_dr1_reformatted_catalogs_sir_combined_spectra-hats/dataset/Norder=8/Dir=160000/Npix=163831/part0.snappy.parquet",
+      "archive_md5": "07ef120d6e2994fb4e2167e830cb61b4"
+    },
+    {
+      "key": "contributed/dr1/hats/reformatted_catalogs/sir_combined_spectra/euclid_dr1_reformatted_catalogs_sir_combined_spectra-hats/dataset/Norder=8/Dir=160000/Npix=163837/part0.snappy.parquet",
+      "archive_md5": "45ba9d62a5133dbf90e031c5e23299b2"
+    }
+  ],
+  "package_versions": {
+    "astropy": "8.0.2",
+    "numpy": "2.3.5",
+    "pandas": "3.1.1",
+    "pyarrow": "26.0.1",
+    "matplotlib": "3.10.8"
+  },
+  "red_grism_allow_low_snr_mask_status_counts": {
+    "insufficient_usable_bins": 14,
+    "fitted": 3
+  },
+  "status_counts": {
+    "BGS": {
+      "outside_wavelength_range": 11,
+      "window_truncated": 2,
+      "fitted": 2,
+      "insufficient_usable_bins": 2
+    },
+    "RGS": {
+      "insufficient_usable_bins": 17
+    }
+  }
+}

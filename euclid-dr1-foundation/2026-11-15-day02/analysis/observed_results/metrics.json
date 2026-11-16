@@ -1,0 +1,297 @@
+{
+  "status": "EXPLORATORY_MULTI_TILE_ESTIMATE",
+  "gate": "NO-GO: incomplete 1.25-degree original field, selection function and novelty audit",
+  "selection": {
+    "mer_cone_rows": 194011,
+    "spe_cone_rows": 26611,
+    "halpha_rows_prevalid": 79860,
+    "multiple_valid_line_fits": 5247,
+    "multifit_spread_gt_20pct": 496,
+    "all_joined": 5280,
+    "spectral_and_vis": 1576,
+    "missing_tile_catalogue": [],
+    "morphology_matched": 1576,
+    "clean_quality": 782,
+    "tile_counts_pre": {
+      "101833450": 164,
+      "101833451": 119,
+      "101834043": 195,
+      "101834044": 384,
+      "101834045": 261,
+      "101834631": 121,
+      "101834632": 306,
+      "101834633": 26
+    },
+    "tile_counts_clean": {
+      "101833450": 83,
+      "101833451": 54,
+      "101834043": 114,
+      "101834044": 185,
+      "101834045": 110,
+      "101834631": 71,
+      "101834632": 153,
+      "101834633": 12
+    },
+    "flag_vis_counts": {
+      "0.0": 879,
+      "2.0": 697
+    },
+    "det_quality_counts": {
+      "0.0": 782,
+      "2.0": 561,
+      "386.0": 51,
+      "128.0": 44,
+      "130.0": 40,
+      "256.0": 34,
+      "258.0": 24,
+      "384.0": 17,
+      "3.0": 12,
+      "131.0": 4,
+      "387.0": 3,
+      "1.0": 2,
+      "390.0": 1,
+      "259.0": 1
+    },
+    "selected_without_morphology": 0
+  },
+  "robustness": {
+    "line_snr_ge_10": {
+      "n_input": 380,
+      "n_cells": 9,
+      "n_in_cells": 380,
+      "cell_counts": [
+        53,
+        52,
+        53,
+        43,
+        42,
+        42,
+        32,
+        31,
+        32
+      ],
+      "status": "EXPLORATORY_ESTIMATE",
+      "effect_dex": 0.05698607922121967,
+      "size_ratio_proxy": 1.1402132388337185
+    },
+    "redshift_prob_ge_0_999": {
+      "n_input": 637,
+      "n_cells": 9,
+      "n_in_cells": 637,
+      "cell_counts": [
+        98,
+        97,
+        97,
+        66,
+        65,
+        65,
+        50,
+        49,
+        50
+      ],
+      "status": "EXPLORATORY_ESTIMATE",
+      "effect_dex": 0.06560445210059856,
+      "size_ratio_proxy": 1.1630662462554346
+    },
+    "redshift_0_95_to_1_45": {
+      "n_input": 643,
+      "n_cells": 9,
+      "n_in_cells": 643,
+      "cell_counts": [
+        88,
+        88,
+        88,
+        83,
+        82,
+        83,
+        44,
+        43,
+        44
+      ],
+      "status": "EXPLORATORY_ESTIMATE",
+      "effect_dex": 0.055305152068222736,
+      "size_ratio_proxy": 1.1358085983302912
+    },
+    "leave_one_tile_out": {
+      "101833450": {
+        "n_input": 699,
+        "n_cells": 9,
+        "n_in_cells": 699,
+        "cell_counts": [
+          106,
+          105,
+          106,
+          76,
+          76,
+          76,
+          52,
+          51,
+          51
+        ],
+        "status": "EXPLORATORY_ESTIMATE",
+        "effect_dex": 0.03573723885926101,
+        "size_ratio_proxy": 1.0857685024552208
+      },
+      "101833451": {
+        "n_input": 728,
+        "n_cells": 9,
+        "n_in_cells": 728,
+        "cell_counts": [
+          112,
+          111,
+          111,
+          79,
+          78,
+          78,
+          53,
+          53,
+          53
+        ],
+        "status": "EXPLORATORY_ESTIMATE",
+        "effect_dex": 0.05198993598128813,
+        "size_ratio_proxy": 1.1271713356390443
+      },
+      "101834043": {
+        "n_input": 668,
+        "n_cells": 9,
+        "n_in_cells": 668,
+        "cell_counts": [
+          104,
+          103,
+          104,
+          71,
+          71,
+          71,
+          48,
+          48,
+          48
+        ],
+        "status": "EXPLORATORY_ESTIMATE",
+        "effect_dex": 0.0451214003258333,
+        "size_ratio_proxy": 1.1094849113184064
+      },
+      "101834044": {
+        "n_input": 597,
+        "n_cells": 9,
+        "n_in_cells": 597,
+        "cell_counts": [
+          95,
+          94,
+          94,
+          61,
+          60,
+          61,
+          44,
+          44,
+          44
+        ],
+        "status": "EXPLORATORY_ESTIMATE",
+        "effect_dex": 0.051113258581648766,
+        "size_ratio_proxy": 1.1248982951566349
+      },
+      "101834045": {
+        "n_input": 672,
+        "n_cells": 9,
+        "n_in_cells": 672,
+        "cell_counts": [
+          100,
+          99,
+          100,
+          72,
+          72,
+          72,
+          53,
+          52,
+          52
+        ],
+        "status": "EXPLORATORY_ESTIMATE",
+        "effect_dex": 0.04633409570143614,
+        "size_ratio_proxy": 1.112587293513477
+      },
+      "101834631": {
+        "n_input": 711,
+        "n_cells": 9,
+        "n_in_cells": 711,
+        "cell_counts": [
+          110,
+          109,
+          110,
+          75,
+          74,
+          75,
+          53,
+          52,
+          53
+        ],
+        "status": "EXPLORATORY_ESTIMATE",
+        "effect_dex": 0.0438752770653594,
+        "size_ratio_proxy": 1.1063060236682827
+      },
+      "101834632": {
+        "n_input": 629,
+        "n_cells": 9,
+        "n_in_cells": 629,
+        "cell_counts": [
+          97,
+          97,
+          97,
+          64,
+          63,
+          64,
+          49,
+          49,
+          49
+        ],
+        "status": "EXPLORATORY_ESTIMATE",
+        "effect_dex": 0.062088825007612494,
+        "size_ratio_proxy": 1.1536891944421068
+      },
+      "101834633": {
+        "n_input": 770,
+        "n_cells": 9,
+        "n_in_cells": 770,
+        "cell_counts": [
+          117,
+          116,
+          116,
+          83,
+          82,
+          82,
+          58,
+          58,
+          58
+        ],
+        "status": "EXPLORATORY_ESTIMATE",
+        "effect_dex": 0.051588132518932704,
+        "size_ratio_proxy": 1.1261289740165839
+      }
+    }
+  },
+  "primary": {
+    "n_input": 782,
+    "n_cells": 9,
+    "n_in_cells": 782,
+    "cell_counts": [
+      120,
+      119,
+      120,
+      83,
+      82,
+      83,
+      59,
+      58,
+      58
+    ],
+    "status": "EXPLORATORY_ESTIMATE",
+    "effect_dex": 0.05166020211824291,
+    "size_ratio_proxy": 1.126315866555541,
+    "permutation_two_sided_p": 0.0009995002498750624,
+    "bootstrap_ci95_dex": [
+      0.02041553086771998,
+      0.07609098092593455
+    ],
+    "permutations": 2000,
+    "bootstrap_resamples": 2000,
+    "seed": 20261115
+  }
+}

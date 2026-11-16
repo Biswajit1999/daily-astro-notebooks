@@ -1,0 +1,71 @@
+{
+  "endpoint": "https://datalab.noirlab.edu/tap/sync",
+  "query": "SELECT targetid, mean_fiber_ra, mean_fiber_dec, z, zerr, zwarn, spectype, zcat_primary\nFROM desi_dr1.zpix\nWHERE zwarn = 0\nAND mean_fiber_ra BETWEEN 269.02 AND 270.45\nAND mean_fiber_dec BETWEEN 65.738 AND 66.298",
+  "raw_csv_sha256": "4487a5aa34bd336e6c4ab185851bfed08e501178d43158c0bdb6735f1fd96b42",
+  "desi_box_rows": 2203,
+  "desi_primary_good_rows": 2067,
+  "agreement_threshold_abs_delta_z_over_1_plus_zdesi": 0.002,
+  "match_radii_arcsec": {
+    "0.2": {
+      "pairs": 105,
+      "one_to_one": 97,
+      "all": {
+        "n": 97,
+        "consistent": 81,
+        "desi_types": {
+          "GALAXY": 87,
+          "STAR": 6,
+          "QSO": 4
+        }
+      },
+      "strict_imaging": {
+        "n": 37,
+        "consistent": 35,
+        "desi_types": {
+          "GALAXY": 37
+        }
+      }
+    },
+    "0.5": {
+      "pairs": 171,
+      "one_to_one": 159,
+      "all": {
+        "n": 159,
+        "consistent": 130,
+        "desi_types": {
+          "GALAXY": 143,
+          "STAR": 10,
+          "QSO": 6
+        }
+      },
+      "strict_imaging": {
+        "n": 64,
+        "consistent": 59,
+        "desi_types": {
+          "GALAXY": 64
+        }
+      }
+    },
+    "1.0": {
+      "pairs": 177,
+      "one_to_one": 159,
+      "all": {
+        "n": 159,
+        "consistent": 130,
+        "desi_types": {
+          "GALAXY": 143,
+          "STAR": 10,
+          "QSO": 6
+        }
+      },
+      "strict_imaging": {
+        "n": 65,
+        "consistent": 60,
+        "desi_types": {
+          "GALAXY": 65
+        }
+      }
+    }
+  },
+  "dither_audit_objects_within_1_arcsec": []
+}

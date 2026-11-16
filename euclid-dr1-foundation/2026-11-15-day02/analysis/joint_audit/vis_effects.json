@@ -1,0 +1,473 @@
+{
+  "archive_matched": 1576,
+  "strict_imaging_catalogue": 782,
+  "image_status": {
+    "measured": 1576
+  },
+  "usable_before_neighbour_cut": 774,
+  "minimum_neighbour_distance_arcsec": {
+    "3.5": {
+      "selected": 124,
+      "effects": {
+        "kron_radius": {
+          "n_input": 124,
+          "status": "INCONCLUSIVE_INSUFFICIENT_CELLS",
+          "cells": 3,
+          "n": 60
+        },
+        "r50_1arcsec": {
+          "n_input": 124,
+          "status": "INCONCLUSIVE_INSUFFICIENT_CELLS",
+          "cells": 3,
+          "n": 60
+        },
+        "r50_1p5arcsec": {
+          "n_input": 124,
+          "status": "INCONCLUSIVE_INSUFFICIENT_CELLS",
+          "cells": 3,
+          "n": 60
+        },
+        "r50_2arcsec": {
+          "n_input": 124,
+          "status": "INCONCLUSIVE_INSUFFICIENT_CELLS",
+          "cells": 3,
+          "n": 60
+        }
+      }
+    },
+    "2.5": {
+      "selected": 402,
+      "effects": {
+        "kron_radius": {
+          "n_input": 402,
+          "status": "COMPUTED",
+          "cells": 9,
+          "n": 402,
+          "weighted_median_log10_radius_difference": 0.04653211177416182,
+          "ratio_of_aperture_radius_proxies": 1.1130946920836335,
+          "bootstrap_95_interval_log10": [
+            0.0014979184215845355,
+            0.07458211917921675
+          ],
+          "permutation_two_sided_p": 0.01249375312343828,
+          "iterations": 2000,
+          "random_seed": 20261115
+        },
+        "r50_1arcsec": {
+          "n_input": 402,
+          "status": "COMPUTED",
+          "cells": 9,
+          "n": 402,
+          "weighted_median_log10_radius_difference": 0.029455782148864487,
+          "ratio_of_aperture_radius_proxies": 1.070177416860098,
+          "bootstrap_95_interval_log10": [
+            -0.0057188660762021535,
+            0.0691949069250807
+          ],
+          "permutation_two_sided_p": 0.10094952523738131,
+          "iterations": 2000,
+          "random_seed": 20261115
+        },
+        "r50_1p5arcsec": {
+          "n_input": 402,
+          "status": "COMPUTED",
+          "cells": 9,
+          "n": 402,
+          "weighted_median_log10_radius_difference": 0.04010546045856288,
+          "ratio_of_aperture_radius_proxies": 1.0967444881161594,
+          "bootstrap_95_interval_log10": [
+            -0.0029574778896124883,
+            0.07877530838479642
+          ],
+          "permutation_two_sided_p": 0.04247876061969016,
+          "iterations": 2000,
+          "random_seed": 20261115
+        },
+        "r50_2arcsec": {
+          "n_input": 402,
+          "status": "COMPUTED",
+          "cells": 9,
+          "n": 402,
+          "weighted_median_log10_radius_difference": 0.03378474795558751,
+          "ratio_of_aperture_radius_proxies": 1.0808980863472326,
+          "bootstrap_95_interval_log10": [
+            -0.004868722706244123,
+            0.0789007784586273
+          ],
+          "permutation_two_sided_p": 0.09395302348825588,
+          "iterations": 2000,
+          "random_seed": 20261115
+        }
+      }
+    },
+    "2.0": {
+      "selected": 592,
+      "effects": {
+        "kron_radius": {
+          "n_input": 592,
+          "status": "COMPUTED",
+          "cells": 9,
+          "n": 592,
+          "weighted_median_log10_radius_difference": 0.03951425498101467,
+          "ratio_of_aperture_radius_proxies": 1.095252504585712,
+          "bootstrap_95_interval_log10": [
+            0.004917782530628793,
+            0.07415548782550482
+          ],
+          "permutation_two_sided_p": 0.03548225887056472,
+          "iterations": 2000,
+          "random_seed": 20261115
+        },
+        "r50_1arcsec": {
+          "n_input": 592,
+          "status": "COMPUTED",
+          "cells": 9,
+          "n": 592,
+          "weighted_median_log10_radius_difference": 0.03774501249447621,
+          "ratio_of_aperture_radius_proxies": 1.0907997067006725,
+          "bootstrap_95_interval_log10": [
+            0.004647550877707503,
+            0.06584662123157836
+          ],
+          "permutation_two_sided_p": 0.010994502748625687,
+          "iterations": 2000,
+          "random_seed": 20261115
+        },
+        "r50_1p5arcsec": {
+          "n_input": 592,
+          "status": "COMPUTED",
+          "cells": 9,
+          "n": 592,
+          "weighted_median_log10_radius_difference": 0.04235249797232865,
+          "ratio_of_aperture_radius_proxies": 1.1024337441039054,
+          "bootstrap_95_interval_log10": [
+            0.004696694699018291,
+            0.07225501603589876
+          ],
+          "permutation_two_sided_p": 0.008995502248875561,
+          "iterations": 2000,
+          "random_seed": 20261115
+        },
+        "r50_2arcsec": {
+          "n_input": 592,
+          "status": "COMPUTED",
+          "cells": 9,
+          "n": 592,
+          "weighted_median_log10_radius_difference": 0.042189844781813104,
+          "ratio_of_aperture_radius_proxies": 1.1020209348263015,
+          "bootstrap_95_interval_log10": [
+            0.006606962844775927,
+            0.07271783005222063
+          ],
+          "permutation_two_sided_p": 0.010994502748625687,
+          "iterations": 2000,
+          "random_seed": 20261115
+        }
+      }
+    },
+    "0.0": {
+      "selected": 774,
+      "effects": {
+        "kron_radius": {
+          "n_input": 774,
+          "status": "COMPUTED",
+          "cells": 9,
+          "n": 774,
+          "weighted_median_log10_radius_difference": 0.04795268205850559,
+          "ratio_of_aperture_radius_proxies": 1.1167415681526802,
+          "bootstrap_95_interval_log10": [
+            0.018023006506006415,
+            0.07436216074848014
+          ],
+          "permutation_two_sided_p": 0.0014992503748125937,
+          "iterations": 2000,
+          "random_seed": 20261115
+        },
+        "r50_1arcsec": {
+          "n_input": 774,
+          "status": "COMPUTED",
+          "cells": 9,
+          "n": 774,
+          "weighted_median_log10_radius_difference": 0.04184528356617158,
+          "ratio_of_aperture_radius_proxies": 1.1011469585274891,
+          "bootstrap_95_interval_log10": [
+            0.01110524432921303,
+            0.06638335335476937
+          ],
+          "permutation_two_sided_p": 0.0009995002498750624,
+          "iterations": 2000,
+          "random_seed": 20261115
+        },
+        "r50_1p5arcsec": {
+          "n_input": 774,
+          "status": "COMPUTED",
+          "cells": 9,
+          "n": 774,
+          "weighted_median_log10_radius_difference": 0.044201100040848366,
+          "ratio_of_aperture_radius_proxies": 1.1071363247292594,
+          "bootstrap_95_interval_log10": [
+            0.012529037441829564,
+            0.07183701034303105
+          ],
+          "permutation_two_sided_p": 0.0004997501249375312,
+          "iterations": 2000,
+          "random_seed": 20261115
+        },
+        "r50_2arcsec": {
+          "n_input": 774,
+          "status": "COMPUTED",
+          "cells": 9,
+          "n": 774,
+          "weighted_median_log10_radius_difference": 0.03692259570265743,
+          "ratio_of_aperture_radius_proxies": 1.0887360306377853,
+          "bootstrap_95_interval_log10": [
+            0.003722450798459095,
+            0.06361761124749994
+          ],
+          "permutation_two_sided_p": 0.0074962518740629685,
+          "iterations": 2000,
+          "random_seed": 20261115
+        }
+      }
+    }
+  },
+  "products": {
+    "101833450/VIS/science": {
+      "key": "dr1/MER/101833450/VIS/EUC_MER_BGSUB-MOSAIC-VIS_TILE101833450-1AA726_20250827T085934.342276Z_00.00.fits",
+      "sha256": "b562246286b097dfaa83522c81e096a2853349d0f91584fc9837a5037d0e0899"
+    },
+    "101833450/VIS/flag": {
+      "key": "dr1/MER/101833450/VIS/EUC_MER_MOSAIC-VIS-FLAG_TILE101833450-97CC4A_20250826T153836.120652Z_00.00.fits",
+      "sha256": "ee0307b7800d1159aee1670863961e5dd54e065c99eeb940d950e83a2dffc329"
+    },
+    "101833451/VIS/science": {
+      "key": "dr1/MER/101833451/VIS/EUC_MER_BGSUB-MOSAIC-VIS_TILE101833451-94B684_20250827T080722.364457Z_00.00.fits",
+      "sha256": "7115e8a919906f04958acf633ed37fedb640579ceb6f83c8e7decc2ea9996009"
+    },
+    "101833451/VIS/flag": {
+      "key": "dr1/MER/101833451/VIS/EUC_MER_MOSAIC-VIS-FLAG_TILE101833451-BA3811_20250826T152027.558317Z_00.00.fits",
+      "sha256": "fe121b08596a4b8e797f765633ddd7d97aa825a3ca190c6638ad59614da5338b"
+    },
+    "101834043/VIS/science": {
+      "key": "dr1/MER/101834043/VIS/EUC_MER_BGSUB-MOSAIC-VIS_TILE101834043-B9D6CF_20250829T153145.525191Z_00.00.fits",
+      "sha256": "a3d4163d010c261b394d73343ebac6c227aca994b5fe7ab4971688147d28ab64"
+    },
+    "101834043/VIS/flag": {
+      "key": "dr1/MER/101834043/VIS/EUC_MER_MOSAIC-VIS-FLAG_TILE101834043-6549F9_20250828T125248.590094Z_00.00.fits",
+      "sha256": "3c5d59f971b698ca148a986911d8180309eec8faa7222a7b65492f280fb1c726"
+    },
+    "101834044/VIS/science": {
+      "key": "dr1/MER/101834044/VIS/EUC_MER_BGSUB-MOSAIC-VIS_TILE101834044-F20EA5_20250828T043943.523084Z_00.00.fits",
+      "sha256": "04addc702d93bd1994e553a2f30f911716c47bebb9bf3f4ac25b3780151e75c9"
+    },
+    "101834044/VIS/flag": {
+      "key": "dr1/MER/101834044/VIS/EUC_MER_MOSAIC-VIS-FLAG_TILE101834044-8FC611_20250827T222634.978026Z_00.00.fits",
+      "sha256": "7b8607c7c06c5a1497bb4bf7603bfbca13252548f143b0e64f31a49aad47f799"
+    },
+    "101834045/VIS/science": {
+      "key": "dr1/MER/101834045/VIS/EUC_MER_BGSUB-MOSAIC-VIS_TILE101834045-514292_20250830T145959.190686Z_00.00.fits",
+      "sha256": "a8160f26d2daec47571576684c5845503657d1bcc1944d8f294b41d263aa15f9"
+    },
+    "101834045/VIS/flag": {
+      "key": "dr1/MER/101834045/VIS/EUC_MER_MOSAIC-VIS-FLAG_TILE101834045-959436_20250829T214722.975417Z_00.00.fits",
+      "sha256": "69096a2b7efefb72e5832577dfb826af69fa00b0aa7534dd6b4b636b81f955b8"
+    },
+    "101834631/VIS/science": {
+      "key": "dr1/MER/101834631/VIS/EUC_MER_BGSUB-MOSAIC-VIS_TILE101834631-1D64E9_20250829T093940.697820Z_00.00.fits",
+      "sha256": "5f6a64bbbfcb80219919cdf7b252292d04d10ae76ea892fc4eeafc32ff99b53e"
+    },
+    "101834631/VIS/flag": {
+      "key": "dr1/MER/101834631/VIS/EUC_MER_MOSAIC-VIS-FLAG_TILE101834631-A4257D_20250828T123800.439634Z_00.00.fits",
+      "sha256": "9b712c6e21341ed365637046b49b33c82235782b7f47e59590b7f88bcf320f82"
+    },
+    "101834632/VIS/science": {
+      "key": "dr1/MER/101834632/VIS/EUC_MER_BGSUB-MOSAIC-VIS_TILE101834632-A56210_20250820T085037.062669Z_00.00.fits",
+      "sha256": "988a18816bd614813600f3a81e8e39bbdf2dcddbd8919410679758a3cb5cc14b"
+    },
+    "101834632/VIS/flag": {
+      "key": "dr1/MER/101834632/VIS/EUC_MER_MOSAIC-VIS-FLAG_TILE101834632-DCD509_20250814T175802.163073Z_00.00.fits",
+      "sha256": "1bf355f020a8789f0a637600831d3c43d81e076e38fcba497439a8df94f5ba3f"
+    },
+    "101834633/VIS/science": {
+      "key": "dr1/MER/101834633/VIS/EUC_MER_BGSUB-MOSAIC-VIS_TILE101834633-B07EC8_20250827T063017.517822Z_00.00.fits",
+      "sha256": "4c46ef1dd04830ac85e396f3672b353bf189e93e103b8696c83b5abfc89ed463"
+    },
+    "101834633/VIS/flag": {
+      "key": "dr1/MER/101834633/VIS/EUC_MER_MOSAIC-VIS-FLAG_TILE101834633-C2FA4D_20250826T175618.076785Z_00.00.fits",
+      "sha256": "886b41f8f2a3a7962ee722cbd1c8b0e6dbc931d80b7137a76209ac5ce5c6847a"
+    },
+    "101834044/NIR-Y/science": {
+      "key": "dr1/MER/101834044/NISP/EUC_MER_BGSUB-MOSAIC-NIR-Y_TILE101834044-AA80BA_20250827T225109.933690Z_00.00.fits",
+      "sha256": "448f0b4f81c052438db92b1f462139b5e9cb299788a2aa261b9b379719d6a452"
+    },
+    "101834044/NIR-J/science": {
+      "key": "dr1/MER/101834044/NISP/EUC_MER_BGSUB-MOSAIC-NIR-J_TILE101834044-23A4A4_20250827T225130.868288Z_00.00.fits",
+      "sha256": "65c97dad2eaf53565f3d2481cfc6608d44e5307541b9ad9318f12d2bf86b400c"
+    },
+    "101834044/NIR-H/science": {
+      "key": "dr1/MER/101834044/NISP/EUC_MER_BGSUB-MOSAIC-NIR-H_TILE101834044-719647_20250827T224849.611941Z_00.00.fits",
+      "sha256": "3e92d6cd44f40bbde0a64f85f799761ce7da84e2a074a3b085c9d19d82308ca0"
+    },
+    "101834632/NIR-Y/science": {
+      "key": "dr1/MER/101834632/NISP/EUC_MER_BGSUB-MOSAIC-NIR-Y_TILE101834632-DDCBF_20250814T075003.826512Z_00.00.fits",
+      "sha256": "c719effac4027d319990e6a57935e450008b0c318c6eeffe1923b711e2b58dee"
+    },
+    "101834632/NIR-J/science": {
+      "key": "dr1/MER/101834632/NISP/EUC_MER_BGSUB-MOSAIC-NIR-J_TILE101834632-E5875D_20250814T074033.627117Z_00.00.fits",
+      "sha256": "3a09eee2bf8a049219741e742d8a167df7286d83d4926b4c33d0e64e3ce4c3df"
+    },
+    "101834632/NIR-H/science": {
+      "key": "dr1/MER/101834632/NISP/EUC_MER_BGSUB-MOSAIC-NIR-H_TILE101834632-BBEE0A_20250814T074115.913393Z_00.00.fits",
+      "sha256": "65eeb902848488f88c4e7210787e9dcd8926ab1bd887772b8f150d74de89515c"
+    },
+    "101833450/catalog": {
+      "key": "dr1/catalogs/MER_FINAL_CATALOG/101833450/EUC_MER_FINAL-CAT_TILE101833450-E4C74_20250828T083538.835384Z_00.00.fits",
+      "sha256": "2286ff400c176b476e73e12841afbef5800f0ce00e3c13f1149b83966a604457"
+    },
+    "101833451/catalog": {
+      "key": "dr1/catalogs/MER_FINAL_CATALOG/101833451/EUC_MER_FINAL-CAT_TILE101833451-47C79E_20250828T015910.694550Z_00.00.fits",
+      "sha256": "6e1f5d992f9e7c356bec614df049171201c808c7250b59aea7ec219fd8fe780e"
+    },
+    "101834043/catalog": {
+      "key": "dr1/catalogs/MER_FINAL_CATALOG/101834043/EUC_MER_FINAL-CAT_TILE101834043-6BD9DC_20250830T215607.990390Z_00.00.fits",
+      "sha256": "e4cb1ec8ae95ec59df6fad75d7bc2050e163afc45d018fe29728c258648b15e1"
+    },
+    "101834044/catalog": {
+      "key": "dr1/catalogs/MER_FINAL_CATALOG/101834044/EUC_MER_FINAL-CAT_TILE101834044-8358E0_20250829T054449.406866Z_00.00.fits",
+      "sha256": "e3cd5b0dd27a2a6b3bc435063bdfda30e7952351dd7389d5c48b37ed0c2edead"
+    },
+    "101834045/catalog": {
+      "key": "dr1/catalogs/MER_FINAL_CATALOG/101834045/EUC_MER_FINAL-CAT_TILE101834045-8B89FC_20250831T162300.799048Z_00.00.fits",
+      "sha256": "a368a76d915fa40502304c3a83124634ee7211687bdf87565e6763c61e3f5865"
+    },
+    "101834631/catalog": {
+      "key": "dr1/catalogs/MER_FINAL_CATALOG/101834631/EUC_MER_FINAL-CAT_TILE101834631-CD6C89_20250830T223233.647994Z_00.00.fits",
+      "sha256": "cd57e3d75c9e8b9881f7ad6a2190d78a6205f8233bcad994736b0f9d168a9ef2"
+    },
+    "101834632/catalog": {
+      "key": "dr1/catalogs/MER_FINAL_CATALOG/101834632/EUC_MER_FINAL-CAT_TILE101834632-7E75EE_20250821T222943.451669Z_00.00.fits",
+      "sha256": "f37246a13a24fa22399de51f06b6d0beb8a5a0a2bf83080115c8c1d2ce474cd1"
+    },
+    "101834633/catalog": {
+      "key": "dr1/catalogs/MER_FINAL_CATALOG/101834633/EUC_MER_FINAL-CAT_TILE101834633-2CDD5_20250828T001216.318045Z_00.00.fits",
+      "sha256": "03d220cf4b542c2d93636737f8cd946280ef01928bcd6f1d79fb70620e8e4f44"
+    }
+  },
+  "vis_invalid_flag_bit": 1,
+  "multiband_images": {
+    "2696513729658817042": [
+      "NIR-H",
+      "NIR-J",
+      "NIR-Y",
+      "VIS"
+    ],
+    "2698524631658764578": [
+      "NIR-H",
+      "NIR-J",
+      "NIR-Y",
+      "VIS"
+    ],
+    "2697432168658721533": [
+      "NIR-H",
+      "NIR-J",
+      "NIR-Y",
+      "VIS"
+    ],
+    "2697475101658730861": [
+      "NIR-H",
+      "NIR-J",
+      "NIR-Y",
+      "VIS"
+    ],
+    "2696558115658832112": [
+      "NIR-H",
+      "NIR-J",
+      "NIR-Y",
+      "VIS"
+    ],
+    "2695916298658773065": [
+      "NIR-H",
+      "NIR-J",
+      "NIR-Y",
+      "VIS"
+    ],
+    "2695487074658843677": [
+      "NIR-H",
+      "NIR-J",
+      "NIR-Y",
+      "VIS"
+    ],
+    "2694901232658740404": [
+      "NIR-H",
+      "NIR-J",
+      "NIR-Y",
+      "VIS"
+    ],
+    "2693798122658759747": [
+      "NIR-H",
+      "NIR-J",
+      "NIR-Y",
+      "VIS"
+    ],
+    "2693965274658805116": [
+      "NIR-H",
+      "NIR-J",
+      "NIR-Y",
+      "VIS"
+    ],
+    "2694728010658814870": [
+      "NIR-H",
+      "NIR-J",
+      "NIR-Y",
+      "VIS"
+    ],
+    "2694790819658848013": [
+      "NIR-H",
+      "NIR-J",
+      "NIR-Y",
+      "VIS"
+    ],
+    "2697974927659867240": [
+      "NIR-H",
+      "NIR-J",
+      "NIR-Y",
+      "VIS"
+    ],
+    "2699084149661358295": [
+      "NIR-H",
+      "NIR-J",
+      "NIR-Y",
+      "VIS"
+    ],
+    "2699200290661347078": [
+      "NIR-H",
+      "NIR-J",
+      "NIR-Y",
+      "VIS"
+    ],
+    "2696009562661338733": [
+      "NIR-H",
+      "NIR-J",
+      "NIR-Y",
+      "VIS"
+    ],
+    "2695756709661360715": [
+      "NIR-H",
+      "NIR-J",
+      "NIR-Y",
+      "VIS"
+    ],
+    "2697821219661306458": [
+      "NIR-H",
+      "NIR-J",
+      "NIR-Y",
+      "VIS"
+    ],
+    "2700976418661257393": [
+      "NIR-H",
+      "NIR-J",
+      "NIR-Y",
+      "VIS"
+    ]
+  }
+}

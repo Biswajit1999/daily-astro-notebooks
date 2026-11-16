@@ -1,0 +1,38 @@
+{
+  "date_utc": "2026-11-15",
+  "pair_icrs_search_centre_deg": [270.06855, 66.24513],
+  "pair_icrs_search_radius_arcsec": 5.04,
+  "q1_mer": {
+    "status": "two distinct matches",
+    "catalogue_doi": "10.26131/IRSA602",
+    "source_matches": "source_matches.csv",
+    "adql": "inputs/products.json",
+    "q1_photo_z_median": {"A": 1.51, "B": 1.29},
+    "q1_spe_candidate_rows_at_these_ids": 0,
+    "q1_spe_classification_rows_at_these_ids": 0
+  },
+  "external_matches": {
+    "secure_match_threshold_arcsec": 1.0,
+    "SIMBAD": {"status": "no rows in 5 arcsecond cone"},
+    "NED": {"nearest_identifier": "[HLL2007] 011373", "offset_arcsec": {"A": 4.312, "B": 2.543}},
+    "Gaia_DR3": {"status": "no rows in coordinate box", "ra_deg": [270.064, 270.073], "dec_deg": [66.243, 66.247]},
+    "PanSTARRS_DR2_stack": {"nearest_offset_arcsec": {"A": 4.444, "B": 2.642}},
+    "DESI_DR1_primary_zwarn0": {"nearest_offset_arcsec_approx": {"A": 28.05, "B": 28.97}},
+    "Q1_Strong_Lensing_Discovery_Engine": {"catalogue_url": "https://zenodo.org/records/15003117", "nearest_offset_arcsec": {"A": 143.905, "B": 142.054}},
+    "DR1_ECLIPSE": {"catalogue_doi": "10.5281/zenodo.19654904", "status": "no match; excludes Q1 and deep fields"}
+  },
+  "space_telescope_footprints": {
+    "CADC_ObsCore_TAP": "https://ws.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/argus/sync",
+    "query_base": "SELECT TOP 100 obs_collection,obs_id,s_ra,s_dec,s_region,dataproduct_type FROM ivoa.obscore WHERE INTERSECTS(CIRCLE('ICRS',270.06855,66.24513,0.0014),s_region)=1",
+    "HST_predicate": "AND obs_collection IN ('HST','HLA','HLSP')",
+    "JWST_predicate": "AND obs_collection IN ('JWST','JWSTEC')",
+    "CADC_HST_rows": 0,
+    "CADC_JWST_rows": 0,
+    "MAST_status": "request timed out; coverage unverified"
+  },
+  "literature": {
+    "search_terms": ["2700686070662453859", "2700684940662448691", "2700686031662453845", "2700684839662448724", "J180016.44+661441.53", "J180016.47+661443.39", "270.06849 66.24487"],
+    "target_specific_paper_found": false,
+    "scope": "Public web and arXiv searches by identifiers and coordinates, with catalogue and lens-list checks. A source could appear in a table without an indexed Euclid ID."
+  }
+}

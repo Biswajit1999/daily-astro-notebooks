@@ -1,0 +1,334 @@
+{
+  "created_utc": "2026-11-15T22:09:52.744813+00:00",
+  "release": "Euclid DR1-Foundation",
+  "purpose": "direct identification of released 1D SIR spectra corresponding to quality-gated Halpha objects",
+  "examined_tiles": [
+    {
+      "tile": 101834044,
+      "file_count": 98,
+      "matches": [
+        {
+          "object_id": 2693798122658759747,
+          "tile": 101834044,
+          "s3_key": "dr1/SIR_COMBINED_SPECTRA/101834044/EUC_SIR_W-COMBSPEC_101834044_20250907T182236.823498Z.fits",
+          "hdu_signal": "85_COMBINED1D_SIGNAL",
+          "catalogue_z": 1.104862928390503,
+          "catalogue_Halpha_snr": 21.639625549316406,
+          "catalogue_Halpha_flux": 3.7178226877747887e-16,
+          "expected_line_wavelength_A": 13817.604228341579,
+          "wavelength_range_A": [
+            8548.5,
+            13862.099609375
+          ],
+          "usable_bins": 256,
+          "total_bins": 433,
+          "Halpha_covered_by_wavelength_range": true
+        },
+        {
+          "object_id": 2694901232658740404,
+          "tile": 101834044,
+          "s3_key": "dr1/SIR_COMBINED_SPECTRA/101834044/EUC_SIR_W-COMBSPEC_101834044_20250907T182236.823498Z.fits",
+          "hdu_signal": "239_COMBINED1D_SIGNAL",
+          "catalogue_z": 1.4066851139068604,
+          "catalogue_Halpha_snr": 5.718010902404785,
+          "catalogue_Halpha_flux": 7.05435772950779e-17,
+          "expected_line_wavelength_A": 15798.949165604114,
+          "wavelength_range_A": [
+            8548.5,
+            13862.099609375
+          ],
+          "usable_bins": 130,
+          "total_bins": 433,
+          "Halpha_covered_by_wavelength_range": false
+        },
+        {
+          "object_id": 2695916298658773065,
+          "tile": 101834044,
+          "s3_key": "dr1/SIR_COMBINED_SPECTRA/101834044/EUC_SIR_W-COMBSPEC_101834044_20250907T182236.823498Z.fits",
+          "hdu_signal": "377_COMBINED1D_SIGNAL",
+          "catalogue_z": 1.2527469396591187,
+          "catalogue_Halpha_snr": 15.396023750305176,
+          "catalogue_Halpha_flux": 1.7361654172206095e-16,
+          "expected_line_wavelength_A": 14788.405087555646,
+          "wavelength_range_A": [
+            8548.5,
+            13862.099609375
+          ],
+          "usable_bins": 38,
+          "total_bins": 433,
+          "Halpha_covered_by_wavelength_range": false
+        },
+        {
+          "object_id": 2697432168658721533,
+          "tile": 101834044,
+          "s3_key": "dr1/SIR_COMBINED_SPECTRA/101834044/EUC_SIR_W-COMBSPEC_101834044_20250907T182236.823498Z.fits",
+          "hdu_signal": "633_COMBINED1D_SIGNAL",
+          "catalogue_z": 1.3999558687210083,
+          "catalogue_Halpha_snr": 20.526090621948242,
+          "catalogue_Halpha_flux": 1.824726947020783e-16,
+          "expected_line_wavelength_A": 15754.774295364618,
+          "wavelength_range_A": [
+            8548.5,
+            13862.099609375
+          ],
+          "usable_bins": 299,
+          "total_bins": 433,
+          "Halpha_covered_by_wavelength_range": false
+        },
+        {
+          "object_id": 2697475101658730861,
+          "tile": 101834044,
+          "s3_key": "dr1/SIR_COMBINED_SPECTRA/101834044/EUC_SIR_W-COMBSPEC_101834044_20250907T182236.823498Z.fits",
+          "hdu_signal": "643_COMBINED1D_SIGNAL",
+          "catalogue_z": 0.9926199316978455,
+          "catalogue_Halpha_snr": 11.222738265991211,
+          "catalogue_Halpha_flux": 1.509612691192054e-16,
+          "expected_line_wavelength_A": 13080.772729822993,
+          "wavelength_range_A": [
+            8548.5,
+            13862.099609375
+          ],
+          "usable_bins": 104,
+          "total_bins": 433,
+          "Halpha_covered_by_wavelength_range": true
+        },
+        {
+          "object_id": 2698524631658764578,
+          "tile": 101834044,
+          "s3_key": "dr1/SIR_COMBINED_SPECTRA/101834044/EUC_SIR_W-COMBSPEC_101834044_20250907T182236.823498Z.fits",
+          "hdu_signal": "809_COMBINED1D_SIGNAL",
+          "catalogue_z": 1.1194366216659546,
+          "catalogue_Halpha_snr": 22.6087703704834,
+          "catalogue_Halpha_flux": 2.1732771666978852e-16,
+          "expected_line_wavelength_A": 13913.274840954542,
+          "wavelength_range_A": [
+            8548.5,
+            13862.099609375
+          ],
+          "usable_bins": 105,
+          "total_bins": 433,
+          "Halpha_covered_by_wavelength_range": false
+        },
+        {
+          "object_id": 2693965274658805116,
+          "tile": 101834044,
+          "s3_key": "dr1/SIR_COMBINED_SPECTRA/101834044/EUC_SIR_W-COMBSPEC_101834044_20250907T182335.220974Z.fits",
+          "hdu_signal": "114_COMBINED1D_SIGNAL",
+          "catalogue_z": 1.106547474861145,
+          "catalogue_Halpha_snr": 6.695893287658691,
+          "catalogue_Halpha_flux": 1.325885950976676e-16,
+          "expected_line_wavelength_A": 13828.662618948221,
+          "wavelength_range_A": [
+            8548.5,
+            13862.099609375
+          ],
+          "usable_bins": 239,
+          "total_bins": 433,
+          "Halpha_covered_by_wavelength_range": true
+        },
+        {
+          "object_id": 2694728010658814870,
+          "tile": 101834044,
+          "s3_key": "dr1/SIR_COMBINED_SPECTRA/101834044/EUC_SIR_W-COMBSPEC_101834044_20250907T182335.220974Z.fits",
+          "hdu_signal": "225_COMBINED1D_SIGNAL",
+          "catalogue_z": 1.2724313735961914,
+          "catalogue_Halpha_snr": 16.801986694335938,
+          "catalogue_Halpha_flux": 2.418023366340075e-16,
+          "expected_line_wavelength_A": 14917.625719423293,
+          "wavelength_range_A": [
+            8548.5,
+            13862.099609375
+          ],
+          "usable_bins": 198,
+          "total_bins": 433,
+          "Halpha_covered_by_wavelength_range": false
+        },
+        {
+          "object_id": 2694790819658848013,
+          "tile": 101834044,
+          "s3_key": "dr1/SIR_COMBINED_SPECTRA/101834044/EUC_SIR_W-COMBSPEC_101834044_20250907T182335.220974Z.fits",
+          "hdu_signal": "241_COMBINED1D_SIGNAL",
+          "catalogue_z": 1.370617151260376,
+          "catalogue_Halpha_snr": 10.183002471923828,
+          "catalogue_Halpha_flux": 1.6873073656828994e-16,
+          "expected_line_wavelength_A": 15562.177057335375,
+          "wavelength_range_A": [
+            8548.5,
+            13862.099609375
+          ],
+          "usable_bins": 64,
+          "total_bins": 433,
+          "Halpha_covered_by_wavelength_range": false
+        },
+        {
+          "object_id": 2695487074658843677,
+          "tile": 101834044,
+          "s3_key": "dr1/SIR_COMBINED_SPECTRA/101834044/EUC_SIR_W-COMBSPEC_101834044_20250907T182335.220974Z.fits",
+          "hdu_signal": "362_COMBINED1D_SIGNAL",
+          "catalogue_z": 1.1966869831085205,
+          "catalogue_Halpha_snr": 6.9222331047058105,
+          "catalogue_Halpha_flux": 3.6480941414634266e-17,
+          "expected_line_wavelength_A": 14420.393336184025,
+          "wavelength_range_A": [
+            8548.5,
+            13862.099609375
+          ],
+          "usable_bins": 282,
+          "total_bins": 433,
+          "Halpha_covered_by_wavelength_range": false
+        },
+        {
+          "object_id": 2696513729658817042,
+          "tile": 101834044,
+          "s3_key": "dr1/SIR_COMBINED_SPECTRA/101834044/EUC_SIR_W-COMBSPEC_101834044_20250907T182335.220974Z.fits",
+          "hdu_signal": "546_COMBINED1D_SIGNAL",
+          "catalogue_z": 1.0383697748184204,
+          "catalogue_Halpha_snr": 20.159650802612305,
+          "catalogue_Halpha_flux": 1.717875990655919e-16,
+          "expected_line_wavelength_A": 13381.10260747075,
+          "wavelength_range_A": [
+            8548.5,
+            13862.099609375
+          ],
+          "usable_bins": 117,
+          "total_bins": 433,
+          "Halpha_covered_by_wavelength_range": true
+        }
+      ],
+      "n_meta_hdus_checked": 1000
+    },
+    {
+      "tile": 101834632,
+      "file_count": 100,
+      "matches": [
+        {
+          "object_id": 2697821219661306458,
+          "tile": 101834632,
+          "s3_key": "dr1/SIR_COMBINED_SPECTRA/101834632/EUC_SIR_W-COMBSPEC_101834632_20250907T184248.416665Z.fits",
+          "hdu_signal": "403_COMBINED1D_SIGNAL",
+          "catalogue_z": 1.3171786069869995,
+          "catalogue_Halpha_snr": 9.544772148132324,
+          "catalogue_Halpha_flux": 1.4372739599141686e-16,
+          "expected_line_wavelength_A": 15211.373855212925,
+          "wavelength_range_A": [
+            8548.5,
+            13862.099609375
+          ],
+          "usable_bins": 223,
+          "total_bins": 433,
+          "Halpha_covered_by_wavelength_range": false
+        },
+        {
+          "object_id": 2700976418661257393,
+          "tile": 101834632,
+          "s3_key": "dr1/SIR_COMBINED_SPECTRA/101834632/EUC_SIR_W-COMBSPEC_101834632_20250907T184248.416665Z.fits",
+          "hdu_signal": "955_COMBINED1D_SIGNAL",
+          "catalogue_z": 1.362807035446167,
+          "catalogue_Halpha_snr": 10.68957233428955,
+          "catalogue_Halpha_flux": 8.149654710113346e-17,
+          "expected_line_wavelength_A": 15510.906692960261,
+          "wavelength_range_A": [
+            8548.5,
+            13862.099609375
+          ],
+          "usable_bins": 279,
+          "total_bins": 433,
+          "Halpha_covered_by_wavelength_range": false
+        },
+        {
+          "object_id": 2695756709661360715,
+          "tile": 101834632,
+          "s3_key": "dr1/SIR_COMBINED_SPECTRA/101834632/EUC_SIR_W-COMBSPEC_101834632_20250907T184347.611550Z.fits",
+          "hdu_signal": "115_COMBINED1D_SIGNAL",
+          "catalogue_z": 1.2403907775878906,
+          "catalogue_Halpha_snr": 19.832231521606445,
+          "catalogue_Halpha_flux": 2.87796225669916e-16,
+          "expected_line_wavelength_A": 14707.291702461242,
+          "wavelength_range_A": [
+            8548.5,
+            13862.099609375
+          ],
+          "usable_bins": 114,
+          "total_bins": 433,
+          "Halpha_covered_by_wavelength_range": false
+        },
+        {
+          "object_id": 2696009562661338733,
+          "tile": 101834632,
+          "s3_key": "dr1/SIR_COMBINED_SPECTRA/101834632/EUC_SIR_W-COMBSPEC_101834632_20250907T184347.611550Z.fits",
+          "hdu_signal": "161_COMBINED1D_SIGNAL",
+          "catalogue_z": 1.0076208114624023,
+          "catalogue_Halpha_snr": 5.90336275100708,
+          "catalogue_Halpha_flux": 6.742164546207007e-17,
+          "expected_line_wavelength_A": 13179.2476551342,
+          "wavelength_range_A": [
+            8548.5,
+            13862.099609375
+          ],
+          "usable_bins": 154,
+          "total_bins": 433,
+          "Halpha_covered_by_wavelength_range": true
+        },
+        {
+          "object_id": 2699084149661358295,
+          "tile": 101834632,
+          "s3_key": "dr1/SIR_COMBINED_SPECTRA/101834632/EUC_SIR_W-COMBSPEC_101834632_20250907T184347.611550Z.fits",
+          "hdu_signal": "671_COMBINED1D_SIGNAL",
+          "catalogue_z": 1.2708412408828735,
+          "catalogue_Halpha_snr": 15.121087074279785,
+          "catalogue_Halpha_flux": 1.191860324779322e-16,
+          "expected_line_wavelength_A": 14907.18711831212,
+          "wavelength_range_A": [
+            8548.5,
+            13862.099609375
+          ],
+          "usable_bins": 324,
+          "total_bins": 433,
+          "Halpha_covered_by_wavelength_range": false
+        },
+        {
+          "object_id": 2699200290661347078,
+          "tile": 101834632,
+          "s3_key": "dr1/SIR_COMBINED_SPECTRA/101834632/EUC_SIR_W-COMBSPEC_101834632_20250907T184347.611550Z.fits",
+          "hdu_signal": "688_COMBINED1D_SIGNAL",
+          "catalogue_z": 0.9771379828453064,
+          "catalogue_Halpha_snr": 10.927569389343262,
+          "catalogue_Halpha_flux": 2.361541621230382e-16,
+          "expected_line_wavelength_A": 12979.139773566127,
+          "wavelength_range_A": [
+            8548.5,
+            13862.099609375
+          ],
+          "usable_bins": 43,
+          "total_bins": 433,
+          "Halpha_covered_by_wavelength_range": true
+        }
+      ],
+      "n_meta_hdus_checked": 689
+    }
+  ],
+  "candidates_found": 17,
+  "plotted": 3,
+  "plots": [
+    {
+      "filename": "nisp_2697475101658730861_halpha_window.png",
+      "object_id": 2697475101658730861,
+      "relative_path": "observed_results/matched_spectra/nisp_2697475101658730861_halpha_window.png",
+      "s3_key": "dr1/SIR_COMBINED_SPECTRA/101834044/EUC_SIR_W-COMBSPEC_101834044_20250907T182236.823498Z.fits"
+    },
+    {
+      "filename": "nisp_2696513729658817042_halpha_window.png",
+      "object_id": 2696513729658817042,
+      "relative_path": "observed_results/matched_spectra/nisp_2696513729658817042_halpha_window.png",
+      "s3_key": "dr1/SIR_COMBINED_SPECTRA/101834044/EUC_SIR_W-COMBSPEC_101834044_20250907T182335.220974Z.fits"
+    },
+    {
+      "filename": "nisp_2699200290661347078_halpha_window.png",
+      "object_id": 2699200290661347078,
+      "relative_path": "observed_results/matched_spectra/nisp_2699200290661347078_halpha_window.png",
+      "s3_key": "dr1/SIR_COMBINED_SPECTRA/101834632/EUC_SIR_W-COMBSPEC_101834632_20250907T184347.611550Z.fits"
+    }
+  ],
+  "errors": [],
+  "warning": "Do not claim flux-calibrated spectroscopic validation without checking the product units, extraction geometry and line contamination."
+}

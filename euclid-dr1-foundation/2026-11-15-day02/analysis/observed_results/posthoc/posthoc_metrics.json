@@ -1,0 +1,44 @@
+{
+  "timestamp_utc": "2026-11-15T22:09:54.790652+00:00",
+  "data_release": "Euclid DR1-Foundation",
+  "analysis_type": "post-hoc, exploratory; separate from preregistered Day 02 median-strata test",
+  "quality": {
+    "n_clean": 782,
+    "n_matched": 1576,
+    "clean_fraction": 0.49619289340101524,
+    "clean_median_kron_pix": 25.39946937561035,
+    "flagged_median_kron_pix": 27.835267066955566,
+    "clean_median_ha_flux": 1.331892076317199e-16,
+    "flagged_median_ha_flux": 1.508865449313898e-16,
+    "clean_objects_multifit_spread_gt_20_percent": 133
+  },
+  "hc3_regression": {
+    "formula": "log_kron ~ log_ha + log_vis + spe_z + C(tileid)",
+    "n": 782,
+    "ha_slope_dex_per_dex": 0.12427959994632398,
+    "ha_standard_error_hc3": 0.027739258056159514,
+    "ha_ci95": [
+      0.0699116531983888,
+      0.17864754669425917
+    ],
+    "ha_nominal_p": 7.454572495158386e-06,
+    "vis_slope": 0.23886626678834194,
+    "vis_nominal_p": 4.838954495547828e-14,
+    "r_squared": 0.319857783924696
+  },
+  "residual_rank_correlation": {
+    "rho": 0.15711429515339487,
+    "nominal_p": 1.014785404372401e-05,
+    "note": "post-hoc approximated partial rank association; not a preregistered independent discovery test"
+  },
+  "limited_multifit_disagreement": {
+    "max_relative_range": 0.2,
+    "n": 649,
+    "ha_slope": 0.09326526128019332,
+    "ha_ci95": [
+      0.03701552323434719,
+      0.14951499932603945
+    ],
+    "ha_nominal_p": 0.0011551396158634923
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "matched_objects": 17,
+  "strict_window_fits": 21,
+  "strict_snr_ge5": [],
+  "strict_multi_transition_ids": [],
+  "allow_low_snr_mask_snr_ge5": [
+    {
+      "object_id": "2697432168658721533",
+      "grism": "RGS",
+      "line": "Halpha",
+      "formal_snr": 18.499425876907978,
+      "sideband_rms": 1.3026201758691618
+    },
+    {
+      "object_id": "2693965274658805116",
+      "grism": "RGS",
+      "line": "Halpha",
+      "formal_snr": 21.227001603677937,
+      "sideband_rms": 2.5016525567245114
+    },
+    {
+      "object_id": "2694790819658848013",
+      "grism": "BGS",
+      "line": "OIII5008",
+      "formal_snr": 9.380264675305282,
+      "sideband_rms": 1.0810806421511536
+    }
+  ],
+  "blue_dither_rows": 204,
+  "blue_dither_rows_with_listed_contaminants": 173,
+  "strict_blue_halpha_dither_fits": 21,
+  "max_dither_halpha_formal_snr": 3.7281859961585626
+}

@@ -1,0 +1,16 @@
+{
+  "real_data": true,
+  "field": "EDFN 0.15 deg cone",
+  "release": "Euclid DR1-Foundation",
+  "n_mer": 55123,
+  "n_spe_rank0": 7553,
+  "n_line_rows": 1357857,
+  "n_ha_selected": 426,
+  "n_size_matched": 327,
+  "n_strict_quality": 150,
+  "spearman_Halpha_VIS": 0.4521682069271948,
+  "pilot_unflagged_size_effect_dex": 0.04855648389291464,
+  "pilot_unflagged_permutation_p": 0.022488755622188907,
+  "gate": "NO-GO: only 150 strictly clean matched galaxies; preregistration requires >=200",
+  "note": "Exploratory single-tile analysis; no completeness model; this is not the complete 1.25-degree test"
+}

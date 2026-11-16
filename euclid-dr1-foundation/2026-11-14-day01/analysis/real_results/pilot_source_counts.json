@@ -1,0 +1,158 @@
+{
+  "release": "Euclid DR1-Foundation",
+  "date_utc": "2026-11-14T06:38:01.343593+00:00",
+  "mode": "pilot, not preregistered confirmatory test",
+  "field_center_deg": [
+    269.733,
+    66.018
+  ],
+  "pilot_radius_deg": 0.15,
+  "catalogues": {
+    "mer_catalogue_deep_survey": {
+      "path": "s3://nasa-irsa-euclid-dr1/contributed/dr1/hats/reformatted_catalogs/mer_catalogue_deep_survey/",
+      "available_columns": [
+        "ra_from_object_id",
+        "dec_from_object_id",
+        "object_id",
+        "ra",
+        "dec",
+        "tileid",
+        "vis_det",
+        "flux_vis_2fwhm_aper",
+        "flux_y_2fwhm_aper",
+        "flux_j_2fwhm_aper",
+        "flux_h_2fwhm_aper",
+        "has_spectrum"
+      ],
+      "selected_columns": [
+        "object_id",
+        "ra",
+        "dec",
+        "tileid",
+        "vis_det",
+        "flux_vis_2fwhm_aper"
+      ],
+      "n_rows": 55123,
+      "dtypes": {
+        "object_id": "int64[pyarrow]",
+        "ra": "double[pyarrow]",
+        "dec": "double[pyarrow]",
+        "tileid": "int64[pyarrow]",
+        "vis_det": "int16[pyarrow]",
+        "flux_vis_2fwhm_aper": "float[pyarrow]",
+        "ra_from_object_id": "double[pyarrow]",
+        "dec_from_object_id": "double[pyarrow]"
+      }
+    },
+    "spectro_z_spe_galaxy_candidates_deep": {
+      "path": "s3://nasa-irsa-euclid-dr1/contributed/dr1/hats/reformatted_catalogs/spectro_z_spe_galaxy_candidates_deep/",
+      "available_columns": [
+        "ra_from_object_id",
+        "dec_from_object_id",
+        "object_id",
+        "spe_rank",
+        "spe_z",
+        "spe_z_err",
+        "spe_z_prob",
+        "spe_z_rel",
+        "spe_subclass",
+        "spe_cont_snr"
+      ],
+      "selected_columns": [
+        "object_id",
+        "spe_rank",
+        "spe_z",
+        "spe_z_prob",
+        "spe_z_rel"
+      ],
+      "n_rows": 37238,
+      "dtypes": {
+        "object_id": "int64[pyarrow]",
+        "spe_rank": "int16[pyarrow]",
+        "spe_z": "float[pyarrow]",
+        "spe_z_prob": "float[pyarrow]",
+        "spe_z_rel": "float[pyarrow]",
+        "ra_from_object_id": "double[pyarrow]",
+        "dec_from_object_id": "double[pyarrow]"
+      }
+    },
+    "spectro_line_features_spe_line_features_deep": {
+      "path": "s3://nasa-irsa-euclid-dr1/contributed/dr1/hats/reformatted_catalogs/spectro_line_features_spe_line_features_deep/",
+      "available_columns": [
+        "ra_from_object_id",
+        "dec_from_object_id",
+        "object_id",
+        "spe_rank",
+        "spe_line_name",
+        "spe_line_n_dith",
+        "spe_line_central_wl_gf",
+        "spe_line_central_wl_err_gf",
+        "spe_line_flux_gf",
+        "spe_line_flux_err_gf",
+        "spe_line_ew_gf",
+        "spe_line_ew_err_gf",
+        "spe_line_fwhm_gf",
+        "spe_line_fwhm_err_gf",
+        "spe_line_snr_gf"
+      ],
+      "selected_columns": [
+        "object_id",
+        "spe_rank",
+        "spe_line_name",
+        "spe_line_flux_gf",
+        "spe_line_flux_err_gf",
+        "spe_line_snr_gf",
+        "spe_line_central_wl_gf"
+      ],
+      "n_rows": 1357857,
+      "dtypes": {
+        "object_id": "int64[pyarrow]",
+        "spe_rank": "int16[pyarrow]",
+        "spe_line_name": "string[pyarrow]",
+        "spe_line_flux_gf": "float[pyarrow]",
+        "spe_line_flux_err_gf": "float[pyarrow]",
+        "spe_line_snr_gf": "float[pyarrow]",
+        "spe_line_central_wl_gf": "float[pyarrow]",
+        "ra_from_object_id": "double[pyarrow]",
+        "dec_from_object_id": "double[pyarrow]"
+      }
+    }
+  },
+  "status": "NO_JOINT_HA_OBJECTS_IN_PILOT",
+  "pilot_line_label_counts": {
+    "OIII5008": 111756,
+    "Halpha": 111756,
+    "PaBeta": 111756,
+    "Hbeta": 111756,
+    "PaGamma": 111756,
+    "SIII9068": 111756,
+    "OII3727": 111756,
+    "LyA": 111756,
+    "SII6718": 111756,
+    "SIII9530": 111756,
+    "NII6585": 111582,
+    "HeI10830": 5052,
+    "Hgamma": 3871,
+    "PaEpsilon": 3790,
+    "NI5201": 3681,
+    "HeI4473": 3679,
+    "HeII4687": 3668,
+    "SII4072": 3651,
+    "NeIII3868": 3628,
+    "Hdelta": 3570,
+    "NII5756": 3569,
+    "HeI5876": 3550,
+    "ArIV4713": 3524,
+    "H8": 3521,
+    "H10": 3505,
+    "Hepsilon": 3494,
+    "FeV4231": 3488,
+    "OIII4364": 3468,
+    "NeV3426": 3467,
+    "H11": 3392
+  },
+  "duplicate_rows_mer": 0,
+  "duplicate_rows_spe": 0,
+  "duplicate_rows_line": 22665,
+  "n_joint_Halpha_pilot": 0
+}

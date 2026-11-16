@@ -1,0 +1,8 @@
+__pycache__/
+.pytest_cache/
+.venv/
+# Large or provisional archive extracts should not be committed as if validated.
+tables/day01_raw_irsa.csv
+tables/day01_selected_derived.csv
+metadata/schema_snapshot.json
+metadata/fetch_manifest.json

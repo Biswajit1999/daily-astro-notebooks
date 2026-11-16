@@ -1,0 +1,39 @@
+-- Euclid DR1-Foundation | 2026-11-14 Day 01
+-- Hypothesis: H-alpha line flux vs observed Kron aperture radius
+-- Field: 1.25-degree circle around the approximate EDF-N centre
+-- Broad extraction only; pre-registered quality and S/N cuts are applied locally.
+-- IMPORTANT: verify the DR1 table/column names and units against current
+-- IRSA metadata / the DR1 DPDD before executing or interpreting results.
+SELECT
+    mer.object_id,
+    mer.ra, mer.dec, mer.tileid,
+    mer.vis_det,
+    mer.kron_radius,
+    mer.flux_detection_total,
+    mer.flux_vis_2fwhm_aper,
+    mer.flag_vis,
+    mer.det_quality_flag,
+    mer.spurious_prob,
+    spe.spe_rank,
+    spe.spe_z,
+    spe.spe_z_prob,
+    line.spe_line_name,
+    line.spe_line_qual_gf,
+    line.spe_line_snr_gf,
+    line.spe_line_flux_gf,
+    line.spe_line_flux_err_gf,
+    line.spe_line_central_wl_gf
+FROM euclid_dr1_mer_catalogue_deep_survey AS mer
+JOIN euclid_dr1_spectro_z_spe_galaxy_candidates_deep AS spe
+    ON spe.object_id = mer.object_id
+JOIN euclid_dr1_spectro_line_features_spe_line_features_deep AS line
+    ON line.object_id = spe.object_id
+    AND line.spe_rank = spe.spe_rank
+WHERE
+    spe.spe_rank = 0
+    AND line.spe_line_name = 'Halpha'
+    AND spe.spe_z BETWEEN 0.90 AND 1.50
+    AND 1 = CONTAINS(
+        POINT('ICRS', mer.ra, mer.dec),
+        CIRCLE('ICRS', 269.733, 66.018, 1.25)
+    )

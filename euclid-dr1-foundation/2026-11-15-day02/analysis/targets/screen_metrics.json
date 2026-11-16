@@ -1,0 +1,27 @@
+{
+  "pilot_objects": 1576,
+  "objects_with_spectra_in_partitions": 858,
+  "paired_grism_spectra": 1716,
+  "clean_objects_screened": 421,
+  "screen_snr_threshold": 5,
+  "repeatable_halpha_objects": 5,
+  "multi_line_objects": 6,
+  "multi_line_clean_objects": 3,
+  "multi_line_desi_agreement": 1,
+  "multi_line_separate_grisms": 1,
+  "multi_line_both_lines_all_widths": 5,
+  "archive_partitions": [
+    {
+      "key": "contributed/dr1/hats/reformatted_catalogs/sir_combined_spectra/euclid_dr1_reformatted_catalogs_sir_combined_spectra-hats/dataset/Norder=7/Dir=60000/Npix=61439/part0.snappy.parquet",
+      "archive_md5": "10da20a9b6fdd91e91e91d52d9720432"
+    },
+    {
+      "key": "contributed/dr1/hats/reformatted_catalogs/sir_combined_spectra/euclid_dr1_reformatted_catalogs_sir_combined_spectra-hats/dataset/Norder=8/Dir=160000/Npix=163831/part0.snappy.parquet",
+      "archive_md5": "07ef120d6e2994fb4e2167e830cb61b4"
+    },
+    {
+      "key": "contributed/dr1/hats/reformatted_catalogs/sir_combined_spectra/euclid_dr1_reformatted_catalogs_sir_combined_spectra-hats/dataset/Norder=8/Dir=160000/Npix=163837/part0.snappy.parquet",
+      "archive_md5": "45ba9d62a5133dbf90e031c5e23299b2"
+    }
+  ]
+}

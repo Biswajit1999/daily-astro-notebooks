@@ -1,0 +1,200 @@
+{
+  "date_utc": "2026-11-15T00:39:15.269834+00:00",
+  "data_release": "Euclid DR1-Foundation",
+  "centre_icrs": [
+    269.733,
+    66.018
+  ],
+  "radius_deg": 0.28,
+  "mode": "exploratory extension, not Day01 preregistered full-field confirmation",
+  "git_sha": "4d05ac830a48ee6c0fcf9165c40a89b3ecb2660c",
+  "inputs": [
+    {
+      "kind": "HATS",
+      "path": "s3://nasa-irsa-euclid-dr1/contributed/dr1/hats/reformatted_catalogs/mer_catalogue_deep_survey/",
+      "fields": [
+        "object_id",
+        "ra",
+        "dec",
+        "tileid",
+        "vis_det",
+        "flux_vis_2fwhm_aper"
+      ],
+      "rows": 194011,
+      "predicate": null
+    },
+    {
+      "kind": "HATS",
+      "path": "s3://nasa-irsa-euclid-dr1/contributed/dr1/hats/reformatted_catalogs/spectro_z_spe_galaxy_candidates_deep/",
+      "fields": [
+        "object_id",
+        "spe_rank",
+        "spe_z",
+        "spe_z_prob"
+      ],
+      "rows": 26611,
+      "predicate": "spe_rank == 0"
+    },
+    {
+      "kind": "HATS",
+      "path": "s3://nasa-irsa-euclid-dr1/contributed/dr1/hats/reformatted_catalogs/spectro_line_features_spe_line_features_deep/",
+      "fields": [
+        "object_id",
+        "spe_rank",
+        "spe_line_name",
+        "spe_line_flux_gf",
+        "spe_line_flux_err_gf",
+        "spe_line_snr_gf",
+        "spe_line_central_wl_gf"
+      ],
+      "rows": 79860,
+      "predicate": "spe_rank == 0 and spe_line_name == 'Halpha'"
+    },
+    {
+      "kind": "MER_FINAL-CAT FITS",
+      "tile": 101833450,
+      "s3_key": "dr1/catalogs/MER_FINAL_CATALOG/101833450/EUC_MER_FINAL-CAT_TILE101833450-E4C74_20250828T083538.835384Z_00.00.fits",
+      "bytes": 98769600,
+      "sha256": "2286ff400c176b476e73e12841afbef5800f0ce00e3c13f1149b83966a604457",
+      "matched_rows": 164
+    },
+    {
+      "kind": "MER_FINAL-CAT FITS",
+      "tile": 101833451,
+      "s3_key": "dr1/catalogs/MER_FINAL_CATALOG/101833451/EUC_MER_FINAL-CAT_TILE101833451-47C79E_20250828T015910.694550Z_00.00.fits",
+      "bytes": 98202240,
+      "sha256": "6e1f5d992f9e7c356bec614df049171201c808c7250b59aea7ec219fd8fe780e",
+      "matched_rows": 119
+    },
+    {
+      "kind": "MER_FINAL-CAT FITS",
+      "tile": 101834043,
+      "s3_key": "dr1/catalogs/MER_FINAL_CATALOG/101834043/EUC_MER_FINAL-CAT_TILE101834043-6BD9DC_20250830T215607.990390Z_00.00.fits",
+      "bytes": 92684160,
+      "sha256": "e4cb1ec8ae95ec59df6fad75d7bc2050e163afc45d018fe29728c258648b15e1",
+      "matched_rows": 195
+    },
+    {
+      "kind": "MER_FINAL-CAT FITS",
+      "tile": 101834044,
+      "s3_key": "dr1/catalogs/MER_FINAL_CATALOG/101834044/EUC_MER_FINAL-CAT_TILE101834044-8358E0_20250829T054449.406866Z_00.00.fits",
+      "bytes": 91745280,
+      "sha256": "e3cd5b0dd27a2a6b3bc435063bdfda30e7952351dd7389d5c48b37ed0c2edead",
+      "matched_rows": 384
+    },
+    {
+      "kind": "MER_FINAL-CAT FITS",
+      "tile": 101834045,
+      "s3_key": "dr1/catalogs/MER_FINAL_CATALOG/101834045/EUC_MER_FINAL-CAT_TILE101834045-8B89FC_20250831T162300.799048Z_00.00.fits",
+      "bytes": 89968320,
+      "sha256": "a368a76d915fa40502304c3a83124634ee7211687bdf87565e6763c61e3f5865",
+      "matched_rows": 261
+    },
+    {
+      "kind": "MER_FINAL-CAT FITS",
+      "tile": 101834631,
+      "s3_key": "dr1/catalogs/MER_FINAL_CATALOG/101834631/EUC_MER_FINAL-CAT_TILE101834631-CD6C89_20250830T223233.647994Z_00.00.fits",
+      "bytes": 96307200,
+      "sha256": "cd57e3d75c9e8b9881f7ad6a2190d78a6205f8233bcad994736b0f9d168a9ef2",
+      "matched_rows": 121
+    },
+    {
+      "kind": "MER_FINAL-CAT FITS",
+      "tile": 101834632,
+      "s3_key": "dr1/catalogs/MER_FINAL_CATALOG/101834632/EUC_MER_FINAL-CAT_TILE101834632-7E75EE_20250821T222943.451669Z_00.00.fits",
+      "bytes": 97479360,
+      "sha256": "f37246a13a24fa22399de51f06b6d0beb8a5a0a2bf83080115c8c1d2ce474cd1",
+      "matched_rows": 306
+    },
+    {
+      "kind": "MER_FINAL-CAT FITS",
+      "tile": 101834633,
+      "s3_key": "dr1/catalogs/MER_FINAL_CATALOG/101834633/EUC_MER_FINAL-CAT_TILE101834633-2CDD5_20250828T001216.318045Z_00.00.fits",
+      "bytes": 95592960,
+      "sha256": "03d220cf4b542c2d93636737f8cd946280ef01928bcd6f1d79fb70620e8e4f44",
+      "matched_rows": 26
+    }
+  ],
+  "steps": [
+    {
+      "step": "loaded",
+      "catalogue": "mer_catalogue_deep_survey",
+      "n": 194011
+    },
+    {
+      "step": "loaded",
+      "catalogue": "spectro_z_spe_galaxy_candidates_deep",
+      "n": 26611
+    },
+    {
+      "step": "loaded",
+      "catalogue": "spectro_line_features_spe_line_features_deep",
+      "n": 79860
+    },
+    {
+      "step": "line_valid",
+      "rows": 10908,
+      "unique_objects": 5280
+    },
+    {
+      "step": "spectral_selection",
+      "objects": 1576,
+      "tiles": {
+        "101833450": 164,
+        "101833451": 119,
+        "101834043": 195,
+        "101834044": 384,
+        "101834045": 261,
+        "101834631": 121,
+        "101834632": 306,
+        "101834633": 26
+      }
+    },
+    {
+      "step": "tile_complete",
+      "tile": 101833450,
+      "n_catalogue_matches": 164
+    },
+    {
+      "step": "tile_complete",
+      "tile": 101833451,
+      "n_catalogue_matches": 119
+    },
+    {
+      "step": "tile_complete",
+      "tile": 101834043,
+      "n_catalogue_matches": 195
+    },
+    {
+      "step": "tile_complete",
+      "tile": 101834044,
+      "n_catalogue_matches": 384
+    },
+    {
+      "step": "tile_complete",
+      "tile": 101834045,
+      "n_catalogue_matches": 261
+    },
+    {
+      "step": "tile_complete",
+      "tile": 101834631,
+      "n_catalogue_matches": 121
+    },
+    {
+      "step": "tile_complete",
+      "tile": 101834632,
+      "n_catalogue_matches": 306
+    },
+    {
+      "step": "tile_complete",
+      "tile": 101834633,
+      "n_catalogue_matches": 26
+    },
+    {
+      "step": "morphology_and_quality",
+      "matched": 1576,
+      "clean": 782,
+      "rejected": 794
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "hats_url": "s3://nasa-irsa-euclid-dr1/contributed/dr1/hats/reformatted_catalogs/spectro_line_features_spe_line_features_deep/",
+  "cone_deg": [
+    269.733,
+    66.018,
+    0.28
+  ],
+  "clean_catalogue_sha256": "a705b7808f7b61745d0a1a3bc342613f5c91aa58eb6126d2d13a18da23e089b1",
+  "rank0_halpha_rows_for_clean_objects": 2346,
+  "positive_flux_error_and_snr_ge5_rows": 1695,
+  "valid_rows_outside_good_gf_codes": 633,
+  "objects_with_valid_rows_outside_good_gf_codes": 599,
+  "day02_median_recovered_for_all_objects": true,
+  "package_versions": {
+    "lsdb": "0.11.2",
+    "numpy": "2.3.5",
+    "pandas": "3.1.1"
+  },
+  "comparisons": {
+    "day02_median": {
+      "n_objects": 782,
+      "status": "COMPUTED",
+      "cells": 9,
+      "n": 782,
+      "weighted_median_log10_radius_difference": 0.051660202118242946,
+      "ratio_of_aperture_radius_proxies": 1.126315866555541,
+      "bootstrap_95_interval_log10": [
+        0.021393724119796512,
+        0.07521158405397543
+      ],
+      "permutation_two_sided_p": 0.0004997501249375312,
+      "iterations": 2000,
+      "random_seed": 20261115
+    },
+    "good_prefer_combined": {
+      "excluded_same_priority_duplicates": 0,
+      "selected_codes": {
+        "212": 529,
+        "213": 182,
+        "211": 46
+      },
+      "selected_good_flux": {
+        "n_objects": 757,
+        "status": "COMPUTED",
+        "cells": 9,
+        "n": 757,
+        "weighted_median_log10_radius_difference": 0.04482313240318768,
+        "ratio_of_aperture_radius_proxies": 1.1087231928016226,
+        "bootstrap_95_interval_log10": [
+          0.012626470527392306,
+          0.07179390193938719
+        ],
+        "permutation_two_sided_p": 0.0024987506246876563,
+        "iterations": 2000,
+        "random_seed": 20261115
+      },
+      "day02_median_flux_on_same_objects": {
+        "n_objects": 757,
+        "status": "COMPUTED",
+        "cells": 9,
+        "n": 757,
+        "weighted_median_log10_radius_difference": 0.05387258620816154,
+        "ratio_of_aperture_radius_proxies": 1.132068187103404,
+        "bootstrap_95_interval_log10": [
+          0.02204289369298863,
+          0.07767176530362635
+        ],
+        "permutation_two_sided_p": 0.0004997501249375312,
+        "iterations": 2000,
+        "random_seed": 20261115
+      }
+    },
+    "good_red_only": {
+      "excluded_same_priority_duplicates": 0,
+      "selected_codes": {
+        "212": 700
+      },
+      "selected_good_flux": {
+        "n_objects": 700,
+        "status": "COMPUTED",
+        "cells": 9,
+        "n": 700,
+        "weighted_median_log10_radius_difference": 0.05348402082331887,
+        "ratio_of_aperture_radius_proxies": 1.1310557731647632,
+        "bootstrap_95_interval_log10": [
+          0.015452617073711102,
+          0.07590540263430852
+        ],
+        "permutation_two_sided_p": 0.0004997501249375312,
+        "iterations": 2000,
+        "random_seed": 20261115
+      },
+      "day02_median_flux_on_same_objects": {
+        "n_objects": 700,
+        "status": "COMPUTED",
+        "cells": 9,
+        "n": 700,
+        "weighted_median_log10_radius_difference": 0.054941050403380993,
+        "ratio_of_aperture_radius_proxies": 1.1348567637748617,
+        "bootstrap_95_interval_log10": [
+          0.02255721889765697,
+          0.08042665457512337
+        ],
+        "permutation_two_sided_p": 0.0004997501249375312,
+        "iterations": 2000,
+        "random_seed": 20261115
+      }
+    }
+  }
+}

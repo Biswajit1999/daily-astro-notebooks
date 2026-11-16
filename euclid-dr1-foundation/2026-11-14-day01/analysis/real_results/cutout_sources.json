@@ -1,0 +1,31 @@
+{
+  "s3_key": "dr1/MER/101834044/VIS/EUC_MER_BGSUB-MOSAIC-VIS_TILE101834044-F20EA5_20250828T043943.523084Z_00.00.fits",
+  "targets": [
+    {
+      "id": 2697974927659867240,
+      "ra": 269.7974927,
+      "dec": 65.986724,
+      "flag_vis": 0,
+      "det_quality_flag": 0,
+      "ha_snr": 36.576805,
+      "z": 1.393485,
+      "label": "Clean control",
+      "mosaic_x": 2926.1346322331474,
+      "mosaic_y": 4623.632949954741,
+      "finite_pixels": 40000
+    },
+    {
+      "id": 2696558115658832112,
+      "ra": 269.6558115,
+      "dec": 65.8832112,
+      "flag_vis": 2,
+      "det_quality_flag": 2,
+      "ha_snr": 58.615524,
+      "z": 1.037758,
+      "label": "Blended control",
+      "mosaic_x": 5001.388479750822,
+      "mosaic_y": 894.6025363283989,
+      "finite_pixels": 40000
+    }
+  ]
+}
