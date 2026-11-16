@@ -31,14 +31,17 @@ def legacy_entry(folder: Path) -> dict:
     summary = clean_markdown(paragraphs[0])[:280] if paragraphs else "Real public-archive astronomy analysis."
     archive_dir = folder.parent.name
     date = folder.name[:10]
-    images = [p for p in folder.iterdir() if p.suffix.lower() in {".png", ".jpg", ".jpeg"}]
+    images = sorted(
+        path for path in folder.iterdir()
+        if path.is_file() and path.suffix.lower() in {".png", ".jpg", ".jpeg"}
+    )
     return {
         "id": folder.name,
         "title": title,
         "archive": ARCHIVES[archive_dir],
         "family": ARCHIVES[archive_dir],
         "date": date,
-        "date_display": f"{date[8:10]} Jul 2026",
+        "date_display": datetime.strptime(date, "%Y-%m-%d").strftime("%d %b %Y"),
         "summary": summary,
         "question": summary,
         "notebook": str((folder / "notebook.ipynb").relative_to(ROOT)),
