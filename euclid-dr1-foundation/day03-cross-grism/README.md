@@ -56,6 +56,10 @@ Five warning-inclusive red fits remain above S/N 5 after removing the brightest 
 
 *Figure 2. Top: the highest-S/N peak-removal survivor, shown at its SPE centre before removing the red bin marked by the dashed line. Bottom: the strongest dual fit at an independent DESI centre. Crosses mark usable pixels admitted by mask 2. The dotted line marks the adopted Hα centre.*
 
+![Observed Euclid VIS cutouts of the two example galaxies](analysis/day3_vis_targets.png)
+
+*Figure 3. The rings mark the two MER targets in Figure 2. Each cutout spans 12 arcsec. North is up and east is left. The images give morphological context for the selected spectra.* [Image products and checksums](analysis/target_image_products.json) · [Cutout and figure code](analysis/target_images.py)
+
 ## 4. Discussion and conclusions
 
 The strict null result is caused by fit-window quality and coverage. It gives no estimate of the intrinsic Hα detection rate or a blue–red flux offset. The 14 warning-inclusive detections are conditional on the adopted template, masks and sample selection. The five red survivors provide a bounded list for testing individual exposures, dispersion orientations and wavelength-dependent contamination. The DESI matches test redshift placement for a separate subset. This pass identifies no new astrophysical object or redshift.

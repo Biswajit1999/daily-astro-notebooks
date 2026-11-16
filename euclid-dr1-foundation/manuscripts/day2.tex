@@ -46,16 +46,23 @@ VIS, reliable red &233&$+0.01719$&$-0.0211$, $+0.0624$\\
 \section{Results and discussion}
 For the same 398 objects, changing the H$\alpha$ estimator lowers the VIS contrast by 0.01961 dex (Table~\ref{tab:contrast}). Three of the five eligible tiles give positive contrasts and two give negative contrasts. In linear units the reliable-red estimate and descriptive endpoints are $+3.3\%$ ($-3.9\%$, $+10.7\%$). Adjacent tiles can share systematics. The line-selected sample and the PSF-convolved aperture measurements limit intrinsic size inference.
 
-\begin{figure*}[t]
+\begin{figure*}[!t]
 \centering
-\includegraphics[width=.58\textwidth]{targets/five_source_diagnostics.png}
+\includegraphics[width=.48\textwidth]{targets/five_source_diagnostics.png}
 \caption{VIS stamps and H$\alpha$-region and [O\,III] $\lambda5008$ windows for the five DR1 sources. Dotted lines mark SPE-predicted wavelengths. Crosses identify bins admitted in the mask-2 sensitivity fit. The white image scale bars are $1''$.}
 \label{fig:cases}
 \end{figure*}
 
-Sources A and B (Fig.~\ref{fig:cases}) are separated by $1.868''$. Their Q1 matches lie within $0.008''$ and $0.019''$. Subaru HSC $i2$ detects both and leaves the shape of B's extension uncertain. A has strict adjusted S/N 14.02 and 12.69 for the H$\alpha$ region and [O\,III], respectively. All six bins in B's H$\alpha$ core carry the low-S/N warning. Its relaxed adjusted S/N is 4.50, and strict [O\,III] has S/N 2.28.
+Sources A and B (Fig.~\ref{fig:cases}) are separated by $1.868''$. Their Q1 matches lie within $0.008''$ and $0.019''$. Independent Subaru HSC $i2$ detects both and leaves the shape of B's extension uncertain (Fig.~\ref{fig:pair}). A has strict adjusted S/N 14.02 and 12.69 for the H$\alpha$ region and [O\,III], respectively. All six bins in B's H$\alpha$ core carry the low-S/N warning. Its relaxed adjusted S/N is 4.50, and strict [O\,III] has S/N 2.28.
 
 C has positive flux in all 12 usable red extractions, with formal S/N up to 7.98 and 6.93 in different directions without a listed contaminant in those fits. D's warning-inclusive formal S/N falls from 21.23 to 1.14 on removing one flagged bin. Its highest strict individual S/N is 2.34. E has strict adjusted blue-grism H$\alpha$ and [O\,III] S/N of 26.11 and 12.46. DESI gives $z=0.975547$ at $0.102''$ from E, compared with Euclid $z=0.975754$ \citep{desi2025}. Across 97 unique matches at $0.2''$, 81 agree to $|\Delta z|/(1+z_{\mathrm{DESI}})\leq0.002$. The fraction applies to the cross-matched subset.
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=\columnwidth]{targets/pair/Euclid_pair_RGB.png}
+\caption{Observed close pair A and B. Left to right, Euclid VIS plus NISP J/H colour composite, Euclid VIS, and Subaru HSC $i2$. The circles mark sources $1.868''$ apart. Subaru shows both sources and leaves the shape of B's faint extension unresolved.}
+\label{fig:pair}
+\end{figure}
 
 \section{Conclusions}
 The direct VIS comparison remains inconclusive. The spectral cases identify a repeatable feature, a flagged-bin failure and a redshift with external support. B's origin and physical association with A remain unresolved.

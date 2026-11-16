@@ -2,5 +2,12 @@
 \makeatletter
 \renewcommand*\aa@manuscriptname{\quad\textnormal{Research report}}
 \renewcommand*\aa@textidlineempty{\textit{Euclid Deep Field North}}
+\AtBeginDocument{%
+  \renewcommand*\aa@numarticle{}%
+  \renewcommand*\aa@pageof{Page \thepage}%
+}
 \makeatother
 \hypersetup{pdfauthor={Biswajit Jana}}
+% The A&A class enables review line numbering at the end of the document.
+% These are reader-facing research reports.
+\renewcommand{\linenumbers}{\nolinenumbers}

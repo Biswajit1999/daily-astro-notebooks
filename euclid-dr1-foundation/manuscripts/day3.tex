@@ -36,13 +36,20 @@ The adjusted S/N divides the formal diagonal-variance S/N by the larger of one a
 \section{Results}
 The predicted centres of 407 sources lie on both grids. Requiring both full windows leaves 356 (Fig.~\ref{fig:coverage}). There are 104 strict blue fits, of which 54 reach adjusted S/N~$\geq5$. No strict red fit passes. In the red grism 311 windows have zero usable core bins, 353 have fewer than five, and 355 have fewer than five pixels in at least one sideband. These sets overlap. At the strict offset centres there is also no dual fit. The strict controls therefore cannot estimate the false-positive rate of the warning-inclusive sample.
 
-The warning-inclusive mask gives 180 blue fits, 46 red fits, and 22 dual fits. Fourteen of the 22 reach the dual threshold. After removing the brightest red core bin, five remain above the threshold, one remains measurable below it, and eight lose fit coverage. The examples in Fig.~\ref{fig:examples} illustrate the two tests. The best red survivor, MER 2693214850660403334, gives adjusted red S/N 9.17 after removal. The blue and red fits for MER 2695057816657579082 reach 13.29 and 9.23 at DESI $z=0.905244$. Of three DESI galaxies among the 14 dual candidates, two pass in both grisms when re-centred on DESI. Those two lose coverage in the separate SPE-centred peak-removal test. No candidate passes both checks.
+The warning-inclusive mask gives 180 blue fits, 46 red fits, and 22 dual fits. Fourteen of the 22 reach the dual threshold. After removing the brightest red core bin, five remain above the threshold, one remains measurable below it, and eight lose fit coverage. The examples in Fig.~\ref{fig:examples} illustrate the two tests. Figure~\ref{fig:targets} shows the corresponding VIS images. The best red survivor, MER 2693214850660403334, gives adjusted red S/N 9.17 after removal. The blue and red fits for MER 2695057816657579082 reach 13.29 and 9.23 at DESI $z=0.905244$. Of three DESI galaxies among the 14 dual candidates, two pass in both grisms when re-centred on DESI. Those two lose coverage in the separate SPE-centred peak-removal test. No candidate passes both checks.
 
 \begin{figure}[t]
 \centering
 \includegraphics[width=\columnwidth]{example_spectra.png}
 \caption{H$\alpha$-region fits for the strongest peak-removal survivor (top) and the strongest dual fit at a DESI redshift (bottom). Crosses mark usable pixels with mask 2. The dashed line identifies the tested red-grism bin.}
 \label{fig:examples}
+\end{figure}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\columnwidth]{day3_vis_targets.png}
+\caption{Observed Euclid VIS thumbnails at the catalogue coordinates of the two spectral examples in Fig.~\ref{fig:examples}. Each panel spans $12''$, with north up and east left. The rings mark the MER positions.}
+\label{fig:targets}
 \end{figure}
 
 \section{Discussion and conclusions}
