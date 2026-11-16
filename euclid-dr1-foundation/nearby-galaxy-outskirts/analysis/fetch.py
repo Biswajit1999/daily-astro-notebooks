@@ -39,7 +39,7 @@ def list_keys(tile, instrument):
     return sorted(node.findtext("{*}Key") for node in root.findall("{*}Contents"))
 
 
-def extract(key, ra, dec, output):
+def extract(key, ra, dec, output, *, half_size=HALF, stripe_rows=256):
     raw = range_bytes(key, 0, 28800)
     end = next(i+80 for i in range(0,len(raw),80) if raw[i:i+8]==b"END     ")
     hdr = fits.Header.fromstring(raw[:end].decode("ascii"),sep="")
@@ -48,15 +48,15 @@ def extract(key, ra, dec, output):
     nx,ny=hdr["NAXIS1"],hdr["NAXIS2"]
     wcs=WCS(hdr).celestial
     x,y=(round(float(n)) for n in wcs.world_to_pixel_values(ra,dec))
-    left,right=max(0,x-HALF),min(nx,x+HALF)
-    low,high=max(0,y-HALF),min(ny,y+HALF)
+    left,right=max(0,x-half_size),min(nx,x+half_size)
+    low,high=max(0,y-half_size),min(ny,y+half_size)
     if left>=right or low>=high:
         raise ValueError(f"Position lies outside {key}")
-    # Read only 256 native rows per request, then retain the selected columns.
+    # Read a stripe of native rows per request, then retain the selected columns.
     data=np.full((high-low,right-left),np.nan,dtype=">f4")
     offset=((end+2879)//2880)*2880
-    for bottom in range(low,high,256):
-        top=min(bottom+256,high)
+    for bottom in range(low,high,stripe_rows):
+        top=min(bottom+stripe_rows,high)
         stripe=range_bytes(key,offset+bottom*nx*4,offset+top*nx*4)
         data[bottom-low:top-low]=np.frombuffer(stripe,">f4").reshape(-1,nx)[:,left:right]
     header=wcs.slice(np.s_[low:high,left:right]).to_header()

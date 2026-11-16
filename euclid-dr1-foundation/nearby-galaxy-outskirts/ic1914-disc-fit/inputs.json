@@ -1,0 +1,40 @@
+[
+  {
+    "band": "vis",
+    "key": "dr1/MER/102020046/VIS/EUC_MER_BGSUB-MOSAIC-VIS_TILE102020046-E561EE_20250805T103853.845982Z_00.00.fits",
+    "bounds": [
+      556,
+      3856,
+      4345,
+      7645
+    ],
+    "pixel_sha256": "59a8785de28ff745b2698f833519aa4a66cb83efda43103bfbd81d031c69fd6a"
+  },
+  {
+    "band": "h",
+    "key": "dr1/MER/102020046/NISP/EUC_MER_BGSUB-MOSAIC-NIR-H_TILE102020046-A64936_20250805T081200.265721Z_00.00.fits",
+    "bounds": [
+      556,
+      3856,
+      4345,
+      7645
+    ],
+    "pixel_sha256": "92927fc065af70d7080a14ed4bc403f7b6e8c8babfe430f9eae396288dbb7b80"
+  },
+  {
+    "band": "legacy_r",
+    "url": "https://www.legacysurvey.org/viewer/fits-cutout?ra=49.8551&dec=-49.59967&size=512&pixscale=0.65&layer=ls-dr10&bands=r",
+    "file_sha256": "a3f7eea45a369f0724607d600d68bffe5811bb29aa4bd7b42b1fd8e079a2a5f0"
+  },
+  {
+    "band": "vis_sky",
+    "key": "dr1/MER/102020046/VIS/EUC_MER_BGMOD-VIS_TILE102020046-32ACAB_20250805T103853.845794Z_00.00.fits",
+    "bounds": [
+      556,
+      3856,
+      4345,
+      7645
+    ],
+    "pixel_sha256": "7aa68eb5765bf685c83e79ba5ad2a59a660039860b79a845cdb7123cc4ffbd6f"
+  }
+]
