@@ -1,0 +1,44 @@
+[
+  {
+    "filename": "vis.fits",
+    "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/102161072/VIS/EUC_MER_BGSUB-MOSAIC-VIS_TILE102161072-EB53A8_20250726T045214.454431Z_00.00.fits",
+    "bytes": 1474565760,
+    "sha256": "5fb2f0a1707687f54c6c377dcf414e18fe09f3375bf14d149b59da13f70f90a5"
+  },
+  {
+    "filename": "vis_flag.fits",
+    "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/102161072/VIS/EUC_MER_MOSAIC-VIS-FLAG_TILE102161072-62714E_20250726T033538.753756Z_00.00.fits",
+    "bytes": 1474565760,
+    "sha256": "9deb3408e517a723ccf8e68723f98c881a1006f8632996e16e8be193cb72511a"
+  },
+  {
+    "filename": "fuv.fits",
+    "url": "https://irsa.ipac.caltech.edu/data/SPITZER/LVL/images/galex/NGC4236_galex_FUV_int_crop.fits",
+    "bytes": 49098240,
+    "sha256": "dfdb13ae0010336fd5836695d54e6b68c595e43bdc432a18ddac28d75f234258"
+  },
+  {
+    "filename": "nuv.fits",
+    "url": "https://irsa.ipac.caltech.edu/data/SPITZER/LVL/images/galex/NGC4236_galex_NUV_int_crop.fits",
+    "bytes": 49098240,
+    "sha256": "6da5c592c973214271ef4109858923f9040575f6a0354df6abf95eb80fa9432a"
+  },
+  {
+    "filename": "fuv_cov.fits",
+    "url": "https://irsa.ipac.caltech.edu/data/SPITZER/LVL/images/galex/NGC4236_galex_FUV_rrhr_crop.fits",
+    "bytes": 49098240,
+    "sha256": "5c595f3d24b8c0598f01640041333610788d3157ef3d5ad89eddc63ceba88721"
+  },
+  {
+    "filename": "sings_ha.fits",
+    "url": "https://irsa.ipac.caltech.edu/data/SPITZER/SINGS/galaxies/ngc4236/Ancillary/ngc4236_HA_dr4.fits",
+    "bytes": 96039360,
+    "sha256": "6e7f2d143eba44484c754819601c507ab684e38cfdaf582f0374f8c863ea08db"
+  },
+  {
+    "filename": "sings_r.fits",
+    "url": "https://irsa.ipac.caltech.edu/data/SPITZER/SINGS/galaxies/ngc4236/Ancillary/ngc4236_R_dr4.fits",
+    "bytes": 96053760,
+    "sha256": "bf697cf75100a99daf0da503dd94cd41bda0d387ce995d7ce80f994b40c483f0"
+  }
+]

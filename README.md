@@ -28,6 +28,7 @@ The Deep Field North study examines how imaging cuts, aperture definitions and s
 | Report | Finding | PDF |
 |---|---|---|
 | [Hα measurements and optical aperture sizes in Euclid Deep Field North](euclid-dr1-foundation/edf-north-halpha/) | The direct VIS size contrast spans zero. Of 14 dual-grism candidates, five remain above the red-grism threshold after removing the strongest red core bin. | [Download](euclid-dr1-foundation/edf-north-halpha/report/Euclid_EDF_North_Halpha.pdf) |
+| [Ultraviolet knots and optical counterparts in NGC 4236](euclid-dr1-foundation/ngc4236-uv-optical/) | Gaia identifies one of 23 exterior candidates' optical counterparts as a foreground star. The connection to the galaxy's extraplanar ionised gas remains unresolved. | [Download](euclid-dr1-foundation/ngc4236-uv-optical/report/NGC4236_UV_VIS.pdf) |
 
 [View the Euclid research page](https://biswajit1999.github.io/daily-astro-notebooks/#euclid) · [Browse the reports and analysis code](euclid-dr1-foundation/)
 

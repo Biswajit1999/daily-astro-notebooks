@@ -1,0 +1,3 @@
+SELECT source_id,ra,dec,parallax,parallax_error,pmra,pmra_error,pmdec,pmdec_error,phot_g_mean_mag,ruwe
+FROM gaiadr3.gaia_source_lite
+WHERE 1=CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',184.175492,69.462569,0.17))
