@@ -1,0 +1,52 @@
+name: Archive Day 02 measured Euclid results on research branch
+on:
+  push:
+    branches: [research/euclid-dr1-foundation-day01-20261114]
+    paths:
+      - '.github/workflows/euclid-dr1-day02-archive.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+jobs:
+  archive:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/euclid-dr1-foundation-day01-20261114
+          persist-credentials: true
+      - name: Download reproducible outputs of the verified Day 02 run
+        uses: actions/download-artifact@v4
+        with:
+          name: euclid-dr1-foundation-day02-multitile-data
+          run-id: 43659172591
+          github-token: ${{ github.token }}
+          path: euclid-dr1-foundation/2026-11-15-day02/analysis/observed_results
+      - name: Check result file completeness
+        run: |
+          test -s euclid-dr1-foundation/2026-11-15-day02/analysis/observed_results/metrics.json
+          test -s euclid-dr1-foundation/2026-11-15-day02/analysis/observed_results/provenance.json
+          test -s euclid-dr1-foundation/2026-11-15-day02/analysis/observed_results/strict_clean.csv
+          test -s euclid-dr1-foundation/2026-11-15-day02/analysis/observed_results/figures/02_size_lineflux_by_quality.png
+          python - <<'PY'
+          import json,pathlib
+          p=pathlib.Path("euclid-dr1-foundation/2026-11-15-day02/analysis/observed_results/metrics.json")
+          m=json.loads(p.read_text())
+          assert m["status"]=="EXPLORATORY_MULTI_TILE_ESTIMATE"
+          assert m["gate"].startswith("NO-GO")
+          assert m["selection"]["clean_quality"]==782
+          print("Verified measured outputs: 782 clean records; NO-GO maintained")
+          PY
+      - name: Commit archived observed data and plots as researcher
+        run: |
+          git config user.name "Biswajit Jana"
+          git config user.email "49089568+Biswajit1999@users.noreply.github.com"
+          git add euclid-dr1-foundation/2026-11-15-day02/analysis/observed_results/
+          if ! git diff --cached --quiet; then
+            git commit -m "Archive observed Euclid DR1-F Day 02 multi-tile figures and source tables"
+            bash .github/scripts/push-euclid-archive.sh
+          else
+            echo "Existing committed result files already identical"
+          fi

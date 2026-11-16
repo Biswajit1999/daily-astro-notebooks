@@ -1,0 +1,29 @@
+name: Euclid DR1-F archive diagnostics
+on:
+  push:
+    branches:
+      - research/euclid-dr1-foundation-day01-20261114
+    paths:
+      - '.github/workflows/euclid-dr1-diagnostics.yml'
+      - 'euclid-dr1-foundation/2026-11-14-day01/analysis/scripts/diagnose_dr1_schema.py'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  schema-check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install requests
+      - name: Query public IRSA TAP metadata
+        run: python euclid-dr1-foundation/2026-11-14-day01/analysis/scripts/diagnose_dr1_schema.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: dr1-day01-schema-diagnostic
+          path: euclid-dr1-foundation/2026-11-14-day01/analysis/metadata/live_irsa_schema_diagnostic.json
+          if-no-files-found: warn

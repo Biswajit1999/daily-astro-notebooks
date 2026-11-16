@@ -1,0 +1,27 @@
+name: Euclid DR1-F S3 inventory
+on:
+  push:
+    branches:
+      - research/euclid-dr1-foundation-day01-20261114
+    paths:
+      - '.github/workflows/euclid-dr1-s3-inventory.yml'
+      - 'euclid-dr1-foundation/2026-11-14-day01/analysis/scripts/diagnose_dr1_s3.py'
+permissions:
+  contents: read
+jobs:
+  public-bucket:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install boto3
+      - run: python euclid-dr1-foundation/2026-11-14-day01/analysis/scripts/diagnose_dr1_s3.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: dr1-day01-s3-inventory
+          path: euclid-dr1-foundation/2026-11-14-day01/analysis/metadata/s3_inventory.json
+          if-no-files-found: warn

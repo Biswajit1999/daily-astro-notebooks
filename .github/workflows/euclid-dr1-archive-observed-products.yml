@@ -1,0 +1,42 @@
+name: Archive validated Euclid DR1-F observation products
+on:
+  push:
+    branches: [research/euclid-dr1-foundation-day01-20261114]
+    paths: ['.github/workflows/euclid-dr1-archive-observed-products.yml']
+permissions:
+  contents: write
+  actions: read
+jobs:
+  archive-real-products:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/euclid-dr1-foundation-day01-20261114
+      - name: Download preserved DR1-F real-data artifacts
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p /tmp/euclid-pilot /tmp/euclid-media /tmp/euclid-comparison
+          gh run download 43567226117 --repo Biswajit1999/daily-astro-notebooks -n euclid-dr1-foundation-day01-real-pilot -D /tmp/euclid-pilot
+          gh run download 43568436139 --repo Biswajit1999/daily-astro-notebooks -n dr1-day01-observed-image-spectrum-morphology -D /tmp/euclid-media
+          gh run download 43569109580 --repo Biswajit1999/daily-astro-notebooks -n dr1-day01-observed-clean-blended-cutouts -D /tmp/euclid-comparison
+      - name: Preserve actual observational images, spectrum and source metadata
+        run: |
+          mkdir -p euclid-dr1-foundation/2026-11-14-day01/analysis/real_results/figures
+          mkdir -p euclid-dr1-foundation/2026-11-14-day01/analysis/real_results/tables
+          cp /tmp/euclid-pilot/pilot_summary.json euclid-dr1-foundation/2026-11-14-day01/analysis/real_results/pilot_source_counts.json
+          cp /tmp/euclid-media/real_media_report.json euclid-dr1-foundation/2026-11-14-day01/analysis/real_results/real_media_report.json
+          cp /tmp/euclid-comparison/cutout_sources.json euclid-dr1-foundation/2026-11-14-day01/analysis/real_results/cutout_sources.json
+          cp /tmp/euclid-media/euclid_vis_real_cutout.png euclid-dr1-foundation/2026-11-14-day01/analysis/real_results/figures/
+          cp /tmp/euclid-media/euclid_nisp_real_spectrum.png euclid-dr1-foundation/2026-11-14-day01/analysis/real_results/figures/
+          cp /tmp/euclid-comparison/euclid_vis_clean_vs_blended_real.png euclid-dr1-foundation/2026-11-14-day01/analysis/real_results/figures/
+          cp /tmp/euclid-media/euclid_nisp_real_spectrum.csv euclid-dr1-foundation/2026-11-14-day01/analysis/real_results/tables/
+      - name: Commit observed products to the research branch
+        run: |
+          git config user.name "Biswajit Jana"
+          git config user.email "49089568+Biswajit1999@users.noreply.github.com"
+          git add euclid-dr1-foundation/2026-11-14-day01/analysis/real_results/
+          git diff --cached --quiet || git commit -m "Archive real Euclid DR1-F VIS images and NISP spectrum diagnostics"
+          bash .github/scripts/push-euclid-archive.sh

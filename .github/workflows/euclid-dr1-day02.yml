@@ -1,0 +1,30 @@
+name: Euclid DR1-F Day 02 real multi-tile research
+on:
+  push:
+    branches:
+      - research/euclid-dr1-foundation-day01-20261114
+    paths:
+      - '.github/workflows/euclid-dr1-day02.yml'
+      - 'euclid-dr1-foundation/2026-11-15-day02/analysis/scripts/run_multitile.py'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  observed-analysis:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install 'lsdb>=0.6' s3fs boto3 pyarrow astropy pandas numpy scipy matplotlib
+      - name: Analyse DR1-Foundation Halpha objects across all intersecting MER tiles
+        run: python euclid-dr1-foundation/2026-11-15-day02/analysis/scripts/run_multitile.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: euclid-dr1-foundation-day02-multitile-data
+          path: euclid-dr1-foundation/2026-11-15-day02/analysis/observed_results/
+          if-no-files-found: error
+          retention-days: 30

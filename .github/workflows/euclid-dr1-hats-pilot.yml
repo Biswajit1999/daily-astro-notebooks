@@ -1,0 +1,29 @@
+name: Euclid DR1-F real pilot HATS analysis
+on:
+  push:
+    branches:
+      - research/euclid-dr1-foundation-day01-20261114
+    paths:
+      - '.github/workflows/euclid-dr1-hats-pilot.yml'
+      - 'euclid-dr1-foundation/2026-11-14-day01/analysis/scripts/run_day01_hats_pilot.py'
+permissions:
+  contents: read
+jobs:
+  real-pilot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install 'lsdb>=0.6' s3fs pyarrow pandas numpy matplotlib
+      - name: Read public Euclid DR1-F data and create actual figures
+        run: python euclid-dr1-foundation/2026-11-14-day01/analysis/scripts/run_day01_hats_pilot.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: euclid-dr1-foundation-day01-real-pilot
+          path: euclid-dr1-foundation/2026-11-14-day01/analysis/pilot_real/
+          if-no-files-found: warn
+          retention-days: 14

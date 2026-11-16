@@ -1,0 +1,41 @@
+name: Reproduce and archive real Euclid DR1-F pilot statistical plots
+on:
+  push:
+    branches: [research/euclid-dr1-foundation-day01-20261114]
+    paths: ['.github/workflows/euclid-dr1-reproduce-real-plots.yml']
+permissions:
+  contents: write
+  actions: read
+jobs:
+  real-science:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/euclid-dr1-foundation-day01-20261114
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: python -m pip install numpy pandas scipy matplotlib
+      - name: Download recorded real public DR1-F subsets
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p /tmp/real-raw /tmp/real-morph
+          gh run download 43567226117 --repo Biswajit1999/daily-astro-notebooks -n euclid-dr1-foundation-day01-real-pilot -D /tmp/real-raw
+          gh run download 43568436139 --repo Biswajit1999/daily-astro-notebooks -n dr1-day01-observed-image-spectrum-morphology -D /tmp/real-morph
+      - name: Rerun actual Euclid catalogue statistics
+        run: |
+          python euclid-dr1-foundation/2026-11-14-day01/analysis/scripts/reproduce_real_day01_pilot.py /tmp/real-raw /tmp/real-morph euclid-dr1-foundation/2026-11-14-day01/analysis/real_results
+      - name: Archive derived plots and unique-source tables
+        run: |
+          git config user.name "Biswajit Jana"
+          git config user.email "49089568+Biswajit1999@users.noreply.github.com"
+          git add euclid-dr1-foundation/2026-11-14-day01/analysis/real_results/
+          git diff --cached --quiet || git commit -m "Archive reproducible real Euclid DR1-F statistical plots and quality gate"
+          bash .github/scripts/push-euclid-archive.sh
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: day01-observed-reproduced-statistical-plots
+          path: euclid-dr1-foundation/2026-11-14-day01/analysis/real_results/

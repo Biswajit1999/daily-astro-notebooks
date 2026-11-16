@@ -1,0 +1,26 @@
+name: Euclid DR1-F real MER VIS and NISP observations
+on:
+  push:
+    branches: [research/euclid-dr1-foundation-day01-20261114]
+    paths:
+      - '.github/workflows/euclid-dr1-real-media.yml'
+      - 'euclid-dr1-foundation/2026-11-14-day01/analysis/scripts/fetch_real_vis_nisp.py'
+permissions: {contents: read}
+jobs:
+  observed-media:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: python -m pip install boto3 astropy numpy pandas matplotlib
+      - name: Extract real mission image, spectrum and morphology
+        run: python euclid-dr1-foundation/2026-11-14-day01/analysis/scripts/fetch_real_vis_nisp.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: dr1-day01-observed-image-spectrum-morphology
+          path: euclid-dr1-foundation/2026-11-14-day01/analysis/real_media/
+          if-no-files-found: warn
+          retention-days: 14

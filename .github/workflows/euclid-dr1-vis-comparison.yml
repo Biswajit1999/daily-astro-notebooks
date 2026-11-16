@@ -1,0 +1,23 @@
+name: Euclid DR1-F VIS clean versus blended cutouts
+on:
+  push:
+    branches: [research/euclid-dr1-foundation-day01-20261114]
+    paths:
+      - '.github/workflows/euclid-dr1-vis-comparison.yml'
+      - 'euclid-dr1-foundation/2026-11-14-day01/analysis/scripts/extract_vis_comparison.py'
+permissions: {contents: read}
+jobs:
+  cutout:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: python -m pip install boto3 numpy astropy matplotlib
+      - run: python euclid-dr1-foundation/2026-11-14-day01/analysis/scripts/extract_vis_comparison.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: dr1-day01-observed-clean-blended-cutouts
+          path: euclid-dr1-foundation/2026-11-14-day01/analysis/real_media/
