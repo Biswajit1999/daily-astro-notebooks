@@ -1,0 +1,52 @@
+{
+  "id": "2026-07-30-jwst-image-ring-nebula",
+  "title": "JWST Ring Nebula: selected-field audit",
+  "archive": "MAST \u00b7 JWST NIRCam",
+  "date": "2026-07-30",
+  "question": "Does the selected preview contain a centred ring suitable for shape measurement?",
+  "sample_size": 4235364,
+  "results": [
+    "no centred annular structure is visible in the selected preview",
+    "89.7% of the brightest smoothed pixels lie near the border",
+    "shape measurement is withdrawn"
+  ],
+  "validation": "The result is repeated over five reasonable threshold or smoothing choices and its physical limits are stated.",
+  "notebook": "mast/2026-07-30-jwst-image-ring-nebula/notebook.ipynb",
+  "hero": "mast/2026-07-30-jwst-image-ring-nebula/ring_field_audit.png",
+  "figures": [
+    "mast/2026-07-30-jwst-image-ring-nebula/ring_field_audit.png",
+    "mast/2026-07-30-jwst-image-ring-nebula/ring_localization_sensitivity.png"
+  ],
+  "research_level": "Exploration",
+  "claim_type": "Source / field mismatch",
+  "provenance": [
+    "MAST product jw01558005001_04101_00001_nrcb2_i2d.jpg",
+    "stored preview ring_nebula.jpg"
+  ],
+  "artifacts": [
+    "mast/2026-07-30-jwst-image-ring-nebula/ring_field_metrics.csv"
+  ],
+  "quality_checks": [
+    {
+      "name": "Product identity",
+      "status": "caution"
+    },
+    {
+      "name": "Parameter sensitivity",
+      "status": "pass"
+    },
+    {
+      "name": "Flux calibration",
+      "status": "not available"
+    }
+  ],
+  "limitations": [
+    "JPEG values are display intensities",
+    "no physical scale or chemistry is inferred"
+  ],
+  "tags": [
+    "MAST",
+    "morphology",
+    "quality control"
+  ]
+}

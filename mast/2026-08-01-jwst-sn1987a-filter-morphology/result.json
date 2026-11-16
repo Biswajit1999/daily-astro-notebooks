@@ -1,0 +1,64 @@
+{
+  "id": "2026-08-01-jwst-sn1987a-filter-morphology",
+  "title": "JWST SN 1987A: filter-dependent ring/ejecta structure",
+  "archive": "MAST \u00b7 JWST NIRCam",
+  "date": "2026-08-01",
+  "question": "How does the ring-to-ejecta surface-brightness balance change from 1.5 to 4.44 microns?",
+  "sample_size": 364061,
+  "results": [
+    "PSF-matched ring/ejecta ratio spans a factor 4.14 across F150W\u2013F444W",
+    "largest ratio occurs in F356W",
+    "result repeated across nine ring-aperture definitions per filter"
+  ],
+  "validation": "All filters are WCS-aligned, blurred to an approximate F444W PSF, background-subtracted, and repeated over nine aperture choices.",
+  "notebook": "mast/2026-08-01-jwst-sn1987a-filter-morphology/notebook.ipynb",
+  "hero": "mast/2026-08-01-jwst-sn1987a-filter-morphology/jwst_filter_morphology_panels.png",
+  "figures": [
+    "mast/2026-08-01-jwst-sn1987a-filter-morphology/jwst_filter_morphology_panels.png",
+    "mast/2026-08-01-jwst-sn1987a-filter-morphology/jwst_filter_ratios_and_stress.png"
+  ],
+  "research_level": "Validated",
+  "claim_type": "Filter-resolved morphology",
+  "provenance": [
+    "MAST JWST program 1726",
+    "calibrated NIRCam I2D F150W, F200W, F356W, F444W",
+    "compact cutouts retain MJy/sr and WCS"
+  ],
+  "artifacts": [
+    "data/sn1987a/jwst_f150w_2022_cutout.fits",
+    "data/sn1987a/jwst_f200w_2022_cutout.fits",
+    "data/sn1987a/jwst_f356w_2022_cutout.fits",
+    "data/sn1987a/jwst_f444w_2022_cutout.fits",
+    "mast/2026-08-01-jwst-sn1987a-filter-morphology/jwst_filter_aperture_metrics.csv",
+    "mast/2026-08-01-jwst-sn1987a-filter-morphology/jwst_aperture_sensitivity.csv"
+  ],
+  "quality_checks": [
+    {
+      "name": "WCS registration",
+      "status": "pass"
+    },
+    {
+      "name": "Approximate PSF matching",
+      "status": "pass"
+    },
+    {
+      "name": "Local background subtraction",
+      "status": "pass"
+    },
+    {
+      "name": "Aperture sensitivity",
+      "status": "pass"
+    }
+  ],
+  "limitations": [
+    "apertures are simple circular teaching regions",
+    "background errors omit correlated-pixel covariance",
+    "broadband ratios mix lines and continua and are not chemical abundances"
+  ],
+  "tags": [
+    "JWST",
+    "SN 1987A",
+    "morphology",
+    "PSF matching"
+  ]
+}

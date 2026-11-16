@@ -1,0 +1,50 @@
+{
+  "id": "2026-08-01-uncover-nirspec-spectral-atlas",
+  "title": "Real HST images and JWST spectra of distant galaxies",
+  "archive": "UNCOVER / MAST",
+  "date": "2026-08-01",
+  "question": "What do calibrated 1D and 2D NIRSpec data look like for six z=7.88 to 13.16 galaxies?",
+  "sample_size": 6,
+  "results": [
+    "Six real spectra span z=7.88-13.16",
+    "Each 1D extraction is paired with its real 2D slit image",
+    "A three-filter HST Frontier Fields cutout supplies independent imaging context"
+  ],
+  "validation": "The 1D spectrum, 2D detector image, error array, release redshift, and independent HST cutout are shown together.",
+  "notebook": "mast/2026-08-01-uncover-nirspec-spectral-atlas/notebook.ipynb",
+  "hero": "mast/2026-08-01-uncover-nirspec-spectral-atlas/nirspec_1d_atlas.png",
+  "figures": [
+    "mast/2026-08-01-uncover-nirspec-spectral-atlas/nirspec_1d_atlas.png",
+    "mast/2026-08-01-uncover-nirspec-spectral-atlas/nirspec_2d_atlas.png",
+    "mast/2026-08-01-uncover-nirspec-spectral-atlas/hst_rgb_60157.png"
+  ],
+  "research_level": "Spectroscopic audit",
+  "claim_type": "Multi-telescope data atlas",
+  "provenance": [
+    "UNCOVER DR4.1 public release; Price et al. (2025)",
+    "Solid/secure selection: flag_zspec_qual in {2,3}",
+    "Frozen derivative checksums: data/uncover_dr4_spectroscopy/manifest.json"
+  ],
+  "artifacts": [
+    "mast/2026-08-01-uncover-nirspec-spectral-atlas/spectral_atlas_sources.csv",
+    "mast/2026-08-01-uncover-nirspec-spectral-atlas/hst_rgb_channels.csv"
+  ],
+  "quality_checks": [
+    {
+      "name": "FITS wavelength and flux units",
+      "status": "passed"
+    },
+    {
+      "name": "1D/2D agreement view",
+      "status": "passed"
+    },
+    {
+      "name": "HST filter provenance",
+      "status": "passed"
+    }
+  ],
+  "limitations": [
+    "The atlas does not refit redshifts or lines.",
+    "RGB colours are a display mapping, not human-visible rest-frame colour."
+  ]
+}

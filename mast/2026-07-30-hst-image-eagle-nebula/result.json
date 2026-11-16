@@ -1,0 +1,52 @@
+{
+  "id": "2026-07-30-hst-image-eagle-nebula",
+  "title": "HST Eagle Nebula: pillar-orientation audit",
+  "archive": "MAST \u00b7 HST ACS/WFC",
+  "date": "2026-07-30",
+  "question": "Is the dominant visible edge orientation stable to smoothing?",
+  "sample_size": 8569792,
+  "results": [
+    "dominant high-gradient orientation 175\u00b0 in this preview",
+    "orientation repeated across five smoothing scales",
+    "preview pixels are not calibrated flux"
+  ],
+  "validation": "The result is repeated over five reasonable threshold or smoothing choices and its physical limits are stated.",
+  "notebook": "mast/2026-07-30-hst-image-eagle-nebula/notebook.ipynb",
+  "hero": "mast/2026-07-30-hst-image-eagle-nebula/eagle_morphology_audit.png",
+  "figures": [
+    "mast/2026-07-30-hst-image-eagle-nebula/eagle_morphology_audit.png",
+    "mast/2026-07-30-hst-image-eagle-nebula/eagle_smoothing_sensitivity.png"
+  ],
+  "research_level": "Validated",
+  "claim_type": "Morphology only",
+  "provenance": [
+    "MAST product jck909c4q_raw.jpg",
+    "stored preview eagle_nebula.jpg"
+  ],
+  "artifacts": [
+    "mast/2026-07-30-hst-image-eagle-nebula/eagle_orientation_metrics.csv"
+  ],
+  "quality_checks": [
+    {
+      "name": "Product identity",
+      "status": "pass"
+    },
+    {
+      "name": "Parameter sensitivity",
+      "status": "pass"
+    },
+    {
+      "name": "Flux calibration",
+      "status": "not available"
+    }
+  ],
+  "limitations": [
+    "JPEG values are display intensities",
+    "no physical scale or chemistry is inferred"
+  ],
+  "tags": [
+    "MAST",
+    "morphology",
+    "quality control"
+  ]
+}

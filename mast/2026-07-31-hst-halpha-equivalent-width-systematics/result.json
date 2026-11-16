@@ -1,0 +1,56 @@
+{
+  "id": "2026-07-31-hst-halpha-equivalent-width-systematics",
+  "title": "HST H\u03b1 equivalent-width systematics",
+  "archive": "MAST \u00b7 HST",
+  "date": "2026-07-31",
+  "question": "How stable is H\u03b1 equivalent width to continuum choices?",
+  "sample_size": 567,
+  "results": [
+    "grid median EW 1.848 \u00c5",
+    "method spread 1.895 \u00c5",
+    "spread/reference 102.5%"
+  ],
+  "validation": "Five integration widths and two continuum orders are compared.",
+  "notebook": "mast/2026-07-31-hst-halpha-equivalent-width-systematics/notebook.ipynb",
+  "hero": "mast/2026-07-31-hst-halpha-equivalent-width-systematics/halpha_ew_systematics.png",
+  "tags": [
+    "HST",
+    "H-alpha",
+    "equivalent width",
+    "systematics"
+  ],
+  "figures": [
+    "mast/2026-07-31-hst-halpha-equivalent-width-systematics/halpha_ew_systematics.png",
+    "mast/2026-07-31-hst-halpha-equivalent-width-systematics/halpha_ew_noise_vs_method.png"
+  ],
+  "research_level": "Validated",
+  "claim_type": "Equivalent-width robustness audit",
+  "provenance": [
+    "MAST HST/STIS o49x13010_sx1.fits",
+    "pipeline wavelength, flux and error arrays",
+    "HD 93521 target identity"
+  ],
+  "artifacts": [
+    "mast/2026-07-31-hst-halpha-equivalent-width-systematics/halpha_ew_method_grid.csv",
+    "mast/2026-07-31-hst-halpha-equivalent-width-systematics/halpha_ew_noise_bootstrap.csv"
+  ],
+  "quality_checks": [
+    {
+      "name": "continuum and integration grid",
+      "status": "pass"
+    },
+    {
+      "name": "flux-error propagation",
+      "status": "pass"
+    },
+    {
+      "name": "atmosphere or wind inference",
+      "status": "not attempted"
+    }
+  ],
+  "limitations": [
+    "continuum placement dominates the formal flux error",
+    "broad and variable line structure is not modelled",
+    "instrumental and stellar systematics are not captured by independent-pixel resampling"
+  ]
+}

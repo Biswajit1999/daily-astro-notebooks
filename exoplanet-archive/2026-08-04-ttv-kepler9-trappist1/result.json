@@ -1,0 +1,17 @@
+{
+  "id": "2026-08-04-ttv-kepler9-trappist1",
+  "title": "Do Kepler-9 and TRAPPIST-1 really deviate from a strict linear transit ephemeris?",
+  "archive": "NASA Exoplanet Archive",
+  "date": "2026-08-04",
+  "question": "Do independently-published (T0, P) solutions for Kepler-9 b/c and TRAPPIST-1 deviate from an earliest-anchored linear ephemeris by much more than their quoted uncertainties, and does a ttv_flag=0 control (Kepler-9 d) differ?",
+  "n_planets": 10,
+  "n_oc_points": 38,
+  "results": [
+    "Kepler-9 b (ttv_flag=1): max |O-C| = 766.5 min, median sigma = 950.2",
+    "Kepler-9 c (ttv_flag=1): max |O-C| = 1141.9 min, median sigma = 423.0",
+    "Kepler-9 d (ttv_flag=0, control): max |O-C| = 14.0 min, median sigma = 4.6",
+    "Kepler-9 b median |O-C| is 33.6x the control's; Kepler-9 c is 23.1x the control's.",
+    "TRAPPIST-1 planets show O-C residuals up to 91.6 min across published solutions."
+  ],
+  "validation": "ttv_flag=0 control (Kepler-9 d) shows much smaller O-C than the ttv_flag=1 planets in the same system, consistent with the archive's independent TTV classification and with Kepler-9 b/c's known large TTVs (Holman et al. 2010)."
+}

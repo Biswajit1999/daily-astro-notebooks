@@ -1,0 +1,9 @@
+metric,value
+Sectors used,"[14, 40, 41]"
+Total good cadences,56005
+Recovered fundamental period (days),0.566769
+Published fundamental period (days),0.566796
+Period residual (seconds),-2.4
+Best candidate Blazhko modulation period (days),73.8
+Published Blazhko period (days),~39-41
+Blazhko candidate plausible match,False

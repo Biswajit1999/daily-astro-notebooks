@@ -1,0 +1,24 @@
+{
+  "id": "2026-08-03-hst-47tuc-multiband-sed",
+  "title": "Five real HST filters of 47 Tucanae: do the colors look like a globular cluster?",
+  "archive": "MAST / HST (ACS/WFC)",
+  "date": "2026-08-03",
+  "target": "47 Tucanae (NGC 104)",
+  "question": "Do real, cross-matched multi-band HST photometry colors of 47 Tuc trace the reddening-with-fainter-magnitude trend expected along the main sequence of an old stellar population?",
+  "filters": [
+    "f435w",
+    "f475w",
+    "f555w",
+    "f606w",
+    "f814w"
+  ],
+  "n_reference_sources": 6017,
+  "n_matched_all_filters": 3712,
+  "color_monotonic_with_magnitude": true,
+  "faintest_bin_median_color": 2.5017808035225,
+  "brightest_bin_median_color": 0.6733292199854972,
+  "bright_rgb_luminosity_sources_raw": 10784,
+  "bright_rgb_luminosity_sources_surviving_cut": 0,
+  "proposal_id": 9443,
+  "claim_type": "real multi-band photometric color-magnitude check, not an isochrone-fit age/distance measurement"
+}

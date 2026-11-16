@@ -1,0 +1,20 @@
+{
+  "id": "2026-08-04-kepler-occurrence-rate",
+  "title": "How does Kepler's planet occurrence rate vary by stellar type and planet radius?",
+  "archive": "NASA Exoplanet Archive",
+  "date": "2026-08-04",
+  "question": "Using the real Kepler DR25 target-star catalog and real confirmed-planet catalog, what is a simplified, transit-probability-corrected occurrence rate per (stellar type, planet radius) bin?",
+  "n_target_stars": 196850,
+  "n_planets": 2730,
+  "results": [
+    "Highest occurrence bin: G-type stars, Sub-Neptune (2-4 Re): 20.87% of stars",
+    "Sub-Neptune (2-4 Re) occurrence: M=9.48%, K=16.50%, G=20.87%, F=7.60%",
+    "Earth-size (<1.25 Re) occurrence highest around M dwarfs: 6.67%"
+  ],
+  "validation": "Restricting to a<0.5 AU (better-characterized short-period orbits) preserves the qualitative small-planet occurrence pattern across stellar types seen in the full sample.",
+  "caveats": [
+    "No Kepler pipeline detection-efficiency correction applied (rates are lower bounds, worst for small/long-period planets)",
+    "Spectral type approximated from Teff with round-number boundaries",
+    "disc_facility='Kepler' includes some post-mission follow-up refinements"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2026-07-31-gaia-pleiades-membership-distance",
+  "title": "Gaia DR3 Pleiades membership and distance",
+  "archive": "Gaia DR3",
+  "date": "2026-07-31",
+  "question": "Can astrometry isolate the Pleiades and recover its distance?",
+  "sample_size": 704,
+  "results": [
+    "609 kinematic candidates from 704 quality-filtered sources",
+    "weighted parallax 7.374 mas",
+    "distance 135.6 pc (bootstrap 68%: 135.5\u2013135.8 pc)"
+  ],
+  "validation": "Distance differs by -0.4% from the 136.2 pc comparison value; systematic Gaia terms are not included.",
+  "notebook": "gaia/2026-07-31-gaia-pleiades-membership-distance/notebook.ipynb",
+  "hero": "gaia/2026-07-31-gaia-pleiades-membership-distance/pleiades_proper_motion.png",
+  "tags": [
+    "astrometry",
+    "cluster",
+    "distance",
+    "Gaia"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "2026-08-03-solar-neighborhood-ruwe-binaries",
+  "title": "Solar neighborhood RUWE binary candidates",
+  "n_sample": 12000,
+  "n_ruwe_flagged": 3140,
+  "frac_ruwe_flagged": 0.26166666666666666,
+  "n_excess_noise_flagged": 11951,
+  "frac_excess_noise_flagged": 0.9959166666666667,
+  "n_flagged_by_both": 3140,
+  "agreement_rate": 0.26575
+}

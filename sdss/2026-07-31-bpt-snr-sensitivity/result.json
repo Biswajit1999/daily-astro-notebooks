@@ -1,0 +1,21 @@
+{
+  "id": "2026-07-31-bpt-snr-sensitivity",
+  "title": "BPT sensitivity to line quality",
+  "archive": "SDSS",
+  "date": "2026-07-31",
+  "question": "How do class fractions move with emission-line S/N?",
+  "sample_size": 11950,
+  "results": [
+    "AGN-fraction shift S/N 3\u219210: -0.5%",
+    "S/N\u226510 retains 6,225 galaxies",
+    "four thresholds tested: 3, 5, 8, 10"
+  ],
+  "validation": "Class fractions are recomputed at four complete four-line thresholds.",
+  "notebook": "sdss/2026-07-31-bpt-snr-sensitivity/notebook.ipynb",
+  "hero": "sdss/2026-07-31-bpt-snr-sensitivity/bpt_snr_sensitivity.png",
+  "tags": [
+    "BPT",
+    "quality control",
+    "selection effects"
+  ]
+}

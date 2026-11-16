@@ -1,0 +1,21 @@
+{
+  "id": "2026-07-31-pleiades-cmd-ruwe-binaries",
+  "title": "Pleiades CMD outliers and RUWE",
+  "archive": "Gaia DR3",
+  "date": "2026-07-31",
+  "question": "Do over-luminous candidates have elevated RUWE more often?",
+  "sample_size": 466,
+  "results": [
+    "RUWE>1.2 odds ratio 4.05",
+    "Fisher-test p = 0.00632",
+    "RUWE>1.1 odds ratio 5.58"
+  ],
+  "validation": "The contingency test is repeated at RUWE thresholds 1.2 and 1.1.",
+  "notebook": "gaia/2026-07-31-pleiades-cmd-ruwe-binaries/notebook.ipynb",
+  "hero": "gaia/2026-07-31-pleiades-cmd-ruwe-binaries/pleiades_cmd_ruwe.png",
+  "tags": [
+    "Pleiades",
+    "RUWE",
+    "binary candidates"
+  ]
+}

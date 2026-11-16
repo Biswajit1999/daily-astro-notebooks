@@ -1,0 +1,1348 @@
+{
+  "schema_version": "1.0",
+  "generated": "2026-08-01",
+  "description": "Checksums and provenance for reusable outputs named by scientifically audited notebooks.",
+  "notebooks": [
+    {
+      "id": "2026-07-30-eccentricity-distribution",
+      "archive": "NASA Exoplanet Archive",
+      "research_level": "Validated",
+      "claim_type": "Period-stratified distribution comparison",
+      "provenance": [
+        "NASA Exoplanet Archive pscomppars preserved query",
+        "unique planet rows with eccentricity and period"
+      ]
+    },
+    {
+      "id": "2026-07-30-habitable-zone-kepler442",
+      "archive": "NASA Exoplanet Archive",
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": []
+    },
+    {
+      "id": "2026-07-30-habitable-zone-trappist1",
+      "archive": "NASA Exoplanet Archive",
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": []
+    },
+    {
+      "id": "2026-07-30-mass-period-trend",
+      "archive": "NASA Exoplanet Archive",
+      "research_level": "Validated",
+      "claim_type": "Within-method population correlation",
+      "provenance": [
+        "NASA Exoplanet Archive pscomppars preserved query",
+        "best-mass values converted from Jupiter to Earth masses"
+      ]
+    },
+    {
+      "id": "2026-07-30-rv-curve-51-pegasi-b",
+      "archive": "NASA Exoplanet Archive",
+      "research_level": "Reproduction",
+      "claim_type": "Archive-orbit reconstruction",
+      "provenance": [
+        "NASA Exoplanet Archive composite row",
+        "target 51 Peg b",
+        "semi-amplitude falls back to the value printed by the original executed notebook when absent from preserved table"
+      ]
+    },
+    {
+      "id": "2026-07-30-rv-curve-hd189733b",
+      "archive": "NASA Exoplanet Archive",
+      "research_level": "Reproduction",
+      "claim_type": "Archive-orbit reconstruction",
+      "provenance": [
+        "NASA Exoplanet Archive composite row",
+        "target HD 189733 b",
+        "semi-amplitude falls back to the value printed by the original executed notebook when absent from preserved table"
+      ]
+    },
+    {
+      "id": "2026-07-30-transit-depth-vs-radius",
+      "archive": "NASA Exoplanet Archive",
+      "research_level": "Validated",
+      "claim_type": "Geometric scaling measurement",
+      "provenance": [
+        "NASA Exoplanet Archive pscomppars preserved query",
+        "planet radius and stellar radius used to calculate geometric depth"
+      ]
+    },
+    {
+      "id": "2026-07-31-eccentricity-discovery-bias",
+      "archive": "NASA Exoplanet Archive",
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": []
+    },
+    {
+      "id": "2026-07-31-exoplanet-discovery-method-timeline",
+      "archive": "NASA Exoplanet Archive",
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": []
+    },
+    {
+      "id": "2026-07-31-exoplanet-radius-valley",
+      "archive": "NASA Exoplanet Archive",
+      "research_level": "Validated",
+      "claim_type": "Catalogue radius-deficit measurement",
+      "provenance": [
+        "NASA Exoplanet Archive confirmed transiting planets query",
+        "2,070 selected planets with radius and period",
+        "saved query table and analysis subset"
+      ]
+    },
+    {
+      "id": "2026-07-31-hot-jupiter-radius-inflation",
+      "archive": "NASA Exoplanet Archive",
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": []
+    },
+    {
+      "id": "2026-07-31-hot-jupiter-tidal-circularisation",
+      "archive": "NASA Exoplanet Archive",
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": []
+    },
+    {
+      "id": "2026-07-31-single-vs-multiplanet-systems",
+      "archive": "NASA Exoplanet Archive",
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": []
+    },
+    {
+      "id": "2026-07-30-hr-diagram-hyades",
+      "archive": "Gaia DR3 legacy output",
+      "research_level": "Exploration",
+      "claim_type": "Digitized legacy-output audit",
+      "provenance": [
+        "Original Gaia DR3 ADQL printed in notebook",
+        "preserved hr_hyades.png",
+        "digitized display pixels explicitly not catalogue rows"
+      ]
+    },
+    {
+      "id": "2026-07-30-hr-diagram-ngc188",
+      "archive": "Gaia DR3",
+      "research_level": "Validated",
+      "claim_type": "Membership-threshold measurement",
+      "provenance": [
+        "Gaia DR3 source rows",
+        "UPMASK membership probabilities from chihuanbin/ngc188 public analysis",
+        "columns reduced without changing values"
+      ]
+    },
+    {
+      "id": "2026-07-30-hr-diagram-pleiades",
+      "archive": "Gaia DR3",
+      "research_level": "Validated",
+      "claim_type": "Cluster sequence measurement",
+      "provenance": [
+        "Gaia DR3 saved query",
+        "source-level parallax, photometry, proper motion, and RUWE retained"
+      ]
+    },
+    {
+      "id": "2026-07-30-parallax-distance-sirius",
+      "archive": "Gaia DR3 + Hipparcos",
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": []
+    },
+    {
+      "id": "2026-07-30-parallax-distance-vega",
+      "archive": "Gaia DR3 + Hipparcos",
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": []
+    },
+    {
+      "id": "2026-07-30-proper-motion-membership-m67",
+      "archive": "Gaia DR3 legacy output",
+      "research_level": "Exploration",
+      "claim_type": "Digitized membership-display audit",
+      "provenance": [
+        "Original Gaia DR3 cone query printed in notebook",
+        "preserved m67_pm_members.png",
+        "original output counts 2,000 field and 612 selected"
+      ]
+    },
+    {
+      "id": "2026-07-30-wide-binary-search-alpha-cen",
+      "archive": "Gaia DR3 + SIMBAD geometry",
+      "research_level": "Validated",
+      "claim_type": "Negative query audit",
+      "provenance": [
+        "Original Gaia DR3 query and zero-row output",
+        "SIMBAD coordinates and proper motion for Proxima Centauri",
+        "Gaia bright/high-proper-motion completeness context"
+      ]
+    },
+    {
+      "id": "2026-07-31-gaia-pleiades-membership-distance",
+      "archive": "Gaia DR3",
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": []
+    },
+    {
+      "id": "2026-07-31-pleiades-cmd-ruwe-binaries",
+      "archive": "Gaia DR3",
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": []
+    },
+    {
+      "id": "2026-07-31-pleiades-line-of-sight-depth",
+      "archive": "Gaia DR3",
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": []
+    },
+    {
+      "id": "2026-07-31-pleiades-mass-segregation-proxy",
+      "archive": "Gaia DR3",
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": []
+    },
+    {
+      "id": "2026-07-31-pleiades-proper-motion-dispersion",
+      "archive": "Gaia DR3",
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": []
+    },
+    {
+      "id": "2026-07-30-hst-cutout-m87",
+      "archive": "MAST \u00b7 HST WFC3 preview",
+      "research_level": "Exploration",
+      "claim_type": "Display-image completeness audit",
+      "provenance": [
+        "MAST HST WFC3 preview id5o27qbq_raw.jpg",
+        "original download output retained in executed notebook"
+      ]
+    },
+    {
+      "id": "2026-07-30-hst-image-eagle-nebula",
+      "archive": "MAST \u00b7 HST ACS/WFC",
+      "research_level": "Validated",
+      "claim_type": "Morphology only",
+      "provenance": [
+        "MAST product jck909c4q_raw.jpg",
+        "stored preview eagle_nebula.jpg"
+      ]
+    },
+    {
+      "id": "2026-07-30-jwst-image-carina-nebula",
+      "archive": "MAST \u00b7 JWST NIRCam",
+      "research_level": "Validated",
+      "claim_type": "Morphology only",
+      "provenance": [
+        "MAST product jw05408024001_02101_00001_nrcblong_i2d.jpg",
+        "stored preview carina_nircam.jpg"
+      ]
+    },
+    {
+      "id": "2026-07-30-jwst-image-ring-nebula",
+      "archive": "MAST \u00b7 JWST NIRCam",
+      "research_level": "Exploration",
+      "claim_type": "Source / field mismatch",
+      "provenance": [
+        "MAST product jw01558005001_04101_00001_nrcb2_i2d.jpg",
+        "stored preview ring_nebula.jpg"
+      ]
+    },
+    {
+      "id": "2026-07-30-kepler-lightcurve-kepler10b",
+      "archive": "MAST \u00b7 Kepler",
+      "research_level": "Validated",
+      "claim_type": "Archive remeasurement",
+      "provenance": [
+        "MAST product kplr011904151-2009350155506_llc.fits",
+        "quality flag = 0",
+        "PDCSAP flux"
+      ]
+    },
+    {
+      "id": "2026-07-30-kepler-lightcurve-kepler186f",
+      "archive": "MAST \u00b7 Kepler",
+      "research_level": "Validated",
+      "claim_type": "Full-mission transit recovery",
+      "provenance": [
+        "MAST Kepler KIC 8120608",
+        "17 *_llc.fits long-cadence products",
+        "quality flag = 0 and quarter-wise PDCSAP normalization",
+        "NASA Exoplanet Archive DR25 period 129.945392 d, epoch 176.82285 BKJD, duration 5.786 h"
+      ]
+    },
+    {
+      "id": "2026-07-30-periodogram-hat-p-7b",
+      "archive": "MAST \u00b7 Kepler",
+      "research_level": "Validated",
+      "claim_type": "Independent period recovery",
+      "provenance": [
+        "MAST Kepler KIC 10666592",
+        "18 *_llc.fits long-cadence products",
+        "quality flag = 0 and quarter-wise PDCSAP normalization"
+      ]
+    },
+    {
+      "id": "2026-07-30-tess-lightcurve-toi700",
+      "archive": "MAST \u00b7 TESS",
+      "research_level": "Exploration",
+      "claim_type": "Null / method-sensitive",
+      "provenance": [
+        "MAST product TESS SPOC sectors 27, 28, 30, 31, 33\u201336",
+        "quality flag = 0",
+        "PDCSAP flux"
+      ]
+    },
+    {
+      "id": "2026-07-31-hst-halpha-equivalent-width-systematics",
+      "archive": "MAST \u00b7 HST",
+      "research_level": "Validated",
+      "claim_type": "Equivalent-width robustness audit",
+      "provenance": [
+        "MAST HST/STIS o49x13010_sx1.fits",
+        "pipeline wavelength, flux and error arrays",
+        "HD 93521 target identity"
+      ]
+    },
+    {
+      "id": "2026-07-31-hst-m87-image-morphology",
+      "archive": "MAST \u00b7 HST",
+      "research_level": "Exploration",
+      "claim_type": "Display-image morphology audit",
+      "provenance": [
+        "official HST processed preview saved as m87.jpg",
+        "8,706,420 display pixels",
+        "thresholded intensity moments"
+      ]
+    },
+    {
+      "id": "2026-07-31-hst-stis-continuum-slope",
+      "archive": "MAST \u00b7 HST",
+      "research_level": "Validated",
+      "claim_type": "Empirical continuum-slope measurement",
+      "provenance": [
+        "MAST HST/STIS o49x13010_sx1.fits",
+        "pipeline wavelength, flux and error arrays",
+        "five H/He regions masked"
+      ]
+    },
+    {
+      "id": "2026-07-31-hst-stis-hd93521-line-inventory",
+      "archive": "MAST \u00b7 HST",
+      "research_level": "Validated",
+      "claim_type": "Spectral-feature inventory",
+      "provenance": [
+        "MAST HST/STIS o49x13010_sx1.fits",
+        "pipeline wavelength, flux and error arrays",
+        "laboratory H/He wavelengths"
+      ]
+    },
+    {
+      "id": "2026-08-01-asassn18tb-background-systematics",
+      "archive": "MAST / TESS / DES",
+      "research_level": "Time-domain audit",
+      "claim_type": "Background-treatment stress test",
+      "provenance": [
+        "MAST TESSCut SPOC FFI cutouts, Sectors 1 and 2",
+        "MIT TESS Transients cleaned light curve for SN 2018fhw",
+        "DES DR2 g/r/i HiPS FITS cutouts via CDS"
+      ]
+    },
+    {
+      "id": "2026-08-01-asassn18tb-des-host",
+      "archive": "MAST / TESS / DES",
+      "research_level": "Time-domain audit",
+      "claim_type": "Pre-explosion host-environment audit",
+      "provenance": [
+        "MAST TESSCut SPOC FFI cutouts, Sectors 1 and 2",
+        "MIT TESS Transients cleaned light curve for SN 2018fhw",
+        "DES DR2 g/r/i HiPS FITS cutouts via CDS"
+      ]
+    },
+    {
+      "id": "2026-08-01-asassn18tb-independent-photometry",
+      "archive": "MAST / TESS / DES",
+      "research_level": "Time-domain audit",
+      "claim_type": "Independent light-curve shape recovery",
+      "provenance": [
+        "MAST TESSCut SPOC FFI cutouts, Sectors 1 and 2",
+        "MIT TESS Transients cleaned light curve for SN 2018fhw",
+        "DES DR2 g/r/i HiPS FITS cutouts via CDS"
+      ]
+    },
+    {
+      "id": "2026-08-01-asassn18tb-rise-model",
+      "archive": "MAST / TESS / DES",
+      "research_level": "Time-domain audit",
+      "claim_type": "Conditional early-rise remeasurement",
+      "provenance": [
+        "MAST TESSCut SPOC FFI cutouts, Sectors 1 and 2",
+        "MIT TESS Transients cleaned light curve for SN 2018fhw",
+        "DES DR2 g/r/i HiPS FITS cutouts via CDS"
+      ]
+    },
+    {
+      "id": "2026-08-01-asassn18tb-tess-animation",
+      "archive": "MAST / TESS / DES",
+      "research_level": "Time-domain audit",
+      "claim_type": "Real detector-image diagnostic sequence",
+      "provenance": [
+        "MAST TESSCut SPOC FFI cutouts, Sectors 1 and 2",
+        "MIT TESS Transients cleaned light curve for SN 2018fhw",
+        "DES DR2 g/r/i HiPS FITS cutouts via CDS"
+      ]
+    },
+    {
+      "id": "2026-08-01-hst-jwst-sn1987a-comparison",
+      "archive": "MAST \u00b7 HST WFC3 + JWST NIRCam",
+      "research_level": "Exploration",
+      "claim_type": "Cross-instrument morphology",
+      "provenance": [
+        "HST program 15256 F625W HAP DRC product, 2018-07-08",
+        "JWST program 1726 F200W I2D product, 2022-09-02",
+        "both compact cutouts preserve WCS and original product names"
+      ]
+    },
+    {
+      "id": "2026-08-01-hst-sn1987a-lightcurve",
+      "archive": "HST photometry \u00b7 Rosu et al. 2024",
+      "research_level": "Reproduction",
+      "claim_type": "Peer-reviewed table reanalysis",
+      "provenance": [
+        "Rosu et al. 2024 ApJ 966 238 Table 6",
+        "DOI 10.3847/1538-4357/ad36cc",
+        "HST WFC3 F438W and F625W, 2011\u20132021"
+      ]
+    },
+    {
+      "id": "2026-08-01-hst-sn1987a-timelapse",
+      "archive": "NASA / HST release imagery",
+      "research_level": "Exploration",
+      "claim_type": "Display-morphology time series",
+      "provenance": [
+        "NASA Hubble SN 1987A release collection",
+        "six dated 1200-pixel derivatives of official TIFF frames",
+        "source URLs and dates recorded in data/sn1987a/manifest.json"
+      ]
+    },
+    {
+      "id": "2026-08-01-jwst-sn1987a-filter-morphology",
+      "archive": "MAST \u00b7 JWST NIRCam",
+      "research_level": "Validated",
+      "claim_type": "Filter-resolved morphology",
+      "provenance": [
+        "MAST JWST program 1726",
+        "calibrated NIRCam I2D F150W, F200W, F356W, F444W",
+        "compact cutouts retain MJy/sr and WCS"
+      ]
+    },
+    {
+      "id": "2026-08-01-jwst-sn1987a-rgb",
+      "archive": "MAST \u00b7 JWST NIRCam",
+      "research_level": "Validated",
+      "claim_type": "Calibrated image reconstruction",
+      "provenance": [
+        "MAST JWST program 1726, PI Matsuura",
+        "jw01726-o001_t001 NIRCam I2D mosaics",
+        "F150W, F200W, F444W observed 2022-09-02"
+      ]
+    },
+    {
+      "id": "2026-08-01-uncover-highz-candidate-census",
+      "archive": "UNCOVER / MAST",
+      "research_level": "Exploration",
+      "claim_type": "Photometric candidate analysis",
+      "provenance": [
+        "UNCOVER DR3 SUPER catalog, Zenodo DOI 10.5281/zenodo.11059273",
+        "Upstream MD5 baeb44ce166c920050ceb93220b12e05",
+        "Selection: use_phot=1, flag_eazy=1, 6 <= z_phot < 15"
+      ]
+    },
+    {
+      "id": "2026-08-01-uncover-highz-line-diagnostics",
+      "archive": "UNCOVER / MAST",
+      "research_level": "Spectroscopic audit",
+      "claim_type": "Public line-measurement inventory",
+      "provenance": [
+        "UNCOVER DR4.1 public release; Price et al. (2025)",
+        "Solid/secure selection: flag_zspec_qual in {2,3}",
+        "Frozen derivative checksums: data/uncover_dr4_spectroscopy/manifest.json"
+      ]
+    },
+    {
+      "id": "2026-08-01-uncover-lensing-brightness",
+      "archive": "UNCOVER / MAST",
+      "research_level": "Exploration",
+      "claim_type": "Photometric candidate analysis",
+      "provenance": [
+        "UNCOVER DR3 SUPER catalog, Zenodo DOI 10.5281/zenodo.11059273",
+        "Upstream MD5 baeb44ce166c920050ceb93220b12e05",
+        "Selection: use_phot=1, flag_eazy=1, 6 <= z_phot < 15"
+      ]
+    },
+    {
+      "id": "2026-08-01-uncover-lyman-break-stacks",
+      "archive": "UNCOVER / MAST",
+      "research_level": "Exploration",
+      "claim_type": "Photometric candidate analysis",
+      "provenance": [
+        "UNCOVER DR3 SUPER catalog, Zenodo DOI 10.5281/zenodo.11059273",
+        "Upstream MD5 baeb44ce166c920050ceb93220b12e05",
+        "Selection: use_phot=1, flag_eazy=1, 6 <= z_phot < 15"
+      ]
+    },
+    {
+      "id": "2026-08-01-uncover-nirspec-spectral-atlas",
+      "archive": "UNCOVER / MAST",
+      "research_level": "Spectroscopic audit",
+      "claim_type": "Multi-telescope data atlas",
+      "provenance": [
+        "UNCOVER DR4.1 public release; Price et al. (2025)",
+        "Solid/secure selection: flag_zspec_qual in {2,3}",
+        "Frozen derivative checksums: data/uncover_dr4_spectroscopy/manifest.json"
+      ]
+    },
+    {
+      "id": "2026-08-01-uncover-photz-specz-validation",
+      "archive": "UNCOVER / MAST",
+      "research_level": "Spectroscopic audit",
+      "claim_type": "Matched-sample redshift validation",
+      "provenance": [
+        "UNCOVER DR4.1 public release; Price et al. (2025)",
+        "Solid/secure selection: flag_zspec_qual in {2,3}",
+        "Frozen derivative checksums: data/uncover_dr4_spectroscopy/manifest.json"
+      ]
+    },
+    {
+      "id": "2026-08-01-uncover-redshift-interval-calibration",
+      "archive": "UNCOVER / MAST",
+      "research_level": "Spectroscopic audit",
+      "claim_type": "Photometric interval calibration audit",
+      "provenance": [
+        "UNCOVER DR4.1 public release; Price et al. (2025)",
+        "Solid/secure selection: flag_zspec_qual in {2,3}",
+        "Frozen derivative checksums: data/uncover_dr4_spectroscopy/manifest.json"
+      ]
+    },
+    {
+      "id": "2026-08-01-uncover-size-redshift",
+      "archive": "UNCOVER / MAST",
+      "research_level": "Exploration",
+      "claim_type": "Photometric candidate analysis",
+      "provenance": [
+        "UNCOVER DR3 SUPER catalog, Zenodo DOI 10.5281/zenodo.11059273",
+        "Upstream MD5 baeb44ce166c920050ceb93220b12e05",
+        "Selection: use_phot=1, flag_eazy=1, 6 <= z_phot < 15"
+      ]
+    },
+    {
+      "id": "2026-08-01-uncover-spatial-selection",
+      "archive": "UNCOVER / MAST",
+      "research_level": "Exploration",
+      "claim_type": "Photometric candidate analysis",
+      "provenance": [
+        "UNCOVER DR3 SUPER catalog, Zenodo DOI 10.5281/zenodo.11059273",
+        "Upstream MD5 baeb44ce166c920050ceb93220b12e05",
+        "Selection: use_phot=1, flag_eazy=1, 6 <= z_phot < 15"
+      ]
+    },
+    {
+      "id": "2026-08-01-uncover-spectroscopic-evidence",
+      "archive": "UNCOVER / MAST",
+      "research_level": "Spectroscopic audit",
+      "claim_type": "Release evidence-flag audit",
+      "provenance": [
+        "UNCOVER DR4.1 public release; Price et al. (2025)",
+        "Solid/secure selection: flag_zspec_qual in {2,3}",
+        "Frozen derivative checksums: data/uncover_dr4_spectroscopy/manifest.json"
+      ]
+    },
+    {
+      "id": "2026-07-30-emission-line-measurement",
+      "archive": "SDSS DR17",
+      "research_level": "Validated",
+      "claim_type": "Joint emission-line remeasurement",
+      "provenance": [
+        "SDSS DR17 spec-0266-51602-0001.fits",
+        "saved inverse-variance spectrum",
+        "rest frame uses SDSS pipeline redshift"
+      ]
+    },
+    {
+      "id": "2026-07-30-galaxy-redshift-slice",
+      "archive": "SDSS DR18",
+      "research_level": "Validated",
+      "claim_type": "Redshift concentration measurement",
+      "provenance": [
+        "SDSS DR18 SQL result preserved by BPT notebook",
+        "12,000 spectra with coordinates, redshifts, and line measurements"
+      ]
+    },
+    {
+      "id": "2026-07-30-metallicity-vs-position",
+      "archive": "SDSS legacy catalogue plot",
+      "research_level": "Exploration",
+      "claim_type": "Digitized correlation audit",
+      "provenance": [
+        "Original SDSS SQL and first five rows printed in notebook",
+        "old output Pearson correlation -0.181",
+        "preserved feh_vs_lat.png"
+      ]
+    },
+    {
+      "id": "2026-07-30-qso-redshift-check",
+      "archive": "SDSS DR17",
+      "research_level": "Validated",
+      "claim_type": "Multi-line archive remeasurement",
+      "provenance": [
+        "SDSS DR17 spec-0685-52203-0467.fits",
+        "saved inverse-variance spectrum",
+        "pipeline redshift retained only as comparison"
+      ]
+    },
+    {
+      "id": "2026-07-30-qso-vs-galaxy-colors",
+      "archive": "SDSS legacy catalogue plot",
+      "research_level": "Exploration",
+      "claim_type": "Digitized colour-separation audit",
+      "provenance": [
+        "Original SDSS photometry/spectroscopy join printed in notebook",
+        "preserved color_color.png",
+        "class-coloured pixels digitized approximately"
+      ]
+    },
+    {
+      "id": "2026-07-30-spectral-type-distribution",
+      "archive": "SDSS legacy aggregate",
+      "research_level": "Reproduction",
+      "claim_type": "Multinomial class-fraction audit",
+      "provenance": [
+        "Original SDSS SQL query printed in notebook",
+        "executed aggregate counts: 400 galaxies, 268 stars, 132 QSOs"
+      ]
+    },
+    {
+      "id": "2026-07-30-star-spectrum-classification",
+      "archive": "SDSS DR17",
+      "research_level": "Validated",
+      "claim_type": "Source identity correction",
+      "provenance": [
+        "SDSS DR17 spec-0751-52251-0160.fits",
+        "saved wavelength, flux, inverse variance, and mask",
+        "SDSS pipeline class and redshift metadata"
+      ]
+    },
+    {
+      "id": "2026-07-30-white-dwarf-spectrum",
+      "archive": "SDSS legacy spectrum plot",
+      "research_level": "Exploration",
+      "claim_type": "Digitized spectral-feature audit",
+      "provenance": [
+        "Original SDSS position and pipeline WD subclass",
+        "preserved wd_spectrum.png",
+        "approximately digitized plotted curve"
+      ]
+    },
+    {
+      "id": "2026-07-31-balmer-decrement-dust",
+      "archive": "SDSS",
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": []
+    },
+    {
+      "id": "2026-07-31-bpt-snr-sensitivity",
+      "archive": "SDSS",
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": []
+    },
+    {
+      "id": "2026-07-31-excitation-redshift-selection",
+      "archive": "SDSS",
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": []
+    },
+    {
+      "id": "2026-07-31-n2-metallicity-proxy",
+      "archive": "SDSS",
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": []
+    },
+    {
+      "id": "2026-07-31-sdss-bpt-galaxy-classification",
+      "archive": "SDSS DR18",
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": []
+    }
+  ],
+  "products": [
+    {
+      "path": "data/audit_batches4_7/exoplanet_composite_archive.csv",
+      "notebook_id": "2026-07-30-eccentricity-distribution",
+      "bytes": 443648,
+      "sha256": "3223544d2394697ac2482cd7c4e620b22ec3652e1502d98d8eb7b43e25c7acf1"
+    },
+    {
+      "path": "exoplanet-archive/2026-07-30-eccentricity-distribution/eccentricity_threshold_stress.csv",
+      "notebook_id": "2026-07-30-eccentricity-distribution",
+      "bytes": 309,
+      "sha256": "f5b8193a5c0d30beb53e8b30f1f30821283c127236aa8f9738f584293a30fc52"
+    },
+    {
+      "path": "exoplanet-archive/2026-07-30-mass-period-trend/mass_period_method_bootstrap.csv",
+      "notebook_id": "2026-07-30-mass-period-trend",
+      "bytes": 177,
+      "sha256": "e9fccb59295ef6355adcab209fad0d34ed42cefc5c45808cf7be4406beb0f4f5"
+    },
+    {
+      "path": "exoplanet-archive/2026-07-30-rv-curve-51-pegasi-b/rv_phase_model.csv",
+      "notebook_id": "2026-07-30-rv-curve-51-pegasi-b",
+      "bytes": 34130,
+      "sha256": "97aed76cddfaab29e9875f25cf81c770ec250d185724f752b46f7718b51f8387"
+    },
+    {
+      "path": "exoplanet-archive/2026-07-30-rv-curve-51-pegasi-b/inclination_mass_stress.csv",
+      "notebook_id": "2026-07-30-rv-curve-51-pegasi-b",
+      "bytes": 132,
+      "sha256": "89e99e66617bc836de38f3023d5171e5e714410f5f3bf7c688b5c76f2fbc0b62"
+    },
+    {
+      "path": "exoplanet-archive/2026-07-30-rv-curve-hd189733b/rv_phase_model.csv",
+      "notebook_id": "2026-07-30-rv-curve-hd189733b",
+      "bytes": 34405,
+      "sha256": "fe8bf8a4b28207336b1f92a48807ded13ad50af20fae13d839391ba3b861db7c"
+    },
+    {
+      "path": "exoplanet-archive/2026-07-30-rv-curve-hd189733b/inclination_mass_stress.csv",
+      "notebook_id": "2026-07-30-rv-curve-hd189733b",
+      "bytes": 133,
+      "sha256": "74dcc3bd27984e0a8b156dd5fd6c9ab3287d6b8bafaf1b13ec67c8828eac013c"
+    },
+    {
+      "path": "data/audit_batches4_7/exoplanet_transiting_archive.csv",
+      "notebook_id": "2026-07-30-transit-depth-vs-radius",
+      "bytes": 362536,
+      "sha256": "06ecea71369f461330be7a8429c8dbea8e2261679a6d0884b0e4c4dc4a070d08"
+    },
+    {
+      "path": "exoplanet-archive/2026-07-30-transit-depth-vs-radius/transit_depth_host_radius_stress.csv",
+      "notebook_id": "2026-07-30-transit-depth-vs-radius",
+      "bytes": 261,
+      "sha256": "4928f559d27fc2ec82c7dc95fadaddbc54a6cb202a45e9b93740a19344bf2a6e"
+    },
+    {
+      "path": "exoplanet-archive/2026-07-31-exoplanet-radius-valley/confirmed_transiting_planets.csv",
+      "notebook_id": "2026-07-31-exoplanet-radius-valley",
+      "bytes": 362536,
+      "sha256": "06ecea71369f461330be7a8429c8dbea8e2261679a6d0884b0e4c4dc4a070d08"
+    },
+    {
+      "path": "exoplanet-archive/2026-07-31-exoplanet-radius-valley/radius_valley_sample.csv",
+      "notebook_id": "2026-07-31-exoplanet-radius-valley",
+      "bytes": 196565,
+      "sha256": "181fede394072f77df24f38e84a4794661740df1691497faf181abba1d87302c"
+    },
+    {
+      "path": "exoplanet-archive/2026-07-31-exoplanet-radius-valley/period_binned_valleys.csv",
+      "notebook_id": "2026-07-31-exoplanet-radius-valley",
+      "bytes": 276,
+      "sha256": "f2b48b2237e025292adac03d0ac2c886e2e924ed9537b48f9c9fb9a928a5908e"
+    },
+    {
+      "path": "data/audit_batches4_7/hyades_cmd_digitized_pixels.csv",
+      "notebook_id": "2026-07-30-hr-diagram-hyades",
+      "bytes": 84951,
+      "sha256": "882ca63132987c9ff45a258c65bdba195d5cdc53c7ec29bf974e23813a89dc8d"
+    },
+    {
+      "path": "gaia/2026-07-30-hr-diagram-hyades/hyades_digitization_stress.csv",
+      "notebook_id": "2026-07-30-hr-diagram-hyades",
+      "bytes": 145,
+      "sha256": "6678f6aab09fcc9aa39224ea1582a6a5f38a7b43269b2704d3cd56dff9d4dfa9"
+    },
+    {
+      "path": "data/audit_batches4_7/ngc188_gaia_dr3_members.csv",
+      "notebook_id": "2026-07-30-hr-diagram-ngc188",
+      "bytes": 332122,
+      "sha256": "2d8e728fb96478e1c55d6637dd8bc714393e8b647cdb518f4838741ac3606845"
+    },
+    {
+      "path": "gaia/2026-07-30-hr-diagram-ngc188/ngc188_membership_stress.csv",
+      "notebook_id": "2026-07-30-hr-diagram-ngc188",
+      "bytes": 321,
+      "sha256": "ae7e1e1752f02fe161b4ef64c153f866bf291fde7ec37a50ac375834732a51d0"
+    },
+    {
+      "path": "data/audit_batches4_7/pleiades_gaia_dr3_query.csv",
+      "notebook_id": "2026-07-30-hr-diagram-pleiades",
+      "bytes": 122395,
+      "sha256": "9fe10cb6ed25be789e0966b5c2c476fea33efd4633ec072ebb21fad6b4c6c316"
+    },
+    {
+      "path": "gaia/2026-07-30-hr-diagram-pleiades/pleiades_quality_stress.csv",
+      "notebook_id": "2026-07-30-hr-diagram-pleiades",
+      "bytes": 231,
+      "sha256": "3f358918fd39e50658dad3a428fc3305dccc495509bbda4802436687f4f0c857"
+    },
+    {
+      "path": "data/audit_batches4_7/m67_member_plot_digitized_pixels.csv",
+      "notebook_id": "2026-07-30-proper-motion-membership-m67",
+      "bytes": 28982,
+      "sha256": "8fb97b478e89d66bb138e171cc034237bb0f6a9fc14a3c17adc85001ae3f78e8"
+    },
+    {
+      "path": "gaia/2026-07-30-proper-motion-membership-m67/m67_digitization_stress.csv",
+      "notebook_id": "2026-07-30-proper-motion-membership-m67",
+      "bytes": 225,
+      "sha256": "dd3b3864504b6184dcd29aa18f20c8565ed3167d3335d424d17cf65655bf05f3"
+    },
+    {
+      "path": "gaia/2026-07-30-wide-binary-search-alpha-cen/alpha_cen_radius_geometry.csv",
+      "notebook_id": "2026-07-30-wide-binary-search-alpha-cen",
+      "bytes": 895,
+      "sha256": "c6474314dae87cc121b8bb90cd723e195cdf77348500a6f4f19af2b3e6252984"
+    },
+    {
+      "path": "mast/2026-07-30-hst-cutout-m87/m87.jpg",
+      "notebook_id": "2026-07-30-hst-cutout-m87",
+      "bytes": 718452,
+      "sha256": "ca5bed0a100a7df476fa0328a7bf71073870f6e0f375c3d072e69da8aa1a55c0"
+    },
+    {
+      "path": "mast/2026-07-30-hst-cutout-m87/m87_preview_threshold_audit.csv",
+      "notebook_id": "2026-07-30-hst-cutout-m87",
+      "bytes": 502,
+      "sha256": "dc9ddb663a7f7ccee4b1276b90a7a8c275c7b78a0ee8535fa97487af60c443ba"
+    },
+    {
+      "path": "mast/2026-07-30-hst-cutout-m87/m87_preview_crop_stress.csv",
+      "notebook_id": "2026-07-30-hst-cutout-m87",
+      "bytes": 183,
+      "sha256": "8ea65657924e06a459b77d2fe176c4ccb1c1e93071c0cbc82b766fc3f23fdb7d"
+    },
+    {
+      "path": "mast/2026-07-30-hst-image-eagle-nebula/eagle_orientation_metrics.csv",
+      "notebook_id": "2026-07-30-hst-image-eagle-nebula",
+      "bytes": 84,
+      "sha256": "45f83c1bfb0b4543ce8d233d4a606964e6536291b710d17d249e15bcbd6e8511"
+    },
+    {
+      "path": "mast/2026-07-30-jwst-image-carina-nebula/carina_threshold_metrics.csv",
+      "notebook_id": "2026-07-30-jwst-image-carina-nebula",
+      "bytes": 85,
+      "sha256": "cc30b96663189ada7cd720d392b6b7e23eefd7b55208324001356439716f7270"
+    },
+    {
+      "path": "mast/2026-07-30-jwst-image-ring-nebula/ring_field_metrics.csv",
+      "notebook_id": "2026-07-30-jwst-image-ring-nebula",
+      "bytes": 170,
+      "sha256": "9f65956e13c2833a36d7725cda114d5c8e7b8f2495f85f768eb80c2000b6dcef"
+    },
+    {
+      "path": "mast/2026-07-30-kepler-lightcurve-kepler10b/kepler10_q3_pdcsap.csv",
+      "notebook_id": "2026-07-30-kepler-lightcurve-kepler10b",
+      "bytes": 208325,
+      "sha256": "2031947abae62354c8e0d7a82d6ad58d7d5953aa60e8071d3ddb2ef73b0e411d"
+    },
+    {
+      "path": "mast/2026-07-30-kepler-lightcurve-kepler10b/kepler10_fit_summary.csv",
+      "notebook_id": "2026-07-30-kepler-lightcurve-kepler10b",
+      "bytes": 163,
+      "sha256": "7c0e3ff40ec5f1a6260a6a920da97744f28988ba7604db10fd4041119aa911d5"
+    },
+    {
+      "path": "mast/2026-07-30-kepler-lightcurve-kepler10b/kepler10_model_sensitivity.csv",
+      "notebook_id": "2026-07-30-kepler-lightcurve-kepler10b",
+      "bytes": 466,
+      "sha256": "eb2f0d147319a5c14bce681e643a9592ed938ec00cd698e761801bf6ae6d74ea"
+    },
+    {
+      "path": "mast/2026-07-30-kepler-lightcurve-kepler186f/kepler186_all_quarters.csv",
+      "notebook_id": "2026-07-30-kepler-lightcurve-kepler186f",
+      "bytes": 8698933,
+      "sha256": "88a4fdb6747aa1bb385d28b0979900ed43940cb2758da088ca1e5618d5806d44"
+    },
+    {
+      "path": "mast/2026-07-30-kepler-lightcurve-kepler186f/kepler186_transit_coverage.csv",
+      "notebook_id": "2026-07-30-kepler-lightcurve-kepler186f",
+      "bytes": 360,
+      "sha256": "cd5472a5a8a97f89589b418e760e0b00357c43e47738f6808fd0e5f687a1cfda"
+    },
+    {
+      "path": "mast/2026-07-30-kepler-lightcurve-kepler186f/kepler186_event_depths.csv",
+      "notebook_id": "2026-07-30-kepler-lightcurve-kepler186f",
+      "bytes": 269,
+      "sha256": "eeb90aaaced71f966da0ab35257a0e85264a5ef97f437b46433c82d50f940514"
+    },
+    {
+      "path": "mast/2026-07-30-kepler-lightcurve-kepler186f/kepler186_leave_one_out.csv",
+      "notebook_id": "2026-07-30-kepler-lightcurve-kepler186f",
+      "bytes": 233,
+      "sha256": "3c1f496e3069b45d388e3d199ba448c9491f73979ebc89ea0bf9a10842f58115"
+    },
+    {
+      "path": "mast/2026-07-30-kepler-lightcurve-kepler186f/kepler186_injection_recovery.csv",
+      "notebook_id": "2026-07-30-kepler-lightcurve-kepler186f",
+      "bytes": 410,
+      "sha256": "b070b97b5215d7a7a0c42a507def052454cba94d4ec11ac04354836c148cade9"
+    },
+    {
+      "path": "mast/2026-07-30-periodogram-hat-p-7b/hatp7_all_quarters.csv",
+      "notebook_id": "2026-07-30-periodogram-hat-p-7b",
+      "bytes": 8666155,
+      "sha256": "f3084b7e47b4b72175384c9752e9c68a82574fa08292c6dc152166cfa686eabe"
+    },
+    {
+      "path": "mast/2026-07-30-periodogram-hat-p-7b/hatp7_search_summary.csv",
+      "notebook_id": "2026-07-30-periodogram-hat-p-7b",
+      "bytes": 248,
+      "sha256": "dc5f508c96a9b8c5647bcbab131455f0c5f41d9ba98d5af531201ee8926f2eca"
+    },
+    {
+      "path": "mast/2026-07-30-periodogram-hat-p-7b/hatp7_individual_transit_depths.csv",
+      "notebook_id": "2026-07-30-periodogram-hat-p-7b",
+      "bytes": 16170,
+      "sha256": "4418536075d3cd6d0fabe5ef01ea119bc5031bb37594336bb412cc68ff6af335"
+    },
+    {
+      "path": "mast/2026-07-30-periodogram-hat-p-7b/hatp7_quarter_depths.csv",
+      "notebook_id": "2026-07-30-periodogram-hat-p-7b",
+      "bytes": 786,
+      "sha256": "55df1d6234b602cdad67bf38850161e504108ea95e9bdc40671889913996e2a3"
+    },
+    {
+      "path": "mast/2026-07-30-tess-lightcurve-toi700/toi700_multisector_pdcsap.csv",
+      "notebook_id": "2026-07-30-tess-lightcurve-toi700",
+      "bytes": 494390,
+      "sha256": "d94644e2da7bcaf8e94e52f40efd9fb4005e12e48f29ce2a0c6ab6e65ac3076f"
+    },
+    {
+      "path": "mast/2026-07-30-tess-lightcurve-toi700/toi700_fit_summary.csv",
+      "notebook_id": "2026-07-30-tess-lightcurve-toi700",
+      "bytes": 158,
+      "sha256": "f1b38b43e5404adabc6f4df76eb89b39724aa0ce52a60c4d6d5d99314753870f"
+    },
+    {
+      "path": "mast/2026-07-30-tess-lightcurve-toi700/toi700_model_sensitivity.csv",
+      "notebook_id": "2026-07-30-tess-lightcurve-toi700",
+      "bytes": 451,
+      "sha256": "5507845f8b3ec58e9a822685c08094f5fd17b33783e9409b16db7b5b0068f44c"
+    },
+    {
+      "path": "mast/2026-07-31-hst-halpha-equivalent-width-systematics/halpha_ew_method_grid.csv",
+      "notebook_id": "2026-07-31-hst-halpha-equivalent-width-systematics",
+      "bytes": 261,
+      "sha256": "b06714c50e99b9c8b76726351af4a03da070b1e022dda5e5bd10ebc8afee1b2b"
+    },
+    {
+      "path": "mast/2026-07-31-hst-halpha-equivalent-width-systematics/halpha_ew_noise_bootstrap.csv",
+      "notebook_id": "2026-07-31-hst-halpha-equivalent-width-systematics",
+      "bytes": 14990,
+      "sha256": "4ba80879281a8594300858b8b4743bdd4e6d1466f4199ba0dfae78fb8ce43449"
+    },
+    {
+      "path": "mast/2026-07-31-hst-m87-image-morphology/m87_morphology_threshold_stress.csv",
+      "notebook_id": "2026-07-31-hst-m87-image-morphology",
+      "bytes": 387,
+      "sha256": "a22e345156bf5522327b5d0d28c74191291d025dc9c3a3e128deccb67ffcf2b1"
+    },
+    {
+      "path": "mast/2026-07-31-hst-stis-continuum-slope/continuum_mask_stress.csv",
+      "notebook_id": "2026-07-31-hst-stis-continuum-slope",
+      "bytes": 255,
+      "sha256": "8d6242d66ccd989cecf46e2865f63aa8649700d8ee70bba3a3df297818f5da4c"
+    },
+    {
+      "path": "mast/2026-07-31-hst-stis-continuum-slope/continuum_slope_bootstrap.csv",
+      "notebook_id": "2026-07-31-hst-stis-continuum-slope",
+      "bytes": 19549,
+      "sha256": "fcd18671ab3f68b902e6e4e4ade98489c795185e617391da2f098f9751a6fee7"
+    },
+    {
+      "path": "mast/2026-07-31-hst-stis-hd93521-line-inventory/spectrum_subset.csv",
+      "notebook_id": "2026-07-31-hst-stis-hd93521-line-inventory",
+      "bytes": 35568,
+      "sha256": "7fcf74b6b09389306d7c195bffff5ae4188a9db863922706f50bf49ac57bbb9a"
+    },
+    {
+      "path": "mast/2026-07-31-hst-stis-hd93521-line-inventory/line_measurements.csv",
+      "notebook_id": "2026-07-31-hst-stis-hd93521-line-inventory",
+      "bytes": 740,
+      "sha256": "14f85e2e66e046f53fd2cc0ef485a1e4bddd95627d45989e2973c320423c0772"
+    },
+    {
+      "path": "mast/2026-08-01-asassn18tb-background-systematics/background_correction_stress.csv",
+      "notebook_id": "2026-08-01-asassn18tb-background-systematics",
+      "bytes": 187,
+      "sha256": "fe8dc42cea5ac98c3c01e1e09cb0db4786b618f1d56fb2f76c1de9406c1b6d0c"
+    },
+    {
+      "path": "mast/2026-08-01-asassn18tb-des-host/host_centroid_sensitivity.csv",
+      "notebook_id": "2026-08-01-asassn18tb-des-host",
+      "bytes": 286,
+      "sha256": "ea7c2c50470c6ca3ab469f3991e1899c1c5f64c23a898d8b5bd461f69f63bb57"
+    },
+    {
+      "path": "mast/2026-08-01-asassn18tb-independent-photometry/aperture_vs_mit_lightcurve.csv",
+      "notebook_id": "2026-08-01-asassn18tb-independent-photometry",
+      "bytes": 119166,
+      "sha256": "a7d0deeb5dc331794b879d934199451500ee4f3884cf93105e6df62181c5265e"
+    },
+    {
+      "path": "mast/2026-08-01-asassn18tb-rise-model/rise_fit_window_sensitivity.csv",
+      "notebook_id": "2026-08-01-asassn18tb-rise-model",
+      "bytes": 286,
+      "sha256": "a739cd5ea24fc151a4aa6e59f526b7614cf315e7ea1501eefd2d3796d07494d6"
+    },
+    {
+      "path": "mast/2026-08-01-asassn18tb-tess-animation/movie_frame_brightness.csv",
+      "notebook_id": "2026-08-01-asassn18tb-tess-animation",
+      "bytes": 1690,
+      "sha256": "72a43e162ae725760f14ff1419cb6526519270ed26194dd375a255bd486f6ff1"
+    },
+    {
+      "path": "mast/2026-08-01-asassn18tb-tess-animation/asassn18tb_tess_rise.gif",
+      "notebook_id": "2026-08-01-asassn18tb-tess-animation",
+      "bytes": 316499,
+      "sha256": "d9dcaf941c6431d5302294bff5a666b4ecfdfc9e4f4064636ea44b6c56bafab3"
+    },
+    {
+      "path": "data/sn1987a/hst_f625w_2018_cutout.fits",
+      "notebook_id": "2026-08-01-hst-jwst-sn1987a-comparison",
+      "bytes": 305280,
+      "sha256": "8503a171395fcee15dea5e2d0f250c65fb8f600d18e97edf700122d933868a81"
+    },
+    {
+      "path": "data/sn1987a/jwst_f200w_2022_cutout.fits",
+      "notebook_id": "2026-08-01-hst-jwst-sn1987a-comparison",
+      "bytes": 993600,
+      "sha256": "7bf1cfb8ba9ab63fa388fb78bbd90c83607b0a401463c2d0caa54d6389e57fca"
+    },
+    {
+      "path": "mast/2026-08-01-hst-jwst-sn1987a-comparison/hst_jwst_resolution_stress.csv",
+      "notebook_id": "2026-08-01-hst-jwst-sn1987a-comparison",
+      "bytes": 229,
+      "sha256": "3c2e4a106a33600f1e087d9f3359fff2115e70746b5b11a0d86af77c48b34416"
+    },
+    {
+      "path": "data/sn1987a/hst_photometry_rosu2024_table6.csv",
+      "notebook_id": "2026-08-01-hst-sn1987a-lightcurve",
+      "bytes": 2199,
+      "sha256": "f23413c550f0479a0d30c85ce5a277edceb555486d867c836fa335f807d04e4b"
+    },
+    {
+      "path": "mast/2026-08-01-hst-sn1987a-lightcurve/sn1987a_lightcurve_trends.csv",
+      "notebook_id": "2026-08-01-hst-sn1987a-lightcurve",
+      "bytes": 681,
+      "sha256": "4e9b920337fc01f08897328888be0797000a075d929308beecf08c8a95ea898f"
+    },
+    {
+      "path": "mast/2026-08-01-hst-sn1987a-lightcurve/sn1987a_piecewise_fit.csv",
+      "notebook_id": "2026-08-01-hst-sn1987a-lightcurve",
+      "bytes": 128,
+      "sha256": "594998086b57654e9caad256bcf0985baa48c7a7b3dd37d10163223ae73cdfd9"
+    },
+    {
+      "path": "data/sn1987a/hst_release_frames/frames.csv",
+      "notebook_id": "2026-08-01-hst-sn1987a-timelapse",
+      "bytes": 213,
+      "sha256": "686b069a6a6ab0f835d995c56c122ba2941305c5da5403cb80ff00dd4723587e"
+    },
+    {
+      "path": "mast/2026-08-01-hst-sn1987a-timelapse/sn1987a_display_morphology.csv",
+      "notebook_id": "2026-08-01-hst-sn1987a-timelapse",
+      "bytes": 357,
+      "sha256": "62ba73879a8128dab3a60fe0ef96c8a09ad964735324e0a52f2c00c00d74f6cb"
+    },
+    {
+      "path": "mast/2026-08-01-hst-sn1987a-timelapse/sn1987a_hst_1994_2006.gif",
+      "notebook_id": "2026-08-01-hst-sn1987a-timelapse",
+      "bytes": 1016228,
+      "sha256": "829d979b15e7009ee42e3f28386b95ace5ed323a757587dc6158c3b317e7d9da"
+    },
+    {
+      "path": "data/sn1987a/jwst_f150w_2022_cutout.fits",
+      "notebook_id": "2026-08-01-jwst-sn1987a-filter-morphology",
+      "bytes": 993600,
+      "sha256": "3027be667b28f4c1af80d705adc6f6972e2fab08957710be84383d394e666b84"
+    },
+    {
+      "path": "data/sn1987a/jwst_f356w_2022_cutout.fits",
+      "notebook_id": "2026-08-01-jwst-sn1987a-filter-morphology",
+      "bytes": 250560,
+      "sha256": "935af8d3e3378b34283557ecbc889fba66eec9d68d83c8ebbe39ac26fac66db7"
+    },
+    {
+      "path": "data/sn1987a/jwst_f444w_2022_cutout.fits",
+      "notebook_id": "2026-08-01-jwst-sn1987a-filter-morphology",
+      "bytes": 250560,
+      "sha256": "6bd01c9bd721a6d40ad72b9c00e6d46e9c856e3defd7110ab86dfd9f4a32aa15"
+    },
+    {
+      "path": "mast/2026-08-01-jwst-sn1987a-filter-morphology/jwst_filter_aperture_metrics.csv",
+      "notebook_id": "2026-08-01-jwst-sn1987a-filter-morphology",
+      "bytes": 563,
+      "sha256": "7a274086352af79bf4084fc44b8e8de623b6b575d4da3bc87eab24bf97d286c2"
+    },
+    {
+      "path": "mast/2026-08-01-jwst-sn1987a-filter-morphology/jwst_aperture_sensitivity.csv",
+      "notebook_id": "2026-08-01-jwst-sn1987a-filter-morphology",
+      "bytes": 1283,
+      "sha256": "cde392ec865d014ff26423b1557fe912ad135cfd594937f65a37c1f0bee50e72"
+    },
+    {
+      "path": "mast/2026-08-01-jwst-sn1987a-rgb/jwst_sn1987a_rgb.png",
+      "notebook_id": "2026-08-01-jwst-sn1987a-rgb",
+      "bytes": 147642,
+      "sha256": "19383c5845b027973c001dca391b8e27279f858f5d3fbdd35cd2de3aeb1743a8"
+    },
+    {
+      "path": "mast/2026-08-01-jwst-sn1987a-rgb/jwst_rgb_channel_statistics.csv",
+      "notebook_id": "2026-08-01-jwst-sn1987a-rgb",
+      "bytes": 268,
+      "sha256": "8f4b5b9035e34c09a19d72fe289b5db03a58200a1406c46084f7045e3aa02f54"
+    },
+    {
+      "path": "mast/2026-08-01-uncover-highz-candidate-census/selection_sensitivity.csv",
+      "notebook_id": "2026-08-01-uncover-highz-candidate-census",
+      "bytes": 288,
+      "sha256": "ec54ea73aba7b819a3cf3b8419e7c020a4598f30570a2e1f332468b1e19b7025"
+    },
+    {
+      "path": "mast/2026-08-01-uncover-highz-line-diagnostics/highz_line_detection_counts.csv",
+      "notebook_id": "2026-08-01-uncover-highz-line-diagnostics",
+      "bytes": 974,
+      "sha256": "b8bf522e3e5688a204d6562333b81a9e804a4756db3405ba20e6e822142d36ae"
+    },
+    {
+      "path": "mast/2026-08-01-uncover-highz-line-diagnostics/oiii5007_lensing_scale.csv",
+      "notebook_id": "2026-08-01-uncover-highz-line-diagnostics",
+      "bytes": 4037,
+      "sha256": "a2ebbbf943111eab7c7ef5c2b7b6b8b5cf926f9a9c93288a62896c94a2439494"
+    },
+    {
+      "path": "mast/2026-08-01-uncover-lensing-brightness/magnification_cap_sensitivity.csv",
+      "notebook_id": "2026-08-01-uncover-lensing-brightness",
+      "bytes": 297,
+      "sha256": "b5778ae6654c5612777deb19d1328fa78f3dca118a53b0491a9ce3f21178c253"
+    },
+    {
+      "path": "mast/2026-08-01-uncover-lensing-brightness/lensing_working_sample.csv",
+      "notebook_id": "2026-08-01-uncover-lensing-brightness",
+      "bytes": 93647,
+      "sha256": "909a62952c6b0aadee23127d4e6160474c8f26877b85f4f733e123935be9fb15"
+    },
+    {
+      "path": "mast/2026-08-01-uncover-lyman-break-stacks/median_sed_stacks.csv",
+      "notebook_id": "2026-08-01-uncover-lyman-break-stacks",
+      "bytes": 1538,
+      "sha256": "8a0b7ce54e9a2fb42e570ce69d169bb2c895cfca9f2c11c961ffc7ee25fbe97b"
+    },
+    {
+      "path": "mast/2026-08-01-uncover-lyman-break-stacks/dropout_ratio_summary.csv",
+      "notebook_id": "2026-08-01-uncover-lyman-break-stacks",
+      "bytes": 300,
+      "sha256": "b933f5cdae379e9cf5005ebc464b04a0428ed58b46bfecfc8a742fafd325f800"
+    },
+    {
+      "path": "mast/2026-08-01-uncover-nirspec-spectral-atlas/spectral_atlas_sources.csv",
+      "notebook_id": "2026-08-01-uncover-nirspec-spectral-atlas",
+      "bytes": 352,
+      "sha256": "0b2a724495a8c21fc6afb51e06c6c73339a99a50cf2f6efc75869a59ba89030e"
+    },
+    {
+      "path": "mast/2026-08-01-uncover-nirspec-spectral-atlas/hst_rgb_channels.csv",
+      "notebook_id": "2026-08-01-uncover-nirspec-spectral-atlas",
+      "bytes": 45,
+      "sha256": "b2d0316c39ffa32ff9ad59da079f0147d5130c54dba218237a574d693ed7f264"
+    },
+    {
+      "path": "mast/2026-08-01-uncover-photz-specz-validation/photz_specz_residuals.csv",
+      "notebook_id": "2026-08-01-uncover-photz-specz-validation",
+      "bytes": 3427,
+      "sha256": "e387a906b928b1845fc86347b4a050031bfac07f6712646a62048b8dc8d99850"
+    },
+    {
+      "path": "mast/2026-08-01-uncover-redshift-interval-calibration/coverage_curve.csv",
+      "notebook_id": "2026-08-01-uncover-redshift-interval-calibration",
+      "bytes": 968,
+      "sha256": "10333438a89aaa8fb7f690f565b1385cddd7669c6ed2ea2d0ca5694054c0a80f"
+    },
+    {
+      "path": "mast/2026-08-01-uncover-size-redshift/size_proxy_by_redshift.csv",
+      "notebook_id": "2026-08-01-uncover-size-redshift",
+      "bytes": 379,
+      "sha256": "30f8df28c3c7e3c9ad333377cde11778c83141228249665eabfee11868bb17c2"
+    },
+    {
+      "path": "mast/2026-08-01-uncover-size-redshift/size_cut_sensitivity.csv",
+      "notebook_id": "2026-08-01-uncover-size-redshift",
+      "bytes": 183,
+      "sha256": "1d782cf1636eaf101b29793049b2d86db24220c7f4330741ca00a54f73338020"
+    },
+    {
+      "path": "mast/2026-08-01-uncover-spatial-selection/spatial_grid_summary.csv",
+      "notebook_id": "2026-08-01-uncover-spatial-selection",
+      "bytes": 1454,
+      "sha256": "adf8c9ff544069fdb504711663fb8144728d8becce08c567616553365b3a76f3"
+    },
+    {
+      "path": "mast/2026-08-01-uncover-spatial-selection/spatial_binning_sensitivity.csv",
+      "notebook_id": "2026-08-01-uncover-spatial-selection",
+      "bytes": 514,
+      "sha256": "67a790d6a16cccb066d611485bc4a0fd798809ce9d1ea49812e0285f247eaff1"
+    },
+    {
+      "path": "mast/2026-08-01-uncover-spectroscopic-evidence/spectroscopic_evidence_summary.csv",
+      "notebook_id": "2026-08-01-uncover-spectroscopic-evidence",
+      "bytes": 317,
+      "sha256": "a1a0e510a760d721951f473f6c2e76c326fb509773f17b9907cc126bd7cc7166"
+    },
+    {
+      "path": "mast/2026-08-01-uncover-spectroscopic-evidence/background_flag_stress.csv",
+      "notebook_id": "2026-08-01-uncover-spectroscopic-evidence",
+      "bytes": 98,
+      "sha256": "1ea63f5ab158c695ff220d51da1ef4625700e1fe3fb90a6f357ec9d885e88e40"
+    },
+    {
+      "path": "sdss/2026-07-30-emission-line-measurement/galaxy_sdss_spectrum.csv",
+      "notebook_id": "2026-07-30-emission-line-measurement",
+      "bytes": 220830,
+      "sha256": "62e111d188244389cf3c5c8c56b46491b52439c916835e6ecc20cff7e7c47fef"
+    },
+    {
+      "path": "sdss/2026-07-30-emission-line-measurement/galaxy_sdss_metadata.json",
+      "notebook_id": "2026-07-30-emission-line-measurement",
+      "bytes": 103,
+      "sha256": "479c916a48b7cc25458a8136b12560e7e569bf96120d91786e2489147d5d353a"
+    },
+    {
+      "path": "sdss/2026-07-30-emission-line-measurement/halpha_nii_fit_summary.csv",
+      "notebook_id": "2026-07-30-emission-line-measurement",
+      "bytes": 280,
+      "sha256": "2b081e6c836dba393fe69fc88166c017f6d94f2eff5506d611b9676b086353ca"
+    },
+    {
+      "path": "sdss/2026-07-30-emission-line-measurement/halpha_nii_window_stress.csv",
+      "notebook_id": "2026-07-30-emission-line-measurement",
+      "bytes": 197,
+      "sha256": "f0f2b2b1a6715e2f256e7d94424a2bcd2adaf2a5f5b69d386ea8bff3317017d2"
+    },
+    {
+      "path": "data/audit_batches4_7/sdss_emission_galaxies.csv",
+      "notebook_id": "2026-07-30-galaxy-redshift-slice",
+      "bytes": 1454938,
+      "sha256": "0a406753e5910331b8455cafa679b3252d8e16cc7406177eb2fd0343aecd79ce"
+    },
+    {
+      "path": "sdss/2026-07-30-galaxy-redshift-slice/sdss_redshift_concentrations.csv",
+      "notebook_id": "2026-07-30-galaxy-redshift-slice",
+      "bytes": 437,
+      "sha256": "586db724e18d29501549f2ab00b2f4d828da333882b10bc5d95d2c79ebc8ea5e"
+    },
+    {
+      "path": "data/audit_batches4_7/sdss_metallicity_plot_digitized_pixels.csv",
+      "notebook_id": "2026-07-30-metallicity-vs-position",
+      "bytes": 150713,
+      "sha256": "9631ce45abc835449c6c264f7e2d4c279ccf9da270a5a9326cce57c349ac24cd"
+    },
+    {
+      "path": "sdss/2026-07-30-metallicity-vs-position/sdss_metallicity_digitization_stress.csv",
+      "notebook_id": "2026-07-30-metallicity-vs-position",
+      "bytes": 169,
+      "sha256": "f8b002472509b325212271d9b310509d61a2202257fd3c95729f4a1e0eb22bcf"
+    },
+    {
+      "path": "sdss/2026-07-30-qso-redshift-check/qso_sdss_spectrum.csv",
+      "notebook_id": "2026-07-30-qso-redshift-check",
+      "bytes": 221367,
+      "sha256": "da4f8468d07477282293b5f18f06a8a5a3874199f978fb07a5a3dfbe3ee87c53"
+    },
+    {
+      "path": "sdss/2026-07-30-qso-redshift-check/qso_sdss_metadata.json",
+      "notebook_id": "2026-07-30-qso-redshift-check",
+      "bytes": 108,
+      "sha256": "3fd1939bfd5d7aea5ae3280ab54df4dedf17b4dc4d444e47736d519e72f4f649"
+    },
+    {
+      "path": "sdss/2026-07-30-qso-redshift-check/qso_multiline_redshift.csv",
+      "notebook_id": "2026-07-30-qso-redshift-check",
+      "bytes": 405,
+      "sha256": "4fc511f423c18ec572c76e6d5bc032f7570fa125134f9aa5623380b5529908e7"
+    },
+    {
+      "path": "data/audit_batches4_7/sdss_colour_plot_digitized_pixels.csv",
+      "notebook_id": "2026-07-30-qso-vs-galaxy-colors",
+      "bytes": 283280,
+      "sha256": "0922700f06a9dbee92349ba07c2156c327700903ea619039a8b13c361a48b218"
+    },
+    {
+      "path": "sdss/2026-07-30-qso-vs-galaxy-colors/sdss_colour_digitization_stress.csv",
+      "notebook_id": "2026-07-30-qso-vs-galaxy-colors",
+      "bytes": 174,
+      "sha256": "f57aded90b5b5eaf100b227aadb12953dd0d8cbd8e273a5a1864951ed7f097a8"
+    },
+    {
+      "path": "sdss/2026-07-30-spectral-type-distribution/sdss_patch_class_fractions.csv",
+      "notebook_id": "2026-07-30-spectral-type-distribution",
+      "bytes": 129,
+      "sha256": "43be30519d2fcf71ac378dae12d0d822204db16832683a87a147b14a308b1de9"
+    },
+    {
+      "path": "sdss/2026-07-30-star-spectrum-classification/star_sdss_spectrum.csv",
+      "notebook_id": "2026-07-30-star-spectrum-classification",
+      "bytes": 221007,
+      "sha256": "2be54126d4e64567ced62b21780981dddfc3f39421495f74001e0a32691f7a7e"
+    },
+    {
+      "path": "sdss/2026-07-30-star-spectrum-classification/star_sdss_metadata.json",
+      "notebook_id": "2026-07-30-star-spectrum-classification",
+      "bytes": 108,
+      "sha256": "3c5e648b42681441330f9a982e9a80136fd777b9732bc2430c79ec53bfac6961"
+    },
+    {
+      "path": "sdss/2026-07-30-star-spectrum-classification/source_identity_line_fits.csv",
+      "notebook_id": "2026-07-30-star-spectrum-classification",
+      "bytes": 202,
+      "sha256": "ea636d95fc7fc49ed1105236dfd4b5a20a320dac1b9f7f3a5bb31746960a85fd"
+    },
+    {
+      "path": "sdss/2026-07-30-star-spectrum-classification/source_identity_window_stress.csv",
+      "notebook_id": "2026-07-30-star-spectrum-classification",
+      "bytes": 187,
+      "sha256": "1cafa3526f4da222fea8e7925ab7f65abad6c6b5a0baccc95172fd443af8b04a"
+    },
+    {
+      "path": "data/audit_batches4_7/sdss_white_dwarf_plot_digitized.csv",
+      "notebook_id": "2026-07-30-white-dwarf-spectrum",
+      "bytes": 41419,
+      "sha256": "107139286f24bf1756a56253ee78578d8ab73d45e8673320833b0731b2ce7305"
+    },
+    {
+      "path": "sdss/2026-07-30-white-dwarf-spectrum/wd_balmer_display_depths.csv",
+      "notebook_id": "2026-07-30-white-dwarf-spectrum",
+      "bytes": 148,
+      "sha256": "d9454449a162f273c8419982df637cea220dbf7825f2cd0e443d1cb292397686"
+    },
+    {
+      "path": "sdss/2026-07-30-white-dwarf-spectrum/wd_balmer_window_stress.csv",
+      "notebook_id": "2026-07-30-white-dwarf-spectrum",
+      "bytes": 465,
+      "sha256": "65c53fad9a93f7aceb992b5e5f70b73cb701c2aee3bec271dd77ab6821677f78"
+    }
+  ]
+}

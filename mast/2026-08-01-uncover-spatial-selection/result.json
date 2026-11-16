@@ -1,0 +1,48 @@
+{
+  "id": "2026-08-01-uncover-spatial-selection",
+  "title": "Is the sky density of UNCOVER high-z candidates spatially uniform?",
+  "archive": "UNCOVER / MAST",
+  "date": "2026-08-01",
+  "question": "Do candidate surface-density variations track F444W coverage and lensing structure?",
+  "sample_size": 4639,
+  "results": [
+    "The 7x7 occupied-cell depth relation has Spearman rho = 0.42 (p = 0.0125)",
+    "Grid stress-test rho spans 0.42 to 0.57"
+  ],
+  "validation": "The relation is repeated across five grid resolutions and is interpreted only as a selection diagnostic.",
+  "notebook": "mast/2026-08-01-uncover-spatial-selection/notebook.ipynb",
+  "hero": "mast/2026-08-01-uncover-spatial-selection/highz_candidate_sky_map.png",
+  "figures": [
+    "mast/2026-08-01-uncover-spatial-selection/highz_candidate_sky_map.png",
+    "mast/2026-08-01-uncover-spatial-selection/candidate_density_depth_relation.png"
+  ],
+  "research_level": "Exploration",
+  "claim_type": "Photometric candidate analysis",
+  "provenance": [
+    "UNCOVER DR3 SUPER catalog, Zenodo DOI 10.5281/zenodo.11059273",
+    "Upstream MD5 baeb44ce166c920050ceb93220b12e05",
+    "Selection: use_phot=1, flag_eazy=1, 6 <= z_phot < 15"
+  ],
+  "artifacts": [
+    "mast/2026-08-01-uncover-spatial-selection/spatial_grid_summary.csv",
+    "mast/2026-08-01-uncover-spatial-selection/spatial_binning_sensitivity.csv"
+  ],
+  "quality_checks": [
+    {
+      "name": "finite coordinate and weight cut",
+      "status": "passed"
+    },
+    {
+      "name": "five grid resolutions",
+      "status": "passed"
+    },
+    {
+      "name": "lensing shown explicitly",
+      "status": "passed"
+    }
+  ],
+  "limitations": [
+    "Counts are not corrected by source-plane area or completeness.",
+    "A single cluster field cannot establish cosmic clustering."
+  ]
+}

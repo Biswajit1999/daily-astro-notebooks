@@ -1,0 +1,11 @@
+metric,value
+TESS sectors used,"[15, 16, 56, 76, 83]"
+Total real outbursts detected,9
+Mean outburst peak amplitude (mag),1.66
+Amplitude range (mag),0.71-2.52
+Mean outburst duration above threshold (days),5.99
+Direct within-sector recurrence measurements,4
+Direct recurrence gaps (days),"[13.58, 16.75, 9.39, 5.83]"
+Published historical recurrence range (days),7-50
+Published mean recurrence (days),40.0
+Gaps consistent with published range,3/4

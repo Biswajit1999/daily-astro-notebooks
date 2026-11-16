@@ -1,0 +1,21 @@
+{
+  "id": "2026-08-03-tess-rrlyrae-asteroseismology",
+  "title": "TESS light curve of RR Lyrae itself: recovering the pulsation period, and looking for the Blazhko effect",
+  "archive": "MAST / TESS (SPOC)",
+  "date": "2026-08-03",
+  "target": "RR Lyrae (TIC 159717514)",
+  "question": "Can a blind period search on real TESS light curves recover RR Lyrae's known pulsation period, and is there evidence for its Blazhko amplitude modulation?",
+  "sectors_used": [
+    14,
+    40,
+    41
+  ],
+  "n_cadences": 56005,
+  "recovered_period_days": 0.566768625541351,
+  "published_period_days": 0.566796,
+  "period_residual_seconds": -2.365153227271577,
+  "candidate_blazhko_period_days": 73.80894800483676,
+  "blazhko_candidate_plausible_match": false,
+  "data_quality_caveat": "Target is bright (V~7.1); PDCSAP flux shows large non-astrophysical excursions likely from saturation/non-linearity",
+  "claim_type": "confirmed period recovery (primary); exploratory, lower-confidence amplitude-modulation search (secondary)"
+}

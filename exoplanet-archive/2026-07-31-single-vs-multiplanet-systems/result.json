@@ -1,0 +1,21 @@
+{
+  "id": "2026-07-31-single-vs-multiplanet-systems",
+  "title": "Single versus multi-transiting systems",
+  "archive": "NASA Exoplanet Archive",
+  "date": "2026-07-31",
+  "question": "Do archived planet radii differ with host multiplicity?",
+  "sample_size": 4646,
+  "results": [
+    "median radius contrast -0.62 Earth radii",
+    "bootstrap 95% -0.72 to -0.50",
+    "pre-2023 contrast -0.51 Earth radii"
+  ],
+  "validation": "The contrast is repeated after excluding discoveries later than 2022.",
+  "notebook": "exoplanet-archive/2026-07-31-single-vs-multiplanet-systems/notebook.ipynb",
+  "hero": "exoplanet-archive/2026-07-31-single-vs-multiplanet-systems/single_multi_radius.png",
+  "tags": [
+    "planet architecture",
+    "multiplicity",
+    "transits"
+  ]
+}

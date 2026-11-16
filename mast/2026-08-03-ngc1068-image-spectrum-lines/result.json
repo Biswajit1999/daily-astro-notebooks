@@ -1,0 +1,28 @@
+{
+  "id": "2026-08-03-ngc1068-image-spectrum-lines",
+  "title": "NGC 1068: a real HST image and a real HST spectrum of the same galaxy",
+  "archive": "MAST / HST (WFC3, STIS)",
+  "date": "2026-08-03",
+  "target": "NGC 1068 (Messier 77)",
+  "question": "How many literature narrow emission lines can automated peak detection recover in a real archival HST/STIS spectrum of NGC 1068, and which elements/ions are they?",
+  "n_lines_literature": 14,
+  "n_lines_detected": 7,
+  "elements_identified": [
+    "O++",
+    "S++",
+    "H",
+    "N+",
+    "Ne++"
+  ],
+  "median_velocity_residual_kms": 75.72033079271938,
+  "image_product": "ieyq01010_drc.jpg (HST/WFC3 F555W, proposal 17165)",
+  "spectrum_products": [
+    "o4wk010a0_sx1.fits (STIS/G430L)",
+    "o4wk010b0_sx1.fits (STIS/G750L)"
+  ],
+  "proposal_ids": [
+    17165,
+    7573
+  ],
+  "claim_type": "archival remeasurement / line-identification exercise, not a new nuclear diagnostic"
+}

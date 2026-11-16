@@ -1,0 +1,61 @@
+{
+  "id": "2026-08-01-hst-sn1987a-lightcurve",
+  "title": "SN 1987A: HST ring fading and ejecta plateau",
+  "archive": "HST photometry \u00b7 Rosu et al. 2024",
+  "date": "2026-08-01",
+  "question": "Do the published HST measurements reproduce a fading ring and a flattening ejecta light curve?",
+  "sample_size": 60,
+  "results": [
+    "F625W equatorial-ring flux changes -47.9% from day 8717 to 12598",
+    "F625W ejecta flux changes 19.8% over the same tabulated interval",
+    "best sampled ejecta slope break day 10698; residual-bootstrap 16\u201384% range 10698\u201310698"
+  ],
+  "validation": "All 60 Table 6 measurements are retained with units and errors; slopes use residual resampling and the ejecta breakpoint is selected only from observed epochs.",
+  "notebook": "mast/2026-08-01-hst-sn1987a-lightcurve/notebook.ipynb",
+  "hero": "mast/2026-08-01-hst-sn1987a-lightcurve/sn1987a_hst_lightcurves.png",
+  "figures": [
+    "mast/2026-08-01-hst-sn1987a-lightcurve/sn1987a_hst_lightcurves.png",
+    "mast/2026-08-01-hst-sn1987a-lightcurve/sn1987a_ejecta_plateau_fit.png"
+  ],
+  "research_level": "Reproduction",
+  "claim_type": "Peer-reviewed table reanalysis",
+  "provenance": [
+    "Rosu et al. 2024 ApJ 966 238 Table 6",
+    "DOI 10.3847/1538-4357/ad36cc",
+    "HST WFC3 F438W and F625W, 2011\u20132021"
+  ],
+  "artifacts": [
+    "data/sn1987a/hst_photometry_rosu2024_table6.csv",
+    "mast/2026-08-01-hst-sn1987a-lightcurve/sn1987a_lightcurve_trends.csv",
+    "mast/2026-08-01-hst-sn1987a-lightcurve/sn1987a_piecewise_fit.csv"
+  ],
+  "quality_checks": [
+    {
+      "name": "Published values transcribed with units",
+      "status": "pass"
+    },
+    {
+      "name": "Residual bootstrap",
+      "status": "pass"
+    },
+    {
+      "name": "Breakpoint restricted to observed epochs",
+      "status": "pass"
+    },
+    {
+      "name": "Agreement with paper direction",
+      "status": "pass"
+    }
+  ],
+  "limitations": [
+    "this notebook reanalyses published photometry rather than raw exposures",
+    "tabulated statistical errors omit some systematics",
+    "ten epochs give coarse breakpoint resolution"
+  ],
+  "tags": [
+    "HST",
+    "SN 1987A",
+    "light curve",
+    "reproduction"
+  ]
+}

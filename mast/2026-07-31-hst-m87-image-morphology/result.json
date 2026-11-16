@@ -1,0 +1,55 @@
+{
+  "id": "2026-07-31-hst-m87-image-morphology",
+  "title": "M87 morphology in an HST preview",
+  "archive": "MAST \u00b7 HST",
+  "date": "2026-07-31",
+  "question": "What morphology proxies are measured from the preserved preview?",
+  "sample_size": 8706420,
+  "results": [
+    "axis ratio 0.664",
+    "half-light radius 882.3 display pixels",
+    "threshold-test radius range 826.5\u2013899.4 px"
+  ],
+  "validation": "Moments are recomputed at four background percentiles.",
+  "notebook": "mast/2026-07-31-hst-m87-image-morphology/notebook.ipynb",
+  "hero": "mast/2026-07-31-hst-m87-image-morphology/m87_preview_morphology.png",
+  "tags": [
+    "HST",
+    "M87",
+    "image morphology",
+    "display image"
+  ],
+  "figures": [
+    "mast/2026-07-31-hst-m87-image-morphology/m87_preview_morphology.png",
+    "mast/2026-07-31-hst-m87-image-morphology/m87_morphology_threshold_stress.png"
+  ],
+  "research_level": "Exploration",
+  "claim_type": "Display-image morphology audit",
+  "provenance": [
+    "official HST processed preview saved as m87.jpg",
+    "8,706,420 display pixels",
+    "thresholded intensity moments"
+  ],
+  "artifacts": [
+    "mast/2026-07-31-hst-m87-image-morphology/m87_morphology_threshold_stress.csv"
+  ],
+  "quality_checks": [
+    {
+      "name": "background-threshold sweep",
+      "status": "pass"
+    },
+    {
+      "name": "image-boundary completeness",
+      "status": "fail"
+    },
+    {
+      "name": "calibrated photometry claim",
+      "status": "rejected"
+    }
+  ],
+  "limitations": [
+    "M87 reaches the preview boundary",
+    "display pixels have unknown photometric transfer",
+    "no PSF, exposure map, filter calibration, or sky model is applied"
+  ]
+}

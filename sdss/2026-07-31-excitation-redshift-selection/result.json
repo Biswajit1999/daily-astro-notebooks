@@ -1,0 +1,21 @@
+{
+  "id": "2026-07-31-excitation-redshift-selection",
+  "title": "SDSS excitation versus redshift",
+  "archive": "SDSS",
+  "date": "2026-07-31",
+  "question": "Does [O III]/H\u03b2 vary with redshift in the selected sample?",
+  "sample_size": 11952,
+  "results": [
+    "Spearman \u03c1 = -0.126",
+    "p = 8.7e-44",
+    "restricted-range \u03c1 = -0.052"
+  ],
+  "validation": "The rank test is repeated over 0.03<z<0.20.",
+  "notebook": "sdss/2026-07-31-excitation-redshift-selection/notebook.ipynb",
+  "hero": "sdss/2026-07-31-excitation-redshift-selection/excitation_redshift.png",
+  "tags": [
+    "excitation",
+    "redshift",
+    "selection effects"
+  ]
+}

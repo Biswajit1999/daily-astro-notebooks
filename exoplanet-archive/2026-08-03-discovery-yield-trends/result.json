@@ -1,0 +1,21 @@
+{
+  "id": "2026-08-03-discovery-yield-trends",
+  "title": "How fast is each detection method finding new planets?",
+  "archive": "NASA Exoplanet Archive",
+  "date": "2026-08-03",
+  "question": "What is the 2005-2025 CAGR of cumulative confirmed planets, by top-3 detection method?",
+  "sample_size": 5786,
+  "results": [
+    "Transit: CAGR 39.62%/yr (n=4487, r=0.930)",
+    "Microlensing: CAGR 27.42%/yr (n=262, r=0.992)",
+    "Radial Velocity: CAGR 15.93%/yr (n=1037, r=0.943)"
+  ],
+  "validation": "Refit starting from 2012 instead of 2005 preserves the same growth-rate ranking across methods.",
+  "notebook": "exoplanet-archive/2026-08-03-discovery-yield-trends/notebook.ipynb",
+  "hero": "exoplanet-archive/2026-08-03-discovery-yield-trends/discovery_yield_trends.png",
+  "tags": [
+    "discovery rate",
+    "detection methods",
+    "time trend"
+  ]
+}

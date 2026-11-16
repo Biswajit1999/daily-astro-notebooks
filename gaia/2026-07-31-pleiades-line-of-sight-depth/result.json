@@ -1,0 +1,21 @@
+{
+  "id": "2026-07-31-pleiades-line-of-sight-depth",
+  "title": "Pleiades line-of-sight depth proxy",
+  "archive": "Gaia DR3",
+  "date": "2026-07-31",
+  "question": "Is the parallax width larger than formal errors?",
+  "sample_size": 609,
+  "results": [
+    "residual parallax width 0.1174 mas",
+    "depth proxy 2.16 pc",
+    "bootstrap 68% 2.01\u20132.32 pc"
+  ],
+  "validation": "The variance subtraction is repeated for G<15 stars.",
+  "notebook": "gaia/2026-07-31-pleiades-line-of-sight-depth/notebook.ipynb",
+  "hero": "gaia/2026-07-31-pleiades-line-of-sight-depth/pleiades_depth.png",
+  "tags": [
+    "Pleiades",
+    "parallax",
+    "cluster depth"
+  ]
+}

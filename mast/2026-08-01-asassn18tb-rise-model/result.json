@@ -1,0 +1,49 @@
+{
+  "id": "2026-08-01-asassn18tb-rise-model",
+  "title": "Remeasuring the early supernova rise",
+  "archive": "MAST / TESS / DES",
+  "date": "2026-08-01",
+  "question": "Is the public light curve better described by a free power law than a fixed t-squared rise?",
+  "sample_size": 83,
+  "results": [
+    "Free-index fit gives alpha=1.545",
+    "First light MJD=58341.54",
+    "Free model improves AIC by 43.2 over fixed alpha=2",
+    "Window stress spans alpha=1.37-1.66"
+  ],
+  "validation": "The remeasurement is compared with the published alpha=1.69 and first-light MJD 58341.68, then stressed across fit windows.",
+  "notebook": "mast/2026-08-01-asassn18tb-rise-model/notebook.ipynb",
+  "hero": "mast/2026-08-01-asassn18tb-rise-model/early_rise_powerlaw_fit.png",
+  "figures": [
+    "mast/2026-08-01-asassn18tb-rise-model/early_rise_powerlaw_fit.png",
+    "mast/2026-08-01-asassn18tb-rise-model/rise_fit_sensitivity.png"
+  ],
+  "research_level": "Time-domain audit",
+  "claim_type": "Conditional early-rise remeasurement",
+  "provenance": [
+    "MAST TESSCut SPOC FFI cutouts, Sectors 1 and 2",
+    "MIT TESS Transients cleaned light curve for SN 2018fhw",
+    "DES DR2 g/r/i HiPS FITS cutouts via CDS"
+  ],
+  "artifacts": [
+    "mast/2026-08-01-asassn18tb-rise-model/rise_fit_window_sensitivity.csv"
+  ],
+  "quality_checks": [
+    {
+      "name": "pre-explosion baseline",
+      "status": "passed"
+    },
+    {
+      "name": "fit-window stress test",
+      "status": "passed"
+    },
+    {
+      "name": "literature comparison",
+      "status": "passed"
+    }
+  ],
+  "limitations": [
+    "Formal fit errors omit correlated TESS systematics.",
+    "This compact fit does not constrain a companion radius."
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "2026-07-30-periodogram-hat-p-7b",
+  "title": "HAT-P-7 b period and consistency audit",
+  "archive": "MAST \u00b7 Kepler",
+  "date": "2026-07-30",
+  "question": "Is the known transit independently recovered without obvious odd/even disagreement?",
+  "sample_size": 51324,
+  "results": [
+    "BLS period 2.205079 days",
+    "empirical permutation false-alarm probability \u2264 0.024 from 40 trials",
+    "box depth 5710 ppm; odd \u2212 even 140 \u00b1 206 ppm across 557 measured events"
+  ],
+  "validation": "The period is searched over 1.5\u20134 days, the peak is compared with 40 within-quarter permutations, and depths are checked by parity and observing quarter.",
+  "notebook": "mast/2026-07-30-periodogram-hat-p-7b/notebook.ipynb",
+  "hero": "mast/2026-07-30-periodogram-hat-p-7b/hatp7_period_false_alarm.png",
+  "figures": [
+    "mast/2026-07-30-periodogram-hat-p-7b/hatp7_period_false_alarm.png",
+    "mast/2026-07-30-periodogram-hat-p-7b/hatp7_folded_residuals.png",
+    "mast/2026-07-30-periodogram-hat-p-7b/hatp7_depth_consistency.png"
+  ],
+  "research_level": "Validated",
+  "claim_type": "Independent period recovery",
+  "provenance": [
+    "MAST Kepler KIC 10666592",
+    "18 *_llc.fits long-cadence products",
+    "quality flag = 0 and quarter-wise PDCSAP normalization"
+  ],
+  "artifacts": [
+    "mast/2026-07-30-periodogram-hat-p-7b/hatp7_all_quarters.csv",
+    "mast/2026-07-30-periodogram-hat-p-7b/hatp7_search_summary.csv",
+    "mast/2026-07-30-periodogram-hat-p-7b/hatp7_individual_transit_depths.csv",
+    "mast/2026-07-30-periodogram-hat-p-7b/hatp7_quarter_depths.csv"
+  ],
+  "quality_checks": [
+    {
+      "name": "Blind period search",
+      "status": "pass"
+    },
+    {
+      "name": "Permutation false-alarm test",
+      "status": "pass"
+    },
+    {
+      "name": "Odd/even comparison",
+      "status": "pass"
+    },
+    {
+      "name": "Quarter systematics",
+      "status": "reported"
+    }
+  ],
+  "limitations": [
+    "40 permutations provide only a coarse false-alarm bound",
+    "PDCSAP processing can introduce quarter-dependent depth changes",
+    "box model omits limb darkening, dilution, and correlated noise"
+  ],
+  "tags": [
+    "Kepler",
+    "HAT-P-7 b",
+    "BLS",
+    "false alarm",
+    "odd-even"
+  ]
+}

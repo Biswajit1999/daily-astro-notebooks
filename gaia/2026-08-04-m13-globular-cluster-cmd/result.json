@@ -1,0 +1,16 @@
+{
+  "id": "2026-08-04-m13-globular-cluster-cmd",
+  "title": "M13 globular cluster membership and HB/RGB identification",
+  "n_raw": 6000,
+  "n_members": 2092,
+  "member_pmra_mean": -3.1799739083308847,
+  "member_pmdec_mean": -2.5934848471259895,
+  "member_pmra_std": 0.223440962963509,
+  "member_pmdec_std": 0.24266269831065349,
+  "literature_pmra": -3.18,
+  "literature_pmdec": -2.56,
+  "pm_offset_mas_yr": 0.03348485729140979,
+  "hb_level_g_mag": 19.167366409301735,
+  "n_hb_candidates": 551,
+  "n_rgb_candidates": 394
+}

@@ -1,0 +1,74 @@
+{
+  "id": "2026-07-30-kepler-lightcurve-kepler186f",
+  "title": "Kepler-186 f full-mission transit audit",
+  "archive": "MAST \u00b7 Kepler",
+  "date": "2026-07-30",
+  "question": "Is the long-period transit recoverable across the full Kepler mission?",
+  "sample_size": 59401,
+  "results": [
+    "10 of 11 predicted transit epochs have in-transit cadence coverage",
+    "event-median depth 400 ppm; event-bootstrap 95% interval 375\u2013468 ppm",
+    "simple recovery is positive; individual-event range 111 to 694 ppm"
+  ],
+  "validation": "All 17 long-cadence products are used with the DR25 ephemeris; uncertainty resamples transit events, leave-one-event-out results are stored, and synthetic depths are recovered at off-transit phases.",
+  "notebook": "mast/2026-07-30-kepler-lightcurve-kepler186f/notebook.ipynb",
+  "hero": "mast/2026-07-30-kepler-lightcurve-kepler186f/kepler186_coverage.png",
+  "figures": [
+    "mast/2026-07-30-kepler-lightcurve-kepler186f/kepler186_coverage.png",
+    "mast/2026-07-30-kepler-lightcurve-kepler186f/kepler186_transit_recovery.png",
+    "mast/2026-07-30-kepler-lightcurve-kepler186f/kepler186_robustness.png"
+  ],
+  "research_level": "Validated",
+  "claim_type": "Full-mission transit recovery",
+  "provenance": [
+    "MAST Kepler KIC 8120608",
+    "17 *_llc.fits long-cadence products",
+    "quality flag = 0 and quarter-wise PDCSAP normalization",
+    "NASA Exoplanet Archive DR25 period 129.945392 d, epoch 176.82285 BKJD, duration 5.786 h"
+  ],
+  "artifacts": [
+    "mast/2026-07-30-kepler-lightcurve-kepler186f/kepler186_all_quarters.csv",
+    "mast/2026-07-30-kepler-lightcurve-kepler186f/kepler186_transit_coverage.csv",
+    "mast/2026-07-30-kepler-lightcurve-kepler186f/kepler186_event_depths.csv",
+    "mast/2026-07-30-kepler-lightcurve-kepler186f/kepler186_leave_one_out.csv",
+    "mast/2026-07-30-kepler-lightcurve-kepler186f/kepler186_injection_recovery.csv"
+  ],
+  "quality_checks": [
+    {
+      "name": "DR25 ephemeris verified",
+      "status": "pass"
+    },
+    {
+      "name": "Full mission coverage",
+      "status": "pass"
+    },
+    {
+      "name": "Event-level bootstrap",
+      "status": "pass"
+    },
+    {
+      "name": "Leave-one-event-out",
+      "status": "pass"
+    },
+    {
+      "name": "Injection/recovery",
+      "status": "pass"
+    },
+    {
+      "name": "Atmosphere or habitability inference",
+      "status": "not attempted"
+    }
+  ],
+  "limitations": [
+    "published DR25 period, epoch, and duration are assumed",
+    "simple box depth omits limb darkening and dilution",
+    "PDCSAP and local linear detrending may alter depth",
+    "injection test measures this pipeline, not planet validation"
+  ],
+  "tags": [
+    "Kepler",
+    "Kepler-186 f",
+    "transit",
+    "injection recovery"
+  ]
+}

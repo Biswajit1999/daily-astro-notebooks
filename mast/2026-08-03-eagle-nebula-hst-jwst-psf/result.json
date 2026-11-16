@@ -1,0 +1,22 @@
+{
+  "id": "2026-08-03-eagle-nebula-hst-jwst-psf",
+  "title": "Pillars of Creation, twice: comparing real HST and JWST resolution on the same field",
+  "archive": "MAST / HST (WFC3), JWST (NIRCam)",
+  "date": "2026-08-03",
+  "target": "Eagle Nebula pillars (M16)",
+  "question": "Does the apparent point-source sharpness in real HST vs JWST images of the same field match the diffraction-limit prediction for a 2.4 m visible telescope vs a 6.5 m infrared telescope?",
+  "hst_theory_arcsec": 0.06881395741249999,
+  "jwst_theory_arcsec": 0.17189173107692307,
+  "hst_measured_fwhm_arcsec": 0.1199942839689248,
+  "jwst_measured_fwhm_arcsec": 0.20010546375633478,
+  "hst_n_stars": 6,
+  "jwst_n_stars": 25,
+  "theory_ratio_jwst_over_hst": 2.4979195724281817,
+  "measured_ratio_jwst_over_hst": 1.6676249662705314,
+  "direction_matches_theory": true,
+  "proposal_ids": {
+    "HST": 13926,
+    "JWST": 2739
+  },
+  "claim_type": "illustrative preview-image resolution comparison, not a calibrated PSF characterization"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "2026-07-30-jwst-image-carina-nebula",
+  "title": "JWST Carina: visible-structure audit",
+  "archive": "MAST \u00b7 JWST NIRCam",
+  "date": "2026-07-30",
+  "question": "Which visible structures persist when the edge threshold changes?",
+  "sample_size": 4291100,
+  "results": [
+    "6.00% of pixels exceed the 94th-percentile gradient threshold",
+    "visible structures remain traceable across thresholds",
+    "preview pixels are not calibrated flux"
+  ],
+  "validation": "The result is repeated over five reasonable threshold or smoothing choices and its physical limits are stated.",
+  "notebook": "mast/2026-07-30-jwst-image-carina-nebula/notebook.ipynb",
+  "hero": "mast/2026-07-30-jwst-image-carina-nebula/carina_morphology_audit.png",
+  "figures": [
+    "mast/2026-07-30-jwst-image-carina-nebula/carina_morphology_audit.png",
+    "mast/2026-07-30-jwst-image-carina-nebula/carina_threshold_sensitivity.png"
+  ],
+  "research_level": "Validated",
+  "claim_type": "Morphology only",
+  "provenance": [
+    "MAST product jw05408024001_02101_00001_nrcblong_i2d.jpg",
+    "stored preview carina_nircam.jpg"
+  ],
+  "artifacts": [
+    "mast/2026-07-30-jwst-image-carina-nebula/carina_threshold_metrics.csv"
+  ],
+  "quality_checks": [
+    {
+      "name": "Product identity",
+      "status": "pass"
+    },
+    {
+      "name": "Parameter sensitivity",
+      "status": "pass"
+    },
+    {
+      "name": "Flux calibration",
+      "status": "not available"
+    }
+  ],
+  "limitations": [
+    "JPEG values are display intensities",
+    "no physical scale or chemistry is inferred"
+  ],
+  "tags": [
+    "MAST",
+    "morphology",
+    "quality control"
+  ]
+}

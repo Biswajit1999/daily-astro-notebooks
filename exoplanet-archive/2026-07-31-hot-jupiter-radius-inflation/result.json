@@ -1,0 +1,21 @@
+{
+  "id": "2026-07-31-hot-jupiter-radius-inflation",
+  "title": "Hot-Jupiter radius inflation",
+  "archive": "NASA Exoplanet Archive",
+  "date": "2026-07-31",
+  "question": "Are close-in giants larger around hotter stars?",
+  "sample_size": 698,
+  "results": [
+    "Spearman \u03c1 = 0.558",
+    "bootstrap 68% interval 0.528\u20130.584",
+    "mass-restricted \u03c1 = 0.617 (N=529)"
+  ],
+  "validation": "The correlation is repeated for 0.3\u20133 Jupiter-mass planets.",
+  "notebook": "exoplanet-archive/2026-07-31-hot-jupiter-radius-inflation/notebook.ipynb",
+  "hero": "exoplanet-archive/2026-07-31-hot-jupiter-radius-inflation/hot_jupiter_inflation.png",
+  "tags": [
+    "hot Jupiters",
+    "radius inflation",
+    "rank correlation"
+  ]
+}

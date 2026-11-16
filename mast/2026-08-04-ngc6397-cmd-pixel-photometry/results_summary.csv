@@ -1,0 +1,11 @@
+metric,value
+Detection band,F814W (deeper exposure)
+Detection threshold,8.0 sigma
+"Sources detected (F814W, edge-trimmed)",8861
+Sources with valid two-band photometry,8523
+Aperture radius (px / arcsec),3.0 / 0.15
+Cross-matches with MAST point-cat,4573
+Median offset vs MAST point-cat (mag),-0.234
+Robust scatter vs MAST point-cat (mag),0.046
+"50% completeness limit, F814W (STMAG)",27.00
+Fraction of catalog fainter than completeness limit,0.1%

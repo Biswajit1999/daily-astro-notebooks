@@ -1,0 +1,44 @@
+{
+  "id": "2026-08-01-asassn18tb-des-host",
+  "title": "The DES host galaxy around ASASSN-18tb",
+  "archive": "MAST / TESS / DES",
+  "date": "2026-08-01",
+  "question": "What does pre-explosion DES imaging show about the host environment and positional offset?",
+  "sample_size": 3,
+  "results": [
+    "A real DES DR2 i/r/g composite resolves the early-type host",
+    "Simple DES centroid models give a median projected offset of 3.02 arcsec",
+    "Published 2MASS-based offset is 5.16 arcsec"
+  ],
+  "validation": "The host offset is stressed across four fitting boxes and compared with the published 2MASS-centre value.",
+  "notebook": "mast/2026-08-01-asassn18tb-des-host/notebook.ipynb",
+  "hero": "mast/2026-08-01-asassn18tb-des-host/des_host_rgb.png",
+  "figures": [
+    "mast/2026-08-01-asassn18tb-des-host/des_host_rgb.png",
+    "mast/2026-08-01-asassn18tb-des-host/host_offset_stress.png"
+  ],
+  "research_level": "Time-domain audit",
+  "claim_type": "Pre-explosion host-environment audit",
+  "provenance": [
+    "MAST TESSCut SPOC FFI cutouts, Sectors 1 and 2",
+    "MIT TESS Transients cleaned light curve for SN 2018fhw",
+    "DES DR2 g/r/i HiPS FITS cutouts via CDS"
+  ],
+  "artifacts": [
+    "mast/2026-08-01-asassn18tb-des-host/host_centroid_sensitivity.csv"
+  ],
+  "quality_checks": [
+    {
+      "name": "three-filter FITS provenance",
+      "status": "passed"
+    },
+    {
+      "name": "centroid box-size stress",
+      "status": "passed"
+    }
+  ],
+  "limitations": [
+    "DES coadds predate the explosion and do not show the supernova.",
+    "A Gaussian is only a centre proxy for this structured galaxy."
+  ]
+}

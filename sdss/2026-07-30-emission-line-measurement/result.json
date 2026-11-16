@@ -1,0 +1,62 @@
+{
+  "id": "2026-07-30-emission-line-measurement",
+  "title": "SDSS galaxy joint H\u03b1 + [N II] audit",
+  "archive": "SDSS DR17",
+  "date": "2026-07-30",
+  "question": "What does a constrained three-line fit establish for this galaxy?",
+  "sample_size": 96,
+  "results": [
+    "[N II] 6583 / H\u03b1 = 0.640 (95% noise interval 0.581\u20130.702)",
+    "N2 = log10 ratio = -0.194",
+    "observed Gaussian FWHM 351 km/s (not instrument-corrected)"
+  ],
+  "validation": "The joint fit fixes the atomic [N II] doublet ratio, propagates inverse-variance noise 800 times, and repeats three wavelength windows.",
+  "notebook": "sdss/2026-07-30-emission-line-measurement/notebook.ipynb",
+  "hero": "sdss/2026-07-30-emission-line-measurement/halpha_nii_joint_fit.png",
+  "figures": [
+    "sdss/2026-07-30-emission-line-measurement/halpha_nii_joint_fit.png",
+    "sdss/2026-07-30-emission-line-measurement/halpha_nii_uncertainty.png"
+  ],
+  "research_level": "Validated",
+  "claim_type": "Joint emission-line remeasurement",
+  "provenance": [
+    "SDSS DR17 spec-0266-51602-0001.fits",
+    "saved inverse-variance spectrum",
+    "rest frame uses SDSS pipeline redshift"
+  ],
+  "artifacts": [
+    "sdss/2026-07-30-emission-line-measurement/galaxy_sdss_spectrum.csv",
+    "sdss/2026-07-30-emission-line-measurement/galaxy_sdss_metadata.json",
+    "sdss/2026-07-30-emission-line-measurement/halpha_nii_fit_summary.csv",
+    "sdss/2026-07-30-emission-line-measurement/halpha_nii_window_stress.csv"
+  ],
+  "quality_checks": [
+    {
+      "name": "Joint blended-line model",
+      "status": "pass"
+    },
+    {
+      "name": "Noise resampling",
+      "status": "pass"
+    },
+    {
+      "name": "Continuum-window stress",
+      "status": "pass"
+    },
+    {
+      "name": "Velocity unit conversion",
+      "status": "corrected"
+    }
+  ],
+  "limitations": [
+    "N2 alone cannot place the galaxy on the full BPT diagram",
+    "width is not deconvolved from SDSS resolution",
+    "stellar Balmer absorption is not modelled"
+  ],
+  "tags": [
+    "SDSS",
+    "galaxy",
+    "H-alpha",
+    "line ratio"
+  ]
+}

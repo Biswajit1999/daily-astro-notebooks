@@ -1,0 +1,19 @@
+{
+  "id": "2026-08-04-toomre-diagram-halo-disk",
+  "title": "Halo vs. disk kinematic separation via Toomre diagram",
+  "n_sample": 8000,
+  "n_thin_disk": 4943,
+  "n_transition": 1682,
+  "n_thick_disk": 1332,
+  "n_halo": 43,
+  "frac_thin_disk_pct": 61.7875,
+  "frac_thick_disk_pct": 16.65,
+  "frac_halo_pct": 0.5375,
+  "example_halo_source_ids": [
+    6137588809508151296,
+    4678768807682231168,
+    170216567626711296,
+    2550696212836482944,
+    3072544153868881792
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "dataset": "UNCOVER DR4.1 spectroscopy and DR3 photometric cross-match",
+  "retrieved_utc": "2026-08-01",
+  "official_release": "https://jwst-uncover.github.io/DR4.html",
+  "paper": "https://arxiv.org/abs/2408.03920",
+  "selection": "flag_zspec_qual in {2,3}; high-z tables additionally require z_spec >= 6",
+  "units": {
+    "spectrum_wave": "micrometre",
+    "spectrum_flux": "microjansky",
+    "line_flux": "1e-20 erg s-1 cm-2; not corrected for lens magnification"
+  },
+  "counts": {
+    "targets": 668,
+    "successful_spectra": 553,
+    "secure_or_solid": 409,
+    "secure_or_solid_z_ge_6": 48,
+    "dr3_highz_crossmatches": 44
+  },
+  "files": [
+    {
+      "path": "data/uncover_dr4_spectroscopy/README.md",
+      "bytes": 1064,
+      "sha256": "d0015b55a8d65ce576741039ce1042bf1ca21a2b7607b17e0d0403de574728b2"
+    },
+    {
+      "path": "data/uncover_dr4_spectroscopy/UPSTREAM_README_DR4.1.txt",
+      "bytes": 18509,
+      "sha256": "9b84e3426a27c29e1a56d4b2630a9af24c48805ce7564e46daf0fbbc5a867d1c"
+    },
+    {
+      "path": "data/uncover_dr4_spectroscopy/cutouts/hst_13077_astrocut.zip",
+      "bytes": 1768648,
+      "sha256": "f6a98fc3d8404e205c0706b325f8d79f10fcddd9061142bd2b92d8e7c96f2aee"
+    },
+    {
+      "path": "data/uncover_dr4_spectroscopy/cutouts/hst_3686_astrocut.zip",
+      "bytes": 464008,
+      "sha256": "0e81f5829ed414460ed1d3d53fffb1c293ca73a945f5792e50bb7a2f82240036"
+    },
+    {
+      "path": "data/uncover_dr4_spectroscopy/cutouts/hst_60157_astrocut.zip",
+      "bytes": 1768648,
+      "sha256": "fcb95a33a3cfa6c165b8dfa1348c6278134915b5c81353f06a41931dd8b74a8c"
+    },
+    {
+      "path": "data/uncover_dr4_spectroscopy/dr3_dr4_highz_crossmatch.csv",
+      "bytes": 25531,
+      "sha256": "d8deeb11aa5809ed717e0802b39c5bf65cd617813827b1f3cc34ca0a2b0fa1e8"
+    },
+    {
+      "path": "data/uncover_dr4_spectroscopy/dr4_highz_line_fluxes.csv",
+      "bytes": 45852,
+      "sha256": "616c978769bdeabe1e75a4c51952e8ffc065b10dae254451774cd6888da91111"
+    },
+    {
+      "path": "data/uncover_dr4_spectroscopy/dr4_highz_magnifications.csv",
+      "bytes": 24831,
+      "sha256": "d4aeed259826aedcbfea06690b423f65c858ce76f0988a63dd3c97f3ee783039"
+    },
+    {
+      "path": "data/uncover_dr4_spectroscopy/dr4_secure_redshifts.csv",
+      "bytes": 80613,
+      "sha256": "14ac048a5bc4014874ca96c3e83ed31453e1a6575fd86b170fe55b6723571d4a"
+    },
+    {
+      "path": "data/uncover_dr4_spectroscopy/spectra/uncover_DR4_prism-clear_2561_10646.spec.fits",
+      "bytes": 590400,
+      "sha256": "e54e5b4f0aeac98fcf5e5ae53c7552c6f75c70a66767fdd08b1ccd611c2f08ac"
+    },
+    {
+      "path": "data/uncover_dr4_spectroscopy/spectra/uncover_DR4_prism-clear_2561_13077.spec.fits",
+      "bytes": 596160,
+      "sha256": "6b2828dad0eaa52693e8550f252266a2f5e3cc90341db14823d1f747ca909f44"
+    },
+    {
+      "path": "data/uncover_dr4_spectroscopy/spectra/uncover_DR4_prism-clear_2561_22223.spec.fits",
+      "bytes": 590400,
+      "sha256": "62b9f0142d0881b19a4baae53d8064197e54a90b5ce38314cad6ba1ac745cc10"
+    },
+    {
+      "path": "data/uncover_dr4_spectroscopy/spectra/uncover_DR4_prism-clear_2561_26185.spec.fits",
+      "bytes": 590400,
+      "sha256": "659cd5daea1ffbbfdaae00232eef7b47a178e33c19e7cc47bad21cb265900c9c"
+    },
+    {
+      "path": "data/uncover_dr4_spectroscopy/spectra/uncover_DR4_prism-clear_2561_3686.spec.fits",
+      "bytes": 590400,
+      "sha256": "c00cd2b72e1c4fb989ac91ecd141fde0d9ad8a36364b8e42315d69e76ee0d180"
+    },
+    {
+      "path": "data/uncover_dr4_spectroscopy/spectra/uncover_DR4_prism-clear_2561_60157.spec.fits",
+      "bytes": 613440,
+      "sha256": "83fbce38294203add8ef1e43476e4accc421dee8a1aedf05e1c727d6196afbf6"
+    }
+  ]
+}

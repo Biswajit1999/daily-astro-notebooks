@@ -1,0 +1,58 @@
+{
+  "id": "2026-07-30-qso-redshift-check",
+  "title": "SDSS quasar multi-line redshift audit",
+  "archive": "SDSS DR17",
+  "date": "2026-07-30",
+  "question": "Do three broad emission lines give a consistent quasar redshift?",
+  "sample_size": 3843,
+  "results": [
+    "multi-line median redshift 1.8215",
+    "line-to-line redshift scatter 0.0019",
+    "SDSS pipeline redshift 1.8234 \u00b1 0.0010"
+  ],
+  "validation": "Each centroid is noise-resampled 500 times; the line-to-line spread is reported separately because broad quasar lines have systematic velocity offsets.",
+  "notebook": "sdss/2026-07-30-qso-redshift-check/notebook.ipynb",
+  "hero": "sdss/2026-07-30-qso-redshift-check/qso_multiline_spectrum.png",
+  "figures": [
+    "sdss/2026-07-30-qso-redshift-check/qso_multiline_spectrum.png",
+    "sdss/2026-07-30-qso-redshift-check/qso_line_centroids.png",
+    "sdss/2026-07-30-qso-redshift-check/qso_redshift_consistency.png"
+  ],
+  "research_level": "Validated",
+  "claim_type": "Multi-line archive remeasurement",
+  "provenance": [
+    "SDSS DR17 spec-0685-52203-0467.fits",
+    "saved inverse-variance spectrum",
+    "pipeline redshift retained only as comparison"
+  ],
+  "artifacts": [
+    "sdss/2026-07-30-qso-redshift-check/qso_sdss_spectrum.csv",
+    "sdss/2026-07-30-qso-redshift-check/qso_sdss_metadata.json",
+    "sdss/2026-07-30-qso-redshift-check/qso_multiline_redshift.csv"
+  ],
+  "quality_checks": [
+    {
+      "name": "Three-line agreement",
+      "status": "pass"
+    },
+    {
+      "name": "Noise resampling",
+      "status": "pass"
+    },
+    {
+      "name": "Broad-line systematics",
+      "status": "reported"
+    }
+  ],
+  "limitations": [
+    "centroids use a local linear continuum",
+    "line asymmetry and absorption can dominate random errors",
+    "this is not a systemic host-galaxy redshift"
+  ],
+  "tags": [
+    "SDSS",
+    "quasar",
+    "redshift",
+    "bootstrap"
+  ]
+}

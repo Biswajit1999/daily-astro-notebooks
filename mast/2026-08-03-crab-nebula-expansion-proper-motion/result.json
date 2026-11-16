@@ -1,0 +1,21 @@
+{
+  "id": "2026-08-03-crab-nebula-expansion-proper-motion",
+  "title": "Does the Crab Nebula visibly expand between two real HST epochs 9 years apart?",
+  "archive": "MAST / HST (ACS/WFC)",
+  "date": "2026-08-03",
+  "target": "Crab Nebula (M1)",
+  "question": "Can simple knot-centroiding between two real HST epochs (2005, 2014) detect the Crab Nebula's known outward expansion?",
+  "n_knots_measured": 30,
+  "baseline_years": 8.955510019773367,
+  "mean_radial_component_arcsec": -0.0195424615133984,
+  "radial_component_std_arcsec": 0.055538169975368167,
+  "p_value_mean_radial_gt_zero": 0.06379000822226714,
+  "p_value_radial_vs_distance_slope": 0.972345762830968,
+  "expected_shift_if_homologous_arcsec": 0.36540533995084246,
+  "detected_significant_expansion": false,
+  "proposal_ids": [
+    10526,
+    13751
+  ],
+  "claim_type": "honest non-detection / method sensitivity check, not a confirmed proper-motion measurement"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "2026-07-31-exoplanet-discovery-method-timeline",
+  "title": "Exoplanet discovery methods through time",
+  "archive": "NASA Exoplanet Archive",
+  "date": "2026-07-31",
+  "question": "How has the discovery-method mix changed?",
+  "sample_size": 5233,
+  "results": [
+    "5,233 unique planets with method and year",
+    "Transit contributes 72.4% of 2021\u201326 entries",
+    "same leading method with a 2019 boundary: True"
+  ],
+  "validation": "The leading method is re-evaluated after shifting the recent-era boundary by two years.",
+  "notebook": "exoplanet-archive/2026-07-31-exoplanet-discovery-method-timeline/notebook.ipynb",
+  "hero": "exoplanet-archive/2026-07-31-exoplanet-discovery-method-timeline/discovery_method_timeline.png",
+  "tags": [
+    "exoplanets",
+    "discovery history",
+    "selection effects"
+  ]
+}

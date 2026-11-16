@@ -1,0 +1,3050 @@
+{
+  "schema": "daily-astro-research-index-v1",
+  "generated_utc": "2026-08-10T16:57:02+00:00",
+  "summary": {
+    "notebooks": 100,
+    "archives": 4,
+    "with_result_json": 77,
+    "with_provenance": 41,
+    "with_quality_checks": 41,
+    "with_limitations": 41,
+    "reusable_artifacts": 91,
+    "missing_artifacts": 0
+  },
+  "by_archive": {
+    "ESA Gaia": 19,
+    "MAST": 40,
+    "NASA Exoplanet Archive": 19,
+    "Sloan Digital Sky Survey": 22
+  },
+  "sample_size_by_archive": {
+    "ESA Gaia": 2997,
+    "MAST": 35293890,
+    "NASA Exoplanet Archive": 31612,
+    "Sloan Digital Sky Survey": 86708
+  },
+  "by_research_level": {
+    "Dense": 36,
+    "Exploration": 14,
+    "Legacy": 23,
+    "Reproduction": 2,
+    "Spectroscopic audit": 5,
+    "Time-domain audit": 5,
+    "Validated": 15
+  },
+  "by_claim_type": {
+    "Archive remeasurement": 1,
+    "Background-treatment stress test": 1,
+    "Calibrated image reconstruction": 1,
+    "Catalogue radius-deficit measurement": 1,
+    "Conditional early-rise remeasurement": 1,
+    "Cross-instrument morphology": 1,
+    "Digitized colour-separation audit": 1,
+    "Digitized correlation audit": 1,
+    "Digitized spectral-feature audit": 1,
+    "Display-image completeness audit": 1,
+    "Display-image morphology audit": 1,
+    "Display-morphology time series": 1,
+    "Empirical continuum-slope measurement": 1,
+    "Equivalent-width robustness audit": 1,
+    "Exploratory analysis": 23,
+    "Filter-resolved morphology": 1,
+    "Full-mission transit recovery": 1,
+    "Independent light-curve shape recovery": 1,
+    "Independent period recovery": 1,
+    "Joint emission-line remeasurement": 1,
+    "Matched-sample redshift validation": 1,
+    "Measured result": 28,
+    "Morphology only": 2,
+    "Multi-line archive remeasurement": 1,
+    "Multi-telescope data atlas": 1,
+    "Multinomial class-fraction audit": 1,
+    "Null / method-sensitive": 1,
+    "Peer-reviewed table reanalysis": 1,
+    "Photometric candidate analysis": 5,
+    "Photometric interval calibration audit": 1,
+    "Pre-explosion host-environment audit": 1,
+    "Public line-measurement inventory": 1,
+    "Real detector-image diagnostic sequence": 1,
+    "Redshift concentration measurement": 1,
+    "Release evidence-flag audit": 1,
+    "Source / field mismatch": 1,
+    "Source identity correction": 1,
+    "Spectral-feature inventory": 1,
+    "archival remeasurement / line-identification exercise, not a new nuclear diagnostic": 1,
+    "confirmed CMD recovery and external catalog validation (primary); real, disclosed completeness limitation (secondary, explicitly quantified rather than assumed)": 1,
+    "confirmed outburst detection and amplitude/duration measurement (primary); small-sample consistency check against published recurrence statistics (secondary, explicitly not a re-derivation)": 1,
+    "confirmed period recovery (primary); exploratory, lower-confidence amplitude-modulation search (secondary)": 1,
+    "honest non-detection / method sensitivity check, not a confirmed proper-motion measurement": 1,
+    "illustrative preview-image color-difference map, not a calibrated extinction measurement": 1,
+    "illustrative preview-image resolution comparison, not a calibrated PSF characterization": 1,
+    "real multi-band photometric color-magnitude check, not an isochrone-fit age/distance measurement": 1
+  },
+  "by_date": {
+    "2026-07-30": 30,
+    "2026-07-31": 20,
+    "2026-08-01": 20,
+    "2026-08-03": 20,
+    "2026-08-04": 10
+  },
+  "artifacts": [
+    {
+      "path": "data/audit_batches4_7/sdss_colour_plot_digitized_pixels.csv",
+      "notebook_id": "2026-07-30-qso-vs-galaxy-colors",
+      "exists": true,
+      "bytes": 288721,
+      "sha256": "183652f56458dc7fd0aead15cd5aff92bd73d37fe3fce7942f66d2120dcbcb9b"
+    },
+    {
+      "path": "data/audit_batches4_7/sdss_emission_galaxies.csv",
+      "notebook_id": "2026-07-30-galaxy-redshift-slice",
+      "exists": true,
+      "bytes": 1466939,
+      "sha256": "239ac805135d24765f216a9645aeda9eb4bddb61a9f370466b919022313ec5ae"
+    },
+    {
+      "path": "data/audit_batches4_7/sdss_metallicity_plot_digitized_pixels.csv",
+      "notebook_id": "2026-07-30-metallicity-vs-position",
+      "exists": true,
+      "bytes": 153985,
+      "sha256": "5608ed6131a9faccc508020d7f86e1756209787a89cb5fcbc5f21d4fa03b465a"
+    },
+    {
+      "path": "data/audit_batches4_7/sdss_white_dwarf_plot_digitized.csv",
+      "notebook_id": "2026-07-30-white-dwarf-spectrum",
+      "exists": true,
+      "bytes": 42315,
+      "sha256": "6a324406593461539b080a956bf717edd5ccf894e0a2c77a77b0b95bfaf5b998"
+    },
+    {
+      "path": "data/sn1987a/hst_f625w_2018_cutout.fits",
+      "notebook_id": "2026-08-01-hst-jwst-sn1987a-comparison",
+      "exists": true,
+      "bytes": 305280,
+      "sha256": "8503a171395fcee15dea5e2d0f250c65fb8f600d18e97edf700122d933868a81"
+    },
+    {
+      "path": "data/sn1987a/hst_photometry_rosu2024_table6.csv",
+      "notebook_id": "2026-08-01-hst-sn1987a-lightcurve",
+      "exists": true,
+      "bytes": 2260,
+      "sha256": "d46599880fdbdc81f51004326dd632f294af647e7d5fd642c30d62dfd8900e4a"
+    },
+    {
+      "path": "data/sn1987a/hst_release_frames/frames.csv",
+      "notebook_id": "2026-08-01-hst-sn1987a-timelapse",
+      "exists": true,
+      "bytes": 220,
+      "sha256": "e74b62567bcb5665eb81bc9e2373026c61a7b62279e7a293d3920b21e17e2f2b"
+    },
+    {
+      "path": "data/sn1987a/jwst_f150w_2022_cutout.fits",
+      "notebook_id": "2026-08-01-jwst-sn1987a-filter-morphology",
+      "exists": true,
+      "bytes": 993600,
+      "sha256": "3027be667b28f4c1af80d705adc6f6972e2fab08957710be84383d394e666b84"
+    },
+    {
+      "path": "data/sn1987a/jwst_f200w_2022_cutout.fits",
+      "notebook_id": "2026-08-01-hst-jwst-sn1987a-comparison",
+      "exists": true,
+      "bytes": 993600,
+      "sha256": "7bf1cfb8ba9ab63fa388fb78bbd90c83607b0a401463c2d0caa54d6389e57fca"
+    },
+    {
+      "path": "data/sn1987a/jwst_f356w_2022_cutout.fits",
+      "notebook_id": "2026-08-01-jwst-sn1987a-filter-morphology",
+      "exists": true,
+      "bytes": 250560,
+      "sha256": "935af8d3e3378b34283557ecbc889fba66eec9d68d83c8ebbe39ac26fac66db7"
+    },
+    {
+      "path": "data/sn1987a/jwst_f444w_2022_cutout.fits",
+      "notebook_id": "2026-08-01-jwst-sn1987a-filter-morphology",
+      "exists": true,
+      "bytes": 250560,
+      "sha256": "6bd01c9bd721a6d40ad72b9c00e6d46e9c856e3defd7110ab86dfd9f4a32aa15"
+    },
+    {
+      "path": "exoplanet-archive/2026-07-31-exoplanet-radius-valley/confirmed_transiting_planets.csv",
+      "notebook_id": "2026-07-31-exoplanet-radius-valley",
+      "exists": true,
+      "bytes": 367252,
+      "sha256": "493431ae89b8d2fb451675f764282fa6811d5b6eb752367bd357cda112af65fa"
+    },
+    {
+      "path": "exoplanet-archive/2026-07-31-exoplanet-radius-valley/period_binned_valleys.csv",
+      "notebook_id": "2026-07-31-exoplanet-radius-valley",
+      "exists": true,
+      "bytes": 281,
+      "sha256": "1e5ecca7c4e36e132239ae2a92d3e81b3d2e80ffaa317ea8561d545d6375bd65"
+    },
+    {
+      "path": "exoplanet-archive/2026-07-31-exoplanet-radius-valley/radius_valley_sample.csv",
+      "notebook_id": "2026-07-31-exoplanet-radius-valley",
+      "exists": true,
+      "bytes": 198636,
+      "sha256": "09df48cd881996b7b7ecfda123750438a8c01c307e6a361ea4c5d70aa57afb60"
+    },
+    {
+      "path": "mast/2026-07-30-hst-cutout-m87/m87.jpg",
+      "notebook_id": "2026-07-30-hst-cutout-m87",
+      "exists": true,
+      "bytes": 718452,
+      "sha256": "ca5bed0a100a7df476fa0328a7bf71073870f6e0f375c3d072e69da8aa1a55c0"
+    },
+    {
+      "path": "mast/2026-07-30-hst-cutout-m87/m87_preview_crop_stress.csv",
+      "notebook_id": "2026-07-30-hst-cutout-m87",
+      "exists": true,
+      "bytes": 189,
+      "sha256": "040fc8a34eee1a2eabac6b297cb9f728385524acfd27bb8678a8297b52dde7e2"
+    },
+    {
+      "path": "mast/2026-07-30-hst-cutout-m87/m87_preview_threshold_audit.csv",
+      "notebook_id": "2026-07-30-hst-cutout-m87",
+      "exists": true,
+      "bytes": 508,
+      "sha256": "4691f544186036632738b44ce4970eb9b0424f1f304bd5cd525e765c43fe1e00"
+    },
+    {
+      "path": "mast/2026-07-30-hst-image-eagle-nebula/eagle_orientation_metrics.csv",
+      "notebook_id": "2026-07-30-hst-image-eagle-nebula",
+      "exists": true,
+      "bytes": 90,
+      "sha256": "e4255fdee11c329f6e4479f84b99d61de0f30608a1658741c799cdf02a87a227"
+    },
+    {
+      "path": "mast/2026-07-30-jwst-image-carina-nebula/carina_threshold_metrics.csv",
+      "notebook_id": "2026-07-30-jwst-image-carina-nebula",
+      "exists": true,
+      "bytes": 92,
+      "sha256": "4d2681c50fa775395a7b6278f195da49584119ccc0fe21452d5f6ebf3a0ebaf7"
+    },
+    {
+      "path": "mast/2026-07-30-jwst-image-ring-nebula/ring_field_metrics.csv",
+      "notebook_id": "2026-07-30-jwst-image-ring-nebula",
+      "exists": true,
+      "bytes": 176,
+      "sha256": "4c7bd6151231969f830bb8aaf9cc250ab9f0df4b4a70549b3b9e66921bce47a6"
+    },
+    {
+      "path": "mast/2026-07-30-kepler-lightcurve-kepler10b/kepler10_fit_summary.csv",
+      "notebook_id": "2026-07-30-kepler-lightcurve-kepler10b",
+      "exists": true,
+      "bytes": 165,
+      "sha256": "d7dadec5048230cb2380ba7be94a2b58246074ef1ebc0d6af166d05d257e6903"
+    },
+    {
+      "path": "mast/2026-07-30-kepler-lightcurve-kepler10b/kepler10_model_sensitivity.csv",
+      "notebook_id": "2026-07-30-kepler-lightcurve-kepler10b",
+      "exists": true,
+      "bytes": 479,
+      "sha256": "3f953898101da06883752a8b8828daac21789ba7e2830138bcb8a34e0faa8524"
+    },
+    {
+      "path": "mast/2026-07-30-kepler-lightcurve-kepler10b/kepler10_q3_pdcsap.csv",
+      "notebook_id": "2026-07-30-kepler-lightcurve-kepler10b",
+      "exists": true,
+      "bytes": 212460,
+      "sha256": "2acccbc7a5313c43b85ac6ee21490d51af89682a8ad53521e20a4bdaa122071f"
+    },
+    {
+      "path": "mast/2026-07-30-kepler-lightcurve-kepler186f/kepler186_all_quarters.csv",
+      "notebook_id": "2026-07-30-kepler-lightcurve-kepler186f",
+      "exists": true,
+      "bytes": 8763731,
+      "sha256": "2c70c2c195e5c644d6adfdf5ac2a945c421e933815f04565c1655b2565fa739e"
+    },
+    {
+      "path": "mast/2026-07-30-kepler-lightcurve-kepler186f/kepler186_event_depths.csv",
+      "notebook_id": "2026-07-30-kepler-lightcurve-kepler186f",
+      "exists": true,
+      "bytes": 281,
+      "sha256": "1c73424c90645e6946442a40d9e411e4e8610dc1384da908a36090244afbfcaa"
+    },
+    {
+      "path": "mast/2026-07-30-kepler-lightcurve-kepler186f/kepler186_injection_recovery.csv",
+      "notebook_id": "2026-07-30-kepler-lightcurve-kepler186f",
+      "exists": true,
+      "bytes": 417,
+      "sha256": "e994d3559207caed583c909acba0528745d616eddd8754f2bcc0729532ccec71"
+    },
+    {
+      "path": "mast/2026-07-30-kepler-lightcurve-kepler186f/kepler186_leave_one_out.csv",
+      "notebook_id": "2026-07-30-kepler-lightcurve-kepler186f",
+      "exists": true,
+      "bytes": 244,
+      "sha256": "458076c3922b55ee873d94bb5033ff83145d7768ac9f70fb830a95bc6b64b140"
+    },
+    {
+      "path": "mast/2026-07-30-kepler-lightcurve-kepler186f/kepler186_transit_coverage.csv",
+      "notebook_id": "2026-07-30-kepler-lightcurve-kepler186f",
+      "exists": true,
+      "bytes": 372,
+      "sha256": "03d013adad2d4a83dede3f588a96d9ca758c4ceefee37ac29872f7fbb7c22b10"
+    },
+    {
+      "path": "mast/2026-07-30-periodogram-hat-p-7b/hatp7_all_quarters.csv",
+      "notebook_id": "2026-07-30-periodogram-hat-p-7b",
+      "exists": true,
+      "bytes": 8731439,
+      "sha256": "3449ba286a866d527454131760eb75c5c74283f1faa92e38d4306bc49126abea"
+    },
+    {
+      "path": "mast/2026-07-30-periodogram-hat-p-7b/hatp7_individual_transit_depths.csv",
+      "notebook_id": "2026-07-30-periodogram-hat-p-7b",
+      "exists": true,
+      "bytes": 16728,
+      "sha256": "4a37c0546cfbc577eee4cf06dc9c178b316149c8b224f01c85a3b4f1cc177ffe"
+    },
+    {
+      "path": "mast/2026-07-30-periodogram-hat-p-7b/hatp7_quarter_depths.csv",
+      "notebook_id": "2026-07-30-periodogram-hat-p-7b",
+      "exists": true,
+      "bytes": 805,
+      "sha256": "84cf3adf937b146a3f7eb6c2d69885ddd94238800dd5a07d4d2b10f4c32302fe"
+    },
+    {
+      "path": "mast/2026-07-30-periodogram-hat-p-7b/hatp7_search_summary.csv",
+      "notebook_id": "2026-07-30-periodogram-hat-p-7b",
+      "exists": true,
+      "bytes": 248,
+      "sha256": "34253a562d2e195c542688779201378d5266d953ae994bf7dbaed8d5d4a7d07f"
+    },
+    {
+      "path": "mast/2026-07-30-tess-lightcurve-toi700/toi700_fit_summary.csv",
+      "notebook_id": "2026-07-30-tess-lightcurve-toi700",
+      "exists": true,
+      "bytes": 160,
+      "sha256": "fe3f5f0c5acc0d357325c4c8a41fb0308cfc20bcae5d3302a1e8b9ba6b523283"
+    },
+    {
+      "path": "mast/2026-07-30-tess-lightcurve-toi700/toi700_model_sensitivity.csv",
+      "notebook_id": "2026-07-30-tess-lightcurve-toi700",
+      "exists": true,
+      "bytes": 464,
+      "sha256": "bc9ba805e0047c6e5e9487a7843c3d7e2a504dcf77062690d38c157c6a256846"
+    },
+    {
+      "path": "mast/2026-07-30-tess-lightcurve-toi700/toi700_multisector_pdcsap.csv",
+      "notebook_id": "2026-07-30-tess-lightcurve-toi700",
+      "exists": true,
+      "bytes": 502107,
+      "sha256": "b8256d9a97b786fff686a6f8efa0a86c40394ab661a406fed17c08d496be925e"
+    },
+    {
+      "path": "mast/2026-07-31-hst-halpha-equivalent-width-systematics/halpha_ew_method_grid.csv",
+      "notebook_id": "2026-07-31-hst-halpha-equivalent-width-systematics",
+      "exists": true,
+      "bytes": 272,
+      "sha256": "ba046ef8eb3f00f9bc37ebee6464a89d5cc8687d927c0608f52d25aa09eb268c"
+    },
+    {
+      "path": "mast/2026-07-31-hst-halpha-equivalent-width-systematics/halpha_ew_noise_bootstrap.csv",
+      "notebook_id": "2026-07-31-hst-halpha-equivalent-width-systematics",
+      "exists": true,
+      "bytes": 15791,
+      "sha256": "f3ced852723234d0bbb5cdb86634b17be42607065e91a9e89257004a12512cce"
+    },
+    {
+      "path": "mast/2026-07-31-hst-m87-image-morphology/m87_morphology_threshold_stress.csv",
+      "notebook_id": "2026-07-31-hst-m87-image-morphology",
+      "exists": true,
+      "bytes": 392,
+      "sha256": "00c2b8ac7fbeaf06bd13590075a24284a288158141eee78aea005e314747ee86"
+    },
+    {
+      "path": "mast/2026-07-31-hst-stis-continuum-slope/continuum_mask_stress.csv",
+      "notebook_id": "2026-07-31-hst-stis-continuum-slope",
+      "exists": true,
+      "bytes": 266,
+      "sha256": "10956073a737946b6cbd8d71f49e82833d86c2c05be68b59cec984829deaf20f"
+    },
+    {
+      "path": "mast/2026-07-31-hst-stis-continuum-slope/continuum_slope_bootstrap.csv",
+      "notebook_id": "2026-07-31-hst-stis-continuum-slope",
+      "exists": true,
+      "bytes": 20550,
+      "sha256": "c10e9d9446560f8a7b765f8c21e72c81ebe965c198752ebc6fefb1d6613842ab"
+    },
+    {
+      "path": "mast/2026-07-31-hst-stis-hd93521-line-inventory/line_measurements.csv",
+      "notebook_id": "2026-07-31-hst-stis-hd93521-line-inventory",
+      "exists": true,
+      "bytes": 746,
+      "sha256": "4394cebcc2cf6e5e4cf982653997ae25febb6d25893ca7f57c731036ece5c2df"
+    },
+    {
+      "path": "mast/2026-07-31-hst-stis-hd93521-line-inventory/spectrum_subset.csv",
+      "notebook_id": "2026-07-31-hst-stis-hd93521-line-inventory",
+      "exists": true,
+      "bytes": 36136,
+      "sha256": "aba5c0650d1279f7ee61feffd7163de6acde17265c767f52fe5bb59005ed7ffb"
+    },
+    {
+      "path": "mast/2026-08-01-asassn18tb-background-systematics/background_correction_stress.csv",
+      "notebook_id": "2026-08-01-asassn18tb-background-systematics",
+      "exists": true,
+      "bytes": 191,
+      "sha256": "dc0e43b2fc3e6b5ef3f3f9cb3b6ca75884bafa4cfa6db35306e76c04b35cc1e6"
+    },
+    {
+      "path": "mast/2026-08-01-asassn18tb-des-host/host_centroid_sensitivity.csv",
+      "notebook_id": "2026-08-01-asassn18tb-des-host",
+      "exists": true,
+      "bytes": 291,
+      "sha256": "036ca626c5d4f912134febf012acc2fa3a1f148bd42827357c63dbf2752f00fa"
+    },
+    {
+      "path": "mast/2026-08-01-asassn18tb-independent-photometry/aperture_vs_mit_lightcurve.csv",
+      "notebook_id": "2026-08-01-asassn18tb-independent-photometry",
+      "exists": true,
+      "bytes": 120433,
+      "sha256": "d229e03fc9248e88426df8f5f3a51614c7a93ef95939d24162e211d4ce49322a"
+    },
+    {
+      "path": "mast/2026-08-01-asassn18tb-rise-model/rise_fit_window_sensitivity.csv",
+      "notebook_id": "2026-08-01-asassn18tb-rise-model",
+      "exists": true,
+      "bytes": 293,
+      "sha256": "0df2f75d959ac30011012261ef5ae2732c2f952f390a98c7ed271feb9f92c7e5"
+    },
+    {
+      "path": "mast/2026-08-01-asassn18tb-tess-animation/asassn18tb_tess_rise.gif",
+      "notebook_id": "2026-08-01-asassn18tb-tess-animation",
+      "exists": true,
+      "bytes": 316499,
+      "sha256": "d9dcaf941c6431d5302294bff5a666b4ecfdfc9e4f4064636ea44b6c56bafab3"
+    },
+    {
+      "path": "mast/2026-08-01-asassn18tb-tess-animation/movie_frame_brightness.csv",
+      "notebook_id": "2026-08-01-asassn18tb-tess-animation",
+      "exists": true,
+      "bytes": 1720,
+      "sha256": "468087754f80dbd74e6b802443bdac9fb426adcec00a2af9d5927ff1278e32da"
+    },
+    {
+      "path": "mast/2026-08-01-hst-jwst-sn1987a-comparison/hst_jwst_resolution_stress.csv",
+      "notebook_id": "2026-08-01-hst-jwst-sn1987a-comparison",
+      "exists": true,
+      "bytes": 234,
+      "sha256": "d2ce8b63db506f7191fdd9e5b03c2685f57dc7b6c451516ba6114df78276d11c"
+    },
+    {
+      "path": "mast/2026-08-01-hst-sn1987a-lightcurve/sn1987a_lightcurve_trends.csv",
+      "notebook_id": "2026-08-01-hst-sn1987a-lightcurve",
+      "exists": true,
+      "bytes": 688,
+      "sha256": "2ad0df10f102527c625b6abd3233ce7e0c71c8023b30485c5d592339037ff3db"
+    },
+    {
+      "path": "mast/2026-08-01-hst-sn1987a-lightcurve/sn1987a_piecewise_fit.csv",
+      "notebook_id": "2026-08-01-hst-sn1987a-lightcurve",
+      "exists": true,
+      "bytes": 130,
+      "sha256": "259f0cc69cae5c7e412cf3884b020ec4d85349aaac185d437b6d93a42c74e020"
+    },
+    {
+      "path": "mast/2026-08-01-hst-sn1987a-timelapse/sn1987a_display_morphology.csv",
+      "notebook_id": "2026-08-01-hst-sn1987a-timelapse",
+      "exists": true,
+      "bytes": 364,
+      "sha256": "30e8278ec8847947fa4a8cf948c683e2364998fd9d5e49d2e327659682f2de7b"
+    },
+    {
+      "path": "mast/2026-08-01-hst-sn1987a-timelapse/sn1987a_hst_1994_2006.gif",
+      "notebook_id": "2026-08-01-hst-sn1987a-timelapse",
+      "exists": true,
+      "bytes": 1016228,
+      "sha256": "829d979b15e7009ee42e3f28386b95ace5ed323a757587dc6158c3b317e7d9da"
+    },
+    {
+      "path": "mast/2026-08-01-jwst-sn1987a-filter-morphology/jwst_aperture_sensitivity.csv",
+      "notebook_id": "2026-08-01-jwst-sn1987a-filter-morphology",
+      "exists": true,
+      "bytes": 1320,
+      "sha256": "8da6dc2c00fc9e3f34671edaff495844d313b4cce3c8efddb18cfac5d8854096"
+    },
+    {
+      "path": "mast/2026-08-01-jwst-sn1987a-filter-morphology/jwst_filter_aperture_metrics.csv",
+      "notebook_id": "2026-08-01-jwst-sn1987a-filter-morphology",
+      "exists": true,
+      "bytes": 568,
+      "sha256": "cda336291bd4e496254272eda09eb56b1ace31f9820a4fc61ce608857b102597"
+    },
+    {
+      "path": "mast/2026-08-01-jwst-sn1987a-rgb/jwst_rgb_channel_statistics.csv",
+      "notebook_id": "2026-08-01-jwst-sn1987a-rgb",
+      "exists": true,
+      "bytes": 272,
+      "sha256": "e9eed2eef0d3a42081dba7f751cd3fc3c614efd9246e00ca7d1c44915d565617"
+    },
+    {
+      "path": "mast/2026-08-01-jwst-sn1987a-rgb/jwst_sn1987a_rgb.png",
+      "notebook_id": "2026-08-01-jwst-sn1987a-rgb",
+      "exists": true,
+      "bytes": 147642,
+      "sha256": "19383c5845b027973c001dca391b8e27279f858f5d3fbdd35cd2de3aeb1743a8"
+    },
+    {
+      "path": "mast/2026-08-01-uncover-highz-candidate-census/selection_sensitivity.csv",
+      "notebook_id": "2026-08-01-uncover-highz-candidate-census",
+      "exists": true,
+      "bytes": 297,
+      "sha256": "788b925694f79fed0edd29bc04f8e3ec9c3ebba8a2389104eaec7d063287c4ac"
+    },
+    {
+      "path": "mast/2026-08-01-uncover-highz-line-diagnostics/highz_line_detection_counts.csv",
+      "notebook_id": "2026-08-01-uncover-highz-line-diagnostics",
+      "exists": true,
+      "bytes": 1023,
+      "sha256": "68c0f22636f6cb17c7190a1bfa44d583ba36097a080badaefe9a552191e18094"
+    },
+    {
+      "path": "mast/2026-08-01-uncover-highz-line-diagnostics/oiii5007_lensing_scale.csv",
+      "notebook_id": "2026-08-01-uncover-highz-line-diagnostics",
+      "exists": true,
+      "bytes": 4077,
+      "sha256": "783eb7d8f3029615f1995dd795b61d06bbc4911b4031b881f9eed2b0707b673d"
+    },
+    {
+      "path": "mast/2026-08-01-uncover-lensing-brightness/lensing_working_sample.csv",
+      "notebook_id": "2026-08-01-uncover-lensing-brightness",
+      "exists": true,
+      "bytes": 94827,
+      "sha256": "62bb6e6ca0ac19e6697f0a70a59123ff56315d8dc6cb1f626a0ce7fc2717ab5c"
+    },
+    {
+      "path": "mast/2026-08-01-uncover-lensing-brightness/magnification_cap_sensitivity.csv",
+      "notebook_id": "2026-08-01-uncover-lensing-brightness",
+      "exists": true,
+      "bytes": 303,
+      "sha256": "bad0227d385fad088ad73ea93f25db046471990d17d58aabb9fcc899beb0f2a0"
+    },
+    {
+      "path": "mast/2026-08-01-uncover-lyman-break-stacks/dropout_ratio_summary.csv",
+      "notebook_id": "2026-08-01-uncover-lyman-break-stacks",
+      "exists": true,
+      "bytes": 304,
+      "sha256": "066e15151415701e2221005fcc14da5b02eb40898d05a693638c857776c59cba"
+    },
+    {
+      "path": "mast/2026-08-01-uncover-lyman-break-stacks/median_sed_stacks.csv",
+      "notebook_id": "2026-08-01-uncover-lyman-break-stacks",
+      "exists": true,
+      "bytes": 1560,
+      "sha256": "d913794c3e21de1e15384dc635a5c4bc8a3ee8db3da05a12e5aa981ac5c2d1a7"
+    },
+    {
+      "path": "mast/2026-08-01-uncover-nirspec-spectral-atlas/hst_rgb_channels.csv",
+      "notebook_id": "2026-08-01-uncover-nirspec-spectral-atlas",
+      "exists": true,
+      "bytes": 49,
+      "sha256": "3cef34286b2e25a7080fe5581a249b400dadd7d4df5bd6f18229235fd750efcf"
+    },
+    {
+      "path": "mast/2026-08-01-uncover-nirspec-spectral-atlas/spectral_atlas_sources.csv",
+      "notebook_id": "2026-08-01-uncover-nirspec-spectral-atlas",
+      "exists": true,
+      "bytes": 359,
+      "sha256": "1d1f9a426b772e2426ce902265caa4cd377ae98f2f17d2d298111dd8a79eec6b"
+    },
+    {
+      "path": "mast/2026-08-01-uncover-photz-specz-validation/photz_specz_residuals.csv",
+      "notebook_id": "2026-08-01-uncover-photz-specz-validation",
+      "exists": true,
+      "bytes": 3472,
+      "sha256": "1b1a92d7634480acfd70750d332027720f0cfe6abb03fbd21f329d5cfd2f8c2f"
+    },
+    {
+      "path": "mast/2026-08-01-uncover-redshift-interval-calibration/coverage_curve.csv",
+      "notebook_id": "2026-08-01-uncover-redshift-interval-calibration",
+      "exists": true,
+      "bytes": 1005,
+      "sha256": "f9a9dd8708eff8abf0674b3d52c7cdd2498adda92d791929cb1c8f1c544151eb"
+    },
+    {
+      "path": "mast/2026-08-01-uncover-size-redshift/size_cut_sensitivity.csv",
+      "notebook_id": "2026-08-01-uncover-size-redshift",
+      "exists": true,
+      "bytes": 189,
+      "sha256": "c04e161fd2fbd6e0f7348fe6c31de0149cb23bb5a8d80f2f55845d57edef390b"
+    },
+    {
+      "path": "mast/2026-08-01-uncover-size-redshift/size_proxy_by_redshift.csv",
+      "notebook_id": "2026-08-01-uncover-size-redshift",
+      "exists": true,
+      "bytes": 385,
+      "sha256": "831b18a5a6733ca3ed1a9edbdc62c50746dd5338304e17056ed89ab717e4850b"
+    },
+    {
+      "path": "mast/2026-08-01-uncover-spatial-selection/spatial_binning_sensitivity.csv",
+      "notebook_id": "2026-08-01-uncover-spatial-selection",
+      "exists": true,
+      "bytes": 520,
+      "sha256": "51b23ee199cbda1e7a90f5ac5687c2bb621c65c8646d93f7a0c962b7ccff13bc"
+    },
+    {
+      "path": "mast/2026-08-01-uncover-spatial-selection/spatial_grid_summary.csv",
+      "notebook_id": "2026-08-01-uncover-spatial-selection",
+      "exists": true,
+      "bytes": 1489,
+      "sha256": "37717892e7289e49b474e732ac125384c6a3ee4c11c0c62efc4b8e35108fa471"
+    },
+    {
+      "path": "mast/2026-08-01-uncover-spectroscopic-evidence/background_flag_stress.csv",
+      "notebook_id": "2026-08-01-uncover-spectroscopic-evidence",
+      "exists": true,
+      "bytes": 101,
+      "sha256": "b495db3ce3e479bef37951e832d705dad37f7a782e992919865bc5696c3fee13"
+    },
+    {
+      "path": "mast/2026-08-01-uncover-spectroscopic-evidence/spectroscopic_evidence_summary.csv",
+      "notebook_id": "2026-08-01-uncover-spectroscopic-evidence",
+      "exists": true,
+      "bytes": 324,
+      "sha256": "8f74e04c4b1e1df5d7db2f7b92937914b9b171ea3e63db98cd56be25472954c4"
+    },
+    {
+      "path": "sdss/2026-07-30-emission-line-measurement/galaxy_sdss_metadata.json",
+      "notebook_id": "2026-07-30-emission-line-measurement",
+      "exists": true,
+      "bytes": 108,
+      "sha256": "55d71ee28fcb2372c9591b9874924245200a3c8fb8cb072fe4f35c01eb57f1e5"
+    },
+    {
+      "path": "sdss/2026-07-30-emission-line-measurement/galaxy_sdss_spectrum.csv",
+      "notebook_id": "2026-07-30-emission-line-measurement",
+      "exists": true,
+      "bytes": 224666,
+      "sha256": "63d6c74a05a81f9ed62f88e11f6ddde6f1574f83189f4ea14b21d213cea7632f"
+    },
+    {
+      "path": "sdss/2026-07-30-emission-line-measurement/halpha_nii_fit_summary.csv",
+      "notebook_id": "2026-07-30-emission-line-measurement",
+      "exists": true,
+      "bytes": 282,
+      "sha256": "8dd7ff24f67be330c0fdf41014cac70a62fe58526c08a06010c06a6e9237bb9a"
+    },
+    {
+      "path": "sdss/2026-07-30-emission-line-measurement/halpha_nii_window_stress.csv",
+      "notebook_id": "2026-07-30-emission-line-measurement",
+      "exists": true,
+      "bytes": 201,
+      "sha256": "d92741f67ddf634727c8572a82a98ec50b93a89422414113fb176905399b4043"
+    },
+    {
+      "path": "sdss/2026-07-30-galaxy-redshift-slice/sdss_redshift_concentrations.csv",
+      "notebook_id": "2026-07-30-galaxy-redshift-slice",
+      "exists": true,
+      "bytes": 446,
+      "sha256": "ac79f17a33cdccd4f41601d92f5c615ed3d66f9cd8ce141ca64511ebf9eebf4c"
+    },
+    {
+      "path": "sdss/2026-07-30-metallicity-vs-position/sdss_metallicity_digitization_stress.csv",
+      "notebook_id": "2026-07-30-metallicity-vs-position",
+      "exists": true,
+      "bytes": 175,
+      "sha256": "58f720246b3c457993645cb369c77175418298c2dd31afd21cb68389c0f2c4b8"
+    },
+    {
+      "path": "sdss/2026-07-30-qso-redshift-check/qso_multiline_redshift.csv",
+      "notebook_id": "2026-07-30-qso-redshift-check",
+      "exists": true,
+      "bytes": 409,
+      "sha256": "344033c6f8977c30c82557d188031b51b0d7761100d5abe22dedfd6666e22947"
+    },
+    {
+      "path": "sdss/2026-07-30-qso-redshift-check/qso_sdss_metadata.json",
+      "notebook_id": "2026-07-30-qso-redshift-check",
+      "exists": true,
+      "bytes": 113,
+      "sha256": "37ce7c1012f2a280b37868b2857c82d459a6dcab83fa6fd6039801f6f2048451"
+    },
+    {
+      "path": "sdss/2026-07-30-qso-redshift-check/qso_sdss_spectrum.csv",
+      "notebook_id": "2026-07-30-qso-redshift-check",
+      "exists": true,
+      "bytes": 225211,
+      "sha256": "3975e3965c1d9bca9df1f1296e50667c015aa5c9dd5343ef6c2576e9aa103506"
+    },
+    {
+      "path": "sdss/2026-07-30-qso-vs-galaxy-colors/sdss_colour_digitization_stress.csv",
+      "notebook_id": "2026-07-30-qso-vs-galaxy-colors",
+      "exists": true,
+      "bytes": 180,
+      "sha256": "a7533fe25f941a6c15dfc1402a45ed4b8c2e0541d0c9f99e4dd29525880a06fb"
+    },
+    {
+      "path": "sdss/2026-07-30-spectral-type-distribution/sdss_patch_class_fractions.csv",
+      "notebook_id": "2026-07-30-spectral-type-distribution",
+      "exists": true,
+      "bytes": 133,
+      "sha256": "759b59a74850df8ff77c0ae7997c5b56bcdd80850f32272af4efce710afb0195"
+    },
+    {
+      "path": "sdss/2026-07-30-star-spectrum-classification/source_identity_line_fits.csv",
+      "notebook_id": "2026-07-30-star-spectrum-classification",
+      "exists": true,
+      "bytes": 205,
+      "sha256": "5bf34e32765ed4dfc79bd7e10ebbd26456bfcdf4421872fe23505329be3b122c"
+    },
+    {
+      "path": "sdss/2026-07-30-star-spectrum-classification/source_identity_window_stress.csv",
+      "notebook_id": "2026-07-30-star-spectrum-classification",
+      "exists": true,
+      "bytes": 194,
+      "sha256": "dad9e2b9f04d899449f84cca86211e82caef16f6abc4fb4725c3238f091529b3"
+    },
+    {
+      "path": "sdss/2026-07-30-star-spectrum-classification/star_sdss_metadata.json",
+      "notebook_id": "2026-07-30-star-spectrum-classification",
+      "exists": true,
+      "bytes": 113,
+      "sha256": "173153da19582e6499cfd56ef2fb8af6ab09c0c368e15e234134ed09dc26083d"
+    },
+    {
+      "path": "sdss/2026-07-30-star-spectrum-classification/star_sdss_spectrum.csv",
+      "notebook_id": "2026-07-30-star-spectrum-classification",
+      "exists": true,
+      "bytes": 224849,
+      "sha256": "c8015b4132fd7b427f19a14f6919f9518e50d090ca8ab95fbc28cc2f76a03f98"
+    },
+    {
+      "path": "sdss/2026-07-30-white-dwarf-spectrum/wd_balmer_display_depths.csv",
+      "notebook_id": "2026-07-30-white-dwarf-spectrum",
+      "exists": true,
+      "bytes": 153,
+      "sha256": "85bca1f4230569bf31c525363405819080fe35cce50fb401e716057d4d03a750"
+    },
+    {
+      "path": "sdss/2026-07-30-white-dwarf-spectrum/wd_balmer_window_stress.csv",
+      "notebook_id": "2026-07-30-white-dwarf-spectrum",
+      "exists": true,
+      "bytes": 482,
+      "sha256": "240205afc1d7360c3b4c666bcd483fab9b47d5ef8ef562084c8d3e785183d2f2"
+    }
+  ],
+  "notebooks": [
+    {
+      "id": "2026-08-04-mass-metallicity-relation",
+      "title": "The stellar mass-gas metallicity relation from a real SDSS star-forming sample",
+      "archive": "Sloan Digital Sky Survey",
+      "archive_dir": "sdss",
+      "date": "2026-08-04",
+      "question": "Legacy real-data notebook awaiting full result.json audit metadata.",
+      "sample_size": null,
+      "research_level": "Legacy",
+      "claim_type": "Exploratory analysis",
+      "notebook": "sdss/2026-08-04-mass-metallicity-relation/notebook.ipynb",
+      "readme": "sdss/2026-08-04-mass-metallicity-relation/README.md",
+      "hero": "sdss/2026-08-04-mass-metallicity-relation/mass_metallicity_relation.png",
+      "figures": [
+        "sdss/2026-08-04-mass-metallicity-relation/mass_metallicity_relation.png"
+      ],
+      "artifacts": [],
+      "provenance_count": 0,
+      "quality_check_count": 0,
+      "limitation_count": 0,
+      "has_result_json": false
+    },
+    {
+      "id": "2026-08-04-two-template-population-fit",
+      "title": "A simplified real full-spectrum fit: young + old stellar-population light fractions from real SDSS spectra",
+      "archive": "Sloan Digital Sky Survey",
+      "archive_dir": "sdss",
+      "date": "2026-08-04",
+      "question": "Legacy real-data notebook awaiting full result.json audit metadata.",
+      "sample_size": null,
+      "research_level": "Legacy",
+      "claim_type": "Exploratory analysis",
+      "notebook": "sdss/2026-08-04-two-template-population-fit/notebook.ipynb",
+      "readme": "sdss/2026-08-04-two-template-population-fit/README.md",
+      "hero": "sdss/2026-08-04-two-template-population-fit/two_template_fit.png",
+      "figures": [
+        "sdss/2026-08-04-two-template-population-fit/two_template_fit.png"
+      ],
+      "artifacts": [],
+      "provenance_count": 0,
+      "quality_check_count": 0,
+      "limitation_count": 0,
+      "has_result_json": false
+    },
+    {
+      "id": "2026-08-04-bpt-classifier-validation",
+      "title": "A from-scratch BPT line-ratio classifier, validated against SDSS's own pipeline labels",
+      "archive": "Sloan Digital Sky Survey",
+      "archive_dir": "sdss",
+      "date": "2026-08-04",
+      "question": "Legacy real-data notebook awaiting full result.json audit metadata.",
+      "sample_size": null,
+      "research_level": "Legacy",
+      "claim_type": "Exploratory analysis",
+      "notebook": "sdss/2026-08-04-bpt-classifier-validation/notebook.ipynb",
+      "readme": "sdss/2026-08-04-bpt-classifier-validation/README.md",
+      "hero": "sdss/2026-08-04-bpt-classifier-validation/bpt_classifier_validation.png",
+      "figures": [
+        "sdss/2026-08-04-bpt-classifier-validation/bpt_classifier_validation.png"
+      ],
+      "artifacts": [],
+      "provenance_count": 0,
+      "quality_check_count": 0,
+      "limitation_count": 0,
+      "has_result_json": false
+    },
+    {
+      "id": "2026-08-04-kepler-occurrence-rate",
+      "title": "How does Kepler's planet occurrence rate vary by stellar type and planet radius?",
+      "archive": "NASA Exoplanet Archive",
+      "archive_dir": "exoplanet-archive",
+      "date": "2026-08-04",
+      "question": "Using the real Kepler DR25 target-star catalog and real confirmed-planet catalog, what is a simplified, transit-probability-corrected occurrence rate per (stellar type, planet radius) bin?",
+      "sample_size": null,
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "notebook": "exoplanet-archive/2026-08-04-kepler-occurrence-rate/notebook.ipynb",
+      "readme": "exoplanet-archive/2026-08-04-kepler-occurrence-rate/README.md",
+      "hero": null,
+      "figures": [],
+      "artifacts": [],
+      "provenance_count": 0,
+      "quality_check_count": 0,
+      "limitation_count": 0,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-08-04-ttv-kepler9-trappist1",
+      "title": "Do Kepler-9 and TRAPPIST-1 really deviate from a strict linear transit ephemeris?",
+      "archive": "NASA Exoplanet Archive",
+      "archive_dir": "exoplanet-archive",
+      "date": "2026-08-04",
+      "question": "Do independently-published (T0, P) solutions for Kepler-9 b/c and TRAPPIST-1 deviate from an earliest-anchored linear ephemeris by much more than their quoted uncertainties, and does a ttv_flag=0 control (Kepler-9 d) differ?",
+      "sample_size": null,
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "notebook": "exoplanet-archive/2026-08-04-ttv-kepler9-trappist1/notebook.ipynb",
+      "readme": "exoplanet-archive/2026-08-04-ttv-kepler9-trappist1/README.md",
+      "hero": null,
+      "figures": [],
+      "artifacts": [],
+      "provenance_count": 0,
+      "quality_check_count": 0,
+      "limitation_count": 0,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-08-04-ss-cygni-tess-outburst-recurrence",
+      "title": "SS Cygni across five real TESS years: measuring dwarf-nova outburst amplitude and recurrence directly from the light curve",
+      "archive": "MAST",
+      "archive_dir": "mast",
+      "date": "2026-08-04",
+      "question": "Can a simple, transparent outburst detector applied to five real TESS epochs (2019-2024) of SS Cygni recover quantitative outburst amplitudes/durations and a recurrence time consistent with the published historical range?",
+      "sample_size": null,
+      "research_level": "Dense",
+      "claim_type": "confirmed outburst detection and amplitude/duration measurement (primary); small-sample consistency check against published recurrence statistics (secondary, explicitly not a re-derivation)",
+      "notebook": "mast/2026-08-04-ss-cygni-tess-outburst-recurrence/notebook.ipynb",
+      "readme": "mast/2026-08-04-ss-cygni-tess-outburst-recurrence/README.md",
+      "hero": null,
+      "figures": [],
+      "artifacts": [],
+      "provenance_count": 0,
+      "quality_check_count": 0,
+      "limitation_count": 0,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-08-04-ngc6397-cmd-pixel-photometry",
+      "title": "NGC 6397 from raw pixels: real DAOStarFinder detection, real aperture photometry, and a real color-magnitude diagram",
+      "archive": "MAST",
+      "archive_dir": "mast",
+      "date": "2026-08-04",
+      "question": "Can a from-scratch pixel-level detection-and-aperture-photometry pipeline on real HST F606W/F814W mosaics recover a clean CMD, agree with MAST's own catalog, and honestly characterize its own completeness?",
+      "sample_size": null,
+      "research_level": "Dense",
+      "claim_type": "confirmed CMD recovery and external catalog validation (primary); real, disclosed completeness limitation (secondary, explicitly quantified rather than assumed)",
+      "notebook": "mast/2026-08-04-ngc6397-cmd-pixel-photometry/notebook.ipynb",
+      "readme": "mast/2026-08-04-ngc6397-cmd-pixel-photometry/README.md",
+      "hero": null,
+      "figures": [],
+      "artifacts": [],
+      "provenance_count": 0,
+      "quality_check_count": 0,
+      "limitation_count": 0,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-08-04-m13-globular-cluster-cmd",
+      "title": "M13 globular cluster membership and HB/RGB identification",
+      "archive": "ESA Gaia",
+      "archive_dir": "gaia",
+      "date": "2026-08-04",
+      "question": "",
+      "sample_size": null,
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "notebook": "gaia/2026-08-04-m13-globular-cluster-cmd/notebook.ipynb",
+      "readme": "gaia/2026-08-04-m13-globular-cluster-cmd/README.md",
+      "hero": null,
+      "figures": [],
+      "artifacts": [],
+      "provenance_count": 0,
+      "quality_check_count": 0,
+      "limitation_count": 0,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-08-04-hyades-stream-search",
+      "title": "Hyades moving group / stream search via field kinematic clustering",
+      "archive": "ESA Gaia",
+      "archive_dir": "gaia",
+      "date": "2026-08-04",
+      "question": "",
+      "sample_size": null,
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "notebook": "gaia/2026-08-04-hyades-stream-search/notebook.ipynb",
+      "readme": "gaia/2026-08-04-hyades-stream-search/README.md",
+      "hero": null,
+      "figures": [],
+      "artifacts": [],
+      "provenance_count": 0,
+      "quality_check_count": 0,
+      "limitation_count": 0,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-08-04-toomre-diagram-halo-disk",
+      "title": "Halo vs. disk kinematic separation via Toomre diagram",
+      "archive": "ESA Gaia",
+      "archive_dir": "gaia",
+      "date": "2026-08-04",
+      "question": "",
+      "sample_size": null,
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "notebook": "gaia/2026-08-04-toomre-diagram-halo-disk/notebook.ipynb",
+      "readme": "gaia/2026-08-04-toomre-diagram-halo-disk/README.md",
+      "hero": null,
+      "figures": [],
+      "artifacts": [],
+      "provenance_count": 0,
+      "quality_check_count": 0,
+      "limitation_count": 0,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-08-03-stacked-spectra-galaxy-types",
+      "title": "Three real SDSS galaxies, overlaid: AGN vs. star-forming vs. quiescent",
+      "archive": "Sloan Digital Sky Survey",
+      "archive_dir": "sdss",
+      "date": "2026-08-03",
+      "question": "Legacy real-data notebook awaiting full result.json audit metadata.",
+      "sample_size": null,
+      "research_level": "Legacy",
+      "claim_type": "Exploratory analysis",
+      "notebook": "sdss/2026-08-03-stacked-spectra-galaxy-types/notebook.ipynb",
+      "readme": "sdss/2026-08-03-stacked-spectra-galaxy-types/README.md",
+      "hero": "sdss/2026-08-03-stacked-spectra-galaxy-types/stacked_overlay.png",
+      "figures": [
+        "sdss/2026-08-03-stacked-spectra-galaxy-types/stacked_overlay.png"
+      ],
+      "artifacts": [],
+      "provenance_count": 0,
+      "quality_check_count": 0,
+      "limitation_count": 0,
+      "has_result_json": false
+    },
+    {
+      "id": "2026-08-03-d4000-break-stellar-population",
+      "title": "The 4000-Angstrom break as a real stellar-population age diagnostic",
+      "archive": "Sloan Digital Sky Survey",
+      "archive_dir": "sdss",
+      "date": "2026-08-03",
+      "question": "Legacy real-data notebook awaiting full result.json audit metadata.",
+      "sample_size": null,
+      "research_level": "Legacy",
+      "claim_type": "Exploratory analysis",
+      "notebook": "sdss/2026-08-03-d4000-break-stellar-population/notebook.ipynb",
+      "readme": "sdss/2026-08-03-d4000-break-stellar-population/README.md",
+      "hero": "sdss/2026-08-03-d4000-break-stellar-population/d4000_comparison.png",
+      "figures": [
+        "sdss/2026-08-03-d4000-break-stellar-population/d4000_comparison.png"
+      ],
+      "artifacts": [],
+      "provenance_count": 0,
+      "quality_check_count": 0,
+      "limitation_count": 0,
+      "has_result_json": false
+    },
+    {
+      "id": "2026-08-03-velocity-dispersion-ngc7647",
+      "title": "NGC 7647: measuring stellar velocity dispersion from absorption line widths",
+      "archive": "Sloan Digital Sky Survey",
+      "archive_dir": "sdss",
+      "date": "2026-08-03",
+      "question": "Legacy real-data notebook awaiting full result.json audit metadata.",
+      "sample_size": null,
+      "research_level": "Legacy",
+      "claim_type": "Exploratory analysis",
+      "notebook": "sdss/2026-08-03-velocity-dispersion-ngc7647/notebook.ipynb",
+      "readme": "sdss/2026-08-03-velocity-dispersion-ngc7647/README.md",
+      "hero": "sdss/2026-08-03-velocity-dispersion-ngc7647/ngc7647_veldisp_fits.png",
+      "figures": [
+        "sdss/2026-08-03-velocity-dispersion-ngc7647/ngc7647_veldisp_fits.png"
+      ],
+      "artifacts": [],
+      "provenance_count": 0,
+      "quality_check_count": 0,
+      "limitation_count": 0,
+      "has_result_json": false
+    },
+    {
+      "id": "2026-08-03-elliptical-absorption-line-id-ngc7647",
+      "title": "NGC 7647: a quiescent elliptical, for contrast with the AGN notebook",
+      "archive": "Sloan Digital Sky Survey",
+      "archive_dir": "sdss",
+      "date": "2026-08-03",
+      "question": "Legacy real-data notebook awaiting full result.json audit metadata.",
+      "sample_size": null,
+      "research_level": "Legacy",
+      "claim_type": "Exploratory analysis",
+      "notebook": "sdss/2026-08-03-elliptical-absorption-line-id-ngc7647/notebook.ipynb",
+      "readme": "sdss/2026-08-03-elliptical-absorption-line-id-ngc7647/README.md",
+      "hero": "sdss/2026-08-03-elliptical-absorption-line-id-ngc7647/ngc7647_cutout.jpg",
+      "figures": [
+        "sdss/2026-08-03-elliptical-absorption-line-id-ngc7647/ngc7647_cutout.jpg",
+        "sdss/2026-08-03-elliptical-absorption-line-id-ngc7647/ngc7647_full_spectrum.png",
+        "sdss/2026-08-03-elliptical-absorption-line-id-ngc7647/ngc7647_image.png"
+      ],
+      "artifacts": [],
+      "provenance_count": 0,
+      "quality_check_count": 0,
+      "limitation_count": 0,
+      "has_result_json": false
+    },
+    {
+      "id": "2026-08-03-agn-galaxy-line-id-ngc5875",
+      "title": "NGC 5875: galaxy image + spectrum line identification vs. literature",
+      "archive": "Sloan Digital Sky Survey",
+      "archive_dir": "sdss",
+      "date": "2026-08-03",
+      "question": "Legacy real-data notebook awaiting full result.json audit metadata.",
+      "sample_size": null,
+      "research_level": "Legacy",
+      "claim_type": "Exploratory analysis",
+      "notebook": "sdss/2026-08-03-agn-galaxy-line-id-ngc5875/notebook.ipynb",
+      "readme": "sdss/2026-08-03-agn-galaxy-line-id-ngc5875/README.md",
+      "hero": "sdss/2026-08-03-agn-galaxy-line-id-ngc5875/ngc5875_bpt.png",
+      "figures": [
+        "sdss/2026-08-03-agn-galaxy-line-id-ngc5875/ngc5875_bpt.png",
+        "sdss/2026-08-03-agn-galaxy-line-id-ngc5875/ngc5875_cutout.jpg",
+        "sdss/2026-08-03-agn-galaxy-line-id-ngc5875/ngc5875_full_spectrum.png"
+      ],
+      "artifacts": [],
+      "provenance_count": 0,
+      "quality_check_count": 0,
+      "limitation_count": 0,
+      "has_result_json": false
+    },
+    {
+      "id": "2026-08-03-snr-fiber-aperture-exposure",
+      "title": "Does the SDSS fiber-aperture upgrade actually show up in spectral S/N?",
+      "archive": "Sloan Digital Sky Survey",
+      "archive_dir": "sdss",
+      "date": "2026-08-03",
+      "question": "Legacy real-data notebook awaiting full result.json audit metadata.",
+      "sample_size": null,
+      "research_level": "Legacy",
+      "claim_type": "Exploratory analysis",
+      "notebook": "sdss/2026-08-03-snr-fiber-aperture-exposure/notebook.ipynb",
+      "readme": "sdss/2026-08-03-snr-fiber-aperture-exposure/README.md",
+      "hero": "sdss/2026-08-03-snr-fiber-aperture-exposure/snr_vs_mag_era.png",
+      "figures": [
+        "sdss/2026-08-03-snr-fiber-aperture-exposure/snr_vs_mag_era.png"
+      ],
+      "artifacts": [],
+      "provenance_count": 0,
+      "quality_check_count": 0,
+      "limitation_count": 0,
+      "has_result_json": false
+    },
+    {
+      "id": "2026-08-03-planet-density-composition",
+      "title": "Sorting exoplanets by bulk density into likely compositions",
+      "archive": "NASA Exoplanet Archive",
+      "archive_dir": "exoplanet-archive",
+      "date": "2026-08-03",
+      "question": "How many confirmed exoplanets fall into each density-based composition class?",
+      "sample_size": 6253,
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "notebook": "exoplanet-archive/2026-08-03-planet-density-composition/notebook.ipynb",
+      "readme": "exoplanet-archive/2026-08-03-planet-density-composition/README.md",
+      "hero": "exoplanet-archive/2026-08-03-planet-density-composition/density_composition_classes.png",
+      "figures": [],
+      "artifacts": [],
+      "provenance_count": 0,
+      "quality_check_count": 0,
+      "limitation_count": 0,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-08-03-multiplanet-system-architecture",
+      "title": "Orbital spacing in three real multi-planet systems",
+      "archive": "NASA Exoplanet Archive",
+      "archive_dir": "exoplanet-archive",
+      "date": "2026-08-03",
+      "question": "Which of TRAPPIST-1, Kepler-90, HD 219134 sits closest to a low-integer resonance chain?",
+      "sample_size": 21,
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "notebook": "exoplanet-archive/2026-08-03-multiplanet-system-architecture/notebook.ipynb",
+      "readme": "exoplanet-archive/2026-08-03-multiplanet-system-architecture/README.md",
+      "hero": "exoplanet-archive/2026-08-03-multiplanet-system-architecture/resonance_chain_comparison.png",
+      "figures": [],
+      "artifacts": [],
+      "provenance_count": 0,
+      "quality_check_count": 0,
+      "limitation_count": 0,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-08-03-discovery-yield-trends",
+      "title": "How fast is each detection method finding new planets?",
+      "archive": "NASA Exoplanet Archive",
+      "archive_dir": "exoplanet-archive",
+      "date": "2026-08-03",
+      "question": "What is the 2005-2025 CAGR of cumulative confirmed planets, by top-3 detection method?",
+      "sample_size": 5786,
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "notebook": "exoplanet-archive/2026-08-03-discovery-yield-trends/notebook.ipynb",
+      "readme": "exoplanet-archive/2026-08-03-discovery-yield-trends/README.md",
+      "hero": "exoplanet-archive/2026-08-03-discovery-yield-trends/discovery_yield_trends.png",
+      "figures": [],
+      "artifacts": [],
+      "provenance_count": 0,
+      "quality_check_count": 0,
+      "limitation_count": 0,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-08-03-metallicity-giant-planet-occurrence",
+      "title": "Does host-star metallicity predict giant-planet occurrence?",
+      "archive": "NASA Exoplanet Archive",
+      "archive_dir": "exoplanet-archive",
+      "date": "2026-08-03",
+      "question": "Among RV-detected hosts, does giant-planet occurrence rise with stellar metallicity?",
+      "sample_size": 815,
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "notebook": "exoplanet-archive/2026-08-03-metallicity-giant-planet-occurrence/notebook.ipynb",
+      "readme": "exoplanet-archive/2026-08-03-metallicity-giant-planet-occurrence/README.md",
+      "hero": "exoplanet-archive/2026-08-03-metallicity-giant-planet-occurrence/metallicity_giant_occurrence.png",
+      "figures": [],
+      "artifacts": [],
+      "provenance_count": 0,
+      "quality_check_count": 0,
+      "limitation_count": 0,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-08-03-tess-rrlyrae-asteroseismology",
+      "title": "TESS light curve of RR Lyrae itself: recovering the pulsation period, and looking for the Blazhko effect",
+      "archive": "MAST",
+      "archive_dir": "mast",
+      "date": "2026-08-03",
+      "question": "Can a blind period search on real TESS light curves recover RR Lyrae's known pulsation period, and is there evidence for its Blazhko amplitude modulation?",
+      "sample_size": null,
+      "research_level": "Dense",
+      "claim_type": "confirmed period recovery (primary); exploratory, lower-confidence amplitude-modulation search (secondary)",
+      "notebook": "mast/2026-08-03-tess-rrlyrae-asteroseismology/notebook.ipynb",
+      "readme": "mast/2026-08-03-tess-rrlyrae-asteroseismology/README.md",
+      "hero": null,
+      "figures": [],
+      "artifacts": [],
+      "provenance_count": 0,
+      "quality_check_count": 0,
+      "limitation_count": 0,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-08-03-eagle-nebula-hst-jwst-psf",
+      "title": "Pillars of Creation, twice: comparing real HST and JWST resolution on the same field",
+      "archive": "MAST",
+      "archive_dir": "mast",
+      "date": "2026-08-03",
+      "question": "Does the apparent point-source sharpness in real HST vs JWST images of the same field match the diffraction-limit prediction for a 2.4 m visible telescope vs a 6.5 m infrared telescope?",
+      "sample_size": null,
+      "research_level": "Dense",
+      "claim_type": "illustrative preview-image resolution comparison, not a calibrated PSF characterization",
+      "notebook": "mast/2026-08-03-eagle-nebula-hst-jwst-psf/notebook.ipynb",
+      "readme": "mast/2026-08-03-eagle-nebula-hst-jwst-psf/README.md",
+      "hero": null,
+      "figures": [],
+      "artifacts": [],
+      "provenance_count": 0,
+      "quality_check_count": 0,
+      "limitation_count": 0,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-08-03-ngc1068-image-spectrum-lines",
+      "title": "NGC 1068: a real HST image and a real HST spectrum of the same galaxy",
+      "archive": "MAST",
+      "archive_dir": "mast",
+      "date": "2026-08-03",
+      "question": "How many literature narrow emission lines can automated peak detection recover in a real archival HST/STIS spectrum of NGC 1068, and which elements/ions are they?",
+      "sample_size": null,
+      "research_level": "Dense",
+      "claim_type": "archival remeasurement / line-identification exercise, not a new nuclear diagnostic",
+      "notebook": "mast/2026-08-03-ngc1068-image-spectrum-lines/notebook.ipynb",
+      "readme": "mast/2026-08-03-ngc1068-image-spectrum-lines/README.md",
+      "hero": null,
+      "figures": [],
+      "artifacts": [],
+      "provenance_count": 0,
+      "quality_check_count": 0,
+      "limitation_count": 0,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-08-03-m51-dust-lane-color-mapping",
+      "title": "Mapping M51's dust lanes with two real HST filters",
+      "archive": "MAST",
+      "archive_dir": "mast",
+      "date": "2026-08-03",
+      "question": "Does a simple two-filter (F435W/F814W) color-difference comparison recover M51's known dust-lane structure?",
+      "sample_size": null,
+      "research_level": "Dense",
+      "claim_type": "illustrative preview-image color-difference map, not a calibrated extinction measurement",
+      "notebook": "mast/2026-08-03-m51-dust-lane-color-mapping/notebook.ipynb",
+      "readme": "mast/2026-08-03-m51-dust-lane-color-mapping/README.md",
+      "hero": null,
+      "figures": [],
+      "artifacts": [],
+      "provenance_count": 0,
+      "quality_check_count": 0,
+      "limitation_count": 0,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-08-03-hst-47tuc-multiband-sed",
+      "title": "Five real HST filters of 47 Tucanae: do the colors look like a globular cluster?",
+      "archive": "MAST",
+      "archive_dir": "mast",
+      "date": "2026-08-03",
+      "question": "Do real, cross-matched multi-band HST photometry colors of 47 Tuc trace the reddening-with-fainter-magnitude trend expected along the main sequence of an old stellar population?",
+      "sample_size": null,
+      "research_level": "Dense",
+      "claim_type": "real multi-band photometric color-magnitude check, not an isochrone-fit age/distance measurement",
+      "notebook": "mast/2026-08-03-hst-47tuc-multiband-sed/notebook.ipynb",
+      "readme": "mast/2026-08-03-hst-47tuc-multiband-sed/README.md",
+      "hero": null,
+      "figures": [],
+      "artifacts": [],
+      "provenance_count": 0,
+      "quality_check_count": 0,
+      "limitation_count": 0,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-08-03-crab-nebula-expansion-proper-motion",
+      "title": "Does the Crab Nebula visibly expand between two real HST epochs 9 years apart?",
+      "archive": "MAST",
+      "archive_dir": "mast",
+      "date": "2026-08-03",
+      "question": "Can simple knot-centroiding between two real HST epochs (2005, 2014) detect the Crab Nebula's known outward expansion?",
+      "sample_size": null,
+      "research_level": "Dense",
+      "claim_type": "honest non-detection / method sensitivity check, not a confirmed proper-motion measurement",
+      "notebook": "mast/2026-08-03-crab-nebula-expansion-proper-motion/notebook.ipynb",
+      "readme": "mast/2026-08-03-crab-nebula-expansion-proper-motion/README.md",
+      "hero": null,
+      "figures": [],
+      "artifacts": [],
+      "provenance_count": 0,
+      "quality_check_count": 0,
+      "limitation_count": 0,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-08-03-solar-neighborhood-ruwe-binaries",
+      "title": "Solar neighborhood RUWE binary candidates",
+      "archive": "ESA Gaia",
+      "archive_dir": "gaia",
+      "date": "2026-08-03",
+      "question": "",
+      "sample_size": null,
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "notebook": "gaia/2026-08-03-solar-neighborhood-ruwe-binaries/notebook.ipynb",
+      "readme": "gaia/2026-08-03-solar-neighborhood-ruwe-binaries/README.md",
+      "hero": null,
+      "figures": [],
+      "artifacts": [],
+      "provenance_count": 0,
+      "quality_check_count": 0,
+      "limitation_count": 0,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-08-03-praesepe-isochrone-age",
+      "title": "Praesepe main-sequence turnoff age",
+      "archive": "ESA Gaia",
+      "archive_dir": "gaia",
+      "date": "2026-08-03",
+      "question": "",
+      "sample_size": null,
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "notebook": "gaia/2026-08-03-praesepe-isochrone-age/notebook.ipynb",
+      "readme": "gaia/2026-08-03-praesepe-isochrone-age/README.md",
+      "hero": null,
+      "figures": [],
+      "artifacts": [],
+      "provenance_count": 0,
+      "quality_check_count": 0,
+      "limitation_count": 0,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-08-03-milky-way-rotation-curve",
+      "title": "Milky Way rotation curve from Gaia DR3",
+      "archive": "ESA Gaia",
+      "archive_dir": "gaia",
+      "date": "2026-08-03",
+      "question": "",
+      "sample_size": null,
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "notebook": "gaia/2026-08-03-milky-way-rotation-curve/notebook.ipynb",
+      "readme": "gaia/2026-08-03-milky-way-rotation-curve/README.md",
+      "hero": null,
+      "figures": [],
+      "artifacts": [],
+      "provenance_count": 0,
+      "quality_check_count": 0,
+      "limitation_count": 0,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-08-03-local-3d-stellar-map",
+      "title": "Local 3D stellar map from Gaia DR3",
+      "archive": "ESA Gaia",
+      "archive_dir": "gaia",
+      "date": "2026-08-03",
+      "question": "",
+      "sample_size": null,
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "notebook": "gaia/2026-08-03-local-3d-stellar-map/notebook.ipynb",
+      "readme": "gaia/2026-08-03-local-3d-stellar-map/README.md",
+      "hero": null,
+      "figures": [],
+      "artifacts": [],
+      "provenance_count": 0,
+      "quality_check_count": 0,
+      "limitation_count": 0,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-08-01-uncover-highz-line-diagnostics",
+      "title": "Which lines are measured in the high-redshift spectra?",
+      "archive": "MAST",
+      "archive_dir": "mast",
+      "date": "2026-08-01",
+      "question": "Which line measurements reach S/N above three, and how does lensing change their scale?",
+      "sample_size": 48,
+      "research_level": "Spectroscopic audit",
+      "claim_type": "Public line-measurement inventory",
+      "notebook": "mast/2026-08-01-uncover-highz-line-diagnostics/notebook.ipynb",
+      "readme": "mast/2026-08-01-uncover-highz-line-diagnostics/README.md",
+      "hero": "mast/2026-08-01-uncover-highz-line-diagnostics/highz_line_detection_counts.png",
+      "figures": [
+        "mast/2026-08-01-uncover-highz-line-diagnostics/highz_line_detection_counts.png",
+        "mast/2026-08-01-uncover-highz-line-diagnostics/oiii5007_lensing_correction.png"
+      ],
+      "artifacts": [
+        "mast/2026-08-01-uncover-highz-line-diagnostics/highz_line_detection_counts.csv",
+        "mast/2026-08-01-uncover-highz-line-diagnostics/oiii5007_lensing_scale.csv"
+      ],
+      "provenance_count": 3,
+      "quality_check_count": 2,
+      "limitation_count": 2,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-08-01-uncover-spectroscopic-evidence",
+      "title": "What supports the UNCOVER redshifts?",
+      "archive": "MAST",
+      "archive_dir": "mast",
+      "date": "2026-08-01",
+      "question": "How do spectral evidence and the background advisory relate to solid or secure redshifts?",
+      "sample_size": 409,
+      "research_level": "Spectroscopic audit",
+      "claim_type": "Release evidence-flag audit",
+      "notebook": "mast/2026-08-01-uncover-spectroscopic-evidence/notebook.ipynb",
+      "readme": "mast/2026-08-01-uncover-spectroscopic-evidence/README.md",
+      "hero": "mast/2026-08-01-uncover-spectroscopic-evidence/spectroscopic_evidence_counts.png",
+      "figures": [
+        "mast/2026-08-01-uncover-spectroscopic-evidence/spectroscopic_evidence_counts.png",
+        "mast/2026-08-01-uncover-spectroscopic-evidence/evidence_redshift_ranges.png"
+      ],
+      "artifacts": [
+        "mast/2026-08-01-uncover-spectroscopic-evidence/spectroscopic_evidence_summary.csv",
+        "mast/2026-08-01-uncover-spectroscopic-evidence/background_flag_stress.csv"
+      ],
+      "provenance_count": 3,
+      "quality_check_count": 2,
+      "limitation_count": 2,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-08-01-asassn18tb-des-host",
+      "title": "The DES host galaxy around ASASSN-18tb",
+      "archive": "MAST",
+      "archive_dir": "mast",
+      "date": "2026-08-01",
+      "question": "What does pre-explosion DES imaging show about the host environment and positional offset?",
+      "sample_size": 3,
+      "research_level": "Time-domain audit",
+      "claim_type": "Pre-explosion host-environment audit",
+      "notebook": "mast/2026-08-01-asassn18tb-des-host/notebook.ipynb",
+      "readme": "mast/2026-08-01-asassn18tb-des-host/README.md",
+      "hero": "mast/2026-08-01-asassn18tb-des-host/des_host_rgb.png",
+      "figures": [
+        "mast/2026-08-01-asassn18tb-des-host/des_host_rgb.png",
+        "mast/2026-08-01-asassn18tb-des-host/host_offset_stress.png"
+      ],
+      "artifacts": [
+        "mast/2026-08-01-asassn18tb-des-host/host_centroid_sensitivity.csv"
+      ],
+      "provenance_count": 3,
+      "quality_check_count": 2,
+      "limitation_count": 2,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-08-01-hst-jwst-sn1987a-comparison",
+      "title": "SN 1987A: registered Hubble\u2013Webb structure comparison",
+      "archive": "MAST",
+      "archive_dir": "mast",
+      "date": "2026-08-01",
+      "question": "Which normalized structures remain spatially similar between HST F625W in 2018 and JWST F200W in 2022?",
+      "sample_size": 8405,
+      "research_level": "Exploration",
+      "claim_type": "Cross-instrument morphology",
+      "notebook": "mast/2026-08-01-hst-jwst-sn1987a-comparison/notebook.ipynb",
+      "readme": "mast/2026-08-01-hst-jwst-sn1987a-comparison/README.md",
+      "hero": "mast/2026-08-01-hst-jwst-sn1987a-comparison/hst_jwst_registered_comparison.png",
+      "figures": [
+        "mast/2026-08-01-hst-jwst-sn1987a-comparison/hst_jwst_registered_comparison.png",
+        "mast/2026-08-01-hst-jwst-sn1987a-comparison/hst_jwst_edge_and_resolution_check.png"
+      ],
+      "artifacts": [
+        "data/sn1987a/hst_f625w_2018_cutout.fits",
+        "data/sn1987a/jwst_f200w_2022_cutout.fits",
+        "mast/2026-08-01-hst-jwst-sn1987a-comparison/hst_jwst_resolution_stress.csv"
+      ],
+      "provenance_count": 3,
+      "quality_check_count": 4,
+      "limitation_count": 4,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-08-01-hst-sn1987a-lightcurve",
+      "title": "SN 1987A: HST ring fading and ejecta plateau",
+      "archive": "MAST",
+      "archive_dir": "mast",
+      "date": "2026-08-01",
+      "question": "Do the published HST measurements reproduce a fading ring and a flattening ejecta light curve?",
+      "sample_size": 60,
+      "research_level": "Reproduction",
+      "claim_type": "Peer-reviewed table reanalysis",
+      "notebook": "mast/2026-08-01-hst-sn1987a-lightcurve/notebook.ipynb",
+      "readme": "mast/2026-08-01-hst-sn1987a-lightcurve/README.md",
+      "hero": "mast/2026-08-01-hst-sn1987a-lightcurve/sn1987a_hst_lightcurves.png",
+      "figures": [
+        "mast/2026-08-01-hst-sn1987a-lightcurve/sn1987a_hst_lightcurves.png",
+        "mast/2026-08-01-hst-sn1987a-lightcurve/sn1987a_ejecta_plateau_fit.png"
+      ],
+      "artifacts": [
+        "data/sn1987a/hst_photometry_rosu2024_table6.csv",
+        "mast/2026-08-01-hst-sn1987a-lightcurve/sn1987a_lightcurve_trends.csv",
+        "mast/2026-08-01-hst-sn1987a-lightcurve/sn1987a_piecewise_fit.csv"
+      ],
+      "provenance_count": 3,
+      "quality_check_count": 4,
+      "limitation_count": 3,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-08-01-asassn18tb-rise-model",
+      "title": "Remeasuring the early supernova rise",
+      "archive": "MAST",
+      "archive_dir": "mast",
+      "date": "2026-08-01",
+      "question": "Is the public light curve better described by a free power law than a fixed t-squared rise?",
+      "sample_size": 83,
+      "research_level": "Time-domain audit",
+      "claim_type": "Conditional early-rise remeasurement",
+      "notebook": "mast/2026-08-01-asassn18tb-rise-model/notebook.ipynb",
+      "readme": "mast/2026-08-01-asassn18tb-rise-model/README.md",
+      "hero": "mast/2026-08-01-asassn18tb-rise-model/early_rise_powerlaw_fit.png",
+      "figures": [
+        "mast/2026-08-01-asassn18tb-rise-model/early_rise_powerlaw_fit.png",
+        "mast/2026-08-01-asassn18tb-rise-model/rise_fit_sensitivity.png"
+      ],
+      "artifacts": [
+        "mast/2026-08-01-asassn18tb-rise-model/rise_fit_window_sensitivity.csv"
+      ],
+      "provenance_count": 3,
+      "quality_check_count": 3,
+      "limitation_count": 2,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-08-01-uncover-nirspec-spectral-atlas",
+      "title": "Real HST images and JWST spectra of distant galaxies",
+      "archive": "MAST",
+      "archive_dir": "mast",
+      "date": "2026-08-01",
+      "question": "What do calibrated 1D and 2D NIRSpec data look like for six z=7.88 to 13.16 galaxies?",
+      "sample_size": 6,
+      "research_level": "Spectroscopic audit",
+      "claim_type": "Multi-telescope data atlas",
+      "notebook": "mast/2026-08-01-uncover-nirspec-spectral-atlas/notebook.ipynb",
+      "readme": "mast/2026-08-01-uncover-nirspec-spectral-atlas/README.md",
+      "hero": "mast/2026-08-01-uncover-nirspec-spectral-atlas/nirspec_1d_atlas.png",
+      "figures": [
+        "mast/2026-08-01-uncover-nirspec-spectral-atlas/nirspec_1d_atlas.png",
+        "mast/2026-08-01-uncover-nirspec-spectral-atlas/nirspec_2d_atlas.png",
+        "mast/2026-08-01-uncover-nirspec-spectral-atlas/hst_rgb_60157.png"
+      ],
+      "artifacts": [
+        "mast/2026-08-01-uncover-nirspec-spectral-atlas/spectral_atlas_sources.csv",
+        "mast/2026-08-01-uncover-nirspec-spectral-atlas/hst_rgb_channels.csv"
+      ],
+      "provenance_count": 3,
+      "quality_check_count": 3,
+      "limitation_count": 2,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-08-01-uncover-photz-specz-validation",
+      "title": "Photometric versus spectroscopic redshift",
+      "archive": "MAST",
+      "archive_dir": "mast",
+      "date": "2026-08-01",
+      "question": "How well did DR3 high-redshift estimates agree with solid or secure DR4.1 spectroscopy?",
+      "sample_size": 44,
+      "research_level": "Spectroscopic audit",
+      "claim_type": "Matched-sample redshift validation",
+      "notebook": "mast/2026-08-01-uncover-photz-specz-validation/notebook.ipynb",
+      "readme": "mast/2026-08-01-uncover-photz-specz-validation/README.md",
+      "hero": "mast/2026-08-01-uncover-photz-specz-validation/photz_specz_validation.png",
+      "figures": [
+        "mast/2026-08-01-uncover-photz-specz-validation/photz_specz_validation.png",
+        "mast/2026-08-01-uncover-photz-specz-validation/normalized_redshift_residuals.png"
+      ],
+      "artifacts": [
+        "mast/2026-08-01-uncover-photz-specz-validation/photz_specz_residuals.csv"
+      ],
+      "provenance_count": 3,
+      "quality_check_count": 2,
+      "limitation_count": 2,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-08-01-jwst-sn1987a-filter-morphology",
+      "title": "JWST SN 1987A: filter-dependent ring/ejecta structure",
+      "archive": "MAST",
+      "archive_dir": "mast",
+      "date": "2026-08-01",
+      "question": "How does the ring-to-ejecta surface-brightness balance change from 1.5 to 4.44 microns?",
+      "sample_size": 364061,
+      "research_level": "Validated",
+      "claim_type": "Filter-resolved morphology",
+      "notebook": "mast/2026-08-01-jwst-sn1987a-filter-morphology/notebook.ipynb",
+      "readme": "mast/2026-08-01-jwst-sn1987a-filter-morphology/README.md",
+      "hero": "mast/2026-08-01-jwst-sn1987a-filter-morphology/jwst_filter_morphology_panels.png",
+      "figures": [
+        "mast/2026-08-01-jwst-sn1987a-filter-morphology/jwst_filter_morphology_panels.png",
+        "mast/2026-08-01-jwst-sn1987a-filter-morphology/jwst_filter_ratios_and_stress.png"
+      ],
+      "artifacts": [
+        "data/sn1987a/jwst_f150w_2022_cutout.fits",
+        "data/sn1987a/jwst_f200w_2022_cutout.fits",
+        "data/sn1987a/jwst_f356w_2022_cutout.fits",
+        "data/sn1987a/jwst_f444w_2022_cutout.fits",
+        "mast/2026-08-01-jwst-sn1987a-filter-morphology/jwst_filter_aperture_metrics.csv",
+        "mast/2026-08-01-jwst-sn1987a-filter-morphology/jwst_aperture_sensitivity.csv"
+      ],
+      "provenance_count": 3,
+      "quality_check_count": 4,
+      "limitation_count": 3,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-08-01-jwst-sn1987a-rgb",
+      "title": "JWST SN 1987A: calibrated NIRCam RGB reconstruction",
+      "archive": "MAST",
+      "archive_dir": "mast",
+      "date": "2026-08-01",
+      "question": "Can three calibrated NIRCam filters be registered and mapped into a traceable infrared RGB composite?",
+      "sample_size": 271994,
+      "research_level": "Validated",
+      "claim_type": "Calibrated image reconstruction",
+      "notebook": "mast/2026-08-01-jwst-sn1987a-rgb/notebook.ipynb",
+      "readme": "mast/2026-08-01-jwst-sn1987a-rgb/README.md",
+      "hero": "mast/2026-08-01-jwst-sn1987a-rgb/jwst_sn1987a_rgb_figure.png",
+      "figures": [
+        "mast/2026-08-01-jwst-sn1987a-rgb/jwst_sn1987a_rgb_figure.png",
+        "mast/2026-08-01-jwst-sn1987a-rgb/jwst_sn1987a_channel_panels.png"
+      ],
+      "artifacts": [
+        "data/sn1987a/jwst_f150w_2022_cutout.fits",
+        "data/sn1987a/jwst_f200w_2022_cutout.fits",
+        "data/sn1987a/jwst_f444w_2022_cutout.fits",
+        "mast/2026-08-01-jwst-sn1987a-rgb/jwst_sn1987a_rgb.png",
+        "mast/2026-08-01-jwst-sn1987a-rgb/jwst_rgb_channel_statistics.csv"
+      ],
+      "provenance_count": 3,
+      "quality_check_count": 4,
+      "limitation_count": 3,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-08-01-uncover-spatial-selection",
+      "title": "Is the sky density of UNCOVER high-z candidates spatially uniform?",
+      "archive": "MAST",
+      "archive_dir": "mast",
+      "date": "2026-08-01",
+      "question": "Do candidate surface-density variations track F444W coverage and lensing structure?",
+      "sample_size": 4639,
+      "research_level": "Exploration",
+      "claim_type": "Photometric candidate analysis",
+      "notebook": "mast/2026-08-01-uncover-spatial-selection/notebook.ipynb",
+      "readme": "mast/2026-08-01-uncover-spatial-selection/README.md",
+      "hero": "mast/2026-08-01-uncover-spatial-selection/highz_candidate_sky_map.png",
+      "figures": [
+        "mast/2026-08-01-uncover-spatial-selection/highz_candidate_sky_map.png",
+        "mast/2026-08-01-uncover-spatial-selection/candidate_density_depth_relation.png"
+      ],
+      "artifacts": [
+        "mast/2026-08-01-uncover-spatial-selection/spatial_grid_summary.csv",
+        "mast/2026-08-01-uncover-spatial-selection/spatial_binning_sensitivity.csv"
+      ],
+      "provenance_count": 3,
+      "quality_check_count": 3,
+      "limitation_count": 2,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-08-01-asassn18tb-independent-photometry",
+      "title": "Independent aperture photometry from the TESS pixels",
+      "archive": "MAST",
+      "archive_dir": "mast",
+      "date": "2026-08-01",
+      "question": "Does a simple reference-subtracted aperture recover the published light-curve shape?",
+      "sample_size": 1266,
+      "research_level": "Time-domain audit",
+      "claim_type": "Independent light-curve shape recovery",
+      "notebook": "mast/2026-08-01-asassn18tb-independent-photometry/notebook.ipynb",
+      "readme": "mast/2026-08-01-asassn18tb-independent-photometry/README.md",
+      "hero": "mast/2026-08-01-asassn18tb-independent-photometry/independent_lightcurve_comparison.png",
+      "figures": [
+        "mast/2026-08-01-asassn18tb-independent-photometry/independent_lightcurve_comparison.png",
+        "mast/2026-08-01-asassn18tb-independent-photometry/extraction_agreement_audit.png"
+      ],
+      "artifacts": [
+        "mast/2026-08-01-asassn18tb-independent-photometry/aperture_vs_mit_lightcurve.csv"
+      ],
+      "provenance_count": 3,
+      "quality_check_count": 2,
+      "limitation_count": 2,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-08-01-hst-sn1987a-timelapse",
+      "title": "Hubble SN 1987A: registered 1994\u20132006 time-lapse",
+      "archive": "MAST",
+      "archive_dir": "mast",
+      "date": "2026-08-01",
+      "question": "How does the visible hotspot pattern change across the official Hubble sequence?",
+      "sample_size": 6,
+      "research_level": "Exploration",
+      "claim_type": "Display-morphology time series",
+      "notebook": "mast/2026-08-01-hst-sn1987a-timelapse/notebook.ipynb",
+      "readme": "mast/2026-08-01-hst-sn1987a-timelapse/README.md",
+      "hero": "mast/2026-08-01-hst-sn1987a-timelapse/sn1987a_hst_contact_sheet.png",
+      "figures": [
+        "mast/2026-08-01-hst-sn1987a-timelapse/sn1987a_hst_contact_sheet.png",
+        "mast/2026-08-01-hst-sn1987a-timelapse/sn1987a_timelapse_checks.png"
+      ],
+      "artifacts": [
+        "data/sn1987a/hst_release_frames/frames.csv",
+        "mast/2026-08-01-hst-sn1987a-timelapse/sn1987a_display_morphology.csv",
+        "mast/2026-08-01-hst-sn1987a-timelapse/sn1987a_hst_1994_2006.gif"
+      ],
+      "provenance_count": 3,
+      "quality_check_count": 4,
+      "limitation_count": 3,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-08-01-uncover-lensing-brightness",
+      "title": "How strongly does Abell 2744 lensing change candidate brightness rankings?",
+      "archive": "MAST",
+      "archive_dir": "mast",
+      "date": "2026-08-01",
+      "question": "How do observed and approximately de-lensed F444W fluxes differ across the high-z sample?",
+      "sample_size": 1179,
+      "research_level": "Exploration",
+      "claim_type": "Photometric candidate analysis",
+      "notebook": "mast/2026-08-01-uncover-lensing-brightness/notebook.ipynb",
+      "readme": "mast/2026-08-01-uncover-lensing-brightness/README.md",
+      "hero": "mast/2026-08-01-uncover-lensing-brightness/lensing_brightness_comparison.png",
+      "figures": [
+        "mast/2026-08-01-uncover-lensing-brightness/lensing_brightness_comparison.png",
+        "mast/2026-08-01-uncover-lensing-brightness/magnification_cap_stress.png"
+      ],
+      "artifacts": [
+        "mast/2026-08-01-uncover-lensing-brightness/magnification_cap_sensitivity.csv",
+        "mast/2026-08-01-uncover-lensing-brightness/lensing_working_sample.csv"
+      ],
+      "provenance_count": 3,
+      "quality_check_count": 3,
+      "limitation_count": 2,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-08-01-uncover-highz-candidate-census",
+      "title": "How stable is the UNCOVER z >= 6 candidate count?",
+      "archive": "MAST",
+      "archive_dir": "mast",
+      "date": "2026-08-01",
+      "question": "How many quality-flagged candidates remain when the redshift posterior must be narrow?",
+      "sample_size": 4731,
+      "research_level": "Exploration",
+      "claim_type": "Photometric candidate analysis",
+      "notebook": "mast/2026-08-01-uncover-highz-candidate-census/notebook.ipynb",
+      "readme": "mast/2026-08-01-uncover-highz-candidate-census/README.md",
+      "hero": "mast/2026-08-01-uncover-highz-candidate-census/highz_redshift_distribution.png",
+      "figures": [
+        "mast/2026-08-01-uncover-highz-candidate-census/highz_redshift_distribution.png",
+        "mast/2026-08-01-uncover-highz-candidate-census/posterior_width_sensitivity.png"
+      ],
+      "artifacts": [
+        "mast/2026-08-01-uncover-highz-candidate-census/selection_sensitivity.csv"
+      ],
+      "provenance_count": 3,
+      "quality_check_count": 3,
+      "limitation_count": 2,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-08-01-asassn18tb-background-systematics",
+      "title": "How much does scattered-light treatment matter?",
+      "archive": "MAST",
+      "archive_dir": "mast",
+      "date": "2026-08-01",
+      "question": "Does subtracting the supplied background model reduce pre-explosion scatter?",
+      "sample_size": 494,
+      "research_level": "Time-domain audit",
+      "claim_type": "Background-treatment stress test",
+      "notebook": "mast/2026-08-01-asassn18tb-background-systematics/notebook.ipynb",
+      "readme": "mast/2026-08-01-asassn18tb-background-systematics/README.md",
+      "hero": "mast/2026-08-01-asassn18tb-background-systematics/background_method_comparison.png",
+      "figures": [
+        "mast/2026-08-01-asassn18tb-background-systematics/background_method_comparison.png",
+        "mast/2026-08-01-asassn18tb-background-systematics/background_time_series.png"
+      ],
+      "artifacts": [
+        "mast/2026-08-01-asassn18tb-background-systematics/background_correction_stress.csv"
+      ],
+      "provenance_count": 3,
+      "quality_check_count": 2,
+      "limitation_count": 2,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-08-01-uncover-lyman-break-stacks",
+      "title": "Does the Lyman-break migration appear in stacked UNCOVER photometry?",
+      "archive": "MAST",
+      "archive_dir": "mast",
+      "date": "2026-08-01",
+      "question": "Do median broad-band flux patterns move to longer wavelengths with candidate redshift?",
+      "sample_size": 1182,
+      "research_level": "Exploration",
+      "claim_type": "Photometric candidate analysis",
+      "notebook": "mast/2026-08-01-uncover-lyman-break-stacks/notebook.ipynb",
+      "readme": "mast/2026-08-01-uncover-lyman-break-stacks/README.md",
+      "hero": "mast/2026-08-01-uncover-lyman-break-stacks/lyman_break_median_stacks.png",
+      "figures": [
+        "mast/2026-08-01-uncover-lyman-break-stacks/lyman_break_median_stacks.png",
+        "mast/2026-08-01-uncover-lyman-break-stacks/dropout_ratio_bootstrap.png"
+      ],
+      "artifacts": [
+        "mast/2026-08-01-uncover-lyman-break-stacks/median_sed_stacks.csv",
+        "mast/2026-08-01-uncover-lyman-break-stacks/dropout_ratio_summary.csv"
+      ],
+      "provenance_count": 3,
+      "quality_check_count": 3,
+      "limitation_count": 2,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-08-01-uncover-size-redshift",
+      "title": "Do UNCOVER high-z candidates show a change in catalogue size proxy?",
+      "archive": "MAST",
+      "archive_dir": "mast",
+      "date": "2026-08-01",
+      "question": "How does the observed flux-radius proxy vary across redshift bins after a simple lens correction?",
+      "sample_size": 1127,
+      "research_level": "Exploration",
+      "claim_type": "Photometric candidate analysis",
+      "notebook": "mast/2026-08-01-uncover-size-redshift/notebook.ipynb",
+      "readme": "mast/2026-08-01-uncover-size-redshift/README.md",
+      "hero": "mast/2026-08-01-uncover-size-redshift/size_proxy_scatter.png",
+      "figures": [
+        "mast/2026-08-01-uncover-size-redshift/size_proxy_scatter.png",
+        "mast/2026-08-01-uncover-size-redshift/size_proxy_binned.png"
+      ],
+      "artifacts": [
+        "mast/2026-08-01-uncover-size-redshift/size_proxy_by_redshift.csv",
+        "mast/2026-08-01-uncover-size-redshift/size_cut_sensitivity.csv"
+      ],
+      "provenance_count": 3,
+      "quality_check_count": 3,
+      "limitation_count": 2,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-08-01-uncover-redshift-interval-calibration",
+      "title": "Are the photometric redshift intervals calibrated?",
+      "archive": "MAST",
+      "archive_dir": "mast",
+      "date": "2026-08-01",
+      "question": "How often does DR4.1 zspec fall inside the DR3 central 68 percent interval?",
+      "sample_size": 44,
+      "research_level": "Spectroscopic audit",
+      "claim_type": "Photometric interval calibration audit",
+      "notebook": "mast/2026-08-01-uncover-redshift-interval-calibration/notebook.ipynb",
+      "readme": "mast/2026-08-01-uncover-redshift-interval-calibration/README.md",
+      "hero": "mast/2026-08-01-uncover-redshift-interval-calibration/redshift_interval_coverage.png",
+      "figures": [
+        "mast/2026-08-01-uncover-redshift-interval-calibration/redshift_interval_coverage.png",
+        "mast/2026-08-01-uncover-redshift-interval-calibration/redshift_interval_audit.png"
+      ],
+      "artifacts": [
+        "mast/2026-08-01-uncover-redshift-interval-calibration/coverage_curve.csv"
+      ],
+      "provenance_count": 3,
+      "quality_check_count": 2,
+      "limitation_count": 2,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-08-01-asassn18tb-tess-animation",
+      "title": "A real TESS field movie during a supernova rise",
+      "archive": "MAST",
+      "archive_dir": "mast",
+      "date": "2026-08-01",
+      "question": "What can raw TESS cutouts show, and where do simple difference images fail to isolate the supernova?",
+      "sample_size": 1282,
+      "research_level": "Time-domain audit",
+      "claim_type": "Real detector-image diagnostic sequence",
+      "notebook": "mast/2026-08-01-asassn18tb-tess-animation/notebook.ipynb",
+      "readme": "mast/2026-08-01-asassn18tb-tess-animation/README.md",
+      "hero": "mast/2026-08-01-asassn18tb-tess-animation/tess_rise_montage.png",
+      "figures": [
+        "mast/2026-08-01-asassn18tb-tess-animation/tess_rise_montage.png",
+        "mast/2026-08-01-asassn18tb-tess-animation/movie_brightness_trace.png"
+      ],
+      "artifacts": [
+        "mast/2026-08-01-asassn18tb-tess-animation/movie_frame_brightness.csv",
+        "mast/2026-08-01-asassn18tb-tess-animation/asassn18tb_tess_rise.gif"
+      ],
+      "provenance_count": 3,
+      "quality_check_count": 3,
+      "limitation_count": 2,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-07-31-excitation-redshift-selection",
+      "title": "SDSS excitation versus redshift",
+      "archive": "Sloan Digital Sky Survey",
+      "archive_dir": "sdss",
+      "date": "2026-07-31",
+      "question": "Does [O III]/H\u03b2 vary with redshift in the selected sample?",
+      "sample_size": 11952,
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "notebook": "sdss/2026-07-31-excitation-redshift-selection/notebook.ipynb",
+      "readme": "sdss/2026-07-31-excitation-redshift-selection/README.md",
+      "hero": "sdss/2026-07-31-excitation-redshift-selection/excitation_redshift.png",
+      "figures": [],
+      "artifacts": [],
+      "provenance_count": 0,
+      "quality_check_count": 0,
+      "limitation_count": 0,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-07-31-n2-metallicity-proxy",
+      "title": "SDSS N2 metallicity proxy",
+      "archive": "Sloan Digital Sky Survey",
+      "archive_dir": "sdss",
+      "date": "2026-07-31",
+      "question": "What oxygen abundance does N2 imply on the star-forming branch?",
+      "sample_size": 8722,
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "notebook": "sdss/2026-07-31-n2-metallicity-proxy/notebook.ipynb",
+      "readme": "sdss/2026-07-31-n2-metallicity-proxy/README.md",
+      "hero": "sdss/2026-07-31-n2-metallicity-proxy/n2_metallicity_distribution.png",
+      "figures": [],
+      "artifacts": [],
+      "provenance_count": 0,
+      "quality_check_count": 0,
+      "limitation_count": 0,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-07-31-balmer-decrement-dust",
+      "title": "SDSS Balmer-decrement dust indicator",
+      "archive": "Sloan Digital Sky Survey",
+      "archive_dir": "sdss",
+      "date": "2026-07-31",
+      "question": "What colour excess is implied by H\u03b1/H\u03b2?",
+      "sample_size": 11898,
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "notebook": "sdss/2026-07-31-balmer-decrement-dust/notebook.ipynb",
+      "readme": "sdss/2026-07-31-balmer-decrement-dust/README.md",
+      "hero": "sdss/2026-07-31-balmer-decrement-dust/balmer_decrement_dust.png",
+      "figures": [],
+      "artifacts": [],
+      "provenance_count": 0,
+      "quality_check_count": 0,
+      "limitation_count": 0,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-07-31-sdss-bpt-galaxy-classification",
+      "title": "SDSS BPT galaxy classification",
+      "archive": "Sloan Digital Sky Survey",
+      "archive_dir": "sdss",
+      "date": "2026-07-31",
+      "question": "How are high-S/N low-redshift fibre spectra divided among ionisation classes?",
+      "sample_size": 12000,
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "notebook": "sdss/2026-07-31-sdss-bpt-galaxy-classification/notebook.ipynb",
+      "readme": "sdss/2026-07-31-sdss-bpt-galaxy-classification/README.md",
+      "hero": "sdss/2026-07-31-sdss-bpt-galaxy-classification/sdss_bpt_diagram.png",
+      "figures": [],
+      "artifacts": [],
+      "provenance_count": 0,
+      "quality_check_count": 0,
+      "limitation_count": 0,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-07-31-bpt-snr-sensitivity",
+      "title": "BPT sensitivity to line quality",
+      "archive": "Sloan Digital Sky Survey",
+      "archive_dir": "sdss",
+      "date": "2026-07-31",
+      "question": "How do class fractions move with emission-line S/N?",
+      "sample_size": 11950,
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "notebook": "sdss/2026-07-31-bpt-snr-sensitivity/notebook.ipynb",
+      "readme": "sdss/2026-07-31-bpt-snr-sensitivity/README.md",
+      "hero": "sdss/2026-07-31-bpt-snr-sensitivity/bpt_snr_sensitivity.png",
+      "figures": [],
+      "artifacts": [],
+      "provenance_count": 0,
+      "quality_check_count": 0,
+      "limitation_count": 0,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-07-31-exoplanet-radius-valley",
+      "title": "The exoplanet radius valley",
+      "archive": "NASA Exoplanet Archive",
+      "archive_dir": "exoplanet-archive",
+      "date": "2026-07-31",
+      "question": "Where is the radius deficit in the current confirmed transiting-planet catalogue?",
+      "sample_size": 2070,
+      "research_level": "Validated",
+      "claim_type": "Catalogue radius-deficit measurement",
+      "notebook": "exoplanet-archive/2026-07-31-exoplanet-radius-valley/notebook.ipynb",
+      "readme": "exoplanet-archive/2026-07-31-exoplanet-radius-valley/README.md",
+      "hero": "exoplanet-archive/2026-07-31-exoplanet-radius-valley/radius_valley_period.png",
+      "figures": [
+        "exoplanet-archive/2026-07-31-exoplanet-radius-valley/radius_valley_period.png",
+        "exoplanet-archive/2026-07-31-exoplanet-radius-valley/radius_valley_kde.png"
+      ],
+      "artifacts": [
+        "exoplanet-archive/2026-07-31-exoplanet-radius-valley/confirmed_transiting_planets.csv",
+        "exoplanet-archive/2026-07-31-exoplanet-radius-valley/radius_valley_sample.csv",
+        "exoplanet-archive/2026-07-31-exoplanet-radius-valley/period_binned_valleys.csv"
+      ],
+      "provenance_count": 3,
+      "quality_check_count": 3,
+      "limitation_count": 3,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-07-31-single-vs-multiplanet-systems",
+      "title": "Single versus multi-transiting systems",
+      "archive": "NASA Exoplanet Archive",
+      "archive_dir": "exoplanet-archive",
+      "date": "2026-07-31",
+      "question": "Do archived planet radii differ with host multiplicity?",
+      "sample_size": 4646,
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "notebook": "exoplanet-archive/2026-07-31-single-vs-multiplanet-systems/notebook.ipynb",
+      "readme": "exoplanet-archive/2026-07-31-single-vs-multiplanet-systems/README.md",
+      "hero": "exoplanet-archive/2026-07-31-single-vs-multiplanet-systems/single_multi_radius.png",
+      "figures": [],
+      "artifacts": [],
+      "provenance_count": 0,
+      "quality_check_count": 0,
+      "limitation_count": 0,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-07-31-hot-jupiter-tidal-circularisation",
+      "title": "Hot-Jupiter tidal circularisation",
+      "archive": "NASA Exoplanet Archive",
+      "archive_dir": "exoplanet-archive",
+      "date": "2026-07-31",
+      "question": "Are short-period giant planets more circular than longer-period giants?",
+      "sample_size": 944,
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "notebook": "exoplanet-archive/2026-07-31-hot-jupiter-tidal-circularisation/notebook.ipynb",
+      "readme": "exoplanet-archive/2026-07-31-hot-jupiter-tidal-circularisation/README.md",
+      "hero": "exoplanet-archive/2026-07-31-hot-jupiter-tidal-circularisation/giant_eccentricity_period.png",
+      "figures": [],
+      "artifacts": [],
+      "provenance_count": 0,
+      "quality_check_count": 0,
+      "limitation_count": 0,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-07-31-hot-jupiter-radius-inflation",
+      "title": "Hot-Jupiter radius inflation",
+      "archive": "NASA Exoplanet Archive",
+      "archive_dir": "exoplanet-archive",
+      "date": "2026-07-31",
+      "question": "Are close-in giants larger around hotter stars?",
+      "sample_size": 698,
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "notebook": "exoplanet-archive/2026-07-31-hot-jupiter-radius-inflation/notebook.ipynb",
+      "readme": "exoplanet-archive/2026-07-31-hot-jupiter-radius-inflation/README.md",
+      "hero": "exoplanet-archive/2026-07-31-hot-jupiter-radius-inflation/hot_jupiter_inflation.png",
+      "figures": [],
+      "artifacts": [],
+      "provenance_count": 0,
+      "quality_check_count": 0,
+      "limitation_count": 0,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-07-31-exoplanet-discovery-method-timeline",
+      "title": "Exoplanet discovery methods through time",
+      "archive": "NASA Exoplanet Archive",
+      "archive_dir": "exoplanet-archive",
+      "date": "2026-07-31",
+      "question": "How has the discovery-method mix changed?",
+      "sample_size": 5233,
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "notebook": "exoplanet-archive/2026-07-31-exoplanet-discovery-method-timeline/notebook.ipynb",
+      "readme": "exoplanet-archive/2026-07-31-exoplanet-discovery-method-timeline/README.md",
+      "hero": "exoplanet-archive/2026-07-31-exoplanet-discovery-method-timeline/discovery_method_timeline.png",
+      "figures": [],
+      "artifacts": [],
+      "provenance_count": 0,
+      "quality_check_count": 0,
+      "limitation_count": 0,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-07-31-eccentricity-discovery-bias",
+      "title": "Eccentricity and discovery bias",
+      "archive": "NASA Exoplanet Archive",
+      "archive_dir": "exoplanet-archive",
+      "date": "2026-07-31",
+      "question": "Do discovery methods share an eccentricity distribution?",
+      "sample_size": 5146,
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "notebook": "exoplanet-archive/2026-07-31-eccentricity-discovery-bias/notebook.ipynb",
+      "readme": "exoplanet-archive/2026-07-31-eccentricity-discovery-bias/README.md",
+      "hero": "exoplanet-archive/2026-07-31-eccentricity-discovery-bias/eccentricity_by_method.png",
+      "figures": [],
+      "artifacts": [],
+      "provenance_count": 0,
+      "quality_check_count": 0,
+      "limitation_count": 0,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-07-31-hst-m87-image-morphology",
+      "title": "M87 morphology in an HST preview",
+      "archive": "MAST",
+      "archive_dir": "mast",
+      "date": "2026-07-31",
+      "question": "What morphology proxies are measured from the preserved preview?",
+      "sample_size": 8706420,
+      "research_level": "Exploration",
+      "claim_type": "Display-image morphology audit",
+      "notebook": "mast/2026-07-31-hst-m87-image-morphology/notebook.ipynb",
+      "readme": "mast/2026-07-31-hst-m87-image-morphology/README.md",
+      "hero": "mast/2026-07-31-hst-m87-image-morphology/m87_preview_morphology.png",
+      "figures": [
+        "mast/2026-07-31-hst-m87-image-morphology/m87_preview_morphology.png",
+        "mast/2026-07-31-hst-m87-image-morphology/m87_morphology_threshold_stress.png"
+      ],
+      "artifacts": [
+        "mast/2026-07-31-hst-m87-image-morphology/m87_morphology_threshold_stress.csv"
+      ],
+      "provenance_count": 3,
+      "quality_check_count": 3,
+      "limitation_count": 3,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-07-31-hst-stis-continuum-slope",
+      "title": "HST/STIS continuum slope of HD 93521",
+      "archive": "MAST",
+      "archive_dir": "mast",
+      "date": "2026-07-31",
+      "question": "What power law describes the optical continuum?",
+      "sample_size": 524,
+      "research_level": "Validated",
+      "claim_type": "Empirical continuum-slope measurement",
+      "notebook": "mast/2026-07-31-hst-stis-continuum-slope/notebook.ipynb",
+      "readme": "mast/2026-07-31-hst-stis-continuum-slope/README.md",
+      "hero": "mast/2026-07-31-hst-stis-continuum-slope/hd93521_continuum_slope.png",
+      "figures": [
+        "mast/2026-07-31-hst-stis-continuum-slope/hd93521_continuum_slope.png",
+        "mast/2026-07-31-hst-stis-continuum-slope/hd93521_continuum_robustness.png"
+      ],
+      "artifacts": [
+        "mast/2026-07-31-hst-stis-continuum-slope/continuum_mask_stress.csv",
+        "mast/2026-07-31-hst-stis-continuum-slope/continuum_slope_bootstrap.csv"
+      ],
+      "provenance_count": 3,
+      "quality_check_count": 3,
+      "limitation_count": 3,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-07-31-hst-stis-hd93521-line-inventory",
+      "title": "HST/STIS chemical-line inventory of HD 93521",
+      "archive": "MAST",
+      "archive_dir": "mast",
+      "date": "2026-07-31",
+      "question": "Which hydrogen and helium lines are measurable in a calibrated HST spectrum?",
+      "sample_size": 567,
+      "research_level": "Validated",
+      "claim_type": "Spectral-feature inventory",
+      "notebook": "mast/2026-07-31-hst-stis-hd93521-line-inventory/notebook.ipynb",
+      "readme": "mast/2026-07-31-hst-stis-hd93521-line-inventory/README.md",
+      "hero": "mast/2026-07-31-hst-stis-hd93521-line-inventory/hd93521_normalised_spectrum.png",
+      "figures": [
+        "mast/2026-07-31-hst-stis-hd93521-line-inventory/hd93521_normalised_spectrum.png",
+        "mast/2026-07-31-hst-stis-hd93521-line-inventory/hd93521_line_fits.png"
+      ],
+      "artifacts": [
+        "mast/2026-07-31-hst-stis-hd93521-line-inventory/spectrum_subset.csv",
+        "mast/2026-07-31-hst-stis-hd93521-line-inventory/line_measurements.csv"
+      ],
+      "provenance_count": 3,
+      "quality_check_count": 3,
+      "limitation_count": 3,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-07-31-hst-halpha-equivalent-width-systematics",
+      "title": "HST H\u03b1 equivalent-width systematics",
+      "archive": "MAST",
+      "archive_dir": "mast",
+      "date": "2026-07-31",
+      "question": "How stable is H\u03b1 equivalent width to continuum choices?",
+      "sample_size": 567,
+      "research_level": "Validated",
+      "claim_type": "Equivalent-width robustness audit",
+      "notebook": "mast/2026-07-31-hst-halpha-equivalent-width-systematics/notebook.ipynb",
+      "readme": "mast/2026-07-31-hst-halpha-equivalent-width-systematics/README.md",
+      "hero": "mast/2026-07-31-hst-halpha-equivalent-width-systematics/halpha_ew_systematics.png",
+      "figures": [
+        "mast/2026-07-31-hst-halpha-equivalent-width-systematics/halpha_ew_systematics.png",
+        "mast/2026-07-31-hst-halpha-equivalent-width-systematics/halpha_ew_noise_vs_method.png"
+      ],
+      "artifacts": [
+        "mast/2026-07-31-hst-halpha-equivalent-width-systematics/halpha_ew_method_grid.csv",
+        "mast/2026-07-31-hst-halpha-equivalent-width-systematics/halpha_ew_noise_bootstrap.csv"
+      ],
+      "provenance_count": 3,
+      "quality_check_count": 3,
+      "limitation_count": 3,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-07-31-pleiades-proper-motion-dispersion",
+      "title": "Pleiades proper-motion dispersion",
+      "archive": "ESA Gaia",
+      "archive_dir": "gaia",
+      "date": "2026-07-31",
+      "question": "What scatter remains after formal-error subtraction?",
+      "sample_size": 609,
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "notebook": "gaia/2026-07-31-pleiades-proper-motion-dispersion/notebook.ipynb",
+      "readme": "gaia/2026-07-31-pleiades-proper-motion-dispersion/README.md",
+      "hero": "gaia/2026-07-31-pleiades-proper-motion-dispersion/pleiades_pm_dispersion.png",
+      "figures": [],
+      "artifacts": [],
+      "provenance_count": 0,
+      "quality_check_count": 0,
+      "limitation_count": 0,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-07-31-pleiades-mass-segregation-proxy",
+      "title": "Pleiades mass-segregation proxy",
+      "archive": "ESA Gaia",
+      "archive_dir": "gaia",
+      "date": "2026-07-31",
+      "question": "Are brighter members more centrally concentrated?",
+      "sample_size": 609,
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "notebook": "gaia/2026-07-31-pleiades-mass-segregation-proxy/notebook.ipynb",
+      "readme": "gaia/2026-07-31-pleiades-mass-segregation-proxy/README.md",
+      "hero": "gaia/2026-07-31-pleiades-mass-segregation-proxy/pleiades_mass_segregation.png",
+      "figures": [],
+      "artifacts": [],
+      "provenance_count": 0,
+      "quality_check_count": 0,
+      "limitation_count": 0,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-07-31-pleiades-line-of-sight-depth",
+      "title": "Pleiades line-of-sight depth proxy",
+      "archive": "ESA Gaia",
+      "archive_dir": "gaia",
+      "date": "2026-07-31",
+      "question": "Is the parallax width larger than formal errors?",
+      "sample_size": 609,
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "notebook": "gaia/2026-07-31-pleiades-line-of-sight-depth/notebook.ipynb",
+      "readme": "gaia/2026-07-31-pleiades-line-of-sight-depth/README.md",
+      "hero": "gaia/2026-07-31-pleiades-line-of-sight-depth/pleiades_depth.png",
+      "figures": [],
+      "artifacts": [],
+      "provenance_count": 0,
+      "quality_check_count": 0,
+      "limitation_count": 0,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-07-31-pleiades-cmd-ruwe-binaries",
+      "title": "Pleiades CMD outliers and RUWE",
+      "archive": "ESA Gaia",
+      "archive_dir": "gaia",
+      "date": "2026-07-31",
+      "question": "Do over-luminous candidates have elevated RUWE more often?",
+      "sample_size": 466,
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "notebook": "gaia/2026-07-31-pleiades-cmd-ruwe-binaries/notebook.ipynb",
+      "readme": "gaia/2026-07-31-pleiades-cmd-ruwe-binaries/README.md",
+      "hero": "gaia/2026-07-31-pleiades-cmd-ruwe-binaries/pleiades_cmd_ruwe.png",
+      "figures": [],
+      "artifacts": [],
+      "provenance_count": 0,
+      "quality_check_count": 0,
+      "limitation_count": 0,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-07-31-gaia-pleiades-membership-distance",
+      "title": "Gaia DR3 Pleiades membership and distance",
+      "archive": "ESA Gaia",
+      "archive_dir": "gaia",
+      "date": "2026-07-31",
+      "question": "Can astrometry isolate the Pleiades and recover its distance?",
+      "sample_size": 704,
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "notebook": "gaia/2026-07-31-gaia-pleiades-membership-distance/notebook.ipynb",
+      "readme": "gaia/2026-07-31-gaia-pleiades-membership-distance/README.md",
+      "hero": "gaia/2026-07-31-gaia-pleiades-membership-distance/pleiades_proper_motion.png",
+      "figures": [],
+      "artifacts": [],
+      "provenance_count": 0,
+      "quality_check_count": 0,
+      "limitation_count": 0,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-07-30-white-dwarf-spectrum",
+      "title": "SDSS white-dwarf Balmer-profile legacy audit",
+      "archive": "Sloan Digital Sky Survey",
+      "archive_dir": "sdss",
+      "date": "2026-07-30",
+      "question": "Are the broad Balmer depressions visible robustly in the preserved spectrum plot?",
+      "sample_size": 895,
+      "research_level": "Exploration",
+      "claim_type": "Digitized spectral-feature audit",
+      "notebook": "sdss/2026-07-30-white-dwarf-spectrum/notebook.ipynb",
+      "readme": "sdss/2026-07-30-white-dwarf-spectrum/README.md",
+      "hero": "sdss/2026-07-30-white-dwarf-spectrum/wd_balmer_legacy_audit.png",
+      "figures": [
+        "sdss/2026-07-30-white-dwarf-spectrum/wd_balmer_legacy_audit.png",
+        "sdss/2026-07-30-white-dwarf-spectrum/wd_balmer_window_stress.png"
+      ],
+      "artifacts": [
+        "data/audit_batches4_7/sdss_white_dwarf_plot_digitized.csv",
+        "sdss/2026-07-30-white-dwarf-spectrum/wd_balmer_display_depths.csv",
+        "sdss/2026-07-30-white-dwarf-spectrum/wd_balmer_window_stress.csv"
+      ],
+      "provenance_count": 3,
+      "quality_check_count": 3,
+      "limitation_count": 3,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-07-30-star-spectrum-classification",
+      "title": "SDSS source-identity audit: broad-line quasar",
+      "archive": "Sloan Digital Sky Survey",
+      "archive_dir": "sdss",
+      "date": "2026-07-30",
+      "question": "Does the downloaded spectrum support the original stellar label?",
+      "sample_size": 3841,
+      "research_level": "Validated",
+      "claim_type": "Source identity correction",
+      "notebook": "sdss/2026-07-30-star-spectrum-classification/notebook.ipynb",
+      "readme": "sdss/2026-07-30-star-spectrum-classification/README.md",
+      "hero": "sdss/2026-07-30-star-spectrum-classification/source_identity_spectrum.png",
+      "figures": [
+        "sdss/2026-07-30-star-spectrum-classification/source_identity_spectrum.png",
+        "sdss/2026-07-30-star-spectrum-classification/broad_line_fits.png",
+        "sdss/2026-07-30-star-spectrum-classification/source_identity_stress.png"
+      ],
+      "artifacts": [
+        "sdss/2026-07-30-star-spectrum-classification/star_sdss_spectrum.csv",
+        "sdss/2026-07-30-star-spectrum-classification/star_sdss_metadata.json",
+        "sdss/2026-07-30-star-spectrum-classification/source_identity_line_fits.csv",
+        "sdss/2026-07-30-star-spectrum-classification/source_identity_window_stress.csv"
+      ],
+      "provenance_count": 3,
+      "quality_check_count": 3,
+      "limitation_count": 3,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-07-30-galaxy-redshift-slice",
+      "title": "SDSS redshift-slice structure audit",
+      "archive": "Sloan Digital Sky Survey",
+      "archive_dir": "sdss",
+      "date": "2026-07-30",
+      "question": "Which redshift concentrations are visible in a preserved 12,000-galaxy SDSS emission-line sample?",
+      "sample_size": 12000,
+      "research_level": "Validated",
+      "claim_type": "Redshift concentration measurement",
+      "notebook": "sdss/2026-07-30-galaxy-redshift-slice/notebook.ipynb",
+      "readme": "sdss/2026-07-30-galaxy-redshift-slice/README.md",
+      "hero": "sdss/2026-07-30-galaxy-redshift-slice/sdss_redshift_slice_audit.png",
+      "figures": [
+        "sdss/2026-07-30-galaxy-redshift-slice/sdss_redshift_slice_audit.png",
+        "sdss/2026-07-30-galaxy-redshift-slice/sdss_redshift_jackknife.png"
+      ],
+      "artifacts": [
+        "data/audit_batches4_7/sdss_emission_galaxies.csv",
+        "sdss/2026-07-30-galaxy-redshift-slice/sdss_redshift_concentrations.csv"
+      ],
+      "provenance_count": 2,
+      "quality_check_count": 3,
+      "limitation_count": 3,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-07-30-qso-vs-galaxy-colors",
+      "title": "SDSS quasar\u2013galaxy colour display audit",
+      "archive": "Sloan Digital Sky Survey",
+      "archive_dir": "sdss",
+      "date": "2026-07-30",
+      "question": "How clearly separated are the two rendered colour clouds, without claiming catalogue-level classifier accuracy?",
+      "sample_size": 5440,
+      "research_level": "Exploration",
+      "claim_type": "Digitized colour-separation audit",
+      "notebook": "sdss/2026-07-30-qso-vs-galaxy-colors/notebook.ipynb",
+      "readme": "sdss/2026-07-30-qso-vs-galaxy-colors/README.md",
+      "hero": "sdss/2026-07-30-qso-vs-galaxy-colors/sdss_colour_legacy_audit.png",
+      "figures": [
+        "sdss/2026-07-30-qso-vs-galaxy-colors/sdss_colour_legacy_audit.png",
+        "sdss/2026-07-30-qso-vs-galaxy-colors/sdss_colour_digitization_stress.png"
+      ],
+      "artifacts": [
+        "data/audit_batches4_7/sdss_colour_plot_digitized_pixels.csv",
+        "sdss/2026-07-30-qso-vs-galaxy-colors/sdss_colour_digitization_stress.csv"
+      ],
+      "provenance_count": 3,
+      "quality_check_count": 3,
+      "limitation_count": 3,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-07-30-qso-redshift-check",
+      "title": "SDSS quasar multi-line redshift audit",
+      "archive": "Sloan Digital Sky Survey",
+      "archive_dir": "sdss",
+      "date": "2026-07-30",
+      "question": "Do three broad emission lines give a consistent quasar redshift?",
+      "sample_size": 3843,
+      "research_level": "Validated",
+      "claim_type": "Multi-line archive remeasurement",
+      "notebook": "sdss/2026-07-30-qso-redshift-check/notebook.ipynb",
+      "readme": "sdss/2026-07-30-qso-redshift-check/README.md",
+      "hero": "sdss/2026-07-30-qso-redshift-check/qso_multiline_spectrum.png",
+      "figures": [
+        "sdss/2026-07-30-qso-redshift-check/qso_multiline_spectrum.png",
+        "sdss/2026-07-30-qso-redshift-check/qso_line_centroids.png",
+        "sdss/2026-07-30-qso-redshift-check/qso_redshift_consistency.png"
+      ],
+      "artifacts": [
+        "sdss/2026-07-30-qso-redshift-check/qso_sdss_spectrum.csv",
+        "sdss/2026-07-30-qso-redshift-check/qso_sdss_metadata.json",
+        "sdss/2026-07-30-qso-redshift-check/qso_multiline_redshift.csv"
+      ],
+      "provenance_count": 3,
+      "quality_check_count": 3,
+      "limitation_count": 3,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-07-30-metallicity-vs-position",
+      "title": "SDSS metallicity\u2013latitude legacy-output audit",
+      "archive": "Sloan Digital Sky Survey",
+      "archive_dir": "sdss",
+      "date": "2026-07-30",
+      "question": "Does the weak negative trend reported in the old plot survive digitization choices?",
+      "sample_size": 3271,
+      "research_level": "Exploration",
+      "claim_type": "Digitized correlation audit",
+      "notebook": "sdss/2026-07-30-metallicity-vs-position/notebook.ipynb",
+      "readme": "sdss/2026-07-30-metallicity-vs-position/README.md",
+      "hero": "sdss/2026-07-30-metallicity-vs-position/sdss_metallicity_legacy_audit.png",
+      "figures": [
+        "sdss/2026-07-30-metallicity-vs-position/sdss_metallicity_legacy_audit.png",
+        "sdss/2026-07-30-metallicity-vs-position/sdss_metallicity_digitization_stress.png"
+      ],
+      "artifacts": [
+        "data/audit_batches4_7/sdss_metallicity_plot_digitized_pixels.csv",
+        "sdss/2026-07-30-metallicity-vs-position/sdss_metallicity_digitization_stress.csv"
+      ],
+      "provenance_count": 3,
+      "quality_check_count": 3,
+      "limitation_count": 3,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-07-30-emission-line-measurement",
+      "title": "SDSS galaxy joint H\u03b1 + [N II] audit",
+      "archive": "Sloan Digital Sky Survey",
+      "archive_dir": "sdss",
+      "date": "2026-07-30",
+      "question": "What does a constrained three-line fit establish for this galaxy?",
+      "sample_size": 96,
+      "research_level": "Validated",
+      "claim_type": "Joint emission-line remeasurement",
+      "notebook": "sdss/2026-07-30-emission-line-measurement/notebook.ipynb",
+      "readme": "sdss/2026-07-30-emission-line-measurement/README.md",
+      "hero": "sdss/2026-07-30-emission-line-measurement/halpha_nii_joint_fit.png",
+      "figures": [
+        "sdss/2026-07-30-emission-line-measurement/halpha_nii_joint_fit.png",
+        "sdss/2026-07-30-emission-line-measurement/halpha_nii_uncertainty.png"
+      ],
+      "artifacts": [
+        "sdss/2026-07-30-emission-line-measurement/galaxy_sdss_spectrum.csv",
+        "sdss/2026-07-30-emission-line-measurement/galaxy_sdss_metadata.json",
+        "sdss/2026-07-30-emission-line-measurement/halpha_nii_fit_summary.csv",
+        "sdss/2026-07-30-emission-line-measurement/halpha_nii_window_stress.csv"
+      ],
+      "provenance_count": 3,
+      "quality_check_count": 4,
+      "limitation_count": 3,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-07-30-spectral-type-distribution",
+      "title": "SDSS class-composition audit for one sky patch",
+      "archive": "Sloan Digital Sky Survey",
+      "archive_dir": "sdss",
+      "date": "2026-07-30",
+      "question": "What do the preserved aggregate counts support when the original 800 source rows were not saved?",
+      "sample_size": 800,
+      "research_level": "Reproduction",
+      "claim_type": "Multinomial class-fraction audit",
+      "notebook": "sdss/2026-07-30-spectral-type-distribution/notebook.ipynb",
+      "readme": "sdss/2026-07-30-spectral-type-distribution/README.md",
+      "hero": "sdss/2026-07-30-spectral-type-distribution/sdss_class_fraction_audit.png",
+      "figures": [
+        "sdss/2026-07-30-spectral-type-distribution/sdss_class_fraction_audit.png",
+        "sdss/2026-07-30-spectral-type-distribution/sdss_class_precision_stress.png"
+      ],
+      "artifacts": [
+        "sdss/2026-07-30-spectral-type-distribution/sdss_patch_class_fractions.csv"
+      ],
+      "provenance_count": 2,
+      "quality_check_count": 3,
+      "limitation_count": 3,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-07-30-habitable-zone-trappist1",
+      "title": "Which TRAPPIST-1 planets are actually in the habitable zone?",
+      "archive": "NASA Exoplanet Archive",
+      "archive_dir": "exoplanet-archive",
+      "date": "2026-07-30",
+      "question": "Legacy real-data notebook awaiting full result.json audit metadata.",
+      "sample_size": null,
+      "research_level": "Legacy",
+      "claim_type": "Exploratory analysis",
+      "notebook": "exoplanet-archive/2026-07-30-habitable-zone-trappist1/notebook.ipynb",
+      "readme": "exoplanet-archive/2026-07-30-habitable-zone-trappist1/README.md",
+      "hero": "exoplanet-archive/2026-07-30-habitable-zone-trappist1/habitable_zone.png",
+      "figures": [
+        "exoplanet-archive/2026-07-30-habitable-zone-trappist1/habitable_zone.png"
+      ],
+      "artifacts": [],
+      "provenance_count": 0,
+      "quality_check_count": 0,
+      "limitation_count": 0,
+      "has_result_json": false
+    },
+    {
+      "id": "2026-07-30-rv-curve-hd189733b",
+      "title": "Reconstructing HD 189733 b's radial-velocity wobble",
+      "archive": "NASA Exoplanet Archive",
+      "archive_dir": "exoplanet-archive",
+      "date": "2026-07-30",
+      "question": "Legacy real-data notebook awaiting full result.json audit metadata.",
+      "sample_size": null,
+      "research_level": "Legacy",
+      "claim_type": "Exploratory analysis",
+      "notebook": "exoplanet-archive/2026-07-30-rv-curve-hd189733b/notebook.ipynb",
+      "readme": "exoplanet-archive/2026-07-30-rv-curve-hd189733b/README.md",
+      "hero": "exoplanet-archive/2026-07-30-rv-curve-hd189733b/hd189733b_rv.png",
+      "figures": [
+        "exoplanet-archive/2026-07-30-rv-curve-hd189733b/hd189733b_rv.png"
+      ],
+      "artifacts": [],
+      "provenance_count": 0,
+      "quality_check_count": 0,
+      "limitation_count": 0,
+      "has_result_json": false
+    },
+    {
+      "id": "2026-07-30-rv-curve-51-pegasi-b",
+      "title": "Reconstructing 51 Peg b's radial-velocity wobble",
+      "archive": "NASA Exoplanet Archive",
+      "archive_dir": "exoplanet-archive",
+      "date": "2026-07-30",
+      "question": "Legacy real-data notebook awaiting full result.json audit metadata.",
+      "sample_size": null,
+      "research_level": "Legacy",
+      "claim_type": "Exploratory analysis",
+      "notebook": "exoplanet-archive/2026-07-30-rv-curve-51-pegasi-b/notebook.ipynb",
+      "readme": "exoplanet-archive/2026-07-30-rv-curve-51-pegasi-b/README.md",
+      "hero": "exoplanet-archive/2026-07-30-rv-curve-51-pegasi-b/51peg_rv_curve.png",
+      "figures": [
+        "exoplanet-archive/2026-07-30-rv-curve-51-pegasi-b/51peg_rv_curve.png"
+      ],
+      "artifacts": [],
+      "provenance_count": 0,
+      "quality_check_count": 0,
+      "limitation_count": 0,
+      "has_result_json": false
+    },
+    {
+      "id": "2026-07-30-habitable-zone-kepler442",
+      "title": "Is Kepler-442 b actually in the habitable zone?",
+      "archive": "NASA Exoplanet Archive",
+      "archive_dir": "exoplanet-archive",
+      "date": "2026-07-30",
+      "question": "Legacy real-data notebook awaiting full result.json audit metadata.",
+      "sample_size": null,
+      "research_level": "Legacy",
+      "claim_type": "Exploratory analysis",
+      "notebook": "exoplanet-archive/2026-07-30-habitable-zone-kepler442/notebook.ipynb",
+      "readme": "exoplanet-archive/2026-07-30-habitable-zone-kepler442/README.md",
+      "hero": "exoplanet-archive/2026-07-30-habitable-zone-kepler442/habitable_zone.png",
+      "figures": [
+        "exoplanet-archive/2026-07-30-habitable-zone-kepler442/habitable_zone.png"
+      ],
+      "artifacts": [],
+      "provenance_count": 0,
+      "quality_check_count": 0,
+      "limitation_count": 0,
+      "has_result_json": false
+    },
+    {
+      "id": "2026-07-30-eccentricity-distribution",
+      "title": "How elongated are exoplanet orbits, really?",
+      "archive": "NASA Exoplanet Archive",
+      "archive_dir": "exoplanet-archive",
+      "date": "2026-07-30",
+      "question": "Legacy real-data notebook awaiting full result.json audit metadata.",
+      "sample_size": null,
+      "research_level": "Legacy",
+      "claim_type": "Exploratory analysis",
+      "notebook": "exoplanet-archive/2026-07-30-eccentricity-distribution/notebook.ipynb",
+      "readme": "exoplanet-archive/2026-07-30-eccentricity-distribution/README.md",
+      "hero": "exoplanet-archive/2026-07-30-eccentricity-distribution/eccentricity_hist.png",
+      "figures": [
+        "exoplanet-archive/2026-07-30-eccentricity-distribution/eccentricity_hist.png"
+      ],
+      "artifacts": [],
+      "provenance_count": 0,
+      "quality_check_count": 0,
+      "limitation_count": 0,
+      "has_result_json": false
+    },
+    {
+      "id": "2026-07-30-transit-depth-vs-radius",
+      "title": "Does a bigger planet really block more starlight?",
+      "archive": "NASA Exoplanet Archive",
+      "archive_dir": "exoplanet-archive",
+      "date": "2026-07-30",
+      "question": "Legacy real-data notebook awaiting full result.json audit metadata.",
+      "sample_size": null,
+      "research_level": "Legacy",
+      "claim_type": "Exploratory analysis",
+      "notebook": "exoplanet-archive/2026-07-30-transit-depth-vs-radius/notebook.ipynb",
+      "readme": "exoplanet-archive/2026-07-30-transit-depth-vs-radius/README.md",
+      "hero": "exoplanet-archive/2026-07-30-transit-depth-vs-radius/depth_vs_radius.png",
+      "figures": [
+        "exoplanet-archive/2026-07-30-transit-depth-vs-radius/depth_vs_radius.png",
+        "exoplanet-archive/2026-07-30-transit-depth-vs-radius/depth_vs_radius_bins.png"
+      ],
+      "artifacts": [],
+      "provenance_count": 0,
+      "quality_check_count": 0,
+      "limitation_count": 0,
+      "has_result_json": false
+    },
+    {
+      "id": "2026-07-30-mass-period-trend",
+      "title": "Do bigger planets orbit closer or farther? Mass vs. period",
+      "archive": "NASA Exoplanet Archive",
+      "archive_dir": "exoplanet-archive",
+      "date": "2026-07-30",
+      "question": "Legacy real-data notebook awaiting full result.json audit metadata.",
+      "sample_size": null,
+      "research_level": "Legacy",
+      "claim_type": "Exploratory analysis",
+      "notebook": "exoplanet-archive/2026-07-30-mass-period-trend/notebook.ipynb",
+      "readme": "exoplanet-archive/2026-07-30-mass-period-trend/README.md",
+      "hero": "exoplanet-archive/2026-07-30-mass-period-trend/mass_vs_period.png",
+      "figures": [
+        "exoplanet-archive/2026-07-30-mass-period-trend/mass_vs_period.png"
+      ],
+      "artifacts": [],
+      "provenance_count": 0,
+      "quality_check_count": 0,
+      "limitation_count": 0,
+      "has_result_json": false
+    },
+    {
+      "id": "2026-07-30-tess-lightcurve-toi700",
+      "title": "TOI-700 d: multi-sector transit coverage audit",
+      "archive": "MAST",
+      "archive_dir": "mast",
+      "date": "2026-07-30",
+      "question": "Does a simple multi-sector audit significantly recover the 37.426-day transit?",
+      "sample_size": 7715,
+      "research_level": "Exploration",
+      "claim_type": "Null / method-sensitive",
+      "notebook": "mast/2026-07-30-tess-lightcurve-toi700/notebook.ipynb",
+      "readme": "mast/2026-07-30-tess-lightcurve-toi700/README.md",
+      "hero": "mast/2026-07-30-tess-lightcurve-toi700/toi700_transit_audit.png",
+      "figures": [
+        "mast/2026-07-30-tess-lightcurve-toi700/toi700_transit_audit.png",
+        "mast/2026-07-30-tess-lightcurve-toi700/toi700_depth_sensitivity.png"
+      ],
+      "artifacts": [
+        "mast/2026-07-30-tess-lightcurve-toi700/toi700_multisector_pdcsap.csv",
+        "mast/2026-07-30-tess-lightcurve-toi700/toi700_fit_summary.csv",
+        "mast/2026-07-30-tess-lightcurve-toi700/toi700_model_sensitivity.csv"
+      ],
+      "provenance_count": 3,
+      "quality_check_count": 4,
+      "limitation_count": 3,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-07-30-kepler-lightcurve-kepler186f",
+      "title": "Kepler-186 f full-mission transit audit",
+      "archive": "MAST",
+      "archive_dir": "mast",
+      "date": "2026-07-30",
+      "question": "Is the long-period transit recoverable across the full Kepler mission?",
+      "sample_size": 59401,
+      "research_level": "Validated",
+      "claim_type": "Full-mission transit recovery",
+      "notebook": "mast/2026-07-30-kepler-lightcurve-kepler186f/notebook.ipynb",
+      "readme": "mast/2026-07-30-kepler-lightcurve-kepler186f/README.md",
+      "hero": "mast/2026-07-30-kepler-lightcurve-kepler186f/kepler186_coverage.png",
+      "figures": [
+        "mast/2026-07-30-kepler-lightcurve-kepler186f/kepler186_coverage.png",
+        "mast/2026-07-30-kepler-lightcurve-kepler186f/kepler186_transit_recovery.png",
+        "mast/2026-07-30-kepler-lightcurve-kepler186f/kepler186_robustness.png"
+      ],
+      "artifacts": [
+        "mast/2026-07-30-kepler-lightcurve-kepler186f/kepler186_all_quarters.csv",
+        "mast/2026-07-30-kepler-lightcurve-kepler186f/kepler186_transit_coverage.csv",
+        "mast/2026-07-30-kepler-lightcurve-kepler186f/kepler186_event_depths.csv",
+        "mast/2026-07-30-kepler-lightcurve-kepler186f/kepler186_leave_one_out.csv",
+        "mast/2026-07-30-kepler-lightcurve-kepler186f/kepler186_injection_recovery.csv"
+      ],
+      "provenance_count": 4,
+      "quality_check_count": 6,
+      "limitation_count": 4,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-07-30-kepler-lightcurve-kepler10b",
+      "title": "Kepler-10 b: transit depth and robustness audit",
+      "archive": "MAST",
+      "archive_dir": "mast",
+      "date": "2026-07-30",
+      "question": "Is the 0.837-day transit recovered in real Quarter 3 measurements?",
+      "sample_size": 3633,
+      "research_level": "Validated",
+      "claim_type": "Archive remeasurement",
+      "notebook": "mast/2026-07-30-kepler-lightcurve-kepler10b/notebook.ipynb",
+      "readme": "mast/2026-07-30-kepler-lightcurve-kepler10b/README.md",
+      "hero": "mast/2026-07-30-kepler-lightcurve-kepler10b/kepler10_transit_audit.png",
+      "figures": [
+        "mast/2026-07-30-kepler-lightcurve-kepler10b/kepler10_transit_audit.png",
+        "mast/2026-07-30-kepler-lightcurve-kepler10b/kepler10_depth_sensitivity.png"
+      ],
+      "artifacts": [
+        "mast/2026-07-30-kepler-lightcurve-kepler10b/kepler10_q3_pdcsap.csv",
+        "mast/2026-07-30-kepler-lightcurve-kepler10b/kepler10_fit_summary.csv",
+        "mast/2026-07-30-kepler-lightcurve-kepler10b/kepler10_model_sensitivity.csv"
+      ],
+      "provenance_count": 3,
+      "quality_check_count": 4,
+      "limitation_count": 3,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-07-30-jwst-image-ring-nebula",
+      "title": "JWST Ring Nebula: selected-field audit",
+      "archive": "MAST",
+      "archive_dir": "mast",
+      "date": "2026-07-30",
+      "question": "Does the selected preview contain a centred ring suitable for shape measurement?",
+      "sample_size": 4235364,
+      "research_level": "Exploration",
+      "claim_type": "Source / field mismatch",
+      "notebook": "mast/2026-07-30-jwst-image-ring-nebula/notebook.ipynb",
+      "readme": "mast/2026-07-30-jwst-image-ring-nebula/README.md",
+      "hero": "mast/2026-07-30-jwst-image-ring-nebula/ring_field_audit.png",
+      "figures": [
+        "mast/2026-07-30-jwst-image-ring-nebula/ring_field_audit.png",
+        "mast/2026-07-30-jwst-image-ring-nebula/ring_localization_sensitivity.png"
+      ],
+      "artifacts": [
+        "mast/2026-07-30-jwst-image-ring-nebula/ring_field_metrics.csv"
+      ],
+      "provenance_count": 2,
+      "quality_check_count": 3,
+      "limitation_count": 2,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-07-30-jwst-image-carina-nebula",
+      "title": "JWST Carina: visible-structure audit",
+      "archive": "MAST",
+      "archive_dir": "mast",
+      "date": "2026-07-30",
+      "question": "Which visible structures persist when the edge threshold changes?",
+      "sample_size": 4291100,
+      "research_level": "Validated",
+      "claim_type": "Morphology only",
+      "notebook": "mast/2026-07-30-jwst-image-carina-nebula/notebook.ipynb",
+      "readme": "mast/2026-07-30-jwst-image-carina-nebula/README.md",
+      "hero": "mast/2026-07-30-jwst-image-carina-nebula/carina_morphology_audit.png",
+      "figures": [
+        "mast/2026-07-30-jwst-image-carina-nebula/carina_morphology_audit.png",
+        "mast/2026-07-30-jwst-image-carina-nebula/carina_threshold_sensitivity.png"
+      ],
+      "artifacts": [
+        "mast/2026-07-30-jwst-image-carina-nebula/carina_threshold_metrics.csv"
+      ],
+      "provenance_count": 2,
+      "quality_check_count": 3,
+      "limitation_count": 2,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-07-30-hst-cutout-m87",
+      "title": "HST M87 preview field-placement audit",
+      "archive": "MAST",
+      "archive_dir": "mast",
+      "date": "2026-07-30",
+      "question": "Can the selected HST preview support morphology or jet claims when M87 lies at the frame boundary?",
+      "sample_size": 8706420,
+      "research_level": "Exploration",
+      "claim_type": "Display-image completeness audit",
+      "notebook": "mast/2026-07-30-hst-cutout-m87/notebook.ipynb",
+      "readme": "mast/2026-07-30-hst-cutout-m87/README.md",
+      "hero": "mast/2026-07-30-hst-cutout-m87/m87_preview_boundary_audit.png",
+      "figures": [
+        "mast/2026-07-30-hst-cutout-m87/m87_preview_boundary_audit.png",
+        "mast/2026-07-30-hst-cutout-m87/m87_preview_crop_stress.png"
+      ],
+      "artifacts": [
+        "mast/2026-07-30-hst-cutout-m87/m87.jpg",
+        "mast/2026-07-30-hst-cutout-m87/m87_preview_threshold_audit.csv",
+        "mast/2026-07-30-hst-cutout-m87/m87_preview_crop_stress.csv"
+      ],
+      "provenance_count": 2,
+      "quality_check_count": 3,
+      "limitation_count": 3,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-07-30-hst-image-eagle-nebula",
+      "title": "HST Eagle Nebula: pillar-orientation audit",
+      "archive": "MAST",
+      "archive_dir": "mast",
+      "date": "2026-07-30",
+      "question": "Is the dominant visible edge orientation stable to smoothing?",
+      "sample_size": 8569792,
+      "research_level": "Validated",
+      "claim_type": "Morphology only",
+      "notebook": "mast/2026-07-30-hst-image-eagle-nebula/notebook.ipynb",
+      "readme": "mast/2026-07-30-hst-image-eagle-nebula/README.md",
+      "hero": "mast/2026-07-30-hst-image-eagle-nebula/eagle_morphology_audit.png",
+      "figures": [
+        "mast/2026-07-30-hst-image-eagle-nebula/eagle_morphology_audit.png",
+        "mast/2026-07-30-hst-image-eagle-nebula/eagle_smoothing_sensitivity.png"
+      ],
+      "artifacts": [
+        "mast/2026-07-30-hst-image-eagle-nebula/eagle_orientation_metrics.csv"
+      ],
+      "provenance_count": 2,
+      "quality_check_count": 3,
+      "limitation_count": 2,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-07-30-periodogram-hat-p-7b",
+      "title": "HAT-P-7 b period and consistency audit",
+      "archive": "MAST",
+      "archive_dir": "mast",
+      "date": "2026-07-30",
+      "question": "Is the known transit independently recovered without obvious odd/even disagreement?",
+      "sample_size": 51324,
+      "research_level": "Validated",
+      "claim_type": "Independent period recovery",
+      "notebook": "mast/2026-07-30-periodogram-hat-p-7b/notebook.ipynb",
+      "readme": "mast/2026-07-30-periodogram-hat-p-7b/README.md",
+      "hero": "mast/2026-07-30-periodogram-hat-p-7b/hatp7_period_false_alarm.png",
+      "figures": [
+        "mast/2026-07-30-periodogram-hat-p-7b/hatp7_period_false_alarm.png",
+        "mast/2026-07-30-periodogram-hat-p-7b/hatp7_folded_residuals.png",
+        "mast/2026-07-30-periodogram-hat-p-7b/hatp7_depth_consistency.png"
+      ],
+      "artifacts": [
+        "mast/2026-07-30-periodogram-hat-p-7b/hatp7_all_quarters.csv",
+        "mast/2026-07-30-periodogram-hat-p-7b/hatp7_search_summary.csv",
+        "mast/2026-07-30-periodogram-hat-p-7b/hatp7_individual_transit_depths.csv",
+        "mast/2026-07-30-periodogram-hat-p-7b/hatp7_quarter_depths.csv"
+      ],
+      "provenance_count": 3,
+      "quality_check_count": 4,
+      "limitation_count": 3,
+      "has_result_json": true
+    },
+    {
+      "id": "2026-07-30-hr-diagram-hyades",
+      "title": "The Hyades cluster: an HR diagram for the nearest open cluster to us",
+      "archive": "ESA Gaia",
+      "archive_dir": "gaia",
+      "date": "2026-07-30",
+      "question": "Legacy real-data notebook awaiting full result.json audit metadata.",
+      "sample_size": null,
+      "research_level": "Legacy",
+      "claim_type": "Exploratory analysis",
+      "notebook": "gaia/2026-07-30-hr-diagram-hyades/notebook.ipynb",
+      "readme": "gaia/2026-07-30-hr-diagram-hyades/README.md",
+      "hero": "gaia/2026-07-30-hr-diagram-hyades/hr_hyades.png",
+      "figures": [
+        "gaia/2026-07-30-hr-diagram-hyades/hr_hyades.png",
+        "gaia/2026-07-30-hr-diagram-hyades/hyades_vs_pleiades_comparison.png"
+      ],
+      "artifacts": [],
+      "provenance_count": 0,
+      "quality_check_count": 0,
+      "limitation_count": 0,
+      "has_result_json": false
+    },
+    {
+      "id": "2026-07-30-hr-diagram-ngc188",
+      "title": "NGC 188: an HR diagram for one of the oldest nearby open clusters, and its real turnoff",
+      "archive": "ESA Gaia",
+      "archive_dir": "gaia",
+      "date": "2026-07-30",
+      "question": "Legacy real-data notebook awaiting full result.json audit metadata.",
+      "sample_size": null,
+      "research_level": "Legacy",
+      "claim_type": "Exploratory analysis",
+      "notebook": "gaia/2026-07-30-hr-diagram-ngc188/notebook.ipynb",
+      "readme": "gaia/2026-07-30-hr-diagram-ngc188/README.md",
+      "hero": "gaia/2026-07-30-hr-diagram-ngc188/hr_ngc188.png",
+      "figures": [
+        "gaia/2026-07-30-hr-diagram-ngc188/hr_ngc188.png",
+        "gaia/2026-07-30-hr-diagram-ngc188/three_cluster_comparison.png"
+      ],
+      "artifacts": [],
+      "provenance_count": 0,
+      "quality_check_count": 0,
+      "limitation_count": 0,
+      "has_result_json": false
+    },
+    {
+      "id": "2026-07-30-parallax-distance-sirius",
+      "title": "Measuring the distance to Sirius, the brightest star in our sky",
+      "archive": "ESA Gaia",
+      "archive_dir": "gaia",
+      "date": "2026-07-30",
+      "question": "Legacy real-data notebook awaiting full result.json audit metadata.",
+      "sample_size": null,
+      "research_level": "Legacy",
+      "claim_type": "Exploratory analysis",
+      "notebook": "gaia/2026-07-30-parallax-distance-sirius/notebook.ipynb",
+      "readme": "gaia/2026-07-30-parallax-distance-sirius/README.md",
+      "hero": "gaia/2026-07-30-parallax-distance-sirius/sirius_distance_comparison.png",
+      "figures": [
+        "gaia/2026-07-30-parallax-distance-sirius/sirius_distance_comparison.png"
+      ],
+      "artifacts": [],
+      "provenance_count": 0,
+      "quality_check_count": 0,
+      "limitation_count": 0,
+      "has_result_json": false
+    },
+    {
+      "id": "2026-07-30-wide-binary-search-alpha-cen",
+      "title": "Looking for wide binary star pairs near Alpha Centauri",
+      "archive": "ESA Gaia",
+      "archive_dir": "gaia",
+      "date": "2026-07-30",
+      "question": "Legacy real-data notebook awaiting full result.json audit metadata.",
+      "sample_size": null,
+      "research_level": "Legacy",
+      "claim_type": "Exploratory analysis",
+      "notebook": "gaia/2026-07-30-wide-binary-search-alpha-cen/notebook.ipynb",
+      "readme": "gaia/2026-07-30-wide-binary-search-alpha-cen/README.md",
+      "hero": "gaia/2026-07-30-wide-binary-search-alpha-cen/alpha_cen_companion_cut.png",
+      "figures": [
+        "gaia/2026-07-30-wide-binary-search-alpha-cen/alpha_cen_companion_cut.png"
+      ],
+      "artifacts": [],
+      "provenance_count": 0,
+      "quality_check_count": 0,
+      "limitation_count": 0,
+      "has_result_json": false
+    },
+    {
+      "id": "2026-07-30-parallax-distance-vega",
+      "title": "How far away is Vega, really? Measuring it from a real parallax",
+      "archive": "ESA Gaia",
+      "archive_dir": "gaia",
+      "date": "2026-07-30",
+      "question": "Legacy real-data notebook awaiting full result.json audit metadata.",
+      "sample_size": null,
+      "research_level": "Legacy",
+      "claim_type": "Exploratory analysis",
+      "notebook": "gaia/2026-07-30-parallax-distance-vega/notebook.ipynb",
+      "readme": "gaia/2026-07-30-parallax-distance-vega/README.md",
+      "hero": "gaia/2026-07-30-parallax-distance-vega/vega_distance_comparison.png",
+      "figures": [
+        "gaia/2026-07-30-parallax-distance-vega/vega_distance_comparison.png"
+      ],
+      "artifacts": [],
+      "provenance_count": 0,
+      "quality_check_count": 0,
+      "limitation_count": 0,
+      "has_result_json": false
+    },
+    {
+      "id": "2026-07-30-proper-motion-membership-m67",
+      "title": "Finding M67 cluster members with a real proper-motion cut",
+      "archive": "ESA Gaia",
+      "archive_dir": "gaia",
+      "date": "2026-07-30",
+      "question": "Legacy real-data notebook awaiting full result.json audit metadata.",
+      "sample_size": null,
+      "research_level": "Legacy",
+      "claim_type": "Exploratory analysis",
+      "notebook": "gaia/2026-07-30-proper-motion-membership-m67/notebook.ipynb",
+      "readme": "gaia/2026-07-30-proper-motion-membership-m67/README.md",
+      "hero": "gaia/2026-07-30-proper-motion-membership-m67/m67_cmd_validation.png",
+      "figures": [
+        "gaia/2026-07-30-proper-motion-membership-m67/m67_cmd_validation.png",
+        "gaia/2026-07-30-proper-motion-membership-m67/m67_pm_all.png",
+        "gaia/2026-07-30-proper-motion-membership-m67/m67_pm_members.png"
+      ],
+      "artifacts": [],
+      "provenance_count": 0,
+      "quality_check_count": 0,
+      "limitation_count": 0,
+      "has_result_json": false
+    },
+    {
+      "id": "2026-07-30-hr-diagram-pleiades",
+      "title": "Building a real Hertzsprung-Russell diagram for the Pleiades",
+      "archive": "ESA Gaia",
+      "archive_dir": "gaia",
+      "date": "2026-07-30",
+      "question": "Legacy real-data notebook awaiting full result.json audit metadata.",
+      "sample_size": null,
+      "research_level": "Legacy",
+      "claim_type": "Exploratory analysis",
+      "notebook": "gaia/2026-07-30-hr-diagram-pleiades/notebook.ipynb",
+      "readme": "gaia/2026-07-30-hr-diagram-pleiades/README.md",
+      "hero": "gaia/2026-07-30-hr-diagram-pleiades/hr_pleiades.png",
+      "figures": [
+        "gaia/2026-07-30-hr-diagram-pleiades/hr_pleiades.png"
+      ],
+      "artifacts": [],
+      "provenance_count": 0,
+      "quality_check_count": 0,
+      "limitation_count": 0,
+      "has_result_json": false
+    }
+  ]
+}

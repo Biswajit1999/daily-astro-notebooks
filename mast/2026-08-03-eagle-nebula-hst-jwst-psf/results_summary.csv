@@ -1,0 +1,8 @@
+metric,value
+HST theoretical diffraction limit (arcsec),0.069
+JWST theoretical diffraction limit (arcsec),0.172
+HST measured apparent star FWHM (arcsec),0.120
+JWST measured apparent star FWHM (arcsec),0.200
+Theory ratio (JWST/HST),2.50
+Measured ratio (JWST/HST),1.67
+Same direction (JWST wider than HST)?,True

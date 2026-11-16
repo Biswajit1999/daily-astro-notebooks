@@ -1,0 +1,44 @@
+{
+  "id": "2026-08-01-asassn18tb-independent-photometry",
+  "title": "Independent aperture photometry from the TESS pixels",
+  "archive": "MAST / TESS / DES",
+  "date": "2026-08-01",
+  "question": "Does a simple reference-subtracted aperture recover the published light-curve shape?",
+  "sample_size": 1266,
+  "results": [
+    "Independent and MIT extractions have Pearson r=0.989",
+    "Pre-explosion residual RMS = 2257.0",
+    "Rising-phase residual RMS = 2434.8"
+  ],
+  "validation": "A separate aperture extraction is compared cadence by cadence with the public forced-photometry product.",
+  "notebook": "mast/2026-08-01-asassn18tb-independent-photometry/notebook.ipynb",
+  "hero": "mast/2026-08-01-asassn18tb-independent-photometry/independent_lightcurve_comparison.png",
+  "figures": [
+    "mast/2026-08-01-asassn18tb-independent-photometry/independent_lightcurve_comparison.png",
+    "mast/2026-08-01-asassn18tb-independent-photometry/extraction_agreement_audit.png"
+  ],
+  "research_level": "Time-domain audit",
+  "claim_type": "Independent light-curve shape recovery",
+  "provenance": [
+    "MAST TESSCut SPOC FFI cutouts, Sectors 1 and 2",
+    "MIT TESS Transients cleaned light curve for SN 2018fhw",
+    "DES DR2 g/r/i HiPS FITS cutouts via CDS"
+  ],
+  "artifacts": [
+    "mast/2026-08-01-asassn18tb-independent-photometry/aperture_vs_mit_lightcurve.csv"
+  ],
+  "quality_checks": [
+    {
+      "name": "pre-explosion reference",
+      "status": "passed"
+    },
+    {
+      "name": "cadence-level comparison",
+      "status": "passed"
+    }
+  ],
+  "limitations": [
+    "The linear scale is empirical.",
+    "Neither extraction spatially resolves the host galaxy."
+  ]
+}

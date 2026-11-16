@@ -1,0 +1,42 @@
+{
+  "id": "2026-08-03-local-3d-stellar-map",
+  "title": "Local 3D stellar map from Gaia DR3",
+  "n_sample": 6000,
+  "shells": [
+    {
+      "shell_inner_pc": 0,
+      "shell_outer_pc": 20,
+      "n_stars": 143,
+      "volume_pc3": 33510.32163829113,
+      "density_per_pc3": 0.004267341911651444
+    },
+    {
+      "shell_inner_pc": 20,
+      "shell_outer_pc": 40,
+      "n_stars": 631,
+      "volume_pc3": 234572.25146803787,
+      "density_per_pc3": 0.002690002743508553
+    },
+    {
+      "shell_inner_pc": 40,
+      "shell_outer_pc": 60,
+      "n_stars": 1215,
+      "volume_pc3": 636696.1111275314,
+      "density_per_pc3": 0.0019082887091117057
+    },
+    {
+      "shell_inner_pc": 60,
+      "shell_outer_pc": 80,
+      "n_stars": 1760,
+      "volume_pc3": 1239881.9006167715,
+      "density_per_pc3": 0.0014194900329817695
+    },
+    {
+      "shell_inner_pc": 80,
+      "shell_outer_pc": 100,
+      "n_stars": 2251,
+      "volume_pc3": 2044129.6199357586,
+      "density_per_pc3": 0.001101202183093821
+    }
+  ]
+}
