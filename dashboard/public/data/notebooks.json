@@ -1,0 +1,3986 @@
+{
+  "generated": "2026-08-01",
+  "stats": {
+    "total": 70,
+    "archives": 4,
+    "dense": 70
+  },
+  "notebooks": [
+    {
+      "id": "2026-08-01-uncover-highz-line-diagnostics",
+      "title": "Which lines are measured in the high-redshift spectra?",
+      "archive": "UNCOVER / MAST",
+      "date": "2026-08-01",
+      "question": "Which line measurements reach S/N above three, and how does lensing change their scale?",
+      "sample_size": 48,
+      "results": [
+        "Line catalogue contains 48 solid/secure z>=6 objects",
+        "Most common S/N>=3 line: OIII-5007 (39 objects)",
+        "[O III] 5007 has S/N>=3 in 39 objects"
+      ],
+      "validation": "Every line is screened by its reported uncertainty; magnification is shown as a scale correction with release intervals retained.",
+      "notebook": "mast/2026-08-01-uncover-highz-line-diagnostics/notebook.ipynb",
+      "hero": "mast/2026-08-01-uncover-highz-line-diagnostics/highz_line_detection_counts.png",
+      "figures": [
+        "mast/2026-08-01-uncover-highz-line-diagnostics/highz_line_detection_counts.png",
+        "mast/2026-08-01-uncover-highz-line-diagnostics/oiii5007_lensing_correction.png"
+      ],
+      "research_level": "Spectroscopic audit",
+      "claim_type": "Public line-measurement inventory",
+      "provenance": [
+        "UNCOVER DR4.1 public release; Price et al. (2025)",
+        "Solid/secure selection: flag_zspec_qual in {2,3}",
+        "Frozen derivative checksums: data/uncover_dr4_spectroscopy/manifest.json"
+      ],
+      "artifacts": [
+        "mast/2026-08-01-uncover-highz-line-diagnostics/highz_line_detection_counts.csv",
+        "mast/2026-08-01-uncover-highz-line-diagnostics/oiii5007_lensing_scale.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "finite uncertainty and S/N screen",
+          "status": "passed"
+        },
+        {
+          "name": "lensing units stated",
+          "status": "passed"
+        }
+      ],
+      "limitations": [
+        "Line fluxes are release fits and uncorrected for slit loss.",
+        "No abundance or luminosity is inferred."
+      ],
+      "family": "MAST",
+      "date_display": "01 Aug 2026",
+      "summary": "Which line measurements reach S/N above three, and how does lensing change their scale?",
+      "sample_size_display": "48 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-08-01-uncover-highz-line-diagnostics.png",
+      "figures_local": [
+        "data/images/2026-08-01-uncover-highz-line-diagnostics.png",
+        "data/images/2026-08-01-uncover-highz-line-diagnostics--figure-2.png"
+      ]
+    },
+    {
+      "id": "2026-08-01-uncover-spectroscopic-evidence",
+      "title": "What supports the UNCOVER redshifts?",
+      "archive": "UNCOVER / MAST",
+      "date": "2026-08-01",
+      "question": "How do spectral evidence and the background advisory relate to solid or secure redshifts?",
+      "sample_size": 409,
+      "results": [
+        "409 solid/secure redshifts are classified",
+        "Most common primary evidence: emission line (325 objects)",
+        "Background advisory applies to 224 objects"
+      ],
+      "validation": "Raw evidence flags, a declared category priority, and background-flag exclusion are all reported.",
+      "notebook": "mast/2026-08-01-uncover-spectroscopic-evidence/notebook.ipynb",
+      "hero": "mast/2026-08-01-uncover-spectroscopic-evidence/spectroscopic_evidence_counts.png",
+      "figures": [
+        "mast/2026-08-01-uncover-spectroscopic-evidence/spectroscopic_evidence_counts.png",
+        "mast/2026-08-01-uncover-spectroscopic-evidence/evidence_redshift_ranges.png"
+      ],
+      "research_level": "Spectroscopic audit",
+      "claim_type": "Release evidence-flag audit",
+      "provenance": [
+        "UNCOVER DR4.1 public release; Price et al. (2025)",
+        "Solid/secure selection: flag_zspec_qual in {2,3}",
+        "Frozen derivative checksums: data/uncover_dr4_spectroscopy/manifest.json"
+      ],
+      "artifacts": [
+        "mast/2026-08-01-uncover-spectroscopic-evidence/spectroscopic_evidence_summary.csv",
+        "mast/2026-08-01-uncover-spectroscopic-evidence/background_flag_stress.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "quality flag selection",
+          "status": "passed"
+        },
+        {
+          "name": "background advisory stress test",
+          "status": "passed"
+        }
+      ],
+      "limitations": [
+        "Evidence flags are release classifications, not independent refits.",
+        "Primary-category priority is a display choice."
+      ],
+      "family": "MAST",
+      "date_display": "01 Aug 2026",
+      "summary": "How do spectral evidence and the background advisory relate to solid or secure redshifts?",
+      "sample_size_display": "409 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-08-01-uncover-spectroscopic-evidence.png",
+      "figures_local": [
+        "data/images/2026-08-01-uncover-spectroscopic-evidence.png",
+        "data/images/2026-08-01-uncover-spectroscopic-evidence--figure-2.png"
+      ]
+    },
+    {
+      "id": "2026-08-01-asassn18tb-des-host",
+      "title": "The DES host galaxy around ASASSN-18tb",
+      "archive": "MAST / TESS / DES",
+      "date": "2026-08-01",
+      "question": "What does pre-explosion DES imaging show about the host environment and positional offset?",
+      "sample_size": 3,
+      "results": [
+        "A real DES DR2 i/r/g composite resolves the early-type host",
+        "Simple DES centroid models give a median projected offset of 3.02 arcsec",
+        "Published 2MASS-based offset is 5.16 arcsec"
+      ],
+      "validation": "The host offset is stressed across four fitting boxes and compared with the published 2MASS-centre value.",
+      "notebook": "mast/2026-08-01-asassn18tb-des-host/notebook.ipynb",
+      "hero": "mast/2026-08-01-asassn18tb-des-host/des_host_rgb.png",
+      "figures": [
+        "mast/2026-08-01-asassn18tb-des-host/des_host_rgb.png",
+        "mast/2026-08-01-asassn18tb-des-host/host_offset_stress.png"
+      ],
+      "research_level": "Time-domain audit",
+      "claim_type": "Pre-explosion host-environment audit",
+      "provenance": [
+        "MAST TESSCut SPOC FFI cutouts, Sectors 1 and 2",
+        "MIT TESS Transients cleaned light curve for SN 2018fhw",
+        "DES DR2 g/r/i HiPS FITS cutouts via CDS"
+      ],
+      "artifacts": [
+        "mast/2026-08-01-asassn18tb-des-host/host_centroid_sensitivity.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "three-filter FITS provenance",
+          "status": "passed"
+        },
+        {
+          "name": "centroid box-size stress",
+          "status": "passed"
+        }
+      ],
+      "limitations": [
+        "DES coadds predate the explosion and do not show the supernova.",
+        "A Gaussian is only a centre proxy for this structured galaxy."
+      ],
+      "family": "MAST",
+      "date_display": "01 Aug 2026",
+      "summary": "What does pre-explosion DES imaging show about the host environment and positional offset?",
+      "sample_size_display": "3 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-08-01-asassn18tb-des-host.png",
+      "figures_local": [
+        "data/images/2026-08-01-asassn18tb-des-host.png",
+        "data/images/2026-08-01-asassn18tb-des-host--figure-2.png"
+      ]
+    },
+    {
+      "id": "2026-08-01-hst-jwst-sn1987a-comparison",
+      "title": "SN 1987A: registered Hubble\u2013Webb structure comparison",
+      "archive": "MAST \u00b7 HST WFC3 + JWST NIRCam",
+      "date": "2026-08-01",
+      "question": "Which normalized structures remain spatially similar between HST F625W in 2018 and JWST F200W in 2022?",
+      "sample_size": 8405,
+      "results": [
+        "normalized remnant intensity correlation 0.921 at 0.12 arcsec common FWHM",
+        "edge-map correlation 0.832 at the same smoothing",
+        "correlations explicitly tested from 0.10 to 0.18 arcsec"
+      ],
+      "validation": "The calibrated cutouts are registered by celestial WCS, normalized separately, blurred to four common resolutions, and compared in intensity and edge space.",
+      "notebook": "mast/2026-08-01-hst-jwst-sn1987a-comparison/notebook.ipynb",
+      "hero": "mast/2026-08-01-hst-jwst-sn1987a-comparison/hst_jwst_registered_comparison.png",
+      "figures": [
+        "mast/2026-08-01-hst-jwst-sn1987a-comparison/hst_jwst_registered_comparison.png",
+        "mast/2026-08-01-hst-jwst-sn1987a-comparison/hst_jwst_edge_and_resolution_check.png"
+      ],
+      "research_level": "Exploration",
+      "claim_type": "Cross-instrument morphology",
+      "provenance": [
+        "HST program 15256 F625W HAP DRC product, 2018-07-08",
+        "JWST program 1726 F200W I2D product, 2022-09-02",
+        "both compact cutouts preserve WCS and original product names"
+      ],
+      "artifacts": [
+        "data/sn1987a/hst_f625w_2018_cutout.fits",
+        "data/sn1987a/jwst_f200w_2022_cutout.fits",
+        "mast/2026-08-01-hst-jwst-sn1987a-comparison/hst_jwst_resolution_stress.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "Celestial WCS registration",
+          "status": "pass"
+        },
+        {
+          "name": "Common-resolution stress test",
+          "status": "pass"
+        },
+        {
+          "name": "Separate normalization",
+          "status": "pass"
+        },
+        {
+          "name": "Cross-band flux comparison",
+          "status": "not attempted"
+        }
+      ],
+      "limitations": [
+        "filters trace different wavelengths and emission processes",
+        "observations are four years apart",
+        "approximate Gaussian PSFs do not reproduce full instrument PSF wings",
+        "correlation is descriptive, not a physical model"
+      ],
+      "tags": [
+        "HST",
+        "JWST",
+        "SN 1987A",
+        "cross telescope"
+      ],
+      "family": "MAST",
+      "date_display": "01 Aug 2026",
+      "summary": "Which normalized structures remain spatially similar between HST F625W in 2018 and JWST F200W in 2022?",
+      "sample_size_display": "8,405 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-08-01-hst-jwst-sn1987a-comparison.png",
+      "figures_local": [
+        "data/images/2026-08-01-hst-jwst-sn1987a-comparison.png",
+        "data/images/2026-08-01-hst-jwst-sn1987a-comparison--figure-2.png"
+      ]
+    },
+    {
+      "id": "2026-08-01-hst-sn1987a-lightcurve",
+      "title": "SN 1987A: HST ring fading and ejecta plateau",
+      "archive": "HST photometry \u00b7 Rosu et al. 2024",
+      "date": "2026-08-01",
+      "question": "Do the published HST measurements reproduce a fading ring and a flattening ejecta light curve?",
+      "sample_size": 60,
+      "results": [
+        "F625W equatorial-ring flux changes -47.9% from day 8717 to 12598",
+        "F625W ejecta flux changes 19.8% over the same tabulated interval",
+        "best sampled ejecta slope break day 10698; residual-bootstrap 16\u201384% range 10698\u201310698"
+      ],
+      "validation": "All 60 Table 6 measurements are retained with units and errors; slopes use residual resampling and the ejecta breakpoint is selected only from observed epochs.",
+      "notebook": "mast/2026-08-01-hst-sn1987a-lightcurve/notebook.ipynb",
+      "hero": "mast/2026-08-01-hst-sn1987a-lightcurve/sn1987a_hst_lightcurves.png",
+      "figures": [
+        "mast/2026-08-01-hst-sn1987a-lightcurve/sn1987a_hst_lightcurves.png",
+        "mast/2026-08-01-hst-sn1987a-lightcurve/sn1987a_ejecta_plateau_fit.png"
+      ],
+      "research_level": "Reproduction",
+      "claim_type": "Peer-reviewed table reanalysis",
+      "provenance": [
+        "Rosu et al. 2024 ApJ 966 238 Table 6",
+        "DOI 10.3847/1538-4357/ad36cc",
+        "HST WFC3 F438W and F625W, 2011\u20132021"
+      ],
+      "artifacts": [
+        "data/sn1987a/hst_photometry_rosu2024_table6.csv",
+        "mast/2026-08-01-hst-sn1987a-lightcurve/sn1987a_lightcurve_trends.csv",
+        "mast/2026-08-01-hst-sn1987a-lightcurve/sn1987a_piecewise_fit.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "Published values transcribed with units",
+          "status": "pass"
+        },
+        {
+          "name": "Residual bootstrap",
+          "status": "pass"
+        },
+        {
+          "name": "Breakpoint restricted to observed epochs",
+          "status": "pass"
+        },
+        {
+          "name": "Agreement with paper direction",
+          "status": "pass"
+        }
+      ],
+      "limitations": [
+        "this notebook reanalyses published photometry rather than raw exposures",
+        "tabulated statistical errors omit some systematics",
+        "ten epochs give coarse breakpoint resolution"
+      ],
+      "tags": [
+        "HST",
+        "SN 1987A",
+        "light curve",
+        "reproduction"
+      ],
+      "family": "MAST",
+      "date_display": "01 Aug 2026",
+      "summary": "Do the published HST measurements reproduce a fading ring and a flattening ejecta light curve?",
+      "sample_size_display": "60 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-08-01-hst-sn1987a-lightcurve.png",
+      "figures_local": [
+        "data/images/2026-08-01-hst-sn1987a-lightcurve.png",
+        "data/images/2026-08-01-hst-sn1987a-lightcurve--figure-2.png"
+      ]
+    },
+    {
+      "id": "2026-08-01-asassn18tb-rise-model",
+      "title": "Remeasuring the early supernova rise",
+      "archive": "MAST / TESS / DES",
+      "date": "2026-08-01",
+      "question": "Is the public light curve better described by a free power law than a fixed t-squared rise?",
+      "sample_size": 83,
+      "results": [
+        "Free-index fit gives alpha=1.545",
+        "First light MJD=58341.54",
+        "Free model improves AIC by 43.2 over fixed alpha=2",
+        "Window stress spans alpha=1.37-1.66"
+      ],
+      "validation": "The remeasurement is compared with the published alpha=1.69 and first-light MJD 58341.68, then stressed across fit windows.",
+      "notebook": "mast/2026-08-01-asassn18tb-rise-model/notebook.ipynb",
+      "hero": "mast/2026-08-01-asassn18tb-rise-model/early_rise_powerlaw_fit.png",
+      "figures": [
+        "mast/2026-08-01-asassn18tb-rise-model/early_rise_powerlaw_fit.png",
+        "mast/2026-08-01-asassn18tb-rise-model/rise_fit_sensitivity.png"
+      ],
+      "research_level": "Time-domain audit",
+      "claim_type": "Conditional early-rise remeasurement",
+      "provenance": [
+        "MAST TESSCut SPOC FFI cutouts, Sectors 1 and 2",
+        "MIT TESS Transients cleaned light curve for SN 2018fhw",
+        "DES DR2 g/r/i HiPS FITS cutouts via CDS"
+      ],
+      "artifacts": [
+        "mast/2026-08-01-asassn18tb-rise-model/rise_fit_window_sensitivity.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "pre-explosion baseline",
+          "status": "passed"
+        },
+        {
+          "name": "fit-window stress test",
+          "status": "passed"
+        },
+        {
+          "name": "literature comparison",
+          "status": "passed"
+        }
+      ],
+      "limitations": [
+        "Formal fit errors omit correlated TESS systematics.",
+        "This compact fit does not constrain a companion radius."
+      ],
+      "family": "MAST",
+      "date_display": "01 Aug 2026",
+      "summary": "Is the public light curve better described by a free power law than a fixed t-squared rise?",
+      "sample_size_display": "83 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-08-01-asassn18tb-rise-model.png",
+      "figures_local": [
+        "data/images/2026-08-01-asassn18tb-rise-model.png",
+        "data/images/2026-08-01-asassn18tb-rise-model--figure-2.png"
+      ]
+    },
+    {
+      "id": "2026-08-01-uncover-nirspec-spectral-atlas",
+      "title": "Real HST images and JWST spectra of distant galaxies",
+      "archive": "UNCOVER / MAST",
+      "date": "2026-08-01",
+      "question": "What do calibrated 1D and 2D NIRSpec data look like for six z=7.88 to 13.16 galaxies?",
+      "sample_size": 6,
+      "results": [
+        "Six real spectra span z=7.88-13.16",
+        "Each 1D extraction is paired with its real 2D slit image",
+        "A three-filter HST Frontier Fields cutout supplies independent imaging context"
+      ],
+      "validation": "The 1D spectrum, 2D detector image, error array, release redshift, and independent HST cutout are shown together.",
+      "notebook": "mast/2026-08-01-uncover-nirspec-spectral-atlas/notebook.ipynb",
+      "hero": "mast/2026-08-01-uncover-nirspec-spectral-atlas/nirspec_1d_atlas.png",
+      "figures": [
+        "mast/2026-08-01-uncover-nirspec-spectral-atlas/nirspec_1d_atlas.png",
+        "mast/2026-08-01-uncover-nirspec-spectral-atlas/nirspec_2d_atlas.png",
+        "mast/2026-08-01-uncover-nirspec-spectral-atlas/hst_rgb_60157.png"
+      ],
+      "research_level": "Spectroscopic audit",
+      "claim_type": "Multi-telescope data atlas",
+      "provenance": [
+        "UNCOVER DR4.1 public release; Price et al. (2025)",
+        "Solid/secure selection: flag_zspec_qual in {2,3}",
+        "Frozen derivative checksums: data/uncover_dr4_spectroscopy/manifest.json"
+      ],
+      "artifacts": [
+        "mast/2026-08-01-uncover-nirspec-spectral-atlas/spectral_atlas_sources.csv",
+        "mast/2026-08-01-uncover-nirspec-spectral-atlas/hst_rgb_channels.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "FITS wavelength and flux units",
+          "status": "passed"
+        },
+        {
+          "name": "1D/2D agreement view",
+          "status": "passed"
+        },
+        {
+          "name": "HST filter provenance",
+          "status": "passed"
+        }
+      ],
+      "limitations": [
+        "The atlas does not refit redshifts or lines.",
+        "RGB colours are a display mapping, not human-visible rest-frame colour."
+      ],
+      "family": "MAST",
+      "date_display": "01 Aug 2026",
+      "summary": "What do calibrated 1D and 2D NIRSpec data look like for six z=7.88 to 13.16 galaxies?",
+      "sample_size_display": "6 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-08-01-uncover-nirspec-spectral-atlas.png",
+      "figures_local": [
+        "data/images/2026-08-01-uncover-nirspec-spectral-atlas.png",
+        "data/images/2026-08-01-uncover-nirspec-spectral-atlas--figure-2.png",
+        "data/images/2026-08-01-uncover-nirspec-spectral-atlas--figure-3.png"
+      ]
+    },
+    {
+      "id": "2026-08-01-uncover-photz-specz-validation",
+      "title": "Photometric versus spectroscopic redshift",
+      "archive": "UNCOVER / MAST",
+      "date": "2026-08-01",
+      "question": "How well did DR3 high-redshift estimates agree with solid or secure DR4.1 spectroscopy?",
+      "sample_size": 44,
+      "results": [
+        "41 of 44 matched candidates have zspec >= 6",
+        "Normalized median absolute deviation = 0.017",
+        "Outlier fraction at |dz|/(1+zspec)>0.15 = 6.8%"
+      ],
+      "validation": "Robust scatter, explicit outlier threshold, and row-level residual table expose both agreement and failures.",
+      "notebook": "mast/2026-08-01-uncover-photz-specz-validation/notebook.ipynb",
+      "hero": "mast/2026-08-01-uncover-photz-specz-validation/photz_specz_validation.png",
+      "figures": [
+        "mast/2026-08-01-uncover-photz-specz-validation/photz_specz_validation.png",
+        "mast/2026-08-01-uncover-photz-specz-validation/normalized_redshift_residuals.png"
+      ],
+      "research_level": "Spectroscopic audit",
+      "claim_type": "Matched-sample redshift validation",
+      "provenance": [
+        "UNCOVER DR4.1 public release; Price et al. (2025)",
+        "Solid/secure selection: flag_zspec_qual in {2,3}",
+        "Frozen derivative checksums: data/uncover_dr4_spectroscopy/manifest.json"
+      ],
+      "artifacts": [
+        "mast/2026-08-01-uncover-photz-specz-validation/photz_specz_residuals.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "catalogue-ID join",
+          "status": "passed"
+        },
+        {
+          "name": "robust scatter",
+          "status": "passed"
+        }
+      ],
+      "limitations": [
+        "The spectroscopic targets are not a random sample.",
+        "Unmatched candidates receive no verdict."
+      ],
+      "family": "MAST",
+      "date_display": "01 Aug 2026",
+      "summary": "How well did DR3 high-redshift estimates agree with solid or secure DR4.1 spectroscopy?",
+      "sample_size_display": "44 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-08-01-uncover-photz-specz-validation.png",
+      "figures_local": [
+        "data/images/2026-08-01-uncover-photz-specz-validation.png",
+        "data/images/2026-08-01-uncover-photz-specz-validation--figure-2.png"
+      ]
+    },
+    {
+      "id": "2026-08-01-jwst-sn1987a-filter-morphology",
+      "title": "JWST SN 1987A: filter-dependent ring/ejecta structure",
+      "archive": "MAST \u00b7 JWST NIRCam",
+      "date": "2026-08-01",
+      "question": "How does the ring-to-ejecta surface-brightness balance change from 1.5 to 4.44 microns?",
+      "sample_size": 364061,
+      "results": [
+        "PSF-matched ring/ejecta ratio spans a factor 4.14 across F150W\u2013F444W",
+        "largest ratio occurs in F356W",
+        "result repeated across nine ring-aperture definitions per filter"
+      ],
+      "validation": "All filters are WCS-aligned, blurred to an approximate F444W PSF, background-subtracted, and repeated over nine aperture choices.",
+      "notebook": "mast/2026-08-01-jwst-sn1987a-filter-morphology/notebook.ipynb",
+      "hero": "mast/2026-08-01-jwst-sn1987a-filter-morphology/jwst_filter_morphology_panels.png",
+      "figures": [
+        "mast/2026-08-01-jwst-sn1987a-filter-morphology/jwst_filter_morphology_panels.png",
+        "mast/2026-08-01-jwst-sn1987a-filter-morphology/jwst_filter_ratios_and_stress.png"
+      ],
+      "research_level": "Validated",
+      "claim_type": "Filter-resolved morphology",
+      "provenance": [
+        "MAST JWST program 1726",
+        "calibrated NIRCam I2D F150W, F200W, F356W, F444W",
+        "compact cutouts retain MJy/sr and WCS"
+      ],
+      "artifacts": [
+        "data/sn1987a/jwst_f150w_2022_cutout.fits",
+        "data/sn1987a/jwst_f200w_2022_cutout.fits",
+        "data/sn1987a/jwst_f356w_2022_cutout.fits",
+        "data/sn1987a/jwst_f444w_2022_cutout.fits",
+        "mast/2026-08-01-jwst-sn1987a-filter-morphology/jwst_filter_aperture_metrics.csv",
+        "mast/2026-08-01-jwst-sn1987a-filter-morphology/jwst_aperture_sensitivity.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "WCS registration",
+          "status": "pass"
+        },
+        {
+          "name": "Approximate PSF matching",
+          "status": "pass"
+        },
+        {
+          "name": "Local background subtraction",
+          "status": "pass"
+        },
+        {
+          "name": "Aperture sensitivity",
+          "status": "pass"
+        }
+      ],
+      "limitations": [
+        "apertures are simple circular teaching regions",
+        "background errors omit correlated-pixel covariance",
+        "broadband ratios mix lines and continua and are not chemical abundances"
+      ],
+      "tags": [
+        "JWST",
+        "SN 1987A",
+        "morphology",
+        "PSF matching"
+      ],
+      "family": "MAST",
+      "date_display": "01 Aug 2026",
+      "summary": "How does the ring-to-ejecta surface-brightness balance change from 1.5 to 4.44 microns?",
+      "sample_size_display": "364,061 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-08-01-jwst-sn1987a-filter-morphology.png",
+      "figures_local": [
+        "data/images/2026-08-01-jwst-sn1987a-filter-morphology.png",
+        "data/images/2026-08-01-jwst-sn1987a-filter-morphology--figure-2.png"
+      ]
+    },
+    {
+      "id": "2026-08-01-jwst-sn1987a-rgb",
+      "title": "JWST SN 1987A: calibrated NIRCam RGB reconstruction",
+      "archive": "MAST \u00b7 JWST NIRCam",
+      "date": "2026-08-01",
+      "question": "Can three calibrated NIRCam filters be registered and mapped into a traceable infrared RGB composite?",
+      "sample_size": 271994,
+      "results": [
+        "F150W, F200W, and F444W calibrated cutouts mapped to blue, green, and red",
+        "common output grid 349 \u00d7 349 pixels at 0.0309 arcsec/pixel",
+        "each channel uses a recorded 1st\u201399.7th percentile asinh display stretch"
+      ],
+      "validation": "Every channel is shown in calibrated units before stretching, all pixels are placed on the F150W celestial grid, and the mapping is stored in a CSV.",
+      "notebook": "mast/2026-08-01-jwst-sn1987a-rgb/notebook.ipynb",
+      "hero": "mast/2026-08-01-jwst-sn1987a-rgb/jwst_sn1987a_rgb_figure.png",
+      "figures": [
+        "mast/2026-08-01-jwst-sn1987a-rgb/jwst_sn1987a_rgb_figure.png",
+        "mast/2026-08-01-jwst-sn1987a-rgb/jwst_sn1987a_channel_panels.png"
+      ],
+      "research_level": "Validated",
+      "claim_type": "Calibrated image reconstruction",
+      "provenance": [
+        "MAST JWST program 1726, PI Matsuura",
+        "jw01726-o001_t001 NIRCam I2D mosaics",
+        "F150W, F200W, F444W observed 2022-09-02"
+      ],
+      "artifacts": [
+        "data/sn1987a/jwst_f150w_2022_cutout.fits",
+        "data/sn1987a/jwst_f200w_2022_cutout.fits",
+        "data/sn1987a/jwst_f444w_2022_cutout.fits",
+        "mast/2026-08-01-jwst-sn1987a-rgb/jwst_sn1987a_rgb.png",
+        "mast/2026-08-01-jwst-sn1987a-rgb/jwst_rgb_channel_statistics.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "Calibrated I2D inputs",
+          "status": "pass"
+        },
+        {
+          "name": "WCS reprojection",
+          "status": "pass"
+        },
+        {
+          "name": "Input channels exposed",
+          "status": "pass"
+        },
+        {
+          "name": "True-colour claim",
+          "status": "not made"
+        }
+      ],
+      "limitations": [
+        "visible colours are assigned to infrared bands",
+        "independent display stretches suppress absolute colour ratios",
+        "broad filters do not uniquely identify chemical species"
+      ],
+      "tags": [
+        "JWST",
+        "SN 1987A",
+        "RGB",
+        "NIRCam"
+      ],
+      "family": "MAST",
+      "date_display": "01 Aug 2026",
+      "summary": "Can three calibrated NIRCam filters be registered and mapped into a traceable infrared RGB composite?",
+      "sample_size_display": "271,994 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-08-01-jwst-sn1987a-rgb.png",
+      "figures_local": [
+        "data/images/2026-08-01-jwst-sn1987a-rgb.png",
+        "data/images/2026-08-01-jwst-sn1987a-rgb--figure-2.png"
+      ]
+    },
+    {
+      "id": "2026-08-01-uncover-spatial-selection",
+      "title": "Is the sky density of UNCOVER high-z candidates spatially uniform?",
+      "archive": "UNCOVER / MAST",
+      "date": "2026-08-01",
+      "question": "Do candidate surface-density variations track F444W coverage and lensing structure?",
+      "sample_size": 4639,
+      "results": [
+        "The 7x7 occupied-cell depth relation has Spearman rho = 0.42 (p = 0.0125)",
+        "Grid stress-test rho spans 0.42 to 0.57"
+      ],
+      "validation": "The relation is repeated across five grid resolutions and is interpreted only as a selection diagnostic.",
+      "notebook": "mast/2026-08-01-uncover-spatial-selection/notebook.ipynb",
+      "hero": "mast/2026-08-01-uncover-spatial-selection/highz_candidate_sky_map.png",
+      "figures": [
+        "mast/2026-08-01-uncover-spatial-selection/highz_candidate_sky_map.png",
+        "mast/2026-08-01-uncover-spatial-selection/candidate_density_depth_relation.png"
+      ],
+      "research_level": "Exploration",
+      "claim_type": "Photometric candidate analysis",
+      "provenance": [
+        "UNCOVER DR3 SUPER catalog, Zenodo DOI 10.5281/zenodo.11059273",
+        "Upstream MD5 baeb44ce166c920050ceb93220b12e05",
+        "Selection: use_phot=1, flag_eazy=1, 6 <= z_phot < 15"
+      ],
+      "artifacts": [
+        "mast/2026-08-01-uncover-spatial-selection/spatial_grid_summary.csv",
+        "mast/2026-08-01-uncover-spatial-selection/spatial_binning_sensitivity.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "finite coordinate and weight cut",
+          "status": "passed"
+        },
+        {
+          "name": "five grid resolutions",
+          "status": "passed"
+        },
+        {
+          "name": "lensing shown explicitly",
+          "status": "passed"
+        }
+      ],
+      "limitations": [
+        "Counts are not corrected by source-plane area or completeness.",
+        "A single cluster field cannot establish cosmic clustering."
+      ],
+      "family": "MAST",
+      "date_display": "01 Aug 2026",
+      "summary": "Do candidate surface-density variations track F444W coverage and lensing structure?",
+      "sample_size_display": "4,639 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-08-01-uncover-spatial-selection.png",
+      "figures_local": [
+        "data/images/2026-08-01-uncover-spatial-selection.png",
+        "data/images/2026-08-01-uncover-spatial-selection--figure-2.png"
+      ]
+    },
+    {
+      "id": "2026-08-01-asassn18tb-independent-photometry",
+      "title": "Independent aperture photometry from the TESS pixels",
+      "archive": "MAST / TESS / DES",
+      "date": "2026-08-01",
+      "question": "Does a simple reference-subtracted aperture recover the published light-curve shape?",
+      "sample_size": 1266,
+      "results": [
+        "Independent and MIT extractions have Pearson r=0.989",
+        "Pre-explosion residual RMS = 2257.0",
+        "Rising-phase residual RMS = 2434.8"
+      ],
+      "validation": "A separate aperture extraction is compared cadence by cadence with the public forced-photometry product.",
+      "notebook": "mast/2026-08-01-asassn18tb-independent-photometry/notebook.ipynb",
+      "hero": "mast/2026-08-01-asassn18tb-independent-photometry/independent_lightcurve_comparison.png",
+      "figures": [
+        "mast/2026-08-01-asassn18tb-independent-photometry/independent_lightcurve_comparison.png",
+        "mast/2026-08-01-asassn18tb-independent-photometry/extraction_agreement_audit.png"
+      ],
+      "research_level": "Time-domain audit",
+      "claim_type": "Independent light-curve shape recovery",
+      "provenance": [
+        "MAST TESSCut SPOC FFI cutouts, Sectors 1 and 2",
+        "MIT TESS Transients cleaned light curve for SN 2018fhw",
+        "DES DR2 g/r/i HiPS FITS cutouts via CDS"
+      ],
+      "artifacts": [
+        "mast/2026-08-01-asassn18tb-independent-photometry/aperture_vs_mit_lightcurve.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "pre-explosion reference",
+          "status": "passed"
+        },
+        {
+          "name": "cadence-level comparison",
+          "status": "passed"
+        }
+      ],
+      "limitations": [
+        "The linear scale is empirical.",
+        "Neither extraction spatially resolves the host galaxy."
+      ],
+      "family": "MAST",
+      "date_display": "01 Aug 2026",
+      "summary": "Does a simple reference-subtracted aperture recover the published light-curve shape?",
+      "sample_size_display": "1,266 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-08-01-asassn18tb-independent-photometry.png",
+      "figures_local": [
+        "data/images/2026-08-01-asassn18tb-independent-photometry.png",
+        "data/images/2026-08-01-asassn18tb-independent-photometry--figure-2.png"
+      ]
+    },
+    {
+      "id": "2026-08-01-hst-sn1987a-timelapse",
+      "title": "Hubble SN 1987A: registered 1994\u20132006 time-lapse",
+      "archive": "NASA / HST release imagery",
+      "date": "2026-08-01",
+      "question": "How does the visible hotspot pattern change across the official Hubble sequence?",
+      "sample_size": 6,
+      "results": [
+        "six official Hubble frames registered from 1994 to 2006",
+        "maximum measured registration shift 0.00 display pixels",
+        "bright connected ring regions change from 12 to 24 under one relative threshold"
+      ],
+      "validation": "Frames share the official release geometry, are checked by phase correlation, and use a within-frame relative threshold; calibrated brightness is deliberately not inferred.",
+      "notebook": "mast/2026-08-01-hst-sn1987a-timelapse/notebook.ipynb",
+      "hero": "mast/2026-08-01-hst-sn1987a-timelapse/sn1987a_hst_contact_sheet.png",
+      "figures": [
+        "mast/2026-08-01-hst-sn1987a-timelapse/sn1987a_hst_contact_sheet.png",
+        "mast/2026-08-01-hst-sn1987a-timelapse/sn1987a_timelapse_checks.png"
+      ],
+      "research_level": "Exploration",
+      "claim_type": "Display-morphology time series",
+      "provenance": [
+        "NASA Hubble SN 1987A release collection",
+        "six dated 1200-pixel derivatives of official TIFF frames",
+        "source URLs and dates recorded in data/sn1987a/manifest.json"
+      ],
+      "artifacts": [
+        "data/sn1987a/hst_release_frames/frames.csv",
+        "mast/2026-08-01-hst-sn1987a-timelapse/sn1987a_display_morphology.csv",
+        "mast/2026-08-01-hst-sn1987a-timelapse/sn1987a_hst_1994_2006.gif"
+      ],
+      "quality_checks": [
+        {
+          "name": "Frame count and dates",
+          "status": "pass"
+        },
+        {
+          "name": "Phase-correlation registration",
+          "status": "pass"
+        },
+        {
+          "name": "Common field geometry",
+          "status": "pass"
+        },
+        {
+          "name": "Calibrated photometry",
+          "status": "not attempted"
+        }
+      ],
+      "limitations": [
+        "release-frame stretches and colours may differ by epoch",
+        "JPEG pixels are not calibrated flux",
+        "connected-component count depends on threshold and release processing"
+      ],
+      "tags": [
+        "HST",
+        "SN 1987A",
+        "time lapse",
+        "animation"
+      ],
+      "family": "MAST",
+      "date_display": "01 Aug 2026",
+      "summary": "How does the visible hotspot pattern change across the official Hubble sequence?",
+      "sample_size_display": "6 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-08-01-hst-sn1987a-timelapse.png",
+      "figures_local": [
+        "data/images/2026-08-01-hst-sn1987a-timelapse.png",
+        "data/images/2026-08-01-hst-sn1987a-timelapse--figure-2.png"
+      ]
+    },
+    {
+      "id": "2026-08-01-uncover-lensing-brightness",
+      "title": "How strongly does Abell 2744 lensing change candidate brightness rankings?",
+      "archive": "UNCOVER / MAST",
+      "date": "2026-08-01",
+      "question": "How do observed and approximately de-lensed F444W fluxes differ across the high-z sample?",
+      "sample_size": 1179,
+      "results": [
+        "Primary sample contains 1,179 candidates with F444W S/N >= 5 and mu <= 30",
+        "Median intrinsic/observed flux ratio = 0.711 (bootstrap 95% 0.706\u20130.718)"
+      ],
+      "validation": "Results are repeated across five magnification caps; a future DR4 v2.0 lens-map match is required for precision use.",
+      "notebook": "mast/2026-08-01-uncover-lensing-brightness/notebook.ipynb",
+      "hero": "mast/2026-08-01-uncover-lensing-brightness/lensing_brightness_comparison.png",
+      "figures": [
+        "mast/2026-08-01-uncover-lensing-brightness/lensing_brightness_comparison.png",
+        "mast/2026-08-01-uncover-lensing-brightness/magnification_cap_stress.png"
+      ],
+      "research_level": "Exploration",
+      "claim_type": "Photometric candidate analysis",
+      "provenance": [
+        "UNCOVER DR3 SUPER catalog, Zenodo DOI 10.5281/zenodo.11059273",
+        "Upstream MD5 baeb44ce166c920050ceb93220b12e05",
+        "Selection: use_phot=1, flag_eazy=1, 6 <= z_phot < 15"
+      ],
+      "artifacts": [
+        "mast/2026-08-01-uncover-lensing-brightness/magnification_cap_sensitivity.csv",
+        "mast/2026-08-01-uncover-lensing-brightness/lensing_working_sample.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "F444W S/N >= 5",
+          "status": "passed"
+        },
+        {
+          "name": "magnification cap stress test",
+          "status": "passed"
+        },
+        {
+          "name": "bootstrap interval",
+          "status": "passed"
+        }
+      ],
+      "limitations": [
+        "F444W/mu is a flux proxy, not a luminosity function.",
+        "DR3 magnifications are superseded by the DR4 v2.0 lens model."
+      ],
+      "family": "MAST",
+      "date_display": "01 Aug 2026",
+      "summary": "How do observed and approximately de-lensed F444W fluxes differ across the high-z sample?",
+      "sample_size_display": "1,179 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-08-01-uncover-lensing-brightness.png",
+      "figures_local": [
+        "data/images/2026-08-01-uncover-lensing-brightness.png",
+        "data/images/2026-08-01-uncover-lensing-brightness--figure-2.png"
+      ]
+    },
+    {
+      "id": "2026-08-01-uncover-highz-candidate-census",
+      "title": "How stable is the UNCOVER z >= 6 candidate count?",
+      "archive": "UNCOVER / MAST",
+      "date": "2026-08-01",
+      "question": "How many quality-flagged candidates remain when the redshift posterior must be narrow?",
+      "sample_size": 4731,
+      "results": [
+        "1,207 of 4,731 candidates have 68% posterior width < 2",
+        "Strict-sample median z = 6.78 (bootstrap 95% 6.74\u20136.89)"
+      ],
+      "validation": "The sensitivity curve is the validation: the reported census is not treated as threshold-free.",
+      "notebook": "mast/2026-08-01-uncover-highz-candidate-census/notebook.ipynb",
+      "hero": "mast/2026-08-01-uncover-highz-candidate-census/highz_redshift_distribution.png",
+      "figures": [
+        "mast/2026-08-01-uncover-highz-candidate-census/highz_redshift_distribution.png",
+        "mast/2026-08-01-uncover-highz-candidate-census/posterior_width_sensitivity.png"
+      ],
+      "research_level": "Exploration",
+      "claim_type": "Photometric candidate analysis",
+      "provenance": [
+        "UNCOVER DR3 SUPER catalog, Zenodo DOI 10.5281/zenodo.11059273",
+        "Upstream MD5 baeb44ce166c920050ceb93220b12e05",
+        "Selection: use_phot=1, flag_eazy=1, 6 <= z_phot < 15"
+      ],
+      "artifacts": [
+        "mast/2026-08-01-uncover-highz-candidate-census/selection_sensitivity.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "release photometry flag",
+          "status": "passed"
+        },
+        {
+          "name": "EAzY reliability flag",
+          "status": "passed"
+        },
+        {
+          "name": "posterior-width stress test",
+          "status": "passed"
+        }
+      ],
+      "limitations": [
+        "Photometric candidates are not spectroscopic confirmations.",
+        "No completeness or lensing-area correction is applied."
+      ],
+      "family": "MAST",
+      "date_display": "01 Aug 2026",
+      "summary": "How many quality-flagged candidates remain when the redshift posterior must be narrow?",
+      "sample_size_display": "4,731 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-08-01-uncover-highz-candidate-census.png",
+      "figures_local": [
+        "data/images/2026-08-01-uncover-highz-candidate-census.png",
+        "data/images/2026-08-01-uncover-highz-candidate-census--figure-2.png"
+      ]
+    },
+    {
+      "id": "2026-08-01-asassn18tb-background-systematics",
+      "title": "How much does scattered-light treatment matter?",
+      "archive": "MAST / TESS / DES",
+      "date": "2026-08-01",
+      "question": "Does subtracting the supplied background model reduce pre-explosion scatter?",
+      "sample_size": 494,
+      "results": [
+        "Held-out raw RMS = 1543.7",
+        "Unit background subtraction changes RMS by +4.7%",
+        "A trained coefficient of -3.45 also fails the held-out improvement test"
+      ],
+      "validation": "Correction choices are judged on a held-out half of the pre-explosion baseline rather than the fitted points.",
+      "notebook": "mast/2026-08-01-asassn18tb-background-systematics/notebook.ipynb",
+      "hero": "mast/2026-08-01-asassn18tb-background-systematics/background_method_comparison.png",
+      "figures": [
+        "mast/2026-08-01-asassn18tb-background-systematics/background_method_comparison.png",
+        "mast/2026-08-01-asassn18tb-background-systematics/background_time_series.png"
+      ],
+      "research_level": "Time-domain audit",
+      "claim_type": "Background-treatment stress test",
+      "provenance": [
+        "MAST TESSCut SPOC FFI cutouts, Sectors 1 and 2",
+        "MIT TESS Transients cleaned light curve for SN 2018fhw",
+        "DES DR2 g/r/i HiPS FITS cutouts via CDS"
+      ],
+      "artifacts": [
+        "mast/2026-08-01-asassn18tb-background-systematics/background_correction_stress.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "pre-explosion control window",
+          "status": "passed"
+        },
+        {
+          "name": "held-out comparison",
+          "status": "passed"
+        }
+      ],
+      "limitations": [
+        "This test does not reproduce the paper's spatial comparison-star correction.",
+        "The optimal method can vary across time."
+      ],
+      "family": "MAST",
+      "date_display": "01 Aug 2026",
+      "summary": "Does subtracting the supplied background model reduce pre-explosion scatter?",
+      "sample_size_display": "494 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-08-01-asassn18tb-background-systematics.png",
+      "figures_local": [
+        "data/images/2026-08-01-asassn18tb-background-systematics.png",
+        "data/images/2026-08-01-asassn18tb-background-systematics--figure-2.png"
+      ]
+    },
+    {
+      "id": "2026-08-01-uncover-lyman-break-stacks",
+      "title": "Does the Lyman-break migration appear in stacked UNCOVER photometry?",
+      "archive": "UNCOVER / MAST",
+      "date": "2026-08-01",
+      "question": "Do median broad-band flux patterns move to longer wavelengths with candidate redshift?",
+      "sample_size": 1182,
+      "results": [
+        "1,182 candidates pass the F444W signal-to-noise display cut",
+        "Median blue/red ratios span 0.319\u20130.754 across the three bins"
+      ],
+      "validation": "The wavelength of blue suppression shifts redward across bins as expected for a Lyman break, but this is not independent of the photometric-redshift fit.",
+      "notebook": "mast/2026-08-01-uncover-lyman-break-stacks/notebook.ipynb",
+      "hero": "mast/2026-08-01-uncover-lyman-break-stacks/lyman_break_median_stacks.png",
+      "figures": [
+        "mast/2026-08-01-uncover-lyman-break-stacks/lyman_break_median_stacks.png",
+        "mast/2026-08-01-uncover-lyman-break-stacks/dropout_ratio_bootstrap.png"
+      ],
+      "research_level": "Exploration",
+      "claim_type": "Photometric candidate analysis",
+      "provenance": [
+        "UNCOVER DR3 SUPER catalog, Zenodo DOI 10.5281/zenodo.11059273",
+        "Upstream MD5 baeb44ce166c920050ceb93220b12e05",
+        "Selection: use_phot=1, flag_eazy=1, 6 <= z_phot < 15"
+      ],
+      "artifacts": [
+        "mast/2026-08-01-uncover-lyman-break-stacks/median_sed_stacks.csv",
+        "mast/2026-08-01-uncover-lyman-break-stacks/dropout_ratio_summary.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "negative blue flux retained",
+          "status": "passed"
+        },
+        {
+          "name": "red-band S/N >= 5",
+          "status": "passed"
+        },
+        {
+          "name": "bootstrap intervals",
+          "status": "passed"
+        }
+      ],
+      "limitations": [
+        "Broad-band stacks cannot identify chemical abundances.",
+        "The colour check reuses photometry that informed z_phot."
+      ],
+      "family": "MAST",
+      "date_display": "01 Aug 2026",
+      "summary": "Do median broad-band flux patterns move to longer wavelengths with candidate redshift?",
+      "sample_size_display": "1,182 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-08-01-uncover-lyman-break-stacks.png",
+      "figures_local": [
+        "data/images/2026-08-01-uncover-lyman-break-stacks.png",
+        "data/images/2026-08-01-uncover-lyman-break-stacks--figure-2.png"
+      ]
+    },
+    {
+      "id": "2026-08-01-uncover-size-redshift",
+      "title": "Do UNCOVER high-z candidates show a change in catalogue size proxy?",
+      "archive": "UNCOVER / MAST",
+      "date": "2026-08-01",
+      "question": "How does the observed flux-radius proxy vary across redshift bins after a simple lens correction?",
+      "sample_size": 1127,
+      "results": [
+        "1,127 candidates pass the flux, radius, and magnification cuts",
+        "Median approximate de-lensed radius proxy = 0.80 kpc"
+      ],
+      "validation": "Bootstrap intervals and five radius-cut choices expose sampling and threshold sensitivity; PSF and shear modelling remain outstanding.",
+      "notebook": "mast/2026-08-01-uncover-size-redshift/notebook.ipynb",
+      "hero": "mast/2026-08-01-uncover-size-redshift/size_proxy_scatter.png",
+      "figures": [
+        "mast/2026-08-01-uncover-size-redshift/size_proxy_scatter.png",
+        "mast/2026-08-01-uncover-size-redshift/size_proxy_binned.png"
+      ],
+      "research_level": "Exploration",
+      "claim_type": "Photometric candidate analysis",
+      "provenance": [
+        "UNCOVER DR3 SUPER catalog, Zenodo DOI 10.5281/zenodo.11059273",
+        "Upstream MD5 baeb44ce166c920050ceb93220b12e05",
+        "Selection: use_phot=1, flag_eazy=1, 6 <= z_phot < 15"
+      ],
+      "artifacts": [
+        "mast/2026-08-01-uncover-size-redshift/size_proxy_by_redshift.csv",
+        "mast/2026-08-01-uncover-size-redshift/size_cut_sensitivity.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "F444W S/N >= 5",
+          "status": "passed"
+        },
+        {
+          "name": "radius and magnification cuts",
+          "status": "passed"
+        },
+        {
+          "name": "cut sensitivity",
+          "status": "passed"
+        }
+      ],
+      "limitations": [
+        "The catalogue flux radius is PSF affected.",
+        "Dividing by sqrt(mu) ignores directional shear and is only a proxy."
+      ],
+      "family": "MAST",
+      "date_display": "01 Aug 2026",
+      "summary": "How does the observed flux-radius proxy vary across redshift bins after a simple lens correction?",
+      "sample_size_display": "1,127 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-08-01-uncover-size-redshift.png",
+      "figures_local": [
+        "data/images/2026-08-01-uncover-size-redshift.png",
+        "data/images/2026-08-01-uncover-size-redshift--figure-2.png"
+      ]
+    },
+    {
+      "id": "2026-08-01-uncover-redshift-interval-calibration",
+      "title": "Are the photometric redshift intervals calibrated?",
+      "archive": "UNCOVER / MAST",
+      "date": "2026-08-01",
+      "question": "How often does DR4.1 zspec fall inside the DR3 central 68 percent interval?",
+      "sample_size": 44,
+      "results": [
+        "Observed central-68% coverage = 31.8% (14/44)",
+        "Wilson 95% interval = 20.0%-46.6%",
+        "Nearest global width scale for 68% coverage = 2.10"
+      ],
+      "validation": "Wilson uncertainty and an interval-width stress curve quantify finite-sample and calibration effects.",
+      "notebook": "mast/2026-08-01-uncover-redshift-interval-calibration/notebook.ipynb",
+      "hero": "mast/2026-08-01-uncover-redshift-interval-calibration/redshift_interval_coverage.png",
+      "figures": [
+        "mast/2026-08-01-uncover-redshift-interval-calibration/redshift_interval_coverage.png",
+        "mast/2026-08-01-uncover-redshift-interval-calibration/redshift_interval_audit.png"
+      ],
+      "research_level": "Spectroscopic audit",
+      "claim_type": "Photometric interval calibration audit",
+      "provenance": [
+        "UNCOVER DR4.1 public release; Price et al. (2025)",
+        "Solid/secure selection: flag_zspec_qual in {2,3}",
+        "Frozen derivative checksums: data/uncover_dr4_spectroscopy/manifest.json"
+      ],
+      "artifacts": [
+        "mast/2026-08-01-uncover-redshift-interval-calibration/coverage_curve.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "interval ordering",
+          "status": "passed"
+        },
+        {
+          "name": "binomial uncertainty",
+          "status": "passed"
+        }
+      ],
+      "limitations": [
+        "Only targeted matches are tested.",
+        "Global interval scaling is diagnostic, not a posterior recalibration."
+      ],
+      "family": "MAST",
+      "date_display": "01 Aug 2026",
+      "summary": "How often does DR4.1 zspec fall inside the DR3 central 68 percent interval?",
+      "sample_size_display": "44 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-08-01-uncover-redshift-interval-calibration.png",
+      "figures_local": [
+        "data/images/2026-08-01-uncover-redshift-interval-calibration.png",
+        "data/images/2026-08-01-uncover-redshift-interval-calibration--figure-2.png"
+      ]
+    },
+    {
+      "id": "2026-08-01-asassn18tb-tess-animation",
+      "title": "A real TESS field movie during a supernova rise",
+      "archive": "MAST / TESS / DES",
+      "date": "2026-08-01",
+      "question": "What can raw TESS cutouts show, and where do simple difference images fail to isolate the supernova?",
+      "sample_size": 1282,
+      "results": [
+        "1282 Sector 1 cadences form 29 half-day movie frames",
+        "The central aperture trace correlates with the public light curve at r=0.985",
+        "Stronger off-target residuals show that the simple movie does not cleanly isolate the supernova",
+        "A directly playable animated GIF is saved"
+      ],
+      "validation": "Fixed display limits, the WCS target marker, and a separately plotted aperture trace distinguish a measured rise from off-target image residuals.",
+      "notebook": "mast/2026-08-01-asassn18tb-tess-animation/notebook.ipynb",
+      "hero": "mast/2026-08-01-asassn18tb-tess-animation/tess_rise_montage.png",
+      "figures": [
+        "mast/2026-08-01-asassn18tb-tess-animation/tess_rise_montage.png",
+        "mast/2026-08-01-asassn18tb-tess-animation/movie_brightness_trace.png"
+      ],
+      "research_level": "Time-domain audit",
+      "claim_type": "Real detector-image diagnostic sequence",
+      "provenance": [
+        "MAST TESSCut SPOC FFI cutouts, Sectors 1 and 2",
+        "MIT TESS Transients cleaned light curve for SN 2018fhw",
+        "DES DR2 g/r/i HiPS FITS cutouts via CDS"
+      ],
+      "artifacts": [
+        "mast/2026-08-01-asassn18tb-tess-animation/movie_frame_brightness.csv",
+        "mast/2026-08-01-asassn18tb-tess-animation/asassn18tb_tess_rise.gif"
+      ],
+      "quality_checks": [
+        {
+          "name": "quality-zero frame selection",
+          "status": "passed"
+        },
+        {
+          "name": "fixed animation scale",
+          "status": "passed"
+        },
+        {
+          "name": "off-target residual check",
+          "status": "passed"
+        }
+      ],
+      "limitations": [
+        "TESS pixels blend the host and nearby sources.",
+        "The animation covers the Sector 1 rise, not the full decline."
+      ],
+      "family": "MAST",
+      "date_display": "01 Aug 2026",
+      "summary": "What can raw TESS cutouts show, and where do simple difference images fail to isolate the supernova?",
+      "sample_size_display": "1,282 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-08-01-asassn18tb-tess-animation.png",
+      "figures_local": [
+        "data/images/2026-08-01-asassn18tb-tess-animation.png",
+        "data/images/2026-08-01-asassn18tb-tess-animation--figure-2.png"
+      ]
+    },
+    {
+      "id": "2026-07-31-exoplanet-radius-valley",
+      "title": "The exoplanet radius valley",
+      "archive": "NASA Exoplanet Archive",
+      "date": "2026-07-31",
+      "question": "Where is the radius deficit in the current confirmed transiting-planet catalogue?",
+      "sample_size": 2070,
+      "results": [
+        "valley minimum 1.83 Earth radii",
+        "bootstrap 68% interval 1.80\u20131.86 Earth radii",
+        "period\u2013valley log slope -0.13 \u00b1 0.04"
+      ],
+      "validation": "The measured minimum is compared with the published 1.5\u20132.0 Earth-radius valley; catalogue completeness is not modelled.",
+      "notebook": "exoplanet-archive/2026-07-31-exoplanet-radius-valley/notebook.ipynb",
+      "hero": "exoplanet-archive/2026-07-31-exoplanet-radius-valley/radius_valley_period.png",
+      "tags": [
+        "exoplanets",
+        "population",
+        "transits",
+        "radius valley"
+      ],
+      "figures": [
+        "exoplanet-archive/2026-07-31-exoplanet-radius-valley/radius_valley_period.png",
+        "exoplanet-archive/2026-07-31-exoplanet-radius-valley/radius_valley_kde.png"
+      ],
+      "research_level": "Validated",
+      "claim_type": "Catalogue radius-deficit measurement",
+      "provenance": [
+        "NASA Exoplanet Archive confirmed transiting planets query",
+        "2,070 selected planets with radius and period",
+        "saved query table and analysis subset"
+      ],
+      "artifacts": [
+        "exoplanet-archive/2026-07-31-exoplanet-radius-valley/confirmed_transiting_planets.csv",
+        "exoplanet-archive/2026-07-31-exoplanet-radius-valley/radius_valley_sample.csv",
+        "exoplanet-archive/2026-07-31-exoplanet-radius-valley/period_binned_valleys.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "bootstrap minimum interval",
+          "status": "pass"
+        },
+        {
+          "name": "period-binned slope",
+          "status": "pass"
+        },
+        {
+          "name": "survey completeness correction",
+          "status": "not attempted"
+        }
+      ],
+      "limitations": [
+        "confirmed-planet catalogue combines surveys with different selection functions",
+        "planet-radius uncertainties are not propagated per object",
+        "the descriptive KDE minimum is bandwidth dependent"
+      ],
+      "family": "Exoplanets",
+      "date_display": "31 Jul 2026",
+      "summary": "Where is the radius deficit in the current confirmed transiting-planet catalogue?",
+      "sample_size_display": "2,070 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-31-exoplanet-radius-valley.png",
+      "figures_local": [
+        "data/images/2026-07-31-exoplanet-radius-valley.png",
+        "data/images/2026-07-31-exoplanet-radius-valley--figure-2.png"
+      ]
+    },
+    {
+      "id": "2026-07-31-single-vs-multiplanet-systems",
+      "title": "Single versus multi-transiting systems",
+      "archive": "NASA Exoplanet Archive",
+      "date": "2026-07-31",
+      "question": "Do archived planet radii differ with host multiplicity?",
+      "sample_size": 4646,
+      "results": [
+        "median radius contrast -0.62 Earth radii",
+        "bootstrap 95% -0.72 to -0.50",
+        "pre-2023 contrast -0.51 Earth radii"
+      ],
+      "validation": "The contrast is repeated after excluding discoveries later than 2022.",
+      "notebook": "exoplanet-archive/2026-07-31-single-vs-multiplanet-systems/notebook.ipynb",
+      "hero": "exoplanet-archive/2026-07-31-single-vs-multiplanet-systems/single_multi_radius.png",
+      "tags": [
+        "planet architecture",
+        "multiplicity",
+        "transits"
+      ],
+      "family": "Exoplanets",
+      "date_display": "31 Jul 2026",
+      "summary": "Do archived planet radii differ with host multiplicity?",
+      "sample_size_display": "4,646 samples",
+      "dense": true,
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": [],
+      "artifacts": [],
+      "quality_checks": [],
+      "limitations": [],
+      "hero_local": "data/images/2026-07-31-single-vs-multiplanet-systems.png",
+      "figures_local": [
+        "data/images/2026-07-31-single-vs-multiplanet-systems.png"
+      ]
+    },
+    {
+      "id": "2026-07-31-excitation-redshift-selection",
+      "title": "SDSS excitation versus redshift",
+      "archive": "SDSS",
+      "date": "2026-07-31",
+      "question": "Does [O III]/H\u03b2 vary with redshift in the selected sample?",
+      "sample_size": 11952,
+      "results": [
+        "Spearman \u03c1 = -0.126",
+        "p = 8.7e-44",
+        "restricted-range \u03c1 = -0.052"
+      ],
+      "validation": "The rank test is repeated over 0.03<z<0.20.",
+      "notebook": "sdss/2026-07-31-excitation-redshift-selection/notebook.ipynb",
+      "hero": "sdss/2026-07-31-excitation-redshift-selection/excitation_redshift.png",
+      "tags": [
+        "excitation",
+        "redshift",
+        "selection effects"
+      ],
+      "family": "SDSS",
+      "date_display": "31 Jul 2026",
+      "summary": "Does [O III]/H\u03b2 vary with redshift in the selected sample?",
+      "sample_size_display": "11,952 samples",
+      "dense": true,
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": [],
+      "artifacts": [],
+      "quality_checks": [],
+      "limitations": [],
+      "hero_local": "data/images/2026-07-31-excitation-redshift-selection.png",
+      "figures_local": [
+        "data/images/2026-07-31-excitation-redshift-selection.png"
+      ]
+    },
+    {
+      "id": "2026-07-31-n2-metallicity-proxy",
+      "title": "SDSS N2 metallicity proxy",
+      "archive": "SDSS",
+      "date": "2026-07-31",
+      "question": "What oxygen abundance does N2 imply on the star-forming branch?",
+      "sample_size": 8722,
+      "results": [
+        "median 12+log(O/H) = 8.609",
+        "bootstrap 68% 8.608\u20138.610",
+        "S/N\u22658 shift -0.028 dex"
+      ],
+      "validation": "The abundance median is repeated at S/N\u22658 for all four lines.",
+      "notebook": "sdss/2026-07-31-n2-metallicity-proxy/notebook.ipynb",
+      "hero": "sdss/2026-07-31-n2-metallicity-proxy/n2_metallicity_distribution.png",
+      "tags": [
+        "metallicity",
+        "N2",
+        "star-forming galaxies"
+      ],
+      "family": "SDSS",
+      "date_display": "31 Jul 2026",
+      "summary": "What oxygen abundance does N2 imply on the star-forming branch?",
+      "sample_size_display": "8,722 samples",
+      "dense": true,
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": [],
+      "artifacts": [],
+      "quality_checks": [],
+      "limitations": [],
+      "hero_local": "data/images/2026-07-31-n2-metallicity-proxy.png",
+      "figures_local": [
+        "data/images/2026-07-31-n2-metallicity-proxy.png"
+      ]
+    },
+    {
+      "id": "2026-07-31-balmer-decrement-dust",
+      "title": "SDSS Balmer-decrement dust indicator",
+      "archive": "SDSS",
+      "date": "2026-07-31",
+      "question": "What colour excess is implied by H\u03b1/H\u03b2?",
+      "sample_size": 11898,
+      "results": [
+        "median E(B\u2212V) 0.327 mag",
+        "bootstrap 68% 0.325\u20130.329 mag",
+        "S/N\u22658 median 0.297 mag"
+      ],
+      "validation": "The median is repeated with every emission line required at S/N\u22658.",
+      "notebook": "sdss/2026-07-31-balmer-decrement-dust/notebook.ipynb",
+      "hero": "sdss/2026-07-31-balmer-decrement-dust/balmer_decrement_dust.png",
+      "tags": [
+        "Balmer decrement",
+        "dust",
+        "emission lines"
+      ],
+      "family": "SDSS",
+      "date_display": "31 Jul 2026",
+      "summary": "What colour excess is implied by H\u03b1/H\u03b2?",
+      "sample_size_display": "11,898 samples",
+      "dense": true,
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": [],
+      "artifacts": [],
+      "quality_checks": [],
+      "limitations": [],
+      "hero_local": "data/images/2026-07-31-balmer-decrement-dust.png",
+      "figures_local": [
+        "data/images/2026-07-31-balmer-decrement-dust.png"
+      ]
+    },
+    {
+      "id": "2026-07-31-sdss-bpt-galaxy-classification",
+      "title": "SDSS BPT galaxy classification",
+      "archive": "SDSS DR18",
+      "date": "2026-07-31",
+      "question": "How are high-S/N low-redshift fibre spectra divided among ionisation classes?",
+      "sample_size": 12000,
+      "results": [
+        "73.1% star forming",
+        "17.3% composite",
+        "9.6% AGN within the four-line-selected sample"
+      ],
+      "validation": "Class boundaries reproduce the published Kauffmann (2003) and Kewley (2001) demarcations.",
+      "notebook": "sdss/2026-07-31-sdss-bpt-galaxy-classification/notebook.ipynb",
+      "hero": "sdss/2026-07-31-sdss-bpt-galaxy-classification/sdss_bpt_diagram.png",
+      "tags": [
+        "galaxies",
+        "spectroscopy",
+        "AGN",
+        "emission lines"
+      ],
+      "family": "SDSS",
+      "date_display": "31 Jul 2026",
+      "summary": "How are high-S/N low-redshift fibre spectra divided among ionisation classes?",
+      "sample_size_display": "12,000 samples",
+      "dense": true,
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": [],
+      "artifacts": [],
+      "quality_checks": [],
+      "limitations": [],
+      "hero_local": "data/images/2026-07-31-sdss-bpt-galaxy-classification.png",
+      "figures_local": [
+        "data/images/2026-07-31-sdss-bpt-galaxy-classification.png"
+      ]
+    },
+    {
+      "id": "2026-07-31-pleiades-proper-motion-dispersion",
+      "title": "Pleiades proper-motion dispersion",
+      "archive": "Gaia DR3",
+      "date": "2026-07-31",
+      "question": "What scatter remains after formal-error subtraction?",
+      "sample_size": 609,
+      "results": [
+        "deconvolved \u03c3RA 1.002 mas/yr",
+        "deconvolved \u03c3Dec 1.147 mas/yr",
+        "velocity equivalents 0.645, 0.739 km/s"
+      ],
+      "validation": "The calculation is repeated for G<15 members.",
+      "notebook": "gaia/2026-07-31-pleiades-proper-motion-dispersion/notebook.ipynb",
+      "hero": "gaia/2026-07-31-pleiades-proper-motion-dispersion/pleiades_pm_dispersion.png",
+      "tags": [
+        "Pleiades",
+        "proper motion",
+        "kinematics"
+      ],
+      "family": "Gaia",
+      "date_display": "31 Jul 2026",
+      "summary": "What scatter remains after formal-error subtraction?",
+      "sample_size_display": "609 samples",
+      "dense": true,
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": [],
+      "artifacts": [],
+      "quality_checks": [],
+      "limitations": [],
+      "hero_local": "data/images/2026-07-31-pleiades-proper-motion-dispersion.png",
+      "figures_local": [
+        "data/images/2026-07-31-pleiades-proper-motion-dispersion.png"
+      ]
+    },
+    {
+      "id": "2026-07-31-pleiades-mass-segregation-proxy",
+      "title": "Pleiades mass-segregation proxy",
+      "archive": "Gaia DR3",
+      "date": "2026-07-31",
+      "question": "Are brighter members more centrally concentrated?",
+      "sample_size": 609,
+      "results": [
+        "faint-minus-bright median radius -0.008\u00b0",
+        "permutation p = 0.6187",
+        "fixed G=15 contrast 0.001\u00b0"
+      ],
+      "validation": "The brightness division is changed from the sample median to G=15.",
+      "notebook": "gaia/2026-07-31-pleiades-mass-segregation-proxy/notebook.ipynb",
+      "hero": "gaia/2026-07-31-pleiades-mass-segregation-proxy/pleiades_mass_segregation.png",
+      "tags": [
+        "Pleiades",
+        "mass segregation",
+        "spatial distribution"
+      ],
+      "family": "Gaia",
+      "date_display": "31 Jul 2026",
+      "summary": "Are brighter members more centrally concentrated?",
+      "sample_size_display": "609 samples",
+      "dense": true,
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": [],
+      "artifacts": [],
+      "quality_checks": [],
+      "limitations": [],
+      "hero_local": "data/images/2026-07-31-pleiades-mass-segregation-proxy.png",
+      "figures_local": [
+        "data/images/2026-07-31-pleiades-mass-segregation-proxy.png"
+      ]
+    },
+    {
+      "id": "2026-07-31-pleiades-line-of-sight-depth",
+      "title": "Pleiades line-of-sight depth proxy",
+      "archive": "Gaia DR3",
+      "date": "2026-07-31",
+      "question": "Is the parallax width larger than formal errors?",
+      "sample_size": 609,
+      "results": [
+        "residual parallax width 0.1174 mas",
+        "depth proxy 2.16 pc",
+        "bootstrap 68% 2.01\u20132.32 pc"
+      ],
+      "validation": "The variance subtraction is repeated for G<15 stars.",
+      "notebook": "gaia/2026-07-31-pleiades-line-of-sight-depth/notebook.ipynb",
+      "hero": "gaia/2026-07-31-pleiades-line-of-sight-depth/pleiades_depth.png",
+      "tags": [
+        "Pleiades",
+        "parallax",
+        "cluster depth"
+      ],
+      "family": "Gaia",
+      "date_display": "31 Jul 2026",
+      "summary": "Is the parallax width larger than formal errors?",
+      "sample_size_display": "609 samples",
+      "dense": true,
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": [],
+      "artifacts": [],
+      "quality_checks": [],
+      "limitations": [],
+      "hero_local": "data/images/2026-07-31-pleiades-line-of-sight-depth.png",
+      "figures_local": [
+        "data/images/2026-07-31-pleiades-line-of-sight-depth.png"
+      ]
+    },
+    {
+      "id": "2026-07-31-pleiades-cmd-ruwe-binaries",
+      "title": "Pleiades CMD outliers and RUWE",
+      "archive": "Gaia DR3",
+      "date": "2026-07-31",
+      "question": "Do over-luminous candidates have elevated RUWE more often?",
+      "sample_size": 466,
+      "results": [
+        "RUWE>1.2 odds ratio 4.05",
+        "Fisher-test p = 0.00632",
+        "RUWE>1.1 odds ratio 5.58"
+      ],
+      "validation": "The contingency test is repeated at RUWE thresholds 1.2 and 1.1.",
+      "notebook": "gaia/2026-07-31-pleiades-cmd-ruwe-binaries/notebook.ipynb",
+      "hero": "gaia/2026-07-31-pleiades-cmd-ruwe-binaries/pleiades_cmd_ruwe.png",
+      "tags": [
+        "Pleiades",
+        "RUWE",
+        "binary candidates"
+      ],
+      "family": "Gaia",
+      "date_display": "31 Jul 2026",
+      "summary": "Do over-luminous candidates have elevated RUWE more often?",
+      "sample_size_display": "466 samples",
+      "dense": true,
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": [],
+      "artifacts": [],
+      "quality_checks": [],
+      "limitations": [],
+      "hero_local": "data/images/2026-07-31-pleiades-cmd-ruwe-binaries.png",
+      "figures_local": [
+        "data/images/2026-07-31-pleiades-cmd-ruwe-binaries.png"
+      ]
+    },
+    {
+      "id": "2026-07-31-hst-m87-image-morphology",
+      "title": "M87 morphology in an HST preview",
+      "archive": "MAST \u00b7 HST",
+      "date": "2026-07-31",
+      "question": "What morphology proxies are measured from the preserved preview?",
+      "sample_size": 8706420,
+      "results": [
+        "axis ratio 0.664",
+        "half-light radius 882.3 display pixels",
+        "threshold-test radius range 826.5\u2013899.4 px"
+      ],
+      "validation": "Moments are recomputed at four background percentiles.",
+      "notebook": "mast/2026-07-31-hst-m87-image-morphology/notebook.ipynb",
+      "hero": "mast/2026-07-31-hst-m87-image-morphology/m87_preview_morphology.png",
+      "tags": [
+        "HST",
+        "M87",
+        "image morphology",
+        "display image"
+      ],
+      "figures": [
+        "mast/2026-07-31-hst-m87-image-morphology/m87_preview_morphology.png",
+        "mast/2026-07-31-hst-m87-image-morphology/m87_morphology_threshold_stress.png"
+      ],
+      "research_level": "Exploration",
+      "claim_type": "Display-image morphology audit",
+      "provenance": [
+        "official HST processed preview saved as m87.jpg",
+        "8,706,420 display pixels",
+        "thresholded intensity moments"
+      ],
+      "artifacts": [
+        "mast/2026-07-31-hst-m87-image-morphology/m87_morphology_threshold_stress.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "background-threshold sweep",
+          "status": "pass"
+        },
+        {
+          "name": "image-boundary completeness",
+          "status": "fail"
+        },
+        {
+          "name": "calibrated photometry claim",
+          "status": "rejected"
+        }
+      ],
+      "limitations": [
+        "M87 reaches the preview boundary",
+        "display pixels have unknown photometric transfer",
+        "no PSF, exposure map, filter calibration, or sky model is applied"
+      ],
+      "family": "MAST",
+      "date_display": "31 Jul 2026",
+      "summary": "What morphology proxies are measured from the preserved preview?",
+      "sample_size_display": "8,706,420 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-31-hst-m87-image-morphology.png",
+      "figures_local": [
+        "data/images/2026-07-31-hst-m87-image-morphology.png",
+        "data/images/2026-07-31-hst-m87-image-morphology--figure-2.png"
+      ]
+    },
+    {
+      "id": "2026-07-31-hot-jupiter-tidal-circularisation",
+      "title": "Hot-Jupiter tidal circularisation",
+      "archive": "NASA Exoplanet Archive",
+      "date": "2026-07-31",
+      "question": "Are short-period giant planets more circular than longer-period giants?",
+      "sample_size": 944,
+      "results": [
+        "median e=0.000 below 5 d versus 0.120 at 10\u2013100 d",
+        "median contrast 0.120 (bootstrap 95%: 0.088\u20130.149)",
+        "e>0.1 fractions 17.3% versus 55.3%"
+      ],
+      "validation": "The direction of the period\u2013eccentricity contrast matches the standard tidal-circularisation expectation.",
+      "notebook": "exoplanet-archive/2026-07-31-hot-jupiter-tidal-circularisation/notebook.ipynb",
+      "hero": "exoplanet-archive/2026-07-31-hot-jupiter-tidal-circularisation/giant_eccentricity_period.png",
+      "tags": [
+        "exoplanets",
+        "dynamics",
+        "tides",
+        "hot Jupiters"
+      ],
+      "family": "Exoplanets",
+      "date_display": "31 Jul 2026",
+      "summary": "Are short-period giant planets more circular than longer-period giants?",
+      "sample_size_display": "944 samples",
+      "dense": true,
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": [],
+      "artifacts": [],
+      "quality_checks": [],
+      "limitations": [],
+      "hero_local": "data/images/2026-07-31-hot-jupiter-tidal-circularisation.png",
+      "figures_local": [
+        "data/images/2026-07-31-hot-jupiter-tidal-circularisation.png"
+      ]
+    },
+    {
+      "id": "2026-07-31-hot-jupiter-radius-inflation",
+      "title": "Hot-Jupiter radius inflation",
+      "archive": "NASA Exoplanet Archive",
+      "date": "2026-07-31",
+      "question": "Are close-in giants larger around hotter stars?",
+      "sample_size": 698,
+      "results": [
+        "Spearman \u03c1 = 0.558",
+        "bootstrap 68% interval 0.528\u20130.584",
+        "mass-restricted \u03c1 = 0.617 (N=529)"
+      ],
+      "validation": "The correlation is repeated for 0.3\u20133 Jupiter-mass planets.",
+      "notebook": "exoplanet-archive/2026-07-31-hot-jupiter-radius-inflation/notebook.ipynb",
+      "hero": "exoplanet-archive/2026-07-31-hot-jupiter-radius-inflation/hot_jupiter_inflation.png",
+      "tags": [
+        "hot Jupiters",
+        "radius inflation",
+        "rank correlation"
+      ],
+      "family": "Exoplanets",
+      "date_display": "31 Jul 2026",
+      "summary": "Are close-in giants larger around hotter stars?",
+      "sample_size_display": "698 samples",
+      "dense": true,
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": [],
+      "artifacts": [],
+      "quality_checks": [],
+      "limitations": [],
+      "hero_local": "data/images/2026-07-31-hot-jupiter-radius-inflation.png",
+      "figures_local": [
+        "data/images/2026-07-31-hot-jupiter-radius-inflation.png"
+      ]
+    },
+    {
+      "id": "2026-07-31-hst-stis-continuum-slope",
+      "title": "HST/STIS continuum slope of HD 93521",
+      "archive": "MAST \u00b7 HST",
+      "date": "2026-07-31",
+      "question": "What power law describes the optical continuum?",
+      "sample_size": 524,
+      "results": [
+        "F\u03bb exponent -3.716",
+        "bootstrap 68% -3.727\u2013-3.697",
+        "20\u201350 \u00c5 masks give -3.715 to -3.716"
+      ],
+      "validation": "Strong-line mask widths of 20, 35, and 50 \u00c5 are compared.",
+      "notebook": "mast/2026-07-31-hst-stis-continuum-slope/notebook.ipynb",
+      "hero": "mast/2026-07-31-hst-stis-continuum-slope/hd93521_continuum_slope.png",
+      "tags": [
+        "HST",
+        "STIS",
+        "continuum"
+      ],
+      "figures": [
+        "mast/2026-07-31-hst-stis-continuum-slope/hd93521_continuum_slope.png",
+        "mast/2026-07-31-hst-stis-continuum-slope/hd93521_continuum_robustness.png"
+      ],
+      "research_level": "Validated",
+      "claim_type": "Empirical continuum-slope measurement",
+      "provenance": [
+        "MAST HST/STIS o49x13010_sx1.fits",
+        "pipeline wavelength, flux and error arrays",
+        "five H/He regions masked"
+      ],
+      "artifacts": [
+        "mast/2026-07-31-hst-stis-continuum-slope/continuum_mask_stress.csv",
+        "mast/2026-07-31-hst-stis-continuum-slope/continuum_slope_bootstrap.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "line-mask width sweep",
+          "status": "pass"
+        },
+        {
+          "name": "sampling bootstrap",
+          "status": "pass"
+        },
+        {
+          "name": "physical atmosphere fit",
+          "status": "not attempted"
+        }
+      ],
+      "limitations": [
+        "bootstrap treats retained samples as exchangeable",
+        "flux-calibration covariance and reddening are omitted",
+        "a power law is descriptive over this wavelength range"
+      ],
+      "family": "MAST",
+      "date_display": "31 Jul 2026",
+      "summary": "What power law describes the optical continuum?",
+      "sample_size_display": "524 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-31-hst-stis-continuum-slope.png",
+      "figures_local": [
+        "data/images/2026-07-31-hst-stis-continuum-slope.png",
+        "data/images/2026-07-31-hst-stis-continuum-slope--figure-2.png"
+      ]
+    },
+    {
+      "id": "2026-07-31-hst-stis-hd93521-line-inventory",
+      "title": "HST/STIS chemical-line inventory of HD 93521",
+      "archive": "MAST \u00b7 HST",
+      "date": "2026-07-31",
+      "question": "Which hydrogen and helium lines are measurable in a calibrated HST spectrum?",
+      "sample_size": 567,
+      "results": [
+        "5 of 5 expected H/He features fitted",
+        "median spectrum S/N 637.9 per usable pixel",
+        "H\u03b1 equivalent width 1.48 \u00c5"
+      ],
+      "validation": "Line centres are checked against laboratory wavelengths; interpretation is limited to identification and equivalent width.",
+      "notebook": "mast/2026-07-31-hst-stis-hd93521-line-inventory/notebook.ipynb",
+      "hero": "mast/2026-07-31-hst-stis-hd93521-line-inventory/hd93521_normalised_spectrum.png",
+      "tags": [
+        "spectrum",
+        "HST",
+        "STIS",
+        "chemistry"
+      ],
+      "figures": [
+        "mast/2026-07-31-hst-stis-hd93521-line-inventory/hd93521_normalised_spectrum.png",
+        "mast/2026-07-31-hst-stis-hd93521-line-inventory/hd93521_line_fits.png"
+      ],
+      "research_level": "Validated",
+      "claim_type": "Spectral-feature inventory",
+      "provenance": [
+        "MAST HST/STIS o49x13010_sx1.fits",
+        "pipeline wavelength, flux and error arrays",
+        "laboratory H/He wavelengths"
+      ],
+      "artifacts": [
+        "mast/2026-07-31-hst-stis-hd93521-line-inventory/spectrum_subset.csv",
+        "mast/2026-07-31-hst-stis-hd93521-line-inventory/line_measurements.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "five laboratory-centre checks",
+          "status": "pass"
+        },
+        {
+          "name": "local continuum fits",
+          "status": "pass"
+        },
+        {
+          "name": "chemical abundance inference",
+          "status": "not attempted"
+        }
+      ],
+      "limitations": [
+        "broad blends and rapid rotation complicate centroids",
+        "single-epoch features can be variable",
+        "line identification alone is not an abundance analysis"
+      ],
+      "family": "MAST",
+      "date_display": "31 Jul 2026",
+      "summary": "Which hydrogen and helium lines are measurable in a calibrated HST spectrum?",
+      "sample_size_display": "567 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-31-hst-stis-hd93521-line-inventory.png",
+      "figures_local": [
+        "data/images/2026-07-31-hst-stis-hd93521-line-inventory.png",
+        "data/images/2026-07-31-hst-stis-hd93521-line-inventory--figure-2.png"
+      ]
+    },
+    {
+      "id": "2026-07-31-hst-halpha-equivalent-width-systematics",
+      "title": "HST H\u03b1 equivalent-width systematics",
+      "archive": "MAST \u00b7 HST",
+      "date": "2026-07-31",
+      "question": "How stable is H\u03b1 equivalent width to continuum choices?",
+      "sample_size": 567,
+      "results": [
+        "grid median EW 1.848 \u00c5",
+        "method spread 1.895 \u00c5",
+        "spread/reference 102.5%"
+      ],
+      "validation": "Five integration widths and two continuum orders are compared.",
+      "notebook": "mast/2026-07-31-hst-halpha-equivalent-width-systematics/notebook.ipynb",
+      "hero": "mast/2026-07-31-hst-halpha-equivalent-width-systematics/halpha_ew_systematics.png",
+      "tags": [
+        "HST",
+        "H-alpha",
+        "equivalent width",
+        "systematics"
+      ],
+      "figures": [
+        "mast/2026-07-31-hst-halpha-equivalent-width-systematics/halpha_ew_systematics.png",
+        "mast/2026-07-31-hst-halpha-equivalent-width-systematics/halpha_ew_noise_vs_method.png"
+      ],
+      "research_level": "Validated",
+      "claim_type": "Equivalent-width robustness audit",
+      "provenance": [
+        "MAST HST/STIS o49x13010_sx1.fits",
+        "pipeline wavelength, flux and error arrays",
+        "HD 93521 target identity"
+      ],
+      "artifacts": [
+        "mast/2026-07-31-hst-halpha-equivalent-width-systematics/halpha_ew_method_grid.csv",
+        "mast/2026-07-31-hst-halpha-equivalent-width-systematics/halpha_ew_noise_bootstrap.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "continuum and integration grid",
+          "status": "pass"
+        },
+        {
+          "name": "flux-error propagation",
+          "status": "pass"
+        },
+        {
+          "name": "atmosphere or wind inference",
+          "status": "not attempted"
+        }
+      ],
+      "limitations": [
+        "continuum placement dominates the formal flux error",
+        "broad and variable line structure is not modelled",
+        "instrumental and stellar systematics are not captured by independent-pixel resampling"
+      ],
+      "family": "MAST",
+      "date_display": "31 Jul 2026",
+      "summary": "How stable is H\u03b1 equivalent width to continuum choices?",
+      "sample_size_display": "567 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-31-hst-halpha-equivalent-width-systematics.png",
+      "figures_local": [
+        "data/images/2026-07-31-hst-halpha-equivalent-width-systematics.png",
+        "data/images/2026-07-31-hst-halpha-equivalent-width-systematics--figure-2.png"
+      ]
+    },
+    {
+      "id": "2026-07-31-gaia-pleiades-membership-distance",
+      "title": "Gaia DR3 Pleiades membership and distance",
+      "archive": "Gaia DR3",
+      "date": "2026-07-31",
+      "question": "Can astrometry isolate the Pleiades and recover its distance?",
+      "sample_size": 704,
+      "results": [
+        "609 kinematic candidates from 704 quality-filtered sources",
+        "weighted parallax 7.374 mas",
+        "distance 135.6 pc (bootstrap 68%: 135.5\u2013135.8 pc)"
+      ],
+      "validation": "Distance differs by -0.4% from the 136.2 pc comparison value; systematic Gaia terms are not included.",
+      "notebook": "gaia/2026-07-31-gaia-pleiades-membership-distance/notebook.ipynb",
+      "hero": "gaia/2026-07-31-gaia-pleiades-membership-distance/pleiades_proper_motion.png",
+      "tags": [
+        "astrometry",
+        "cluster",
+        "distance",
+        "Gaia"
+      ],
+      "family": "Gaia",
+      "date_display": "31 Jul 2026",
+      "summary": "Can astrometry isolate the Pleiades and recover its distance?",
+      "sample_size_display": "704 samples",
+      "dense": true,
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": [],
+      "artifacts": [],
+      "quality_checks": [],
+      "limitations": [],
+      "hero_local": "data/images/2026-07-31-gaia-pleiades-membership-distance.png",
+      "figures_local": [
+        "data/images/2026-07-31-gaia-pleiades-membership-distance.png"
+      ]
+    },
+    {
+      "id": "2026-07-31-exoplanet-discovery-method-timeline",
+      "title": "Exoplanet discovery methods through time",
+      "archive": "NASA Exoplanet Archive",
+      "date": "2026-07-31",
+      "question": "How has the discovery-method mix changed?",
+      "sample_size": 5233,
+      "results": [
+        "5,233 unique planets with method and year",
+        "Transit contributes 72.4% of 2021\u201326 entries",
+        "same leading method with a 2019 boundary: True"
+      ],
+      "validation": "The leading method is re-evaluated after shifting the recent-era boundary by two years.",
+      "notebook": "exoplanet-archive/2026-07-31-exoplanet-discovery-method-timeline/notebook.ipynb",
+      "hero": "exoplanet-archive/2026-07-31-exoplanet-discovery-method-timeline/discovery_method_timeline.png",
+      "tags": [
+        "exoplanets",
+        "discovery history",
+        "selection effects"
+      ],
+      "family": "Exoplanets",
+      "date_display": "31 Jul 2026",
+      "summary": "How has the discovery-method mix changed?",
+      "sample_size_display": "5,233 samples",
+      "dense": true,
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": [],
+      "artifacts": [],
+      "quality_checks": [],
+      "limitations": [],
+      "hero_local": "data/images/2026-07-31-exoplanet-discovery-method-timeline.png",
+      "figures_local": [
+        "data/images/2026-07-31-exoplanet-discovery-method-timeline.png"
+      ]
+    },
+    {
+      "id": "2026-07-31-eccentricity-discovery-bias",
+      "title": "Eccentricity and discovery bias",
+      "archive": "NASA Exoplanet Archive",
+      "date": "2026-07-31",
+      "question": "Do discovery methods share an eccentricity distribution?",
+      "sample_size": 5146,
+      "results": [
+        "Kruskal\u2013Wallis p = <1e-300",
+        "highest median: Radial Velocity (0.155)",
+        "lowest median: Transit (0.000)"
+      ],
+      "validation": "Method medians are recomputed using only eccentricities with quoted error below 0.1.",
+      "notebook": "exoplanet-archive/2026-07-31-eccentricity-discovery-bias/notebook.ipynb",
+      "hero": "exoplanet-archive/2026-07-31-eccentricity-discovery-bias/eccentricity_by_method.png",
+      "tags": [
+        "eccentricity",
+        "selection bias",
+        "discovery method"
+      ],
+      "family": "Exoplanets",
+      "date_display": "31 Jul 2026",
+      "summary": "Do discovery methods share an eccentricity distribution?",
+      "sample_size_display": "5,146 samples",
+      "dense": true,
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": [],
+      "artifacts": [],
+      "quality_checks": [],
+      "limitations": [],
+      "hero_local": "data/images/2026-07-31-eccentricity-discovery-bias.png",
+      "figures_local": [
+        "data/images/2026-07-31-eccentricity-discovery-bias.png"
+      ]
+    },
+    {
+      "id": "2026-07-31-bpt-snr-sensitivity",
+      "title": "BPT sensitivity to line quality",
+      "archive": "SDSS",
+      "date": "2026-07-31",
+      "question": "How do class fractions move with emission-line S/N?",
+      "sample_size": 11950,
+      "results": [
+        "AGN-fraction shift S/N 3\u219210: -0.5%",
+        "S/N\u226510 retains 6,225 galaxies",
+        "four thresholds tested: 3, 5, 8, 10"
+      ],
+      "validation": "Class fractions are recomputed at four complete four-line thresholds.",
+      "notebook": "sdss/2026-07-31-bpt-snr-sensitivity/notebook.ipynb",
+      "hero": "sdss/2026-07-31-bpt-snr-sensitivity/bpt_snr_sensitivity.png",
+      "tags": [
+        "BPT",
+        "quality control",
+        "selection effects"
+      ],
+      "family": "SDSS",
+      "date_display": "31 Jul 2026",
+      "summary": "How do class fractions move with emission-line S/N?",
+      "sample_size_display": "11,950 samples",
+      "dense": true,
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": [],
+      "artifacts": [],
+      "quality_checks": [],
+      "limitations": [],
+      "hero_local": "data/images/2026-07-31-bpt-snr-sensitivity.png",
+      "figures_local": [
+        "data/images/2026-07-31-bpt-snr-sensitivity.png"
+      ]
+    },
+    {
+      "id": "2026-07-30-wide-binary-search-alpha-cen",
+      "title": "Why the Alpha Centauri Gaia cone search returned zero",
+      "archive": "Gaia DR3 + SIMBAD geometry",
+      "date": "2026-07-30",
+      "question": "Was the original zero-row result a companion constraint or a query-geometry/completeness result?",
+      "sample_size": 0,
+      "results": [
+        "original 2\u00b0 Gaia DR3 cone with parallax >50 mas returned zero rows",
+        "Proxima lies 2.21\u00b0 from the chosen centre and is outside that cone",
+        "the zero rows therefore do not constrain wide companions"
+      ],
+      "validation": "Search radius is swept through the geometric inclusion boundary and compared with independent SIMBAD astrometry.",
+      "notebook": "gaia/2026-07-30-wide-binary-search-alpha-cen/notebook.ipynb",
+      "hero": "gaia/2026-07-30-wide-binary-search-alpha-cen/alpha_cen_query_geometry.png",
+      "figures": [
+        "gaia/2026-07-30-wide-binary-search-alpha-cen/alpha_cen_query_geometry.png",
+        "gaia/2026-07-30-wide-binary-search-alpha-cen/alpha_cen_completeness_context.png"
+      ],
+      "research_level": "Validated",
+      "claim_type": "Negative query audit",
+      "provenance": [
+        "Original Gaia DR3 query and zero-row output",
+        "SIMBAD coordinates and proper motion for Proxima Centauri",
+        "Gaia bright/high-proper-motion completeness context"
+      ],
+      "artifacts": [
+        "gaia/2026-07-30-wide-binary-search-alpha-cen/alpha_cen_radius_geometry.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "Original zero result retained",
+          "status": "pass"
+        },
+        {
+          "name": "Cone geometry recomputed",
+          "status": "pass"
+        },
+        {
+          "name": "Companion completeness claim",
+          "status": "rejected"
+        }
+      ],
+      "limitations": [
+        "cone centre was approximate",
+        "Alpha Centauri A/B are exceptionally bright",
+        "geometry alone does not establish Gaia catalogue inclusion"
+      ],
+      "tags": [
+        "Gaia",
+        "Alpha Centauri",
+        "null result",
+        "query audit"
+      ],
+      "family": "Gaia",
+      "date_display": "30 Jul 2026",
+      "summary": "Was the original zero-row result a companion constraint or a query-geometry/completeness result?",
+      "sample_size_display": "0 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-30-wide-binary-search-alpha-cen.png",
+      "figures_local": [
+        "data/images/2026-07-30-wide-binary-search-alpha-cen.png",
+        "data/images/2026-07-30-wide-binary-search-alpha-cen--figure-2.png"
+      ]
+    },
+    {
+      "id": "2026-07-30-parallax-distance-vega",
+      "title": "Vega parallax source audit",
+      "archive": "Gaia DR3 + Hipparcos",
+      "date": "2026-07-30",
+      "question": "Did the positional cone search return the named bright star?",
+      "sample_size": 2,
+      "results": [
+        "source-checked distance 7.679 \u00b1 0.021 pc",
+        "25.04 light-years",
+        "cone-row distance ratio 84.5\u00d7"
+      ],
+      "validation": "The cone-search row is compared with the named Hipparcos identifier and expected brightness.",
+      "notebook": "gaia/2026-07-30-parallax-distance-vega/notebook.ipynb",
+      "hero": "gaia/2026-07-30-parallax-distance-vega/vega_parallax_audit.png",
+      "tags": [
+        "Vega",
+        "parallax",
+        "source identity",
+        "quality control"
+      ],
+      "family": "Gaia",
+      "date_display": "30 Jul 2026",
+      "summary": "Did the positional cone search return the named bright star?",
+      "sample_size_display": "2 samples",
+      "dense": true,
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": [],
+      "artifacts": [],
+      "quality_checks": [],
+      "limitations": [],
+      "hero_local": "data/images/2026-07-30-parallax-distance-vega.png",
+      "figures_local": [
+        "data/images/2026-07-30-parallax-distance-vega.png"
+      ]
+    },
+    {
+      "id": "2026-07-30-habitable-zone-trappist1",
+      "title": "TRAPPIST-1 luminosity-scaled habitable-zone check",
+      "archive": "NASA Exoplanet Archive",
+      "date": "2026-07-30",
+      "question": "Which planets fall inside this transparent luminosity-only estimate?",
+      "sample_size": 7,
+      "results": [
+        "simple zone 0.0224\u20130.0323 AU",
+        "planet e is the only selected planet in this approximation",
+        "selection unchanged for \u00b110% luminosity: False"
+      ],
+      "validation": "The zone is recomputed after changing stellar luminosity by \u00b110%.",
+      "notebook": "exoplanet-archive/2026-07-30-habitable-zone-trappist1/notebook.ipynb",
+      "hero": "exoplanet-archive/2026-07-30-habitable-zone-trappist1/trappist1_habitable_zone.png",
+      "tags": [
+        "TRAPPIST-1",
+        "habitable zone",
+        "model limits"
+      ],
+      "family": "Exoplanets",
+      "date_display": "30 Jul 2026",
+      "summary": "Which planets fall inside this transparent luminosity-only estimate?",
+      "sample_size_display": "7 samples",
+      "dense": true,
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": [],
+      "artifacts": [],
+      "quality_checks": [],
+      "limitations": [],
+      "hero_local": "data/images/2026-07-30-habitable-zone-trappist1.png",
+      "figures_local": [
+        "data/images/2026-07-30-habitable-zone-trappist1.png"
+      ]
+    },
+    {
+      "id": "2026-07-30-tess-lightcurve-toi700",
+      "title": "TOI-700 d: multi-sector transit coverage audit",
+      "archive": "MAST \u00b7 TESS",
+      "date": "2026-07-30",
+      "question": "Does a simple multi-sector audit significantly recover the 37.426-day transit?",
+      "sample_size": 7715,
+      "results": [
+        "no significant transit recovered by this simple audit",
+        "box depth 66 ppm; 95% interval -136\u2013268 ppm",
+        "baseline scatter 1668 ppm"
+      ],
+      "validation": "The depth is bootstrapped and repeated across twelve transit/baseline choices.",
+      "notebook": "mast/2026-07-30-tess-lightcurve-toi700/notebook.ipynb",
+      "hero": "mast/2026-07-30-tess-lightcurve-toi700/toi700_transit_audit.png",
+      "figures": [
+        "mast/2026-07-30-tess-lightcurve-toi700/toi700_transit_audit.png",
+        "mast/2026-07-30-tess-lightcurve-toi700/toi700_depth_sensitivity.png"
+      ],
+      "research_level": "Exploration",
+      "claim_type": "Null / method-sensitive",
+      "provenance": [
+        "MAST product TESS SPOC sectors 27, 28, 30, 31, 33\u201336",
+        "quality flag = 0",
+        "PDCSAP flux"
+      ],
+      "artifacts": [
+        "mast/2026-07-30-tess-lightcurve-toi700/toi700_multisector_pdcsap.csv",
+        "mast/2026-07-30-tess-lightcurve-toi700/toi700_fit_summary.csv",
+        "mast/2026-07-30-tess-lightcurve-toi700/toi700_model_sensitivity.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "Archive product",
+          "status": "pass"
+        },
+        {
+          "name": "Quality flags",
+          "status": "pass"
+        },
+        {
+          "name": "Bootstrap interval",
+          "status": "pass"
+        },
+        {
+          "name": "Model sensitivity",
+          "status": "caution"
+        }
+      ],
+      "limitations": [
+        "simple box model",
+        "correlated noise not fully modelled",
+        "published ephemeris assumed"
+      ],
+      "tags": [
+        "transit",
+        "light curve",
+        "uncertainty"
+      ],
+      "family": "MAST",
+      "date_display": "30 Jul 2026",
+      "summary": "Does a simple multi-sector audit significantly recover the 37.426-day transit?",
+      "sample_size_display": "7,715 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-30-tess-lightcurve-toi700.png",
+      "figures_local": [
+        "data/images/2026-07-30-tess-lightcurve-toi700.png",
+        "data/images/2026-07-30-tess-lightcurve-toi700--figure-2.png"
+      ]
+    },
+    {
+      "id": "2026-07-30-parallax-distance-sirius",
+      "title": "Sirius parallax source audit",
+      "archive": "Gaia DR3 + Hipparcos",
+      "date": "2026-07-30",
+      "question": "Did the positional cone search return the named bright star?",
+      "sample_size": 2,
+      "results": [
+        "source-checked distance 2.637 \u00b1 0.011 pc",
+        "8.60 light-years",
+        "cone-row distance ratio 1.0\u00d7"
+      ],
+      "validation": "The cone-search row is compared with the named Hipparcos identifier and expected brightness.",
+      "notebook": "gaia/2026-07-30-parallax-distance-sirius/notebook.ipynb",
+      "hero": "gaia/2026-07-30-parallax-distance-sirius/sirius_parallax_audit.png",
+      "tags": [
+        "Sirius",
+        "parallax",
+        "source identity",
+        "quality control"
+      ],
+      "family": "Gaia",
+      "date_display": "30 Jul 2026",
+      "summary": "Did the positional cone search return the named bright star?",
+      "sample_size_display": "2 samples",
+      "dense": true,
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": [],
+      "artifacts": [],
+      "quality_checks": [],
+      "limitations": [],
+      "hero_local": "data/images/2026-07-30-parallax-distance-sirius.png",
+      "figures_local": [
+        "data/images/2026-07-30-parallax-distance-sirius.png"
+      ]
+    },
+    {
+      "id": "2026-07-30-white-dwarf-spectrum",
+      "title": "SDSS white-dwarf Balmer-profile legacy audit",
+      "archive": "SDSS legacy spectrum plot",
+      "date": "2026-07-30",
+      "question": "Are the broad Balmer depressions visible robustly in the preserved spectrum plot?",
+      "sample_size": 895,
+      "results": [
+        "3 of four marked Balmer depressions exceed 8% in the digitized display",
+        "detected: H\u03b3, H\u03b2, H\u03b1",
+        "broad absorption is consistent with the pipeline WD label, but atmospheric parameters are not fitted"
+      ],
+      "validation": "Relative depths are recomputed across four line-window widths.",
+      "notebook": "sdss/2026-07-30-white-dwarf-spectrum/notebook.ipynb",
+      "hero": "sdss/2026-07-30-white-dwarf-spectrum/wd_balmer_legacy_audit.png",
+      "figures": [
+        "sdss/2026-07-30-white-dwarf-spectrum/wd_balmer_legacy_audit.png",
+        "sdss/2026-07-30-white-dwarf-spectrum/wd_balmer_window_stress.png"
+      ],
+      "research_level": "Exploration",
+      "claim_type": "Digitized spectral-feature audit",
+      "provenance": [
+        "Original SDSS position and pipeline WD subclass",
+        "preserved wd_spectrum.png",
+        "approximately digitized plotted curve"
+      ],
+      "artifacts": [
+        "data/audit_batches4_7/sdss_white_dwarf_plot_digitized.csv",
+        "sdss/2026-07-30-white-dwarf-spectrum/wd_balmer_display_depths.csv",
+        "sdss/2026-07-30-white-dwarf-spectrum/wd_balmer_window_stress.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "Pipeline subclass WD retained",
+          "status": "pass"
+        },
+        {
+          "name": "Balmer window stress",
+          "status": "pass"
+        },
+        {
+          "name": "Calibrated FITS recovery",
+          "status": "not available"
+        }
+      ],
+      "limitations": [
+        "plot digitization loses errors and spectral resolution",
+        "continuum placement is approximate",
+        "temperature and gravity require atmosphere-model fitting"
+      ],
+      "tags": [
+        "SDSS",
+        "white dwarf",
+        "Balmer lines",
+        "legacy audit"
+      ],
+      "family": "SDSS",
+      "date_display": "30 Jul 2026",
+      "summary": "Are the broad Balmer depressions visible robustly in the preserved spectrum plot?",
+      "sample_size_display": "895 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-30-white-dwarf-spectrum.png",
+      "figures_local": [
+        "data/images/2026-07-30-white-dwarf-spectrum.png",
+        "data/images/2026-07-30-white-dwarf-spectrum--figure-2.png"
+      ]
+    },
+    {
+      "id": "2026-07-30-star-spectrum-classification",
+      "title": "SDSS source-identity audit: broad-line quasar",
+      "archive": "SDSS DR17",
+      "date": "2026-07-30",
+      "question": "Does the downloaded spectrum support the original stellar label?",
+      "sample_size": 3841,
+      "results": [
+        "SDSS class=QSO, subclass=BROADLINE",
+        "broad-line Gaussian widths: H\u03b2 6565 km/s, H\u03b1 6175 km/s",
+        "pipeline redshift 0.04559 \u00b1 0.00004"
+      ],
+      "validation": "The archive classification is checked against broad Balmer-line fits and three fit-window choices.",
+      "notebook": "sdss/2026-07-30-star-spectrum-classification/notebook.ipynb",
+      "hero": "sdss/2026-07-30-star-spectrum-classification/source_identity_spectrum.png",
+      "figures": [
+        "sdss/2026-07-30-star-spectrum-classification/source_identity_spectrum.png",
+        "sdss/2026-07-30-star-spectrum-classification/broad_line_fits.png",
+        "sdss/2026-07-30-star-spectrum-classification/source_identity_stress.png"
+      ],
+      "research_level": "Validated",
+      "claim_type": "Source identity correction",
+      "provenance": [
+        "SDSS DR17 spec-0751-52251-0160.fits",
+        "saved wavelength, flux, inverse variance, and mask",
+        "SDSS pipeline class and redshift metadata"
+      ],
+      "artifacts": [
+        "sdss/2026-07-30-star-spectrum-classification/star_sdss_spectrum.csv",
+        "sdss/2026-07-30-star-spectrum-classification/star_sdss_metadata.json",
+        "sdss/2026-07-30-star-spectrum-classification/source_identity_line_fits.csv",
+        "sdss/2026-07-30-star-spectrum-classification/source_identity_window_stress.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "Exact product identity",
+          "status": "pass"
+        },
+        {
+          "name": "Archive class versus prose",
+          "status": "corrected"
+        },
+        {
+          "name": "Fit-window stress test",
+          "status": "pass"
+        }
+      ],
+      "limitations": [
+        "Gaussian widths are descriptive and not corrected for instrumental resolution",
+        "pipeline classification is not independently re-trained",
+        "line decomposition is simplified"
+      ],
+      "tags": [
+        "SDSS",
+        "quasar",
+        "spectrum",
+        "source audit"
+      ],
+      "family": "SDSS",
+      "date_display": "30 Jul 2026",
+      "summary": "Does the downloaded spectrum support the original stellar label?",
+      "sample_size_display": "3,841 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-30-star-spectrum-classification.png",
+      "figures_local": [
+        "data/images/2026-07-30-star-spectrum-classification.png",
+        "data/images/2026-07-30-star-spectrum-classification--figure-2.png",
+        "data/images/2026-07-30-star-spectrum-classification--figure-3.png"
+      ]
+    },
+    {
+      "id": "2026-07-30-galaxy-redshift-slice",
+      "title": "SDSS redshift-slice structure audit",
+      "archive": "SDSS DR18",
+      "date": "2026-07-30",
+      "question": "Which redshift concentrations are visible in a preserved 12,000-galaxy SDSS emission-line sample?",
+      "sample_size": 12000,
+      "results": [
+        "12,000 unique emission-line galaxies in 0.001<z<0.30",
+        "strongest 0.005-wide concentration at z\u22480.077 with local excess 4.7 sigma",
+        "RA-quartile strongest bins span 0.028\u20130.077"
+      ],
+      "validation": "Redshift concentration is compared with a smoothed baseline and jackknifed across four RA intervals.",
+      "notebook": "sdss/2026-07-30-galaxy-redshift-slice/notebook.ipynb",
+      "hero": "sdss/2026-07-30-galaxy-redshift-slice/sdss_redshift_slice_audit.png",
+      "figures": [
+        "sdss/2026-07-30-galaxy-redshift-slice/sdss_redshift_slice_audit.png",
+        "sdss/2026-07-30-galaxy-redshift-slice/sdss_redshift_jackknife.png"
+      ],
+      "research_level": "Validated",
+      "claim_type": "Redshift concentration measurement",
+      "provenance": [
+        "SDSS DR18 SQL result preserved by BPT notebook",
+        "12,000 spectra with coordinates, redshifts, and line measurements"
+      ],
+      "artifacts": [
+        "data/audit_batches4_7/sdss_emission_galaxies.csv",
+        "sdss/2026-07-30-galaxy-redshift-slice/sdss_redshift_concentrations.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "Unique spectra",
+          "status": "pass"
+        },
+        {
+          "name": "Redshift range explicit",
+          "status": "pass"
+        },
+        {
+          "name": "RA jackknife",
+          "status": "pass"
+        }
+      ],
+      "limitations": [
+        "z is used as a radial proxy rather than a cosmological distance",
+        "sample requires emission-line measurements",
+        "local excess ignores correlated large-scale-structure covariance"
+      ],
+      "tags": [
+        "SDSS",
+        "galaxies",
+        "large-scale structure",
+        "redshift"
+      ],
+      "family": "SDSS",
+      "date_display": "30 Jul 2026",
+      "summary": "Which redshift concentrations are visible in a preserved 12,000-galaxy SDSS emission-line sample?",
+      "sample_size_display": "12,000 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-30-galaxy-redshift-slice.png",
+      "figures_local": [
+        "data/images/2026-07-30-galaxy-redshift-slice.png",
+        "data/images/2026-07-30-galaxy-redshift-slice--figure-2.png"
+      ]
+    },
+    {
+      "id": "2026-07-30-qso-vs-galaxy-colors",
+      "title": "SDSS quasar\u2013galaxy colour display audit",
+      "archive": "SDSS legacy catalogue plot",
+      "date": "2026-07-30",
+      "question": "How clearly separated are the two rendered colour clouds, without claiming catalogue-level classifier accuracy?",
+      "sample_size": 5440,
+      "results": [
+        "original SQL returned 1,500 labelled objects",
+        "rendered colour-cloud centroid separation approximately 1.31 mag",
+        "pixel-phase separation range 1.26\u20131.35 mag"
+      ],
+      "validation": "Centroid separation is repeated across five independent pixel phases; classification accuracy is deliberately not estimated.",
+      "notebook": "sdss/2026-07-30-qso-vs-galaxy-colors/notebook.ipynb",
+      "hero": "sdss/2026-07-30-qso-vs-galaxy-colors/sdss_colour_legacy_audit.png",
+      "figures": [
+        "sdss/2026-07-30-qso-vs-galaxy-colors/sdss_colour_legacy_audit.png",
+        "sdss/2026-07-30-qso-vs-galaxy-colors/sdss_colour_digitization_stress.png"
+      ],
+      "research_level": "Exploration",
+      "claim_type": "Digitized colour-separation audit",
+      "provenance": [
+        "Original SDSS photometry/spectroscopy join printed in notebook",
+        "preserved color_color.png",
+        "class-coloured pixels digitized approximately"
+      ],
+      "artifacts": [
+        "data/audit_batches4_7/sdss_colour_plot_digitized_pixels.csv",
+        "sdss/2026-07-30-qso-vs-galaxy-colors/sdss_colour_digitization_stress.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "Two labelled rendered clouds",
+          "status": "pass"
+        },
+        {
+          "name": "Digitization stress",
+          "status": "pass"
+        },
+        {
+          "name": "Catalogue classifier performance",
+          "status": "not attempted"
+        }
+      ],
+      "limitations": [
+        "plot pixels are not independent objects",
+        "overplotting alters apparent density",
+        "photometric classifier evaluation needs held-out source rows and errors"
+      ],
+      "tags": [
+        "SDSS",
+        "quasar",
+        "galaxy",
+        "colour selection"
+      ],
+      "family": "SDSS",
+      "date_display": "30 Jul 2026",
+      "summary": "How clearly separated are the two rendered colour clouds, without claiming catalogue-level classifier accuracy?",
+      "sample_size_display": "5,440 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-30-qso-vs-galaxy-colors.png",
+      "figures_local": [
+        "data/images/2026-07-30-qso-vs-galaxy-colors.png",
+        "data/images/2026-07-30-qso-vs-galaxy-colors--figure-2.png"
+      ]
+    },
+    {
+      "id": "2026-07-30-qso-redshift-check",
+      "title": "SDSS quasar multi-line redshift audit",
+      "archive": "SDSS DR17",
+      "date": "2026-07-30",
+      "question": "Do three broad emission lines give a consistent quasar redshift?",
+      "sample_size": 3843,
+      "results": [
+        "multi-line median redshift 1.8215",
+        "line-to-line redshift scatter 0.0019",
+        "SDSS pipeline redshift 1.8234 \u00b1 0.0010"
+      ],
+      "validation": "Each centroid is noise-resampled 500 times; the line-to-line spread is reported separately because broad quasar lines have systematic velocity offsets.",
+      "notebook": "sdss/2026-07-30-qso-redshift-check/notebook.ipynb",
+      "hero": "sdss/2026-07-30-qso-redshift-check/qso_multiline_spectrum.png",
+      "figures": [
+        "sdss/2026-07-30-qso-redshift-check/qso_multiline_spectrum.png",
+        "sdss/2026-07-30-qso-redshift-check/qso_line_centroids.png",
+        "sdss/2026-07-30-qso-redshift-check/qso_redshift_consistency.png"
+      ],
+      "research_level": "Validated",
+      "claim_type": "Multi-line archive remeasurement",
+      "provenance": [
+        "SDSS DR17 spec-0685-52203-0467.fits",
+        "saved inverse-variance spectrum",
+        "pipeline redshift retained only as comparison"
+      ],
+      "artifacts": [
+        "sdss/2026-07-30-qso-redshift-check/qso_sdss_spectrum.csv",
+        "sdss/2026-07-30-qso-redshift-check/qso_sdss_metadata.json",
+        "sdss/2026-07-30-qso-redshift-check/qso_multiline_redshift.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "Three-line agreement",
+          "status": "pass"
+        },
+        {
+          "name": "Noise resampling",
+          "status": "pass"
+        },
+        {
+          "name": "Broad-line systematics",
+          "status": "reported"
+        }
+      ],
+      "limitations": [
+        "centroids use a local linear continuum",
+        "line asymmetry and absorption can dominate random errors",
+        "this is not a systemic host-galaxy redshift"
+      ],
+      "tags": [
+        "SDSS",
+        "quasar",
+        "redshift",
+        "bootstrap"
+      ],
+      "family": "SDSS",
+      "date_display": "30 Jul 2026",
+      "summary": "Do three broad emission lines give a consistent quasar redshift?",
+      "sample_size_display": "3,843 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-30-qso-redshift-check.png",
+      "figures_local": [
+        "data/images/2026-07-30-qso-redshift-check.png",
+        "data/images/2026-07-30-qso-redshift-check--figure-2.png",
+        "data/images/2026-07-30-qso-redshift-check--figure-3.png"
+      ]
+    },
+    {
+      "id": "2026-07-30-metallicity-vs-position",
+      "title": "SDSS metallicity\u2013latitude legacy-output audit",
+      "archive": "SDSS legacy catalogue plot",
+      "date": "2026-07-30",
+      "question": "Does the weak negative trend reported in the old plot survive digitization choices?",
+      "sample_size": 3271,
+      "results": [
+        "old source-level Pearson correlation reported as -0.181 for 400 stars",
+        "digitized-pixel Spearman correlation -0.203",
+        "pixel-phase range -0.226 to -0.188"
+      ],
+      "validation": "The sign is checked across five independent pixel phases; magnitude is not treated as a source-level estimate.",
+      "notebook": "sdss/2026-07-30-metallicity-vs-position/notebook.ipynb",
+      "hero": "sdss/2026-07-30-metallicity-vs-position/sdss_metallicity_legacy_audit.png",
+      "figures": [
+        "sdss/2026-07-30-metallicity-vs-position/sdss_metallicity_legacy_audit.png",
+        "sdss/2026-07-30-metallicity-vs-position/sdss_metallicity_digitization_stress.png"
+      ],
+      "research_level": "Exploration",
+      "claim_type": "Digitized correlation audit",
+      "provenance": [
+        "Original SDSS SQL and first five rows printed in notebook",
+        "old output Pearson correlation -0.181",
+        "preserved feh_vs_lat.png"
+      ],
+      "artifacts": [
+        "data/audit_batches4_7/sdss_metallicity_plot_digitized_pixels.csv",
+        "sdss/2026-07-30-metallicity-vs-position/sdss_metallicity_digitization_stress.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "Original statistic retained",
+          "status": "pass"
+        },
+        {
+          "name": "Digitization stress",
+          "status": "pass"
+        },
+        {
+          "name": "Source table recovery",
+          "status": "not available"
+        }
+      ],
+      "limitations": [
+        "source rows and errors were not saved",
+        "pixel overlap weights dense regions",
+        "latitude range and target selection confound population interpretation"
+      ],
+      "tags": [
+        "SDSS",
+        "metallicity",
+        "Galactic latitude",
+        "legacy audit"
+      ],
+      "family": "SDSS",
+      "date_display": "30 Jul 2026",
+      "summary": "Does the weak negative trend reported in the old plot survive digitization choices?",
+      "sample_size_display": "3,271 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-30-metallicity-vs-position.png",
+      "figures_local": [
+        "data/images/2026-07-30-metallicity-vs-position.png",
+        "data/images/2026-07-30-metallicity-vs-position--figure-2.png"
+      ]
+    },
+    {
+      "id": "2026-07-30-emission-line-measurement",
+      "title": "SDSS galaxy joint H\u03b1 + [N II] audit",
+      "archive": "SDSS DR17",
+      "date": "2026-07-30",
+      "question": "What does a constrained three-line fit establish for this galaxy?",
+      "sample_size": 96,
+      "results": [
+        "[N II] 6583 / H\u03b1 = 0.640 (95% noise interval 0.581\u20130.702)",
+        "N2 = log10 ratio = -0.194",
+        "observed Gaussian FWHM 351 km/s (not instrument-corrected)"
+      ],
+      "validation": "The joint fit fixes the atomic [N II] doublet ratio, propagates inverse-variance noise 800 times, and repeats three wavelength windows.",
+      "notebook": "sdss/2026-07-30-emission-line-measurement/notebook.ipynb",
+      "hero": "sdss/2026-07-30-emission-line-measurement/halpha_nii_joint_fit.png",
+      "figures": [
+        "sdss/2026-07-30-emission-line-measurement/halpha_nii_joint_fit.png",
+        "sdss/2026-07-30-emission-line-measurement/halpha_nii_uncertainty.png"
+      ],
+      "research_level": "Validated",
+      "claim_type": "Joint emission-line remeasurement",
+      "provenance": [
+        "SDSS DR17 spec-0266-51602-0001.fits",
+        "saved inverse-variance spectrum",
+        "rest frame uses SDSS pipeline redshift"
+      ],
+      "artifacts": [
+        "sdss/2026-07-30-emission-line-measurement/galaxy_sdss_spectrum.csv",
+        "sdss/2026-07-30-emission-line-measurement/galaxy_sdss_metadata.json",
+        "sdss/2026-07-30-emission-line-measurement/halpha_nii_fit_summary.csv",
+        "sdss/2026-07-30-emission-line-measurement/halpha_nii_window_stress.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "Joint blended-line model",
+          "status": "pass"
+        },
+        {
+          "name": "Noise resampling",
+          "status": "pass"
+        },
+        {
+          "name": "Continuum-window stress",
+          "status": "pass"
+        },
+        {
+          "name": "Velocity unit conversion",
+          "status": "corrected"
+        }
+      ],
+      "limitations": [
+        "N2 alone cannot place the galaxy on the full BPT diagram",
+        "width is not deconvolved from SDSS resolution",
+        "stellar Balmer absorption is not modelled"
+      ],
+      "tags": [
+        "SDSS",
+        "galaxy",
+        "H-alpha",
+        "line ratio"
+      ],
+      "family": "SDSS",
+      "date_display": "30 Jul 2026",
+      "summary": "What does a constrained three-line fit establish for this galaxy?",
+      "sample_size_display": "96 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-30-emission-line-measurement.png",
+      "figures_local": [
+        "data/images/2026-07-30-emission-line-measurement.png",
+        "data/images/2026-07-30-emission-line-measurement--figure-2.png"
+      ]
+    },
+    {
+      "id": "2026-07-30-spectral-type-distribution",
+      "title": "SDSS class-composition audit for one sky patch",
+      "archive": "SDSS legacy aggregate",
+      "date": "2026-07-30",
+      "question": "What do the preserved aggregate counts support when the original 800 source rows were not saved?",
+      "sample_size": 800,
+      "results": [
+        "GALAXY 50.0%, STAR 33.5%, QSO 16.5%",
+        "QSO 95% multinomial interval 13.9%\u201319.0%",
+        "aggregate counts reproduce the old output but cannot recover subclass or redshift distributions"
+      ],
+      "validation": "Class fractions use multinomial resampling and interval width is tested at three sample sizes.",
+      "notebook": "sdss/2026-07-30-spectral-type-distribution/notebook.ipynb",
+      "hero": "sdss/2026-07-30-spectral-type-distribution/sdss_class_fraction_audit.png",
+      "figures": [
+        "sdss/2026-07-30-spectral-type-distribution/sdss_class_fraction_audit.png",
+        "sdss/2026-07-30-spectral-type-distribution/sdss_class_precision_stress.png"
+      ],
+      "research_level": "Reproduction",
+      "claim_type": "Multinomial class-fraction audit",
+      "provenance": [
+        "Original SDSS SQL query printed in notebook",
+        "executed aggregate counts: 400 galaxies, 268 stars, 132 QSOs"
+      ],
+      "artifacts": [
+        "sdss/2026-07-30-spectral-type-distribution/sdss_patch_class_fractions.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "Counts sum to 800",
+          "status": "pass"
+        },
+        {
+          "name": "Sampling intervals",
+          "status": "pass"
+        },
+        {
+          "name": "Source-level table",
+          "status": "not available"
+        }
+      ],
+      "limitations": [
+        "source-level rows were not saved",
+        "TOP 800 without explicit ordering is not a random sky sample",
+        "pipeline classes and subclasses are not audited individually"
+      ],
+      "tags": [
+        "SDSS",
+        "spectral classes",
+        "aggregate audit",
+        "selection"
+      ],
+      "family": "SDSS",
+      "date_display": "30 Jul 2026",
+      "summary": "What do the preserved aggregate counts support when the original 800 source rows were not saved?",
+      "sample_size_display": "800 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-30-spectral-type-distribution.png",
+      "figures_local": [
+        "data/images/2026-07-30-spectral-type-distribution.png",
+        "data/images/2026-07-30-spectral-type-distribution--figure-2.png"
+      ]
+    },
+    {
+      "id": "2026-07-30-hr-diagram-pleiades",
+      "title": "Pleiades Gaia colour\u2013magnitude sequence audit",
+      "archive": "Gaia DR3",
+      "date": "2026-07-30",
+      "question": "How narrow is the selected Pleiades sequence, and how sensitive is it to astrometric quality cuts?",
+      "sample_size": 690,
+      "results": [
+        "690 quality-selected sources",
+        "cubic-sequence robust scatter 0.265 mag",
+        "median inverse-parallax distance 136.04 pc; bootstrap 68% 135.92\u2013136.19 pc"
+      ],
+      "validation": "Sequence width and distance are repeated across four RUWE thresholds.",
+      "notebook": "gaia/2026-07-30-hr-diagram-pleiades/notebook.ipynb",
+      "hero": "gaia/2026-07-30-hr-diagram-pleiades/pleiades_cmd_sequence_audit.png",
+      "figures": [
+        "gaia/2026-07-30-hr-diagram-pleiades/pleiades_cmd_sequence_audit.png",
+        "gaia/2026-07-30-hr-diagram-pleiades/pleiades_quality_stress.png"
+      ],
+      "research_level": "Validated",
+      "claim_type": "Cluster sequence measurement",
+      "provenance": [
+        "Gaia DR3 saved query",
+        "source-level parallax, photometry, proper motion, and RUWE retained"
+      ],
+      "artifacts": [
+        "data/audit_batches4_7/pleiades_gaia_dr3_query.csv",
+        "gaia/2026-07-30-hr-diagram-pleiades/pleiades_quality_stress.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "Parallax S/N > 10",
+          "status": "pass"
+        },
+        {
+          "name": "RUWE threshold sweep",
+          "status": "pass"
+        },
+        {
+          "name": "Bootstrap distance",
+          "status": "pass"
+        }
+      ],
+      "limitations": [
+        "inverse parallax is used only at high S/N",
+        "cubic sequence is empirical, not an isochrone",
+        "unresolved binaries and extinction broaden the sequence"
+      ],
+      "tags": [
+        "Gaia",
+        "Pleiades",
+        "CMD",
+        "quality cuts"
+      ],
+      "family": "Gaia",
+      "date_display": "30 Jul 2026",
+      "summary": "How narrow is the selected Pleiades sequence, and how sensitive is it to astrometric quality cuts?",
+      "sample_size_display": "690 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-30-hr-diagram-pleiades.png",
+      "figures_local": [
+        "data/images/2026-07-30-hr-diagram-pleiades.png",
+        "data/images/2026-07-30-hr-diagram-pleiades--figure-2.png"
+      ]
+    },
+    {
+      "id": "2026-07-30-mass-period-trend",
+      "title": "Planet mass\u2013period selection audit",
+      "archive": "NASA Exoplanet Archive",
+      "date": "2026-07-30",
+      "question": "Does the mass\u2013period rank relation persist within the two leading discovery methods?",
+      "sample_size": 5209,
+      "results": [
+        "5,209 unique archive planets pass finite mass/period cuts",
+        "Transit: rho=0.029 (n=4007)",
+        "Radial Velocity: rho=0.714 (n=1119)"
+      ],
+      "validation": "Rank correlation is stratified by discovery method and bootstrapped separately.",
+      "notebook": "exoplanet-archive/2026-07-30-mass-period-trend/notebook.ipynb",
+      "hero": "exoplanet-archive/2026-07-30-mass-period-trend/mass_period_method_audit.png",
+      "figures": [
+        "exoplanet-archive/2026-07-30-mass-period-trend/mass_period_method_audit.png",
+        "exoplanet-archive/2026-07-30-mass-period-trend/mass_period_method_bootstrap.png"
+      ],
+      "research_level": "Validated",
+      "claim_type": "Within-method population correlation",
+      "provenance": [
+        "NASA Exoplanet Archive pscomppars preserved query",
+        "best-mass values converted from Jupiter to Earth masses"
+      ],
+      "artifacts": [
+        "data/audit_batches4_7/exoplanet_composite_archive.csv",
+        "exoplanet-archive/2026-07-30-mass-period-trend/mass_period_method_bootstrap.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "Duplicate planet removal",
+          "status": "pass"
+        },
+        {
+          "name": "Discovery-method stratification",
+          "status": "pass"
+        },
+        {
+          "name": "Bootstrap intervals",
+          "status": "pass"
+        }
+      ],
+      "limitations": [
+        "mass values mix true mass and minimum mass conventions",
+        "method groups have different completeness",
+        "correlations are not occurrence rates"
+      ],
+      "tags": [
+        "exoplanets",
+        "mass",
+        "period",
+        "selection bias"
+      ],
+      "family": "Exoplanets",
+      "date_display": "30 Jul 2026",
+      "summary": "Does the mass\u2013period rank relation persist within the two leading discovery methods?",
+      "sample_size_display": "5,209 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-30-mass-period-trend.png",
+      "figures_local": [
+        "data/images/2026-07-30-mass-period-trend.png",
+        "data/images/2026-07-30-mass-period-trend--figure-2.png"
+      ]
+    },
+    {
+      "id": "2026-07-30-hr-diagram-ngc188",
+      "title": "NGC 188 membership and sequence audit",
+      "archive": "Gaia DR3",
+      "date": "2026-07-30",
+      "question": "How do probability and astrometric-quality cuts change the old cluster sequence and distance?",
+      "sample_size": 1168,
+      "results": [
+        "1168 sources pass p\u22650.90, RUWE<1.4 and parallax S/N>5",
+        "median parallax 0.528 mas; bootstrap 68% 0.527\u20130.530",
+        "probability cut tested from 0.70 to 0.95"
+      ],
+      "validation": "Median parallax and proper-motion widths are repeated across four membership-probability thresholds.",
+      "notebook": "gaia/2026-07-30-hr-diagram-ngc188/notebook.ipynb",
+      "hero": "gaia/2026-07-30-hr-diagram-ngc188/ngc188_membership_cmd.png",
+      "figures": [
+        "gaia/2026-07-30-hr-diagram-ngc188/ngc188_membership_cmd.png",
+        "gaia/2026-07-30-hr-diagram-ngc188/ngc188_membership_stress.png"
+      ],
+      "research_level": "Validated",
+      "claim_type": "Membership-threshold measurement",
+      "provenance": [
+        "Gaia DR3 source rows",
+        "UPMASK membership probabilities from chihuanbin/ngc188 public analysis",
+        "columns reduced without changing values"
+      ],
+      "artifacts": [
+        "data/audit_batches4_7/ngc188_gaia_dr3_members.csv",
+        "gaia/2026-07-30-hr-diagram-ngc188/ngc188_membership_stress.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "UPMASK probability retained",
+          "status": "pass"
+        },
+        {
+          "name": "RUWE and parallax S/N cuts",
+          "status": "pass"
+        },
+        {
+          "name": "Threshold stress test",
+          "status": "pass"
+        }
+      ],
+      "limitations": [
+        "membership probabilities are upstream model outputs",
+        "inverse parallax ignores cluster-level covariance",
+        "selection file is not the original broad cone query"
+      ],
+      "tags": [
+        "Gaia",
+        "NGC 188",
+        "membership",
+        "CMD"
+      ],
+      "family": "Gaia",
+      "date_display": "30 Jul 2026",
+      "summary": "How do probability and astrometric-quality cuts change the old cluster sequence and distance?",
+      "sample_size_display": "1,168 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-30-hr-diagram-ngc188.png",
+      "figures_local": [
+        "data/images/2026-07-30-hr-diagram-ngc188.png",
+        "data/images/2026-07-30-hr-diagram-ngc188--figure-2.png"
+      ]
+    },
+    {
+      "id": "2026-07-30-proper-motion-membership-m67",
+      "title": "M67 proper-motion legacy-output audit",
+      "archive": "Gaia DR3 legacy output",
+      "date": "2026-07-30",
+      "question": "Does the preserved membership plot centre on the stated M67 motion, and what information is missing?",
+      "sample_size": 624,
+      "results": [
+        "original selection retained 612 of 2,000 field sources",
+        "digitized rendered-pixel centroid (-10.85, -2.83) mas/yr",
+        "centroid lies 0.09 mas/yr from the stated selection centre"
+      ],
+      "validation": "Centroid is repeated across four independent x-pixel phases; no intrinsic dispersion is inferred.",
+      "notebook": "gaia/2026-07-30-proper-motion-membership-m67/notebook.ipynb",
+      "hero": "gaia/2026-07-30-proper-motion-membership-m67/m67_legacy_motion_audit.png",
+      "figures": [
+        "gaia/2026-07-30-proper-motion-membership-m67/m67_legacy_motion_audit.png",
+        "gaia/2026-07-30-proper-motion-membership-m67/m67_digitization_stress.png"
+      ],
+      "research_level": "Exploration",
+      "claim_type": "Digitized membership-display audit",
+      "provenance": [
+        "Original Gaia DR3 cone query printed in notebook",
+        "preserved m67_pm_members.png",
+        "original output counts 2,000 field and 612 selected"
+      ],
+      "artifacts": [
+        "data/audit_batches4_7/m67_member_plot_digitized_pixels.csv",
+        "gaia/2026-07-30-proper-motion-membership-m67/m67_digitization_stress.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "Original query and counts retained",
+          "status": "pass"
+        },
+        {
+          "name": "Display centroid cross-check",
+          "status": "pass"
+        },
+        {
+          "name": "Source-level covariance",
+          "status": "not available"
+        }
+      ],
+      "limitations": [
+        "catalogue rows were not saved",
+        "rendered pixels are correlated and overlap",
+        "selection used a fixed circular motion cut without parallax"
+      ],
+      "tags": [
+        "Gaia",
+        "M67",
+        "proper motion",
+        "legacy audit"
+      ],
+      "family": "Gaia",
+      "date_display": "30 Jul 2026",
+      "summary": "Does the preserved membership plot centre on the stated M67 motion, and what information is missing?",
+      "sample_size_display": "624 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-30-proper-motion-membership-m67.png",
+      "figures_local": [
+        "data/images/2026-07-30-proper-motion-membership-m67.png",
+        "data/images/2026-07-30-proper-motion-membership-m67--figure-2.png"
+      ]
+    },
+    {
+      "id": "2026-07-30-habitable-zone-kepler442",
+      "title": "Kepler-442 b habitable-zone check",
+      "archive": "NASA Exoplanet Archive",
+      "date": "2026-07-30",
+      "question": "Does Kepler-442 b pass a luminosity-only zone test?",
+      "sample_size": 1,
+      "results": [
+        "incident flux 0.699 Earth flux",
+        "simple zone 0.326\u20130.470 AU",
+        "0.409 AU remains inside for \u00b110% luminosity: True"
+      ],
+      "validation": "The boundary test is repeated after changing stellar luminosity by \u00b110%.",
+      "notebook": "exoplanet-archive/2026-07-30-habitable-zone-kepler442/notebook.ipynb",
+      "hero": "exoplanet-archive/2026-07-30-habitable-zone-kepler442/kepler442_habitable_zone.png",
+      "tags": [
+        "Kepler-442 b",
+        "habitable zone",
+        "stellar flux"
+      ],
+      "family": "Exoplanets",
+      "date_display": "30 Jul 2026",
+      "summary": "Does Kepler-442 b pass a luminosity-only zone test?",
+      "sample_size_display": "1 samples",
+      "dense": true,
+      "research_level": "Dense",
+      "claim_type": "Measured result",
+      "provenance": [],
+      "artifacts": [],
+      "quality_checks": [],
+      "limitations": [],
+      "hero_local": "data/images/2026-07-30-habitable-zone-kepler442.png",
+      "figures_local": [
+        "data/images/2026-07-30-habitable-zone-kepler442.png"
+      ]
+    },
+    {
+      "id": "2026-07-30-kepler-lightcurve-kepler186f",
+      "title": "Kepler-186 f full-mission transit audit",
+      "archive": "MAST \u00b7 Kepler",
+      "date": "2026-07-30",
+      "question": "Is the long-period transit recoverable across the full Kepler mission?",
+      "sample_size": 59401,
+      "results": [
+        "10 of 11 predicted transit epochs have in-transit cadence coverage",
+        "event-median depth 400 ppm; event-bootstrap 95% interval 375\u2013468 ppm",
+        "simple recovery is positive; individual-event range 111 to 694 ppm"
+      ],
+      "validation": "All 17 long-cadence products are used with the DR25 ephemeris; uncertainty resamples transit events, leave-one-event-out results are stored, and synthetic depths are recovered at off-transit phases.",
+      "notebook": "mast/2026-07-30-kepler-lightcurve-kepler186f/notebook.ipynb",
+      "hero": "mast/2026-07-30-kepler-lightcurve-kepler186f/kepler186_coverage.png",
+      "figures": [
+        "mast/2026-07-30-kepler-lightcurve-kepler186f/kepler186_coverage.png",
+        "mast/2026-07-30-kepler-lightcurve-kepler186f/kepler186_transit_recovery.png",
+        "mast/2026-07-30-kepler-lightcurve-kepler186f/kepler186_robustness.png"
+      ],
+      "research_level": "Validated",
+      "claim_type": "Full-mission transit recovery",
+      "provenance": [
+        "MAST Kepler KIC 8120608",
+        "17 *_llc.fits long-cadence products",
+        "quality flag = 0 and quarter-wise PDCSAP normalization",
+        "NASA Exoplanet Archive DR25 period 129.945392 d, epoch 176.82285 BKJD, duration 5.786 h"
+      ],
+      "artifacts": [
+        "mast/2026-07-30-kepler-lightcurve-kepler186f/kepler186_all_quarters.csv",
+        "mast/2026-07-30-kepler-lightcurve-kepler186f/kepler186_transit_coverage.csv",
+        "mast/2026-07-30-kepler-lightcurve-kepler186f/kepler186_event_depths.csv",
+        "mast/2026-07-30-kepler-lightcurve-kepler186f/kepler186_leave_one_out.csv",
+        "mast/2026-07-30-kepler-lightcurve-kepler186f/kepler186_injection_recovery.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "DR25 ephemeris verified",
+          "status": "pass"
+        },
+        {
+          "name": "Full mission coverage",
+          "status": "pass"
+        },
+        {
+          "name": "Event-level bootstrap",
+          "status": "pass"
+        },
+        {
+          "name": "Leave-one-event-out",
+          "status": "pass"
+        },
+        {
+          "name": "Injection/recovery",
+          "status": "pass"
+        },
+        {
+          "name": "Atmosphere or habitability inference",
+          "status": "not attempted"
+        }
+      ],
+      "limitations": [
+        "published DR25 period, epoch, and duration are assumed",
+        "simple box depth omits limb darkening and dilution",
+        "PDCSAP and local linear detrending may alter depth",
+        "injection test measures this pipeline, not planet validation"
+      ],
+      "tags": [
+        "Kepler",
+        "Kepler-186 f",
+        "transit",
+        "injection recovery"
+      ],
+      "family": "MAST",
+      "date_display": "30 Jul 2026",
+      "summary": "Is the long-period transit recoverable across the full Kepler mission?",
+      "sample_size_display": "59,401 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-30-kepler-lightcurve-kepler186f.png",
+      "figures_local": [
+        "data/images/2026-07-30-kepler-lightcurve-kepler186f.png",
+        "data/images/2026-07-30-kepler-lightcurve-kepler186f--figure-2.png",
+        "data/images/2026-07-30-kepler-lightcurve-kepler186f--figure-3.png"
+      ]
+    },
+    {
+      "id": "2026-07-30-kepler-lightcurve-kepler10b",
+      "title": "Kepler-10 b: transit depth and robustness audit",
+      "archive": "MAST \u00b7 Kepler",
+      "date": "2026-07-30",
+      "question": "Is the 0.837-day transit recovered in real Quarter 3 measurements?",
+      "sample_size": 3633,
+      "results": [
+        "positive box-depth interval: True",
+        "box depth 158 ppm; 95% interval 145\u2013173 ppm",
+        "baseline scatter 176 ppm"
+      ],
+      "validation": "The depth is bootstrapped and repeated across twelve transit/baseline choices.",
+      "notebook": "mast/2026-07-30-kepler-lightcurve-kepler10b/notebook.ipynb",
+      "hero": "mast/2026-07-30-kepler-lightcurve-kepler10b/kepler10_transit_audit.png",
+      "figures": [
+        "mast/2026-07-30-kepler-lightcurve-kepler10b/kepler10_transit_audit.png",
+        "mast/2026-07-30-kepler-lightcurve-kepler10b/kepler10_depth_sensitivity.png"
+      ],
+      "research_level": "Validated",
+      "claim_type": "Archive remeasurement",
+      "provenance": [
+        "MAST product kplr011904151-2009350155506_llc.fits",
+        "quality flag = 0",
+        "PDCSAP flux"
+      ],
+      "artifacts": [
+        "mast/2026-07-30-kepler-lightcurve-kepler10b/kepler10_q3_pdcsap.csv",
+        "mast/2026-07-30-kepler-lightcurve-kepler10b/kepler10_fit_summary.csv",
+        "mast/2026-07-30-kepler-lightcurve-kepler10b/kepler10_model_sensitivity.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "Archive product",
+          "status": "pass"
+        },
+        {
+          "name": "Quality flags",
+          "status": "pass"
+        },
+        {
+          "name": "Bootstrap interval",
+          "status": "pass"
+        },
+        {
+          "name": "Model sensitivity",
+          "status": "pass"
+        }
+      ],
+      "limitations": [
+        "simple box model",
+        "correlated noise not fully modelled",
+        "published ephemeris assumed"
+      ],
+      "tags": [
+        "transit",
+        "light curve",
+        "uncertainty"
+      ],
+      "family": "MAST",
+      "date_display": "30 Jul 2026",
+      "summary": "Is the 0.837-day transit recovered in real Quarter 3 measurements?",
+      "sample_size_display": "3,633 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-30-kepler-lightcurve-kepler10b.png",
+      "figures_local": [
+        "data/images/2026-07-30-kepler-lightcurve-kepler10b.png",
+        "data/images/2026-07-30-kepler-lightcurve-kepler10b--figure-2.png"
+      ]
+    },
+    {
+      "id": "2026-07-30-jwst-image-ring-nebula",
+      "title": "JWST Ring Nebula: selected-field audit",
+      "archive": "MAST \u00b7 JWST NIRCam",
+      "date": "2026-07-30",
+      "question": "Does the selected preview contain a centred ring suitable for shape measurement?",
+      "sample_size": 4235364,
+      "results": [
+        "no centred annular structure is visible in the selected preview",
+        "89.7% of the brightest smoothed pixels lie near the border",
+        "shape measurement is withdrawn"
+      ],
+      "validation": "The result is repeated over five reasonable threshold or smoothing choices and its physical limits are stated.",
+      "notebook": "mast/2026-07-30-jwst-image-ring-nebula/notebook.ipynb",
+      "hero": "mast/2026-07-30-jwst-image-ring-nebula/ring_field_audit.png",
+      "figures": [
+        "mast/2026-07-30-jwst-image-ring-nebula/ring_field_audit.png",
+        "mast/2026-07-30-jwst-image-ring-nebula/ring_localization_sensitivity.png"
+      ],
+      "research_level": "Exploration",
+      "claim_type": "Source / field mismatch",
+      "provenance": [
+        "MAST product jw01558005001_04101_00001_nrcb2_i2d.jpg",
+        "stored preview ring_nebula.jpg"
+      ],
+      "artifacts": [
+        "mast/2026-07-30-jwst-image-ring-nebula/ring_field_metrics.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "Product identity",
+          "status": "caution"
+        },
+        {
+          "name": "Parameter sensitivity",
+          "status": "pass"
+        },
+        {
+          "name": "Flux calibration",
+          "status": "not available"
+        }
+      ],
+      "limitations": [
+        "JPEG values are display intensities",
+        "no physical scale or chemistry is inferred"
+      ],
+      "tags": [
+        "MAST",
+        "morphology",
+        "quality control"
+      ],
+      "family": "MAST",
+      "date_display": "30 Jul 2026",
+      "summary": "Does the selected preview contain a centred ring suitable for shape measurement?",
+      "sample_size_display": "4,235,364 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-30-jwst-image-ring-nebula.png",
+      "figures_local": [
+        "data/images/2026-07-30-jwst-image-ring-nebula.png",
+        "data/images/2026-07-30-jwst-image-ring-nebula--figure-2.png"
+      ]
+    },
+    {
+      "id": "2026-07-30-jwst-image-carina-nebula",
+      "title": "JWST Carina: visible-structure audit",
+      "archive": "MAST \u00b7 JWST NIRCam",
+      "date": "2026-07-30",
+      "question": "Which visible structures persist when the edge threshold changes?",
+      "sample_size": 4291100,
+      "results": [
+        "6.00% of pixels exceed the 94th-percentile gradient threshold",
+        "visible structures remain traceable across thresholds",
+        "preview pixels are not calibrated flux"
+      ],
+      "validation": "The result is repeated over five reasonable threshold or smoothing choices and its physical limits are stated.",
+      "notebook": "mast/2026-07-30-jwst-image-carina-nebula/notebook.ipynb",
+      "hero": "mast/2026-07-30-jwst-image-carina-nebula/carina_morphology_audit.png",
+      "figures": [
+        "mast/2026-07-30-jwst-image-carina-nebula/carina_morphology_audit.png",
+        "mast/2026-07-30-jwst-image-carina-nebula/carina_threshold_sensitivity.png"
+      ],
+      "research_level": "Validated",
+      "claim_type": "Morphology only",
+      "provenance": [
+        "MAST product jw05408024001_02101_00001_nrcblong_i2d.jpg",
+        "stored preview carina_nircam.jpg"
+      ],
+      "artifacts": [
+        "mast/2026-07-30-jwst-image-carina-nebula/carina_threshold_metrics.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "Product identity",
+          "status": "pass"
+        },
+        {
+          "name": "Parameter sensitivity",
+          "status": "pass"
+        },
+        {
+          "name": "Flux calibration",
+          "status": "not available"
+        }
+      ],
+      "limitations": [
+        "JPEG values are display intensities",
+        "no physical scale or chemistry is inferred"
+      ],
+      "tags": [
+        "MAST",
+        "morphology",
+        "quality control"
+      ],
+      "family": "MAST",
+      "date_display": "30 Jul 2026",
+      "summary": "Which visible structures persist when the edge threshold changes?",
+      "sample_size_display": "4,291,100 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-30-jwst-image-carina-nebula.png",
+      "figures_local": [
+        "data/images/2026-07-30-jwst-image-carina-nebula.png",
+        "data/images/2026-07-30-jwst-image-carina-nebula--figure-2.png"
+      ]
+    },
+    {
+      "id": "2026-07-30-hr-diagram-hyades",
+      "title": "Hyades legacy CMD evidence audit",
+      "archive": "Gaia DR3 legacy output",
+      "date": "2026-07-30",
+      "question": "What quantitative information survives in the first-day Hyades plot when the source rows were not saved?",
+      "sample_size": 1889,
+      "results": [
+        "1889 coloured plot pixels audited; zero are treated as independent stars",
+        "approximate rendered-sequence residual scale 0.431 mag",
+        "original notebook reported 202 candidates and median distance 46.7 pc"
+      ],
+      "validation": "The plot-digitization scale is repeated across four independent x-pixel phases; no source-level uncertainty is claimed.",
+      "notebook": "gaia/2026-07-30-hr-diagram-hyades/notebook.ipynb",
+      "hero": "gaia/2026-07-30-hr-diagram-hyades/hyades_legacy_cmd_audit.png",
+      "figures": [
+        "gaia/2026-07-30-hr-diagram-hyades/hyades_legacy_cmd_audit.png",
+        "gaia/2026-07-30-hr-diagram-hyades/hyades_digitization_stress.png"
+      ],
+      "research_level": "Exploration",
+      "claim_type": "Digitized legacy-output audit",
+      "provenance": [
+        "Original Gaia DR3 ADQL printed in notebook",
+        "preserved hr_hyades.png",
+        "digitized display pixels explicitly not catalogue rows"
+      ],
+      "artifacts": [
+        "data/audit_batches4_7/hyades_cmd_digitized_pixels.csv",
+        "gaia/2026-07-30-hr-diagram-hyades/hyades_digitization_stress.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "Legacy plot preserved",
+          "status": "pass"
+        },
+        {
+          "name": "Digitized pixels labelled approximate",
+          "status": "pass"
+        },
+        {
+          "name": "Source-level inference",
+          "status": "not attempted"
+        }
+      ],
+      "limitations": [
+        "source catalogue rows were not preserved",
+        "overlapping markers weight dense regions repeatedly",
+        "approximate axes and antialiasing limit precision"
+      ],
+      "tags": [
+        "Gaia",
+        "Hyades",
+        "legacy audit",
+        "negative result"
+      ],
+      "family": "Gaia",
+      "date_display": "30 Jul 2026",
+      "summary": "What quantitative information survives in the first-day Hyades plot when the source rows were not saved?",
+      "sample_size_display": "1,889 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-30-hr-diagram-hyades.png",
+      "figures_local": [
+        "data/images/2026-07-30-hr-diagram-hyades.png",
+        "data/images/2026-07-30-hr-diagram-hyades--figure-2.png"
+      ]
+    },
+    {
+      "id": "2026-07-30-hst-cutout-m87",
+      "title": "HST M87 preview field-placement audit",
+      "archive": "MAST \u00b7 HST WFC3 preview",
+      "date": "2026-07-30",
+      "question": "Can the selected HST preview support morphology or jet claims when M87 lies at the frame boundary?",
+      "sample_size": 8706420,
+      "results": [
+        "official preview contains 8,706,420 display pixels",
+        "M87 emission reaches the bottom frame boundary at all tested thresholds",
+        "maximum bright bottom-edge fraction 12.5%; morphology and jet measurements rejected"
+      ],
+      "validation": "Centroid, axis ratio, and edge contact are swept across five thresholds and five crop trims.",
+      "notebook": "mast/2026-07-30-hst-cutout-m87/notebook.ipynb",
+      "hero": "mast/2026-07-30-hst-cutout-m87/m87_preview_boundary_audit.png",
+      "figures": [
+        "mast/2026-07-30-hst-cutout-m87/m87_preview_boundary_audit.png",
+        "mast/2026-07-30-hst-cutout-m87/m87_preview_crop_stress.png"
+      ],
+      "research_level": "Exploration",
+      "claim_type": "Display-image completeness audit",
+      "provenance": [
+        "MAST HST WFC3 preview id5o27qbq_raw.jpg",
+        "original download output retained in executed notebook"
+      ],
+      "artifacts": [
+        "mast/2026-07-30-hst-cutout-m87/m87.jpg",
+        "mast/2026-07-30-hst-cutout-m87/m87_preview_threshold_audit.csv",
+        "mast/2026-07-30-hst-cutout-m87/m87_preview_crop_stress.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "Official preview provenance",
+          "status": "pass"
+        },
+        {
+          "name": "Boundary contact test",
+          "status": "fail for morphology"
+        },
+        {
+          "name": "Calibrated photometry",
+          "status": "not attempted"
+        }
+      ],
+      "limitations": [
+        "M87 is truncated by the frame boundary",
+        "preview stretch and detector mosaic are not calibrated surface brightness",
+        "jet-scale science requires a target-centred calibrated FITS product"
+      ],
+      "tags": [
+        "HST",
+        "M87",
+        "image audit",
+        "field mismatch"
+      ],
+      "family": "MAST",
+      "date_display": "30 Jul 2026",
+      "summary": "Can the selected HST preview support morphology or jet claims when M87 lies at the frame boundary?",
+      "sample_size_display": "8,706,420 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-30-hst-cutout-m87.png",
+      "figures_local": [
+        "data/images/2026-07-30-hst-cutout-m87.png",
+        "data/images/2026-07-30-hst-cutout-m87--figure-2.png"
+      ]
+    },
+    {
+      "id": "2026-07-30-hst-image-eagle-nebula",
+      "title": "HST Eagle Nebula: pillar-orientation audit",
+      "archive": "MAST \u00b7 HST ACS/WFC",
+      "date": "2026-07-30",
+      "question": "Is the dominant visible edge orientation stable to smoothing?",
+      "sample_size": 8569792,
+      "results": [
+        "dominant high-gradient orientation 175\u00b0 in this preview",
+        "orientation repeated across five smoothing scales",
+        "preview pixels are not calibrated flux"
+      ],
+      "validation": "The result is repeated over five reasonable threshold or smoothing choices and its physical limits are stated.",
+      "notebook": "mast/2026-07-30-hst-image-eagle-nebula/notebook.ipynb",
+      "hero": "mast/2026-07-30-hst-image-eagle-nebula/eagle_morphology_audit.png",
+      "figures": [
+        "mast/2026-07-30-hst-image-eagle-nebula/eagle_morphology_audit.png",
+        "mast/2026-07-30-hst-image-eagle-nebula/eagle_smoothing_sensitivity.png"
+      ],
+      "research_level": "Validated",
+      "claim_type": "Morphology only",
+      "provenance": [
+        "MAST product jck909c4q_raw.jpg",
+        "stored preview eagle_nebula.jpg"
+      ],
+      "artifacts": [
+        "mast/2026-07-30-hst-image-eagle-nebula/eagle_orientation_metrics.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "Product identity",
+          "status": "pass"
+        },
+        {
+          "name": "Parameter sensitivity",
+          "status": "pass"
+        },
+        {
+          "name": "Flux calibration",
+          "status": "not available"
+        }
+      ],
+      "limitations": [
+        "JPEG values are display intensities",
+        "no physical scale or chemistry is inferred"
+      ],
+      "tags": [
+        "MAST",
+        "morphology",
+        "quality control"
+      ],
+      "family": "MAST",
+      "date_display": "30 Jul 2026",
+      "summary": "Is the dominant visible edge orientation stable to smoothing?",
+      "sample_size_display": "8,569,792 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-30-hst-image-eagle-nebula.png",
+      "figures_local": [
+        "data/images/2026-07-30-hst-image-eagle-nebula.png",
+        "data/images/2026-07-30-hst-image-eagle-nebula--figure-2.png"
+      ]
+    },
+    {
+      "id": "2026-07-30-rv-curve-hd189733b",
+      "title": "HD 189733 b Keplerian radial-velocity audit",
+      "archive": "NASA Exoplanet Archive",
+      "date": "2026-07-30",
+      "question": "What does the archive orbital solution predict, and how different is it from the old circular sketch?",
+      "sample_size": 1,
+      "results": [
+        "period 2.218576 d, eccentricity 0.0000, adopted K 205.00 m/s",
+        "Keplerian-versus-circular RMS difference 0.000 m/s",
+        "one archive solution reconstructed; this is not a fit to time-series RV observations"
+      ],
+      "validation": "The exact archive row is retained, eccentric and circular models are compared, and inclination sensitivity is exposed.",
+      "notebook": "exoplanet-archive/2026-07-30-rv-curve-hd189733b/notebook.ipynb",
+      "hero": "exoplanet-archive/2026-07-30-rv-curve-hd189733b/rv_keplerian_comparison.png",
+      "figures": [
+        "exoplanet-archive/2026-07-30-rv-curve-hd189733b/rv_keplerian_comparison.png",
+        "exoplanet-archive/2026-07-30-rv-curve-hd189733b/rv_model_sensitivity.png"
+      ],
+      "research_level": "Reproduction",
+      "claim_type": "Archive-orbit reconstruction",
+      "provenance": [
+        "NASA Exoplanet Archive composite row",
+        "target HD 189733 b",
+        "semi-amplitude falls back to the value printed by the original executed notebook when absent from preserved table"
+      ],
+      "artifacts": [
+        "data/audit_batches4_7/exoplanet_composite_archive.csv",
+        "exoplanet-archive/2026-07-30-rv-curve-hd189733b/rv_phase_model.csv",
+        "exoplanet-archive/2026-07-30-rv-curve-hd189733b/inclination_mass_stress.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "Unique archive target",
+          "status": "pass"
+        },
+        {
+          "name": "Kepler equation solved",
+          "status": "pass"
+        },
+        {
+          "name": "Fit to observed RV epochs",
+          "status": "not attempted"
+        }
+      ],
+      "limitations": [
+        "phase zero and argument of periastron are arbitrary",
+        "no observation timestamps or instrumental offsets are fitted",
+        "composite values may come from different references"
+      ],
+      "tags": [
+        "exoplanets",
+        "radial velocity",
+        "HD 189733 b",
+        "orbit model"
+      ],
+      "family": "Exoplanets",
+      "date_display": "30 Jul 2026",
+      "summary": "What does the archive orbital solution predict, and how different is it from the old circular sketch?",
+      "sample_size_display": "1 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-30-rv-curve-hd189733b.png",
+      "figures_local": [
+        "data/images/2026-07-30-rv-curve-hd189733b.png",
+        "data/images/2026-07-30-rv-curve-hd189733b--figure-2.png"
+      ]
+    },
+    {
+      "id": "2026-07-30-periodogram-hat-p-7b",
+      "title": "HAT-P-7 b period and consistency audit",
+      "archive": "MAST \u00b7 Kepler",
+      "date": "2026-07-30",
+      "question": "Is the known transit independently recovered without obvious odd/even disagreement?",
+      "sample_size": 51324,
+      "results": [
+        "BLS period 2.205079 days",
+        "empirical permutation false-alarm probability \u2264 0.024 from 40 trials",
+        "box depth 5710 ppm; odd \u2212 even 140 \u00b1 206 ppm across 557 measured events"
+      ],
+      "validation": "The period is searched over 1.5\u20134 days, the peak is compared with 40 within-quarter permutations, and depths are checked by parity and observing quarter.",
+      "notebook": "mast/2026-07-30-periodogram-hat-p-7b/notebook.ipynb",
+      "hero": "mast/2026-07-30-periodogram-hat-p-7b/hatp7_period_false_alarm.png",
+      "figures": [
+        "mast/2026-07-30-periodogram-hat-p-7b/hatp7_period_false_alarm.png",
+        "mast/2026-07-30-periodogram-hat-p-7b/hatp7_folded_residuals.png",
+        "mast/2026-07-30-periodogram-hat-p-7b/hatp7_depth_consistency.png"
+      ],
+      "research_level": "Validated",
+      "claim_type": "Independent period recovery",
+      "provenance": [
+        "MAST Kepler KIC 10666592",
+        "18 *_llc.fits long-cadence products",
+        "quality flag = 0 and quarter-wise PDCSAP normalization"
+      ],
+      "artifacts": [
+        "mast/2026-07-30-periodogram-hat-p-7b/hatp7_all_quarters.csv",
+        "mast/2026-07-30-periodogram-hat-p-7b/hatp7_search_summary.csv",
+        "mast/2026-07-30-periodogram-hat-p-7b/hatp7_individual_transit_depths.csv",
+        "mast/2026-07-30-periodogram-hat-p-7b/hatp7_quarter_depths.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "Blind period search",
+          "status": "pass"
+        },
+        {
+          "name": "Permutation false-alarm test",
+          "status": "pass"
+        },
+        {
+          "name": "Odd/even comparison",
+          "status": "pass"
+        },
+        {
+          "name": "Quarter systematics",
+          "status": "reported"
+        }
+      ],
+      "limitations": [
+        "40 permutations provide only a coarse false-alarm bound",
+        "PDCSAP processing can introduce quarter-dependent depth changes",
+        "box model omits limb darkening, dilution, and correlated noise"
+      ],
+      "tags": [
+        "Kepler",
+        "HAT-P-7 b",
+        "BLS",
+        "false alarm",
+        "odd-even"
+      ],
+      "family": "MAST",
+      "date_display": "30 Jul 2026",
+      "summary": "Is the known transit independently recovered without obvious odd/even disagreement?",
+      "sample_size_display": "51,324 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-30-periodogram-hat-p-7b.png",
+      "figures_local": [
+        "data/images/2026-07-30-periodogram-hat-p-7b.png",
+        "data/images/2026-07-30-periodogram-hat-p-7b--figure-2.png",
+        "data/images/2026-07-30-periodogram-hat-p-7b--figure-3.png"
+      ]
+    },
+    {
+      "id": "2026-07-30-transit-depth-vs-radius",
+      "title": "Geometric transit-depth scaling audit",
+      "archive": "NASA Exoplanet Archive",
+      "date": "2026-07-30",
+      "question": "How much of the expected transit-depth variation is explained by planet radius after accounting for host-star radius?",
+      "sample_size": 4711,
+      "results": [
+        "4,711 unique planets with planet and host radii",
+        "archive-sample geometric slope 1.61; bootstrap 68% 1.59\u20131.62",
+        "slope approaches the area-law value 2 when host radius is restricted"
+      ],
+      "validation": "The relation is recomputed in four host-radius intervals and bootstrapped.",
+      "notebook": "exoplanet-archive/2026-07-30-transit-depth-vs-radius/notebook.ipynb",
+      "hero": "exoplanet-archive/2026-07-30-transit-depth-vs-radius/transit_depth_geometry_audit.png",
+      "figures": [
+        "exoplanet-archive/2026-07-30-transit-depth-vs-radius/transit_depth_geometry_audit.png",
+        "exoplanet-archive/2026-07-30-transit-depth-vs-radius/transit_depth_scaling_stress.png"
+      ],
+      "research_level": "Validated",
+      "claim_type": "Geometric scaling measurement",
+      "provenance": [
+        "NASA Exoplanet Archive pscomppars preserved query",
+        "planet radius and stellar radius used to calculate geometric depth"
+      ],
+      "artifacts": [
+        "data/audit_batches4_7/exoplanet_transiting_archive.csv",
+        "exoplanet-archive/2026-07-30-transit-depth-vs-radius/transit_depth_host_radius_stress.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "Unique planets",
+          "status": "pass"
+        },
+        {
+          "name": "Physical unit conversion",
+          "status": "pass"
+        },
+        {
+          "name": "Host-radius stress test",
+          "status": "pass"
+        }
+      ],
+      "limitations": [
+        "calculated geometric depths are not fitted observed depths",
+        "limb darkening and impact parameter are omitted",
+        "archive sample is heterogeneous"
+      ],
+      "tags": [
+        "exoplanets",
+        "transits",
+        "geometry",
+        "selection effects"
+      ],
+      "family": "Exoplanets",
+      "date_display": "30 Jul 2026",
+      "summary": "How much of the expected transit-depth variation is explained by planet radius after accounting for host-star radius?",
+      "sample_size_display": "4,711 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-30-transit-depth-vs-radius.png",
+      "figures_local": [
+        "data/images/2026-07-30-transit-depth-vs-radius.png",
+        "data/images/2026-07-30-transit-depth-vs-radius--figure-2.png"
+      ]
+    },
+    {
+      "id": "2026-07-30-eccentricity-distribution",
+      "title": "Exoplanet eccentricity recording audit",
+      "archive": "NASA Exoplanet Archive",
+      "date": "2026-07-30",
+      "question": "How strongly does the recorded eccentricity distribution differ between short- and long-period planets?",
+      "sample_size": 5233,
+      "results": [
+        "5,233 unique planets with recorded eccentricity",
+        "long-minus-short median contrast 0.160; bootstrap 95% 0.149\u20130.180",
+        "58.8% of selected rows record exactly zero"
+      ],
+      "validation": "Median contrast is bootstrapped and high-eccentricity fraction is swept across four thresholds.",
+      "notebook": "exoplanet-archive/2026-07-30-eccentricity-distribution/notebook.ipynb",
+      "hero": "exoplanet-archive/2026-07-30-eccentricity-distribution/eccentricity_period_groups.png",
+      "figures": [
+        "exoplanet-archive/2026-07-30-eccentricity-distribution/eccentricity_period_groups.png",
+        "exoplanet-archive/2026-07-30-eccentricity-distribution/eccentricity_bootstrap_stress.png"
+      ],
+      "research_level": "Validated",
+      "claim_type": "Period-stratified distribution comparison",
+      "provenance": [
+        "NASA Exoplanet Archive pscomppars preserved query",
+        "unique planet rows with eccentricity and period"
+      ],
+      "artifacts": [
+        "data/audit_batches4_7/exoplanet_composite_archive.csv",
+        "exoplanet-archive/2026-07-30-eccentricity-distribution/eccentricity_threshold_stress.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "Physical eccentricity bounds",
+          "status": "pass"
+        },
+        {
+          "name": "Period stratification",
+          "status": "pass"
+        },
+        {
+          "name": "Threshold stress",
+          "status": "pass"
+        }
+      ],
+      "limitations": [
+        "exact zeros can be fixed assumptions rather than measurements",
+        "uncertainty fields are incomplete",
+        "period groups mix planet masses and methods"
+      ],
+      "tags": [
+        "exoplanets",
+        "eccentricity",
+        "tidal evolution",
+        "archive conventions"
+      ],
+      "family": "Exoplanets",
+      "date_display": "30 Jul 2026",
+      "summary": "How strongly does the recorded eccentricity distribution differ between short- and long-period planets?",
+      "sample_size_display": "5,233 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-30-eccentricity-distribution.png",
+      "figures_local": [
+        "data/images/2026-07-30-eccentricity-distribution.png",
+        "data/images/2026-07-30-eccentricity-distribution--figure-2.png"
+      ]
+    },
+    {
+      "id": "2026-07-30-rv-curve-51-pegasi-b",
+      "title": "51 Peg b Keplerian radial-velocity audit",
+      "archive": "NASA Exoplanet Archive",
+      "date": "2026-07-30",
+      "question": "What does the archive orbital solution predict, and how different is it from the old circular sketch?",
+      "sample_size": 1,
+      "results": [
+        "period 4.230797 d, eccentricity 0.0063, adopted K 55.77 m/s",
+        "Keplerian-versus-circular RMS difference 0.249 m/s",
+        "one archive solution reconstructed; this is not a fit to time-series RV observations"
+      ],
+      "validation": "The exact archive row is retained, eccentric and circular models are compared, and inclination sensitivity is exposed.",
+      "notebook": "exoplanet-archive/2026-07-30-rv-curve-51-pegasi-b/notebook.ipynb",
+      "hero": "exoplanet-archive/2026-07-30-rv-curve-51-pegasi-b/rv_keplerian_comparison.png",
+      "figures": [
+        "exoplanet-archive/2026-07-30-rv-curve-51-pegasi-b/rv_keplerian_comparison.png",
+        "exoplanet-archive/2026-07-30-rv-curve-51-pegasi-b/rv_model_sensitivity.png"
+      ],
+      "research_level": "Reproduction",
+      "claim_type": "Archive-orbit reconstruction",
+      "provenance": [
+        "NASA Exoplanet Archive composite row",
+        "target 51 Peg b",
+        "semi-amplitude falls back to the value printed by the original executed notebook when absent from preserved table"
+      ],
+      "artifacts": [
+        "data/audit_batches4_7/exoplanet_composite_archive.csv",
+        "exoplanet-archive/2026-07-30-rv-curve-51-pegasi-b/rv_phase_model.csv",
+        "exoplanet-archive/2026-07-30-rv-curve-51-pegasi-b/inclination_mass_stress.csv"
+      ],
+      "quality_checks": [
+        {
+          "name": "Unique archive target",
+          "status": "pass"
+        },
+        {
+          "name": "Kepler equation solved",
+          "status": "pass"
+        },
+        {
+          "name": "Fit to observed RV epochs",
+          "status": "not attempted"
+        }
+      ],
+      "limitations": [
+        "phase zero and argument of periastron are arbitrary",
+        "no observation timestamps or instrumental offsets are fitted",
+        "composite values may come from different references"
+      ],
+      "tags": [
+        "exoplanets",
+        "radial velocity",
+        "51 Peg b",
+        "orbit model"
+      ],
+      "family": "Exoplanets",
+      "date_display": "30 Jul 2026",
+      "summary": "What does the archive orbital solution predict, and how different is it from the old circular sketch?",
+      "sample_size_display": "1 samples",
+      "dense": true,
+      "hero_local": "data/images/2026-07-30-rv-curve-51-pegasi-b.png",
+      "figures_local": [
+        "data/images/2026-07-30-rv-curve-51-pegasi-b.png",
+        "data/images/2026-07-30-rv-curve-51-pegasi-b--figure-2.png"
+      ]
+    }
+  ]
+}
