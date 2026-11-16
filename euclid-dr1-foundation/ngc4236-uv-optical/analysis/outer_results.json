@@ -1,0 +1,62 @@
+{
+  "FUV_filtered_sky_MAD": 0.00012523989085903403,
+  "NUV_filtered_sky_MAD": 0.00041709347844514526,
+  "FUV_peaks": 25,
+  "selection": "outside_d25",
+  "measured_outside_d25": 23,
+  "sky_cells": [
+    {
+      "minor_side": -1,
+      "major_lower_arcsec": -480,
+      "n": 2,
+      "above_control_median": 2
+    },
+    {
+      "minor_side": -1,
+      "major_lower_arcsec": -240,
+      "n": 1,
+      "above_control_median": 1
+    },
+    {
+      "minor_side": -1,
+      "major_lower_arcsec": 0,
+      "n": 3,
+      "above_control_median": 3
+    },
+    {
+      "minor_side": -1,
+      "major_lower_arcsec": 240,
+      "n": 2,
+      "above_control_median": 2
+    },
+    {
+      "minor_side": 1,
+      "major_lower_arcsec": -480,
+      "n": 7,
+      "above_control_median": 7
+    },
+    {
+      "minor_side": 1,
+      "major_lower_arcsec": -240,
+      "n": 3,
+      "above_control_median": 3
+    },
+    {
+      "minor_side": 1,
+      "major_lower_arcsec": 0,
+      "n": 2,
+      "above_control_median": 2
+    },
+    {
+      "minor_side": 1,
+      "major_lower_arcsec": 240,
+      "n": 3,
+      "above_control_median": 3
+    }
+  ],
+  "uv_knots": 23,
+  "usable_vis_with_at_least_3_controls": 23,
+  "above_control_median": 23,
+  "above_every_control": 20,
+  "median_excess_over_control_statistic": 91.48168497606362
+}
