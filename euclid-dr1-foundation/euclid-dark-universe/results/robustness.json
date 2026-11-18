@@ -1,0 +1,66 @@
+{
+  "arc": {
+    "band_results": {
+      "DES-G": {
+        "tried": 306,
+        "usable": 306,
+        "median_range_arcsec": [
+          5.824999999999992,
+          6.44999999999999
+        ],
+        "one_plane_mass_range_msun": [
+          7916580877157.358,
+          10780275508478.107
+        ]
+      },
+      "VIS": {
+        "tried": 306,
+        "usable": 306,
+        "median_range_arcsec": [
+          5.812499999999993,
+          6.324999999999991
+        ],
+        "one_plane_mass_range_msun": [
+          7882640590927.032,
+          10366484211017.596
+        ]
+      }
+    },
+    "deflector_redshifts": [
+      0.42,
+      0.44,
+      0.46
+    ],
+    "note": "Extraction and redshift sensitivity grid. Common imaging data and correlated sectors."
+  },
+  "stellar": {
+    "sample": 2161,
+    "specz_overlap": 30,
+    "all_at_0p30dex": 26,
+    "joint_stress_at_0p30dex": 7,
+    "overlap_photz_above_0p30dex": 0,
+    "overlap_specz_above_0p30dex": 0,
+    "note": "Uniform external mass sheet and assumed gas budgets are illustrations. Neither is fitted."
+  },
+  "bao": {
+    "q0_curved": -0.5377663132460351,
+    "profile_ranges": {
+      "delta1": [
+        -0.5687790652557357,
+        -0.5054847494137458
+      ],
+      "delta3p84": [
+        -0.5974069503087245,
+        -0.4732494387078815
+      ]
+    },
+    "leave_one_q0_range": [
+      -0.5534937469482768,
+      -0.5066879110157699
+    ],
+    "leave_one_delta_range": [
+      94.30323693917722,
+      165.5386331816419
+    ]
+  }
+}

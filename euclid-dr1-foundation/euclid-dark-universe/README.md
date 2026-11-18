@@ -12,6 +12,14 @@ Measure a lensing mass scale in an overlapping cluster field, test whether selec
 - Of 2,161 vetted public ECLIPSE models with stellar fits, 193 have a simple mass proxy above the upper fitted total stellar mass after lowering the radius and photo-z. Allowing another 0.30 dex of stellar mass leaves 26. Zero of 30 systems in the DESI-redshift overlap clear the same allowance. This is a candidate and sensitivity analysis. Gas masses, external convergence and alternative modelling remain open.
 - The 13 published DESI DR2 BAO distances prefer accelerating Lambda-CDM among the tested expansion histories. With a free common ruler scale and curvature, chi-square is 9.95 for the unrestricted fit and 173.28 when q0 is constrained to be non-negative. The galaxy-only direction of the result agrees. This is a DESI result.
 
+## Validation and RGB image
+
+The [observed RGB figure](results/Abell3128_RGB.png) combines Euclid NISP H, Euclid VIS and Blanco DECam g. Channel gains and stretch are documented for visual reproduction. The scientific plots and report text use grayscale.
+
+The arc extraction gives a VIS radius of 5.81–6.32 arcsec across 306 settings. The combined extraction and z = 0.42–0.46 sensitivity envelope is 7.88–10.37 trillion solar masses in the circular one-plane model. The catalogue stress test leaves seven models after allowing +0.30 dex in stellar mass, a uniform external convergence of 0.10 and gas equal to 25% of the enlarged stellar budget. Gas and convergence here are scenario inputs.
+
+For DESI DR2, the curved q0 profile gives a delta chi-square = 1 interval from −0.569 to −0.505. Seven separate omit-one-redshift fits give q0 from −0.553 to −0.507.
+
 ## Reproduce
 
 Open the notebook or run these commands from this directory:
@@ -23,6 +31,8 @@ Open the notebook or run these commands from this directory:
     python lens_budget.py inputs results
     python bao.py inputs/bao_mean.txt inputs/bao_cov.txt results/bao_fits.json
     python figures.py results
+    python rgb_composite.py inputs results
+    python robustness.py inputs results
     python make_note.py results Euclid_Dark_Universe_Research_Note.pdf
 
 The archive view includes four calibrated MER cutouts of 491 by 491 pixels. The catalogue analysis reads the 15,072-row public physical-properties table. The compressed BAO fit uses the 13 published distances with covariance, without reprocessing individual DESI galaxy spectra.

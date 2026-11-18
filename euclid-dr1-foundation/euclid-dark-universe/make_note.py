@@ -1,6 +1,7 @@
 """Render the day-one observational note and its figures."""
 from pathlib import Path
 import argparse
+from io import BytesIO
 import json
 from xml.sax.saxutils import escape
 
@@ -21,15 +22,15 @@ if all((FONT_DIR/f"{n}.ttf").exists() for n in ("DejaVuSans","DejaVuSans-Bold","
     SANS,SANS_BOLD,SERIF,SERIF_BOLD=("DejaVuSans","DejaVuSans-Bold","DejaVuSerif","DejaVuSerif-Bold")
     for face in (SANS,SANS_BOLD,SERIF,SERIF_BOLD):
         pdfmetrics.registerFont(TTFont(face,str(FONT_DIR/f"{face}.ttf")))
-INK=colors.HexColor("#17232c")
-BLUE=colors.HexColor("#125c70")
-MUTE=colors.HexColor("#4d616a")
-LINE=colors.HexColor("#ccd7db")
+INK=colors.HexColor("#171717")
+DARK=colors.HexColor("#232323")
+MUTE=colors.HexColor("#505050")
+LINE=colors.HexColor("#cdcdcd")
 STYLES={
-    "k":ParagraphStyle("section",fontName=SANS_BOLD,fontSize=9,leading=12,spaceAfter=10,textColor=BLUE),
+    "k":ParagraphStyle("section",fontName=SANS_BOLD,fontSize=9,leading=12,spaceAfter=10,textColor=DARK),
     "title":ParagraphStyle("title",fontName=SERIF_BOLD,fontSize=27,leading=30,spaceAfter=13,textColor=INK),
     "body":ParagraphStyle("body",fontName=SERIF,fontSize=10.5,leading=15,spaceAfter=9,textColor=INK),
-    "head":ParagraphStyle("head",fontName=SANS_BOLD,fontSize=10.7,leading=14,spaceBefore=9,spaceAfter=5,textColor=BLUE),
+    "head":ParagraphStyle("head",fontName=SANS_BOLD,fontSize=10.7,leading=14,spaceBefore=9,spaceAfter=5,textColor=DARK),
     "caption":ParagraphStyle("caption",fontName=SANS,fontSize=8.3,leading=11,spaceBefore=7,spaceAfter=9,textColor=MUTE),
     "ref":ParagraphStyle("ref",fontName=SERIF,fontSize=9.4,leading=12,spaceAfter=7,textColor=INK),
 }
@@ -42,6 +43,13 @@ def p(s,style="body"):
 def image(path,width=484):
     with Raster.open(path) as data:
         height=data.height*width/data.width
+        if path.name=="Abell3128_RGB.png":
+            preview=data.convert("RGB")
+            preview.thumbnail((1400,1500),Raster.Resampling.LANCZOS)
+            buffer=BytesIO()
+            preview.save(buffer,format="JPEG",quality=92,optimize=True,subsampling=0)
+            buffer.seek(0)
+            return Image(buffer,width=width,height=height)
     return Image(str(path),width=width,height=height)
 
 
@@ -52,10 +60,10 @@ def table(matrix,widths):
         ("FONT",(0,1),(-1,-1),SANS,8.35),
         ("BOTTOMPADDING",(0,0),(-1,-1),7),
         ("TOPPADDING",(0,0),(-1,-1),6),
-        ("BACKGROUND",(0,0),(-1,0),colors.HexColor("#eaf1f3")),
-        ("ROWBACKGROUNDS",(0,1),(-1,-1),[colors.white,colors.HexColor("#f6f8f9")]),
+        ("BACKGROUND",(0,0),(-1,0),colors.HexColor("#ebebeb")),
+        ("ROWBACKGROUNDS",(0,1),(-1,-1),[colors.white,colors.HexColor("#f6f6f6")]),
         ("LINEBELOW",(0,0),(-1,0),.5,LINE),
-        ("TEXTCOLOR",(0,0),(-1,0),BLUE),
+        ("TEXTCOLOR",(0,0),(-1,0),DARK),
         ("ALIGN",(1,0),(-1,-1),"RIGHT"),
     ]))
     return t
@@ -74,13 +82,19 @@ def footer(canvas,document):
 
 
 def ref(text,url):
-    return p(f'{escape(text)} <link href="{url}" color="#125c70">{escape(url)}</link>',"ref")
+    return p(f'{escape(text)} <link href="{url}" color="#242424">{escape(url)}</link>',"ref")
 
 
 def run(root,dest):
     arc=json.loads((root/"arc_geometry.json").read_text())
     mass=json.loads((root/"lens_budget.json").read_text())
     bao=json.loads((root/"bao_fits.json").read_text())
+    sensitive=json.loads((root/"robustness.json").read_text())
+    arc_check=sensitive["arc"]["band_results"]["VIS"]
+    stellar=sensitive["stellar"]
+    cosmic=sensitive["bao"]
+    range_vis=arc_check["median_range_arcsec"]
+    range_mass=arc_check["one_plane_mass_range_msun"]
     measurements=bao["full"]
     band=arc["per_band"]
     near=arc["foreground_counterfactual"]
@@ -107,8 +121,14 @@ def run(root,dest):
                for label,key in [("Euclid VIS","VIS"),("DECam g","DES-G"),("DECam i","DES-I")] for v in [band[key]]],
               [110,94,135,148]),
         PageBreak(),
+        p("OBSERVED THREE-BAND COMPOSITE","k"),
+        p("The gravitational arc in RGB","title"),
+        image(root/"Abell3128_RGB.png",width=455),
+        p("Figure 2. Red is Euclid NISP H, green is Euclid VIS, and blue is Blanco DECam g. The common 0.1 arcsec grid was checked at the four corners and image centre. Each channel was sky-subtracted and placed on AB zero point 30. Display gains (R, G, B) = (0.60, 2.15, 8.00), followed by a shared asinh intensity stretch, show structure across the different bands.","caption"),
+        p("The image retains each band's point-spread function. Use the calibrated FITS planes with PSF matching for a quantitative colour measurement. The report's radius measurements use the individual mosaics.","caption"),
+        PageBreak(),
         p("STRONG LENSING  /  PROJECTED MASS","k"),
-        p("Which redshift owns the arc?","title"),
+        p("Deflector redshift and inferred mass","title"),
         p(f"The {band['VIS']['median_arcsec']:.2f} arcsec VIS ridge agrees with the published DES Einstein-radius proxy "
           "of 6.1 ± 1.5 arcsec. The DECam g ridge is 6.22 arcsec. The broader DECam i range records band-dependent "
           "ridge ambiguity. The range across sectors describes morphology and extraction sensitivity."),
@@ -125,6 +145,8 @@ def run(root,dest):
           "The resulting proxy is sensitive to the mass profile and structure along the sightline. It estimates "
           "total projected gravitating mass in the assumed geometry. A two-plane lens model would be needed for "
           "a separate foreground contribution."),
+        p("Extraction and redshift sensitivity","head"),
+        p(f"The {arc_check['usable']} VIS settings vary the centre by up to 0.25 arcsec, the angular background window, the radial smoothing (0.05-0.20 arcsec), and whether edge sectors are included. Their median radii span {range_vis[0]:.2f}-{range_vis[1]:.2f} arcsec. Repeating the one-plane mass conversion over z = 0.42-0.46 gives {range_mass[0]/1e12:.2f}-{range_mass[1]/1e12:.2f} trillion solar masses. These are sensitivity bounds over selected settings. The grid reuses the same photons."),
         p("Independent checks","head"),
         p("The published X-ray spectrum identifies the redshift of the gas component. Earlier DECam weak-lensing "
           "tomography independently found a background mass contribution. The image comparison here uses Euclid "
@@ -141,7 +163,7 @@ def run(root,dest):
           "Setting it to one gives a conservative geometric mass proxy for each circularized model radius. "
           "We compare this aperture proxy to the catalogue's total fitted stellar mass, which includes remnants."),
         image(root/"Lens_Stellar_Budget.png"),
-        p("Figure 2. The comparison uses the lower fitted radius and photometric redshift and upper fitted stellar mass. "
+        p("Figure 3. The comparison uses the lower fitted radius and photometric redshift and upper fitted stellar mass. "
           "Dashed lines mark equality and the extra +0.30 dex stellar-mass allowance. Gravity, light and sightline matter each affect the interpretation.","caption"),
         table([["Comparison","Systems above stellar budget","Systems tested"],
                ["Catalogue central values",str(mass["central_estimate_above_stars"]),"2,161"],
@@ -149,17 +171,15 @@ def run(root,dest):
                ["Same bounds and +0.30 dex stellar mass",str(mass["lower_radius_lower_z_upper_stars_plus_0p30dex"]),"2,161"],
                ["DESI-redshift overlap with +0.30 dex allowance",str(mass["specz_subset_above_stars_plus_0p30dex"]),str(mass["specz_subset"])]],
               [250,142,95]),
-        p("Counts are sensitivity checks. The plug-in bounds are not a joint uncertainty interval. "
-          "The spectroscopic overlap is small and selected. Gas, external convergence, model shape and "
-          "stellar-population systematics remain relevant. The 26 systems form a follow-up list."),
+        p(f"In an illustrative joint stress test, use a uniform external convergence of 0.10, lowering the attributed lens mass proxy by 10%, and allow gas equal to 25% of the enlarged stellar budget. {stellar['joint_stress_at_0p30dex']} systems clear both allowances. The gas and convergence inputs are assumed values. The 30-system DESI overlap contains zero of the 26 photometric-redshift excesses at +0.30 dex. Those candidates therefore still need spectroscopic validation."),
         PageBreak(),
         p("COSMIC EXPANSION  /  DESI DR2 BAO","k"),
-        p("Does the expansion accelerate?","title"),
+        p("BAO fits with and without acceleration","title"),
         p("We fitted the 13 published galaxy and Lyman-alpha BAO distances with their full 13 × 13 covariance. "
           "For each late-time FLRW history we profiled the ruler factor c/(H<sub>0</sub>r<sub>d</sub>) analytically. "
           "The shape test therefore uses a common scale left free in every fit."),
         image(root/"DESI_BAO_Expansion.png"),
-        p("Figure 3. Each point is a prediction minus the observed BAO distance in units of its reported marginal error. "
+        p("Figure 4. Each point is a prediction minus the observed BAO distance in units of its reported marginal error. "
           "The numerical fit uses the full covariance, including the correlated transverse and radial distances.","caption"),
     ]
     labels={"flat_lambda":"Flat Lambda-CDM","curved_lambda":"Curved Lambda-CDM",
@@ -177,6 +197,19 @@ def run(root,dest):
           "The best curved fit also accelerates. Restricting the curved model to q0 ≥ 0 raises chi-square "
           "from 9.95 to 173.28. Removing the two Lyman-alpha distances still gives 9.87 versus 111.00. "
           "These comparisons apply to the tested FLRW histories and leave the physical cause of acceleration open."),
+        PageBreak(),
+        p("COSMIC EXPANSION  /  SENSITIVITY","k"),
+        p("Curvature and redshift leverage","title"),
+        p("For curved Lambda-CDM, q0 = 1.5 Omega_m + Omega_k - 1. At each fixed q0 we minimize chi-square over matter density and the common BAO ruler scale, with curvature set by that equation. We retain non-negative matter and Lambda densities and expanding histories over the redshift span."),
+        image(root/"DESI_BAO_Robustness.png"),
+        p("Figure 5. Left, profile chi-square relative to its minimum. The dashed levels are 1 and 3.84. Right, best-fit q0 after removing all distances at one redshift and refitting with the corresponding covariance submatrix.","caption"),
+        table([["Curved Lambda-CDM result","q0 / range"],
+               ["Full sample, minimum",f'{cosmic["q0_curved"]:.3f}'],
+               ["Profile delta chi-square = 1",f'{cosmic["profile_ranges"]["delta1"][0]:.3f} to {cosmic["profile_ranges"]["delta1"][1]:.3f}'],
+               ["Profile delta chi-square = 3.84",f'{cosmic["profile_ranges"]["delta3p84"][0]:.3f} to {cosmic["profile_ranges"]["delta3p84"][1]:.3f}'],
+               ["Omit each redshift group in turn",f'{cosmic["leave_one_q0_range"][0]:.3f} to {cosmic["leave_one_q0_range"][1]:.3f}']],
+              [290,197]),
+        p(f"Across the seven omissions, the non-acceleration constraint raises chi-square by {cosmic['leave_one_delta_range'][0]:.1f} to {cosmic['leave_one_delta_range'][1]:.1f}. The profile ranges condition on the curved Lambda-CDM model and the published BAO covariance. They quantify present acceleration within that model family."),
         PageBreak(),
         p("DATA AND REPRODUCIBILITY","k"),
         p("Measurements and sources","title"),

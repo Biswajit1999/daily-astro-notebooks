@@ -52,14 +52,17 @@ def profile(data,w,center,angle_grid,control):
 def ridge(data,w,center,angle,width=2.5):
     control=sample(data,w,center,np.arange(-65,125,5),RADII)
     profile_value=profile(data,w,center,np.linspace(angle-width,angle+width,11),control)
-    inside=(RADII>=BETWEEN[0])&(RADII<=BETWEEN[1])
-    index=np.flatnonzero(inside)
+    return strongest_ridge(profile_value),profile_value
+
+
+def strongest_ridge(profile_value):
+    index=np.flatnonzero((RADII>=BETWEEN[0])&(RADII<=BETWEEN[1]))
     peaks=find_peaks(profile_value)[0]
     allowed=np.intersect1d(index,peaks)
     if not len(allowed):
-        return None,profile_value
+        return None
     strongest=allowed[np.argmax(profile_value[allowed])]
-    return float(RADII[strongest]),profile_value
+    return float(RADII[strongest])
 
 
 def geometry(z,theta):
@@ -118,14 +121,14 @@ def analyse(folder, out):
         extent=((-x-.5)*.1,(d.shape[1]-x-.5)*.1,(-y-.5)*.1,(d.shape[0]-y-.5)*.1)
         ax.imshow(np.arcsinh((d-bg)/(3*noise)),extent=extent,origin="lower",
                   interpolation="nearest",cmap="gray",vmin=-.35,vmax=4.55)
-        ax.scatter(0,0,marker="+",s=28,linewidths=.8,color="#ffc467")
-        ax.scatter((px-x)*.1,(py-y)*.1,facecolors="none",edgecolors="#ffc467",s=42,linewidths=.9)
+        ax.scatter(0,0,marker="+",s=34,linewidths=1.,color="black")
+        ax.scatter((px-x)*.1,(py-y)*.1,facecolors="none",edgecolors="white",s=45,linewidths=.9)
         if band in ("VIS","DES-G"):
             found=[r for r in measurements if r["band"]==band and r["arc_ridge_arcsec"] is not None]
             directions=np.deg2rad([r["pa_deg"] for r in found])
             position=np.array([r["arc_ridge_arcsec"] for r in found])
-            ax.scatter(-np.sin(directions)*position,np.cos(directions)*position,s=9,
-                       c="#61e6e5",linewidths=0)
+            ax.scatter(-np.sin(directions)*position,np.cos(directions)*position,s=12,
+                       facecolors="white",edgecolors="black",linewidths=.45)
         ax.set(xlim=(-11,11),ylim=(-11,11),title=LABELS[band],xticks=[],yticks=[])
         for spine in ax.spines.values(): spine.set_visible(False)
     axs[0].plot([-9,-4],[-9,-9],c="white",lw=2)
@@ -133,7 +136,7 @@ def analyse(folder, out):
     axs[0].text(-10.1,9.4,"N ↑   E ←",c="white",fontsize=8)
     fig.subplots_adjust(left=.03,right=.97,top=.83,bottom=.14,wspace=.07)
     fig.text(.035,.944,"DES J0330−5228 in the Abell 3128 sightline",fontsize=16,fontweight="bold")
-    fig.text(.035,.074,"Gold marks the literature lens centre and arc centroid. Cyan shows measured ridge points.",fontsize=9)
+    fig.text(.035,.074,"Cross and open ring mark the literature centre and arc centroid. White dots show measured ridge points.",fontsize=8.5)
     fig.text(.035,.035,"Images ESA/Euclid/Euclid Consortium/NASA and DES/DECam via the IRSA MER archive.",fontsize=8,color=".3")
     fig.savefig(out/"Abell3128_Observed_Arc.png",dpi=190)
     plt.close(fig)

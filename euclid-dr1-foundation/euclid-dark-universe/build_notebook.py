@@ -172,11 +172,41 @@ for key in ("full","without_lyman_alpha","without_lowest_z"):
           f'curved with q0 >= 0 {v["curved_nonaccelerating_lambda"]["chi2"]:.2f}')
 """),
 markdown("""
+## 5. Observed RGB composite
+
+NISP H maps to red, VIS to green, and Blanco DECam g to blue. The channels start on the verified common MER grid and are converted to a common AB zero-point scale. Display gains and a shared asinh stretch bring out the arc and central galaxy. Quantitative measurements use the calibrated FITS cutouts. The band-dependent point-spread functions are visible.
+"""),
+code("""
+from rgb_composite import composite
+
+rgb=composite(inputs,results)
+display(pd.DataFrame(rgb["channels"]).T)
+display(Image(filename=str(results/"Abell3128_RGB.png")))
+"""),
+markdown("""
+## 6. Sensitivity to extraction and cosmological choices
+
+Re-measure the arc over centre offsets, alternative azimuthal backgrounds, smoothing widths, and sector subsets. Each solution uses the same observed images. Recompute the one-plane mass proxy over a limited deflector-redshift grid. Apply a simple uniform sheet and a gas allowance to the catalogue check as illustrative scenarios.
+
+For the BAO fit, profile the present deceleration parameter with curvature free. Omit all distances at one redshift at a time and carry the corresponding covariance block into each refit.
+"""),
+code("""
+from robustness import analyse as stress_tests
+
+stability=stress_tests(inputs,results)
+display(pd.DataFrame(stability["arc"]["band_results"]).T)
+display(pd.DataFrame([stability["stellar"]]))
+display(pd.read_csv(results/"bao_leave_one_redshift.csv").round(4))
+display(Image(filename=str(results/"DESI_BAO_Robustness.png")))
+"""),
+markdown("""
 ## What we found
 
 - The same southwest arc gives a median ridge radius of **6.06″ in Euclid VIS** and **6.22″ in DECam g**. The circular mass proxy is **9.04 × 10¹² solar masses** for a deflector at z = 0.44. Assigning it to the foreground redshift would reduce that estimate by a factor of **7.88**.
 - The catalogue check leaves **26 of 2,161** above the stellar budget after the extra 0.30 dex allowance. **Zero of 30** in the DESI-redshift overlap pass the same allowance. This is an observed-catalogue sensitivity test.
 - Curved Lambda-CDM gives **χ² = 9.95** for the DESI distances and **χ² = 173.28** if constrained to present non-acceleration. Removing Lyman-alpha distances gives **9.87 versus 111.00**. The result supports acceleration within these FLRW choices.
+
+The 306 usable VIS extractions span **5.81–6.32″** in median radius. Coupled to a deflector redshift range of 0.42–0.46, they give a one-plane mass sensitivity range of **7.88–10.37 trillion solar masses**. Seven catalogue systems still clear the stellar budget with the +0.30 dex allowance, a uniform external convergence of 0.10 and the illustrative gas allowance. In the curved BAO fit the profile Δχ² = 1 interval is **−0.569 to −0.505**. The seven omitted-redshift fits give **−0.553 to −0.507**.
 
 The observed Euclid cutouts and catalogue support the lensing tests. The acceleration result uses DESI measurements. The sound-horizon scale was profiled in all cases. A measurement of evolving dark energy would require a separate parameter analysis and additional data.
 """),

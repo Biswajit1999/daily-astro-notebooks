@@ -1,0 +1,31 @@
+{
+  "channels": {
+    "R": {
+      "band": "NIR-H",
+      "AB_zeropoint": 30.0,
+      "sky_offset_native_units": 0.5116294026374817,
+      "display_gain": 0.6,
+      "header_grid_max_separation_arcsec": 0.0
+    },
+    "G": {
+      "band": "VIS",
+      "AB_zeropoint": 24.5,
+      "sky_offset_native_units": 0.0008454173803329468,
+      "display_gain": 2.15,
+      "header_grid_max_separation_arcsec": 0.0
+    },
+    "B": {
+      "band": "DES-G",
+      "AB_zeropoint": 30.0,
+      "sky_offset_native_units": 0.04499943181872368,
+      "display_gain": 8.0,
+      "header_grid_max_separation_arcsec": 0.0
+    }
+  },
+  "field_width_arcsec": 29.0,
+  "pixel_scale_arcsec": 0.100000000000008,
+  "display_method": "Common zero point 30, subjective per-band display gains, shared asinh intensity",
+  "scale_in_common_imaging_units": 27.09848938607395,
+  "softening_in_common_imaging_units": 1.8065659590715968,
+  "photometric_use": "Display only. Band-dependent PSFs were retained."
+}

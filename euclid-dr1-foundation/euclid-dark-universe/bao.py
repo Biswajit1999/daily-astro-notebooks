@@ -30,7 +30,7 @@ def shape(z, tags, om, ok, w=-1.):
     return np.select([tags=="DM_over_rs", tags=="DH_over_rs", tags=="DV_over_rs"], [m,h,v], default=np.nan)
 
 
-def fit(mean, cov, mask=None):
+def profile_function(mean, cov, mask=None):
     if mask is None:
         mask = np.ones(len(mean),dtype=bool)
     samples = mean[mask]
@@ -43,10 +43,18 @@ def fit(mean, cov, mask=None):
     yw=whiten(y)
     def profile(om, ok=0):
         a=shape(z,tags,om,ok)
+        if not np.isfinite(a).all():
+            return float("inf"), float("nan"), a
         w=whiten(a)
         scale=float((w@yw)/(w@w))
         r=yw-scale*w
         return float(r@r), scale, a*scale
+    return profile
+
+
+def fit(mean, cov, mask=None):
+    profile = profile_function(mean, cov, mask)
+    n = len(mean) if mask is None else int(mask.sum())
     solutions = {}
     specs = {
         "flat_lambda": ((.002,.999),lambda x:0.),
@@ -67,16 +75,14 @@ def fit(mean, cov, mask=None):
         chisq, scale, pred=profile(om,ok)
         solutions[label]=dict(omega_m=om,omega_k=ok,omega_lambda=1-om-ok,
                               q0=1.5*om+ok-1,chi2=chisq,
-                              ruler_scale=scale,prediction=pred.tolist(),n=len(z))
+                              ruler_scale=scale,prediction=pred.tolist(),n=n)
     for require_deceleration in (False,True):
         def physics(x):
             om,ok=x
             return np.array([1-om-ok,1.5*om+ok-1]) if require_deceleration else np.array([1-om-ok])
 
         def curvature_fit(x):
-            if not np.isfinite(shape(z,tags,*x)).all():
-                return 1e10
-            return profile(*x)[0]
+            return min(profile(*x)[0],1e10)
 
         starts=[(.3,0.),(.7,0.),(.4,.6),(.9,-.1),(.9,.06),(1.3,-.5)]
         fits=[minimize(curvature_fit,x,method="SLSQP",bounds=[(.0001,2.0),(-1.2,1.)],
@@ -89,7 +95,7 @@ def fit(mean, cov, mask=None):
         name="curved_nonaccelerating_lambda" if require_deceleration else "curved_lambda"
         solutions[name]=dict(omega_m=om,omega_k=ok,omega_lambda=1-om-ok,
                             q0=1.5*om+ok-1,chi2=chisq,ruler_scale=scale,
-                            prediction=pred.tolist(),n=len(z))
+                            prediction=pred.tolist(),n=n)
     best=solutions["flat_lambda"]
     from scipy.optimize import brentq
     lo,hi = (brentq(lambda x:profile(x)[0]-best["chi2"]-1,*b)
