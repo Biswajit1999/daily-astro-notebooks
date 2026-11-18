@@ -1,0 +1,794 @@
+{
+  "EDN-001": {
+    "candidate": {
+      "tile": "101829777",
+      "sign": "1",
+      "vis_y1": "2016",
+      "vis_x1": "4497",
+      "vis_y2": "2012",
+      "vis_x2": "4504",
+      "vis_score1": "852.073974609375",
+      "vis_score2": "256.581298828125",
+      "vis_peak_ratio": "0.3011256336151997",
+      "vis_dip": "1.0174061664687695",
+      "flags": "",
+      "ra1": 273.07927127449216,
+      "dec1": 64.22066609669457,
+      "ra2": 273.07882454782504,
+      "dec2": 64.22055470673757,
+      "ra": 273.079047910709,
+      "dec": 64.2206104018866,
+      "sep_arcsec": 0.8062251800238035,
+      "pa_deg": "240.17309603115172",
+      "j_state": "pass",
+      "j_score1": "542.4905395507812",
+      "j_score2": "240.49925231933594",
+      "j_sep_arcsec": "0.8062257748298549",
+      "j_dip": "0.46449393033981323",
+      "j_noise": "0.10980381071567535",
+      "j_x1": "4497",
+      "j_y1": "2016",
+      "j_x2": "4504",
+      "j_y2": "2012",
+      "shift_state": "no_local_peak",
+      "shift_noise": "0.10841461271047592",
+      "rank": "1",
+      "id": "EDN-001",
+      "shift_score1": "",
+      "shift_score2": "",
+      "shift_sep_arcsec": "",
+      "shift_dip": "",
+      "shift_x1": "",
+      "shift_y1": "",
+      "shift_x2": "",
+      "shift_y2": ""
+    },
+    "images": {
+      "VIS": {
+        "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101829777/VIS/EUC_MER_BGSUB-MOSAIC-VIS_TILE101829777-6CD2B3_20250822T095429.755828Z_00.00.fits",
+        "etag": "\"7603f13df9d2e2ad79417a7784e00afc-80\"",
+        "unit": "ADU/s",
+        "coverage": 1.0,
+        "background": 0.0004436900489963591,
+        "pixel_mad_sigma": 0.0006958514568395913,
+        "component_aperture_contrast": [
+          240.6108155875785,
+          159.6487626020318
+        ],
+        "blank_apertures": 132,
+        "aperture_diameter_arcsec": 1.2
+      },
+      "J": {
+        "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101829777/NISP/EUC_MER_BGSUB-MOSAIC-NIR-J_TILE101829777-7B0284_20250821T134506.130110Z_00.00.fits",
+        "etag": "\"ac387391aa514839550ff58fc16cd7fa-80\"",
+        "unit": "ELECTRON/s",
+        "coverage": 1.0,
+        "background": 0.2715808153152466,
+        "pixel_mad_sigma": 0.29015588760375977,
+        "component_aperture_contrast": [
+          281.7449163915586,
+          211.7474988302938
+        ],
+        "blank_apertures": 132,
+        "aperture_diameter_arcsec": 1.2
+      },
+      "HSC i2": {
+        "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101829777/HSC/EUC_MER_BGSUB-MOSAIC-WISHES-I2_TILE101829777-FC40CA_20250821T113214.016504Z_00.00.fits",
+        "etag": "\"467bb2e8fb88c7de5208acdc4cea893e-80\"",
+        "bytes": 416165760,
+        "header_sha256": "f13054a79ee54e1e48d057a9998b915056198327e95b53ffdc86bd7149f1786d",
+        "plan": "MER_ProcessTile_EUCLID_2.0.32-DATA_RELEASE_DEEP-trochequ-PLAN-000002",
+        "unit": "DN / pixel",
+        "magzero": 30.0,
+        "date_obs": null,
+        "shape": [
+          10200,
+          10200
+        ],
+        "ranges": [
+          {
+            "start": 160635360,
+            "end_exclusive": 169244160,
+            "sha256": "5870c92cefd25908865e973cbf7d76bf907f77df52676f3e83e89ea797563b02"
+          }
+        ],
+        "facility": "Subaru/HSC; WISHES image resampled by MER",
+        "coverage": 1.0,
+        "background": 0.12699685990810394,
+        "pixel_mad_sigma": 0.23519709706306458,
+        "component_aperture_contrast": [
+          135.9149468673338,
+          96.06081973758128
+        ],
+        "blank_apertures": 132,
+        "aperture_diameter_arcsec": 1.2
+      }
+    },
+    "catalogues": {
+      "gaia": {
+        "endpoint": "https://gea.esac.esa.int/tap-server/tap/sync",
+        "adql": "SELECT TOP 100 source_id,ra,dec,ref_epoch,parallax,parallax_error,pmra,pmdec,ruwe,ipd_frac_multi_peak,phot_g_mean_mag FROM gaiadr3.gaia_source WHERE 1=CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',273.079047910709,64.2206104018866,0.001666667))",
+        "error": "Response was not the expected TAP CSV"
+      },
+      "simbad": {
+        "endpoint": "https://simbad.cds.unistra.fr/simbad/sim-tap/sync",
+        "adql": "SELECT TOP 100 main_id,otype,ra,dec,rvz_redshift,rvz_bibcode FROM basic WHERE 1=CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',273.079047910709,64.2206104018866,0.001666667))",
+        "error": "Command '['curl', '-fsSL', '--max-time', '17', '--retry', '1', 'https://simbad.cds.unistra.fr/simbad/sim-tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=SELECT+TOP+100+main_id%2Cotype%2Cra%2Cdec%2Crvz_redshift%2Crvz_bibcode+FROM+basic+WHERE+1%3DCONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C273"
+      },
+      "mast": {
+        "endpoint": "https://mast.stsci.edu/vo-tap/api/v0.1/caom/sync",
+        "adql": "SELECT TOP 100 obs_collection,obs_id,instrument_name,s_ra,s_dec,access_url,s_region FROM ivoa.obscore WHERE obs_collection IN ('HST','JWST') AND dataproduct_type='image' AND 1=INTERSECTS(s_region, CIRCLE('ICRS',273.079047910709,64.2206104018866,0.000277778))",
+        "error": "Command '['curl', '-fsSL', '--max-time', '17', '--retry', '1', 'https://mast.stsci.edu/vo-tap/api/v0.1/caom/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=SELECT+TOP+100+obs_collection%2Cobs_id%2Cinstrument_name%2Cs_ra%2Cs_dec%2Caccess_url%2Cs_region+FROM+ivoa.obscore+WHERE+obs_collection+IN+%28%27HST%27%2C%27JWST%27%"
+      },
+      "mer": {
+        "endpoint": "https://irsa.ipac.caltech.edu/TAP/sync",
+        "adql": "SELECT TOP 100 object_id,ra,dec,tileid,det_quality_flag,flag_vis,flag_j,parent_id,flux_vis_2fwhm_aper,flux_j_2fwhm_aper FROM euclid_dr1_mer_catalogue_deep_survey WHERE 1=CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',273.079047910709,64.2206104018866,0.000555556))",
+        "error": "Command '['curl', '-fsSL', '--max-time', '17', '--retry', '1', 'https://irsa.ipac.caltech.edu/TAP/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=SELECT+TOP+100+object_id%2Cra%2Cdec%2Ctileid%2Cdet_quality_flag%2Cflag_vis%2Cflag_j%2Cparent_id%2Cflux_vis_2fwhm_aper%2Cflux_j_2fwhm_aper+FROM+euclid_dr1_mer_catalogue_deep_s"
+      },
+      "wds": {
+        "query": "https://vizier.cfa.harvard.edu/viz-bin/asu-xml?-source=B%2Fwds%2Fwds&-c=273.079047910709+64.2206104018866&-c.rs=15&-out.max=100",
+        "error": "WDS server returned a query error"
+      }
+    }
+  },
+  "EDN-002": {
+    "candidate": {
+      "tile": "101829775",
+      "sign": "1",
+      "vis_y1": "3781",
+      "vis_x1": "147",
+      "vis_y2": "3789",
+      "vis_x2": "151",
+      "vis_score1": "226.77354431152344",
+      "vis_score2": "122.63335418701172",
+      "vis_peak_ratio": "0.5407745221235508",
+      "vis_dip": "1.2523393712277717",
+      "flags": "",
+      "ra1": 272.2168539212144,
+      "dec1": 64.26960276162377,
+      "ra2": 272.2165994906924,
+      "dec2": 64.26982530925291,
+      "ra": 272.21672670646603,
+      "dec": 64.26971403549358,
+      "sep_arcsec": 0.8944261929478535,
+      "pa_deg": "333.6034867868355",
+      "j_state": "pass",
+      "j_score1": "123.43486022949219",
+      "j_score2": "136.3161163330078",
+      "j_sep_arcsec": "0.9848857801796105",
+      "j_dip": "0.8509165644645691",
+      "j_noise": "0.08950682729482651",
+      "j_x1": "147",
+      "j_y1": "3781",
+      "j_x2": "151",
+      "j_y2": "3790",
+      "shift_state": "no_local_peak",
+      "shift_noise": "0.1036449447274208",
+      "rank": "2",
+      "id": "EDN-002",
+      "shift_score1": "",
+      "shift_score2": "",
+      "shift_sep_arcsec": "",
+      "shift_dip": "",
+      "shift_x1": "",
+      "shift_y1": "",
+      "shift_x2": "",
+      "shift_y2": ""
+    },
+    "images": {
+      "VIS": {
+        "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101829775/VIS/EUC_MER_BGSUB-MOSAIC-VIS_TILE101829775-1AD3E1_20250819T131504.530200Z_00.00.fits",
+        "etag": "\"2e4d963691711b970057a77854904b58-80\"",
+        "unit": "ADU/s",
+        "coverage": 1.0,
+        "background": 6.5853055275511e-05,
+        "pixel_mad_sigma": 0.0007280083955265582,
+        "component_aperture_contrast": [
+          99.56456585667372,
+          193.1255513998631
+        ],
+        "blank_apertures": 132,
+        "aperture_diameter_arcsec": 1.2
+      },
+      "J": {
+        "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101829775/NISP/EUC_MER_BGSUB-MOSAIC-NIR-J_TILE101829775-F7103E_20250819T045811.244564Z_00.00.fits",
+        "etag": "\"020eb28e6860d24367bc00add50db4f8-80\"",
+        "unit": "ELECTRON/s",
+        "coverage": 1.0,
+        "background": 0.03399832174181938,
+        "pixel_mad_sigma": 0.19060355424880981,
+        "component_aperture_contrast": [
+          119.03233694494931,
+          212.04269566367697
+        ],
+        "blank_apertures": 132,
+        "aperture_diameter_arcsec": 1.2
+      },
+      "HSC i2": {
+        "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101829775/HSC/EUC_MER_BGSUB-MOSAIC-WISHES-I2_TILE101829775-E80FB6_20250819T031909.316375Z_00.00.fits",
+        "etag": "\"a58c3b087e324b7d789e1f55cc64d10a-80\"",
+        "bytes": 416165760,
+        "header_sha256": "af59ba80754288310e0e61c619e42eed361fe50b50a940714e7c413b8745f072",
+        "plan": "MER_ProcessTile_EUCLID_2.0.32-DATA_RELEASE_DEEP-trochequ-PLAN-000002",
+        "unit": "DN / pixel",
+        "magzero": 30.0,
+        "date_obs": null,
+        "shape": [
+          10200,
+          10200
+        ],
+        "ranges": [
+          {
+            "start": 232892160,
+            "end_exclusive": 241500960,
+            "sha256": "798891fed4b43e379ee744e83796fedfb311b90aa9d218077ae3a1e0f539f6f5"
+          }
+        ],
+        "facility": "Subaru/HSC; WISHES image resampled by MER",
+        "coverage": 1.0,
+        "background": 0.007095160894095898,
+        "pixel_mad_sigma": 0.25269457697868347,
+        "component_aperture_contrast": [
+          44.55951834675884,
+          65.09705992264736
+        ],
+        "blank_apertures": 132,
+        "aperture_diameter_arcsec": 1.2
+      }
+    },
+    "catalogues": {
+      "gaia": {
+        "endpoint": "https://gea.esac.esa.int/tap-server/tap/sync",
+        "adql": "SELECT TOP 100 source_id,ra,dec,ref_epoch,parallax,parallax_error,pmra,pmdec,ruwe,ipd_frac_multi_peak,phot_g_mean_mag FROM gaiadr3.gaia_source WHERE 1=CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',272.21672670646603,64.26971403549358,0.001666667))",
+        "error": "Response was not the expected TAP CSV"
+      },
+      "simbad": {
+        "endpoint": "https://simbad.cds.unistra.fr/simbad/sim-tap/sync",
+        "adql": "SELECT TOP 100 main_id,otype,ra,dec,rvz_redshift,rvz_bibcode FROM basic WHERE 1=CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',272.21672670646603,64.26971403549358,0.001666667))",
+        "error": "Command '['curl', '-fsSL', '--max-time', '17', '--retry', '1', 'https://simbad.cds.unistra.fr/simbad/sim-tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=SELECT+TOP+100+main_id%2Cotype%2Cra%2Cdec%2Crvz_redshift%2Crvz_bibcode+FROM+basic+WHERE+1%3DCONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C272"
+      },
+      "mast": {
+        "endpoint": "https://mast.stsci.edu/vo-tap/api/v0.1/caom/sync",
+        "adql": "SELECT TOP 100 obs_collection,obs_id,instrument_name,s_ra,s_dec,access_url,s_region FROM ivoa.obscore WHERE obs_collection IN ('HST','JWST') AND dataproduct_type='image' AND 1=INTERSECTS(s_region, CIRCLE('ICRS',272.21672670646603,64.26971403549358,0.000277778))",
+        "error": "Command '['curl', '-fsSL', '--max-time', '17', '--retry', '1', 'https://mast.stsci.edu/vo-tap/api/v0.1/caom/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=SELECT+TOP+100+obs_collection%2Cobs_id%2Cinstrument_name%2Cs_ra%2Cs_dec%2Caccess_url%2Cs_region+FROM+ivoa.obscore+WHERE+obs_collection+IN+%28%27HST%27%2C%27JWST%27%"
+      },
+      "mer": {
+        "endpoint": "https://irsa.ipac.caltech.edu/TAP/sync",
+        "adql": "SELECT TOP 100 object_id,ra,dec,tileid,det_quality_flag,flag_vis,flag_j,parent_id,flux_vis_2fwhm_aper,flux_j_2fwhm_aper FROM euclid_dr1_mer_catalogue_deep_survey WHERE 1=CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',272.21672670646603,64.26971403549358,0.000555556))",
+        "error": "Command '['curl', '-fsSL', '--max-time', '17', '--retry', '1', 'https://irsa.ipac.caltech.edu/TAP/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=SELECT+TOP+100+object_id%2Cra%2Cdec%2Ctileid%2Cdet_quality_flag%2Cflag_vis%2Cflag_j%2Cparent_id%2Cflux_vis_2fwhm_aper%2Cflux_j_2fwhm_aper+FROM+euclid_dr1_mer_catalogue_deep_s"
+      },
+      "wds": {
+        "query": "https://vizier.cfa.harvard.edu/viz-bin/asu-xml?-source=B%2Fwds%2Fwds&-c=272.21672670646603+64.26971403549358&-c.rs=15&-out.max=100",
+        "error": "WDS server returned a query error"
+      }
+    }
+  },
+  "EDN-003": {
+    "candidate": {
+      "tile": "101829776",
+      "sign": "1",
+      "vis_y1": "1795",
+      "vis_x1": "2629",
+      "vis_y2": "1788",
+      "vis_x2": "2629",
+      "vis_score1": "478.3624267578125",
+      "vis_score2": "350.07342529296875",
+      "vis_peak_ratio": "0.7318163051952341",
+      "vis_dip": "0.9753882471433073",
+      "flags": "",
+      "ra1": 272.6282825234914,
+      "dec1": 64.2145528370954,
+      "ra2": 272.6282823251628,
+      "dec2": 64.21435839274935,
+      "ra": 272.62828242432676,
+      "dec": 64.21445561492239,
+      "sep_arcsec": 0.6999997146814796,
+      "pa_deg": "180.02542186391483",
+      "j_state": "pass",
+      "j_score1": "112.25714111328125",
+      "j_score2": "125.82765197753906",
+      "j_sep_arcsec": "0.7000000000000001",
+      "j_dip": "0.2940424084663391",
+      "j_noise": "0.09284703433513641",
+      "j_x1": "2629",
+      "j_y1": "1795",
+      "j_x2": "2629",
+      "j_y2": "1788",
+      "shift_state": "no_local_peak",
+      "shift_noise": "0.1050586923956871",
+      "rank": "3",
+      "id": "EDN-003",
+      "shift_score1": "",
+      "shift_score2": "",
+      "shift_sep_arcsec": "",
+      "shift_dip": "",
+      "shift_x1": "",
+      "shift_y1": "",
+      "shift_x2": "",
+      "shift_y2": ""
+    },
+    "images": {
+      "VIS": {
+        "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101829776/VIS/EUC_MER_BGSUB-MOSAIC-VIS_TILE101829776-68B5C8_20250810T090923.953070Z_00.00.fits",
+        "etag": "\"56f6588603ff8dcfd5e68609bd940094-80\"",
+        "unit": "ADU/s",
+        "coverage": 1.0,
+        "background": 9.235223842551932e-05,
+        "pixel_mad_sigma": 0.0006214717286638916,
+        "component_aperture_contrast": [
+          343.620540079486,
+          269.366967649452
+        ],
+        "blank_apertures": 132,
+        "aperture_diameter_arcsec": 1.2
+      },
+      "J": {
+        "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101829776/NISP/EUC_MER_BGSUB-MOSAIC-NIR-J_TILE101829776-879062_20250807T002833.298808Z_00.00.fits",
+        "etag": "\"2403c2b375509332af892a25b8c4dda3-80\"",
+        "unit": "ELECTRON/s",
+        "coverage": 1.0,
+        "background": 0.04270033538341522,
+        "pixel_mad_sigma": 0.19480036199092865,
+        "component_aperture_contrast": [
+          144.06440348560955,
+          148.22583074625112
+        ],
+        "blank_apertures": 132,
+        "aperture_diameter_arcsec": 1.2
+      },
+      "HSC i2": {
+        "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101829776/HSC/EUC_MER_BGSUB-MOSAIC-WISHES-I2_TILE101829776-9135AF_20250806T171645.893153Z_00.00.fits",
+        "etag": "\"fe55bdc1fe86f8677879e7027a54bfc6-80\"",
+        "bytes": 416165760,
+        "header_sha256": "dee38fbc3954d58f3c524dcebf15c0506952e5e3c956129ccb0a2495062a5345",
+        "plan": "MER_ProcessTile_EUCLID_2.0.32-DATA_RELEASE_DEEP-trochequ-PLAN-000002",
+        "unit": "DN / pixel",
+        "magzero": 30.0,
+        "date_obs": null,
+        "shape": [
+          10200,
+          10200
+        ],
+        "ranges": [
+          {
+            "start": 151536960,
+            "end_exclusive": 160145760,
+            "sha256": "b73ef307fde49caede8d77cd5b4a061fb94e9fd3004a2dd46e080323eb0a4005"
+          }
+        ],
+        "facility": "Subaru/HSC; WISHES image resampled by MER",
+        "coverage": 1.0,
+        "background": 0.011830166913568974,
+        "pixel_mad_sigma": 0.22888921201229095,
+        "component_aperture_contrast": [
+          137.31339156766123,
+          112.46691839208356
+        ],
+        "blank_apertures": 132,
+        "aperture_diameter_arcsec": 1.2
+      }
+    },
+    "catalogues": {
+      "gaia": {
+        "endpoint": "https://gea.esac.esa.int/tap-server/tap/sync",
+        "adql": "SELECT TOP 100 source_id,ra,dec,ref_epoch,parallax,parallax_error,pmra,pmdec,ruwe,ipd_frac_multi_peak,phot_g_mean_mag FROM gaiadr3.gaia_source WHERE 1=CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',272.62828242432676,64.21445561492239,0.001666667))",
+        "error": "Response was not the expected TAP CSV"
+      },
+      "simbad": {
+        "endpoint": "https://simbad.cds.unistra.fr/simbad/sim-tap/sync",
+        "adql": "SELECT TOP 100 main_id,otype,ra,dec,rvz_redshift,rvz_bibcode FROM basic WHERE 1=CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',272.62828242432676,64.21445561492239,0.001666667))",
+        "error": "Command '['curl', '-fsSL', '--max-time', '17', '--retry', '1', 'https://simbad.cds.unistra.fr/simbad/sim-tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=SELECT+TOP+100+main_id%2Cotype%2Cra%2Cdec%2Crvz_redshift%2Crvz_bibcode+FROM+basic+WHERE+1%3DCONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C272"
+      },
+      "mast": {
+        "endpoint": "https://mast.stsci.edu/vo-tap/api/v0.1/caom/sync",
+        "adql": "SELECT TOP 100 obs_collection,obs_id,instrument_name,s_ra,s_dec,access_url,s_region FROM ivoa.obscore WHERE obs_collection IN ('HST','JWST') AND dataproduct_type='image' AND 1=INTERSECTS(s_region, CIRCLE('ICRS',272.62828242432676,64.21445561492239,0.000277778))",
+        "error": "Command '['curl', '-fsSL', '--max-time', '17', '--retry', '1', 'https://mast.stsci.edu/vo-tap/api/v0.1/caom/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=SELECT+TOP+100+obs_collection%2Cobs_id%2Cinstrument_name%2Cs_ra%2Cs_dec%2Caccess_url%2Cs_region+FROM+ivoa.obscore+WHERE+obs_collection+IN+%28%27HST%27%2C%27JWST%27%"
+      },
+      "mer": {
+        "endpoint": "https://irsa.ipac.caltech.edu/TAP/sync",
+        "adql": "SELECT TOP 100 object_id,ra,dec,tileid,det_quality_flag,flag_vis,flag_j,parent_id,flux_vis_2fwhm_aper,flux_j_2fwhm_aper FROM euclid_dr1_mer_catalogue_deep_survey WHERE 1=CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',272.62828242432676,64.21445561492239,0.000555556))",
+        "error": "Command '['curl', '-fsSL', '--max-time', '17', '--retry', '1', 'https://irsa.ipac.caltech.edu/TAP/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=SELECT+TOP+100+object_id%2Cra%2Cdec%2Ctileid%2Cdet_quality_flag%2Cflag_vis%2Cflag_j%2Cparent_id%2Cflux_vis_2fwhm_aper%2Cflux_j_2fwhm_aper+FROM+euclid_dr1_mer_catalogue_deep_s"
+      },
+      "wds": {
+        "query": "https://vizier.cfa.harvard.edu/viz-bin/asu-xml?-source=B%2Fwds%2Fwds&-c=272.62828242432676+64.21445561492239&-c.rs=15&-out.max=100",
+        "error": "WDS server returned a query error"
+      }
+    }
+  },
+  "EDN-004": {
+    "candidate": {
+      "tile": "101829775",
+      "sign": "1",
+      "vis_y1": "4326",
+      "vis_x1": "5321",
+      "vis_y2": "4329",
+      "vis_x2": "5330",
+      "vis_score1": "213.30398559570312",
+      "vis_score2": "77.42156219482422",
+      "vis_peak_ratio": "0.362963528989618",
+      "vis_dip": "1.3247771788393587",
+      "flags": "",
+      "ra1": 271.8857218797463,
+      "dec1": 64.28479032426505,
+      "ra2": 271.88514527347684,
+      "dec2": 64.2848730899105,
+      "ra": 271.88543357704395,
+      "dec": 64.28483170737134,
+      "sep_arcsec": 0.9486818382358805,
+      "pa_deg": "288.3051823517563",
+      "j_state": "pass",
+      "j_score1": "93.3285140991211",
+      "j_score2": "185.5603790283203",
+      "j_sep_arcsec": "1.044030650891055",
+      "j_dip": "0.881945013999939",
+      "j_noise": "0.10629568994045258",
+      "j_x1": "5320",
+      "j_y1": "4326",
+      "j_x2": "5330",
+      "j_y2": "4329",
+      "shift_state": "no_local_peak",
+      "shift_noise": "0.1175612360239029",
+      "rank": "4",
+      "id": "EDN-004",
+      "shift_score1": "",
+      "shift_score2": "",
+      "shift_sep_arcsec": "",
+      "shift_dip": "",
+      "shift_x1": "",
+      "shift_y1": "",
+      "shift_x2": "",
+      "shift_y2": ""
+    },
+    "images": {
+      "VIS": {
+        "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101829775/VIS/EUC_MER_BGSUB-MOSAIC-VIS_TILE101829775-1AD3E1_20250819T131504.530200Z_00.00.fits",
+        "etag": "\"2e4d963691711b970057a77854904b58-80\"",
+        "unit": "ADU/s",
+        "coverage": 1.0,
+        "background": 0.00019802182214334607,
+        "pixel_mad_sigma": 0.0005587234627455473,
+        "component_aperture_contrast": [
+          196.4443028124806,
+          50.47844440918592
+        ],
+        "blank_apertures": 132,
+        "aperture_diameter_arcsec": 1.2
+      },
+      "J": {
+        "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101829775/NISP/EUC_MER_BGSUB-MOSAIC-NIR-J_TILE101829775-F7103E_20250819T045811.244564Z_00.00.fits",
+        "etag": "\"020eb28e6860d24367bc00add50db4f8-80\"",
+        "unit": "ELECTRON/s",
+        "coverage": 1.0,
+        "background": 0.1086789146065712,
+        "pixel_mad_sigma": 0.20226852595806122,
+        "component_aperture_contrast": [
+          172.02344424770757,
+          207.9763399918749
+        ],
+        "blank_apertures": 132,
+        "aperture_diameter_arcsec": 1.2
+      },
+      "HSC i2": {
+        "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101829775/HSC/EUC_MER_BGSUB-MOSAIC-WISHES-I2_TILE101829775-E80FB6_20250819T031909.316375Z_00.00.fits",
+        "etag": "\"a58c3b087e324b7d789e1f55cc64d10a-80\"",
+        "bytes": 416165760,
+        "header_sha256": "af59ba80754288310e0e61c619e42eed361fe50b50a940714e7c413b8745f072",
+        "plan": "MER_ProcessTile_EUCLID_2.0.32-DATA_RELEASE_DEEP-trochequ-PLAN-000002",
+        "unit": "DN / pixel",
+        "magzero": 30.0,
+        "date_obs": null,
+        "shape": [
+          10200,
+          10200
+        ],
+        "ranges": [
+          {
+            "start": 255005760,
+            "end_exclusive": 263614560,
+            "sha256": "410e1406b706921f85f4d4ee3628cab71686c9b66364888edb5d4617eeceff0f"
+          }
+        ],
+        "facility": "Subaru/HSC; WISHES image resampled by MER",
+        "coverage": 1.0,
+        "background": 0.11708876490592957,
+        "pixel_mad_sigma": 0.2461138367652893,
+        "component_aperture_contrast": [
+          70.06600295940818,
+          24.27197352081633
+        ],
+        "blank_apertures": 132,
+        "aperture_diameter_arcsec": 1.2
+      }
+    },
+    "catalogues": {
+      "gaia": {
+        "endpoint": "https://gea.esac.esa.int/tap-server/tap/sync",
+        "adql": "SELECT TOP 100 source_id,ra,dec,ref_epoch,parallax,parallax_error,pmra,pmdec,ruwe,ipd_frac_multi_peak,phot_g_mean_mag FROM gaiadr3.gaia_source WHERE 1=CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',271.88543357704395,64.28483170737134,0.001666667))",
+        "error": "Response was not the expected TAP CSV"
+      },
+      "simbad": {
+        "endpoint": "https://simbad.cds.unistra.fr/simbad/sim-tap/sync",
+        "adql": "SELECT TOP 100 main_id,otype,ra,dec,rvz_redshift,rvz_bibcode FROM basic WHERE 1=CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',271.88543357704395,64.28483170737134,0.001666667))",
+        "error": "Command '['curl', '-fsSL', '--max-time', '17', '--retry', '1', 'https://simbad.cds.unistra.fr/simbad/sim-tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=SELECT+TOP+100+main_id%2Cotype%2Cra%2Cdec%2Crvz_redshift%2Crvz_bibcode+FROM+basic+WHERE+1%3DCONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C271"
+      },
+      "mast": {
+        "endpoint": "https://mast.stsci.edu/vo-tap/api/v0.1/caom/sync",
+        "adql": "SELECT TOP 100 obs_collection,obs_id,instrument_name,s_ra,s_dec,access_url,s_region FROM ivoa.obscore WHERE obs_collection IN ('HST','JWST') AND dataproduct_type='image' AND 1=INTERSECTS(s_region, CIRCLE('ICRS',271.88543357704395,64.28483170737134,0.000277778))",
+        "error": "Command '['curl', '-fsSL', '--max-time', '17', '--retry', '1', 'https://mast.stsci.edu/vo-tap/api/v0.1/caom/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=SELECT+TOP+100+obs_collection%2Cobs_id%2Cinstrument_name%2Cs_ra%2Cs_dec%2Caccess_url%2Cs_region+FROM+ivoa.obscore+WHERE+obs_collection+IN+%28%27HST%27%2C%27JWST%27%"
+      },
+      "mer": {
+        "endpoint": "https://irsa.ipac.caltech.edu/TAP/sync",
+        "adql": "SELECT TOP 100 object_id,ra,dec,tileid,det_quality_flag,flag_vis,flag_j,parent_id,flux_vis_2fwhm_aper,flux_j_2fwhm_aper FROM euclid_dr1_mer_catalogue_deep_survey WHERE 1=CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',271.88543357704395,64.28483170737134,0.000555556))",
+        "error": "Command '['curl', '-fsSL', '--max-time', '17', '--retry', '1', 'https://irsa.ipac.caltech.edu/TAP/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=SELECT+TOP+100+object_id%2Cra%2Cdec%2Ctileid%2Cdet_quality_flag%2Cflag_vis%2Cflag_j%2Cparent_id%2Cflux_vis_2fwhm_aper%2Cflux_j_2fwhm_aper+FROM+euclid_dr1_mer_catalogue_deep_s"
+      },
+      "wds": {
+        "query": "https://vizier.cfa.harvard.edu/viz-bin/asu-xml?-source=B%2Fwds%2Fwds&-c=271.88543357704395+64.28483170737134&-c.rs=15&-out.max=100",
+        "error": "WDS server returned a query error"
+      }
+    }
+  },
+  "EDN-005": {
+    "candidate": {
+      "tile": "101829777",
+      "sign": "1",
+      "vis_y1": "931",
+      "vis_x1": "2142",
+      "vis_y2": "935",
+      "vis_x2": "2135",
+      "vis_score1": "355.1070556640625",
+      "vis_score2": "120.55419158935547",
+      "vis_peak_ratio": "0.3394869135806124",
+      "vis_dip": "1.038871950193823",
+      "flags": "",
+      "ra1": 273.22962227056655,
+      "dec1": 64.19054356069162,
+      "ra2": 273.23006911852195,
+      "dec2": 64.19065448985714,
+      "ra": 273.22984569409704,
+      "dec": 64.19059902544512,
+      "sep_arcsec": 0.8062252533457119,
+      "pa_deg": "60.30849493619636",
+      "j_state": "pass",
+      "j_score1": "171.2838134765625",
+      "j_score2": "76.46858215332031",
+      "j_sep_arcsec": "0.8062257748298549",
+      "j_dip": "0.45692044496536255",
+      "j_noise": "0.08812136203050613",
+      "j_x1": "2142",
+      "j_y1": "931",
+      "j_x2": "2135",
+      "j_y2": "935",
+      "shift_state": "no_local_peak",
+      "shift_noise": "0.09016049653291702",
+      "rank": "5",
+      "id": "EDN-005",
+      "shift_score1": "",
+      "shift_score2": "",
+      "shift_sep_arcsec": "",
+      "shift_dip": "",
+      "shift_x1": "",
+      "shift_y1": "",
+      "shift_x2": "",
+      "shift_y2": ""
+    },
+    "images": {
+      "VIS": {
+        "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101829777/VIS/EUC_MER_BGSUB-MOSAIC-VIS_TILE101829777-6CD2B3_20250822T095429.755828Z_00.00.fits",
+        "etag": "\"7603f13df9d2e2ad79417a7784e00afc-80\"",
+        "unit": "ADU/s",
+        "coverage": 1.0,
+        "background": 1.8784301573759876e-05,
+        "pixel_mad_sigma": 0.0005812812014482915,
+        "component_aperture_contrast": [
+          136.2141455054918,
+          120.29403510881409
+        ],
+        "blank_apertures": 132,
+        "aperture_diameter_arcsec": 1.2
+      },
+      "J": {
+        "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101829777/NISP/EUC_MER_BGSUB-MOSAIC-NIR-J_TILE101829777-7B0284_20250821T134506.130110Z_00.00.fits",
+        "etag": "\"ac387391aa514839550ff58fc16cd7fa-80\"",
+        "unit": "ELECTRON/s",
+        "coverage": 1.0,
+        "background": 0.027181491255760193,
+        "pixel_mad_sigma": 0.1833512932062149,
+        "component_aperture_contrast": [
+          144.49187457826085,
+          115.46239212774788
+        ],
+        "blank_apertures": 132,
+        "aperture_diameter_arcsec": 1.2
+      },
+      "HSC i2": {
+        "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101829777/HSC/EUC_MER_BGSUB-MOSAIC-WISHES-I2_TILE101829777-FC40CA_20250821T113214.016504Z_00.00.fits",
+        "etag": "\"467bb2e8fb88c7de5208acdc4cea893e-80\"",
+        "bytes": 416165760,
+        "header_sha256": "f13054a79ee54e1e48d057a9998b915056198327e95b53ffdc86bd7149f1786d",
+        "plan": "MER_ProcessTile_EUCLID_2.0.32-DATA_RELEASE_DEEP-trochequ-PLAN-000002",
+        "unit": "DN / pixel",
+        "magzero": 30.0,
+        "date_obs": null,
+        "shape": [
+          10200,
+          10200
+        ],
+        "ranges": [
+          {
+            "start": 116530560,
+            "end_exclusive": 125139360,
+            "sha256": "6abb9e384bec4795799936dab5230714634839cb9d57120ea6fd2130bf1d7877"
+          }
+        ],
+        "facility": "Subaru/HSC; WISHES image resampled by MER",
+        "coverage": 1.0,
+        "background": 0.0015243330271914601,
+        "pixel_mad_sigma": 0.17529907822608948,
+        "component_aperture_contrast": [
+          69.63194829686523,
+          62.26317559825244
+        ],
+        "blank_apertures": 132,
+        "aperture_diameter_arcsec": 1.2
+      }
+    },
+    "catalogues": {
+      "gaia": {
+        "endpoint": "https://gea.esac.esa.int/tap-server/tap/sync",
+        "adql": "SELECT TOP 100 source_id,ra,dec,ref_epoch,parallax,parallax_error,pmra,pmdec,ruwe,ipd_frac_multi_peak,phot_g_mean_mag FROM gaiadr3.gaia_source WHERE 1=CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',273.22984569409704,64.19059902544512,0.001666667))",
+        "error": "Response was not the expected TAP CSV"
+      },
+      "simbad": {
+        "endpoint": "https://simbad.cds.unistra.fr/simbad/sim-tap/sync",
+        "adql": "SELECT TOP 100 main_id,otype,ra,dec,rvz_redshift,rvz_bibcode FROM basic WHERE 1=CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',273.22984569409704,64.19059902544512,0.001666667))",
+        "error": "Command '['curl', '-fsSL', '--max-time', '17', '--retry', '1', 'https://simbad.cds.unistra.fr/simbad/sim-tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=SELECT+TOP+100+main_id%2Cotype%2Cra%2Cdec%2Crvz_redshift%2Crvz_bibcode+FROM+basic+WHERE+1%3DCONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C273"
+      },
+      "mast": {
+        "endpoint": "https://mast.stsci.edu/vo-tap/api/v0.1/caom/sync",
+        "adql": "SELECT TOP 100 obs_collection,obs_id,instrument_name,s_ra,s_dec,access_url,s_region FROM ivoa.obscore WHERE obs_collection IN ('HST','JWST') AND dataproduct_type='image' AND 1=INTERSECTS(s_region, CIRCLE('ICRS',273.22984569409704,64.19059902544512,0.000277778))",
+        "error": "Command '['curl', '-fsSL', '--max-time', '17', '--retry', '1', 'https://mast.stsci.edu/vo-tap/api/v0.1/caom/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=SELECT+TOP+100+obs_collection%2Cobs_id%2Cinstrument_name%2Cs_ra%2Cs_dec%2Caccess_url%2Cs_region+FROM+ivoa.obscore+WHERE+obs_collection+IN+%28%27HST%27%2C%27JWST%27%"
+      },
+      "mer": {
+        "endpoint": "https://irsa.ipac.caltech.edu/TAP/sync",
+        "adql": "SELECT TOP 100 object_id,ra,dec,tileid,det_quality_flag,flag_vis,flag_j,parent_id,flux_vis_2fwhm_aper,flux_j_2fwhm_aper FROM euclid_dr1_mer_catalogue_deep_survey WHERE 1=CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',273.22984569409704,64.19059902544512,0.000555556))",
+        "error": "Command '['curl', '-fsSL', '--max-time', '17', '--retry', '1', 'https://irsa.ipac.caltech.edu/TAP/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=SELECT+TOP+100+object_id%2Cra%2Cdec%2Ctileid%2Cdet_quality_flag%2Cflag_vis%2Cflag_j%2Cparent_id%2Cflux_vis_2fwhm_aper%2Cflux_j_2fwhm_aper+FROM+euclid_dr1_mer_catalogue_deep_s"
+      },
+      "wds": {
+        "query": "https://vizier.cfa.harvard.edu/viz-bin/asu-xml?-source=B%2Fwds%2Fwds&-c=273.22984569409704+64.19059902544512&-c.rs=15&-out.max=100",
+        "error": "WDS server returned a query error"
+      }
+    }
+  },
+  "EDN-006": {
+    "candidate": {
+      "tile": "101829775",
+      "sign": "1",
+      "vis_y1": "270",
+      "vis_x1": "2487",
+      "vis_y2": "271",
+      "vis_x2": "2496",
+      "vis_score1": "188.2599334716797",
+      "vis_score2": "180.2133026123047",
+      "vis_peak_ratio": "0.9572578294051424",
+      "vis_dip": "1.0356206461720197",
+      "flags": "",
+      "ra1": 272.0670001482068,
+      "dec1": 64.1721897476015,
+      "ra2": 272.0664263542321,
+      "dec2": 64.17221767043532,
+      "ra": 272.0667132513639,
+      "dec": 64.17220370930008,
+      "sep_arcsec": 0.9055375600373265,
+      "pa_deg": "276.37370219602025",
+      "j_state": "pass",
+      "j_score1": "223.6005096435547",
+      "j_score2": "70.97461700439453",
+      "j_sep_arcsec": "0.8",
+      "j_dip": "0.2520627975463867",
+      "j_noise": "0.09363480657339096",
+      "j_x1": "2488",
+      "j_y1": "271",
+      "j_x2": "2496",
+      "j_y2": "271",
+      "shift_state": "no_local_peak",
+      "shift_noise": "0.10542860627174377",
+      "rank": "6",
+      "id": "EDN-006",
+      "shift_score1": "",
+      "shift_score2": "",
+      "shift_sep_arcsec": "",
+      "shift_dip": "",
+      "shift_x1": "",
+      "shift_y1": "",
+      "shift_x2": "",
+      "shift_y2": ""
+    },
+    "images": {
+      "VIS": {
+        "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101829775/VIS/EUC_MER_BGSUB-MOSAIC-VIS_TILE101829775-1AD3E1_20250819T131504.530200Z_00.00.fits",
+        "etag": "\"2e4d963691711b970057a77854904b58-80\"",
+        "unit": "ADU/s",
+        "coverage": 1.0,
+        "background": 0.00018907510093413293,
+        "pixel_mad_sigma": 0.0005840389057993889,
+        "component_aperture_contrast": [
+          260.11724170684465,
+          187.7519114461129
+        ],
+        "blank_apertures": 132,
+        "aperture_diameter_arcsec": 1.2
+      },
+      "J": {
+        "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101829775/NISP/EUC_MER_BGSUB-MOSAIC-NIR-J_TILE101829775-F7103E_20250819T045811.244564Z_00.00.fits",
+        "etag": "\"020eb28e6860d24367bc00add50db4f8-80\"",
+        "unit": "ELECTRON/s",
+        "coverage": 1.0,
+        "background": 0.07163403928279877,
+        "pixel_mad_sigma": 0.1938483566045761,
+        "component_aperture_contrast": [
+          315.5349800306404,
+          183.95014250601116
+        ],
+        "blank_apertures": 132,
+        "aperture_diameter_arcsec": 1.2
+      },
+      "HSC i2": {
+        "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101829775/HSC/EUC_MER_BGSUB-MOSAIC-WISHES-I2_TILE101829775-E80FB6_20250819T031909.316375Z_00.00.fits",
+        "etag": "\"a58c3b087e324b7d789e1f55cc64d10a-80\"",
+        "bytes": 416165760,
+        "header_sha256": "af59ba80754288310e0e61c619e42eed361fe50b50a940714e7c413b8745f072",
+        "plan": "MER_ProcessTile_EUCLID_2.0.32-DATA_RELEASE_DEEP-trochequ-PLAN-000002",
+        "unit": "DN / pixel",
+        "magzero": 30.0,
+        "date_obs": null,
+        "shape": [
+          10200,
+          10200
+        ],
+        "ranges": [
+          {
+            "start": 89480160,
+            "end_exclusive": 98088960,
+            "sha256": "eb4f8706165fb473470d428005329136fecdba46274cc4b538617c9bc52c9a9d"
+          }
+        ],
+        "facility": "Subaru/HSC; WISHES image resampled by MER",
+        "coverage": 1.0,
+        "background": 0.09686525166034698,
+        "pixel_mad_sigma": 0.30207380652427673,
+        "component_aperture_contrast": [
+          97.4241173807798,
+          70.16379704266423
+        ],
+        "blank_apertures": 132,
+        "aperture_diameter_arcsec": 1.2
+      }
+    },
+    "catalogues": {
+      "gaia": {
+        "endpoint": "https://gea.esac.esa.int/tap-server/tap/sync",
+        "adql": "SELECT TOP 100 source_id,ra,dec,ref_epoch,parallax,parallax_error,pmra,pmdec,ruwe,ipd_frac_multi_peak,phot_g_mean_mag FROM gaiadr3.gaia_source WHERE 1=CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',272.0667132513639,64.17220370930008,0.001666667))",
+        "error": "Response was not the expected TAP CSV"
+      },
+      "simbad": {
+        "endpoint": "https://simbad.cds.unistra.fr/simbad/sim-tap/sync",
+        "adql": "SELECT TOP 100 main_id,otype,ra,dec,rvz_redshift,rvz_bibcode FROM basic WHERE 1=CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',272.0667132513639,64.17220370930008,0.001666667))",
+        "error": "Command '['curl', '-fsSL', '--max-time', '17', '--retry', '1', 'https://simbad.cds.unistra.fr/simbad/sim-tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=SELECT+TOP+100+main_id%2Cotype%2Cra%2Cdec%2Crvz_redshift%2Crvz_bibcode+FROM+basic+WHERE+1%3DCONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C272"
+      },
+      "mast": {
+        "endpoint": "https://mast.stsci.edu/vo-tap/api/v0.1/caom/sync",
+        "adql": "SELECT TOP 100 obs_collection,obs_id,instrument_name,s_ra,s_dec,access_url,s_region FROM ivoa.obscore WHERE obs_collection IN ('HST','JWST') AND dataproduct_type='image' AND 1=INTERSECTS(s_region, CIRCLE('ICRS',272.0667132513639,64.17220370930008,0.000277778))",
+        "error": "Command '['curl', '-fsSL', '--max-time', '17', '--retry', '1', 'https://mast.stsci.edu/vo-tap/api/v0.1/caom/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=SELECT+TOP+100+obs_collection%2Cobs_id%2Cinstrument_name%2Cs_ra%2Cs_dec%2Caccess_url%2Cs_region+FROM+ivoa.obscore+WHERE+obs_collection+IN+%28%27HST%27%2C%27JWST%27%"
+      },
+      "mer": {
+        "endpoint": "https://irsa.ipac.caltech.edu/TAP/sync",
+        "adql": "SELECT TOP 100 object_id,ra,dec,tileid,det_quality_flag,flag_vis,flag_j,parent_id,flux_vis_2fwhm_aper,flux_j_2fwhm_aper FROM euclid_dr1_mer_catalogue_deep_survey WHERE 1=CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',272.0667132513639,64.17220370930008,0.000555556))",
+        "error": "Command '['curl', '-fsSL', '--max-time', '17', '--retry', '1', 'https://irsa.ipac.caltech.edu/TAP/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=SELECT+TOP+100+object_id%2Cra%2Cdec%2Ctileid%2Cdet_quality_flag%2Cflag_vis%2Cflag_j%2Cparent_id%2Cflux_vis_2fwhm_aper%2Cflux_j_2fwhm_aper+FROM+euclid_dr1_mer_catalogue_deep_s"
+      },
+      "wds": {
+        "query": "https://vizier.cfa.harvard.edu/viz-bin/asu-xml?-source=B%2Fwds%2Fwds&-c=272.0667132513639+64.17220370930008&-c.rs=15&-out.max=100",
+        "error": "WDS server returned a query error"
+      }
+    }
+  }
+}

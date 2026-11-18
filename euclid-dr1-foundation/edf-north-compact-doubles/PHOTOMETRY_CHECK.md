@@ -1,0 +1,5 @@
+# Exploratory photometric cross-check · 18 November 2026
+
+The ten MER entries around the six ranked targets carry the MER deblend bit. The following is a sensitivity check on their published fluxes. No formal component redshift, distance, false-positive rate or completeness will be inferred from these fits.
+
+Use signed 2-FWHM PSF-matched aperture flux/error pairs from Euclid VIS/Y/J/H and Subaru HSC g/z. Apply an R_V=3.1 CCM law to the template using local IRSA Schlafly–Finkbeiner E(B−V). Retain signed forced fluxes where finite, and omit missing/sentinel fluxes. The six available passbands share a fitted nonnegative normalization. Compare the CWW and Kinney galaxy library, the observed Selsing QSO composite, and Pickles stellar spectra. Scan galaxy/QSO redshift over [0,3.8] with 0.02 steps and compare 10% versus 20% per-band error floors. Report each disconnected galaxy profile region within Δχ² = 4 of the best point. These are model sensitivity bands and assume diagonal errors; blended flux errors are correlated and their covariance is unavailable.

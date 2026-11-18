@@ -1,0 +1,442 @@
+{
+  "EDN-001": {
+    "VIS": {
+      "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101829777/VIS/EUC_MER_MOSAIC-VIS-FLAG_TILE101829777-8D746D_20250821T143559.447860Z_00.00.fits",
+      "etag": "\"4a5b8561832a7ab87fb52b6ebb1e6a82-80\"",
+      "bytes": 416165760,
+      "header_sha256": "e17bc18b19aeab476489a542e73ec046251300a843cd81d9885069263c8a6d14",
+      "byte_range": [
+        164715360,
+        165164160
+      ],
+      "range_sha256": "602533fec283d78c9a34cabda365106faa5de2fa0424fad856a21b3bd6093f2b",
+      "components": [
+        {
+          "peak_flag": 25165872,
+          "nonzero_7x7": 49,
+          "all_values": [
+            16777248,
+            25165856,
+            25165858,
+            25165872,
+            25165874,
+            25165876,
+            25166128,
+            25166132
+          ]
+        },
+        {
+          "peak_flag": 25165872,
+          "nonzero_7x7": 49,
+          "all_values": [
+            16777264,
+            16777266,
+            25165856,
+            25165872,
+            25165874
+          ]
+        }
+      ]
+    },
+    "J": {
+      "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101829777/NISP/EUC_MER_MOSAIC-NIR-J-FLAG_TILE101829777-D5A58C_20250821T121546.397058Z_00.00.fits",
+      "etag": "\"3e738a4146701240fde2e2487b374e18-80\"",
+      "bytes": 416165760,
+      "header_sha256": "01643823429d6ce18706da3b8973becb2fd3a26a5489c766202f7a9cc7593ee3",
+      "byte_range": [
+        164715360,
+        165164160
+      ],
+      "range_sha256": "6a7b96d6acbac39e54477e67b02e2f15910c5d2b69c860b876861aacf596e565",
+      "components": [
+        {
+          "peak_flag": 190602,
+          "nonzero_7x7": 49,
+          "all_values": [
+            190594,
+            190602
+          ]
+        },
+        {
+          "peak_flag": 190466,
+          "nonzero_7x7": 49,
+          "all_values": [
+            43008,
+            43010,
+            190464,
+            190466,
+            190594
+          ]
+        }
+      ]
+    }
+  },
+  "EDN-002": {
+    "VIS": {
+      "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101829775/VIS/EUC_MER_MOSAIC-VIS-FLAG_TILE101829775-A00C22_20250819T051440.931935Z_00.00.fits",
+      "etag": "\"b6ed3ef838bfac3e9813183797c77d3a-80\"",
+      "bytes": 416165760,
+      "header_sha256": "ce2f08d2e3bbddcd072626e8412daf1b1427c851871d01b13d3b852e186d554d",
+      "byte_range": [
+        236890560,
+        237502560
+      ],
+      "range_sha256": "3fff825fdebb37da87151eb9929cae50a9483a4d9a06ee02a31539bddbfa98f1",
+      "components": [
+        {
+          "peak_flag": 16777296,
+          "nonzero_7x7": 49,
+          "all_values": [
+            16777216,
+            16777232,
+            16777296,
+            25165888,
+            25165904
+          ]
+        },
+        {
+          "peak_flag": 25165888,
+          "nonzero_7x7": 49,
+          "all_values": [
+            16777232,
+            25165824,
+            25165840,
+            25165842,
+            25165888,
+            25165890,
+            25165904,
+            25165906
+          ]
+        }
+      ]
+    },
+    "J": {
+      "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101829775/NISP/EUC_MER_MOSAIC-NIR-J-FLAG_TILE101829775-AF249C_20250819T033222.987582Z_00.00.fits",
+      "etag": "\"8be82bc676d0e59f7be58cd247c8487d-80\"",
+      "bytes": 416165760,
+      "header_sha256": "98d561c9068360c5cb4294800c9f4a2e845cd4e5e002c82336e4b902b12ff725",
+      "byte_range": [
+        236890560,
+        237502560
+      ],
+      "range_sha256": "9e2152ff77ec039da4968efc3587ba7589e86db0042b3eacdcf9f3edf0c33e7c",
+      "components": [
+        {
+          "peak_flag": 108546,
+          "nonzero_7x7": 49,
+          "all_values": [
+            43010,
+            108544,
+            108546,
+            108672,
+            108674
+          ]
+        },
+        {
+          "peak_flag": 108546,
+          "nonzero_7x7": 49,
+          "all_values": [
+            108544,
+            108546
+          ]
+        }
+      ]
+    }
+  },
+  "EDN-003": {
+    "VIS": {
+      "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101829776/VIS/EUC_MER_MOSAIC-VIS-FLAG_TILE101829776-9EFD96_20250807T005110.945160Z_00.00.fits",
+      "etag": "\"69cc9f388792be8f826adf27482fca4e-80\"",
+      "bytes": 416165760,
+      "header_sha256": "347ef80918b078f16c88c7d802e67afb92ea2639ca51e557c01b2f9fe1f23d9f",
+      "byte_range": [
+        155576160,
+        156147360
+      ],
+      "range_sha256": "d6fb938608057f0aaae3973a71ff8f6dabce4e8e72ad75c66aba5d96284537b5",
+      "components": [
+        {
+          "peak_flag": 16777296,
+          "nonzero_7x7": 49,
+          "all_values": [
+            16777232,
+            16777280,
+            16777296,
+            25165888,
+            25165904
+          ]
+        },
+        {
+          "peak_flag": 25165840,
+          "nonzero_7x7": 49,
+          "all_values": [
+            16777232,
+            25165824,
+            25165840
+          ]
+        }
+      ]
+    },
+    "J": {
+      "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101829776/NISP/EUC_MER_MOSAIC-NIR-J-FLAG_TILE101829776-412DD1_20250806T211208.503902Z_00.00.fits",
+      "etag": "\"8e51664ee8e06326715e29ff7b4de7a3-80\"",
+      "bytes": 416165760,
+      "header_sha256": "9686eefe61db00856d4d7d8791b7e596b8d03d2740eef8d2f0235e4aa8a7ff7e",
+      "byte_range": [
+        155576160,
+        156147360
+      ],
+      "range_sha256": "21ca7af2e50deff885950d08c23ae1171dc19c191922862a2ff481c9b96edbe5",
+      "components": [
+        {
+          "peak_flag": 108546,
+          "nonzero_7x7": 49,
+          "all_values": [
+            108544,
+            108546,
+            256002
+          ]
+        },
+        {
+          "peak_flag": 108546,
+          "nonzero_7x7": 49,
+          "all_values": [
+            43008,
+            108544,
+            108546
+          ]
+        }
+      ]
+    }
+  },
+  "EDN-004": {
+    "VIS": {
+      "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101829775/VIS/EUC_MER_MOSAIC-VIS-FLAG_TILE101829775-A00C22_20250819T051440.931935Z_00.00.fits",
+      "etag": "\"b6ed3ef838bfac3e9813183797c77d3a-80\"",
+      "bytes": 416165760,
+      "header_sha256": "ce2f08d2e3bbddcd072626e8412daf1b1427c851871d01b13d3b852e186d554d",
+      "byte_range": [
+        259126560,
+        259534560
+      ],
+      "range_sha256": "22c55f3e99dcded2e01fb22d171185a6d0583842e2c8ec40193de9e63dcf1df6",
+      "components": [
+        {
+          "peak_flag": 16777232,
+          "nonzero_7x7": 49,
+          "all_values": [
+            16777216,
+            16777232,
+            16777234,
+            16777488,
+            16777490
+          ]
+        },
+        {
+          "peak_flag": 25165840,
+          "nonzero_7x7": 49,
+          "all_values": [
+            16777216,
+            16777232,
+            25165824,
+            25165840
+          ]
+        }
+      ]
+    },
+    "J": {
+      "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101829775/NISP/EUC_MER_MOSAIC-NIR-J-FLAG_TILE101829775-AF249C_20250819T033222.987582Z_00.00.fits",
+      "etag": "\"8be82bc676d0e59f7be58cd247c8487d-80\"",
+      "bytes": 416165760,
+      "header_sha256": "98d561c9068360c5cb4294800c9f4a2e845cd4e5e002c82336e4b902b12ff725",
+      "byte_range": [
+        259126560,
+        259534560
+      ],
+      "range_sha256": "b9d9e9ea69780b9c0f523a07cdd3b555148a6725120200fbe6d7ba6fd9895dba",
+      "components": [
+        {
+          "peak_flag": 43138,
+          "nonzero_7x7": 49,
+          "all_values": [
+            34816,
+            34818,
+            43008,
+            43010,
+            43136,
+            43138,
+            108544
+          ]
+        },
+        {
+          "peak_flag": 43010,
+          "nonzero_7x7": 49,
+          "all_values": [
+            34818,
+            43010,
+            100354,
+            108546,
+            182338,
+            190530,
+            247874,
+            247886,
+            256066,
+            256078
+          ]
+        }
+      ]
+    }
+  },
+  "EDN-005": {
+    "VIS": {
+      "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101829777/VIS/EUC_MER_MOSAIC-VIS-FLAG_TILE101829777-8D746D_20250821T143559.447860Z_00.00.fits",
+      "etag": "\"4a5b8561832a7ab87fb52b6ebb1e6a82-80\"",
+      "bytes": 416165760,
+      "header_sha256": "e17bc18b19aeab476489a542e73ec046251300a843cd81d9885069263c8a6d14",
+      "byte_range": [
+        120610560,
+        121059360
+      ],
+      "range_sha256": "a97ac6beb557a569865652784d4353a6c2b7e8825939d68778f7cdd55910e523",
+      "components": [
+        {
+          "peak_flag": 25165842,
+          "nonzero_7x7": 49,
+          "all_values": [
+            16777216,
+            16777232,
+            25165840,
+            25165842
+          ]
+        },
+        {
+          "peak_flag": 25165826,
+          "nonzero_7x7": 49,
+          "all_values": [
+            16777216,
+            16777218,
+            16777232,
+            25165824,
+            25165826,
+            25165840,
+            25165842
+          ]
+        }
+      ]
+    },
+    "J": {
+      "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101829777/NISP/EUC_MER_MOSAIC-NIR-J-FLAG_TILE101829777-D5A58C_20250821T121546.397058Z_00.00.fits",
+      "etag": "\"3e738a4146701240fde2e2487b374e18-80\"",
+      "bytes": 416165760,
+      "header_sha256": "01643823429d6ce18706da3b8973becb2fd3a26a5489c766202f7a9cc7593ee3",
+      "byte_range": [
+        120610560,
+        121059360
+      ],
+      "range_sha256": "4ce04b1486af2b7f13b91c06a1611e48ecb5d2f8230a5f623621659f5fb83afb",
+      "components": [
+        {
+          "peak_flag": 190466,
+          "nonzero_7x7": 49,
+          "all_values": [
+            43010,
+            190464,
+            190466,
+            190470,
+            190594,
+            190596,
+            190598,
+            256002,
+            256132,
+            256134
+          ]
+        },
+        {
+          "peak_flag": 256006,
+          "nonzero_7x7": 49,
+          "all_values": [
+            190466,
+            190468,
+            190470,
+            256002,
+            256006
+          ]
+        }
+      ]
+    }
+  },
+  "EDN-006": {
+    "VIS": {
+      "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101829775/VIS/EUC_MER_MOSAIC-VIS-FLAG_TILE101829775-A00C22_20250819T051440.931935Z_00.00.fits",
+      "etag": "\"b6ed3ef838bfac3e9813183797c77d3a-80\"",
+      "bytes": 416165760,
+      "header_sha256": "ce2f08d2e3bbddcd072626e8412daf1b1427c851871d01b13d3b852e186d554d",
+      "byte_range": [
+        93641760,
+        93968160
+      ],
+      "range_sha256": "d8eecf7216b22d3b9c3bc08a396eee1ef8a8d360337ff268116b337227dcbc2b",
+      "components": [
+        {
+          "peak_flag": 25165840,
+          "nonzero_7x7": 49,
+          "all_values": [
+            16777216,
+            16777218,
+            16777232,
+            16777234,
+            25165824,
+            25165826,
+            25165840,
+            25165842,
+            25165904
+          ]
+        },
+        {
+          "peak_flag": 16777232,
+          "nonzero_7x7": 49,
+          "all_values": [
+            16777218,
+            16777232,
+            16777234,
+            25165824,
+            25165826,
+            25165840,
+            25165842
+          ]
+        }
+      ]
+    },
+    "J": {
+      "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101829775/NISP/EUC_MER_MOSAIC-NIR-J-FLAG_TILE101829775-AF249C_20250819T033222.987582Z_00.00.fits",
+      "etag": "\"8be82bc676d0e59f7be58cd247c8487d-80\"",
+      "bytes": 416165760,
+      "header_sha256": "98d561c9068360c5cb4294800c9f4a2e845cd4e5e002c82336e4b902b12ff725",
+      "byte_range": [
+        93641760,
+        93968160
+      ],
+      "range_sha256": "633a85448c2a422f04b6bbcd691709e8933dc221456dc06386b52463f1df8e4e",
+      "components": [
+        {
+          "peak_flag": 239618,
+          "nonzero_7x7": 49,
+          "all_values": [
+            174082,
+            174210,
+            239618,
+            239746
+          ]
+        },
+        {
+          "peak_flag": 174082,
+          "nonzero_7x7": 49,
+          "all_values": [
+            174082,
+            174210
+          ]
+        }
+      ]
+    }
+  }
+}

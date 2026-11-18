@@ -1,0 +1,1130 @@
+{
+  "models": [
+    {
+      "input": "CWW_E.dat",
+      "url": "https://raw.githubusercontent.com/gbrammer/eazy-photoz/master/templates/CWW%2BKIN/CWW_E_ext.sed",
+      "family": "galaxy",
+      "sha256": "8ac48c600bf072c40bef40ad605482e877b364f3703b1333c922988001edca56"
+    },
+    {
+      "input": "CWW_Sbc.dat",
+      "url": "https://raw.githubusercontent.com/gbrammer/eazy-photoz/master/templates/CWW%2BKIN/CWW_Sbc_ext.sed",
+      "family": "galaxy",
+      "sha256": "a811e785cf1e2bfd5f6779027fd24300a50936864004f8daadfb6704ce9aaa51"
+    },
+    {
+      "input": "CWW_Scd.dat",
+      "url": "https://raw.githubusercontent.com/gbrammer/eazy-photoz/master/templates/CWW%2BKIN/CWW_Scd_ext.sed",
+      "family": "galaxy",
+      "sha256": "720acc79d52405da571d77c196b0d81ac248269bd4779056b6916def902a82fe"
+    },
+    {
+      "input": "CWW_Im.dat",
+      "url": "https://raw.githubusercontent.com/gbrammer/eazy-photoz/master/templates/CWW%2BKIN/CWW_Im_ext.sed",
+      "family": "galaxy",
+      "sha256": "c6f8c9bed58c7f4845683722825c900fdc7b89764786b699615914e22df1fb1d"
+    },
+    {
+      "input": "KIN_SB1.dat",
+      "url": "https://raw.githubusercontent.com/gbrammer/eazy-photoz/master/templates/CWW%2BKIN/KIN_SB1_ext.sed",
+      "family": "galaxy",
+      "sha256": "599cdf6413463bc3ceddab34cb1a2cad1db36a54d6811059a78087a0b65b0c19"
+    },
+    {
+      "input": "KIN_SB2.dat",
+      "url": "https://raw.githubusercontent.com/gbrammer/eazy-photoz/master/templates/CWW%2BKIN/KIN_SB2_ext.sed",
+      "family": "galaxy",
+      "sha256": "99980e16ef3e83cb22d0c18a664f92e32fa6c751bc464ce02506f01a571b6dba"
+    },
+    {
+      "input": "QSO.dat",
+      "url": "https://raw.githubusercontent.com/jselsing/QuasarComposite/master/Selsing2015_interpolated.dat",
+      "family": "QSO",
+      "sha256": "fa8275605c16a4254ab4919d80a8162e7630f83899f860e2a6f1beef5f529c87"
+    },
+    {
+      "input": "Pickles_5.fits",
+      "url": "https://ssb.stsci.edu/cdbs/deliveries/etc/trds.24.3xxxx/grid/pickles/dat_uvk/pickles_uk_5.fits",
+      "family": "star",
+      "sha256": "c3c643c0301e7be9c7049d47265cf7616446947a40b4f79453d0308cec30f30f"
+    },
+    {
+      "input": "Pickles_30.fits",
+      "url": "https://ssb.stsci.edu/cdbs/deliveries/etc/trds.24.3xxxx/grid/pickles/dat_uvk/pickles_uk_30.fits",
+      "family": "star",
+      "sha256": "d98244951b59e4021cf08dc73897c98d812007e27885bba15e2fd840f85cc9c6"
+    },
+    {
+      "input": "Pickles_40.fits",
+      "url": "https://ssb.stsci.edu/cdbs/deliveries/etc/trds.24.3xxxx/grid/pickles/dat_uvk/pickles_uk_40.fits",
+      "family": "star",
+      "sha256": "81bd254ea67dbf63060f10a004786fa5c55869d758862b0c44a34493961512ef"
+    },
+    {
+      "input": "Pickles_48.fits",
+      "url": "https://ssb.stsci.edu/cdbs/deliveries/etc/trds.24.3xxxx/grid/pickles/dat_uvk/pickles_uk_48.fits",
+      "family": "star",
+      "sha256": "c270d69438946d886bbf8b4d5f656f76034ed4aca373f70f86683e9a866782dd"
+    }
+  ],
+  "passbands": {
+    "G_EXT_HSC": "hsc2017-g",
+    "Z_EXT_HSC": "hsc2017-z",
+    "VIS": "Euclid-VIS",
+    "Y": "Euclid-Y",
+    "J": "Euclid-J",
+    "H": "Euclid-H"
+  },
+  "targets": {
+    "EDN-001": {
+      "dust": {
+        "url": "https://irsa.ipac.caltech.edu/cgi-bin/DUST/nph-dust?locstr=273.0790897086032+64.22061539972646+equ+J2000",
+        "sha256": "393edec12eb84735f67b3225e273b122b8f51ca94d9d10f6a5a6f2f65ddc8086",
+        "ebv": 0.0309
+      },
+      "fits": {
+        "2730790897642206153": {
+          "bands": [
+            "G_EXT_HSC",
+            "Z_EXT_HSC",
+            "VIS",
+            "Y",
+            "J",
+            "H"
+          ],
+          "fits": {
+            "0.1": {
+              "galaxy": {
+                "chi2": 1.8765894066083417,
+                "best_z": 0.5,
+                "template": "CWW_E.dat",
+                "delta_chi2_grid_spans": [
+                  [
+                    0.42,
+                    0.56
+                  ]
+                ]
+              },
+              "QSO": {
+                "chi2": 408.12674284829797,
+                "best_z": 2.16,
+                "template": "QSO.dat",
+                "delta_chi2_grid_spans": [
+                  [
+                    1.94,
+                    2.26
+                  ],
+                  [
+                    2.56,
+                    3.0
+                  ]
+                ]
+              },
+              "star": {
+                "chi2": 30.053104558250766,
+                "best_z": 0.0,
+                "template": "Pickles_40.fits",
+                "delta_chi2_grid_spans": [
+                  [
+                    0.0,
+                    0.0
+                  ]
+                ]
+              }
+            },
+            "0.2": {
+              "galaxy": {
+                "chi2": 0.4740220145349401,
+                "best_z": 0.5,
+                "template": "CWW_E.dat",
+                "delta_chi2_grid_spans": [
+                  [
+                    0.36,
+                    0.64
+                  ]
+                ]
+              },
+              "QSO": {
+                "chi2": 102.2283358134681,
+                "best_z": 2.16,
+                "template": "QSO.dat",
+                "delta_chi2_grid_spans": [
+                  [
+                    0.74,
+                    0.74
+                  ],
+                  [
+                    0.82,
+                    0.84
+                  ],
+                  [
+                    0.96,
+                    3.0
+                  ]
+                ]
+              },
+              "star": {
+                "chi2": 7.59481146975758,
+                "best_z": 0.0,
+                "template": "Pickles_40.fits",
+                "delta_chi2_grid_spans": [
+                  [
+                    0.0,
+                    0.0
+                  ]
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "EDN-002": {
+      "dust": {
+        "url": "https://irsa.ipac.caltech.edu/cgi-bin/DUST/nph-dust?locstr=272.21682349172664+64.2696022142898+equ+J2000",
+        "sha256": "f90c9e7ae5f34ad1468f4bc3ae984e32edbc4c20e38a262c9908be8c10544d52",
+        "ebv": 0.0339
+      },
+      "fits": {
+        "2722168234642696022": {
+          "bands": [
+            "G_EXT_HSC",
+            "Z_EXT_HSC",
+            "VIS",
+            "Y",
+            "J",
+            "H"
+          ],
+          "fits": {
+            "0.1": {
+              "galaxy": {
+                "chi2": 13.0145374502076,
+                "best_z": 0.54,
+                "template": "CWW_Sbc.dat",
+                "delta_chi2_grid_spans": [
+                  [
+                    0.22,
+                    0.32
+                  ],
+                  [
+                    0.44,
+                    0.84
+                  ]
+                ]
+              },
+              "QSO": {
+                "chi2": 302.4590806825812,
+                "best_z": 2.08,
+                "template": "QSO.dat",
+                "delta_chi2_grid_spans": [
+                  [
+                    1.98,
+                    2.22
+                  ],
+                  [
+                    2.58,
+                    2.82
+                  ],
+                  [
+                    2.86,
+                    2.86
+                  ],
+                  [
+                    2.9,
+                    2.9
+                  ],
+                  [
+                    2.94,
+                    3.0
+                  ]
+                ]
+              },
+              "star": {
+                "chi2": 15.898901100990544,
+                "best_z": 0.0,
+                "template": "Pickles_40.fits",
+                "delta_chi2_grid_spans": [
+                  [
+                    0.0,
+                    0.0
+                  ]
+                ]
+              }
+            },
+            "0.2": {
+              "galaxy": {
+                "chi2": 3.307612019011085,
+                "best_z": 0.54,
+                "template": "CWW_Sbc.dat",
+                "delta_chi2_grid_spans": [
+                  [
+                    0.16,
+                    1.2
+                  ]
+                ]
+              },
+              "QSO": {
+                "chi2": 78.0945095660871,
+                "best_z": 2.08,
+                "template": "QSO.dat",
+                "delta_chi2_grid_spans": [
+                  [
+                    1.28,
+                    2.36
+                  ],
+                  [
+                    2.4,
+                    2.4
+                  ],
+                  [
+                    2.44,
+                    3.0
+                  ]
+                ]
+              },
+              "star": {
+                "chi2": 4.225859945609117,
+                "best_z": 0.0,
+                "template": "Pickles_40.fits",
+                "delta_chi2_grid_spans": [
+                  [
+                    0.0,
+                    0.0
+                  ]
+                ]
+              }
+            }
+          }
+        },
+        "2722165835642698271": {
+          "bands": [
+            "G_EXT_HSC",
+            "Z_EXT_HSC",
+            "VIS",
+            "Y",
+            "J",
+            "H"
+          ],
+          "fits": {
+            "0.1": {
+              "galaxy": {
+                "chi2": 3.258933856922571,
+                "best_z": 1.34,
+                "template": "CWW_Scd.dat",
+                "delta_chi2_grid_spans": [
+                  [
+                    1.2,
+                    1.48
+                  ]
+                ]
+              },
+              "QSO": {
+                "chi2": 210.24655621636788,
+                "best_z": 3.0,
+                "template": "QSO.dat",
+                "delta_chi2_grid_spans": [
+                  [
+                    2.04,
+                    2.2
+                  ],
+                  [
+                    2.6,
+                    2.86
+                  ],
+                  [
+                    2.9,
+                    3.0
+                  ]
+                ]
+              },
+              "star": {
+                "chi2": 63.93995447728933,
+                "best_z": 0.0,
+                "template": "Pickles_40.fits",
+                "delta_chi2_grid_spans": [
+                  [
+                    0.0,
+                    0.0
+                  ]
+                ]
+              }
+            },
+            "0.2": {
+              "galaxy": {
+                "chi2": 0.8227027245553109,
+                "best_z": 1.34,
+                "template": "CWW_Scd.dat",
+                "delta_chi2_grid_spans": [
+                  [
+                    1.02,
+                    1.84
+                  ]
+                ]
+              },
+              "QSO": {
+                "chi2": 53.05993613229313,
+                "best_z": 3.0,
+                "template": "QSO.dat",
+                "delta_chi2_grid_spans": [
+                  [
+                    1.34,
+                    1.4
+                  ],
+                  [
+                    1.84,
+                    2.32
+                  ],
+                  [
+                    2.48,
+                    3.0
+                  ]
+                ]
+              },
+              "star": {
+                "chi2": 16.224666792485685,
+                "best_z": 0.0,
+                "template": "Pickles_40.fits",
+                "delta_chi2_grid_spans": [
+                  [
+                    0.0,
+                    0.0
+                  ]
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "EDN-003": {
+      "dust": {
+        "url": "https://irsa.ipac.caltech.edu/cgi-bin/DUST/nph-dust?locstr=272.62829924044996+64.2143514016386+equ+J2000",
+        "sha256": "b06f80154952903fa7a63986fa8a7d5675d2cbfb3646e33c69287a26dbc82004",
+        "ebv": 0.035
+      },
+      "fits": {
+        "2726282992642143514": {
+          "bands": [
+            "G_EXT_HSC",
+            "Z_EXT_HSC",
+            "VIS",
+            "Y",
+            "J",
+            "H"
+          ],
+          "fits": {
+            "0.1": {
+              "galaxy": {
+                "chi2": 2.002940951555969,
+                "best_z": 0.0,
+                "template": "CWW_Sbc.dat",
+                "delta_chi2_grid_spans": [
+                  [
+                    0.0,
+                    0.06
+                  ],
+                  [
+                    0.14,
+                    0.5
+                  ],
+                  [
+                    0.7,
+                    0.9
+                  ]
+                ]
+              },
+              "QSO": {
+                "chi2": 63.95366270652583,
+                "best_z": 3.0,
+                "template": "QSO.dat",
+                "delta_chi2_grid_spans": [
+                  [
+                    2.06,
+                    2.06
+                  ],
+                  [
+                    2.62,
+                    2.86
+                  ],
+                  [
+                    2.9,
+                    3.0
+                  ]
+                ]
+              },
+              "star": {
+                "chi2": 46.25606499885741,
+                "best_z": 0.0,
+                "template": "Pickles_30.fits",
+                "delta_chi2_grid_spans": [
+                  [
+                    0.0,
+                    0.0
+                  ]
+                ]
+              }
+            },
+            "0.2": {
+              "galaxy": {
+                "chi2": 0.5073018105747137,
+                "best_z": 0.0,
+                "template": "CWW_Sbc.dat",
+                "delta_chi2_grid_spans": [
+                  [
+                    0.0,
+                    1.48
+                  ],
+                  [
+                    3.56,
+                    3.8
+                  ]
+                ]
+              },
+              "QSO": {
+                "chi2": 16.156088771828955,
+                "best_z": 3.0,
+                "template": "QSO.dat",
+                "delta_chi2_grid_spans": [
+                  [
+                    1.36,
+                    1.38
+                  ],
+                  [
+                    1.86,
+                    2.3
+                  ],
+                  [
+                    2.5,
+                    3.0
+                  ]
+                ]
+              },
+              "star": {
+                "chi2": 11.675355387596818,
+                "best_z": 0.0,
+                "template": "Pickles_30.fits",
+                "delta_chi2_grid_spans": [
+                  [
+                    0.0,
+                    0.0
+                  ]
+                ]
+              }
+            }
+          }
+        },
+        "2726282713642145517": {
+          "bands": [
+            "G_EXT_HSC",
+            "Z_EXT_HSC",
+            "VIS",
+            "Y",
+            "J",
+            "H"
+          ],
+          "fits": {
+            "0.1": {
+              "galaxy": {
+                "chi2": 1.9596747993556103,
+                "best_z": 0.32,
+                "template": "KIN_SB2.dat",
+                "delta_chi2_grid_spans": [
+                  [
+                    0.0,
+                    0.04
+                  ],
+                  [
+                    0.3,
+                    0.4
+                  ]
+                ]
+              },
+              "QSO": {
+                "chi2": 9.117598977684457,
+                "best_z": 2.08,
+                "template": "QSO.dat",
+                "delta_chi2_grid_spans": [
+                  [
+                    1.92,
+                    2.28
+                  ],
+                  [
+                    2.54,
+                    2.84
+                  ]
+                ]
+              },
+              "star": {
+                "chi2": 12.006428229860564,
+                "best_z": 0.0,
+                "template": "Pickles_30.fits",
+                "delta_chi2_grid_spans": [
+                  [
+                    0.0,
+                    0.0
+                  ]
+                ]
+              }
+            },
+            "0.2": {
+              "galaxy": {
+                "chi2": 0.4964115629853064,
+                "best_z": 0.32,
+                "template": "KIN_SB2.dat",
+                "delta_chi2_grid_spans": [
+                  [
+                    0.0,
+                    0.9
+                  ]
+                ]
+              },
+              "QSO": {
+                "chi2": 2.2968699590107216,
+                "best_z": 2.08,
+                "template": "QSO.dat",
+                "delta_chi2_grid_spans": [
+                  [
+                    1.0,
+                    1.1
+                  ],
+                  [
+                    1.22,
+                    3.0
+                  ]
+                ]
+              },
+              "star": {
+                "chi2": 3.0302735172138644,
+                "best_z": 0.0,
+                "template": "Pickles_30.fits",
+                "delta_chi2_grid_spans": [
+                  [
+                    0.0,
+                    0.0
+                  ]
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "EDN-004": {
+      "dust": {
+        "url": "https://irsa.ipac.caltech.edu/cgi-bin/DUST/nph-dust?locstr=271.8858072870284+64.28478588740595+equ+J2000",
+        "sha256": "a30a0e32e6d7ca2f41c5d35f3af336ec0dcf246e19bf51d58ff6753d6c800c3d",
+        "ebv": 0.0344
+      },
+      "fits": {
+        "2718858072642847858": {
+          "bands": [
+            "G_EXT_HSC",
+            "Z_EXT_HSC",
+            "VIS",
+            "Y",
+            "J",
+            "H"
+          ],
+          "fits": {
+            "0.1": {
+              "galaxy": {
+                "chi2": 1.9728434464176192,
+                "best_z": 0.12,
+                "template": "CWW_Sbc.dat",
+                "delta_chi2_grid_spans": [
+                  [
+                    0.02,
+                    0.2
+                  ],
+                  [
+                    0.88,
+                    1.24
+                  ]
+                ]
+              },
+              "QSO": {
+                "chi2": 98.42145308234493,
+                "best_z": 3.0,
+                "template": "QSO.dat",
+                "delta_chi2_grid_spans": [
+                  [
+                    2.68,
+                    2.68
+                  ],
+                  [
+                    2.72,
+                    2.76
+                  ],
+                  [
+                    2.82,
+                    2.82
+                  ],
+                  [
+                    2.9,
+                    2.9
+                  ],
+                  [
+                    2.94,
+                    3.0
+                  ]
+                ]
+              },
+              "star": {
+                "chi2": 55.29236486080425,
+                "best_z": 0.0,
+                "template": "Pickles_40.fits",
+                "delta_chi2_grid_spans": [
+                  [
+                    0.0,
+                    0.0
+                  ]
+                ]
+              }
+            },
+            "0.2": {
+              "galaxy": {
+                "chi2": 0.49492956866079413,
+                "best_z": 0.12,
+                "template": "CWW_Sbc.dat",
+                "delta_chi2_grid_spans": [
+                  [
+                    0.0,
+                    1.52
+                  ],
+                  [
+                    3.46,
+                    3.8
+                  ]
+                ]
+              },
+              "QSO": {
+                "chi2": 24.756594526348675,
+                "best_z": 3.0,
+                "template": "QSO.dat",
+                "delta_chi2_grid_spans": [
+                  [
+                    1.9,
+                    2.28
+                  ],
+                  [
+                    2.52,
+                    3.0
+                  ]
+                ]
+              },
+              "star": {
+                "chi2": 13.93276500968959,
+                "best_z": 0.0,
+                "template": "Pickles_40.fits",
+                "delta_chi2_grid_spans": [
+                  [
+                    0.0,
+                    0.0
+                  ]
+                ]
+              }
+            }
+          }
+        },
+        "2718851317642848846": {
+          "bands": [
+            "G_EXT_HSC",
+            "Z_EXT_HSC",
+            "VIS",
+            "Y",
+            "J",
+            "H"
+          ],
+          "fits": {
+            "0.1": {
+              "galaxy": {
+                "chi2": 22.99075421063429,
+                "best_z": 1.48,
+                "template": "CWW_Sbc.dat",
+                "delta_chi2_grid_spans": [
+                  [
+                    1.36,
+                    1.64
+                  ]
+                ]
+              },
+              "QSO": {
+                "chi2": 340.99936870220523,
+                "best_z": 2.16,
+                "template": "QSO.dat",
+                "delta_chi2_grid_spans": [
+                  [
+                    2.0,
+                    2.24
+                  ],
+                  [
+                    2.62,
+                    2.68
+                  ],
+                  [
+                    2.72,
+                    2.72
+                  ]
+                ]
+              },
+              "star": {
+                "chi2": 117.05472313938938,
+                "best_z": 0.0,
+                "template": "Pickles_40.fits",
+                "delta_chi2_grid_spans": [
+                  [
+                    0.0,
+                    0.0
+                  ]
+                ]
+              }
+            },
+            "0.2": {
+              "galaxy": {
+                "chi2": 7.383913018869893,
+                "best_z": 1.42,
+                "template": "CWW_Sbc.dat",
+                "delta_chi2_grid_spans": [
+                  [
+                    1.18,
+                    1.84
+                  ]
+                ]
+              },
+              "QSO": {
+                "chi2": 89.64955658385968,
+                "best_z": 2.16,
+                "template": "QSO.dat",
+                "delta_chi2_grid_spans": [
+                  [
+                    1.0,
+                    1.14
+                  ],
+                  [
+                    1.2,
+                    3.0
+                  ]
+                ]
+              },
+              "star": {
+                "chi2": 29.73600399614721,
+                "best_z": 0.0,
+                "template": "Pickles_40.fits",
+                "delta_chi2_grid_spans": [
+                  [
+                    0.0,
+                    0.0
+                  ]
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "EDN-005": {
+      "dust": {
+        "url": "https://irsa.ipac.caltech.edu/cgi-bin/DUST/nph-dust?locstr=273.22961132271524+64.19054131004364+equ+J2000",
+        "sha256": "ff10a5df525a2993d0339b2223854301b24906f9f6e466820ffc7660ef917998",
+        "ebv": 0.0286
+      },
+      "fits": {
+        "2732296113641905413": {
+          "bands": [
+            "G_EXT_HSC",
+            "Z_EXT_HSC",
+            "VIS",
+            "Y",
+            "J",
+            "H"
+          ],
+          "fits": {
+            "0.1": {
+              "galaxy": {
+                "chi2": 14.640286586343178,
+                "best_z": 0.38,
+                "template": "CWW_E.dat",
+                "delta_chi2_grid_spans": [
+                  [
+                    0.34,
+                    0.46
+                  ]
+                ]
+              },
+              "QSO": {
+                "chi2": 391.3737713366101,
+                "best_z": 3.0,
+                "template": "QSO.dat",
+                "delta_chi2_grid_spans": [
+                  [
+                    1.92,
+                    2.24
+                  ],
+                  [
+                    2.56,
+                    3.0
+                  ]
+                ]
+              },
+              "star": {
+                "chi2": 13.935089479933117,
+                "best_z": 0.0,
+                "template": "Pickles_40.fits",
+                "delta_chi2_grid_spans": [
+                  [
+                    0.0,
+                    0.0
+                  ]
+                ]
+              }
+            },
+            "0.2": {
+              "galaxy": {
+                "chi2": 3.8450476773795734,
+                "best_z": 0.38,
+                "template": "CWW_E.dat",
+                "delta_chi2_grid_spans": [
+                  [
+                    0.3,
+                    0.54
+                  ]
+                ]
+              },
+              "QSO": {
+                "chi2": 102.1278424501863,
+                "best_z": 2.08,
+                "template": "QSO.dat",
+                "delta_chi2_grid_spans": [
+                  [
+                    0.74,
+                    0.74
+                  ],
+                  [
+                    0.96,
+                    3.0
+                  ]
+                ]
+              },
+              "star": {
+                "chi2": 4.8784676511636,
+                "best_z": 0.0,
+                "template": "Pickles_40.fits",
+                "delta_chi2_grid_spans": [
+                  [
+                    0.0,
+                    0.0
+                  ]
+                ]
+              }
+            }
+          }
+        },
+        "2732300912641906591": {
+          "bands": [
+            "G_EXT_HSC",
+            "Z_EXT_HSC",
+            "VIS",
+            "Y",
+            "J",
+            "H"
+          ],
+          "fits": {
+            "0.1": {
+              "galaxy": {
+                "chi2": 3.440075921597396,
+                "best_z": 0.3,
+                "template": "CWW_E.dat",
+                "delta_chi2_grid_spans": [
+                  [
+                    0.24,
+                    0.34
+                  ]
+                ]
+              },
+              "QSO": {
+                "chi2": 331.34722128969673,
+                "best_z": 3.0,
+                "template": "QSO.dat",
+                "delta_chi2_grid_spans": [
+                  [
+                    1.98,
+                    2.22
+                  ],
+                  [
+                    2.58,
+                    2.86
+                  ],
+                  [
+                    2.9,
+                    3.0
+                  ]
+                ]
+              },
+              "star": {
+                "chi2": 2.0511046431135274,
+                "best_z": 0.0,
+                "template": "Pickles_40.fits",
+                "delta_chi2_grid_spans": [
+                  [
+                    0.0,
+                    0.0
+                  ]
+                ]
+              }
+            },
+            "0.2": {
+              "galaxy": {
+                "chi2": 0.8924536140501453,
+                "best_z": 0.28,
+                "template": "CWW_E.dat",
+                "delta_chi2_grid_spans": [
+                  [
+                    0.2,
+                    0.88
+                  ]
+                ]
+              },
+              "QSO": {
+                "chi2": 86.07455583066344,
+                "best_z": 3.0,
+                "template": "QSO.dat",
+                "delta_chi2_grid_spans": [
+                  [
+                    1.26,
+                    3.0
+                  ]
+                ]
+              },
+              "star": {
+                "chi2": 0.5630933376010357,
+                "best_z": 0.0,
+                "template": "Pickles_40.fits",
+                "delta_chi2_grid_spans": [
+                  [
+                    0.0,
+                    0.0
+                  ]
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "EDN-006": {
+      "dust": {
+        "url": "https://irsa.ipac.caltech.edu/cgi-bin/DUST/nph-dust?locstr=272.0668057724947+64.17221768216916+equ+J2000",
+        "sha256": "4e2ac6730d4d675647edf2f4e1fdc12c302a089b34fda5d9482309bc7722c8d8",
+        "ebv": 0.0338
+      },
+      "fits": {
+        "2720668057641722176": {
+          "bands": [
+            "G_EXT_HSC",
+            "Z_EXT_HSC",
+            "VIS",
+            "Y",
+            "J",
+            "H"
+          ],
+          "fits": {
+            "0.1": {
+              "galaxy": {
+                "chi2": 2.8259801222082994,
+                "best_z": 1.0,
+                "template": "CWW_Scd.dat",
+                "delta_chi2_grid_spans": [
+                  [
+                    0.36,
+                    0.46
+                  ],
+                  [
+                    0.82,
+                    1.16
+                  ]
+                ]
+              },
+              "QSO": {
+                "chi2": 253.1261977621255,
+                "best_z": 3.0,
+                "template": "QSO.dat",
+                "delta_chi2_grid_spans": [
+                  [
+                    2.02,
+                    2.2
+                  ],
+                  [
+                    2.6,
+                    2.82
+                  ],
+                  [
+                    2.9,
+                    2.9
+                  ],
+                  [
+                    2.94,
+                    3.0
+                  ]
+                ]
+              },
+              "star": {
+                "chi2": 28.101194186942294,
+                "best_z": 0.0,
+                "template": "Pickles_40.fits",
+                "delta_chi2_grid_spans": [
+                  [
+                    0.0,
+                    0.0
+                  ]
+                ]
+              }
+            },
+            "0.2": {
+              "galaxy": {
+                "chi2": 0.7101056175919129,
+                "best_z": 1.0,
+                "template": "CWW_Scd.dat",
+                "delta_chi2_grid_spans": [
+                  [
+                    0.1,
+                    1.32
+                  ]
+                ]
+              },
+              "QSO": {
+                "chi2": 63.54863508463093,
+                "best_z": 3.0,
+                "template": "QSO.dat",
+                "delta_chi2_grid_spans": [
+                  [
+                    1.34,
+                    1.42
+                  ],
+                  [
+                    1.84,
+                    2.3
+                  ],
+                  [
+                    2.5,
+                    3.0
+                  ]
+                ]
+              },
+              "star": {
+                "chi2": 7.08635162614457,
+                "best_z": 0.0,
+                "template": "Pickles_40.fits",
+                "delta_chi2_grid_spans": [
+                  [
+                    0.0,
+                    0.0
+                  ]
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

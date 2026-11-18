@@ -1,0 +1,76 @@
+{
+  "eclipse": {
+    "url": "https://zenodo.org/records/19654904/files/ECLIPSE_object_catalogue.zip?download=1",
+    "sha256": "5486e82867a0209767d542478b5375413f68bc8adf033f157da940b4c6f75438",
+    "rows": 26662,
+    "n_euclid_repeaters": 658,
+    "within_3arcsec": [],
+    "top6_nearest": [
+      {
+        "candidate": "EDN-001",
+        "ra": "273.079047910709",
+        "dec": "64.2206104018866",
+        "nearest_eclipse_arcsec": 3292.681714161489,
+        "within_3arcsec": false,
+        "eclipse_id": "EUCL-DR1-L004256",
+        "grade": "C",
+        "earliest_publication": ""
+      },
+      {
+        "candidate": "EDN-002",
+        "ra": "272.21672670646603",
+        "dec": "64.26971403549358",
+        "nearest_eclipse_arcsec": 3948.305481042922,
+        "within_3arcsec": false,
+        "eclipse_id": "EUCL-DR1-L011930",
+        "grade": "A",
+        "earliest_publication": ""
+      },
+      {
+        "candidate": "EDN-003",
+        "ra": "272.62828242432676",
+        "dec": "64.21445561492239",
+        "nearest_eclipse_arcsec": 3752.899946586255,
+        "within_3arcsec": false,
+        "eclipse_id": "EUCL-DR1-L011930",
+        "grade": "A",
+        "earliest_publication": ""
+      },
+      {
+        "candidate": "EDN-004",
+        "ra": "271.88543357704395",
+        "dec": "64.28483170737134",
+        "nearest_eclipse_arcsec": 4077.7222388557943,
+        "within_3arcsec": false,
+        "eclipse_id": "EUCL-DR1-L011930",
+        "grade": "A",
+        "earliest_publication": ""
+      },
+      {
+        "candidate": "EDN-005",
+        "ra": "273.22984569409704",
+        "dec": "64.19059902544512",
+        "nearest_eclipse_arcsec": 3047.5583697229963,
+        "within_3arcsec": false,
+        "eclipse_id": "EUCL-DR1-L004256",
+        "grade": "C",
+        "earliest_publication": ""
+      },
+      {
+        "candidate": "EDN-006",
+        "ra": "272.0667132513639",
+        "dec": "64.17220370930008",
+        "nearest_eclipse_arcsec": 3627.1454903445842,
+        "within_3arcsec": false,
+        "eclipse_id": "EUCL-DR1-L011930",
+        "grade": "A",
+        "earliest_publication": ""
+      }
+    ]
+  },
+  "desi": {
+    "endpoint": "https://datalab.noirlab.edu/tap/sync",
+    "adql": "SELECT TOP 500 targetid,mean_fiber_ra,mean_fiber_dec,z,zerr,zwarn,spectype,zcat_primary FROM desi_dr1.zpix WHERE (1=CONTAINS(POINT('ICRS',mean_fiber_ra,mean_fiber_dec),CIRCLE('ICRS',273.079047910709,64.2206104018866,0.000555556)) OR 1=CONTAINS(POINT('ICRS',mean_fiber_ra,mean_fiber_dec),CIRCLE('ICRS',272.21672670646603,64.26971403549358,0.000555556)) OR 1=CONTAINS(POINT('ICRS',mean_fiber_ra,mean_fiber_dec),CIRCLE('ICRS',272.62828242432676,64.21445561492239,0.000555556)) OR 1=CONTAINS(POINT('ICRS',mean_fiber_ra,mean_fiber_dec),CIRCLE('ICRS',271.88543357704395,64.28483170737134,0.000555556)) OR 1=CONTAINS(POINT('ICRS',mean_fiber_ra,mean_fiber_dec),CIRCLE('ICRS',273.22984569409704,64.19059902544512,0.000555556)) OR 1=CONTAINS(POINT('ICRS',mean_fiber_ra,mean_fiber_dec),CIRCLE('ICRS',272.0667132513639,64.17220370930008,0.000555556)))",
+    "error": "Response was not the expected TAP CSV"
+  }
+}

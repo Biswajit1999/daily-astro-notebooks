@@ -1,0 +1,1948 @@
+{
+  "query": {
+    "endpoint": "https://irsa.ipac.caltech.edu/TAP/sync",
+    "adql": "SELECT * FROM euclid.objectid_spectrafile_association_dr1 WHERE objectid IN (2718858072642847858,2718851317642848846)"
+  },
+  "line_wavelength_A": 13155.546184870003,
+  "single_line_redshift_alternatives": {
+    "[O II]": 2.529397327070736,
+    "[O III]": 1.6267803030345998,
+    "Halpha": 1.0040103197097778
+  },
+  "sources": [
+    {
+      "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/SIR_COMBINED_SPECTRA/101829775/EUC_SIR_W-COMBSPEC_101829775_20250907T164439.760655Z.fits",
+      "etag": "\"65f61f7da41a34977c70677f4bb70602\"",
+      "bytes": 34185600,
+      "sha256": "60a4492e67fbb055a5f591c7e5b829e2d4d3e57bdbe6658b3083902d8e855ec9"
+    },
+    {
+      "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/SIR_COMBINED_SPECTRA/101829775/EUC_SIR_W-COMBSPEC_101829775_20250908T043301.712296Z.fits",
+      "etag": "\"7cf1be93a674eb4795417a6fc3c62c89\"",
+      "bytes": 125089920,
+      "sha256": "720d7af9d4149f00939cc2202de51fb07ca64112c7214a3a61f70e9a123aa8f5"
+    }
+  ],
+  "fits": [
+    {
+      "object_id": 2718851317642848846,
+      "grism": "BGS",
+      "hdu": "267_COMBINED1D_SIGNAL",
+      "gwa_pos": null,
+      "gwa_tilt": null,
+      "contaminants": null,
+      "center_A": 13155.546184870003,
+      "core_bins": 5,
+      "sideband_bins": 13,
+      "state": "measured",
+      "snr": 0.2850927092247077,
+      "reduced_chi2": 1.0366389179771651,
+      "core_mask_counts": {
+        "0": 5,
+        "4": 1
+      },
+      "brightest_bin_removed": {
+        "center_A": 13155.546184870003,
+        "core_bins": 4,
+        "sideband_bins": 13,
+        "state": "measured",
+        "snr": -0.06320445901832525,
+        "reduced_chi2": 0.9669645126079447
+      }
+    },
+    {
+      "object_id": 2718851317642848846,
+      "grism": "BGS",
+      "hdu": "267_DITH1D_27008_SIGNAL",
+      "gwa_pos": "BGS000",
+      "gwa_tilt": 0,
+      "contaminants": [
+        2718611349642742346,
+        2718622468642752015,
+        2719880059643289746
+      ],
+      "center_A": 13155.546184870003,
+      "core_bins": 6,
+      "sideband_bins": 14,
+      "state": "measured",
+      "snr": -0.16270817936426468,
+      "reduced_chi2": 0.47586538941826234,
+      "core_mask_counts": {
+        "0": 6
+      },
+      "brightest_bin_removed": {
+        "center_A": 13155.546184870003,
+        "core_bins": 5,
+        "sideband_bins": 14,
+        "state": "measured",
+        "snr": -0.41212307846220214,
+        "reduced_chi2": 0.4908871490841247
+      }
+    },
+    {
+      "object_id": 2718851317642848846,
+      "grism": "BGS",
+      "hdu": "267_DITH1D_27009_SIGNAL",
+      "gwa_pos": "BGS000",
+      "gwa_tilt": 0,
+      "contaminants": [
+        2718611349642742346,
+        2718622468642752015,
+        2719880059643289746
+      ],
+      "center_A": 13155.546184870003,
+      "core_bins": 0,
+      "sideband_bins": 0,
+      "state": "insufficient_clean_coverage",
+      "core_mask_counts": {}
+    },
+    {
+      "object_id": 2718851317642848846,
+      "grism": "BGS",
+      "hdu": "267_DITH1D_27010_SIGNAL",
+      "gwa_pos": "BGS000",
+      "gwa_tilt": 0,
+      "contaminants": [
+        2718611349642742346,
+        2718622468642752015
+      ],
+      "center_A": 13155.546184870003,
+      "core_bins": 6,
+      "sideband_bins": 14,
+      "state": "measured",
+      "snr": -0.3342358437656697,
+      "reduced_chi2": 1.430367945243204,
+      "core_mask_counts": {
+        "0": 6
+      },
+      "brightest_bin_removed": {
+        "center_A": 13155.546184870003,
+        "core_bins": 5,
+        "sideband_bins": 14,
+        "state": "measured",
+        "snr": -0.47346881680347075,
+        "reduced_chi2": 1.4905932143512701
+      }
+    },
+    {
+      "object_id": 2718851317642848846,
+      "grism": "BGS",
+      "hdu": "267_DITH1D_27011_SIGNAL",
+      "gwa_pos": "BGS000",
+      "gwa_tilt": 0,
+      "contaminants": [
+        2718611349642742346,
+        2718622468642752015,
+        2719880059643289746
+      ],
+      "center_A": 13155.546184870003,
+      "core_bins": 6,
+      "sideband_bins": 14,
+      "state": "measured",
+      "snr": -1.473235561077228,
+      "reduced_chi2": 0.7989184117917546,
+      "core_mask_counts": {
+        "0": 6
+      },
+      "brightest_bin_removed": {
+        "center_A": 13155.546184870003,
+        "core_bins": 5,
+        "sideband_bins": 14,
+        "state": "measured",
+        "snr": -1.7850366153093264,
+        "reduced_chi2": 0.7411924118420782
+      }
+    },
+    {
+      "object_id": 2718851317642848846,
+      "grism": "BGS",
+      "hdu": "267_DITH1D_9377_SIGNAL",
+      "gwa_pos": "BGS000",
+      "gwa_tilt": 0,
+      "contaminants": [
+        2717118919642886129,
+        2718517775642859478
+      ],
+      "center_A": 13155.546184870003,
+      "core_bins": 0,
+      "sideband_bins": 0,
+      "state": "insufficient_clean_coverage",
+      "core_mask_counts": {}
+    },
+    {
+      "object_id": 2718851317642848846,
+      "grism": "BGS",
+      "hdu": "267_DITH1D_9378_SIGNAL",
+      "gwa_pos": "BGS000",
+      "gwa_tilt": 0,
+      "contaminants": [
+        2718517775642859478
+      ],
+      "center_A": 13155.546184870003,
+      "core_bins": 6,
+      "sideband_bins": 14,
+      "state": "measured",
+      "snr": 2.1113060705237134,
+      "reduced_chi2": 0.56160348992623,
+      "core_mask_counts": {
+        "0": 6
+      },
+      "brightest_bin_removed": {
+        "center_A": 13155.546184870003,
+        "core_bins": 5,
+        "sideband_bins": 14,
+        "state": "measured",
+        "snr": 1.3450148003119875,
+        "reduced_chi2": 0.5634004736934158
+      }
+    },
+    {
+      "object_id": 2718851317642848846,
+      "grism": "BGS",
+      "hdu": "267_DITH1D_9379_SIGNAL",
+      "gwa_pos": "BGS000",
+      "gwa_tilt": 0,
+      "contaminants": [
+        2717118919642886129,
+        2718517775642859478
+      ],
+      "center_A": 13155.546184870003,
+      "core_bins": 6,
+      "sideband_bins": 14,
+      "state": "measured",
+      "snr": 1.8134927839669204,
+      "reduced_chi2": 1.2524748997575283,
+      "core_mask_counts": {
+        "0": 6
+      },
+      "brightest_bin_removed": {
+        "center_A": 13155.546184870003,
+        "core_bins": 5,
+        "sideband_bins": 14,
+        "state": "measured",
+        "snr": 1.4731431206768486,
+        "reduced_chi2": 1.211813505044392
+      }
+    },
+    {
+      "object_id": 2718851317642848846,
+      "grism": "BGS",
+      "hdu": "267_DITH1D_9380_SIGNAL",
+      "gwa_pos": "BGS000",
+      "gwa_tilt": 0,
+      "contaminants": [
+        2717118919642886129,
+        2718517775642859478
+      ],
+      "center_A": 13155.546184870003,
+      "core_bins": 5,
+      "sideband_bins": 13,
+      "state": "measured",
+      "snr": -1.6251442430508554,
+      "reduced_chi2": 1.1830969873331698,
+      "core_mask_counts": {
+        "0": 5,
+        "4": 1
+      },
+      "brightest_bin_removed": {
+        "center_A": 13155.546184870003,
+        "core_bins": 4,
+        "sideband_bins": 13,
+        "state": "measured",
+        "snr": -2.036780162617321,
+        "reduced_chi2": 1.0725860549160378
+      }
+    },
+    {
+      "object_id": 2718858072642847858,
+      "grism": "BGS",
+      "hdu": "269_COMBINED1D_SIGNAL",
+      "gwa_pos": null,
+      "gwa_tilt": null,
+      "contaminants": null,
+      "center_A": 13155.546184870003,
+      "core_bins": 6,
+      "sideband_bins": 13,
+      "state": "measured",
+      "snr": 9.578434122995828,
+      "reduced_chi2": 0.7834346986342254,
+      "core_mask_counts": {
+        "0": 6
+      },
+      "brightest_bin_removed": {
+        "center_A": 13155.546184870003,
+        "core_bins": 5,
+        "sideband_bins": 13,
+        "state": "measured",
+        "snr": 7.836569302824345,
+        "reduced_chi2": 0.8356453856646995
+      }
+    },
+    {
+      "object_id": 2718858072642847858,
+      "grism": "BGS",
+      "hdu": "269_DITH1D_27008_SIGNAL",
+      "gwa_pos": "BGS000",
+      "gwa_tilt": 0,
+      "contaminants": [
+        2718611349642742346,
+        2718622468642752015,
+        2719880059643289746
+      ],
+      "center_A": 13155.546184870003,
+      "core_bins": 6,
+      "sideband_bins": 14,
+      "state": "measured",
+      "snr": 1.3947104362823197,
+      "reduced_chi2": 0.7377714210861396,
+      "core_mask_counts": {
+        "0": 6
+      },
+      "brightest_bin_removed": {
+        "center_A": 13155.546184870003,
+        "core_bins": 5,
+        "sideband_bins": 14,
+        "state": "measured",
+        "snr": 0.9834893599410479,
+        "reduced_chi2": 0.7791978425695906
+      }
+    },
+    {
+      "object_id": 2718858072642847858,
+      "grism": "BGS",
+      "hdu": "269_DITH1D_27009_SIGNAL",
+      "gwa_pos": "BGS000",
+      "gwa_tilt": 0,
+      "contaminants": [
+        2718611349642742346,
+        2718622468642752015,
+        2719880059643289746
+      ],
+      "center_A": 13155.546184870003,
+      "core_bins": 0,
+      "sideband_bins": 0,
+      "state": "insufficient_clean_coverage",
+      "core_mask_counts": {}
+    },
+    {
+      "object_id": 2718858072642847858,
+      "grism": "BGS",
+      "hdu": "269_DITH1D_27010_SIGNAL",
+      "gwa_pos": "BGS000",
+      "gwa_tilt": 0,
+      "contaminants": [
+        2718611349642742346,
+        2718622468642752015
+      ],
+      "center_A": 13155.546184870003,
+      "core_bins": 6,
+      "sideband_bins": 14,
+      "state": "measured",
+      "snr": 2.2521217525538093,
+      "reduced_chi2": 1.1484272478155129,
+      "core_mask_counts": {
+        "0": 6
+      },
+      "brightest_bin_removed": {
+        "center_A": 13155.546184870003,
+        "core_bins": 5,
+        "sideband_bins": 14,
+        "state": "measured",
+        "snr": 1.6396524251514533,
+        "reduced_chi2": 1.2153501761897822
+      }
+    },
+    {
+      "object_id": 2718858072642847858,
+      "grism": "BGS",
+      "hdu": "269_DITH1D_27011_SIGNAL",
+      "gwa_pos": "BGS000",
+      "gwa_tilt": 0,
+      "contaminants": [
+        2718611349642742346,
+        2718622468642752015,
+        2719880059643289746
+      ],
+      "center_A": 13155.546184870003,
+      "core_bins": 6,
+      "sideband_bins": 13,
+      "state": "measured",
+      "snr": 3.221055389486919,
+      "reduced_chi2": 1.9055854837367248,
+      "core_mask_counts": {
+        "0": 6
+      },
+      "brightest_bin_removed": {
+        "center_A": 13155.546184870003,
+        "core_bins": 5,
+        "sideband_bins": 13,
+        "state": "measured",
+        "snr": 2.081267956413576,
+        "reduced_chi2": 1.9504779878304992
+      }
+    },
+    {
+      "object_id": 2718858072642847858,
+      "grism": "BGS",
+      "hdu": "269_DITH1D_9377_SIGNAL",
+      "gwa_pos": "BGS000",
+      "gwa_tilt": 0,
+      "contaminants": [
+        2717118919642886129,
+        2718517775642859478
+      ],
+      "center_A": 13155.546184870003,
+      "core_bins": 0,
+      "sideband_bins": 0,
+      "state": "insufficient_clean_coverage",
+      "core_mask_counts": {}
+    },
+    {
+      "object_id": 2718858072642847858,
+      "grism": "BGS",
+      "hdu": "269_DITH1D_9378_SIGNAL",
+      "gwa_pos": "BGS000",
+      "gwa_tilt": 0,
+      "contaminants": [
+        2718517775642859478
+      ],
+      "center_A": 13155.546184870003,
+      "core_bins": 6,
+      "sideband_bins": 14,
+      "state": "measured",
+      "snr": 3.0086611927312363,
+      "reduced_chi2": 0.4993997120434748,
+      "core_mask_counts": {
+        "0": 6
+      },
+      "brightest_bin_removed": {
+        "center_A": 13155.546184870003,
+        "core_bins": 5,
+        "sideband_bins": 14,
+        "state": "measured",
+        "snr": 2.446181114735554,
+        "reduced_chi2": 0.5306029917556324
+      }
+    },
+    {
+      "object_id": 2718858072642847858,
+      "grism": "BGS",
+      "hdu": "269_DITH1D_9379_SIGNAL",
+      "gwa_pos": "BGS000",
+      "gwa_tilt": 0,
+      "contaminants": [
+        2717118919642886129,
+        2718517775642859478
+      ],
+      "center_A": 13155.546184870003,
+      "core_bins": 6,
+      "sideband_bins": 14,
+      "state": "measured",
+      "snr": 5.323879710568124,
+      "reduced_chi2": 0.9546608368794137,
+      "core_mask_counts": {
+        "0": 6
+      },
+      "brightest_bin_removed": {
+        "center_A": 13155.546184870003,
+        "core_bins": 5,
+        "sideband_bins": 14,
+        "state": "measured",
+        "snr": 4.598742882645111,
+        "reduced_chi2": 0.7167269139456675
+      }
+    },
+    {
+      "object_id": 2718858072642847858,
+      "grism": "BGS",
+      "hdu": "269_DITH1D_9380_SIGNAL",
+      "gwa_pos": "BGS000",
+      "gwa_tilt": 0,
+      "contaminants": [
+        2717118919642886129,
+        2718517775642859478
+      ],
+      "center_A": 13155.546184870003,
+      "core_bins": 6,
+      "sideband_bins": 14,
+      "state": "measured",
+      "snr": 7.233156011391951,
+      "reduced_chi2": 0.8422531428371856,
+      "core_mask_counts": {
+        "0": 6
+      },
+      "brightest_bin_removed": {
+        "center_A": 13155.546184870003,
+        "core_bins": 5,
+        "sideband_bins": 14,
+        "state": "measured",
+        "snr": 6.229605215435653,
+        "reduced_chi2": 0.8605592187968168
+      }
+    },
+    {
+      "object_id": 2718851317642848846,
+      "grism": "RGS",
+      "hdu": "267_COMBINED1D_SIGNAL",
+      "gwa_pos": null,
+      "gwa_tilt": null,
+      "contaminants": null,
+      "center_A": 13155.546184870003,
+      "core_bins": 3,
+      "sideband_bins": 5,
+      "state": "insufficient_clean_coverage",
+      "core_mask_counts": {
+        "0": 3,
+        "6": 1,
+        "12": 1
+      },
+      "brightest_bin_removed": {
+        "center_A": 13155.546184870003,
+        "core_bins": 2,
+        "sideband_bins": 5,
+        "state": "insufficient_clean_coverage"
+      }
+    },
+    {
+      "object_id": 2718851317642848846,
+      "grism": "RGS",
+      "hdu": "267_DITH1D_11989_SIGNAL",
+      "gwa_pos": "RGS000",
+      "gwa_tilt": 0,
+      "contaminants": null,
+      "center_A": 13155.546184870003,
+      "core_bins": 5,
+      "sideband_bins": 12,
+      "state": "measured",
+      "snr": 0.850751945130096,
+      "reduced_chi2": 0.9827396467746882,
+      "core_mask_counts": {
+        "0": 5
+      },
+      "brightest_bin_removed": {
+        "center_A": 13155.546184870003,
+        "core_bins": 4,
+        "sideband_bins": 12,
+        "state": "measured",
+        "snr": 0.2582626455468528,
+        "reduced_chi2": 1.0269653577566422
+      }
+    },
+    {
+      "object_id": 2718851317642848846,
+      "grism": "RGS",
+      "hdu": "267_DITH1D_11990_SIGNAL",
+      "gwa_pos": "RGS180",
+      "gwa_tilt": 4,
+      "contaminants": [
+        2720312111643256378,
+        2720818399643397739
+      ],
+      "center_A": 13155.546184870003,
+      "core_bins": 5,
+      "sideband_bins": 6,
+      "state": "insufficient_clean_coverage",
+      "core_mask_counts": {
+        "0": 5
+      },
+      "brightest_bin_removed": {
+        "center_A": 13155.546184870003,
+        "core_bins": 4,
+        "sideband_bins": 6,
+        "state": "insufficient_clean_coverage"
+      }
+    },
+    {
+      "object_id": 2718851317642848846,
+      "grism": "RGS",
+      "hdu": "267_DITH1D_11991_SIGNAL",
+      "gwa_pos": "RGS000",
+      "gwa_tilt": -4,
+      "contaminants": [
+        2717228921642526172,
+        2718232043642717141,
+        2718998152642873361
+      ],
+      "center_A": 13155.546184870003,
+      "core_bins": 0,
+      "sideband_bins": 0,
+      "state": "insufficient_clean_coverage",
+      "core_mask_counts": {}
+    },
+    {
+      "object_id": 2718851317642848846,
+      "grism": "RGS",
+      "hdu": "267_DITH1D_11992_SIGNAL",
+      "gwa_pos": "RGS180",
+      "gwa_tilt": 0,
+      "contaminants": [
+        2720360235643191841
+      ],
+      "center_A": 13155.546184870003,
+      "core_bins": 0,
+      "sideband_bins": 2,
+      "state": "insufficient_clean_coverage",
+      "core_mask_counts": {
+        "4": 2,
+        "6": 1,
+        "12": 2
+      }
+    },
+    {
+      "object_id": 2718851317642848846,
+      "grism": "RGS",
+      "hdu": "267_DITH1D_13183_SIGNAL",
+      "gwa_pos": "RGS000",
+      "gwa_tilt": 0,
+      "contaminants": [
+        2717725739642354473,
+        2718267552642593602,
+        2718611349642742346,
+        2718622468642752015
+      ],
+      "center_A": 13155.546184870003,
+      "core_bins": 0,
+      "sideband_bins": 0,
+      "state": "insufficient_clean_coverage",
+      "core_mask_counts": {}
+    },
+    {
+      "object_id": 2718851317642848846,
+      "grism": "RGS",
+      "hdu": "267_DITH1D_13184_SIGNAL",
+      "gwa_pos": "RGS180",
+      "gwa_tilt": 4,
+      "contaminants": [
+        2718247802642542568
+      ],
+      "center_A": 13155.546184870003,
+      "core_bins": 0,
+      "sideband_bins": 0,
+      "state": "insufficient_clean_coverage",
+      "core_mask_counts": {}
+    },
+    {
+      "object_id": 2718851317642848846,
+      "grism": "RGS",
+      "hdu": "267_DITH1D_13185_SIGNAL",
+      "gwa_pos": "RGS000",
+      "gwa_tilt": -4,
+      "contaminants": [
+        2717408042642313172,
+        2718750931642813546
+      ],
+      "center_A": 13155.546184870003,
+      "core_bins": 5,
+      "sideband_bins": 12,
+      "state": "measured",
+      "snr": 0.7838613166918706,
+      "reduced_chi2": 0.6832689075260442,
+      "core_mask_counts": {
+        "0": 5
+      },
+      "brightest_bin_removed": {
+        "center_A": 13155.546184870003,
+        "core_bins": 4,
+        "sideband_bins": 12,
+        "state": "measured",
+        "snr": 0.6820898570735278,
+        "reduced_chi2": 0.7092320892124961
+      }
+    },
+    {
+      "object_id": 2718851317642848846,
+      "grism": "RGS",
+      "hdu": "267_DITH1D_13186_SIGNAL",
+      "gwa_pos": "RGS180",
+      "gwa_tilt": 0,
+      "contaminants": [
+        2718267552642593602,
+        2718611349642742346,
+        2718622468642752015,
+        2720493615643559125
+      ],
+      "center_A": 13155.546184870003,
+      "core_bins": 5,
+      "sideband_bins": 12,
+      "state": "measured",
+      "snr": -1.20324013215567,
+      "reduced_chi2": 0.758006498854822,
+      "core_mask_counts": {
+        "0": 5
+      },
+      "brightest_bin_removed": {
+        "center_A": 13155.546184870003,
+        "core_bins": 4,
+        "sideband_bins": 12,
+        "state": "measured",
+        "snr": -1.389944232045667,
+        "reduced_chi2": 0.6931753084132456
+      }
+    },
+    {
+      "object_id": 2718851317642848846,
+      "grism": "RGS",
+      "hdu": "267_DITH1D_14636_SIGNAL",
+      "gwa_pos": "RGS000",
+      "gwa_tilt": 0,
+      "contaminants": [
+        2717673296641915348,
+        2717702773641924625,
+        2717747944641976980,
+        2717766278641983366,
+        2717991024642159442,
+        2718423241642500846,
+        2718567856642610941,
+        2718942843642924986
+      ],
+      "center_A": 13155.546184870003,
+      "core_bins": 5,
+      "sideband_bins": 12,
+      "state": "measured",
+      "snr": -0.5472256171159376,
+      "reduced_chi2": 1.0228611557379819,
+      "core_mask_counts": {
+        "0": 5
+      },
+      "brightest_bin_removed": {
+        "center_A": 13155.546184870003,
+        "core_bins": 4,
+        "sideband_bins": 12,
+        "state": "measured",
+        "snr": -0.909026622906484,
+        "reduced_chi2": 0.9842817415643523
+      }
+    },
+    {
+      "object_id": 2718851317642848846,
+      "grism": "RGS",
+      "hdu": "267_DITH1D_14637_SIGNAL",
+      "gwa_pos": "RGS180",
+      "gwa_tilt": 4,
+      "contaminants": [
+        2719718172643642170,
+        2719905711643841983
+      ],
+      "center_A": 13155.546184870003,
+      "core_bins": 5,
+      "sideband_bins": 12,
+      "state": "measured",
+      "snr": 0.3878066087543688,
+      "reduced_chi2": 0.5734202684965164,
+      "core_mask_counts": {
+        "0": 5
+      },
+      "brightest_bin_removed": {
+        "center_A": 13155.546184870003,
+        "core_bins": 4,
+        "sideband_bins": 12,
+        "state": "measured",
+        "snr": 0.135910609697645,
+        "reduced_chi2": 0.43768623193771067
+      }
+    },
+    {
+      "object_id": 2718851317642848846,
+      "grism": "RGS",
+      "hdu": "267_DITH1D_14638_SIGNAL",
+      "gwa_pos": "RGS000",
+      "gwa_tilt": -4,
+      "contaminants": [
+        2718666733642726468
+      ],
+      "center_A": 13155.546184870003,
+      "core_bins": 5,
+      "sideband_bins": 12,
+      "state": "measured",
+      "snr": 1.519476467822811,
+      "reduced_chi2": 0.9637308276249427,
+      "core_mask_counts": {
+        "0": 5
+      },
+      "brightest_bin_removed": {
+        "center_A": 13155.546184870003,
+        "core_bins": 4,
+        "sideband_bins": 12,
+        "state": "measured",
+        "snr": 0.733727185276355,
+        "reduced_chi2": 1.0018483275917947
+      }
+    },
+    {
+      "object_id": 2718851317642848846,
+      "grism": "RGS",
+      "hdu": "267_DITH1D_21903_SIGNAL",
+      "gwa_pos": "RGS000",
+      "gwa_tilt": 0,
+      "contaminants": [
+        2719353336642770302
+      ],
+      "center_A": 13155.546184870003,
+      "core_bins": 5,
+      "sideband_bins": 11,
+      "state": "insufficient_clean_coverage",
+      "core_mask_counts": {
+        "0": 5
+      },
+      "brightest_bin_removed": {
+        "center_A": 13155.546184870003,
+        "core_bins": 4,
+        "sideband_bins": 11,
+        "state": "insufficient_clean_coverage"
+      }
+    },
+    {
+      "object_id": 2718851317642848846,
+      "grism": "RGS",
+      "hdu": "267_DITH1D_21904_SIGNAL",
+      "gwa_pos": "RGS180",
+      "gwa_tilt": 4,
+      "contaminants": [
+        2716950249643086590,
+        2717126294643064870,
+        2719589361642749493
+      ],
+      "center_A": 13155.546184870003,
+      "core_bins": 0,
+      "sideband_bins": 0,
+      "state": "insufficient_clean_coverage",
+      "core_mask_counts": {}
+    },
+    {
+      "object_id": 2718851317642848846,
+      "grism": "RGS",
+      "hdu": "267_DITH1D_21905_SIGNAL",
+      "gwa_pos": "RGS000",
+      "gwa_tilt": -4,
+      "contaminants": [
+        2718324503642954778,
+        2720994531642417977,
+        2721077969642413728
+      ],
+      "center_A": 13155.546184870003,
+      "core_bins": 5,
+      "sideband_bins": 12,
+      "state": "measured",
+      "snr": -0.9814068287590922,
+      "reduced_chi2": 1.989601818438854,
+      "core_mask_counts": {
+        "0": 5
+      },
+      "brightest_bin_removed": {
+        "center_A": 13155.546184870003,
+        "core_bins": 4,
+        "sideband_bins": 12,
+        "state": "measured",
+        "snr": -1.001431149074328,
+        "reduced_chi2": 2.1085595942382818
+      }
+    },
+    {
+      "object_id": 2718851317642848846,
+      "grism": "RGS",
+      "hdu": "267_DITH1D_21906_SIGNAL",
+      "gwa_pos": "RGS180",
+      "gwa_tilt": 0,
+      "contaminants": [
+        2716841611643166330,
+        2719353336642770302
+      ],
+      "center_A": 13155.546184870003,
+      "core_bins": 5,
+      "sideband_bins": 12,
+      "state": "measured",
+      "snr": -0.628644630083039,
+      "reduced_chi2": 2.212575911961239,
+      "core_mask_counts": {
+        "0": 5
+      },
+      "brightest_bin_removed": {
+        "center_A": 13155.546184870003,
+        "core_bins": 4,
+        "sideband_bins": 12,
+        "state": "measured",
+        "snr": -1.6168750110007841,
+        "reduced_chi2": 1.9560969184802783
+      }
+    },
+    {
+      "object_id": 2718851317642848846,
+      "grism": "RGS",
+      "hdu": "267_DITH1D_24299_SIGNAL",
+      "gwa_pos": "RGS000",
+      "gwa_tilt": 0,
+      "contaminants": [
+        2718135390642788835,
+        2718493608642813585,
+        2719101043642872856,
+        2721126418643043058
+      ],
+      "center_A": 13155.546184870003,
+      "core_bins": 5,
+      "sideband_bins": 9,
+      "state": "insufficient_clean_coverage",
+      "core_mask_counts": {
+        "0": 5
+      },
+      "brightest_bin_removed": {
+        "center_A": 13155.546184870003,
+        "core_bins": 4,
+        "sideband_bins": 9,
+        "state": "insufficient_clean_coverage"
+      }
+    },
+    {
+      "object_id": 2718851317642848846,
+      "grism": "RGS",
+      "hdu": "267_DITH1D_24300_SIGNAL",
+      "gwa_pos": "RGS180",
+      "gwa_tilt": 4,
+      "contaminants": [
+        2718129831642754088,
+        2718998152642873361,
+        2719101043642872856
+      ],
+      "center_A": 13155.546184870003,
+      "core_bins": 2,
+      "sideband_bins": 12,
+      "state": "insufficient_clean_coverage",
+      "core_mask_counts": {
+        "0": 2,
+        "3": 3
+      }
+    },
+    {
+      "object_id": 2718851317642848846,
+      "grism": "RGS",
+      "hdu": "267_DITH1D_24301_SIGNAL",
+      "gwa_pos": "RGS000",
+      "gwa_tilt": -4,
+      "contaminants": null,
+      "center_A": 13155.546184870003,
+      "core_bins": 5,
+      "sideband_bins": 11,
+      "state": "insufficient_clean_coverage",
+      "core_mask_counts": {
+        "0": 5
+      },
+      "brightest_bin_removed": {
+        "center_A": 13155.546184870003,
+        "core_bins": 4,
+        "sideband_bins": 11,
+        "state": "insufficient_clean_coverage"
+      }
+    },
+    {
+      "object_id": 2718851317642848846,
+      "grism": "RGS",
+      "hdu": "267_DITH1D_24302_SIGNAL",
+      "gwa_pos": "RGS180",
+      "gwa_tilt": 0,
+      "contaminants": [
+        2718135390642788835,
+        2718493608642813585,
+        2719101043642872856
+      ],
+      "center_A": 13155.546184870003,
+      "core_bins": 5,
+      "sideband_bins": 11,
+      "state": "insufficient_clean_coverage",
+      "core_mask_counts": {
+        "0": 5
+      },
+      "brightest_bin_removed": {
+        "center_A": 13155.546184870003,
+        "core_bins": 4,
+        "sideband_bins": 11,
+        "state": "insufficient_clean_coverage"
+      }
+    },
+    {
+      "object_id": 2718851317642848846,
+      "grism": "RGS",
+      "hdu": "267_DITH1D_30486_SIGNAL",
+      "gwa_pos": "RGS000",
+      "gwa_tilt": 0,
+      "contaminants": [
+        2718693196643946914,
+        2718756816643537546,
+        2718762161643628088,
+        2718801033643080663,
+        2718830738642975917,
+        2718859380642802995,
+        2718882643642726962
+      ],
+      "center_A": 13155.546184870003,
+      "core_bins": 5,
+      "sideband_bins": 10,
+      "state": "insufficient_clean_coverage",
+      "core_mask_counts": {
+        "0": 5
+      },
+      "brightest_bin_removed": {
+        "center_A": 13155.546184870003,
+        "core_bins": 4,
+        "sideband_bins": 10,
+        "state": "insufficient_clean_coverage"
+      }
+    },
+    {
+      "object_id": 2718851317642848846,
+      "grism": "RGS",
+      "hdu": "267_DITH1D_30487_SIGNAL",
+      "gwa_pos": "RGS180",
+      "gwa_tilt": 4,
+      "contaminants": [
+        2718720239643204256,
+        2718754937643119197,
+        2718859380642802995,
+        2718882643642726962,
+        2718988999642465767,
+        2719038448642134213,
+        2719061284642139675,
+        2719061633642080090,
+        2719092892642090905
+      ],
+      "center_A": 13155.546184870003,
+      "core_bins": 4,
+      "sideband_bins": 11,
+      "state": "insufficient_clean_coverage",
+      "core_mask_counts": {
+        "0": 4,
+        "2": 1
+      },
+      "brightest_bin_removed": {
+        "center_A": 13155.546184870003,
+        "core_bins": 3,
+        "sideband_bins": 11,
+        "state": "insufficient_clean_coverage"
+      }
+    },
+    {
+      "object_id": 2718851317642848846,
+      "grism": "RGS",
+      "hdu": "267_DITH1D_30488_SIGNAL",
+      "gwa_pos": "RGS000",
+      "gwa_tilt": -4,
+      "contaminants": [
+        2718854332643679533,
+        2718859380642802995,
+        2718862404643025137
+      ],
+      "center_A": 13155.546184870003,
+      "core_bins": 5,
+      "sideband_bins": 11,
+      "state": "insufficient_clean_coverage",
+      "core_mask_counts": {
+        "0": 5
+      },
+      "brightest_bin_removed": {
+        "center_A": 13155.546184870003,
+        "core_bins": 4,
+        "sideband_bins": 11,
+        "state": "insufficient_clean_coverage"
+      }
+    },
+    {
+      "object_id": 2718851317642848846,
+      "grism": "RGS",
+      "hdu": "267_DITH1D_30489_SIGNAL",
+      "gwa_pos": "RGS180",
+      "gwa_tilt": 0,
+      "contaminants": [
+        2718801033643080663,
+        2718830738642975917,
+        2718859380642802995,
+        2718882643642726962,
+        2718973886642023507,
+        2718981142641870807
+      ],
+      "center_A": 13155.546184870003,
+      "core_bins": 0,
+      "sideband_bins": 0,
+      "state": "insufficient_clean_coverage",
+      "core_mask_counts": {}
+    },
+    {
+      "object_id": 2718851317642848846,
+      "grism": "RGS",
+      "hdu": "267_DITH1D_34350_SIGNAL",
+      "gwa_pos": "RGS000",
+      "gwa_tilt": 0,
+      "contaminants": [
+        2717348505643338756,
+        2717515213643272713,
+        2718421465642995829
+      ],
+      "center_A": 13155.546184870003,
+      "core_bins": 5,
+      "sideband_bins": 12,
+      "state": "measured",
+      "snr": 0.2964228833692691,
+      "reduced_chi2": 1.5171774162035283,
+      "core_mask_counts": {
+        "0": 5
+      },
+      "brightest_bin_removed": {
+        "center_A": 13155.546184870003,
+        "core_bins": 4,
+        "sideband_bins": 12,
+        "state": "measured",
+        "snr": 0.1487366336988227,
+        "reduced_chi2": 1.5359002448549075
+      }
+    },
+    {
+      "object_id": 2718851317642848846,
+      "grism": "RGS",
+      "hdu": "267_DITH1D_34351_SIGNAL",
+      "gwa_pos": "RGS180",
+      "gwa_tilt": 4,
+      "contaminants": [
+        2718608833642918120,
+        2718972906642818663
+      ],
+      "center_A": 13155.546184870003,
+      "core_bins": 0,
+      "sideband_bins": 4,
+      "state": "insufficient_clean_coverage",
+      "core_mask_counts": {
+        "3": 2
+      }
+    },
+    {
+      "object_id": 2718851317642848846,
+      "grism": "RGS",
+      "hdu": "267_DITH1D_34352_SIGNAL",
+      "gwa_pos": "RGS000",
+      "gwa_tilt": -4,
+      "contaminants": null,
+      "center_A": 13155.546184870003,
+      "core_bins": 4,
+      "sideband_bins": 11,
+      "state": "insufficient_clean_coverage",
+      "core_mask_counts": {
+        "0": 4,
+        "4": 1
+      },
+      "brightest_bin_removed": {
+        "center_A": 13155.546184870003,
+        "core_bins": 3,
+        "sideband_bins": 11,
+        "state": "insufficient_clean_coverage"
+      }
+    },
+    {
+      "object_id": 2718851317642848846,
+      "grism": "RGS",
+      "hdu": "267_DITH1D_9197_SIGNAL",
+      "gwa_pos": "RGS000",
+      "gwa_tilt": 0,
+      "contaminants": [
+        2716350533642931964,
+        2716498496642923554,
+        2716826206642925280,
+        2718024954642879875,
+        2718517775642859478
+      ],
+      "center_A": 13155.546184870003,
+      "core_bins": 5,
+      "sideband_bins": 12,
+      "state": "measured",
+      "snr": -0.09410066531646308,
+      "reduced_chi2": 0.816073129200665,
+      "core_mask_counts": {
+        "0": 5
+      },
+      "brightest_bin_removed": {
+        "center_A": 13155.546184870003,
+        "core_bins": 4,
+        "sideband_bins": 12,
+        "state": "measured",
+        "snr": -0.6819970983682768,
+        "reduced_chi2": 0.7856939941782218
+      }
+    },
+    {
+      "object_id": 2718851317642848846,
+      "grism": "RGS",
+      "hdu": "267_DITH1D_9198_SIGNAL",
+      "gwa_pos": "RGS180",
+      "gwa_tilt": 4,
+      "contaminants": null,
+      "center_A": 13155.546184870003,
+      "core_bins": 4,
+      "sideband_bins": 8,
+      "state": "insufficient_clean_coverage",
+      "core_mask_counts": {
+        "0": 4,
+        "4": 1
+      },
+      "brightest_bin_removed": {
+        "center_A": 13155.546184870003,
+        "core_bins": 3,
+        "sideband_bins": 8,
+        "state": "insufficient_clean_coverage"
+      }
+    },
+    {
+      "object_id": 2718851317642848846,
+      "grism": "RGS",
+      "hdu": "267_DITH1D_9199_SIGNAL",
+      "gwa_pos": "RGS000",
+      "gwa_tilt": -4,
+      "contaminants": null,
+      "center_A": 13155.546184870003,
+      "core_bins": 0,
+      "sideband_bins": 0,
+      "state": "insufficient_clean_coverage",
+      "core_mask_counts": {}
+    },
+    {
+      "object_id": 2718851317642848846,
+      "grism": "RGS",
+      "hdu": "267_DITH1D_9200_SIGNAL",
+      "gwa_pos": "RGS180",
+      "gwa_tilt": 0,
+      "contaminants": [
+        2718024954642879875,
+        2718517775642859478
+      ],
+      "center_A": 13155.546184870003,
+      "core_bins": 0,
+      "sideband_bins": 0,
+      "state": "insufficient_clean_coverage",
+      "core_mask_counts": {}
+    },
+    {
+      "object_id": 2718858072642847858,
+      "grism": "RGS",
+      "hdu": "269_COMBINED1D_SIGNAL",
+      "gwa_pos": null,
+      "gwa_tilt": null,
+      "contaminants": null,
+      "center_A": 13155.546184870003,
+      "core_bins": 2,
+      "sideband_bins": 4,
+      "state": "insufficient_clean_coverage",
+      "core_mask_counts": {
+        "0": 2,
+        "2": 3
+      },
+      "brightest_bin_removed": {
+        "center_A": 13155.546184870003,
+        "core_bins": 1,
+        "sideband_bins": 4,
+        "state": "insufficient_clean_coverage"
+      }
+    },
+    {
+      "object_id": 2718858072642847858,
+      "grism": "RGS",
+      "hdu": "269_DITH1D_11989_SIGNAL",
+      "gwa_pos": "RGS000",
+      "gwa_tilt": 0,
+      "contaminants": [
+        2718998152642873361
+      ],
+      "center_A": 13155.546184870003,
+      "core_bins": 5,
+      "sideband_bins": 12,
+      "state": "measured",
+      "snr": 4.6433979240707295,
+      "reduced_chi2": 1.7297593507785394,
+      "core_mask_counts": {
+        "0": 5
+      },
+      "brightest_bin_removed": {
+        "center_A": 13155.546184870003,
+        "core_bins": 4,
+        "sideband_bins": 12,
+        "state": "measured",
+        "snr": 3.006831794900176,
+        "reduced_chi2": 1.7730131321482807
+      }
+    },
+    {
+      "object_id": 2718858072642847858,
+      "grism": "RGS",
+      "hdu": "269_DITH1D_11990_SIGNAL",
+      "gwa_pos": "RGS180",
+      "gwa_tilt": 4,
+      "contaminants": [
+        2718750931642813546,
+        2720312111643256378
+      ],
+      "center_A": 13155.546184870003,
+      "core_bins": 5,
+      "sideband_bins": 9,
+      "state": "insufficient_clean_coverage",
+      "core_mask_counts": {
+        "0": 5
+      },
+      "brightest_bin_removed": {
+        "center_A": 13155.546184870003,
+        "core_bins": 4,
+        "sideband_bins": 9,
+        "state": "insufficient_clean_coverage"
+      }
+    },
+    {
+      "object_id": 2718858072642847858,
+      "grism": "RGS",
+      "hdu": "269_DITH1D_11991_SIGNAL",
+      "gwa_pos": "RGS000",
+      "gwa_tilt": -4,
+      "contaminants": [
+        2717228921642526172,
+        2718232043642717141,
+        2718998152642873361
+      ],
+      "center_A": 13155.546184870003,
+      "core_bins": 0,
+      "sideband_bins": 1,
+      "state": "insufficient_clean_coverage",
+      "core_mask_counts": {}
+    },
+    {
+      "object_id": 2718858072642847858,
+      "grism": "RGS",
+      "hdu": "269_DITH1D_11992_SIGNAL",
+      "gwa_pos": "RGS180",
+      "gwa_tilt": 0,
+      "contaminants": [
+        2718998152642873361,
+        2720360235643191841
+      ],
+      "center_A": 13155.546184870003,
+      "core_bins": 0,
+      "sideband_bins": 0,
+      "state": "insufficient_clean_coverage",
+      "core_mask_counts": {
+        "13": 5
+      }
+    },
+    {
+      "object_id": 2718858072642847858,
+      "grism": "RGS",
+      "hdu": "269_DITH1D_13183_SIGNAL",
+      "gwa_pos": "RGS000",
+      "gwa_tilt": 0,
+      "contaminants": [
+        2717725739642354473,
+        2718267552642593602,
+        2718611349642742346,
+        2718622468642752015
+      ],
+      "center_A": 13155.546184870003,
+      "core_bins": 0,
+      "sideband_bins": 0,
+      "state": "insufficient_clean_coverage",
+      "core_mask_counts": {}
+    },
+    {
+      "object_id": 2718858072642847858,
+      "grism": "RGS",
+      "hdu": "269_DITH1D_13184_SIGNAL",
+      "gwa_pos": "RGS180",
+      "gwa_tilt": 4,
+      "contaminants": [
+        2718247802642542568,
+        2720476647643633407
+      ],
+      "center_A": 13155.546184870003,
+      "core_bins": 0,
+      "sideband_bins": 0,
+      "state": "insufficient_clean_coverage",
+      "core_mask_counts": {}
+    },
+    {
+      "object_id": 2718858072642847858,
+      "grism": "RGS",
+      "hdu": "269_DITH1D_13185_SIGNAL",
+      "gwa_pos": "RGS000",
+      "gwa_tilt": -4,
+      "contaminants": [
+        2717408042642313172,
+        2718750931642813546
+      ],
+      "center_A": 13155.546184870003,
+      "core_bins": 5,
+      "sideband_bins": 12,
+      "state": "measured",
+      "snr": 5.975906758264626,
+      "reduced_chi2": 0.853700843167221,
+      "core_mask_counts": {
+        "0": 5
+      },
+      "brightest_bin_removed": {
+        "center_A": 13155.546184870003,
+        "core_bins": 4,
+        "sideband_bins": 12,
+        "state": "measured",
+        "snr": 3.5344229014374595,
+        "reduced_chi2": 0.7131835295636696
+      }
+    },
+    {
+      "object_id": 2718858072642847858,
+      "grism": "RGS",
+      "hdu": "269_DITH1D_13186_SIGNAL",
+      "gwa_pos": "RGS180",
+      "gwa_tilt": 0,
+      "contaminants": [
+        2718267552642593602,
+        2718611349642742346,
+        2718622468642752015
+      ],
+      "center_A": 13155.546184870003,
+      "core_bins": 3,
+      "sideband_bins": 0,
+      "state": "insufficient_clean_coverage",
+      "core_mask_counts": {
+        "0": 3,
+        "13": 2
+      },
+      "brightest_bin_removed": {
+        "center_A": 13155.546184870003,
+        "core_bins": 2,
+        "sideband_bins": 0,
+        "state": "insufficient_clean_coverage"
+      }
+    },
+    {
+      "object_id": 2718858072642847858,
+      "grism": "RGS",
+      "hdu": "269_DITH1D_14636_SIGNAL",
+      "gwa_pos": "RGS000",
+      "gwa_tilt": 0,
+      "contaminants": [
+        2717673296641915348,
+        2717702773641924625,
+        2717747944641976980,
+        2717766278641983366,
+        2717991024642159442,
+        2718423241642500846,
+        2718567856642610941
+      ],
+      "center_A": 13155.546184870003,
+      "core_bins": 5,
+      "sideband_bins": 11,
+      "state": "insufficient_clean_coverage",
+      "core_mask_counts": {
+        "0": 5
+      },
+      "brightest_bin_removed": {
+        "center_A": 13155.546184870003,
+        "core_bins": 4,
+        "sideband_bins": 11,
+        "state": "insufficient_clean_coverage"
+      }
+    },
+    {
+      "object_id": 2718858072642847858,
+      "grism": "RGS",
+      "hdu": "269_DITH1D_14637_SIGNAL",
+      "gwa_pos": "RGS180",
+      "gwa_tilt": 4,
+      "contaminants": [
+        2718942843642924986,
+        2719207926643172400,
+        2719718172643642170,
+        2719905711643841983
+      ],
+      "center_A": 13155.546184870003,
+      "core_bins": 5,
+      "sideband_bins": 10,
+      "state": "insufficient_clean_coverage",
+      "core_mask_counts": {
+        "0": 5
+      },
+      "brightest_bin_removed": {
+        "center_A": 13155.546184870003,
+        "core_bins": 4,
+        "sideband_bins": 10,
+        "state": "insufficient_clean_coverage"
+      }
+    },
+    {
+      "object_id": 2718858072642847858,
+      "grism": "RGS",
+      "hdu": "269_DITH1D_14638_SIGNAL",
+      "gwa_pos": "RGS000",
+      "gwa_tilt": -4,
+      "contaminants": [
+        2718666733642726468,
+        2719192545643063819
+      ],
+      "center_A": 13155.546184870003,
+      "core_bins": 5,
+      "sideband_bins": 12,
+      "state": "measured",
+      "snr": 2.374993399930447,
+      "reduced_chi2": 1.8122815400159618,
+      "core_mask_counts": {
+        "0": 5
+      },
+      "brightest_bin_removed": {
+        "center_A": 13155.546184870003,
+        "core_bins": 4,
+        "sideband_bins": 12,
+        "state": "measured",
+        "snr": 1.893709357126299,
+        "reduced_chi2": 1.1584352925632477
+      }
+    },
+    {
+      "object_id": 2718858072642847858,
+      "grism": "RGS",
+      "hdu": "269_DITH1D_21903_SIGNAL",
+      "gwa_pos": "RGS000",
+      "gwa_tilt": 0,
+      "contaminants": [
+        2719353336642770302
+      ],
+      "center_A": 13155.546184870003,
+      "core_bins": 5,
+      "sideband_bins": 12,
+      "state": "measured",
+      "snr": 3.4849594465308638,
+      "reduced_chi2": 1.8560860180966765,
+      "core_mask_counts": {
+        "0": 5
+      },
+      "brightest_bin_removed": {
+        "center_A": 13155.546184870003,
+        "core_bins": 4,
+        "sideband_bins": 12,
+        "state": "measured",
+        "snr": 2.9763318563937338,
+        "reduced_chi2": 1.6868909870752145
+      }
+    },
+    {
+      "object_id": 2718858072642847858,
+      "grism": "RGS",
+      "hdu": "269_DITH1D_21904_SIGNAL",
+      "gwa_pos": "RGS180",
+      "gwa_tilt": 4,
+      "contaminants": [
+        2716950249643086590,
+        2717126294643064870,
+        2719589361642749493
+      ],
+      "center_A": 13155.546184870003,
+      "core_bins": 0,
+      "sideband_bins": 2,
+      "state": "insufficient_clean_coverage",
+      "core_mask_counts": {}
+    },
+    {
+      "object_id": 2718858072642847858,
+      "grism": "RGS",
+      "hdu": "269_DITH1D_21905_SIGNAL",
+      "gwa_pos": "RGS000",
+      "gwa_tilt": -4,
+      "contaminants": [
+        2718324503642954778,
+        2720994531642417977,
+        2721077969642413728
+      ],
+      "center_A": 13155.546184870003,
+      "core_bins": 5,
+      "sideband_bins": 12,
+      "state": "measured",
+      "snr": 5.225511196393728,
+      "reduced_chi2": 0.5874259066352424,
+      "core_mask_counts": {
+        "0": 5
+      },
+      "brightest_bin_removed": {
+        "center_A": 13155.546184870003,
+        "core_bins": 4,
+        "sideband_bins": 12,
+        "state": "measured",
+        "snr": 3.8692894991922997,
+        "reduced_chi2": 0.5657949746720001
+      }
+    },
+    {
+      "object_id": 2718858072642847858,
+      "grism": "RGS",
+      "hdu": "269_DITH1D_21906_SIGNAL",
+      "gwa_pos": "RGS180",
+      "gwa_tilt": 0,
+      "contaminants": [
+        2716841611643166330,
+        2719353336642770302
+      ],
+      "center_A": 13155.546184870003,
+      "core_bins": 4,
+      "sideband_bins": 10,
+      "state": "insufficient_clean_coverage",
+      "core_mask_counts": {
+        "0": 4,
+        "2": 1
+      },
+      "brightest_bin_removed": {
+        "center_A": 13155.546184870003,
+        "core_bins": 3,
+        "sideband_bins": 10,
+        "state": "insufficient_clean_coverage"
+      }
+    },
+    {
+      "object_id": 2718858072642847858,
+      "grism": "RGS",
+      "hdu": "269_DITH1D_24299_SIGNAL",
+      "gwa_pos": "RGS000",
+      "gwa_tilt": 0,
+      "contaminants": [
+        2718135390642788835,
+        2718493608642813585,
+        2719101043642872856,
+        2721126418643043058
+      ],
+      "center_A": 13155.546184870003,
+      "core_bins": 5,
+      "sideband_bins": 10,
+      "state": "insufficient_clean_coverage",
+      "core_mask_counts": {
+        "0": 5
+      },
+      "brightest_bin_removed": {
+        "center_A": 13155.546184870003,
+        "core_bins": 4,
+        "sideband_bins": 10,
+        "state": "insufficient_clean_coverage"
+      }
+    },
+    {
+      "object_id": 2718858072642847858,
+      "grism": "RGS",
+      "hdu": "269_DITH1D_24300_SIGNAL",
+      "gwa_pos": "RGS180",
+      "gwa_tilt": 4,
+      "contaminants": [
+        2718129831642754088,
+        2718998152642873361,
+        2719101043642872856
+      ],
+      "center_A": 13155.546184870003,
+      "core_bins": 5,
+      "sideband_bins": 10,
+      "state": "insufficient_clean_coverage",
+      "core_mask_counts": {
+        "0": 5
+      },
+      "brightest_bin_removed": {
+        "center_A": 13155.546184870003,
+        "core_bins": 4,
+        "sideband_bins": 10,
+        "state": "insufficient_clean_coverage"
+      }
+    },
+    {
+      "object_id": 2718858072642847858,
+      "grism": "RGS",
+      "hdu": "269_DITH1D_24301_SIGNAL",
+      "gwa_pos": "RGS000",
+      "gwa_tilt": -4,
+      "contaminants": null,
+      "center_A": 13155.546184870003,
+      "core_bins": 5,
+      "sideband_bins": 12,
+      "state": "measured",
+      "snr": 4.774810368249067,
+      "reduced_chi2": 0.8386347865528708,
+      "core_mask_counts": {
+        "0": 5
+      },
+      "brightest_bin_removed": {
+        "center_A": 13155.546184870003,
+        "core_bins": 4,
+        "sideband_bins": 12,
+        "state": "measured",
+        "snr": 3.270635672805355,
+        "reduced_chi2": 0.874661519642908
+      }
+    },
+    {
+      "object_id": 2718858072642847858,
+      "grism": "RGS",
+      "hdu": "269_DITH1D_24302_SIGNAL",
+      "gwa_pos": "RGS180",
+      "gwa_tilt": 0,
+      "contaminants": [
+        2718135390642788835,
+        2718493608642813585,
+        2719101043642872856
+      ],
+      "center_A": 13155.546184870003,
+      "core_bins": 5,
+      "sideband_bins": 12,
+      "state": "measured",
+      "snr": 5.629561202264272,
+      "reduced_chi2": 1.0579190410398065,
+      "core_mask_counts": {
+        "0": 5
+      },
+      "brightest_bin_removed": {
+        "center_A": 13155.546184870003,
+        "core_bins": 4,
+        "sideband_bins": 12,
+        "state": "measured",
+        "snr": 4.421965050944675,
+        "reduced_chi2": 1.1274964742107452
+      }
+    },
+    {
+      "object_id": 2718858072642847858,
+      "grism": "RGS",
+      "hdu": "269_DITH1D_30486_SIGNAL",
+      "gwa_pos": "RGS000",
+      "gwa_tilt": 0,
+      "contaminants": [
+        2718693196643946914,
+        2718756816643537546,
+        2718762161643628088,
+        2718830738642975917,
+        2718859380642802995,
+        2718882643642726962
+      ],
+      "center_A": 13155.546184870003,
+      "core_bins": 0,
+      "sideband_bins": 0,
+      "state": "insufficient_clean_coverage",
+      "core_mask_counts": {
+        "7": 4,
+        "15": 1
+      }
+    },
+    {
+      "object_id": 2718858072642847858,
+      "grism": "RGS",
+      "hdu": "269_DITH1D_30487_SIGNAL",
+      "gwa_pos": "RGS180",
+      "gwa_tilt": 4,
+      "contaminants": [
+        2718801033643080663,
+        2718830738642975917,
+        2718859380642802995,
+        2718882643642726962,
+        2718988999642465767,
+        2719061284642139675,
+        2719061633642080090,
+        2719092892642090905
+      ],
+      "center_A": 13155.546184870003,
+      "core_bins": 0,
+      "sideband_bins": 0,
+      "state": "insufficient_clean_coverage",
+      "core_mask_counts": {
+        "3": 5
+      }
+    },
+    {
+      "object_id": 2718858072642847858,
+      "grism": "RGS",
+      "hdu": "269_DITH1D_30488_SIGNAL",
+      "gwa_pos": "RGS000",
+      "gwa_tilt": -4,
+      "contaminants": [
+        2718854332643679533,
+        2718859380642802995,
+        2718862404643025137
+      ],
+      "center_A": 13155.546184870003,
+      "core_bins": 4,
+      "sideband_bins": 8,
+      "state": "insufficient_clean_coverage",
+      "core_mask_counts": {
+        "0": 4,
+        "2": 1
+      },
+      "brightest_bin_removed": {
+        "center_A": 13155.546184870003,
+        "core_bins": 3,
+        "sideband_bins": 8,
+        "state": "insufficient_clean_coverage"
+      }
+    },
+    {
+      "object_id": 2718858072642847858,
+      "grism": "RGS",
+      "hdu": "269_DITH1D_30489_SIGNAL",
+      "gwa_pos": "RGS180",
+      "gwa_tilt": 0,
+      "contaminants": [
+        2718830738642975917,
+        2718859380642802995,
+        2718882643642726962,
+        2718973886642023507,
+        2718981142641870807
+      ],
+      "center_A": 13155.546184870003,
+      "core_bins": 0,
+      "sideband_bins": 0,
+      "state": "insufficient_clean_coverage",
+      "core_mask_counts": {}
+    },
+    {
+      "object_id": 2718858072642847858,
+      "grism": "RGS",
+      "hdu": "269_DITH1D_34350_SIGNAL",
+      "gwa_pos": "RGS000",
+      "gwa_tilt": 0,
+      "contaminants": [
+        2717348505643338756,
+        2717515213643272713,
+        2718421465642995829
+      ],
+      "center_A": 13155.546184870003,
+      "core_bins": 5,
+      "sideband_bins": 12,
+      "state": "measured",
+      "snr": 4.236265142860312,
+      "reduced_chi2": 1.0104520215642085,
+      "core_mask_counts": {
+        "0": 5
+      },
+      "brightest_bin_removed": {
+        "center_A": 13155.546184870003,
+        "core_bins": 4,
+        "sideband_bins": 12,
+        "state": "measured",
+        "snr": 3.2249057820328506,
+        "reduced_chi2": 1.0696275060494034
+      }
+    },
+    {
+      "object_id": 2718858072642847858,
+      "grism": "RGS",
+      "hdu": "269_DITH1D_34351_SIGNAL",
+      "gwa_pos": "RGS180",
+      "gwa_tilt": 4,
+      "contaminants": [
+        2718608833642918120,
+        2718972906642818663
+      ],
+      "center_A": 13155.546184870003,
+      "core_bins": 1,
+      "sideband_bins": 3,
+      "state": "insufficient_clean_coverage",
+      "core_mask_counts": {
+        "0": 1,
+        "3": 2,
+        "4": 2
+      }
+    },
+    {
+      "object_id": 2718858072642847858,
+      "grism": "RGS",
+      "hdu": "269_DITH1D_34352_SIGNAL",
+      "gwa_pos": "RGS000",
+      "gwa_tilt": -4,
+      "contaminants": null,
+      "center_A": 13155.546184870003,
+      "core_bins": 4,
+      "sideband_bins": 7,
+      "state": "insufficient_clean_coverage",
+      "core_mask_counts": {
+        "0": 4,
+        "4": 1
+      },
+      "brightest_bin_removed": {
+        "center_A": 13155.546184870003,
+        "core_bins": 3,
+        "sideband_bins": 7,
+        "state": "insufficient_clean_coverage"
+      }
+    },
+    {
+      "object_id": 2718858072642847858,
+      "grism": "RGS",
+      "hdu": "269_DITH1D_9197_SIGNAL",
+      "gwa_pos": "RGS000",
+      "gwa_tilt": 0,
+      "contaminants": [
+        2716350533642931964,
+        2716498496642923554,
+        2716826206642925280,
+        2718024954642879875,
+        2718517775642859478
+      ],
+      "center_A": 13155.546184870003,
+      "core_bins": 5,
+      "sideband_bins": 12,
+      "state": "measured",
+      "snr": 2.755210515213496,
+      "reduced_chi2": 1.5031239849371265,
+      "core_mask_counts": {
+        "0": 5
+      },
+      "brightest_bin_removed": {
+        "center_A": 13155.546184870003,
+        "core_bins": 4,
+        "sideband_bins": 12,
+        "state": "measured",
+        "snr": 1.643411196827606,
+        "reduced_chi2": 1.4266869276837313
+      }
+    },
+    {
+      "object_id": 2718858072642847858,
+      "grism": "RGS",
+      "hdu": "269_DITH1D_9198_SIGNAL",
+      "gwa_pos": "RGS180",
+      "gwa_tilt": 4,
+      "contaminants": [
+        2718440288642840790
+      ],
+      "center_A": 13155.546184870003,
+      "core_bins": 3,
+      "sideband_bins": 10,
+      "state": "insufficient_clean_coverage",
+      "core_mask_counts": {
+        "0": 3,
+        "2": 1,
+        "3": 1
+      },
+      "brightest_bin_removed": {
+        "center_A": 13155.546184870003,
+        "core_bins": 2,
+        "sideband_bins": 10,
+        "state": "insufficient_clean_coverage"
+      }
+    },
+    {
+      "object_id": 2718858072642847858,
+      "grism": "RGS",
+      "hdu": "269_DITH1D_9199_SIGNAL",
+      "gwa_pos": "RGS000",
+      "gwa_tilt": -4,
+      "contaminants": null,
+      "center_A": 13155.546184870003,
+      "core_bins": 0,
+      "sideband_bins": 0,
+      "state": "insufficient_clean_coverage",
+      "core_mask_counts": {}
+    },
+    {
+      "object_id": 2718858072642847858,
+      "grism": "RGS",
+      "hdu": "269_DITH1D_9200_SIGNAL",
+      "gwa_pos": "RGS180",
+      "gwa_tilt": 0,
+      "contaminants": [
+        2718024954642879875,
+        2718517775642859478
+      ],
+      "center_A": 13155.546184870003,
+      "core_bins": 0,
+      "sideband_bins": 0,
+      "state": "insufficient_clean_coverage",
+      "core_mask_counts": {}
+    }
+  ]
+}

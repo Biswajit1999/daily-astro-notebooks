@@ -1,0 +1,188 @@
+{
+  "gaia_simbad": {
+    "EDN-001": {
+      "gaia_irsa": {
+        "url": "https://irsa.ipac.caltech.edu/cgi-bin/Gator/nph-query?catalog=gaia_dr3_source&objstr=273.079047910709+64.2206104018866&spatial=cone&radius=10&radunits=arcsec&outfmt=1",
+        "rows": 1,
+        "matches": [
+          {
+            "source_id": "2161256061931004544",
+            "ra": "273.07525854757",
+            "dec": "64.21916328715",
+            "ref_epoch": "2016.0",
+            "parallax": "1.481",
+            "parallax_error": "0.5036",
+            "pmra": "8.151",
+            "pmdec": "-1.276",
+            "ruwe": "1.076",
+            "phot_g_mean_mag": "20.161316",
+            "dist": "7.897132"
+          }
+        ],
+        "sha256": "313881067243ae53c8d07b7f38a2c4d9f63b5d05fa72bc5fec7b0f73e3a7fd4c"
+      },
+      "simbad": {
+        "endpoint": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync",
+        "adql": "SELECT TOP 100 main_id,otype,ra,dec,rvz_redshift,rvz_bibcode FROM basic WHERE 1=CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',273.079047910709,64.2206104018866,0.001666667))",
+        "rows": 0,
+        "file": "simbad_mirror.csv",
+        "sha256": "836a500a8198a1a6bd08762838eafda8ea4f6f6a3953e4046532004731a11bfd",
+        "data": []
+      }
+    },
+    "EDN-002": {
+      "gaia_irsa": {
+        "url": "https://irsa.ipac.caltech.edu/cgi-bin/Gator/nph-query?catalog=gaia_dr3_source&objstr=272.21672670646603+64.26971403549358&spatial=cone&radius=10&radunits=arcsec&outfmt=1",
+        "rows": 0,
+        "matches": [],
+        "sha256": "9c07ea54f09e0e2bc284a3c3330484c623b260d07a701ffac535518d1322bc56"
+      },
+      "simbad": {
+        "endpoint": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync",
+        "adql": "SELECT TOP 100 main_id,otype,ra,dec,rvz_redshift,rvz_bibcode FROM basic WHERE 1=CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',272.21672670646603,64.26971403549358,0.001666667))",
+        "rows": 0,
+        "file": "simbad_mirror.csv",
+        "sha256": "836a500a8198a1a6bd08762838eafda8ea4f6f6a3953e4046532004731a11bfd",
+        "data": []
+      }
+    },
+    "EDN-003": {
+      "gaia_irsa": {
+        "url": "https://irsa.ipac.caltech.edu/cgi-bin/Gator/nph-query?catalog=gaia_dr3_source&objstr=272.62828242432676+64.21445561492239&spatial=cone&radius=10&radunits=arcsec&outfmt=1",
+        "rows": 0,
+        "matches": [],
+        "sha256": "e6888c0ced15455f8357bf77d4a0f5d2cd733c3ba59104ff1755ba34d0a9ca53"
+      },
+      "simbad": {
+        "endpoint": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync",
+        "adql": "SELECT TOP 100 main_id,otype,ra,dec,rvz_redshift,rvz_bibcode FROM basic WHERE 1=CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',272.62828242432676,64.21445561492239,0.001666667))",
+        "rows": 0,
+        "file": "simbad_mirror.csv",
+        "sha256": "836a500a8198a1a6bd08762838eafda8ea4f6f6a3953e4046532004731a11bfd",
+        "data": []
+      }
+    },
+    "EDN-004": {
+      "gaia_irsa": {
+        "url": "https://irsa.ipac.caltech.edu/cgi-bin/Gator/nph-query?catalog=gaia_dr3_source&objstr=271.88543357704395+64.28483170737134&spatial=cone&radius=10&radunits=arcsec&outfmt=1",
+        "rows": 0,
+        "matches": [],
+        "sha256": "016f35341b1044aa040b7307a7d7adc236ffe11b29d045124a1c8fb72bd8d0e8"
+      },
+      "simbad": {
+        "endpoint": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync",
+        "adql": "SELECT TOP 100 main_id,otype,ra,dec,rvz_redshift,rvz_bibcode FROM basic WHERE 1=CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',271.88543357704395,64.28483170737134,0.001666667))",
+        "rows": 0,
+        "file": "simbad_mirror.csv",
+        "sha256": "836a500a8198a1a6bd08762838eafda8ea4f6f6a3953e4046532004731a11bfd",
+        "data": []
+      }
+    },
+    "EDN-005": {
+      "gaia_irsa": {
+        "url": "https://irsa.ipac.caltech.edu/cgi-bin/Gator/nph-query?catalog=gaia_dr3_source&objstr=273.22984569409704+64.19059902544512&spatial=cone&radius=10&radunits=arcsec&outfmt=1",
+        "rows": 0,
+        "matches": [],
+        "sha256": "666dee28b687ee624954db010bd23713e5e9fe66240585c3ef414ac20d4efab5"
+      },
+      "simbad": {
+        "endpoint": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync",
+        "adql": "SELECT TOP 100 main_id,otype,ra,dec,rvz_redshift,rvz_bibcode FROM basic WHERE 1=CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',273.22984569409704,64.19059902544512,0.001666667))",
+        "rows": 0,
+        "file": "simbad_mirror.csv",
+        "sha256": "836a500a8198a1a6bd08762838eafda8ea4f6f6a3953e4046532004731a11bfd",
+        "data": []
+      }
+    },
+    "EDN-006": {
+      "gaia_irsa": {
+        "url": "https://irsa.ipac.caltech.edu/cgi-bin/Gator/nph-query?catalog=gaia_dr3_source&objstr=272.0667132513639+64.17220370930008&spatial=cone&radius=10&radunits=arcsec&outfmt=1",
+        "rows": 0,
+        "matches": [],
+        "sha256": "bf22a497bde9963909e9c3799b350240c0959a88a2c94d9049e003cbfc7fb77b"
+      },
+      "simbad": {
+        "endpoint": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync",
+        "adql": "SELECT TOP 100 main_id,otype,ra,dec,rvz_redshift,rvz_bibcode FROM basic WHERE 1=CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',272.0667132513639,64.17220370930008,0.001666667))",
+        "rows": 0,
+        "file": "simbad_mirror.csv",
+        "sha256": "836a500a8198a1a6bd08762838eafda8ea4f6f6a3953e4046532004731a11bfd",
+        "data": []
+      }
+    }
+  },
+  "wds": {
+    "url": "https://www.astro.gsu.edu/wds/Webtextfiles/wds_precise.txt",
+    "parsed_rows": 157528,
+    "sha256": "c6d787afcd633230b38b7d935dc814ef6f7d2913c946d5c674902a0c1ae724c4",
+    "targets": {
+      "EDN-001": {
+        "nearest_sep_arcsec": 454.9526680191355,
+        "id": "18115+6418",
+        "designation": "ES 1835",
+        "within_15arcsec": false
+      },
+      "EDN-002": {
+        "nearest_sep_arcsec": 289.21843157506703,
+        "id": "18095+6414",
+        "designation": "HU  926",
+        "within_15arcsec": false
+      },
+      "EDN-003": {
+        "nearest_sep_arcsec": 391.1680427951304,
+        "id": "18095+6414",
+        "designation": "HU  926",
+        "within_15arcsec": false
+      },
+      "EDN-004": {
+        "nearest_sep_arcsec": 798.3473180470127,
+        "id": "18095+6414",
+        "designation": "HU  926",
+        "within_15arcsec": false
+      },
+      "EDN-005": {
+        "nearest_sep_arcsec": 708.9986352301179,
+        "id": "18115+6418",
+        "designation": "ES 1835",
+        "within_15arcsec": false
+      },
+      "EDN-006": {
+        "nearest_sep_arcsec": 542.7096800288052,
+        "id": "18095+6414",
+        "designation": "HU  926",
+        "within_15arcsec": false
+      }
+    }
+  },
+  "mast": {
+    "endpoint": "https://mast.stsci.edu/vo-tap/api/v0.1/caom/sync",
+    "adql": "SELECT TOP 10000 obs_collection,obs_id,instrument_name,s_ra,s_dec,s_region,access_url FROM ivoa.obscore WHERE obs_collection IN ('HST','JWST') AND dataproduct_type='image' AND s_ra BETWEEN 271.53543357704393 AND 273.57984569409706 AND s_dec BETWEEN 63.932203709300076 AND 64.52483170737133",
+    "rows": 61,
+    "file": "mast_box.csv",
+    "sha256": "63017a7b0ebaa7e9f4a2ca1d55f5157997de6d55d6a1a896be79a865a1b30360",
+    "containing_target": {
+      "EDN-001": [],
+      "EDN-002": [],
+      "EDN-003": [],
+      "EDN-004": [],
+      "EDN-005": [],
+      "EDN-006": []
+    },
+    "unsupported_footprints": 0
+  },
+  "desi": {
+    "endpoint": "https://datalab.noirlab.edu/tap/sync",
+    "adql": "SELECT TOP 10000 targetid,mean_fiber_ra,mean_fiber_dec,z,zerr,zwarn,spectype,zcat_primary FROM desi_dr1.zpix WHERE mean_fiber_ra BETWEEN 271.53543357704393 AND 273.57984569409706 AND mean_fiber_dec BETWEEN 63.932203709300076 AND 64.52483170737133",
+    "rows": 74,
+    "file": "desi_box.csv",
+    "sha256": "afb945503cb3cc9059a11dd4d3a801369586e23e447b68f9d502943fea2fe238",
+    "targets": {
+      "EDN-001": [],
+      "EDN-002": [],
+      "EDN-003": [],
+      "EDN-004": [],
+      "EDN-005": [],
+      "EDN-006": []
+    }
+  }
+}

@@ -1,0 +1,1135 @@
+{
+  "tiles": [
+    {
+      "tile": 101829775,
+      "vis": {
+        "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101829775/VIS/EUC_MER_BGSUB-MOSAIC-VIS_TILE101829775-1AD3E1_20250819T131504.530200Z_00.00.fits",
+        "etag": "\"2e4d963691711b970057a77854904b58-80\"",
+        "bytes": 416165760,
+        "header_sha256": "ba807e3800a17e58db6d73181eb1780a9131de2d384ec8208a0c92ee3b34fcfd",
+        "plan": "MER_ProcessTile_EUCLID_2.0.32-DATA_RELEASE_DEEP-trochequ-PLAN-000002",
+        "unit": "ADU/s",
+        "magzero": 24.5,
+        "date_obs": null,
+        "shape": [
+          10200,
+          10200
+        ],
+        "ranges": [
+          {
+            "start": 82748160,
+            "end_exclusive": 103637760,
+            "sha256": "5b2e66a2a895fedcaf22f15d2063f852f4128720f61370f19838ddc3a704a85f"
+          },
+          {
+            "start": 103637760,
+            "end_exclusive": 124527360,
+            "sha256": "7ccf6ff6e13c331caf18bf15d0af54913f118f72c5da6f887b7ed08fb05af541"
+          },
+          {
+            "start": 124527360,
+            "end_exclusive": 145416960,
+            "sha256": "40968d4467f2b8f224da9f1469512e3e22bcb84492a6802d0761f1e54bebf8cc"
+          },
+          {
+            "start": 145416960,
+            "end_exclusive": 166306560,
+            "sha256": "0ab28a49772a0b457cfee1af04322d98706c4a1b35acd94ae0051682a61b0bde"
+          },
+          {
+            "start": 166306560,
+            "end_exclusive": 187196160,
+            "sha256": "23ae38280558b269f91e13a7b9313fd299f6f37f0780845ab33a34b176a00f97"
+          },
+          {
+            "start": 187196160,
+            "end_exclusive": 208085760,
+            "sha256": "4c01ddd80cd99fb62e6e57f9a131646a049502134a126e8e6ae1f04e93b81911"
+          },
+          {
+            "start": 208085760,
+            "end_exclusive": 228975360,
+            "sha256": "ada05f3f7003f3bf0b2a52889b340033694be06417b61db80699df2d9355f3f8"
+          },
+          {
+            "start": 228975360,
+            "end_exclusive": 249864960,
+            "sha256": "ec57adb8f2f1b5e81c828b928fe61bde44bbe6c8641225c3c8e5ebbf9a88a107"
+          },
+          {
+            "start": 249864960,
+            "end_exclusive": 270754560,
+            "sha256": "5687119b1c1cd1d91a71698468266866b7576c226cea00a818872b02d716441c"
+          },
+          {
+            "start": 270754560,
+            "end_exclusive": 291644160,
+            "sha256": "8aa5543241f9c057413bf6c53855d9cb9c568a1b8261e007c0bae87c05f0b0a3"
+          },
+          {
+            "start": 291644160,
+            "end_exclusive": 312533760,
+            "sha256": "deab58f8b794a1829549c75bfe17ed234869a749ac9b6bc058648817543274da"
+          },
+          {
+            "start": 312533760,
+            "end_exclusive": 333423360,
+            "sha256": "9047d078bd512ac6225c0026519871b8871dface7f82bbc5391ccfb60a2e9511"
+          }
+        ],
+        "origin_xy": [
+          2028,
+          2028
+        ],
+        "shape_analysed": [
+          6144,
+          6144
+        ]
+      },
+      "ra": 272.0297009615365,
+      "dec": 64.2500277777638,
+      "active_vis_pixels": 37355691,
+      "counts": {
+        "1": {
+          "peaks": 29465,
+          "pairs": 5544,
+          "accepted": 1032
+        },
+        "-1": {
+          "peaks": 15550,
+          "pairs": 11743,
+          "accepted": 563
+        }
+      },
+      "j": {
+        "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101829775/NISP/EUC_MER_BGSUB-MOSAIC-NIR-J_TILE101829775-F7103E_20250819T045811.244564Z_00.00.fits",
+        "etag": "\"020eb28e6860d24367bc00add50db4f8-80\"",
+        "bytes": 416165760,
+        "header_sha256": "25076fea99c62327d7ec79d9c178d36599dd4048be448a927b440b4537c00a38",
+        "plan": "MER_ProcessTile_EUCLID_2.0.32-DATA_RELEASE_DEEP-trochequ-PLAN-000002",
+        "unit": "ELECTRON/s",
+        "magzero": 30.1,
+        "date_obs": null,
+        "shape": [
+          10200,
+          10200
+        ],
+        "ranges": [
+          {
+            "start": 82748160,
+            "end_exclusive": 103637760,
+            "sha256": "91d66331669deb1c58c7b68a9463678c112cd7798793d7da06b6685ce4b90318"
+          },
+          {
+            "start": 103637760,
+            "end_exclusive": 124527360,
+            "sha256": "e0f353248a2f9263e17680665643c95d6f095a2147873b4b3ba27448ff7715a4"
+          },
+          {
+            "start": 124527360,
+            "end_exclusive": 145416960,
+            "sha256": "ed9ef1533257ccd4af7affb37fbce40c0bd0aa1595507e47bec0f9a60d6605c0"
+          },
+          {
+            "start": 145416960,
+            "end_exclusive": 166306560,
+            "sha256": "ff1eed635c4bbc342809872da026fa4c5302f8db030a08704161a16f9b078510"
+          },
+          {
+            "start": 166306560,
+            "end_exclusive": 187196160,
+            "sha256": "2eb79472850a19fb0d0dac671978ac2ab34347260ec2cd397c24bd06853f9310"
+          },
+          {
+            "start": 187196160,
+            "end_exclusive": 208085760,
+            "sha256": "c545e87a3c4752070cd4857adfea669a349dda471d7b8c5499916b35a14be29d"
+          },
+          {
+            "start": 208085760,
+            "end_exclusive": 228975360,
+            "sha256": "6cc3c36c454faefbd15097b253ec50a6ec884b1d7ac2fb1bf984e0961fa613da"
+          },
+          {
+            "start": 228975360,
+            "end_exclusive": 249864960,
+            "sha256": "fe81641efbfea03e00fd9dbd697efe6db6ab0abb3e0163ec8546f7f764691432"
+          },
+          {
+            "start": 249864960,
+            "end_exclusive": 270754560,
+            "sha256": "19d1511023268d758d964cee99e6957225c958b391735714f84be93984b27269"
+          },
+          {
+            "start": 270754560,
+            "end_exclusive": 291644160,
+            "sha256": "ba767a99878513f7e1687348fea5f95b7545b7a8f057d91742bd656471c984f0"
+          },
+          {
+            "start": 291644160,
+            "end_exclusive": 312533760,
+            "sha256": "60a764b739b1d15eb68dbef7b520586f9798b9213fc22ade1846d0822be2d00b"
+          },
+          {
+            "start": 312533760,
+            "end_exclusive": 333423360,
+            "sha256": "51a1b54bab13ecf562a7d7065ce559ad5a7565fe1e6bc4f024ddc7d9521ad360"
+          }
+        ],
+        "origin_xy": [
+          2028,
+          2028
+        ],
+        "shape_analysed": [
+          6144,
+          6144
+        ]
+      }
+    },
+    {
+      "tile": 101829776,
+      "vis": {
+        "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101829776/VIS/EUC_MER_BGSUB-MOSAIC-VIS_TILE101829776-68B5C8_20250810T090923.953070Z_00.00.fits",
+        "etag": "\"56f6588603ff8dcfd5e68609bd940094-80\"",
+        "bytes": 416165760,
+        "header_sha256": "5cd1d996f33f4c4a80101078cdd9103d22aab5c6fd31777cceb0b00be7fe8754",
+        "plan": "MER_ProcessTile_EUCLID_2.0.32-DATA_RELEASE_DEEP-trochequ-PLAN-000002",
+        "unit": "ADU/s",
+        "magzero": 24.5,
+        "date_obs": null,
+        "shape": [
+          10200,
+          10200
+        ],
+        "ranges": [
+          {
+            "start": 82748160,
+            "end_exclusive": 103637760,
+            "sha256": "aadba9fa793d2e126a67bf0f9afd88de05b6aec59b87b5da1e6a5e09df99059c"
+          },
+          {
+            "start": 103637760,
+            "end_exclusive": 124527360,
+            "sha256": "3c01955f22a328a2b69480858eedf9123dd62e7b854b69bb66a36909d3afc724"
+          },
+          {
+            "start": 124527360,
+            "end_exclusive": 145416960,
+            "sha256": "32353278b56c244e0f7183ceb8b43093f0c9b9687840bee9587d72b819687908"
+          },
+          {
+            "start": 145416960,
+            "end_exclusive": 166306560,
+            "sha256": "94ac59fd412eea138c9d66ce59fda53efa004442d386d53320152e015027667f"
+          },
+          {
+            "start": 166306560,
+            "end_exclusive": 187196160,
+            "sha256": "9788d9befeb604891b931e20a25addd52641130bb25b097a42cd17b54d923f5e"
+          },
+          {
+            "start": 187196160,
+            "end_exclusive": 208085760,
+            "sha256": "e5a98673f979e7895a3c220a45b6a4fe86c5ac4452de69630fe2f0e831f68a5a"
+          },
+          {
+            "start": 208085760,
+            "end_exclusive": 228975360,
+            "sha256": "cff112278e8c8805c0e2056910f224a9323989c352bc0d4a2ff4fa1090e8ef17"
+          },
+          {
+            "start": 228975360,
+            "end_exclusive": 249864960,
+            "sha256": "ff61e7e024f4ebd710ad4c2399141a8fbe5c339d47331fd1f5ca893b850304cd"
+          },
+          {
+            "start": 249864960,
+            "end_exclusive": 270754560,
+            "sha256": "a7ffe59795953c1dee48282d406fd1d85213a9232601fe685c9315437b1e9734"
+          },
+          {
+            "start": 270754560,
+            "end_exclusive": 291644160,
+            "sha256": "c24fef3bbe5aa13782f41f35b652627fe3b9b27dd091608ec9de192e98a386c3"
+          },
+          {
+            "start": 291644160,
+            "end_exclusive": 312533760,
+            "sha256": "3bf7168301dc6e34f407dc2a126c2f39334974a36c9c2eae7c69b4d149be8acf"
+          },
+          {
+            "start": 312533760,
+            "end_exclusive": 333423360,
+            "sha256": "48e04b145f55eb149bd0a8ce58c2f674cb2f3a2ada62387102a9be3529ebcfca"
+          }
+        ],
+        "origin_xy": [
+          2028,
+          2028
+        ],
+        "shape_analysed": [
+          6144,
+          6144
+        ]
+      },
+      "ra": 272.59999396963644,
+      "dec": 64.2500277777638,
+      "active_vis_pixels": 37355418,
+      "counts": {
+        "1": {
+          "peaks": 29930,
+          "pairs": 6099,
+          "accepted": 1045
+        },
+        "-1": {
+          "peaks": 15124,
+          "pairs": 11956,
+          "accepted": 522
+        }
+      },
+      "j": {
+        "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101829776/NISP/EUC_MER_BGSUB-MOSAIC-NIR-J_TILE101829776-879062_20250807T002833.298808Z_00.00.fits",
+        "etag": "\"2403c2b375509332af892a25b8c4dda3-80\"",
+        "bytes": 416165760,
+        "header_sha256": "d094a417b498b9e283bbd994028e28cf0935f06918a1a51d75593acf23c04b2b",
+        "plan": "MER_ProcessTile_EUCLID_2.0.32-DATA_RELEASE_DEEP-trochequ-PLAN-000002",
+        "unit": "ELECTRON/s",
+        "magzero": 30.1,
+        "date_obs": null,
+        "shape": [
+          10200,
+          10200
+        ],
+        "ranges": [
+          {
+            "start": 82748160,
+            "end_exclusive": 103637760,
+            "sha256": "dbdb9027b8ac837d60211730c67cb544100ac5b9a948a5947ff2f43917f0225d"
+          },
+          {
+            "start": 103637760,
+            "end_exclusive": 124527360,
+            "sha256": "d425223aedfd82bf460c6ce233581414dd87aea7e4c5f3423a12eb6b3d62ede9"
+          },
+          {
+            "start": 124527360,
+            "end_exclusive": 145416960,
+            "sha256": "5fc80c0fc36943a13336a0ad273bca9820f0b29a11d66efc3471635fbed445fa"
+          },
+          {
+            "start": 145416960,
+            "end_exclusive": 166306560,
+            "sha256": "9a41fe9619ee1b43eac207fc7927da53224f02cdb1f983018917223bd6ec38cf"
+          },
+          {
+            "start": 166306560,
+            "end_exclusive": 187196160,
+            "sha256": "ec9558b0ab78f45cf9d09c69642cbe10604ed9c4593cfde27154f5fc7de61025"
+          },
+          {
+            "start": 187196160,
+            "end_exclusive": 208085760,
+            "sha256": "df853c323065411799f25088747c4e129b09ff6b0237751622da26d50bfd5bd4"
+          },
+          {
+            "start": 208085760,
+            "end_exclusive": 228975360,
+            "sha256": "2212983bb7c771fc14bd86b7ca83146e8b8308b8f4e38f00f698edff7856df73"
+          },
+          {
+            "start": 228975360,
+            "end_exclusive": 249864960,
+            "sha256": "0f202873a6c2468f68927a4ab5161ea21a3f45d39f8504ea62b800d8cbf1ba9d"
+          },
+          {
+            "start": 249864960,
+            "end_exclusive": 270754560,
+            "sha256": "ca6f81bcd3b01676a72768c4801fcc5f644fa4f552de289d92081f0c94293eab"
+          },
+          {
+            "start": 270754560,
+            "end_exclusive": 291644160,
+            "sha256": "465309f078744fc5e8eed19aed0d8c26381a8db9dd9c70532259ebc426fcda8c"
+          },
+          {
+            "start": 291644160,
+            "end_exclusive": 312533760,
+            "sha256": "fd0db0be3568caa13e1163c2e5a5e833ab1ab4dc8db80476f38055a47216d366"
+          },
+          {
+            "start": 312533760,
+            "end_exclusive": 333423360,
+            "sha256": "b0e37eabdc2ebf46b61dd8ea47b313495cbbfc4f4c56f1931c46b01639ec2f3d"
+          }
+        ],
+        "origin_xy": [
+          2028,
+          2028
+        ],
+        "shape_analysed": [
+          6144,
+          6144
+        ]
+      }
+    },
+    {
+      "tile": 101829777,
+      "vis": {
+        "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101829777/VIS/EUC_MER_BGSUB-MOSAIC-VIS_TILE101829777-6CD2B3_20250822T095429.755828Z_00.00.fits",
+        "etag": "\"7603f13df9d2e2ad79417a7784e00afc-80\"",
+        "bytes": 416165760,
+        "header_sha256": "dee3cf4d0846bae4f87ff35489557a39649e917e16f1b295ca07b08898ed4444",
+        "plan": "MER_ProcessTile_EUCLID_2.0.32-DATA_RELEASE_DEEP-trochequ-PLAN-000002",
+        "unit": "ADU/s",
+        "magzero": 24.5,
+        "date_obs": null,
+        "shape": [
+          10200,
+          10200
+        ],
+        "ranges": [
+          {
+            "start": 82748160,
+            "end_exclusive": 103637760,
+            "sha256": "83960ed0d40b30e50304b69ace2bd8f99353a8723db2acf0176bd503403e76c8"
+          },
+          {
+            "start": 103637760,
+            "end_exclusive": 124527360,
+            "sha256": "0fa4e3efe72bd2b34525b0f198aaa8cc9d8203d68c79995fb5c9e44588e25a2a"
+          },
+          {
+            "start": 124527360,
+            "end_exclusive": 145416960,
+            "sha256": "00e9c5678982dd02233133797d422a3287149d146ffc5e9796ce83fe4bd323c3"
+          },
+          {
+            "start": 145416960,
+            "end_exclusive": 166306560,
+            "sha256": "30b24b7eb7309902a13c013200d1823bb6d010131fc760f6420f9207b1bcc2ac"
+          },
+          {
+            "start": 166306560,
+            "end_exclusive": 187196160,
+            "sha256": "3911791b1d1487d407a97fa941186bc4ad632208d9227d1cf0ae10365bd49b8c"
+          },
+          {
+            "start": 187196160,
+            "end_exclusive": 208085760,
+            "sha256": "439fb6ab52f84c675049f9744eb8495a5d59c8c8d9d947a35b46a4b690eeaaa5"
+          },
+          {
+            "start": 208085760,
+            "end_exclusive": 228975360,
+            "sha256": "29722795757e8e8e0a019293064d9db4a28651375ecd5379e82d21230d88ebd1"
+          },
+          {
+            "start": 228975360,
+            "end_exclusive": 249864960,
+            "sha256": "36e0b764a3a17ffee4b823aa1c4ff8daaf9222d72c80a11e9cf981c85f38a4e8"
+          },
+          {
+            "start": 249864960,
+            "end_exclusive": 270754560,
+            "sha256": "b5e180a46bfe1479c160433065fa5a3642e3672d18505323803949c647d53da9"
+          },
+          {
+            "start": 270754560,
+            "end_exclusive": 291644160,
+            "sha256": "6405cc793a39b921193b5d8865811278e132c21c22eeb147a8ae9607419c0c5d"
+          },
+          {
+            "start": 291644160,
+            "end_exclusive": 312533760,
+            "sha256": "e11798bc91e6630469da8e278aab3565a39af8d6672c61bfbcc7e5b5ddc4cd51"
+          },
+          {
+            "start": 312533760,
+            "end_exclusive": 333423360,
+            "sha256": "68d491faeb396940c95f9d9dfd0f74adc1f33dedf5d83dc1aae7b5517e78bc04"
+          }
+        ],
+        "origin_xy": [
+          2028,
+          2028
+        ],
+        "shape_analysed": [
+          6144,
+          6144
+        ]
+      },
+      "ra": 273.1702869778365,
+      "dec": 64.2500277777638,
+      "active_vis_pixels": 37355550,
+      "counts": {
+        "1": {
+          "peaks": 30569,
+          "pairs": 6131,
+          "accepted": 1069
+        },
+        "-1": {
+          "peaks": 15589,
+          "pairs": 12215,
+          "accepted": 554
+        }
+      },
+      "j": {
+        "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101829777/NISP/EUC_MER_BGSUB-MOSAIC-NIR-J_TILE101829777-7B0284_20250821T134506.130110Z_00.00.fits",
+        "etag": "\"ac387391aa514839550ff58fc16cd7fa-80\"",
+        "bytes": 416165760,
+        "header_sha256": "c3f73a286a1f67e3803e277844d72a24f8ed1f1a9372967f48a2ef4dbf9631aa",
+        "plan": "MER_ProcessTile_EUCLID_2.0.32-DATA_RELEASE_DEEP-trochequ-PLAN-000002",
+        "unit": "ELECTRON/s",
+        "magzero": 30.1,
+        "date_obs": null,
+        "shape": [
+          10200,
+          10200
+        ],
+        "ranges": [
+          {
+            "start": 82748160,
+            "end_exclusive": 103637760,
+            "sha256": "539ecf39d98477acbc8b6cd0fc9c0ab42f0ae43c6e00e257e48efdec41deffae"
+          },
+          {
+            "start": 103637760,
+            "end_exclusive": 124527360,
+            "sha256": "a82e111c43db716eaf6c7a02b51ccad1d2139c33472a037aea5955fe92bd059e"
+          },
+          {
+            "start": 124527360,
+            "end_exclusive": 145416960,
+            "sha256": "39d72e834285a94d825d0ed3f1535c3f17a59576bc63a43c80c8ccfbf0a6765b"
+          },
+          {
+            "start": 145416960,
+            "end_exclusive": 166306560,
+            "sha256": "d559455fdc39fba7f558acb24c62510624e38dffad388da5e292714b0301d13e"
+          },
+          {
+            "start": 166306560,
+            "end_exclusive": 187196160,
+            "sha256": "90e9d085148ec3c54cf532e9bb556705c984e0ee1a65f87c1bbd70ad7a3e9fd1"
+          },
+          {
+            "start": 187196160,
+            "end_exclusive": 208085760,
+            "sha256": "caf62676633d4a0f0c41109210fa19f68f4576aa020b8ff00a8c5217ef26e993"
+          },
+          {
+            "start": 208085760,
+            "end_exclusive": 228975360,
+            "sha256": "3532ab86e3980d86d88ab4f78ecee8ef5c0acec0b441c0e5087556b24ff7b6d4"
+          },
+          {
+            "start": 228975360,
+            "end_exclusive": 249864960,
+            "sha256": "a69f400b4b4b94b79e94937f5be0170732f5848f315ff0319675872ce308319d"
+          },
+          {
+            "start": 249864960,
+            "end_exclusive": 270754560,
+            "sha256": "185fda4f711d6940c89bfd8709876074ed9eb5db71bc8dad972c1eb4d0f7654d"
+          },
+          {
+            "start": 270754560,
+            "end_exclusive": 291644160,
+            "sha256": "0bb30e75df5476f9d66abe6d27f49c0f78606db802b7856d7fc304ba75cc12de"
+          },
+          {
+            "start": 291644160,
+            "end_exclusive": 312533760,
+            "sha256": "d500413e97c466dbd708c5decf00cdbd264be05db43bc6591a6ff6c45fae270a"
+          },
+          {
+            "start": 312533760,
+            "end_exclusive": 333423360,
+            "sha256": "1d87429090f055ae372467ede4953d54de5b11001b0d3cd121d990f93e199f22"
+          }
+        ],
+        "origin_xy": [
+          2028,
+          2028
+        ],
+        "shape_analysed": [
+          6144,
+          6144
+        ]
+      }
+    },
+    {
+      "tile": 101829778,
+      "vis": {
+        "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101829778/VIS/EUC_MER_BGSUB-MOSAIC-VIS_TILE101829778-188884_20250820T184232.785186Z_00.00.fits",
+        "etag": "\"2eeea19ce76658fb61b18babbddff50f-80\"",
+        "bytes": 416165760,
+        "header_sha256": "f78cdf441120f91ffd5a773ab7f78f2378efbeee94634b79a48b930ff082994a",
+        "plan": "MER_ProcessTile_EUCLID_2.0.32-DATA_RELEASE_DEEP-trochequ-PLAN-000002",
+        "unit": "ADU/s",
+        "magzero": 24.5,
+        "date_obs": null,
+        "shape": [
+          10200,
+          10200
+        ],
+        "ranges": [
+          {
+            "start": 82748160,
+            "end_exclusive": 103637760,
+            "sha256": "1276c79a94cff737ee6487801426a1489f0506bc28e60c5898b528857033eb95"
+          },
+          {
+            "start": 103637760,
+            "end_exclusive": 124527360,
+            "sha256": "d822dcfc38b93067ea284cf4cf0a2b2016f58dedd6fc2c0c6564f9a022b7f168"
+          },
+          {
+            "start": 124527360,
+            "end_exclusive": 145416960,
+            "sha256": "04dfd3911ca1d532e0cefc380cdc98509d904a95f8d65abe25d90dfd6986babc"
+          },
+          {
+            "start": 145416960,
+            "end_exclusive": 166306560,
+            "sha256": "607f114dcb0031c55553dee1d4b99bb83f0d01e3307407faab1bdc03a5f1a2a5"
+          },
+          {
+            "start": 166306560,
+            "end_exclusive": 187196160,
+            "sha256": "485d5244a5b38a3304882a29cb99a7b47be3f3675e69846c2aba33d91757cb30"
+          },
+          {
+            "start": 187196160,
+            "end_exclusive": 208085760,
+            "sha256": "8ec4a2f01fefb4477ec6345d51b04bf076a16ab3acac57b8fa4d3ebf8cedc3ed"
+          },
+          {
+            "start": 208085760,
+            "end_exclusive": 228975360,
+            "sha256": "c6b2d43a2462c093711d132368e005f53b94952085c7ec8979bf4efadc8c9187"
+          },
+          {
+            "start": 228975360,
+            "end_exclusive": 249864960,
+            "sha256": "8bc3a33834f99ee2a89a25da9bd5247e200416112acf23b839c4b9f6cf7b1ee3"
+          },
+          {
+            "start": 249864960,
+            "end_exclusive": 270754560,
+            "sha256": "49036c0c247da4da051a07abfbb1f1b99b243f818caf6c6d77242415dfdc77e3"
+          },
+          {
+            "start": 270754560,
+            "end_exclusive": 291644160,
+            "sha256": "92a9f9468b7fdcece09958decf64be3a125cdcdd6d7b6c226cc3dbce007a0adc"
+          },
+          {
+            "start": 291644160,
+            "end_exclusive": 312533760,
+            "sha256": "83882e0ef5173a262d3e4cb1477ca415a7a76039e54a9dd50045fb19f6c0e3b5"
+          },
+          {
+            "start": 312533760,
+            "end_exclusive": 333423360,
+            "sha256": "4af678d20455aa2f2776f8361200f42aca5a53c54c424d6dbebb36cd41663436"
+          }
+        ],
+        "origin_xy": [
+          2028,
+          2028
+        ],
+        "shape_analysed": [
+          6144,
+          6144
+        ]
+      },
+      "ra": 273.7405799860365,
+      "dec": 64.2500277777638,
+      "active_vis_pixels": 37355125,
+      "counts": {
+        "1": {
+          "peaks": 29667,
+          "pairs": 6322,
+          "accepted": 946
+        },
+        "-1": {
+          "peaks": 15695,
+          "pairs": 12581,
+          "accepted": 508
+        }
+      },
+      "j": {
+        "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101829778/NISP/EUC_MER_BGSUB-MOSAIC-NIR-J_TILE101829778-69F358_20250820T105638.611256Z_00.00.fits",
+        "etag": "\"b436cd6c3bd295ca51dd904271c2c653-80\"",
+        "bytes": 416165760,
+        "header_sha256": "a762e5156b3aaf6b7362bcb010febcfd40758efcbc2240277f0ed1fb9c29eda4",
+        "plan": "MER_ProcessTile_EUCLID_2.0.32-DATA_RELEASE_DEEP-trochequ-PLAN-000002",
+        "unit": "ELECTRON/s",
+        "magzero": 30.1,
+        "date_obs": null,
+        "shape": [
+          10200,
+          10200
+        ],
+        "ranges": [
+          {
+            "start": 82748160,
+            "end_exclusive": 103637760,
+            "sha256": "66cd6b69b275ba7135f85b8bc8f362345ed69aae44d08b1af29503fa37579711"
+          },
+          {
+            "start": 103637760,
+            "end_exclusive": 124527360,
+            "sha256": "9f8daedf4ac841980d4975037fcb02079d79853072fecf27f9532c26b61e22b9"
+          },
+          {
+            "start": 124527360,
+            "end_exclusive": 145416960,
+            "sha256": "9091eea677956fcd978dbabe1099d0ff4ce13dd5b6c2d651ce86cccda6ed2def"
+          },
+          {
+            "start": 145416960,
+            "end_exclusive": 166306560,
+            "sha256": "d7106dc567c2d24ba187bce9b95227c498c9142bcb51e8e29e32745496457304"
+          },
+          {
+            "start": 166306560,
+            "end_exclusive": 187196160,
+            "sha256": "2f8751baed44b12837e24326fc3d565643fea07b6926fb46f19a4f78620e6c1a"
+          },
+          {
+            "start": 187196160,
+            "end_exclusive": 208085760,
+            "sha256": "961ef41d3c63a3a5d396e9af4b4c0ef4ff85584f3d09773cdd13d84adf7ce3f3"
+          },
+          {
+            "start": 208085760,
+            "end_exclusive": 228975360,
+            "sha256": "89ac55343120ba63630874249a65b153ef92277b38564256b3bece8d2b19470c"
+          },
+          {
+            "start": 228975360,
+            "end_exclusive": 249864960,
+            "sha256": "ff288f43dde992225e8044dd130e93ce0087805f65261f7c3dab76204f0357d7"
+          },
+          {
+            "start": 249864960,
+            "end_exclusive": 270754560,
+            "sha256": "9ad222a307d51862a09c1f7b9cb000ca1bd9c80bc01c9ea50a6dd398e6d10d6d"
+          },
+          {
+            "start": 270754560,
+            "end_exclusive": 291644160,
+            "sha256": "af252952dc5cb64c88e5775d9843feded970d6516f2d4189c5c2ed0c0a9e47ae"
+          },
+          {
+            "start": 291644160,
+            "end_exclusive": 312533760,
+            "sha256": "80c169456b06410b19d57a6b8eec46a304a1e1e9f35b0ca01a0039eed1efeca4"
+          },
+          {
+            "start": 312533760,
+            "end_exclusive": 333423360,
+            "sha256": "5ad7afbe135d612febd8672142fe2a7c152f27a06c7114063cff33cdc9729dc5"
+          }
+        ],
+        "origin_xy": [
+          2028,
+          2028
+        ],
+        "shape_analysed": [
+          6144,
+          6144
+        ]
+      }
+    },
+    {
+      "tile": 101829779,
+      "vis": {
+        "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101829779/VIS/EUC_MER_BGSUB-MOSAIC-VIS_TILE101829779-463A58_20250820T164724.179583Z_00.00.fits",
+        "etag": "\"aa799c0fc5d6561d553204b83e03bca0-80\"",
+        "bytes": 416165760,
+        "header_sha256": "a831563f5cc3320ca017a30b9f10e97ae43803155ede7d8f9c9357dbef7e5e26",
+        "plan": "MER_ProcessTile_EUCLID_2.0.32-DATA_RELEASE_DEEP-trochequ-PLAN-000002",
+        "unit": "ADU/s",
+        "magzero": 24.5,
+        "date_obs": null,
+        "shape": [
+          10200,
+          10200
+        ],
+        "ranges": [
+          {
+            "start": 82748160,
+            "end_exclusive": 103637760,
+            "sha256": "722a14f033a24aa1a2da040a1e38688b26c04c144d51ef82fdb75cadb466e77e"
+          },
+          {
+            "start": 103637760,
+            "end_exclusive": 124527360,
+            "sha256": "e44d72081c0de3400ddcc1f02b2b99c536a8738a5a54bd41ba252290410f4a86"
+          },
+          {
+            "start": 124527360,
+            "end_exclusive": 145416960,
+            "sha256": "a02061abdf25b92aaf8e523e27e4f43d591455092bbe8123ceeefb663ffe570c"
+          },
+          {
+            "start": 145416960,
+            "end_exclusive": 166306560,
+            "sha256": "9a9c5f22c6ac753e79e664f4252e38cb14a05b5ba182f1c0a1c29a9bc496df62"
+          },
+          {
+            "start": 166306560,
+            "end_exclusive": 187196160,
+            "sha256": "f557851f45ed0b98ee1f714378c44ddaaaa400cc479602706b73ef3642bf110a"
+          },
+          {
+            "start": 187196160,
+            "end_exclusive": 208085760,
+            "sha256": "384bd3ac53fa96f3d53f6dcd48de9f520575fcec49ff185925546ebdc91e4cbf"
+          },
+          {
+            "start": 208085760,
+            "end_exclusive": 228975360,
+            "sha256": "55baae6304309b8bc89e224dd0e955395f55f52306ef5d52b12ece60dcc9876c"
+          },
+          {
+            "start": 228975360,
+            "end_exclusive": 249864960,
+            "sha256": "7a40739fdce293ebe5e42e4ff68527a115cfec66475b92de7ea09828ed1e6407"
+          },
+          {
+            "start": 249864960,
+            "end_exclusive": 270754560,
+            "sha256": "abae22e5b6fdfdaa4b6d5edc4b83f192eaa8a0631d0f01558efc5c41d5ea8445"
+          },
+          {
+            "start": 270754560,
+            "end_exclusive": 291644160,
+            "sha256": "1f021ca1416f4659c39035cea3a2cf2431f2d83927bfcc64cb12e00de089d37d"
+          },
+          {
+            "start": 291644160,
+            "end_exclusive": 312533760,
+            "sha256": "3d049cb7cc3ec8cdba434e56f837ca1951b97c4a18cf6acb257d34e5d1a1e1e7"
+          },
+          {
+            "start": 312533760,
+            "end_exclusive": 333423360,
+            "sha256": "0a73b3ee97a22142f148cd2aa0c098ca4821c9e2658c3b71a9815ba52cbb4e4a"
+          }
+        ],
+        "origin_xy": [
+          2028,
+          2028
+        ],
+        "shape_analysed": [
+          6144,
+          6144
+        ]
+      },
+      "ra": 274.3108729942365,
+      "dec": 64.2500277777638,
+      "active_vis_pixels": 37354867,
+      "counts": {
+        "1": {
+          "peaks": 25433,
+          "pairs": 5650,
+          "accepted": 773
+        },
+        "-1": {
+          "peaks": 13332,
+          "pairs": 11030,
+          "accepted": 423
+        }
+      },
+      "j": {
+        "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101829779/NISP/EUC_MER_BGSUB-MOSAIC-NIR-J_TILE101829779-F39244_20250820T102801.237466Z_00.00.fits",
+        "etag": "\"648f0661c20aebb1025cf97f5a874bf1-80\"",
+        "bytes": 416165760,
+        "header_sha256": "d3921b932da9a652caee06c450d74573a519c7480ef8278b9f51b134bf4e9970",
+        "plan": "MER_ProcessTile_EUCLID_2.0.32-DATA_RELEASE_DEEP-trochequ-PLAN-000002",
+        "unit": "ELECTRON/s",
+        "magzero": 30.1,
+        "date_obs": null,
+        "shape": [
+          10200,
+          10200
+        ],
+        "ranges": [
+          {
+            "start": 82748160,
+            "end_exclusive": 103637760,
+            "sha256": "e7a70e1623463fdb641634dd7d0322c7d7b97ad2db8eb69689e46195c1edd6da"
+          },
+          {
+            "start": 103637760,
+            "end_exclusive": 124527360,
+            "sha256": "26692772f03e02fbd1ac53c7346ab668a4ccbc91d5e214a830aa9051b840ef7b"
+          },
+          {
+            "start": 124527360,
+            "end_exclusive": 145416960,
+            "sha256": "58df347b8f8f2ad9203966aa4075d682f12ada831dce9efb1b8b054c8cf63deb"
+          },
+          {
+            "start": 145416960,
+            "end_exclusive": 166306560,
+            "sha256": "660ca8a7044c163e7d752ebeef5f662c4a3d2c8e0150d51d062eac453d3a0eba"
+          },
+          {
+            "start": 166306560,
+            "end_exclusive": 187196160,
+            "sha256": "280aa55221bb9eab5ed7e144980adf78b95b0b00ff4dbd3a26811423dd5996d5"
+          },
+          {
+            "start": 187196160,
+            "end_exclusive": 208085760,
+            "sha256": "52db5a493e200e060421f2f59db799a5ff18bd0d2e352eb640a229f181406e2c"
+          },
+          {
+            "start": 208085760,
+            "end_exclusive": 228975360,
+            "sha256": "1bd8471b3058b10e4823a26ad93cda551005c1994fd8c9b095fd6a92b56b4f0d"
+          },
+          {
+            "start": 228975360,
+            "end_exclusive": 249864960,
+            "sha256": "efeb9ef3b17f38c956de2a5570bc5c893fa6f3fb3c26b6bc53301ba152698668"
+          },
+          {
+            "start": 249864960,
+            "end_exclusive": 270754560,
+            "sha256": "5a3b08c02ff26645399c6e94f94d39967bc54b9c6c07bc7a7b083c49afd80c1e"
+          },
+          {
+            "start": 270754560,
+            "end_exclusive": 291644160,
+            "sha256": "8d5e662840b1a8351e61f610b5db634611aaa6e9dc9488eef78ff04edcd92caf"
+          },
+          {
+            "start": 291644160,
+            "end_exclusive": 312533760,
+            "sha256": "822fe611a8dc95230773b63a6ce37700e37fb120d3bdcf556b56e83e2585cc1c"
+          },
+          {
+            "start": 312533760,
+            "end_exclusive": 333423360,
+            "sha256": "10c1651c6b71055307becb25d2df17c05abc11aa336b93215ef3f605b2c3e26d"
+          }
+        ],
+        "origin_xy": [
+          2028,
+          2028
+        ],
+        "shape_analysed": [
+          6144,
+          6144
+        ]
+      }
+    },
+    {
+      "tile": 101829780,
+      "vis": {
+        "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101829780/VIS/EUC_MER_BGSUB-MOSAIC-VIS_TILE101829780-695914_20250808T164817.776198Z_00.00.fits",
+        "etag": "\"cf8445e66439c4d8b439bf63350c71db-80\"",
+        "bytes": 416165760,
+        "header_sha256": "49011b57babb2bb18adbc76efe6b27c3ab358052eae59c55bb39e5d00c75b191",
+        "plan": "MER_ProcessTile_EUCLID_2.0.32-DATA_RELEASE_DEEP-trochequ-PLAN-000002",
+        "unit": "ADU/s",
+        "magzero": 24.5,
+        "date_obs": null,
+        "shape": [
+          10200,
+          10200
+        ],
+        "ranges": [
+          {
+            "start": 82748160,
+            "end_exclusive": 103637760,
+            "sha256": "a91a97cf8bd0b1d0b5054ac1a93ceb29593e3644fc47492c4f952abccdfc59c8"
+          },
+          {
+            "start": 103637760,
+            "end_exclusive": 124527360,
+            "sha256": "c0ff999481f32397dec2712b3b5e58f26fa2c13242967ccae1e2178e4df6d1f1"
+          },
+          {
+            "start": 124527360,
+            "end_exclusive": 145416960,
+            "sha256": "343596e780ca1419b07b0430406ceed7b1ea471085608b8f35ce4d7a0a897c25"
+          },
+          {
+            "start": 145416960,
+            "end_exclusive": 166306560,
+            "sha256": "b999605ad49e35e36d3e358fe44d10a76e4288f5b055a51a07b5e05c7405767c"
+          },
+          {
+            "start": 166306560,
+            "end_exclusive": 187196160,
+            "sha256": "cd2ad0932fb3df781a13af15bf056636620121eeb9edabbcfb2c954d3ee96046"
+          },
+          {
+            "start": 187196160,
+            "end_exclusive": 208085760,
+            "sha256": "3e02372d2556a13311ac607606d0d7851ab59ad1c2871554714c1586fd1f2c0d"
+          },
+          {
+            "start": 208085760,
+            "end_exclusive": 228975360,
+            "sha256": "9770478ea792248d590944178ca349565fe729cfcb1b26b2b7ec70cea5cbffea"
+          },
+          {
+            "start": 228975360,
+            "end_exclusive": 249864960,
+            "sha256": "0c2fb024f6c2fbb79ff779f93bf20d989a25930aca302ebfab8098276ecb1f35"
+          },
+          {
+            "start": 249864960,
+            "end_exclusive": 270754560,
+            "sha256": "d61325149c4f9a99340c53d1f07d96b7ec8488cbf256e85c5a2a2f2dd7aa62df"
+          },
+          {
+            "start": 270754560,
+            "end_exclusive": 291644160,
+            "sha256": "f3a6f795fe253e0b09509b2286c0c81523a3b09d82cee07778a91f333d88df2d"
+          },
+          {
+            "start": 291644160,
+            "end_exclusive": 312533760,
+            "sha256": "c6bee3a9d585580f8f89a6d6c8a8607a49d0f553959bf9e2eca88859eef3ac04"
+          },
+          {
+            "start": 312533760,
+            "end_exclusive": 333423360,
+            "sha256": "83a27dcd8a339bc7d81e9c8ac17de81b8fd0ea92fce461f47f7abf7a7623a696"
+          }
+        ],
+        "origin_xy": [
+          2028,
+          2028
+        ],
+        "shape_analysed": [
+          6144,
+          6144
+        ]
+      },
+      "ra": 274.8811660023365,
+      "dec": 64.2500277777638,
+      "active_vis_pixels": 37354437,
+      "counts": {
+        "1": {
+          "peaks": 23183,
+          "pairs": 5919,
+          "accepted": 630
+        },
+        "-1": {
+          "peaks": 11722,
+          "pairs": 9937,
+          "accepted": 270
+        }
+      },
+      "j": {
+        "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101829780/NISP/EUC_MER_BGSUB-MOSAIC-NIR-J_TILE101829780-36050_20250806T160132.258873Z_00.00.fits",
+        "etag": "\"3dc485073775bc23fb9d9895d7af11c7-80\"",
+        "bytes": 416165760,
+        "header_sha256": "ecb5fafad2387201a728e97e6e6b0f1f768ac3e4f40de2aecb185ecae6e86dbe",
+        "plan": "MER_ProcessTile_EUCLID_2.0.32-DATA_RELEASE_DEEP-trochequ-PLAN-000002",
+        "unit": "ELECTRON/s",
+        "magzero": 30.1,
+        "date_obs": null,
+        "shape": [
+          10200,
+          10200
+        ],
+        "ranges": [
+          {
+            "start": 82748160,
+            "end_exclusive": 103637760,
+            "sha256": "3f2e6bc1fa1bc40a67d99b95308d860246854025bc22f0f83d66a78e3e623374"
+          },
+          {
+            "start": 103637760,
+            "end_exclusive": 124527360,
+            "sha256": "d5055de8fe2222b2f2091a99cf3e99861653183ffa7a0c544894a2a5a8b01974"
+          },
+          {
+            "start": 124527360,
+            "end_exclusive": 145416960,
+            "sha256": "a1c67fea8faff0f1afab6d9ac7120cb5c5ce65b610c8c0fc28b833ccc8622a25"
+          },
+          {
+            "start": 145416960,
+            "end_exclusive": 166306560,
+            "sha256": "523a7c0a7322d56b7571d74e95c376069f16a4a2013fe0c5908cd8904f29530e"
+          },
+          {
+            "start": 166306560,
+            "end_exclusive": 187196160,
+            "sha256": "c24beebb89b1736c48fbd9b644fe20175db87136c2f390cf03bf3b1a4de88e7f"
+          },
+          {
+            "start": 187196160,
+            "end_exclusive": 208085760,
+            "sha256": "5a95c3b827aa73f5458a6ceba5011308b93c70419f4a9f66e728fc8f20772e8d"
+          },
+          {
+            "start": 208085760,
+            "end_exclusive": 228975360,
+            "sha256": "861a18a2134b69779bce290b6da5db9c7d5f03e6c8fcef6d4cae4fdf737aba95"
+          },
+          {
+            "start": 228975360,
+            "end_exclusive": 249864960,
+            "sha256": "c00f6ec6725870f36f4759cbd3d215408cdda3bcce3fda4dcf1d326ea2cb4a1f"
+          },
+          {
+            "start": 249864960,
+            "end_exclusive": 270754560,
+            "sha256": "4ba92ff9e5a092990fe92ad225ad4c51b2083674821e6dbfde4c1594aa8c9298"
+          },
+          {
+            "start": 270754560,
+            "end_exclusive": 291644160,
+            "sha256": "67c0ea94a655adb9546d59d311afaa19a435400cbb6145549737803db5a8b5ff"
+          },
+          {
+            "start": 291644160,
+            "end_exclusive": 312533760,
+            "sha256": "2a1ca46ebc140de9f2c882adbd3721382336e373b73158feb8bb1811a568bed8"
+          },
+          {
+            "start": 312533760,
+            "end_exclusive": 333423360,
+            "sha256": "f025ec43b73bb38e645697d627229f0e4277e7ad0e6cc2f489943db80081d038"
+          }
+        ],
+        "origin_xy": [
+          2028,
+          2028
+        ],
+        "shape_analysed": [
+          6144,
+          6144
+        ]
+      }
+    }
+  ],
+  "vis_kept_positive": 5495,
+  "vis_kept_negative": 2840,
+  "j_tested": 5314,
+  "j_repeat": 658,
+  "j_wilson95": [
+    0.11523867930126926,
+    0.13295252177928857
+  ],
+  "shift_tested": 5309,
+  "shift_repeat": 0,
+  "paired_n": 5282,
+  "paired_only_real": 652,
+  "paired_only_shift": 0,
+  "active_vis_pixels": 224131088,
+  "searched_nominal_square_degree": 0.17294065432098768
+}

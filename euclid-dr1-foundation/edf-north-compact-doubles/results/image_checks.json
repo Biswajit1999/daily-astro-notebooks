@@ -1,0 +1,282 @@
+{
+  "profiles": {
+    "EDN-001": {
+      "VIS": {
+        "state": "two_maxima",
+        "dip": 0.4751306176185608,
+        "peak_offsets_arcsec": [
+          -0.3750000000000058,
+          0.4249999999999914
+        ]
+      },
+      "J": {
+        "state": "two_maxima",
+        "dip": 0.15804612636566162,
+        "peak_offsets_arcsec": [
+          -0.4000000000000057,
+          0.3999999999999915
+        ]
+      },
+      "HSC_I2": {
+        "state": "shallow_saddle",
+        "dip": 0.045415282249450684,
+        "peak_offsets_arcsec": [
+          -0.3750000000000058,
+          0.3999999999999915
+        ]
+      },
+      "VIS_blur_0.55": {
+        "state": "no_two_maxima"
+      },
+      "VIS_blur_0.70": {
+        "state": "no_two_maxima"
+      },
+      "VIS_blur_0.90": {
+        "state": "no_two_maxima"
+      }
+    },
+    "EDN-002": {
+      "VIS": {
+        "state": "two_maxima",
+        "dip": 0.8617722988128662,
+        "peak_offsets_arcsec": [
+          -0.4250000000000056,
+          0.3999999999999915
+        ]
+      },
+      "J": {
+        "state": "two_maxima",
+        "dip": 0.4216006398200989,
+        "peak_offsets_arcsec": [
+          -0.4500000000000055,
+          0.4749999999999912
+        ]
+      },
+      "HSC_I2": {
+        "state": "two_maxima",
+        "dip": 0.46800047159194946,
+        "peak_offsets_arcsec": [
+          -0.4000000000000057,
+          0.4999999999999911
+        ]
+      },
+      "VIS_blur_0.55": {
+        "state": "two_maxima",
+        "dip": 0.18987679481506348,
+        "peak_offsets_arcsec": [
+          -0.4000000000000057,
+          0.3999999999999915
+        ]
+      },
+      "VIS_blur_0.70": {
+        "state": "no_two_maxima"
+      },
+      "VIS_blur_0.90": {
+        "state": "no_two_maxima"
+      }
+    },
+    "EDN-003": {
+      "VIS": {
+        "state": "two_maxima",
+        "dip": 0.6777018308639526,
+        "peak_offsets_arcsec": [
+          -0.30000000000000604,
+          0.3999999999999915
+        ]
+      },
+      "J": {
+        "state": "two_maxima",
+        "dip": 0.19761645793914795,
+        "peak_offsets_arcsec": [
+          -0.30000000000000604,
+          0.29999999999999183
+        ]
+      },
+      "HSC_I2": {
+        "state": "two_maxima",
+        "dip": 0.10424923896789551,
+        "peak_offsets_arcsec": [
+          -0.30000000000000604,
+          0.29999999999999183
+        ]
+      },
+      "VIS_blur_0.55": {
+        "state": "no_two_maxima"
+      },
+      "VIS_blur_0.70": {
+        "state": "no_two_maxima"
+      },
+      "VIS_blur_0.90": {
+        "state": "no_two_maxima"
+      }
+    },
+    "EDN-004": {
+      "VIS": {
+        "state": "two_maxima",
+        "dip": 0.665685772895813,
+        "peak_offsets_arcsec": [
+          -0.5000000000000053,
+          0.4499999999999913
+        ]
+      },
+      "J": {
+        "state": "two_maxima",
+        "dip": 0.36486440896987915,
+        "peak_offsets_arcsec": [
+          -0.5250000000000052,
+          0.4749999999999912
+        ]
+      },
+      "HSC_I2": {
+        "state": "two_maxima",
+        "dip": 0.2283688187599182,
+        "peak_offsets_arcsec": [
+          -0.5250000000000052,
+          0.4499999999999913
+        ]
+      },
+      "VIS_blur_0.55": {
+        "state": "shallow_saddle",
+        "dip": 0.0017748475074768066,
+        "peak_offsets_arcsec": [
+          -0.5750000000000051,
+          0.32499999999999174
+        ]
+      },
+      "VIS_blur_0.70": {
+        "state": "no_two_maxima"
+      },
+      "VIS_blur_0.90": {
+        "state": "no_two_maxima"
+      }
+    },
+    "EDN-005": {
+      "VIS": {
+        "state": "two_maxima",
+        "dip": 0.6472568511962891,
+        "peak_offsets_arcsec": [
+          -0.4500000000000055,
+          0.3999999999999915
+        ]
+      },
+      "J": {
+        "state": "two_maxima",
+        "dip": 0.17641735076904297,
+        "peak_offsets_arcsec": [
+          -0.4250000000000056,
+          0.3999999999999915
+        ]
+      },
+      "HSC_I2": {
+        "state": "two_maxima",
+        "dip": 0.10194486379623413,
+        "peak_offsets_arcsec": [
+          -0.4000000000000057,
+          0.37499999999999156
+        ]
+      },
+      "VIS_blur_0.55": {
+        "state": "two_maxima",
+        "dip": 0.11636871099472046,
+        "peak_offsets_arcsec": [
+          -0.4000000000000057,
+          0.37499999999999156
+        ]
+      },
+      "VIS_blur_0.70": {
+        "state": "no_two_maxima"
+      },
+      "VIS_blur_0.90": {
+        "state": "no_two_maxima"
+      }
+    },
+    "EDN-006": {
+      "VIS": {
+        "state": "two_maxima",
+        "dip": 0.5225691795349121,
+        "peak_offsets_arcsec": [
+          -0.4250000000000056,
+          0.4249999999999914
+        ]
+      },
+      "J": {
+        "state": "no_two_maxima"
+      },
+      "HSC_I2": {
+        "state": "two_maxima",
+        "dip": 0.1175544261932373,
+        "peak_offsets_arcsec": [
+          -0.4000000000000057,
+          0.3999999999999915
+        ]
+      },
+      "VIS_blur_0.55": {
+        "state": "shallow_saddle",
+        "dip": 0.025048494338989258,
+        "peak_offsets_arcsec": [
+          -0.4000000000000057,
+          0.29999999999999183
+        ]
+      },
+      "VIS_blur_0.70": {
+        "state": "no_two_maxima"
+      },
+      "VIS_blur_0.90": {
+        "state": "no_two_maxima"
+      }
+    }
+  },
+  "by_separation": [
+    {
+      "lo": 0.38,
+      "hi": 0.5,
+      "tested": 760,
+      "j_repeat": 8,
+      "wilson95": [
+        0.0053432988054151346,
+        0.020632587409673837
+      ]
+    },
+    {
+      "lo": 0.5,
+      "hi": 0.62,
+      "tested": 1045,
+      "j_repeat": 40,
+      "wilson95": [
+        0.028234563995264972,
+        0.051702644927582475
+      ]
+    },
+    {
+      "lo": 0.62,
+      "hi": 0.74,
+      "tested": 1272,
+      "j_repeat": 136,
+      "wilson95": [
+        0.09110460605395328,
+        0.1250989487949886
+      ]
+    },
+    {
+      "lo": 0.74,
+      "hi": 0.86,
+      "tested": 1166,
+      "j_repeat": 213,
+      "wilson95": [
+        0.1615510435475034,
+        0.2058846081638088
+      ]
+    },
+    {
+      "lo": 0.86,
+      "hi": 0.950001,
+      "tested": 1071,
+      "j_repeat": 261,
+      "wilson95": [
+        0.21893168940459107,
+        0.2702953072890815
+      ]
+    }
+  ],
+  "method": "Exploratory common-axis profile, \u00b10.1 arcsec perpendicular average, background from |x| > 1.6 arcsec. Peak search \u00b10.18 arcsec and minimum 10% saddle. HSC PSF not empirically measured; Gaussian smoothing of VIS only is illustrative."
+}

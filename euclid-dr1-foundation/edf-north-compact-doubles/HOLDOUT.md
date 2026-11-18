@@ -1,0 +1,3 @@
+# Held-out image check
+
+Fixed after reviewing the six pilot counts and before inspecting the new image results. Use the next two available mosaics in the pilot row (101829781–101829782) and ten consecutively numbered mosaics from the adjoining archive row (101830399–101830408). Select by archive tile ID alone. Run the original VIS and J criteria, positive and inverted VIS controls, and the original north shift. Test whether the recurrence fraction in the widest separation bin (0.86–0.95 arcsec) exceeds the fraction in the narrowest bin (0.38–0.50 arcsec). Retain per-tile denominators and missing products. Report each cohort separately. A recurrence gradient can arise from band resolution, flux, morphology or selection and alone supplies no completeness estimate.

@@ -1,0 +1,10 @@
+numpy>=2.0
+scipy>=1.13
+astropy>=7.2,<9
+astropy-healpix>=1.1
+matplotlib>=3.8
+pillow>=10
+pyarrow>=17
+dust-extinction>=1.6
+speclite>=0.20
+reportlab>=4
