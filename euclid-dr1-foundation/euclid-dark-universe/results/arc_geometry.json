@@ -1,0 +1,65 @@
+{
+  "centre_icrs_deg": [
+    52.737216,
+    -52.470283
+  ],
+  "archive_tile": 102017310,
+  "source_redshift": 1.4541,
+  "reference_arc_centroid_separation_arcsec": 5.019474063522071,
+  "reference_arc_centroid_pa_deg": 214.57760109087516,
+  "arc_sector_PA_deg": [
+    175.0,
+    180.0,
+    185.0,
+    190.0,
+    195.0,
+    200.0,
+    205.0,
+    210.0,
+    215.0,
+    220.0
+  ],
+  "per_band": {
+    "VIS": {
+      "sectors": 10,
+      "median_arcsec": 6.062499999999991,
+      "sector_range_arcsec": [
+        5.674999999999994,
+        6.749999999999989
+      ]
+    },
+    "DES-G": {
+      "sectors": 10,
+      "median_arcsec": 6.224999999999992,
+      "sector_range_arcsec": [
+        5.574999999999994,
+        6.67499999999999
+      ]
+    },
+    "DES-I": {
+      "sectors": 10,
+      "median_arcsec": 5.799999999999993,
+      "sector_range_arcsec": [
+        5.324999999999994,
+        7.799999999999986
+      ]
+    }
+  },
+  "cluster_redshift_geometry": {
+    "z_deflector": 0.44,
+    "radius_kpc": 35.53834008518921,
+    "arc_proxy_mass_msun": 9043986257917.586
+  },
+  "foreground_counterfactual": {
+    "z_deflector": 0.058,
+    "radius_kpc": 7.041656383352309,
+    "arc_proxy_mass_msun": 1147497014488.9468
+  },
+  "mass_ratio_background_to_foreground": 7.881490011497282,
+  "vis_arc_mass_sector_sensitivity": [
+    7924796563022.393,
+    11211505549192.334
+  ],
+  "published_des_einstein_proxy_arcsec": 6.1,
+  "published_des_einstein_proxy_error_arcsec": 1.5
+}

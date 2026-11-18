@@ -1,0 +1,27 @@
+{
+  "selection": {
+    "input": 15072,
+    "A grade": 6073,
+    "ECLIPSE-D final sample": 4009,
+    "75% model consensus and successful model": 3202,
+    "no large-system flag or disc flag": 2974,
+    "valid distances, radius and stellar mass": 2161
+  },
+  "n_catalogue_lenses": 2161,
+  "central_estimate_above_stars": 437,
+  "lower_radius_lower_z_upper_stars": 193,
+  "lower_radius_lower_z_upper_stars_plus_0p30dex": 26,
+  "specz_subset": 30,
+  "specz_subset_above_stars_plus_0p30dex": 0,
+  "top3_ids": [
+    "EUCL-DR1-L015732",
+    "EUCL-DR1-L001315",
+    "EUCL-DR1-L023510"
+  ],
+  "median_radius_arcsec": 0.9596733647547324,
+  "radius_interval_10_to_90": [
+    0.6290852469053055,
+    1.6087055623109765
+  ],
+  "median_deflector_z": 0.56
+}

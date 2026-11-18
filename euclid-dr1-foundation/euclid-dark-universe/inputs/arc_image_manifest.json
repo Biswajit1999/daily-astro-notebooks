@@ -1,0 +1,78 @@
+[
+  {
+    "band": "VIS",
+    "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/102017310/VIS/EUC_MER_BGSUB-MOSAIC-VIS_TILE102017310-A7B894_20250804T120347.883814Z_00.00.fits",
+    "etag": "\"f5e3a73f29e0f870549ee5750b661295-282\"",
+    "bytes": 1474565760,
+    "header_sha256": "d7a4ee2bd808e2a75cad6ff021f232a00408023882f1ca1b84e1466950177e7b",
+    "tile": "102017310",
+    "ranges": [
+      {
+        "start": 800492160,
+        "end_exclusive": 838200960,
+        "sha256": "6faddf47bb354c7d6ec8ded1d02956e1d5df6164819a801991c8d21214bb27ac"
+      }
+    ],
+    "origin_native_xy": [
+      10484,
+      10423
+    ]
+  },
+  {
+    "band": "NIR-H",
+    "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/102017310/NISP/EUC_MER_BGSUB-MOSAIC-NIR-H_TILE102017310-2EE7D6_20250804T111844.670534Z_00.00.fits",
+    "etag": "\"ea639823feaeca385b045ffa7ca3a53e-282\"",
+    "bytes": 1474565760,
+    "header_sha256": "fd157c70e8d0c24292d9f28d3179a7a7f544fd814b4ea86b3b3c990f1caed574",
+    "tile": "102017310",
+    "ranges": [
+      {
+        "start": 800492160,
+        "end_exclusive": 838200960,
+        "sha256": "ed5b08a7efac70b06820e27a5ec910184107b62983126d333d033cc2945cf967"
+      }
+    ],
+    "origin_native_xy": [
+      10484,
+      10423
+    ]
+  },
+  {
+    "band": "DES-G",
+    "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/102017310/DECAM/EUC_MER_BGSUB-MOSAIC-DES-G_TILE102017310-99703F_20250804T110635.823108Z_00.00.fits",
+    "etag": "\"45c6286fbc39402879595cd0f121e897-282\"",
+    "bytes": 1474565760,
+    "header_sha256": "5898a1b56ecc0c21c3368f1eb1309b7dccdfefca72a0aa6d59289c15117a6e2f",
+    "tile": "102017310",
+    "ranges": [
+      {
+        "start": 800492160,
+        "end_exclusive": 838200960,
+        "sha256": "dc21da23b1a55b266a6429256d66d54e143ff072d58eb1158cf62e9f13f9017f"
+      }
+    ],
+    "origin_native_xy": [
+      10484,
+      10423
+    ]
+  },
+  {
+    "band": "DES-I",
+    "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/102017310/DECAM/EUC_MER_BGSUB-MOSAIC-DES-I_TILE102017310-686B91_20250804T110619.764537Z_00.00.fits",
+    "etag": "\"87c33af401cf37efa9d450f9d79fe2af-282\"",
+    "bytes": 1474565760,
+    "header_sha256": "84bc9f85bc7db866189bb4e2ed14f5dbd56421a5c09af280b707713df77f6d70",
+    "tile": "102017310",
+    "ranges": [
+      {
+        "start": 800492160,
+        "end_exclusive": 838200960,
+        "sha256": "8a58900d805ff9c0e554d8d3c8c4f4a3cb0886bc2363c9708555420245585945"
+      }
+    ],
+    "origin_native_xy": [
+      10484,
+      10423
+    ]
+  }
+]
