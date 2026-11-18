@@ -1,0 +1,2796 @@
+[
+  {
+    "tile": 101829775,
+    "archive": {
+      "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101829775/NISP/EUC_MER_BGSUB-MOSAIC-NIR-J_TILE101829775-F7103E_20250819T045811.244564Z_00.00.fits",
+      "etag": "\"020eb28e6860d24367bc00add50db4f8-80\"",
+      "bytes": 416165760,
+      "header_sha256": "25076fea99c62327d7ec79d9c178d36599dd4048be448a927b440b4537c00a38",
+      "plan": "MER_ProcessTile_EUCLID_2.0.32-DATA_RELEASE_DEEP-trochequ-PLAN-000002",
+      "unit": "ELECTRON/s",
+      "magzero": 30.1,
+      "date_obs": null,
+      "shape": [
+        10200,
+        10200
+      ],
+      "ranges": [
+        {
+          "start": 82748160,
+          "end_exclusive": 103637760,
+          "sha256": "91d66331669deb1c58c7b68a9463678c112cd7798793d7da06b6685ce4b90318"
+        },
+        {
+          "start": 103637760,
+          "end_exclusive": 124527360,
+          "sha256": "e0f353248a2f9263e17680665643c95d6f095a2147873b4b3ba27448ff7715a4"
+        },
+        {
+          "start": 124527360,
+          "end_exclusive": 145416960,
+          "sha256": "ed9ef1533257ccd4af7affb37fbce40c0bd0aa1595507e47bec0f9a60d6605c0"
+        },
+        {
+          "start": 145416960,
+          "end_exclusive": 166306560,
+          "sha256": "ff1eed635c4bbc342809872da026fa4c5302f8db030a08704161a16f9b078510"
+        },
+        {
+          "start": 166306560,
+          "end_exclusive": 187196160,
+          "sha256": "2eb79472850a19fb0d0dac671978ac2ab34347260ec2cd397c24bd06853f9310"
+        },
+        {
+          "start": 187196160,
+          "end_exclusive": 208085760,
+          "sha256": "c545e87a3c4752070cd4857adfea669a349dda471d7b8c5499916b35a14be29d"
+        },
+        {
+          "start": 208085760,
+          "end_exclusive": 228975360,
+          "sha256": "6cc3c36c454faefbd15097b253ec50a6ec884b1d7ac2fb1bf984e0961fa613da"
+        },
+        {
+          "start": 228975360,
+          "end_exclusive": 249864960,
+          "sha256": "fe81641efbfea03e00fd9dbd697efe6db6ab0abb3e0163ec8546f7f764691432"
+        },
+        {
+          "start": 249864960,
+          "end_exclusive": 270754560,
+          "sha256": "19d1511023268d758d964cee99e6957225c958b391735714f84be93984b27269"
+        },
+        {
+          "start": 270754560,
+          "end_exclusive": 291644160,
+          "sha256": "ba767a99878513f7e1687348fea5f95b7545b7a8f057d91742bd656471c984f0"
+        },
+        {
+          "start": 291644160,
+          "end_exclusive": 312533760,
+          "sha256": "60a764b739b1d15eb68dbef7b520586f9798b9213fc22ade1846d0822be2d00b"
+        },
+        {
+          "start": 312533760,
+          "end_exclusive": 333423360,
+          "sha256": "51a1b54bab13ecf562a7d7065ce559ad5a7565fe1e6bc4f024ddc7d9521ad360"
+        }
+      ],
+      "origin_xy": [
+        2028,
+        2028
+      ],
+      "shape_analysed": [
+        6144,
+        6144
+      ]
+    },
+    "gaia_query": "https://irsa.ipac.caltech.edu/cgi-bin/Gator/nph-query?catalog=gaia_dr3_source&objstr=272.0297649+%2B64.2500000&spatial=cone&radius=420&radunits=arcsec&outfmt=1",
+    "gaia_sha256": "85edd04aeaba5f5247e0e194e9b1e1df30b8193b61a01b9cdfb31b8d540628f1",
+    "stars": [
+      {
+        "gaia_dr3_id": "2161074573792477824",
+        "fwhm_arcsec": 0.4890710737412043,
+        "peak_over_local_mad": 738.7126637366581,
+        "cutout_x": 3388.080584619125,
+        "cutout_y": 3348.4804624176386
+      },
+      {
+        "gaia_dr3_id": "2161074303210367488",
+        "fwhm_arcsec": 0.48198833602256436,
+        "peak_over_local_mad": 761.8047935641804,
+        "cutout_x": 2514.3814907267915,
+        "cutout_y": 2430.9877969407817
+      },
+      {
+        "gaia_dr3_id": "2161074230195078272",
+        "fwhm_arcsec": 0.4865251460932206,
+        "peak_over_local_mad": 721.7861764640865,
+        "cutout_x": 2968.1045754553506,
+        "cutout_y": 2141.059027559224
+      },
+      {
+        "gaia_dr3_id": "2161074436353742336",
+        "fwhm_arcsec": 0.49377478480073866,
+        "peak_over_local_mad": 729.1263060412954,
+        "cutout_x": 3933.2825761090935,
+        "cutout_y": 2635.3256863087454
+      },
+      {
+        "gaia_dr3_id": "2161075845102800384",
+        "fwhm_arcsec": 0.5015169382075816,
+        "peak_over_local_mad": 800.5599135971416,
+        "cutout_x": 2264.865781335533,
+        "cutout_y": 3734.816588973401
+      },
+      {
+        "gaia_dr3_id": "2161074578088846464",
+        "fwhm_arcsec": 0.4822774744382264,
+        "peak_over_local_mad": 740.0146530107901,
+        "cutout_x": 3929.9216343874095,
+        "cutout_y": 3674.392827894404
+      },
+      {
+        "gaia_dr3_id": "2161073852238178432",
+        "fwhm_arcsec": 0.5116902684299982,
+        "peak_over_local_mad": 653.1484433842837,
+        "cutout_x": 3222.2285904776563,
+        "cutout_y": 1869.3937692781174
+      },
+      {
+        "gaia_dr3_id": "2161074234489752576",
+        "fwhm_arcsec": 0.4855716944239196,
+        "peak_over_local_mad": 680.5915628762139,
+        "cutout_x": 2796.540549239853,
+        "cutout_y": 1787.0561323085094
+      },
+      {
+        "gaia_dr3_id": "2161073581655862784",
+        "fwhm_arcsec": 0.5144315207062494,
+        "peak_over_local_mad": 695.3697517416306,
+        "cutout_x": 1880.8463495404726,
+        "cutout_y": 2353.055182400206
+      },
+      {
+        "gaia_dr3_id": "2161076016901736576",
+        "fwhm_arcsec": 0.5103356359042084,
+        "peak_over_local_mad": 749.393408906965,
+        "cutout_x": 2825.1502258685496,
+        "cutout_y": 4449.746307121825
+      },
+      {
+        "gaia_dr3_id": "2161075089188553600",
+        "fwhm_arcsec": 0.5516851609714228,
+        "peak_over_local_mad": 556.8312933657544,
+        "cutout_x": 1691.4298889622305,
+        "cutout_y": 3452.6874517218275
+      },
+      {
+        "gaia_dr3_id": "2161074505072998400",
+        "fwhm_arcsec": 0.5128378682174254,
+        "peak_over_local_mad": 626.3390174517837,
+        "cutout_x": 4576.686273397614,
+        "cutout_y": 2972.2719687139115
+      },
+      {
+        "gaia_dr3_id": "2161076016901739520",
+        "fwhm_arcsec": 0.5136606376642331,
+        "peak_over_local_mad": 696.8788831169891,
+        "cutout_x": 3069.218111276986,
+        "cutout_y": 4686.940558199723
+      },
+      {
+        "gaia_dr3_id": "2161075192267771904",
+        "fwhm_arcsec": 0.5000841825096549,
+        "peak_over_local_mad": 652.9308553452347,
+        "cutout_x": 1548.1939343695321,
+        "cutout_y": 3789.41000184562
+      },
+      {
+        "gaia_dr3_id": "2161074161475817344",
+        "fwhm_arcsec": 0.49641674838348165,
+        "peak_over_local_mad": 720.8736848515678,
+        "cutout_x": 2309.9841656882563,
+        "cutout_y": 1559.819633480436
+      },
+      {
+        "gaia_dr3_id": "2161075020469074688",
+        "fwhm_arcsec": 0.5018556495354484,
+        "peak_over_local_mad": 711.1223204240005,
+        "cutout_x": 1320.91957358306,
+        "cutout_y": 3209.7938416870584
+      },
+      {
+        "gaia_dr3_id": "2161076223059931776",
+        "fwhm_arcsec": 0.48720891426598706,
+        "peak_over_local_mad": 770.1439713144496,
+        "cutout_x": 3355.786563865361,
+        "cutout_y": 4973.444386197449
+      },
+      {
+        "gaia_dr3_id": "2161073925253241728",
+        "fwhm_arcsec": 0.5293344473923642,
+        "peak_over_local_mad": 630.3518053817147,
+        "cutout_x": 3853.7242155392996,
+        "cutout_y": 1156.0227601567622
+      },
+      {
+        "gaia_dr3_id": "2161085848082529664",
+        "fwhm_arcsec": 0.5153994166569078,
+        "peak_over_local_mad": 662.8031872226474,
+        "cutout_x": 5122.199067621018,
+        "cutout_y": 2801.235520905332
+      },
+      {
+        "gaia_dr3_id": "2161076051261240320",
+        "fwhm_arcsec": 0.4732049499004382,
+        "peak_over_local_mad": 692.0641083732276,
+        "cutout_x": 3112.4279056169835,
+        "cutout_y": 5140.609167199924
+      },
+      {
+        "gaia_dr3_id": "2161076257419912448",
+        "fwhm_arcsec": 0.4751960298404839,
+        "peak_over_local_mad": 825.351736171225,
+        "cutout_x": 3360.5787557682015,
+        "cutout_y": 5173.517396836109
+      },
+      {
+        "gaia_dr3_id": "2161073474280826880",
+        "fwhm_arcsec": 0.47104749118433276,
+        "peak_over_local_mad": 729.8981171829914,
+        "cutout_x": 1361.6301349080532,
+        "cutout_y": 1716.3007238003274
+      },
+      {
+        "gaia_dr3_id": "2161085740707437056",
+        "fwhm_arcsec": 0.5366488444246215,
+        "peak_over_local_mad": 626.5195554823283,
+        "cutout_x": 5179.746970400534,
+        "cutout_y": 2356.2203235111556
+      },
+      {
+        "gaia_dr3_id": "2161073749158722944",
+        "fwhm_arcsec": 0.46937038131223857,
+        "peak_over_local_mad": 819.7933988824552,
+        "cutout_x": 2649.322237954044,
+        "cutout_y": 818.9309504862472
+      },
+      {
+        "gaia_dr3_id": "2161085740707430656",
+        "fwhm_arcsec": 0.48323532683929504,
+        "peak_over_local_mad": 723.2777672845365,
+        "cutout_x": 5091.520898020028,
+        "cutout_y": 1959.0701318720176
+      },
+      {
+        "gaia_dr3_id": "2161073646079506816",
+        "fwhm_arcsec": 0.507234189814768,
+        "peak_over_local_mad": 688.2314055419238,
+        "cutout_x": 2709.634744091466,
+        "cutout_y": 678.2026991600519
+      },
+      {
+        "gaia_dr3_id": "2161075574520692480",
+        "fwhm_arcsec": 0.5052501061370197,
+        "peak_over_local_mad": 748.7778571527618,
+        "cutout_x": 1349.0110250450489,
+        "cutout_y": 4809.06521948548
+      },
+      {
+        "gaia_dr3_id": "2161076394858624384",
+        "fwhm_arcsec": 0.5430916848288916,
+        "peak_over_local_mad": 599.4997285644523,
+        "cutout_x": 2041.8319305921732,
+        "cutout_y": 5299.246372397574
+      },
+      {
+        "gaia_dr3_id": "2161076635377037952",
+        "fwhm_arcsec": 0.5219467919322116,
+        "peak_over_local_mad": 633.8170718760261,
+        "cutout_x": 3267.056576545312,
+        "cutout_y": 5523.993251316662
+      },
+      {
+        "gaia_dr3_id": "2161075570225140480",
+        "fwhm_arcsec": 0.48623989700932563,
+        "peak_over_local_mad": 773.7701160459927,
+        "cutout_x": 1220.6619510179512,
+        "cutout_y": 4724.353615888262
+      },
+      {
+        "gaia_dr3_id": "2161085809427273216",
+        "fwhm_arcsec": 0.5068038252666884,
+        "peak_over_local_mad": 682.7998432974065,
+        "cutout_x": 5550.945180147499,
+        "cutout_y": 2538.432987517489
+      },
+      {
+        "gaia_dr3_id": "2161076394858625536",
+        "fwhm_arcsec": 0.5013750760243575,
+        "peak_over_local_mad": 546.4334412604142,
+        "cutout_x": 2351.426839660614,
+        "cutout_y": 5662.379867714311
+      },
+      {
+        "gaia_dr3_id": "2161074818606445696",
+        "fwhm_arcsec": 0.5388548136051797,
+        "peak_over_local_mad": 643.1463004749056,
+        "cutout_x": 466.14455294332083,
+        "cutout_y": 2265.065257273426
+      },
+      {
+        "gaia_dr3_id": "2161085912506364544",
+        "fwhm_arcsec": 0.5068228571798732,
+        "peak_over_local_mad": 677.2226234709914,
+        "cutout_x": 5835.537297365472,
+        "cutout_y": 3020.867017881221
+      },
+      {
+        "gaia_dr3_id": "2161079800768500864",
+        "fwhm_arcsec": 0.48161616976194566,
+        "peak_over_local_mad": 682.9303866154505,
+        "cutout_x": 4701.958607177569,
+        "cutout_y": 807.4998775153454
+      },
+      {
+        "gaia_dr3_id": "2161072894461091328",
+        "fwhm_arcsec": 0.49220125840544493,
+        "peak_over_local_mad": 669.0867868950353,
+        "cutout_x": 2117.580923145797,
+        "cutout_y": 205.3356548917177
+      },
+      {
+        "gaia_dr3_id": "2161086535277298816",
+        "fwhm_arcsec": 0.5083796598178548,
+        "peak_over_local_mad": 713.1299460077397,
+        "cutout_x": 5938.98179542965,
+        "cutout_y": 4119.89685841782
+      },
+      {
+        "gaia_dr3_id": "2161086015585351424",
+        "fwhm_arcsec": 0.528577020444565,
+        "peak_over_local_mad": 644.0543327303532,
+        "cutout_x": 6123.645960564415,
+        "cutout_y": 2867.355826512702
+      },
+      {
+        "gaia_dr3_id": "2161079796472896768",
+        "fwhm_arcsec": 0.506359204800278,
+        "peak_over_local_mad": 741.6184386280844,
+        "cutout_x": 5134.493028971818,
+        "cutout_y": 807.9233743986701
+      },
+      {
+        "gaia_dr3_id": "2161072993244472576",
+        "fwhm_arcsec": 0.5129301119982901,
+        "peak_over_local_mad": 505.0406601827976,
+        "cutout_x": 1689.8654776266785,
+        "cutout_y": 304.11573519329613
+      },
+      {
+        "gaia_dr3_id": "2161068045442146560",
+        "fwhm_arcsec": 0.5076039133799904,
+        "peak_over_local_mad": 614.6356393422851,
+        "cutout_x": 4127.78273291258,
+        "cutout_y": 109.39078632658584
+      },
+      {
+        "gaia_dr3_id": "2161073130683644544",
+        "fwhm_arcsec": 0.4912249065239844,
+        "peak_over_local_mad": 752.396037732695,
+        "cutout_x": 891.833909621203,
+        "cutout_y": 578.3461512351896
+      },
+      {
+        "gaia_dr3_id": "2161072958884733440",
+        "fwhm_arcsec": 0.5029478818624099,
+        "peak_over_local_mad": 735.9940257533682,
+        "cutout_x": 1170.151732006595,
+        "cutout_y": 271.9441930634889
+      },
+      {
+        "gaia_dr3_id": "2161450812927609600",
+        "fwhm_arcsec": 0.5122282666470518,
+        "peak_over_local_mad": 859.9236942344746,
+        "cutout_x": 398.92431654149595,
+        "cutout_y": 5378.799691792586
+      },
+      {
+        "gaia_dr3_id": "2161079659033930880",
+        "fwhm_arcsec": 0.49225866097911836,
+        "peak_over_local_mad": 779.7361599414885,
+        "cutout_x": 5218.935144022376,
+        "cutout_y": 165.6634710635799
+      },
+      {
+        "gaia_dr3_id": "2161088180248886912",
+        "fwhm_arcsec": 0.46447753126414215,
+        "peak_over_local_mad": 789.0998011241045,
+        "cutout_x": 6004.997431893664,
+        "cutout_y": 5621.214495646775
+      }
+    ],
+    "background_xy": [
+      [
+        820,
+        4119
+      ],
+      [
+        2086,
+        955
+      ],
+      [
+        1187,
+        1831
+      ],
+      [
+        4022,
+        5669
+      ],
+      [
+        3573,
+        2808
+      ],
+      [
+        3540,
+        3152
+      ]
+    ],
+    "median_fwhm_arcsec": 0.5024017656989291
+  },
+  {
+    "tile": 101829777,
+    "archive": {
+      "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101829777/NISP/EUC_MER_BGSUB-MOSAIC-NIR-J_TILE101829777-7B0284_20250821T134506.130110Z_00.00.fits",
+      "etag": "\"ac387391aa514839550ff58fc16cd7fa-80\"",
+      "bytes": 416165760,
+      "header_sha256": "c3f73a286a1f67e3803e277844d72a24f8ed1f1a9372967f48a2ef4dbf9631aa",
+      "plan": "MER_ProcessTile_EUCLID_2.0.32-DATA_RELEASE_DEEP-trochequ-PLAN-000002",
+      "unit": "ELECTRON/s",
+      "magzero": 30.1,
+      "date_obs": null,
+      "shape": [
+        10200,
+        10200
+      ],
+      "ranges": [
+        {
+          "start": 82748160,
+          "end_exclusive": 103637760,
+          "sha256": "539ecf39d98477acbc8b6cd0fc9c0ab42f0ae43c6e00e257e48efdec41deffae"
+        },
+        {
+          "start": 103637760,
+          "end_exclusive": 124527360,
+          "sha256": "a82e111c43db716eaf6c7a02b51ccad1d2139c33472a037aea5955fe92bd059e"
+        },
+        {
+          "start": 124527360,
+          "end_exclusive": 145416960,
+          "sha256": "39d72e834285a94d825d0ed3f1535c3f17a59576bc63a43c80c8ccfbf0a6765b"
+        },
+        {
+          "start": 145416960,
+          "end_exclusive": 166306560,
+          "sha256": "d559455fdc39fba7f558acb24c62510624e38dffad388da5e292714b0301d13e"
+        },
+        {
+          "start": 166306560,
+          "end_exclusive": 187196160,
+          "sha256": "90e9d085148ec3c54cf532e9bb556705c984e0ee1a65f87c1bbd70ad7a3e9fd1"
+        },
+        {
+          "start": 187196160,
+          "end_exclusive": 208085760,
+          "sha256": "caf62676633d4a0f0c41109210fa19f68f4576aa020b8ff00a8c5217ef26e993"
+        },
+        {
+          "start": 208085760,
+          "end_exclusive": 228975360,
+          "sha256": "3532ab86e3980d86d88ab4f78ecee8ef5c0acec0b441c0e5087556b24ff7b6d4"
+        },
+        {
+          "start": 228975360,
+          "end_exclusive": 249864960,
+          "sha256": "a69f400b4b4b94b79e94937f5be0170732f5848f315ff0319675872ce308319d"
+        },
+        {
+          "start": 249864960,
+          "end_exclusive": 270754560,
+          "sha256": "185fda4f711d6940c89bfd8709876074ed9eb5db71bc8dad972c1eb4d0f7654d"
+        },
+        {
+          "start": 270754560,
+          "end_exclusive": 291644160,
+          "sha256": "0bb30e75df5476f9d66abe6d27f49c0f78606db802b7856d7fc304ba75cc12de"
+        },
+        {
+          "start": 291644160,
+          "end_exclusive": 312533760,
+          "sha256": "d500413e97c466dbd708c5decf00cdbd264be05db43bc6591a6ff6c45fae270a"
+        },
+        {
+          "start": 312533760,
+          "end_exclusive": 333423360,
+          "sha256": "1d87429090f055ae372467ede4953d54de5b11001b0d3cd121d990f93e199f22"
+        }
+      ],
+      "origin_xy": [
+        2028,
+        2028
+      ],
+      "shape_analysed": [
+        6144,
+        6144
+      ]
+    },
+    "gaia_query": "https://irsa.ipac.caltech.edu/cgi-bin/Gator/nph-query?catalog=gaia_dr3_source&objstr=273.1703509+%2B64.2500000&spatial=cone&radius=420&radunits=arcsec&outfmt=1",
+    "gaia_sha256": "e4cc67222d40e8f129d99c07d74e8b3e05e6a0dff92de0577935b5239afa7ba2",
+    "stars": [
+      {
+        "gaia_dr3_id": "2161261800007255936",
+        "fwhm_arcsec": 0.5003664067215008,
+        "peak_over_local_mad": 713.8695676902504,
+        "cutout_x": 2838.758285664687,
+        "cutout_y": 3011.668786849992
+      },
+      {
+        "gaia_dr3_id": "2161262246683857920",
+        "fwhm_arcsec": 0.504492262931368,
+        "peak_over_local_mad": 704.9769940072388,
+        "cutout_x": 3335.418067919739,
+        "cutout_y": 3789.4903028974204
+      },
+      {
+        "gaia_dr3_id": "2161261765647515008",
+        "fwhm_arcsec": 0.49690460606833775,
+        "peak_over_local_mad": 789.602619113665,
+        "cutout_x": 2692.583288084985,
+        "cutout_y": 2333.043456143131
+      },
+      {
+        "gaia_dr3_id": "2161261903086469888",
+        "fwhm_arcsec": 0.529774334749432,
+        "peak_over_local_mad": 731.9920069825977,
+        "cutout_x": 3884.7867802674436,
+        "cutout_y": 2590.057798011194
+      },
+      {
+        "gaia_dr3_id": "2161250426933856896",
+        "fwhm_arcsec": 0.5263433238672051,
+        "peak_over_local_mad": 677.6278835563966,
+        "cutout_x": 2076.64771552439,
+        "cutout_y": 3170.6110024138425
+      },
+      {
+        "gaia_dr3_id": "2161262212324119296",
+        "fwhm_arcsec": 0.49151740648531006,
+        "peak_over_local_mad": 707.263797233535,
+        "cutout_x": 2264.743446759174,
+        "cutout_y": 3720.4011584041355
+      },
+      {
+        "gaia_dr3_id": "2161262074885165568",
+        "fwhm_arcsec": 0.4983286330921756,
+        "peak_over_local_mad": 745.8662466295175,
+        "cutout_x": 3977.812931881439,
+        "cutout_y": 3642.475312244166
+      },
+      {
+        "gaia_dr3_id": "2161261903086468608",
+        "fwhm_arcsec": 0.4817073458837142,
+        "peak_over_local_mad": 730.0255125225832,
+        "cutout_x": 3885.424247383078,
+        "cutout_y": 2313.594477853656
+      },
+      {
+        "gaia_dr3_id": "2161262010461469568",
+        "fwhm_arcsec": 0.5191242126221546,
+        "peak_over_local_mad": 726.6819366947848,
+        "cutout_x": 4254.118086345065,
+        "cutout_y": 3025.4623035247723
+      },
+      {
+        "gaia_dr3_id": "2161256027571267200",
+        "fwhm_arcsec": 0.4912645240762439,
+        "peak_over_local_mad": 797.9368154044513,
+        "cutout_x": 4092.0495466297043,
+        "cutout_y": 2336.6089066216928
+      },
+      {
+        "gaia_dr3_id": "2161250048976730752",
+        "fwhm_arcsec": 0.4886037088559667,
+        "peak_over_local_mad": 840.2590137545226,
+        "cutout_x": 1818.3326858401397,
+        "cutout_y": 2185.7157568965413
+      },
+      {
+        "gaia_dr3_id": "2161261628209538304",
+        "fwhm_arcsec": 0.5285781664623906,
+        "peak_over_local_mad": 241.7802498743316,
+        "cutout_x": 2467.970338088826,
+        "cutout_y": 1648.734341521666
+      },
+      {
+        "gaia_dr3_id": "2161249911537774720",
+        "fwhm_arcsec": 0.5100249853182036,
+        "peak_over_local_mad": 729.9798336585841,
+        "cutout_x": 2205.9952822629093,
+        "cutout_y": 1738.3187439663302
+      },
+      {
+        "gaia_dr3_id": "2161255821412771840",
+        "fwhm_arcsec": 0.488657871786662,
+        "peak_over_local_mad": 724.9348949707436,
+        "cutout_x": 3093.376529684567,
+        "cutout_y": 1392.4702590716556
+      },
+      {
+        "gaia_dr3_id": "2161250603028341760",
+        "fwhm_arcsec": 0.5018127745459601,
+        "peak_over_local_mad": 761.0267277025894,
+        "cutout_x": 2148.406138054871,
+        "cutout_y": 4509.68401206052
+      },
+      {
+        "gaia_dr3_id": "2161262349763076864",
+        "fwhm_arcsec": 0.4969266187755904,
+        "peak_over_local_mad": 703.0869863244696,
+        "cutout_x": 2697.6434981454213,
+        "cutout_y": 4741.573982976104
+      },
+      {
+        "gaia_dr3_id": "2161252076201304192",
+        "fwhm_arcsec": 0.49160281920647886,
+        "peak_over_local_mad": 822.9047710816886,
+        "cutout_x": 2004.4552563334237,
+        "cutout_y": 4612.986425673301
+      },
+      {
+        "gaia_dr3_id": "2161262143604540672",
+        "fwhm_arcsec": 0.4968436010567758,
+        "peak_over_local_mad": 557.9344733683253,
+        "cutout_x": 4704.370163592472,
+        "cutout_y": 4189.456849529261
+      },
+      {
+        "gaia_dr3_id": "2161255752693353600",
+        "fwhm_arcsec": 0.5082874535339826,
+        "peak_over_local_mad": 751.3506980411403,
+        "cutout_x": 2509.749937492643,
+        "cutout_y": 1086.7383620527107
+      },
+      {
+        "gaia_dr3_id": "2161249911537771264",
+        "fwhm_arcsec": 0.49523705433865367,
+        "peak_over_local_mad": 811.1304802806092,
+        "cutout_x": 1822.1825174959768,
+        "cutout_y": 1318.6815624482742
+      },
+      {
+        "gaia_dr3_id": "2161255924492047488",
+        "fwhm_arcsec": 0.5714767964145883,
+        "peak_over_local_mad": 513.7732551697507,
+        "cutout_x": 4745.771927769209,
+        "cutout_y": 1438.553651749217
+      },
+      {
+        "gaia_dr3_id": "2161249808458554624",
+        "fwhm_arcsec": 0.5213219155871953,
+        "peak_over_local_mad": 643.7670689567026,
+        "cutout_x": 1706.8873017990227,
+        "cutout_y": 1028.1056564802302
+      },
+      {
+        "gaia_dr3_id": "2161263861591416320",
+        "fwhm_arcsec": 0.5707180584451588,
+        "peak_over_local_mad": 533.5985202801567,
+        "cutout_x": 2545.0712856694126,
+        "cutout_y": 5502.330177484211
+      },
+      {
+        "gaia_dr3_id": "2161255688270044160",
+        "fwhm_arcsec": 0.4882660502663379,
+        "peak_over_local_mad": 759.1194744819844,
+        "cutout_x": 3149.5133544461996,
+        "cutout_y": 573.0750562919584
+      },
+      {
+        "gaia_dr3_id": "2161255860068295808",
+        "fwhm_arcsec": 0.4588222468524388,
+        "peak_over_local_mad": 766.7169801405493,
+        "cutout_x": 4018.486156257816,
+        "cutout_y": 690.9727558401578
+      },
+      {
+        "gaia_dr3_id": "2161256302449109248",
+        "fwhm_arcsec": 0.5912561953966556,
+        "peak_over_local_mad": 544.1926055145046,
+        "cutout_x": 5062.17260720352,
+        "cutout_y": 1330.849406238493
+      },
+      {
+        "gaia_dr3_id": "2161256680406232192",
+        "fwhm_arcsec": 0.4956049925222762,
+        "peak_over_local_mad": 783.7109761111703,
+        "cutout_x": 5272.597897077275,
+        "cutout_y": 1508.0352798585377
+      },
+      {
+        "gaia_dr3_id": "2161256886564669056",
+        "fwhm_arcsec": 0.4922606389114908,
+        "peak_over_local_mad": 819.6603782718627,
+        "cutout_x": 5766.3064862978445,
+        "cutout_y": 2828.358798118332
+      },
+      {
+        "gaia_dr3_id": "2161251805619186688",
+        "fwhm_arcsec": 0.5107978741768578,
+        "peak_over_local_mad": 669.7181597051817,
+        "cutout_x": 396.8162458405491,
+        "cutout_y": 3623.397241716015
+      },
+      {
+        "gaia_dr3_id": "2161256749125711744",
+        "fwhm_arcsec": 0.4850433182012617,
+        "peak_over_local_mad": 836.6077028984168,
+        "cutout_x": 5571.913609168285,
+        "cutout_y": 1890.3575093763966
+      },
+      {
+        "gaia_dr3_id": "2161243967303089280",
+        "fwhm_arcsec": 0.4923495100291623,
+        "peak_over_local_mad": 723.1480148278448,
+        "cutout_x": 2093.5356907605483,
+        "cutout_y": 477.24374490830087
+      },
+      {
+        "gaia_dr3_id": "2161255615254332416",
+        "fwhm_arcsec": 0.4799094932679359,
+        "peak_over_local_mad": 806.5561096467759,
+        "cutout_x": 2683.54261756671,
+        "cutout_y": 242.7051555596072
+      },
+      {
+        "gaia_dr3_id": "2161262663296505088",
+        "fwhm_arcsec": 0.5245137322845145,
+        "peak_over_local_mad": 601.6514343577632,
+        "cutout_x": 4664.635982443219,
+        "cutout_y": 5488.488023633643
+      },
+      {
+        "gaia_dr3_id": "2161263968966571264",
+        "fwhm_arcsec": 0.5039719218398176,
+        "peak_over_local_mad": 652.1303096616679,
+        "cutout_x": 2178.518670872664,
+        "cutout_y": 5854.439565672447
+      },
+      {
+        "gaia_dr3_id": "2161256302449107968",
+        "fwhm_arcsec": 0.48262582679395294,
+        "peak_over_local_mad": 837.7678499128832,
+        "cutout_x": 5343.386386726728,
+        "cutout_y": 1225.0634687752472
+      },
+      {
+        "gaia_dr3_id": "2161264033390112128",
+        "fwhm_arcsec": 0.5012936798651875,
+        "peak_over_local_mad": 728.2729647248281,
+        "cutout_x": 2985.4696749595605,
+        "cutout_y": 6045.782808897976
+      },
+      {
+        "gaia_dr3_id": "2161263999030373248",
+        "fwhm_arcsec": 0.49974075058210154,
+        "peak_over_local_mad": 700.7098244735424,
+        "cutout_x": 2224.665521657077,
+        "cutout_y": 5981.814968031809
+      },
+      {
+        "gaia_dr3_id": "2161256989643883904",
+        "fwhm_arcsec": 0.4830744036057449,
+        "peak_over_local_mad": 782.4403518690835,
+        "cutout_x": 6099.432874225023,
+        "cutout_y": 2702.1168919352067
+      },
+      {
+        "gaia_dr3_id": "2161243902879347072",
+        "fwhm_arcsec": 0.5033261725119488,
+        "peak_over_local_mad": 762.134981298887,
+        "cutout_x": 1794.79588842464,
+        "cutout_y": 270.2746549174317
+      },
+      {
+        "gaia_dr3_id": "2161262968238216192",
+        "fwhm_arcsec": 0.5253037474584855,
+        "peak_over_local_mad": 664.1093606609136,
+        "cutout_x": 5591.7616548945825,
+        "cutout_y": 4873.051139342455
+      },
+      {
+        "gaia_dr3_id": "2161252252295788672",
+        "fwhm_arcsec": 0.49089555807222723,
+        "peak_over_local_mad": 751.9520966895981,
+        "cutout_x": 1786.1114057719078,
+        "cutout_y": 5959.2447785115155
+      },
+      {
+        "gaia_dr3_id": "2161262938174407168",
+        "fwhm_arcsec": 0.5210653950999742,
+        "peak_over_local_mad": 718.6715256484126,
+        "cutout_x": 5831.965600223881,
+        "cutout_y": 4864.47568177516
+      },
+      {
+        "gaia_dr3_id": "2161252351079213312",
+        "fwhm_arcsec": 0.5887768636204753,
+        "peak_over_local_mad": 561.8548625769453,
+        "cutout_x": 536.8280001138482,
+        "cutout_y": 5209.499640512655
+      },
+      {
+        "gaia_dr3_id": "2161262968238217216",
+        "fwhm_arcsec": 0.510317058417929,
+        "peak_over_local_mad": 714.6317151825065,
+        "cutout_x": 5858.431754093799,
+        "cutout_y": 5038.529674821699
+      },
+      {
+        "gaia_dr3_id": "2161252355375004928",
+        "fwhm_arcsec": 0.525365434222482,
+        "peak_over_local_mad": 688.6652256916054,
+        "cutout_x": 455.07946847341873,
+        "cutout_y": 5275.455866965918
+      },
+      {
+        "gaia_dr3_id": "2161249705379339136",
+        "fwhm_arcsec": 0.48867475813334715,
+        "peak_over_local_mad": 730.4129844722124,
+        "cutout_x": 93.73045804941285,
+        "cutout_y": 1014.7429178121752
+      },
+      {
+        "gaia_dr3_id": "2161252286655529216",
+        "fwhm_arcsec": 0.5440551033501269,
+        "peak_over_local_mad": 624.2206597398811,
+        "cutout_x": 106.31653973791117,
+        "cutout_y": 5235.218981608403
+      }
+    ],
+    "background_xy": [
+      [
+        3264,
+        5381
+      ],
+      [
+        3579,
+        4339
+      ],
+      [
+        4114,
+        4403
+      ],
+      [
+        2475,
+        1169
+      ],
+      [
+        3123,
+        3349
+      ],
+      [
+        4908,
+        4655
+      ]
+    ],
+    "median_fwhm_arcsec": 0.5003664067215008
+  },
+  {
+    "tile": 101829779,
+    "archive": {
+      "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101829779/NISP/EUC_MER_BGSUB-MOSAIC-NIR-J_TILE101829779-F39244_20250820T102801.237466Z_00.00.fits",
+      "etag": "\"648f0661c20aebb1025cf97f5a874bf1-80\"",
+      "bytes": 416165760,
+      "header_sha256": "d3921b932da9a652caee06c450d74573a519c7480ef8278b9f51b134bf4e9970",
+      "plan": "MER_ProcessTile_EUCLID_2.0.32-DATA_RELEASE_DEEP-trochequ-PLAN-000002",
+      "unit": "ELECTRON/s",
+      "magzero": 30.1,
+      "date_obs": null,
+      "shape": [
+        10200,
+        10200
+      ],
+      "ranges": [
+        {
+          "start": 82748160,
+          "end_exclusive": 103637760,
+          "sha256": "e7a70e1623463fdb641634dd7d0322c7d7b97ad2db8eb69689e46195c1edd6da"
+        },
+        {
+          "start": 103637760,
+          "end_exclusive": 124527360,
+          "sha256": "26692772f03e02fbd1ac53c7346ab668a4ccbc91d5e214a830aa9051b840ef7b"
+        },
+        {
+          "start": 124527360,
+          "end_exclusive": 145416960,
+          "sha256": "58df347b8f8f2ad9203966aa4075d682f12ada831dce9efb1b8b054c8cf63deb"
+        },
+        {
+          "start": 145416960,
+          "end_exclusive": 166306560,
+          "sha256": "660ca8a7044c163e7d752ebeef5f662c4a3d2c8e0150d51d062eac453d3a0eba"
+        },
+        {
+          "start": 166306560,
+          "end_exclusive": 187196160,
+          "sha256": "280aa55221bb9eab5ed7e144980adf78b95b0b00ff4dbd3a26811423dd5996d5"
+        },
+        {
+          "start": 187196160,
+          "end_exclusive": 208085760,
+          "sha256": "52db5a493e200e060421f2f59db799a5ff18bd0d2e352eb640a229f181406e2c"
+        },
+        {
+          "start": 208085760,
+          "end_exclusive": 228975360,
+          "sha256": "1bd8471b3058b10e4823a26ad93cda551005c1994fd8c9b095fd6a92b56b4f0d"
+        },
+        {
+          "start": 228975360,
+          "end_exclusive": 249864960,
+          "sha256": "efeb9ef3b17f38c956de2a5570bc5c893fa6f3fb3c26b6bc53301ba152698668"
+        },
+        {
+          "start": 249864960,
+          "end_exclusive": 270754560,
+          "sha256": "5a3b08c02ff26645399c6e94f94d39967bc54b9c6c07bc7a7b083c49afd80c1e"
+        },
+        {
+          "start": 270754560,
+          "end_exclusive": 291644160,
+          "sha256": "8d5e662840b1a8351e61f610b5db634611aaa6e9dc9488eef78ff04edcd92caf"
+        },
+        {
+          "start": 291644160,
+          "end_exclusive": 312533760,
+          "sha256": "822fe611a8dc95230773b63a6ce37700e37fb120d3bdcf556b56e83e2585cc1c"
+        },
+        {
+          "start": 312533760,
+          "end_exclusive": 333423360,
+          "sha256": "10c1651c6b71055307becb25d2df17c05abc11aa336b93215ef3f605b2c3e26d"
+        }
+      ],
+      "origin_xy": [
+        2028,
+        2028
+      ],
+      "shape_analysed": [
+        6144,
+        6144
+      ]
+    },
+    "gaia_query": "https://irsa.ipac.caltech.edu/cgi-bin/Gator/nph-query?catalog=gaia_dr3_source&objstr=274.3109369+%2B64.2500000&spatial=cone&radius=420&radunits=arcsec&outfmt=1",
+    "gaia_sha256": "1ada0cc07c6f13c6cc9025732576dfe0bc5c435f1d342d1ae2e6c0b907ed0fba",
+    "stars": [
+      {
+        "gaia_dr3_id": "2161221736552109056",
+        "fwhm_arcsec": 0.5027867366043571,
+        "peak_over_local_mad": 705.0208421615467,
+        "cutout_x": 3239.8189051104127,
+        "cutout_y": 3425.3620320869177
+      },
+      {
+        "gaia_dr3_id": "2161221770911475584",
+        "fwhm_arcsec": 0.5058229640544938,
+        "peak_over_local_mad": 632.30968514897,
+        "cutout_x": 3948.1413985797335,
+        "cutout_y": 2435.9158443927954
+      },
+      {
+        "gaia_dr3_id": "2161227818225811840",
+        "fwhm_arcsec": 0.5193346080476422,
+        "peak_over_local_mad": 681.6129203970372,
+        "cutout_x": 3737.388943146737,
+        "cutout_y": 4168.958291604305
+      },
+      {
+        "gaia_dr3_id": "2161220877558270336",
+        "fwhm_arcsec": 0.4920290909997597,
+        "peak_over_local_mad": 775.9745355179242,
+        "cutout_x": 2295.9448087199753,
+        "cutout_y": 1995.199567148511
+      },
+      {
+        "gaia_dr3_id": "2161221878287005184",
+        "fwhm_arcsec": 0.5574602634830875,
+        "peak_over_local_mad": 515.0416497380261,
+        "cutout_x": 4451.489765897129,
+        "cutout_y": 3103.395484802638
+      },
+      {
+        "gaia_dr3_id": "2161227856881487616",
+        "fwhm_arcsec": 0.5136131402070173,
+        "peak_over_local_mad": 629.3945041043679,
+        "cutout_x": 3762.6154405357365,
+        "cutout_y": 4306.131560012719
+      },
+      {
+        "gaia_dr3_id": "2161221873990703616",
+        "fwhm_arcsec": 0.5295046805244054,
+        "peak_over_local_mad": 675.5370787524963,
+        "cutout_x": 4511.941545576137,
+        "cutout_y": 3407.6762575304083
+      },
+      {
+        "gaia_dr3_id": "2161220843200996352",
+        "fwhm_arcsec": 0.5268492669397427,
+        "peak_over_local_mad": 703.4488312219132,
+        "cutout_x": 1861.9053702917363,
+        "cutout_y": 2192.7783177439424
+      },
+      {
+        "gaia_dr3_id": "2161220847494858368",
+        "fwhm_arcsec": 0.5013371549948286,
+        "peak_over_local_mad": 768.4454600958362,
+        "cutout_x": 1855.2284319271762,
+        "cutout_y": 2167.6664563769573
+      },
+      {
+        "gaia_dr3_id": "2161226856152763008",
+        "fwhm_arcsec": 0.4978962466901786,
+        "peak_over_local_mad": 763.6330001672446,
+        "cutout_x": 1525.6757099830384,
+        "cutout_y": 3180.6315995233335
+      },
+      {
+        "gaia_dr3_id": "2161226856155228416",
+        "fwhm_arcsec": 0.48750287801190023,
+        "peak_over_local_mad": 685.7068551495689,
+        "cutout_x": 1517.511984923237,
+        "cutout_y": 3140.349735850934
+      },
+      {
+        "gaia_dr3_id": "2161221118076430080",
+        "fwhm_arcsec": 0.5307004482173245,
+        "peak_over_local_mad": 709.0822499853666,
+        "cutout_x": 3116.0481197576546,
+        "cutout_y": 1490.130836329855
+      },
+      {
+        "gaia_dr3_id": "2161221839631316736",
+        "fwhm_arcsec": 0.5034387178026903,
+        "peak_over_local_mad": 791.4023041948805,
+        "cutout_x": 4778.757416425624,
+        "cutout_y": 2876.0812851209967
+      },
+      {
+        "gaia_dr3_id": "2161226718713801984",
+        "fwhm_arcsec": 0.4982657418300929,
+        "peak_over_local_mad": 669.8075013340613,
+        "cutout_x": 1433.0663465936677,
+        "cutout_y": 2551.1205303840998
+      },
+      {
+        "gaia_dr3_id": "2161227268469634688",
+        "fwhm_arcsec": 0.4916348757122955,
+        "peak_over_local_mad": 639.2719137447356,
+        "cutout_x": 1488.3271169741479,
+        "cutout_y": 4056.4070556405713
+      },
+      {
+        "gaia_dr3_id": "2161227783865720192",
+        "fwhm_arcsec": 0.5266276486842429,
+        "peak_over_local_mad": 634.3708787072292,
+        "cutout_x": 3305.5956175605334,
+        "cutout_y": 4956.367775054317
+      },
+      {
+        "gaia_dr3_id": "2161227337189118592",
+        "fwhm_arcsec": 0.5138145549951344,
+        "peak_over_local_mad": 650.2796254032781,
+        "cutout_x": 2034.2473772261787,
+        "cutout_y": 4662.845290468513
+      },
+      {
+        "gaia_dr3_id": "2161221873991066624",
+        "fwhm_arcsec": 0.49620157358077704,
+        "peak_over_local_mad": 732.7155932143676,
+        "cutout_x": 4923.234695018327,
+        "cutout_y": 3643.952898876136
+      },
+      {
+        "gaia_dr3_id": "2161220740119306112",
+        "fwhm_arcsec": 0.5053986651354636,
+        "peak_over_local_mad": 451.7316161986894,
+        "cutout_x": 2228.4363683237425,
+        "cutout_y": 1320.7466409502913
+      },
+      {
+        "gaia_dr3_id": "2161220843198888832",
+        "fwhm_arcsec": 0.5094852226722046,
+        "peak_over_local_mad": 660.1295665711599,
+        "cutout_x": 1426.222915367296,
+        "cutout_y": 2013.8008075910798
+      },
+      {
+        "gaia_dr3_id": "2161227272765940864",
+        "fwhm_arcsec": 0.5111030296307737,
+        "peak_over_local_mad": 637.7904733273772,
+        "cutout_x": 1308.741089279093,
+        "cutout_y": 3984.213107610448
+      },
+      {
+        "gaia_dr3_id": "2161227272765942144",
+        "fwhm_arcsec": 0.5033212852657627,
+        "peak_over_local_mad": 721.7858659041352,
+        "cutout_x": 1364.1782318715605,
+        "cutout_y": 4262.473223656028
+      },
+      {
+        "gaia_dr3_id": "2161221259811708544",
+        "fwhm_arcsec": 0.5185085131073683,
+        "peak_over_local_mad": 586.9668436295993,
+        "cutout_x": 4480.8080514974945,
+        "cutout_y": 1446.8486779970258
+      },
+      {
+        "gaia_dr3_id": "2161224416611335808",
+        "fwhm_arcsec": 0.490708019395966,
+        "peak_over_local_mad": 730.3190138066808,
+        "cutout_x": 5250.7028506621555,
+        "cutout_y": 2846.8564539618965
+      },
+      {
+        "gaia_dr3_id": "2161221324234868608",
+        "fwhm_arcsec": 0.46430605639636746,
+        "peak_over_local_mad": 794.4176458161974,
+        "cutout_x": 4976.336115033779,
+        "cutout_y": 1921.4527484441833
+      },
+      {
+        "gaia_dr3_id": "2161227062311198464",
+        "fwhm_arcsec": 0.5169404353288749,
+        "peak_over_local_mad": 610.3804093793157,
+        "cutout_x": 864.6066411458532,
+        "cutout_y": 3543.25493220695
+      },
+      {
+        "gaia_dr3_id": "2161227302829740672",
+        "fwhm_arcsec": 0.4808820047386285,
+        "peak_over_local_mad": 795.136399743956,
+        "cutout_x": 1300.9603993292744,
+        "cutout_y": 4510.60491581702
+      },
+      {
+        "gaia_dr3_id": "2161227062311200256",
+        "fwhm_arcsec": 0.5029354890001407,
+        "peak_over_local_mad": 628.3295080056934,
+        "cutout_x": 861.9795048718256,
+        "cutout_y": 3722.4711992975717
+      },
+      {
+        "gaia_dr3_id": "2161224283468685056",
+        "fwhm_arcsec": 0.5616654982628624,
+        "peak_over_local_mad": 531.0409149088988,
+        "cutout_x": 5172.623553444919,
+        "cutout_y": 2016.3255773346832
+      },
+      {
+        "gaia_dr3_id": "2161226546915110016",
+        "fwhm_arcsec": 0.5260192873170745,
+        "peak_over_local_mad": 714.6080265669143,
+        "cutout_x": 763.4545287430988,
+        "cutout_y": 2533.2702799283297
+      },
+      {
+        "gaia_dr3_id": "2161224828928206592",
+        "fwhm_arcsec": 0.5347868415095232,
+        "peak_over_local_mad": 562.6645136311795,
+        "cutout_x": 5370.414916887031,
+        "cutout_y": 3691.2615241156336
+      },
+      {
+        "gaia_dr3_id": "2161224794568462848",
+        "fwhm_arcsec": 0.5017702281714987,
+        "peak_over_local_mad": 733.1569697326094,
+        "cutout_x": 5517.824081394432,
+        "cutout_y": 3263.3730690127168
+      },
+      {
+        "gaia_dr3_id": "2161220362162172928",
+        "fwhm_arcsec": 0.5282601274038851,
+        "peak_over_local_mad": 619.8067636048303,
+        "cutout_x": 2339.8324719149914,
+        "cutout_y": 674.6013517675246
+      },
+      {
+        "gaia_dr3_id": "2161227925600964992",
+        "fwhm_arcsec": 0.5440157489803109,
+        "peak_over_local_mad": 613.4766098432699,
+        "cutout_x": 4577.009252870198,
+        "cutout_y": 5146.123203842026
+      },
+      {
+        "gaia_dr3_id": "2161220327802781568",
+        "fwhm_arcsec": 0.515425162319331,
+        "peak_over_local_mad": 687.3368365593124,
+        "cutout_x": 2539.1163000365223,
+        "cutout_y": 512.5083646569606
+      },
+      {
+        "gaia_dr3_id": "2161228161822849408",
+        "fwhm_arcsec": 0.490269456264163,
+        "peak_over_local_mad": 822.4415429361634,
+        "cutout_x": 3419.2292418156303,
+        "cutout_y": 5720.234270191982
+      },
+      {
+        "gaia_dr3_id": "2161224244812628992",
+        "fwhm_arcsec": 0.46581633397743916,
+        "peak_over_local_mad": 860.0264075876329,
+        "cutout_x": 5469.610032695257,
+        "cutout_y": 1876.2560904341462
+      },
+      {
+        "gaia_dr3_id": "2161226478195983360",
+        "fwhm_arcsec": 0.5040134587745517,
+        "peak_over_local_mad": 692.9909538963328,
+        "cutout_x": 471.3860825350416,
+        "cutout_y": 2118.0173739193606
+      },
+      {
+        "gaia_dr3_id": "2161220946278065152",
+        "fwhm_arcsec": 0.5045019290437033,
+        "peak_over_local_mad": 795.8570812112013,
+        "cutout_x": 3263.5898033627645,
+        "cutout_y": 263.09670542037657
+      },
+      {
+        "gaia_dr3_id": "2161228196183264512",
+        "fwhm_arcsec": 0.5095970049324209,
+        "peak_over_local_mad": 593.4550539680814,
+        "cutout_x": 3518.8684865057357,
+        "cutout_y": 5896.395228877815
+      },
+      {
+        "gaia_dr3_id": "2161227234109907328",
+        "fwhm_arcsec": 0.4817010575810131,
+        "peak_over_local_mad": 750.8588472852404,
+        "cutout_x": 1055.9226563017046,
+        "cutout_y": 5132.240804981482
+      },
+      {
+        "gaia_dr3_id": "2161224485330819712",
+        "fwhm_arcsec": 0.5115652608960121,
+        "peak_over_local_mad": 710.4089451804522,
+        "cutout_x": 5939.364423509664,
+        "cutout_y": 3391.0721878070754
+      },
+      {
+        "gaia_dr3_id": "2161230841882799488",
+        "fwhm_arcsec": 0.49262855782431814,
+        "peak_over_local_mad": 821.4056193941786,
+        "cutout_x": 5388.71834958126,
+        "cutout_y": 5190.144767594065
+      },
+      {
+        "gaia_dr3_id": "2161220430881651072",
+        "fwhm_arcsec": 0.48116764677123985,
+        "peak_over_local_mad": 662.5977739982466,
+        "cutout_x": 725.4121365260962,
+        "cutout_y": 763.7315567200931
+      },
+      {
+        "gaia_dr3_id": "2161222737280452096",
+        "fwhm_arcsec": 0.5192639035516816,
+        "peak_over_local_mad": 608.0967948524403,
+        "cutout_x": 5453.753920787419,
+        "cutout_y": 675.8186137395437
+      },
+      {
+        "gaia_dr3_id": "2161225035086651008",
+        "fwhm_arcsec": 0.5077907217914142,
+        "peak_over_local_mad": 618.9888280247918,
+        "cutout_x": 5875.238566942875,
+        "cutout_y": 4954.3363883373495
+      },
+      {
+        "gaia_dr3_id": "2161222629905248768",
+        "fwhm_arcsec": 0.4918494162502355,
+        "peak_over_local_mad": 715.8956471032977,
+        "cutout_x": 5369.3824209919385,
+        "cutout_y": 335.50261229963326
+      },
+      {
+        "gaia_dr3_id": "2161225039382936960",
+        "fwhm_arcsec": 0.49842510973975246,
+        "peak_over_local_mad": 741.6710362995849,
+        "cutout_x": 6074.412308894534,
+        "cutout_y": 5093.480286488107
+      }
+    ],
+    "background_xy": [
+      [
+        4071,
+        2878
+      ],
+      [
+        5675,
+        1578
+      ],
+      [
+        710,
+        2071
+      ],
+      [
+        4210,
+        5356
+      ],
+      [
+        3170,
+        3165
+      ],
+      [
+        2908,
+        5371
+      ]
+    ],
+    "median_fwhm_arcsec": 0.5049502970895834
+  },
+  {
+    "tile": 101830399,
+    "archive": {
+      "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101830399/NISP/EUC_MER_BGSUB-MOSAIC-NIR-J_TILE101830399-B0F623_20250808T084556.298185Z_00.00.fits",
+      "etag": "\"495b2136a2bb22aaf8b2472a6d48812a-80\"",
+      "bytes": 416165760,
+      "header_sha256": "ad80821a7a81c9a00d8a2a1f58618153bffbbe3e76544c89e4adda0406a93874",
+      "plan": "MER_ProcessTile_EUCLID_2.0.32-DATA_RELEASE_DEEP-trochequ-PLAN-000002",
+      "unit": "ELECTRON/s",
+      "magzero": 30.1,
+      "date_obs": null,
+      "shape": [
+        10200,
+        10200
+      ],
+      "ranges": [
+        {
+          "start": 82748160,
+          "end_exclusive": 103637760,
+          "sha256": "040a284a000f036c6492cc6c86c5e70643a65e20f8839da2003ba7f525ebdf8d"
+        },
+        {
+          "start": 103637760,
+          "end_exclusive": 124527360,
+          "sha256": "98a33d415ce7f4d4a9b09cfb0fb0cebb005aa61418ba8cc6dd4344f5ace3cd6c"
+        },
+        {
+          "start": 124527360,
+          "end_exclusive": 145416960,
+          "sha256": "7e7841f8cfaf491fc7d9e6c7a455d7572e30b2e9ea3197afaa2f2d223b917e66"
+        },
+        {
+          "start": 145416960,
+          "end_exclusive": 166306560,
+          "sha256": "a18ac267c47945a48a17bb5edbf35766953159c82cd778942de55cd6c78eb3cf"
+        },
+        {
+          "start": 166306560,
+          "end_exclusive": 187196160,
+          "sha256": "a1c7405199d5063a55ef17ebdd798d83e521b378aaf63525396315dea7d21983"
+        },
+        {
+          "start": 187196160,
+          "end_exclusive": 208085760,
+          "sha256": "f584ef16bc3851719480550b5c9562d77dd70b74de138445620b88a6866db46d"
+        },
+        {
+          "start": 208085760,
+          "end_exclusive": 228975360,
+          "sha256": "1f7469f6e82e584ffb9cf7a81c92a2869ae94fb04f4dde9b5465fc2b7c14d0e5"
+        },
+        {
+          "start": 228975360,
+          "end_exclusive": 249864960,
+          "sha256": "1a8e6eaa88b32c0bdddaa76c093b327bfabf5147660a7a54ee91857cba9ec65f"
+        },
+        {
+          "start": 249864960,
+          "end_exclusive": 270754560,
+          "sha256": "384d9e543e2662e80a51f30d6af5a92907987047b373a34fdecf1c853f73dff5"
+        },
+        {
+          "start": 270754560,
+          "end_exclusive": 291644160,
+          "sha256": "5c90f6c6568a956381f05ce75aa098da7929d883940dc59c4d344db487a8e5ed"
+        },
+        {
+          "start": 291644160,
+          "end_exclusive": 312533760,
+          "sha256": "a63834d2520c6d6a71cbaac5d9fd5e554f98963978eb7cc76c9a3890c511be00"
+        },
+        {
+          "start": 312533760,
+          "end_exclusive": 333423360,
+          "sha256": "5df5714fd80bb83348b53222e61479a177323eae99c9b2cd355b7eb97d04ceeb"
+        }
+      ],
+      "origin_xy": [
+        2028,
+        2028
+      ],
+      "shape_analysed": [
+        6144,
+        6144
+      ]
+    },
+    "gaia_query": "https://irsa.ipac.caltech.edu/cgi-bin/Gator/nph-query?catalog=gaia_dr3_source&objstr=269.8844055+%2B64.5000000&spatial=cone&radius=420&radunits=arcsec&outfmt=1",
+    "gaia_sha256": "73499fbc3496ab001fca9fb22b6645a3b5bdb08a607997839cff607ccc3c3549",
+    "stars": [
+      {
+        "gaia_dr3_id": "1439954272078086912",
+        "fwhm_arcsec": 0.4849986717504402,
+        "peak_over_local_mad": 783.4652014541231,
+        "cutout_x": 2657.089512016264,
+        "cutout_y": 2564.704169222001
+      },
+      {
+        "gaia_dr3_id": "1439954272078085632",
+        "fwhm_arcsec": 0.5012105027491544,
+        "peak_over_local_mad": 456.0943982131129,
+        "cutout_x": 2568.004778925483,
+        "cutout_y": 2497.7808696206594
+      },
+      {
+        "gaia_dr3_id": "1439954310733636096",
+        "fwhm_arcsec": 0.5609251119398442,
+        "peak_over_local_mad": 547.3782569590832,
+        "cutout_x": 3571.3764886947965,
+        "cutout_y": 2459.350881698462
+      },
+      {
+        "gaia_dr3_id": "1439955199791036032",
+        "fwhm_arcsec": 0.502695863028473,
+        "peak_over_local_mad": 416.4638156839765,
+        "cutout_x": 2365.8556860165527,
+        "cutout_y": 3446.2776414179525
+      },
+      {
+        "gaia_dr3_id": "1439954959272865024",
+        "fwhm_arcsec": 0.4945794443756757,
+        "peak_over_local_mad": 677.7646493503264,
+        "cutout_x": 3887.7734511720837,
+        "cutout_y": 3151.9668976596377
+      },
+      {
+        "gaia_dr3_id": "1439954306437822720",
+        "fwhm_arcsec": 0.5071020625993705,
+        "peak_over_local_mad": 704.8786731559984,
+        "cutout_x": 3451.97277773915,
+        "cutout_y": 2319.240946081288
+      },
+      {
+        "gaia_dr3_id": "1439954375157305728",
+        "fwhm_arcsec": 0.49837077993514844,
+        "peak_over_local_mad": 730.2006317301791,
+        "cutout_x": 2226.4185344232046,
+        "cutout_y": 2835.005726046077
+      },
+      {
+        "gaia_dr3_id": "1439954242014159104",
+        "fwhm_arcsec": 0.5094843292095568,
+        "peak_over_local_mad": 756.823871508244,
+        "cutout_x": 3249.2283788400155,
+        "cutout_y": 2190.6351084194503
+      },
+      {
+        "gaia_dr3_id": "1439954375157307392",
+        "fwhm_arcsec": 0.5109121121507033,
+        "peak_over_local_mad": 653.3538862804915,
+        "cutout_x": 2146.24887108691,
+        "cutout_y": 2923.1664467059636
+      },
+      {
+        "gaia_dr3_id": "1439954753114431360",
+        "fwhm_arcsec": 0.49913065131908924,
+        "peak_over_local_mad": 826.4458361973284,
+        "cutout_x": 4249.369772352062,
+        "cutout_y": 2882.1061292153554
+      },
+      {
+        "gaia_dr3_id": "1439954963568665216",
+        "fwhm_arcsec": 0.49943937861549725,
+        "peak_over_local_mad": 707.5423492509931,
+        "cutout_x": 4333.255215436315,
+        "cutout_y": 3080.5323284530086
+      },
+      {
+        "gaia_dr3_id": "1439955204086836096",
+        "fwhm_arcsec": 0.49118435710855773,
+        "peak_over_local_mad": 604.7347241474696,
+        "cutout_x": 1953.9399077852695,
+        "cutout_y": 3678.1779921108155
+      },
+      {
+        "gaia_dr3_id": "1439953928481345024",
+        "fwhm_arcsec": 0.5005649977777268,
+        "peak_over_local_mad": 722.6700737784247,
+        "cutout_x": 3953.4045713833275,
+        "cutout_y": 2069.582587247086
+      },
+      {
+        "gaia_dr3_id": "1439954478236969856",
+        "fwhm_arcsec": 0.5070865780884328,
+        "peak_over_local_mad": 676.146789358805,
+        "cutout_x": 1557.1669168371145,
+        "cutout_y": 3547.6436699857186
+      },
+      {
+        "gaia_dr3_id": "1440001967690753792",
+        "fwhm_arcsec": 0.5048336429904922,
+        "peak_over_local_mad": 650.5584641910092,
+        "cutout_x": 4237.906620240553,
+        "cutout_y": 4156.9217506844525
+      },
+      {
+        "gaia_dr3_id": "1439954031559903360",
+        "fwhm_arcsec": 0.5090554751886501,
+        "peak_over_local_mad": 646.9624791910809,
+        "cutout_x": 3398.493214258824,
+        "cutout_y": 1423.9231488323712
+      },
+      {
+        "gaia_dr3_id": "1439954409517052032",
+        "fwhm_arcsec": 0.5126953928688701,
+        "peak_over_local_mad": 664.6448512187145,
+        "cutout_x": 1328.9311727761306,
+        "cutout_y": 3452.294238592789
+      },
+      {
+        "gaia_dr3_id": "1440002375712270464",
+        "fwhm_arcsec": 0.4999747109159668,
+        "peak_over_local_mad": 739.9767383376266,
+        "cutout_x": 2882.221864800148,
+        "cutout_y": 4954.83791559312
+      },
+      {
+        "gaia_dr3_id": "1440002242568661120",
+        "fwhm_arcsec": 0.49466944709377275,
+        "peak_over_local_mad": 687.8331234889986,
+        "cutout_x": 4005.7221771757695,
+        "cutout_y": 4793.1464310250285
+      },
+      {
+        "gaia_dr3_id": "1440002410072009088",
+        "fwhm_arcsec": 0.4903128191464311,
+        "peak_over_local_mad": 830.4891808109631,
+        "cutout_x": 3338.9628517144756,
+        "cutout_y": 5013.665978025875
+      },
+      {
+        "gaia_dr3_id": "2161129072633438720",
+        "fwhm_arcsec": 0.48171638787885573,
+        "peak_over_local_mad": 433.1773667845875,
+        "cutout_x": 1125.7842170972554,
+        "cutout_y": 3481.136559359399
+      },
+      {
+        "gaia_dr3_id": "1440002238272877184",
+        "fwhm_arcsec": 0.5051915409212115,
+        "peak_over_local_mad": 708.4639964440317,
+        "cutout_x": 4409.9792345286805,
+        "cutout_y": 4640.1453765277365
+      },
+      {
+        "gaia_dr3_id": "1439955307166052096",
+        "fwhm_arcsec": 0.5195868157742771,
+        "peak_over_local_mad": 683.7896563825849,
+        "cutout_x": 1486.1214960705074,
+        "cutout_y": 4458.069987873002
+      },
+      {
+        "gaia_dr3_id": "2161129484950300544",
+        "fwhm_arcsec": 0.5164578183082092,
+        "peak_over_local_mad": 609.9790496918977,
+        "cutout_x": 1141.1275612652807,
+        "cutout_y": 4023.049873369813
+      },
+      {
+        "gaia_dr3_id": "1440002238272880384",
+        "fwhm_arcsec": 0.5164173515299189,
+        "peak_over_local_mad": 547.2459114195368,
+        "cutout_x": 4096.847633847818,
+        "cutout_y": 5040.811529650068
+      },
+      {
+        "gaia_dr3_id": "1439951046558489472",
+        "fwhm_arcsec": 0.49176078877592844,
+        "peak_over_local_mad": 659.1149951276258,
+        "cutout_x": 2990.156589798881,
+        "cutout_y": 805.6321498335474
+      },
+      {
+        "gaia_dr3_id": "1439955509029137664",
+        "fwhm_arcsec": 0.4748913302588988,
+        "peak_over_local_mad": 814.1891471881886,
+        "cutout_x": 1617.9950448683476,
+        "cutout_y": 5000.107512186901
+      },
+      {
+        "gaia_dr3_id": "2161127419069878528",
+        "fwhm_arcsec": 0.49942293258394366,
+        "peak_over_local_mad": 684.6353785492427,
+        "cutout_x": 1067.98145241648,
+        "cutout_y": 1683.609173537031
+      },
+      {
+        "gaia_dr3_id": "2161129622388277248",
+        "fwhm_arcsec": 0.5278852933395292,
+        "peak_over_local_mad": 626.9383685529641,
+        "cutout_x": 939.0295220294697,
+        "cutout_y": 4720.56110182366
+      },
+      {
+        "gaia_dr3_id": "1439953584883296768",
+        "fwhm_arcsec": 0.5203704894551147,
+        "peak_over_local_mad": 674.32366265174,
+        "cutout_x": 4325.5208635366125,
+        "cutout_y": 597.761329915435
+      },
+      {
+        "gaia_dr3_id": "1439950840400060288",
+        "fwhm_arcsec": 0.511846694289527,
+        "peak_over_local_mad": 612.0721790865497,
+        "cutout_x": 1493.2971013072502,
+        "cutout_y": 711.9021088197301
+      },
+      {
+        "gaia_dr3_id": "1439955577748177408",
+        "fwhm_arcsec": 0.4885348738679728,
+        "peak_over_local_mad": 659.0179964987757,
+        "cutout_x": 1350.402302280133,
+        "cutout_y": 5375.0060105221155
+      },
+      {
+        "gaia_dr3_id": "2161129411934551808",
+        "fwhm_arcsec": 0.4799462100849395,
+        "peak_over_local_mad": 780.3019817043668,
+        "cutout_x": 182.84923712545378,
+        "cutout_y": 3425.8362621261294
+      },
+      {
+        "gaia_dr3_id": "2161129446294296832",
+        "fwhm_arcsec": 0.4863739423680132,
+        "peak_over_local_mad": 767.904216463585,
+        "cutout_x": 340.7280929970543,
+        "cutout_y": 4077.9853104464282
+      },
+      {
+        "gaia_dr3_id": "2161127423366057472",
+        "fwhm_arcsec": 0.49924152110263276,
+        "peak_over_local_mad": 654.9123241874336,
+        "cutout_x": 736.4827861402505,
+        "cutout_y": 1309.3840654872265
+      },
+      {
+        "gaia_dr3_id": "1440001860315742208",
+        "fwhm_arcsec": 0.516954944047313,
+        "peak_over_local_mad": 678.5272896012731,
+        "cutout_x": 6054.648476121352,
+        "cutout_y": 3300.369748563936
+      },
+      {
+        "gaia_dr3_id": "1440002066474175616",
+        "fwhm_arcsec": 0.4731879445227638,
+        "peak_over_local_mad": 742.019330305088,
+        "cutout_x": 6032.287931157189,
+        "cutout_y": 3540.693553911251
+      },
+      {
+        "gaia_dr3_id": "1439950080189977728",
+        "fwhm_arcsec": 0.5201897822273033,
+        "peak_over_local_mad": 621.5818718907544,
+        "cutout_x": 1341.0839330509802,
+        "cutout_y": 410.30990006962793
+      },
+      {
+        "gaia_dr3_id": "2161129583733255296",
+        "fwhm_arcsec": 0.5324299254443307,
+        "peak_over_local_mad": 616.9840076341268,
+        "cutout_x": 57.654130237690424,
+        "cutout_y": 4598.344272329738
+      }
+    ],
+    "background_xy": [
+      [
+        750,
+        4116
+      ],
+      [
+        5467,
+        3850
+      ],
+      [
+        4058,
+        3561
+      ],
+      [
+        2831,
+        3847
+      ],
+      [
+        5797,
+        959
+      ],
+      [
+        1004,
+        3426
+      ]
+    ],
+    "median_fwhm_arcsec": 0.5012105027491544
+  },
+  {
+    "tile": 101830403,
+    "archive": {
+      "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101830403/NISP/EUC_MER_BGSUB-MOSAIC-NIR-J_TILE101830403-ECB615_20250822T041837.310725Z_00.00.fits",
+      "etag": "\"095f97086009c85db1082e3ab71fe40f-80\"",
+      "bytes": 416165760,
+      "header_sha256": "daad800908fc48b67ada55d3576c4bfb6ba9abb7e2f22491293cdf0808416b53",
+      "plan": "MER_ProcessTile_EUCLID_2.0.32-DATA_RELEASE_DEEP-trochequ-PLAN-000002",
+      "unit": "ELECTRON/s",
+      "magzero": 30.1,
+      "date_obs": null,
+      "shape": [
+        10200,
+        10200
+      ],
+      "ranges": [
+        {
+          "start": 82748160,
+          "end_exclusive": 103637760,
+          "sha256": "a1bd81c4c715a61e942dc621bfb2446cb9ecde88ed2c270a46d8f748745f2d15"
+        },
+        {
+          "start": 103637760,
+          "end_exclusive": 124527360,
+          "sha256": "92b9cfaeaa340c008d1c95f58b13597de0aaa09dce5f0741ed684a7ffa871690"
+        },
+        {
+          "start": 124527360,
+          "end_exclusive": 145416960,
+          "sha256": "98297ae75c1ff1e8675cc036a730271bba5c70185cbd1cf80532503d9574a44e"
+        },
+        {
+          "start": 145416960,
+          "end_exclusive": 166306560,
+          "sha256": "18960feed74b1ce3ae62c5b88d876f75408a976999d3ce3c15865bb6e8c6a4df"
+        },
+        {
+          "start": 166306560,
+          "end_exclusive": 187196160,
+          "sha256": "c345913ebad197ea09a9d2915aa4f2f7a00c2ece1151624e45e4824626ee7dd0"
+        },
+        {
+          "start": 187196160,
+          "end_exclusive": 208085760,
+          "sha256": "00f2648f97fcc0bc96624d06fd706cdf5b5d55447b5c6ef9171e8bb31fc38ad5"
+        },
+        {
+          "start": 208085760,
+          "end_exclusive": 228975360,
+          "sha256": "ea98efd081754b01b1885bbfbd33c7cb11ae72fffdb8a0f334fb54521c896ae2"
+        },
+        {
+          "start": 228975360,
+          "end_exclusive": 249864960,
+          "sha256": "5fbb6c56d0e353cd43ad8bd537ee057942648dc6edeb1e39b962557b13c78c06"
+        },
+        {
+          "start": 249864960,
+          "end_exclusive": 270754560,
+          "sha256": "dd9ae7b960c9e050ec52d9096977f22451d30900c8d24a6148abd6ab0f9b1649"
+        },
+        {
+          "start": 270754560,
+          "end_exclusive": 291644160,
+          "sha256": "39602fea234a02b91d3e7a81027bf019dc23eeebb0e821fdfa1e02e7fbeb19d4"
+        },
+        {
+          "start": 291644160,
+          "end_exclusive": 312533760,
+          "sha256": "75495fc637e270602e8dba106633f1a5974042904f8574ab5e4bbd011e369bc0"
+        },
+        {
+          "start": 312533760,
+          "end_exclusive": 333423360,
+          "sha256": "2593c32d86c0f0226ba75a1be998bd073aa7357485749c103fa9d0de4d1e8916"
+        }
+      ],
+      "origin_xy": [
+        2028,
+        2028
+      ],
+      "shape_analysed": [
+        6144,
+        6144
+      ]
+    },
+    "gaia_query": "https://irsa.ipac.caltech.edu/cgi-bin/Gator/nph-query?catalog=gaia_dr3_source&objstr=272.1861914+%2B64.5000000&spatial=cone&radius=420&radunits=arcsec&outfmt=1",
+    "gaia_sha256": "11be60b8584932f7671095536ef4137019148405e501a1583050497dc13d4f6d",
+    "stars": [
+      {
+        "gaia_dr3_id": "2161459540301192320",
+        "fwhm_arcsec": 0.5041958442798965,
+        "peak_over_local_mad": 715.9910349643021,
+        "cutout_x": 2241.893802544402,
+        "cutout_y": 3075.1716735463424
+      },
+      {
+        "gaia_dr3_id": "2161459750755318144",
+        "fwhm_arcsec": 0.49503205988464083,
+        "peak_over_local_mad": 738.1222313793942,
+        "cutout_x": 2511.31698458121,
+        "cutout_y": 3836.033482070444
+      },
+      {
+        "gaia_dr3_id": "2161459849539292416",
+        "fwhm_arcsec": 0.49270690791886723,
+        "peak_over_local_mad": 702.1131819396709,
+        "cutout_x": 3267.7316497997545,
+        "cutout_y": 4149.301365714237
+      },
+      {
+        "gaia_dr3_id": "2161453974023578368",
+        "fwhm_arcsec": 0.4863824266634099,
+        "peak_over_local_mad": 747.5191739305818,
+        "cutout_x": 4107.37257811722,
+        "cutout_y": 3459.0764129028685
+      },
+      {
+        "gaia_dr3_id": "2161453836584621056",
+        "fwhm_arcsec": 0.5057628654517468,
+        "peak_over_local_mad": 747.3378631353164,
+        "cutout_x": 4107.874613950468,
+        "cutout_y": 2652.7615394376808
+      },
+      {
+        "gaia_dr3_id": "2161453836584618240",
+        "fwhm_arcsec": 0.4847064118703516,
+        "peak_over_local_mad": 772.6614464184914,
+        "cutout_x": 3962.0043589148127,
+        "cutout_y": 2305.9351815469818
+      },
+      {
+        "gaia_dr3_id": "2161453772160834944",
+        "fwhm_arcsec": 0.5039140038050673,
+        "peak_over_local_mad": 699.0821097014293,
+        "cutout_x": 3112.40726349736,
+        "cutout_y": 1712.9308614506826
+      },
+      {
+        "gaia_dr3_id": "2161454764297614720",
+        "fwhm_arcsec": 0.4833366339034205,
+        "peak_over_local_mad": 631.8589325966898,
+        "cutout_x": 4341.820153874037,
+        "cutout_y": 3830.2856425331884
+      },
+      {
+        "gaia_dr3_id": "2161454626858658944",
+        "fwhm_arcsec": 0.4926622176104074,
+        "peak_over_local_mad": 704.147319290579,
+        "cutout_x": 4698.689422591951,
+        "cutout_y": 3236.2477136333055
+      },
+      {
+        "gaia_dr3_id": "2161454184477693696",
+        "fwhm_arcsec": 0.5135065526433872,
+        "peak_over_local_mad": 702.7870757923171,
+        "cutout_x": 4383.794253834629,
+        "cutout_y": 1993.5684154007076
+      },
+      {
+        "gaia_dr3_id": "2161454764297563136",
+        "fwhm_arcsec": 0.480208144877114,
+        "peak_over_local_mad": 824.7811364155351,
+        "cutout_x": 4630.178322174661,
+        "cutout_y": 3945.160641799741
+      },
+      {
+        "gaia_dr3_id": "2161453428563449344",
+        "fwhm_arcsec": 0.5085202018235693,
+        "peak_over_local_mad": 672.2962685369046,
+        "cutout_x": 3852.880027215957,
+        "cutout_y": 1359.547668829132
+      },
+      {
+        "gaia_dr3_id": "2161453424267748992",
+        "fwhm_arcsec": 0.5002530654419353,
+        "peak_over_local_mad": 658.1310707516482,
+        "cutout_x": 3662.3493163133962,
+        "cutout_y": 1271.8486184179906
+      },
+      {
+        "gaia_dr3_id": "2161453527346964480",
+        "fwhm_arcsec": 0.5422421419072172,
+        "peak_over_local_mad": 504.5051919551847,
+        "cutout_x": 2178.541239627936,
+        "cutout_y": 1401.74740795435
+      },
+      {
+        "gaia_dr3_id": "2161459986978057344",
+        "fwhm_arcsec": 0.4808436288117755,
+        "peak_over_local_mad": 757.8540295310197,
+        "cutout_x": 3444.0828386063176,
+        "cutout_y": 4931.991713729477
+      },
+      {
+        "gaia_dr3_id": "2161456757162644224",
+        "fwhm_arcsec": 0.49212081816768866,
+        "peak_over_local_mad": 702.0643050928268,
+        "cutout_x": 1219.1624039361968,
+        "cutout_y": 3521.058060570722
+      },
+      {
+        "gaia_dr3_id": "2161454180181996800",
+        "fwhm_arcsec": 0.526702041806322,
+        "peak_over_local_mad": 583.628866110887,
+        "cutout_x": 4374.077514827056,
+        "cutout_y": 1604.4564426911297
+      },
+      {
+        "gaia_dr3_id": "2161457135119767808",
+        "fwhm_arcsec": 0.49745754757017524,
+        "peak_over_local_mad": 707.839609595764,
+        "cutout_x": 1257.4026807123164,
+        "cutout_y": 4027.658847309026
+      },
+      {
+        "gaia_dr3_id": "2161454248901478272",
+        "fwhm_arcsec": 0.4919421622821855,
+        "peak_over_local_mad": 647.7212310494592,
+        "cutout_x": 4976.518649040935,
+        "cutout_y": 2222.043674647158
+      },
+      {
+        "gaia_dr3_id": "2161453497281738112",
+        "fwhm_arcsec": 0.5117684815961873,
+        "peak_over_local_mad": 750.6279236033116,
+        "cutout_x": 2074.2449623080784,
+        "cutout_y": 1168.6090097493861
+      },
+      {
+        "gaia_dr3_id": "2161450679784623488",
+        "fwhm_arcsec": 0.5037476179169261,
+        "peak_over_local_mad": 702.5968178809562,
+        "cutout_x": 1487.6515336496273,
+        "cutout_y": 1562.5585554164054
+      },
+      {
+        "gaia_dr3_id": "2161453183749633536",
+        "fwhm_arcsec": 0.4992643837374199,
+        "peak_over_local_mad": 713.1339241349884,
+        "cutout_x": 2443.03431641536,
+        "cutout_y": 973.5437235385357
+      },
+      {
+        "gaia_dr3_id": "2161460021337796992",
+        "fwhm_arcsec": 0.4940561965577552,
+        "peak_over_local_mad": 632.1863263550059,
+        "cutout_x": 3988.5429795611235,
+        "cutout_y": 5072.308222669193
+      },
+      {
+        "gaia_dr3_id": "2161460197430748800",
+        "fwhm_arcsec": 0.5030297337206308,
+        "peak_over_local_mad": 784.9360253898021,
+        "cutout_x": 2799.3940862763766,
+        "cutout_y": 5461.747299152086
+      },
+      {
+        "gaia_dr3_id": "2161460227496228736",
+        "fwhm_arcsec": 0.48705575307985277,
+        "peak_over_local_mad": 777.6240525762995,
+        "cutout_x": 1899.5966689118923,
+        "cutout_y": 5314.879142422252
+      },
+      {
+        "gaia_dr3_id": "2161453153685541888",
+        "fwhm_arcsec": 0.5151879183349675,
+        "peak_over_local_mad": 685.8685700551762,
+        "cutout_x": 2800.1887168242292,
+        "cutout_y": 522.7060686764603
+      },
+      {
+        "gaia_dr3_id": "2161456516644207104",
+        "fwhm_arcsec": 0.5128397755610066,
+        "peak_over_local_mad": 741.2344264945087,
+        "cutout_x": 634.05807699458,
+        "cutout_y": 1977.7285016865198
+      },
+      {
+        "gaia_dr3_id": "2161453252469053184",
+        "fwhm_arcsec": 0.5121667089595848,
+        "peak_over_local_mad": 739.2262567760756,
+        "cutout_x": 3066.99206470007,
+        "cutout_y": 384.2488048421178
+      },
+      {
+        "gaia_dr3_id": "2161453291124491904",
+        "fwhm_arcsec": 0.507850819450788,
+        "peak_over_local_mad": 579.4787793191427,
+        "cutout_x": 4146.470319214643,
+        "cutout_y": 571.1274113329673
+      },
+      {
+        "gaia_dr3_id": "2161457306918466560",
+        "fwhm_arcsec": 0.503135463396025,
+        "peak_over_local_mad": 727.7498846405298,
+        "cutout_x": 1422.2038983220255,
+        "cutout_y": 5259.9755955922155
+      },
+      {
+        "gaia_dr3_id": "2161460712827989504",
+        "fwhm_arcsec": 0.5002858599029244,
+        "peak_over_local_mad": 832.3729600624096,
+        "cutout_x": 5071.8654049752,
+        "cutout_y": 4995.892094032186
+      },
+      {
+        "gaia_dr3_id": "2161460708532564480",
+        "fwhm_arcsec": 0.5113889594120109,
+        "peak_over_local_mad": 716.0981751147285,
+        "cutout_x": 5033.726852619915,
+        "cutout_y": 5036.687229023071
+      },
+      {
+        "gaia_dr3_id": "2161456864537298176",
+        "fwhm_arcsec": 0.5142613666684482,
+        "peak_over_local_mad": 699.2725458738591,
+        "cutout_x": 244.83622589438937,
+        "cutout_y": 3307.770351205393
+      },
+      {
+        "gaia_dr3_id": "2161456447924734336",
+        "fwhm_arcsec": 0.5204197777172072,
+        "peak_over_local_mad": 609.6127069745969,
+        "cutout_x": 276.81081003449845,
+        "cutout_y": 2577.540184870166
+      },
+      {
+        "gaia_dr3_id": "2161454356275184640",
+        "fwhm_arcsec": 0.5083063681249027,
+        "peak_over_local_mad": 686.8944530087987,
+        "cutout_x": 5768.874305974221,
+        "cutout_y": 2152.7676035108334
+      },
+      {
+        "gaia_dr3_id": "2161454455059963904",
+        "fwhm_arcsec": 0.510179303139826,
+        "peak_over_local_mad": 674.5667153639861,
+        "cutout_x": 5907.00847133482,
+        "cutout_y": 2684.3477239566037
+      },
+      {
+        "gaia_dr3_id": "2161460712827988864",
+        "fwhm_arcsec": 0.5416706572004566,
+        "peak_over_local_mad": 590.585807509359,
+        "cutout_x": 5292.365221080896,
+        "cutout_y": 4915.419592685249
+      },
+      {
+        "gaia_dr3_id": "2161454871673012096",
+        "fwhm_arcsec": 0.48335319851668984,
+        "peak_over_local_mad": 780.0667443031235,
+        "cutout_x": 5932.083888514409,
+        "cutout_y": 3532.427945317614
+      },
+      {
+        "gaia_dr3_id": "2161454906031014656",
+        "fwhm_arcsec": 0.49409673272845567,
+        "peak_over_local_mad": 714.5915392835947,
+        "cutout_x": 5739.38403815298,
+        "cutout_y": 4212.178293383566
+      },
+      {
+        "gaia_dr3_id": "2161460845971712000",
+        "fwhm_arcsec": 0.4728065463328097,
+        "peak_over_local_mad": 921.7107321626141,
+        "cutout_x": 4893.202405562179,
+        "cutout_y": 5452.882049287566
+      },
+      {
+        "gaia_dr3_id": "2161457242494423936",
+        "fwhm_arcsec": 0.5185161786060932,
+        "peak_over_local_mad": 719.883370243699,
+        "cutout_x": 954.0764844136602,
+        "cutout_y": 5243.1259291410315
+      },
+      {
+        "gaia_dr3_id": "2161460708532756352",
+        "fwhm_arcsec": 0.4884967764467102,
+        "peak_over_local_mad": 898.7163976504053,
+        "cutout_x": 5360.080561275862,
+        "cutout_y": 5066.699671824074
+      },
+      {
+        "gaia_dr3_id": "2161460747187728896",
+        "fwhm_arcsec": 0.5653846512638866,
+        "peak_over_local_mad": 518.7952532062602,
+        "cutout_x": 5148.115681023238,
+        "cutout_y": 5381.394082552171
+      },
+      {
+        "gaia_dr3_id": "2161460330575449216",
+        "fwhm_arcsec": 0.48713599963926907,
+        "peak_over_local_mad": 795.0680142926501,
+        "cutout_x": 2359.2909047780468,
+        "cutout_y": 6107.712415387404
+      },
+      {
+        "gaia_dr3_id": "2161454321916642688",
+        "fwhm_arcsec": 0.5753947678997912,
+        "peak_over_local_mad": 501.83375528846955,
+        "cutout_x": 6053.6891543354795,
+        "cutout_y": 1985.5762951888223
+      },
+      {
+        "gaia_dr3_id": "2161455004815993088",
+        "fwhm_arcsec": 0.5147548051720605,
+        "peak_over_local_mad": 758.9918316262209,
+        "cutout_x": 5795.018878589182,
+        "cutout_y": 4708.333036150592
+      },
+      {
+        "gaia_dr3_id": "2161452535210245504",
+        "fwhm_arcsec": 0.4995077925461416,
+        "peak_over_local_mad": 680.0972310115945,
+        "cutout_x": 4549.425258131049,
+        "cutout_y": 258.6622564818804
+      },
+      {
+        "gaia_dr3_id": "2161461189568908288",
+        "fwhm_arcsec": 0.5068885078278694,
+        "peak_over_local_mad": 714.9787577168373,
+        "cutout_x": 4435.818310388788,
+        "cutout_y": 6001.211451248089
+      },
+      {
+        "gaia_dr3_id": "2161452599634076672",
+        "fwhm_arcsec": 0.4913962190447284,
+        "peak_over_local_mad": 685.4619684590585,
+        "cutout_x": 5092.02492215725,
+        "cutout_y": 407.0063278832463
+      },
+      {
+        "gaia_dr3_id": "2161450469330242816",
+        "fwhm_arcsec": 0.4992538228097233,
+        "peak_over_local_mad": 683.6307073785764,
+        "cutout_x": 856.8093582561851,
+        "cutout_y": 79.8673077942949
+      },
+      {
+        "gaia_dr3_id": "2161450404906456320",
+        "fwhm_arcsec": 0.604991958400058,
+        "peak_over_local_mad": 467.75131958943626,
+        "cutout_x": 105.06141690935738,
+        "cutout_y": 634.3759634900648
+      },
+      {
+        "gaia_dr3_id": "2161458543869240704",
+        "fwhm_arcsec": 0.47713568183038046,
+        "peak_over_local_mad": 780.6238838974492,
+        "cutout_x": 121.92349555376995,
+        "cutout_y": 5559.58168164955
+      },
+      {
+        "gaia_dr3_id": "2161458857402130048",
+        "fwhm_arcsec": 0.5193361570225579,
+        "peak_over_local_mad": 706.3664203194988,
+        "cutout_x": 322.6399573260055,
+        "cutout_y": 5904.867809293725
+      },
+      {
+        "gaia_dr3_id": "2161461017770215680",
+        "fwhm_arcsec": 0.4944867282046357,
+        "peak_over_local_mad": 670.1954651636537,
+        "cutout_x": 6041.8383518175415,
+        "cutout_y": 5859.635145236947
+      },
+      {
+        "gaia_dr3_id": "2161452294692074112",
+        "fwhm_arcsec": 0.48723869109389323,
+        "peak_over_local_mad": 438.9555671263389,
+        "cutout_x": 5963.404529233399,
+        "cutout_y": 44.35345642250104
+      }
+    ],
+    "background_xy": [
+      [
+        3489,
+        2216
+      ],
+      [
+        5120,
+        5799
+      ],
+      [
+        5161,
+        3886
+      ],
+      [
+        2116,
+        2553
+      ],
+      [
+        5943,
+        3882
+      ],
+      [
+        1788,
+        1169
+      ]
+    ],
+    "median_fwhm_arcsec": 0.5030297337206308
+  },
+  {
+    "tile": 101830407,
+    "archive": {
+      "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101830407/NISP/EUC_MER_BGSUB-MOSAIC-NIR-J_TILE101830407-59F6B_20250819T190232.103475Z_00.00.fits",
+      "etag": "\"9b80930cd8da8a7ae7d31f6626de5558-80\"",
+      "bytes": 416165760,
+      "header_sha256": "6674dc265ae1e7035401dabd2082053b51db24480a91bf9704fe7b204b14911b",
+      "plan": "MER_ProcessTile_EUCLID_2.0.32-DATA_RELEASE_DEEP-trochequ-PLAN-000002",
+      "unit": "ELECTRON/s",
+      "magzero": 30.1,
+      "date_obs": null,
+      "shape": [
+        10200,
+        10200
+      ],
+      "ranges": [
+        {
+          "start": 82748160,
+          "end_exclusive": 103637760,
+          "sha256": "1c2dbe46d4341487facec37fedf4767d5bf55dec1484e1e71f9e581a943bc333"
+        },
+        {
+          "start": 103637760,
+          "end_exclusive": 124527360,
+          "sha256": "59f742d5024ee8644899b96dcc3830387f43db7021bd12fc873e86f9a1a4f11c"
+        },
+        {
+          "start": 124527360,
+          "end_exclusive": 145416960,
+          "sha256": "bc1cc97cc2cdf87e1c3cb3af6be2f9e4b0bea7e72f8bd84c0bf64c357697f5f4"
+        },
+        {
+          "start": 145416960,
+          "end_exclusive": 166306560,
+          "sha256": "2d8463600f9e78479e16069639b2a1662b63bcdea401d8dbfb45daa14fdbd52e"
+        },
+        {
+          "start": 166306560,
+          "end_exclusive": 187196160,
+          "sha256": "578dc196840d7d4d9980307039170dc68889898fc818c7fb31e409c5544f145d"
+        },
+        {
+          "start": 187196160,
+          "end_exclusive": 208085760,
+          "sha256": "4b01c1debe8e3757aa0ea2f20d9afbf6fa6b353d2420a45bdb764e394cd2d992"
+        },
+        {
+          "start": 208085760,
+          "end_exclusive": 228975360,
+          "sha256": "22223f65cb9429b21c814b96e1c9a0a24e2c80c890e4aea6d5c07bf389ab6b21"
+        },
+        {
+          "start": 228975360,
+          "end_exclusive": 249864960,
+          "sha256": "69e7a96464b99ae54ebf563ef3d94248c07f23841789555888da610a6ca15f02"
+        },
+        {
+          "start": 249864960,
+          "end_exclusive": 270754560,
+          "sha256": "a09fdece0f9955827b4cc00076cf770cce2a6d58986a36b73bf0834b181de70b"
+        },
+        {
+          "start": 270754560,
+          "end_exclusive": 291644160,
+          "sha256": "c308b621811fda773bce286583c250eb60a4f3222e3fb099cf17588964a6f299"
+        },
+        {
+          "start": 291644160,
+          "end_exclusive": 312533760,
+          "sha256": "8a0f888f7f8dffdf4320e40e0d4b307f5f74cb10db6a39db75b3fceebd17ee7e"
+        },
+        {
+          "start": 312533760,
+          "end_exclusive": 333423360,
+          "sha256": "4b7944baef476e918be172a615e10957ed793e0762cdf00ca9a6469cbba97301"
+        }
+      ],
+      "origin_xy": [
+        2028,
+        2028
+      ],
+      "shape_analysed": [
+        6144,
+        6144
+      ]
+    },
+    "gaia_query": "https://irsa.ipac.caltech.edu/cgi-bin/Gator/nph-query?catalog=gaia_dr3_source&objstr=274.4879774+%2B64.5000000&spatial=cone&radius=420&radunits=arcsec&outfmt=1",
+    "gaia_sha256": "90319ef66485cbe0758f5abe2821b0f85c251bc2803683cfd360d6c638b3ec18",
+    "stars": [
+      {
+        "gaia_dr3_id": "2161323991132880512",
+        "fwhm_arcsec": 0.5280994012113319,
+        "peak_over_local_mad": 684.5684828657985,
+        "cutout_x": 3075.0042936409172,
+        "cutout_y": 2830.511571177136
+      },
+      {
+        "gaia_dr3_id": "2161325674760068736",
+        "fwhm_arcsec": 0.5577114108891071,
+        "peak_over_local_mad": 574.170144713618,
+        "cutout_x": 3510.8144858095584,
+        "cutout_y": 3706.9004888622167
+      },
+      {
+        "gaia_dr3_id": "2161325679056290560",
+        "fwhm_arcsec": 0.5100717755079958,
+        "peak_over_local_mad": 681.5859219121171,
+        "cutout_x": 3729.9379787834023,
+        "cutout_y": 3487.2389248003246
+      },
+      {
+        "gaia_dr3_id": "2161325438536818560",
+        "fwhm_arcsec": 0.5228584168317296,
+        "peak_over_local_mad": 729.1856497498136,
+        "cutout_x": 2156.252108616647,
+        "cutout_y": 3009.9501521667253
+      },
+      {
+        "gaia_dr3_id": "2161324064147266816",
+        "fwhm_arcsec": 0.5253837575393278,
+        "peak_over_local_mad": 651.7259490072876,
+        "cutout_x": 3459.6391060694405,
+        "cutout_y": 2181.746447879681
+      },
+      {
+        "gaia_dr3_id": "2161324270307016064",
+        "fwhm_arcsec": 0.5266741922768174,
+        "peak_over_local_mad": 713.2730358124661,
+        "cutout_x": 4037.789052549603,
+        "cutout_y": 3533.963537543985
+      },
+      {
+        "gaia_dr3_id": "2161313786290588544",
+        "fwhm_arcsec": 0.48948767940048044,
+        "peak_over_local_mad": 534.7750857376499,
+        "cutout_x": 1940.4412896669892,
+        "cutout_y": 3203.558184325244
+      },
+      {
+        "gaia_dr3_id": "2161324132868059520",
+        "fwhm_arcsec": 0.5056789218388781,
+        "peak_over_local_mad": 763.5647253622633,
+        "cutout_x": 4189.32940420515,
+        "cutout_y": 2620.120676079241
+      },
+      {
+        "gaia_dr3_id": "2161323888053657088",
+        "fwhm_arcsec": 0.5020372873083306,
+        "peak_over_local_mad": 627.7005395302152,
+        "cutout_x": 2488.186613960468,
+        "cutout_y": 1906.9898633779662
+      },
+      {
+        "gaia_dr3_id": "2161324850126340224",
+        "fwhm_arcsec": 0.48903712271502936,
+        "peak_over_local_mad": 737.3779343757701,
+        "cutout_x": 4764.7687909516535,
+        "cutout_y": 2867.419494524447
+      },
+      {
+        "gaia_dr3_id": "2161312171382872960",
+        "fwhm_arcsec": 0.5450161209351811,
+        "peak_over_local_mad": 548.7975079238897,
+        "cutout_x": 1826.2868257130272,
+        "cutout_y": 1826.7289122362727
+      },
+      {
+        "gaia_dr3_id": "2161325949637984896",
+        "fwhm_arcsec": 0.4953373268182234,
+        "peak_over_local_mad": 701.1587329940711,
+        "cutout_x": 2429.9086372976026,
+        "cutout_y": 4735.858040940756
+      },
+      {
+        "gaia_dr3_id": "2161323823630412544",
+        "fwhm_arcsec": 0.48559882304126945,
+        "peak_over_local_mad": 693.4344127817195,
+        "cutout_x": 2893.1739099575607,
+        "cutout_y": 1192.7618429048116
+      },
+      {
+        "gaia_dr3_id": "2161312171382872704",
+        "fwhm_arcsec": 0.5028737463972035,
+        "peak_over_local_mad": 770.7351487878587,
+        "cutout_x": 1608.8772610703136,
+        "cutout_y": 1800.399397364812
+      },
+      {
+        "gaia_dr3_id": "2161313717571108608",
+        "fwhm_arcsec": 0.4994191194518667,
+        "peak_over_local_mad": 741.4348593271898,
+        "cutout_x": 1039.0537779028573,
+        "cutout_y": 2872.8685595337383
+      },
+      {
+        "gaia_dr3_id": "2161314168543944192",
+        "fwhm_arcsec": 0.511647927158778,
+        "peak_over_local_mad": 610.312001942887,
+        "cutout_x": 1071.554874077432,
+        "cutout_y": 3865.104888611495
+      },
+      {
+        "gaia_dr3_id": "2161314336046415616",
+        "fwhm_arcsec": 0.5109168894273363,
+        "peak_over_local_mad": 696.9951767641232,
+        "cutout_x": 1570.8640782110538,
+        "cutout_y": 4655.411187275517
+      },
+      {
+        "gaia_dr3_id": "2161324437809472640",
+        "fwhm_arcsec": 0.49676942469857455,
+        "peak_over_local_mad": 818.5123578775665,
+        "cutout_x": 5030.79416623165,
+        "cutout_y": 2108.260459582798
+      },
+      {
+        "gaia_dr3_id": "2161326052717352448",
+        "fwhm_arcsec": 0.48467485552537615,
+        "peak_over_local_mad": 722.956966577542,
+        "cutout_x": 2981.839038917731,
+        "cutout_y": 5267.114434484258
+      },
+      {
+        "gaia_dr3_id": "2161312003880415744",
+        "fwhm_arcsec": 0.5096935268592058,
+        "peak_over_local_mad": 736.7187521694498,
+        "cutout_x": 2203.115500967273,
+        "cutout_y": 1035.8036780765874
+      },
+      {
+        "gaia_dr3_id": "2161324918845820928",
+        "fwhm_arcsec": 0.4867098816920966,
+        "peak_over_local_mad": 857.5959478776996,
+        "cutout_x": 5296.226592507654,
+        "cutout_y": 3219.0431559960534
+      },
+      {
+        "gaia_dr3_id": "2161324953205560448",
+        "fwhm_arcsec": 0.5165101457839977,
+        "peak_over_local_mad": 735.4557480548389,
+        "cutout_x": 5275.542243309732,
+        "cutout_y": 3428.972525280301
+      },
+      {
+        "gaia_dr3_id": "2161313721867342592",
+        "fwhm_arcsec": 0.5515753874599035,
+        "peak_over_local_mad": 548.4558054474257,
+        "cutout_x": 926.866788017639,
+        "cutout_y": 2424.300232356157
+      },
+      {
+        "gaia_dr3_id": "2161313618788126208",
+        "fwhm_arcsec": 0.5165353507376311,
+        "peak_over_local_mad": 542.341103472202,
+        "cutout_x": 1043.537994186302,
+        "cutout_y": 2111.2391574052654
+      },
+      {
+        "gaia_dr3_id": "2161323613175742720",
+        "fwhm_arcsec": 0.5174265305938294,
+        "peak_over_local_mad": 648.1965649641648,
+        "cutout_x": 3523.8430705103074,
+        "cutout_y": 763.1365794350809
+      },
+      {
+        "gaia_dr3_id": "2161313614491886592",
+        "fwhm_arcsec": 0.5110276067249291,
+        "peak_over_local_mad": 709.2386197601488,
+        "cutout_x": 897.5351012254905,
+        "cutout_y": 2129.7691756287095
+      },
+      {
+        "gaia_dr3_id": "2161325919573164032",
+        "fwhm_arcsec": 0.49478266806224563,
+        "peak_over_local_mad": 799.4252246250484,
+        "cutout_x": 3965.2220340934145,
+        "cutout_y": 5281.900454075754
+      },
+      {
+        "gaia_dr3_id": "2161313408333596672",
+        "fwhm_arcsec": 0.4718043962783639,
+        "peak_over_local_mad": 756.9339482745153,
+        "cutout_x": 791.9399466313967,
+        "cutout_y": 2275.7543855021977
+      },
+      {
+        "gaia_dr3_id": "2161325090644522752",
+        "fwhm_arcsec": 0.5127764674267963,
+        "peak_over_local_mad": 741.1005348518938,
+        "cutout_x": 5152.548961680128,
+        "cutout_y": 4340.743854887027
+      },
+      {
+        "gaia_dr3_id": "2161324953205562112",
+        "fwhm_arcsec": 0.4957146303381625,
+        "peak_over_local_mad": 717.7436767374975,
+        "cutout_x": 5476.553780588709,
+        "cutout_y": 3618.0275392900303
+      },
+      {
+        "gaia_dr3_id": "2161314301686678784",
+        "fwhm_arcsec": 0.6504226068962474,
+        "peak_over_local_mad": 419.3677850713264,
+        "cutout_x": 1188.0524077297846,
+        "cutout_y": 4822.984537909904
+      },
+      {
+        "gaia_dr3_id": "2161323372657572352",
+        "fwhm_arcsec": 0.48940515104541216,
+        "peak_over_local_mad": 740.8030585643568,
+        "cutout_x": 2567.6479990095213,
+        "cutout_y": 526.8443046072402
+      },
+      {
+        "gaia_dr3_id": "2161324506528952448",
+        "fwhm_arcsec": 0.4922422594845414,
+        "peak_over_local_mad": 396.69537019215323,
+        "cutout_x": 5595.998923647817,
+        "cutout_y": 2463.4614624401456
+      },
+      {
+        "gaia_dr3_id": "2161326160092636160",
+        "fwhm_arcsec": 0.48681078570472763,
+        "peak_over_local_mad": 786.7715713147574,
+        "cutout_x": 2825.0770192139817,
+        "cutout_y": 5695.266377032415
+      },
+      {
+        "gaia_dr3_id": "2161312068303653120",
+        "fwhm_arcsec": 0.5061447794046084,
+        "peak_over_local_mad": 668.3025477943123,
+        "cutout_x": 1206.6626909745482,
+        "cutout_y": 1093.2752489721024
+      },
+      {
+        "gaia_dr3_id": "2161314301686677760",
+        "fwhm_arcsec": 0.5039178878650934,
+        "peak_over_local_mad": 750.0630343776506,
+        "cutout_x": 921.8220814049278,
+        "cutout_y": 4734.937193302695
+      },
+      {
+        "gaia_dr3_id": "2161326160092636416",
+        "fwhm_arcsec": 0.5218912196729123,
+        "peak_over_local_mad": 723.6235782744694,
+        "cutout_x": 2878.306031748979,
+        "cutout_y": 5796.9596652894725
+      },
+      {
+        "gaia_dr3_id": "2161323544456265216",
+        "fwhm_arcsec": 0.487975787151923,
+        "peak_over_local_mad": 818.046144260974,
+        "cutout_x": 4204.617973327856,
+        "cutout_y": 585.0526845183126
+      },
+      {
+        "gaia_dr3_id": "2161326568113276928",
+        "fwhm_arcsec": 0.4981700598925852,
+        "peak_over_local_mad": 357.74425316790445,
+        "cutout_x": 5169.530395102113,
+        "cutout_y": 4831.3073954208085
+      },
+      {
+        "gaia_dr3_id": "2161324403449732096",
+        "fwhm_arcsec": 0.4922182079555999,
+        "peak_over_local_mad": 722.586239476144,
+        "cutout_x": 5497.016609793196,
+        "cutout_y": 1795.4743744087027
+      },
+      {
+        "gaia_dr3_id": "2161324300370511872",
+        "fwhm_arcsec": 0.48290748802816785,
+        "peak_over_local_mad": 852.9724952025467,
+        "cutout_x": 4984.071638446407,
+        "cutout_y": 1027.8438598554799
+      },
+      {
+        "gaia_dr3_id": "2161325915278255744",
+        "fwhm_arcsec": 0.5072025989887226,
+        "peak_over_local_mad": 823.9504343626654,
+        "cutout_x": 4385.884547363437,
+        "cutout_y": 5612.894935950337
+      },
+      {
+        "gaia_dr3_id": "2161326636832906112",
+        "fwhm_arcsec": 0.4855432244577984,
+        "peak_over_local_mad": 738.1252089435769,
+        "cutout_x": 4881.4672502121075,
+        "cutout_y": 5345.63887137439
+      },
+      {
+        "gaia_dr3_id": "2161326572409488256",
+        "fwhm_arcsec": 0.4960998623443148,
+        "peak_over_local_mad": 737.5320328559524,
+        "cutout_x": 5374.82314545681,
+        "cutout_y": 4856.909472105406
+      },
+      {
+        "gaia_dr3_id": "2161313373973849984",
+        "fwhm_arcsec": 0.5251763119131128,
+        "peak_over_local_mad": 612.2312047055397,
+        "cutout_x": 494.68091672644096,
+        "cutout_y": 1422.13812178662
+      },
+      {
+        "gaia_dr3_id": "2161313889369806208",
+        "fwhm_arcsec": 0.48653443230498844,
+        "peak_over_local_mad": 740.3947975549115,
+        "cutout_x": 45.645539844175346,
+        "cutout_y": 3525.7982849315968
+      },
+      {
+        "gaia_dr3_id": "2161325262443358080",
+        "fwhm_arcsec": 0.4900314914228455,
+        "peak_over_local_mad": 795.1338009969678,
+        "cutout_x": 5861.794984988346,
+        "cutout_y": 4390.271313412002
+      },
+      {
+        "gaia_dr3_id": "2161324613904390912",
+        "fwhm_arcsec": 0.5800859889705932,
+        "peak_over_local_mad": 371.7054679326643,
+        "cutout_x": 6023.61189510437,
+        "cutout_y": 2164.4441569635355
+      },
+      {
+        "gaia_dr3_id": "2161324609610781440",
+        "fwhm_arcsec": 0.5308706695214694,
+        "peak_over_local_mad": 229.73793801981026,
+        "cutout_x": 6033.621854042778,
+        "cutout_y": 2151.1528074716643
+      },
+      {
+        "gaia_dr3_id": "2161311930864694912",
+        "fwhm_arcsec": 0.4971470831266776,
+        "peak_over_local_mad": 613.8185998742017,
+        "cutout_x": 1602.912641251317,
+        "cutout_y": 322.23431373975245
+      },
+      {
+        "gaia_dr3_id": "2161326671192502272",
+        "fwhm_arcsec": 0.5025083048111993,
+        "peak_over_local_mad": 834.8018658174035,
+        "cutout_x": 4695.666892125864,
+        "cutout_y": 5803.965876199618
+      },
+      {
+        "gaia_dr3_id": "2161325262443216128",
+        "fwhm_arcsec": 0.5173134147629144,
+        "peak_over_local_mad": 751.2613157096972,
+        "cutout_x": 5987.273611994559,
+        "cutout_y": 4548.450060834552
+      },
+      {
+        "gaia_dr3_id": "2161331996951952000",
+        "fwhm_arcsec": 0.5187080614962921,
+        "peak_over_local_mad": 687.1647868382138,
+        "cutout_x": 1890.754749731409,
+        "cutout_y": 6123.784111170112
+      },
+      {
+        "gaia_dr3_id": "2161320280281314176",
+        "fwhm_arcsec": 0.5253041782214785,
+        "peak_over_local_mad": 663.6169002458158,
+        "cutout_x": 1284.3523744284412,
+        "cutout_y": 5860.062542875217
+      },
+      {
+        "gaia_dr3_id": "2161311862145218816",
+        "fwhm_arcsec": 0.5122167823611471,
+        "peak_over_local_mad": 634.0153712373569,
+        "cutout_x": 681.7309546201468,
+        "cutout_y": 477.5986942042573
+      },
+      {
+        "gaia_dr3_id": "2161311827785619840",
+        "fwhm_arcsec": 0.4928469312222917,
+        "peak_over_local_mad": 715.8455832407421,
+        "cutout_x": 270.4071475638175,
+        "cutout_y": 871.3409581549627
+      },
+      {
+        "gaia_dr3_id": "2161326705552242304",
+        "fwhm_arcsec": 0.5071181285529789,
+        "peak_over_local_mad": 543.0250422454523,
+        "cutout_x": 5360.8997019675435,
+        "cutout_y": 5834.221084062112
+      },
+      {
+        "gaia_dr3_id": "2161320005403255552",
+        "fwhm_arcsec": 0.5251900619551731,
+        "peak_over_local_mad": 680.0654931487973,
+        "cutout_x": 465.3298380077076,
+        "cutout_y": 5564.798279318637
+      },
+      {
+        "gaia_dr3_id": "2161326744208256128",
+        "fwhm_arcsec": 0.4883737064661676,
+        "peak_over_local_mad": 780.0766368064951,
+        "cutout_x": 5206.906377740146,
+        "cutout_y": 5985.675036807561
+      },
+      {
+        "gaia_dr3_id": "2161311759066002176",
+        "fwhm_arcsec": 0.4941875656087415,
+        "peak_over_local_mad": 517.2936711838339,
+        "cutout_x": 731.4966082912792,
+        "cutout_y": 217.78766688791575
+      },
+      {
+        "gaia_dr3_id": "2161320314643771776",
+        "fwhm_arcsec": 0.49465878631338944,
+        "peak_over_local_mad": 695.7162804586179,
+        "cutout_x": 703.8878158526368,
+        "cutout_y": 5938.667404448983
+      },
+      {
+        "gaia_dr3_id": "2161326774271713408",
+        "fwhm_arcsec": 0.6271791810936131,
+        "peak_over_local_mad": 442.98438146247474,
+        "cutout_x": 6124.390414724431,
+        "cutout_y": 5476.172060425188
+      },
+      {
+        "gaia_dr3_id": "2161230395206494464",
+        "fwhm_arcsec": 0.5174417498528364,
+        "peak_over_local_mad": 704.6123015870812,
+        "cutout_x": 6006.55280873857,
+        "cutout_y": 263.19391565224896
+      }
+    ],
+    "background_xy": [
+      [
+        812,
+        1324
+      ],
+      [
+        188,
+        4478
+      ],
+      [
+        2893,
+        3037
+      ],
+      [
+        2282,
+        5546
+      ],
+      [
+        1219,
+        3938
+      ],
+      [
+        4324,
+        1404
+      ]
+    ],
+    "median_fwhm_arcsec": 0.5056789218388781
+  }
+]

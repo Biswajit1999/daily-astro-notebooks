@@ -20,6 +20,7 @@ import pyarrow.compute as pc
 import pyarrow.parquet as pq
 
 from archive import BUCKET,fetch,get
+from line_fits import line_check
 
 BASE=(f"{BUCKET}/contributed/dr1/hats/reformatted_catalogs/sir_combined_spectra/"
       "euclid_dr1_reformatted_catalogs_sir_combined_spectra-hats")
@@ -121,21 +122,6 @@ def read_part(url,nrows,ids,cache):
 
 def as_array(d,name):
     return np.asarray(d[name],dtype=float)
-
-
-def line_check(w,f,var,valid,center):
-    select=valid&(np.abs(w-center)<=120)
-    x,y,e=w[select]-center,f[select],np.sqrt(var[select])
-    ncore=int((abs(x)<=32).sum()); nside=int((abs(x)>=42).sum())
-    out={"center_A":center,"core_bins":ncore,"sideband_bins":nside}
-    if ncore<4 or nside<12:
-        return {**out,"state":"insufficient_clean_coverage"}
-    basis=np.column_stack([np.ones(len(x)),x/120,np.exp(-.5*(x/16)**2)])
-    design=basis/e[:,None]
-    beta=np.linalg.lstsq(design,y/e,rcond=None)[0]
-    chi=float(np.sum(((y-basis@beta)/e)**2)/(len(x)-3))
-    sigma=float(np.sqrt(np.linalg.inv(design.T@design)[2,2]*max(chi,1)))
-    return {**out,"state":"measured","snr":float(beta[2]/sigma),"reduced_chi2":chi}
 
 
 def scientific_checks(spectra,catalogue,out):

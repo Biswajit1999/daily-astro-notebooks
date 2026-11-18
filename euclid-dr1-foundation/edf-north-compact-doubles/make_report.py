@@ -97,9 +97,49 @@ def endpoints(values):
     return f"{100*values[0]:.1f} to {100*values[1]:.1f}" if values else "unavailable"
 
 
+def validation_section(root):
+    data = root
+    matched = json.loads((data / "matched_recovery.json").read_text())["holdout"]["primary"]
+    injection = json.loads((data / "injection_summary.json").read_text())
+    psf = json.loads((data / "injection_provenance.json").read_text())
+    fits_trials = injection["totals"]["double"]["tested"]
+    stars = sum(len(tile["stars"]) for tile in psf)
+    effect = 100 * matched["adjusted_difference"]
+    interval = endpoints(matched["tile_bootstrap_95"])
+    scenario = {row["sep"]: row for row in injection["baseline"]
+                if row["faint_level"] == 10 and row["ratio"] == .5}
+    return [
+        para("MEASUREMENT VALIDATION", "kicker"),
+        para("What drives two-peak recovery?", "title"),
+        para(
+            f"In the 12 held-out tiles, matching on the weaker VIS peak score and the filtered peak ratio within each tile gives a "
+            f"wide-minus-narrow difference of {effect:.1f} percentage points. The 10,000-draw whole-tile interval "
+            f"is {interval} points. Both rates are weighted over matched strata using the product of the two group "
+            "sizes divided by their sum. The matching analysis was specified after observing the imaging result."
+        ),
+        figure(root / "matched.png", width=460),
+        para("Figure 2. Observational recovery and the shared-stratum estimate at the two separation extremes.", "caption"),
+        para(
+            f"We derived local J point-spread profiles from {stars} Gaia DR3 stars. Median fitted core widths "
+            f"are {min(t['median_fwhm_arcsec'] for t in psf):.3f} to {max(t['median_fwhm_arcsec'] for t in psf):.3f} arcsec. "
+            f"In {fits_trials:,} controlled double injections into 36 real quiet sky stamps, the original detector "
+            f"recovers a half-bright companion at an isolated peak of 10 local MAD units in {scenario[.6]['passed']}/{scenario[.6]['tested']} trials "
+            f"at 0.60 arcsec and {scenario[.7]['passed']}/{scenario[.7]['tested']} at 0.70 arcsec for the nominal profile."
+        ),
+        figure(root / "injections.png", width=460),
+        para(
+            "Figure 3. Recovery under the original J rule in measured sky backgrounds. At 0.60 arcsec, "
+            "reducing the PSF width by 15% gives 104/108 recoveries, and increasing it by 15% gives 0/108. "
+            "These responses apply to compact point sources at the simulated strengths and phases.", "caption"
+        ),
+        PageBreak(),
+    ]
+
+
 def footer(canvas, doc):
     w, _ = A4
     canvas.setTitle("Subarcsecond peak pairs in Euclid Deep Field North")
+    canvas.setAuthor("Biswajit Jana")
     canvas.setStrokeColor(RULE)
     canvas.line(doc.leftMargin, 44, w - doc.rightMargin, 44)
     canvas.setFont("Helvetica", 8)
@@ -114,6 +154,7 @@ def main():
     parser.add_argument("--plate", type=Path, required=True)
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--plot", type=Path, required=True)
+    parser.add_argument("--validation", type=Path)
     a = parser.parse_args()
     summary = json.loads((a.results / "cohorts.json").read_text())
     controls = json.loads((a.results / "offset_controls.json").read_text())
@@ -141,7 +182,9 @@ def main():
     story = [
         para("RESEARCH NOTE  /  OBSERVED IMAGING", "kicker"),
         para("Subarcsecond peak pairs<br/>in Euclid Deep Field North", "title"),
-        para("18 November 2026  |  Working draft for Biswajit Jana", "meta"),
+        para("Biswajit Jana  |  18 November 2026  |  Research draft", "meta"),
+        heading("Aim"),
+        para("Test how often two close VIS peaks recur at the same sky positions in NISP J, and determine how separation and the J point-spread function influence that recurrence."),
         heading("Abstract"),
         para(
             f"We used a classical peak finder to locate optical doubles in six Euclid DR1-Foundation VIS "
@@ -224,6 +267,10 @@ def main():
             "run covers a small portion of either target."
         ),
         PageBreak(),
+    ]
+    if a.validation is not None:
+        story.extend(validation_section(a.validation))
+    story.extend([
         figure(a.plate, height=705),
         PageBreak(),
         para("TARGET AUDIT", "kicker"),
@@ -237,7 +284,7 @@ def main():
             "had no close counterpart in the queried SIMBAD, WDS or DESI tables and no containing image "
             "among the HST/JWST footprints returned by the bounded MAST query."
         ),
-    ]
+    ])
     targets = [["Target", "ICRS RA (deg)", "ICRS Dec (deg)", 'VIS sep. (")', "HSC dip"]]
     for target, v in audit.items():
         row = v["candidate"]
@@ -247,9 +294,9 @@ def main():
     story.extend([
         table(targets, [78, 108, 105, 93, 107]),
         para("Table 2. Sky coordinates are the midpoint of the VIS pair. The Subaru dip is measured along that axis.", "caption"),
-        figure(a.results / "edn004_line.png", width=380),
+        figure(a.results / "edn004_line.png", width=345),
         para(
-            "Figure 2. The brighter VIS component is associated with MER 2718858072642847858. "
+            f"Figure {4 if a.validation else 2}. The brighter VIS component is associated with MER 2718858072642847858. "
             "Points show the unflagged per-bin signal-to-error ratio in the two Euclid grism coadds. "
             "The red coadd lacks the unflagged wavelength coverage required for the formal fit.",
             "caption"
@@ -264,8 +311,10 @@ def main():
         para(
             "H-alpha at z = 1.0040 agrees with the catalogue photo-z near 1.01 for that component. "
             "[O III] at z = 1.6268 and [O II] at z = 2.5294 place a single line at the same wavelength. "
-            "The companion has a catalogue photo-z near 1.40 and weak slitless evidence. Spatially resolved "
-            "spectroscopy could test the line identity and the association."
+            "The companion has a catalogue photo-z near 1.40 and weak slitless evidence. "
+            "Two blue dithers retain S/N above 4 across widths of 12, 16 and 24 Angstrom after clipping. "
+            "The clipped red 180-degree exposure passes at 12 and 16 Angstrom. Three diagnostic "
+            "secondary-line windows meet clean-coverage cuts, with maximum positive S/N 1.89."
         ),
         PageBreak(),
         para("REPRODUCIBILITY", "kicker"),
@@ -286,6 +335,8 @@ def main():
         ("Euclid Collaboration, Corcho-Caballero et al. (2026), Euclid DR1. Colouring Euclid with external ground-based imaging data.", "https://arxiv.org/abs/2611.16533"),
         ("Euclid Collaboration, Lines et al. (2026), ECLIPSE A. Strong lens catalogue overview.", "https://arxiv.org/abs/2611.15883"),
         ("Euclid Collaboration, Le Brun et al. (2026), Euclid DR1. Performance of the redshift measurement and spectroscopic analysis.", "https://arxiv.org/abs/2611.17960"),
+        ("Euclid Collaboration, da Silva et al. (2026), Euclid DR1. NISP-P point-spread function modelling.", "https://arxiv.org/abs/2611.16494"),
+        ("Euclid Collaboration, Fumana et al. (2026), Euclid DR1. SIR spectroscopic calibration.", "https://arxiv.org/abs/2611.17305"),
     ]
     for title, url in refs:
         story.append(para(f'{escape(title)} <link href="{url}" color="#12566a">{url}</link>', "small"))

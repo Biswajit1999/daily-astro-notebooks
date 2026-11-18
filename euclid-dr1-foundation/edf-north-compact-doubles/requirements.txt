@@ -8,3 +8,4 @@ pyarrow>=17
 dust-extinction>=1.6
 speclite>=0.20
 reportlab>=4
+pandas>=2

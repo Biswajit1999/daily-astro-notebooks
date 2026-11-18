@@ -1,0 +1,5153 @@
+{
+  "source_line_A": 13155.546184870003,
+  "exposures": [
+    {
+      "source": "2718851317642848846",
+      "grism": "BGS",
+      "hdu": "267_COMBINED1D_SIGNAL",
+      "orientation": "",
+      "coadd": true,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 13,
+            "state": "measured",
+            "snr": 0.018811951817736122,
+            "reduced_chi2": 1.042231381354644
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 13,
+            "state": "measured",
+            "snr": -0.16115474914137126,
+            "reduced_chi2": 0.9653947947843006
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 13,
+            "state": "measured",
+            "snr": 0.2850927092247077,
+            "reduced_chi2": 1.0366389179771651
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 13,
+            "state": "measured",
+            "snr": -0.06320445901832525,
+            "reduced_chi2": 0.9669645126079447
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 13,
+            "state": "measured",
+            "snr": 0.8831180812429691,
+            "reduced_chi2": 0.9902628006450893
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 13,
+            "state": "measured",
+            "snr": 0.4245404042117486,
+            "reduced_chi2": 0.9543759589530534
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718851317642848846",
+      "grism": "BGS",
+      "hdu": "267_DITH1D_27008_SIGNAL",
+      "orientation": "BGS000",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 6,
+            "sideband_bins": 14,
+            "state": "measured",
+            "snr": -0.2720161714554121,
+            "reduced_chi2": 0.4730701631887784
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 14,
+            "state": "measured",
+            "snr": -0.5887145394729669,
+            "reduced_chi2": 0.47984093801001815
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 6,
+            "sideband_bins": 14,
+            "state": "measured",
+            "snr": -0.16270817936426468,
+            "reduced_chi2": 0.47586538941826234
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 14,
+            "state": "measured",
+            "snr": -0.41212307846220214,
+            "reduced_chi2": 0.4908871490841247
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 6,
+            "sideband_bins": 14,
+            "state": "measured",
+            "snr": 0.1865327623242616,
+            "reduced_chi2": 0.47537594707777503
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 14,
+            "state": "measured",
+            "snr": 0.04471169517892023,
+            "reduced_chi2": 0.5013775425913366
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718851317642848846",
+      "grism": "BGS",
+      "hdu": "267_DITH1D_27009_SIGNAL",
+      "orientation": "BGS000",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718851317642848846",
+      "grism": "BGS",
+      "hdu": "267_DITH1D_27010_SIGNAL",
+      "orientation": "BGS000",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 6,
+            "sideband_bins": 14,
+            "state": "measured",
+            "snr": -0.6910468654515438,
+            "reduced_chi2": 1.4004281231649052
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 14,
+            "state": "measured",
+            "snr": -0.769296456337227,
+            "reduced_chi2": 1.4575643951846886
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 6,
+            "sideband_bins": 14,
+            "state": "measured",
+            "snr": -0.3342358437656697,
+            "reduced_chi2": 1.430367945243204
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 14,
+            "state": "measured",
+            "snr": -0.47346881680347075,
+            "reduced_chi2": 1.4905932143512701
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 6,
+            "sideband_bins": 14,
+            "state": "measured",
+            "snr": 0.3269537604590964,
+            "reduced_chi2": 1.4307705307566416
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 14,
+            "state": "measured",
+            "snr": 0.1764258557140232,
+            "reduced_chi2": 1.5085429208819363
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718851317642848846",
+      "grism": "BGS",
+      "hdu": "267_DITH1D_27011_SIGNAL",
+      "orientation": "BGS000",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 6,
+            "sideband_bins": 14,
+            "state": "measured",
+            "snr": -1.3658822231230103,
+            "reduced_chi2": 0.8168471630258181
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 14,
+            "state": "measured",
+            "snr": -1.538836850140294,
+            "reduced_chi2": 0.7923384660074076
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 6,
+            "sideband_bins": 14,
+            "state": "measured",
+            "snr": -1.473235561077228,
+            "reduced_chi2": 0.7989184117917546
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 14,
+            "state": "measured",
+            "snr": -1.7850366153093264,
+            "reduced_chi2": 0.7411924118420782
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 6,
+            "sideband_bins": 14,
+            "state": "measured",
+            "snr": -1.677969690787681,
+            "reduced_chi2": 0.7609678668047208
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 14,
+            "state": "measured",
+            "snr": -2.0959525135052335,
+            "reduced_chi2": 0.6657760855374576
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718851317642848846",
+      "grism": "BGS",
+      "hdu": "267_DITH1D_9377_SIGNAL",
+      "orientation": "BGS000",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718851317642848846",
+      "grism": "BGS",
+      "hdu": "267_DITH1D_9378_SIGNAL",
+      "orientation": "BGS000",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 6,
+            "sideband_bins": 14,
+            "state": "measured",
+            "snr": 2.080341354992811,
+            "reduced_chi2": 0.5692383822872273
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 14,
+            "state": "measured",
+            "snr": 1.2593987288136335,
+            "reduced_chi2": 0.5773367021259722
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 6,
+            "sideband_bins": 14,
+            "state": "measured",
+            "snr": 2.1113060705237134,
+            "reduced_chi2": 0.56160348992623
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 14,
+            "state": "measured",
+            "snr": 1.3450148003119875,
+            "reduced_chi2": 0.5634004736934158
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 6,
+            "sideband_bins": 14,
+            "state": "measured",
+            "snr": 2.0480018855984983,
+            "reduced_chi2": 0.5770918193388939
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 14,
+            "state": "measured",
+            "snr": 1.368548060320703,
+            "reduced_chi2": 0.559409287421587
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718851317642848846",
+      "grism": "BGS",
+      "hdu": "267_DITH1D_9379_SIGNAL",
+      "orientation": "BGS000",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 6,
+            "sideband_bins": 14,
+            "state": "measured",
+            "snr": 1.4306476269155757,
+            "reduced_chi2": 1.334146467106767
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 14,
+            "state": "measured",
+            "snr": 1.2671616258332634,
+            "reduced_chi2": 1.2506651663759716
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 6,
+            "sideband_bins": 14,
+            "state": "measured",
+            "snr": 1.8134927839669204,
+            "reduced_chi2": 1.2524748997575283
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 14,
+            "state": "measured",
+            "snr": 1.4731431206768486,
+            "reduced_chi2": 1.211813505044392
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 6,
+            "sideband_bins": 14,
+            "state": "measured",
+            "snr": 2.6354723853384563,
+            "reduced_chi2": 1.0611985509400867
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 14,
+            "state": "measured",
+            "snr": 2.1669638143683643,
+            "reduced_chi2": 1.0639311413279486
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718851317642848846",
+      "grism": "BGS",
+      "hdu": "267_DITH1D_9380_SIGNAL",
+      "orientation": "BGS000",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 13,
+            "state": "measured",
+            "snr": -1.5164689756899896,
+            "reduced_chi2": 1.206445851457802
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 13,
+            "state": "measured",
+            "snr": -1.6954584625069642,
+            "reduced_chi2": 1.1535576123533706
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 13,
+            "state": "measured",
+            "snr": -1.6251442430508554,
+            "reduced_chi2": 1.1830969873331698
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 13,
+            "state": "measured",
+            "snr": -2.036780162617321,
+            "reduced_chi2": 1.0725860549160378
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 13,
+            "state": "measured",
+            "snr": -1.573283330111295,
+            "reduced_chi2": 1.194326847904462
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 13,
+            "state": "measured",
+            "snr": -2.191748921224221,
+            "reduced_chi2": 1.035207642985509
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718858072642847858",
+      "grism": "BGS",
+      "hdu": "269_COMBINED1D_SIGNAL",
+      "orientation": "",
+      "coadd": true,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 6,
+            "sideband_bins": 13,
+            "state": "measured",
+            "snr": 7.6946601795145835,
+            "reduced_chi2": 1.3865764185874963
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 13,
+            "state": "measured",
+            "snr": 5.9222508869137025,
+            "reduced_chi2": 1.4767722557530611
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 6,
+            "sideband_bins": 13,
+            "state": "measured",
+            "snr": 9.578434122995828,
+            "reduced_chi2": 0.7834346986342254
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 13,
+            "state": "measured",
+            "snr": 7.836569302824345,
+            "reduced_chi2": 0.8356453856646995
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 6,
+            "sideband_bins": 13,
+            "state": "measured",
+            "snr": 9.571105017193876,
+            "reduced_chi2": 0.7922065110352868
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 13,
+            "state": "measured",
+            "snr": 7.888021708861652,
+            "reduced_chi2": 0.7817075162311123
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718858072642847858",
+      "grism": "BGS",
+      "hdu": "269_DITH1D_27008_SIGNAL",
+      "orientation": "BGS000",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 6,
+            "sideband_bins": 14,
+            "state": "measured",
+            "snr": 1.0712903468268178,
+            "reduced_chi2": 0.7846863736667566
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 14,
+            "state": "measured",
+            "snr": 0.5535468148345427,
+            "reduced_chi2": 0.820500170376077
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 6,
+            "sideband_bins": 14,
+            "state": "measured",
+            "snr": 1.3947104362823197,
+            "reduced_chi2": 0.7377714210861396
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 14,
+            "state": "measured",
+            "snr": 0.9834893599410479,
+            "reduced_chi2": 0.7791978425695906
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 6,
+            "sideband_bins": 14,
+            "state": "measured",
+            "snr": 1.9646535181355125,
+            "reduced_chi2": 0.6251451713657028
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 14,
+            "state": "measured",
+            "snr": 1.677243136897595,
+            "reduced_chi2": 0.6638295163725384
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718858072642847858",
+      "grism": "BGS",
+      "hdu": "269_DITH1D_27009_SIGNAL",
+      "orientation": "BGS000",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718858072642847858",
+      "grism": "BGS",
+      "hdu": "269_DITH1D_27010_SIGNAL",
+      "orientation": "BGS000",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 6,
+            "sideband_bins": 14,
+            "state": "measured",
+            "snr": 2.3826206322238557,
+            "reduced_chi2": 1.117796856268915
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 14,
+            "state": "measured",
+            "snr": 1.7684889958032675,
+            "reduced_chi2": 1.1874505251887004
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 6,
+            "sideband_bins": 14,
+            "state": "measured",
+            "snr": 2.2521217525538093,
+            "reduced_chi2": 1.1484272478155129
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 14,
+            "state": "measured",
+            "snr": 1.6396524251514533,
+            "reduced_chi2": 1.2153501761897822
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 6,
+            "sideband_bins": 14,
+            "state": "measured",
+            "snr": 2.0032655716933045,
+            "reduced_chi2": 1.206303639519913
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 14,
+            "state": "measured",
+            "snr": 1.4396461750895408,
+            "reduced_chi2": 1.256766983514121
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718858072642847858",
+      "grism": "BGS",
+      "hdu": "269_DITH1D_27011_SIGNAL",
+      "orientation": "BGS000",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 6,
+            "sideband_bins": 13,
+            "state": "measured",
+            "snr": 3.6113863023906747,
+            "reduced_chi2": 1.7305971338354282
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 13,
+            "state": "measured",
+            "snr": 2.3702290087211457,
+            "reduced_chi2": 1.8287921002334322
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 6,
+            "sideband_bins": 13,
+            "state": "measured",
+            "snr": 3.221055389486919,
+            "reduced_chi2": 1.9055854837367248
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 13,
+            "state": "measured",
+            "snr": 2.081267956413576,
+            "reduced_chi2": 1.9504779878304992
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 6,
+            "sideband_bins": 13,
+            "state": "measured",
+            "snr": 2.2341405477733276,
+            "reduced_chi2": 2.394324934992153
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 13,
+            "state": "measured",
+            "snr": 1.314106124972668,
+            "reduced_chi2": 2.2542171990626487
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718858072642847858",
+      "grism": "BGS",
+      "hdu": "269_DITH1D_9377_SIGNAL",
+      "orientation": "BGS000",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718858072642847858",
+      "grism": "BGS",
+      "hdu": "269_DITH1D_9378_SIGNAL",
+      "orientation": "BGS000",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 6,
+            "sideband_bins": 14,
+            "state": "measured",
+            "snr": 2.780635857118219,
+            "reduced_chi2": 0.5770530298526132
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 14,
+            "state": "measured",
+            "snr": 2.159563431381687,
+            "reduced_chi2": 0.6131084812511218
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 6,
+            "sideband_bins": 14,
+            "state": "measured",
+            "snr": 3.0086611927312363,
+            "reduced_chi2": 0.4993997120434748
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 14,
+            "state": "measured",
+            "snr": 2.446181114735554,
+            "reduced_chi2": 0.5306029917556324
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 6,
+            "sideband_bins": 14,
+            "state": "measured",
+            "snr": 3.1344997858794184,
+            "reduced_chi2": 0.4539263746886984
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 14,
+            "state": "measured",
+            "snr": 2.6115855038955216,
+            "reduced_chi2": 0.47831694187636026
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718858072642847858",
+      "grism": "BGS",
+      "hdu": "269_DITH1D_9379_SIGNAL",
+      "orientation": "BGS000",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 6,
+            "sideband_bins": 14,
+            "state": "measured",
+            "snr": 4.131968216343075,
+            "reduced_chi2": 1.3081536213690148
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 14,
+            "state": "measured",
+            "snr": 4.287263513263225,
+            "reduced_chi2": 0.8897148932282284
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 6,
+            "sideband_bins": 14,
+            "state": "measured",
+            "snr": 5.323879710568124,
+            "reduced_chi2": 0.9546608368794137
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 14,
+            "state": "measured",
+            "snr": 4.598742882645111,
+            "reduced_chi2": 0.7167269139456675
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 6,
+            "sideband_bins": 14,
+            "state": "measured",
+            "snr": 5.78134436236837,
+            "reduced_chi2": 0.6558227507800257
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 14,
+            "state": "measured",
+            "snr": 4.916635246510945,
+            "reduced_chi2": 0.5276727860359999
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718858072642847858",
+      "grism": "BGS",
+      "hdu": "269_DITH1D_9380_SIGNAL",
+      "orientation": "BGS000",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 6,
+            "sideband_bins": 14,
+            "state": "measured",
+            "snr": 5.919456197902634,
+            "reduced_chi2": 1.2804938198177354
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 14,
+            "state": "measured",
+            "snr": 4.941775082031718,
+            "reduced_chi2": 1.3007284651156623
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 6,
+            "sideband_bins": 14,
+            "state": "measured",
+            "snr": 7.233156011391951,
+            "reduced_chi2": 0.8422531428371856
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 14,
+            "state": "measured",
+            "snr": 6.229605215435653,
+            "reduced_chi2": 0.8605592187968168
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 6,
+            "sideband_bins": 14,
+            "state": "measured",
+            "snr": 7.297192085188119,
+            "reduced_chi2": 0.787519822660923
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 14,
+            "state": "measured",
+            "snr": 6.261979486304502,
+            "reduced_chi2": 0.8352838471271089
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718851317642848846",
+      "grism": "RGS",
+      "hdu": "267_COMBINED1D_SIGNAL",
+      "orientation": "",
+      "coadd": true,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 3,
+            "sideband_bins": 5,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 2,
+            "sideband_bins": 5,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 3,
+            "sideband_bins": 5,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 2,
+            "sideband_bins": 5,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 3,
+            "sideband_bins": 5,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 2,
+            "sideband_bins": 5,
+            "state": "insufficient_clean_coverage"
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718851317642848846",
+      "grism": "RGS",
+      "hdu": "267_DITH1D_11989_SIGNAL",
+      "orientation": "RGS000",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 1.1371243390252448,
+            "reduced_chi2": 0.944788120757291
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 0.5805653876046655,
+            "reduced_chi2": 1.0075996781015228
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 0.850751945130096,
+            "reduced_chi2": 0.9827396467746882
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 0.2582626455468528,
+            "reduced_chi2": 1.0269653577566422
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 0.46364735738303514,
+            "reduced_chi2": 1.0164249236299427
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": -0.06963078090649241,
+            "reduced_chi2": 1.0315008575178093
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718851317642848846",
+      "grism": "RGS",
+      "hdu": "267_DITH1D_11990_SIGNAL",
+      "orientation": "RGS180",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 6,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 6,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 6,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 6,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 6,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 6,
+            "state": "insufficient_clean_coverage"
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718851317642848846",
+      "grism": "RGS",
+      "hdu": "267_DITH1D_11991_SIGNAL",
+      "orientation": "RGS000",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718851317642848846",
+      "grism": "RGS",
+      "hdu": "267_DITH1D_11992_SIGNAL",
+      "orientation": "RGS180",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 2,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 2,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 2,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 2,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 2,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 2,
+            "state": "insufficient_clean_coverage"
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718851317642848846",
+      "grism": "RGS",
+      "hdu": "267_DITH1D_13183_SIGNAL",
+      "orientation": "RGS000",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718851317642848846",
+      "grism": "RGS",
+      "hdu": "267_DITH1D_13184_SIGNAL",
+      "orientation": "RGS180",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718851317642848846",
+      "grism": "RGS",
+      "hdu": "267_DITH1D_13185_SIGNAL",
+      "orientation": "RGS000",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 0.6539472705066781,
+            "reduced_chi2": 0.695721676272896
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 0.6284821610359986,
+            "reduced_chi2": 0.7142504282397896
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 0.7838613166918706,
+            "reduced_chi2": 0.6832689075260442
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 0.6820898570735278,
+            "reduced_chi2": 0.7092320892124961
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 0.8928646634758276,
+            "reduced_chi2": 0.6710843246275183
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 0.7294277202666596,
+            "reduced_chi2": 0.7044593587860082
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718851317642848846",
+      "grism": "RGS",
+      "hdu": "267_DITH1D_13186_SIGNAL",
+      "orientation": "RGS180",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": -1.5638477746392978,
+            "reduced_chi2": 0.6914842957472026
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": -1.6048047508944556,
+            "reduced_chi2": 0.6472143569635028
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": -1.20324013215567,
+            "reduced_chi2": 0.758006498854822
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": -1.389944232045667,
+            "reduced_chi2": 0.6931753084132456
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": -0.644027046492264,
+            "reduced_chi2": 0.8268742307892514
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": -0.9756458460621426,
+            "reduced_chi2": 0.7631796049317244
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718851317642848846",
+      "grism": "RGS",
+      "hdu": "267_DITH1D_14636_SIGNAL",
+      "orientation": "RGS000",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": -0.7647682678646693,
+            "reduced_chi2": 1.004128915666567
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": -0.9841913446967004,
+            "reduced_chi2": 0.9741172271484139
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": -0.5472256171159376,
+            "reduced_chi2": 1.0228611557379819
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": -0.909026622906484,
+            "reduced_chi2": 0.9842817415643523
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": -0.188493362826855,
+            "reduced_chi2": 1.0408159460942823
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": -0.6045856197146006,
+            "reduced_chi2": 1.0167588746025769
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718851317642848846",
+      "grism": "RGS",
+      "hdu": "267_DITH1D_14637_SIGNAL",
+      "orientation": "RGS180",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 0.37075048718749865,
+            "reduced_chi2": 0.5742828046327695
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 0.31142106552746535,
+            "reduced_chi2": 0.4320782757787195
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 0.3878066087543688,
+            "reduced_chi2": 0.5734202684965164
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 0.135910609697645,
+            "reduced_chi2": 0.43768623193771067
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 0.2913712483265554,
+            "reduced_chi2": 0.577786719259329
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": -0.15665863825515675,
+            "reduced_chi2": 0.4372526437154554
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718851317642848846",
+      "grism": "RGS",
+      "hdu": "267_DITH1D_14638_SIGNAL",
+      "orientation": "RGS000",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 1.6986339256203273,
+            "reduced_chi2": 0.9252942624915402
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 0.8959783638613901,
+            "reduced_chi2": 0.9830321426905803
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 1.519476467822811,
+            "reduced_chi2": 0.9637308276249427
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 0.733727185276355,
+            "reduced_chi2": 1.0018483275917947
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 1.103779910191582,
+            "reduced_chi2": 1.0336928066861224
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 0.3967997716521036,
+            "reduced_chi2": 1.0288030094190384
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718851317642848846",
+      "grism": "RGS",
+      "hdu": "267_DITH1D_21903_SIGNAL",
+      "orientation": "RGS000",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 11,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 11,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 11,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 11,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 11,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 11,
+            "state": "insufficient_clean_coverage"
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718851317642848846",
+      "grism": "RGS",
+      "hdu": "267_DITH1D_21904_SIGNAL",
+      "orientation": "RGS180",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718851317642848846",
+      "grism": "RGS",
+      "hdu": "267_DITH1D_21905_SIGNAL",
+      "orientation": "RGS000",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": -1.0860769666555388,
+            "reduced_chi2": 1.9629906289365273
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": -1.0598907063982121,
+            "reduced_chi2": 2.0917584569193983
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": -0.9814068287590922,
+            "reduced_chi2": 1.989601818438854
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": -1.001431149074328,
+            "reduced_chi2": 2.1085595942382818
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": -0.5228084237714107,
+            "reduced_chi2": 2.0794635949870237
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": -0.5943011652331277,
+            "reduced_chi2": 2.2039995999516533
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718851317642848846",
+      "grism": "RGS",
+      "hdu": "267_DITH1D_21906_SIGNAL",
+      "orientation": "RGS180",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": -0.5423824635363784,
+            "reduced_chi2": 2.227189582887505
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": -1.8424156661239552,
+            "reduced_chi2": 1.8683583738936422
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": -0.628644630083039,
+            "reduced_chi2": 2.212575911961239
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": -1.6168750110007841,
+            "reduced_chi2": 1.9560969184802783
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": -0.43960916232285474,
+            "reduced_chi2": 2.241983882713848
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": -1.04806460682519,
+            "reduced_chi2": 2.152484134165386
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718851317642848846",
+      "grism": "RGS",
+      "hdu": "267_DITH1D_24299_SIGNAL",
+      "orientation": "RGS000",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 9,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 9,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 9,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 9,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 9,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 9,
+            "state": "insufficient_clean_coverage"
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718851317642848846",
+      "grism": "RGS",
+      "hdu": "267_DITH1D_24300_SIGNAL",
+      "orientation": "RGS180",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 2,
+            "sideband_bins": 12,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 2,
+            "sideband_bins": 12,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 2,
+            "sideband_bins": 12,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 2,
+            "sideband_bins": 12,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 2,
+            "sideband_bins": 12,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 2,
+            "sideband_bins": 12,
+            "state": "insufficient_clean_coverage"
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718851317642848846",
+      "grism": "RGS",
+      "hdu": "267_DITH1D_24301_SIGNAL",
+      "orientation": "RGS000",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 11,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 11,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 11,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 11,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 11,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 11,
+            "state": "insufficient_clean_coverage"
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718851317642848846",
+      "grism": "RGS",
+      "hdu": "267_DITH1D_24302_SIGNAL",
+      "orientation": "RGS180",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 11,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 11,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 11,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 11,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 11,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 11,
+            "state": "insufficient_clean_coverage"
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718851317642848846",
+      "grism": "RGS",
+      "hdu": "267_DITH1D_30486_SIGNAL",
+      "orientation": "RGS000",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 10,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 10,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 10,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 10,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 10,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 10,
+            "state": "insufficient_clean_coverage"
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718851317642848846",
+      "grism": "RGS",
+      "hdu": "267_DITH1D_30487_SIGNAL",
+      "orientation": "RGS180",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 11,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 3,
+            "sideband_bins": 11,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 11,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 3,
+            "sideband_bins": 11,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 11,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 3,
+            "sideband_bins": 11,
+            "state": "insufficient_clean_coverage"
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718851317642848846",
+      "grism": "RGS",
+      "hdu": "267_DITH1D_30488_SIGNAL",
+      "orientation": "RGS000",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 11,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 11,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 11,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 11,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 11,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 11,
+            "state": "insufficient_clean_coverage"
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718851317642848846",
+      "grism": "RGS",
+      "hdu": "267_DITH1D_30489_SIGNAL",
+      "orientation": "RGS180",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718851317642848846",
+      "grism": "RGS",
+      "hdu": "267_DITH1D_34350_SIGNAL",
+      "orientation": "RGS000",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 0.3493985368108278,
+            "reduced_chi2": 1.5137448918688061
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 0.31319686123295903,
+            "reduced_chi2": 1.5276238157008264
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 0.2964228833692691,
+            "reduced_chi2": 1.5171774162035283
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 0.1487366336988227,
+            "reduced_chi2": 1.5359002448549075
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 0.2611916284054263,
+            "reduced_chi2": 1.5191554630245927
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 0.0024025692267237264,
+            "reduced_chi2": 1.5383266166995562
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718851317642848846",
+      "grism": "RGS",
+      "hdu": "267_DITH1D_34351_SIGNAL",
+      "orientation": "RGS180",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 4,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 4,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 4,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 4,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 4,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 4,
+            "state": "insufficient_clean_coverage"
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718851317642848846",
+      "grism": "RGS",
+      "hdu": "267_DITH1D_34352_SIGNAL",
+      "orientation": "RGS000",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 11,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 3,
+            "sideband_bins": 11,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 11,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 3,
+            "sideband_bins": 11,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 11,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 3,
+            "sideband_bins": 11,
+            "state": "insufficient_clean_coverage"
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718851317642848846",
+      "grism": "RGS",
+      "hdu": "267_DITH1D_9197_SIGNAL",
+      "orientation": "RGS000",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": -0.3288704816720125,
+            "reduced_chi2": 0.8094530719671862
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": -0.9677144846484309,
+            "reduced_chi2": 0.7520260454913911
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": -0.09410066531646308,
+            "reduced_chi2": 0.816073129200665
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": -0.6819970983682768,
+            "reduced_chi2": 0.7856939941782218
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 0.21435186393033825,
+            "reduced_chi2": 0.8136003434435042
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": -0.24281897254754364,
+            "reduced_chi2": 0.8147053505177722
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718851317642848846",
+      "grism": "RGS",
+      "hdu": "267_DITH1D_9198_SIGNAL",
+      "orientation": "RGS180",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 8,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 3,
+            "sideband_bins": 8,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 8,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 3,
+            "sideband_bins": 8,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 8,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 3,
+            "sideband_bins": 8,
+            "state": "insufficient_clean_coverage"
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718851317642848846",
+      "grism": "RGS",
+      "hdu": "267_DITH1D_9199_SIGNAL",
+      "orientation": "RGS000",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718851317642848846",
+      "grism": "RGS",
+      "hdu": "267_DITH1D_9200_SIGNAL",
+      "orientation": "RGS180",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718858072642847858",
+      "grism": "RGS",
+      "hdu": "269_COMBINED1D_SIGNAL",
+      "orientation": "",
+      "coadd": true,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 2,
+            "sideband_bins": 4,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 1,
+            "sideband_bins": 4,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 2,
+            "sideband_bins": 4,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 1,
+            "sideband_bins": 4,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 2,
+            "sideband_bins": 4,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 1,
+            "sideband_bins": 4,
+            "state": "insufficient_clean_coverage"
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718858072642847858",
+      "grism": "RGS",
+      "hdu": "269_DITH1D_11989_SIGNAL",
+      "orientation": "RGS000",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 5.131599977089853,
+            "reduced_chi2": 1.5300484877264322
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 3.306755321554802,
+            "reduced_chi2": 1.6383664295321763
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 4.6433979240707295,
+            "reduced_chi2": 1.7297593507785394
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 3.006831794900176,
+            "reduced_chi2": 1.7730131321482807
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 3.2602790137765787,
+            "reduced_chi2": 2.4675542034150815
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 2.091439756807652,
+            "reduced_chi2": 2.223347915136994
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718858072642847858",
+      "grism": "RGS",
+      "hdu": "269_DITH1D_11990_SIGNAL",
+      "orientation": "RGS180",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 9,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 9,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 9,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 9,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 9,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 9,
+            "state": "insufficient_clean_coverage"
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718858072642847858",
+      "grism": "RGS",
+      "hdu": "269_DITH1D_11991_SIGNAL",
+      "orientation": "RGS000",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 1,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 1,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 1,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 1,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 1,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 1,
+            "state": "insufficient_clean_coverage"
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718858072642847858",
+      "grism": "RGS",
+      "hdu": "269_DITH1D_11992_SIGNAL",
+      "orientation": "RGS180",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718858072642847858",
+      "grism": "RGS",
+      "hdu": "269_DITH1D_13183_SIGNAL",
+      "orientation": "RGS000",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718858072642847858",
+      "grism": "RGS",
+      "hdu": "269_DITH1D_13184_SIGNAL",
+      "orientation": "RGS180",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718858072642847858",
+      "grism": "RGS",
+      "hdu": "269_DITH1D_13185_SIGNAL",
+      "orientation": "RGS000",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 5.835245129390974,
+            "reduced_chi2": 0.9644592340600013
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 3.0924172933335248,
+            "reduced_chi2": 0.9224049959991946
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 5.975906758264626,
+            "reduced_chi2": 0.853700843167221
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 3.5344229014374595,
+            "reduced_chi2": 0.7131835295636696
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 5.901505447864844,
+            "reduced_chi2": 0.9126138453201824
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 3.8133055370405082,
+            "reduced_chi2": 0.5668153958052249
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718858072642847858",
+      "grism": "RGS",
+      "hdu": "269_DITH1D_13186_SIGNAL",
+      "orientation": "RGS180",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 3,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 2,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 3,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 2,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 3,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 2,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718858072642847858",
+      "grism": "RGS",
+      "hdu": "269_DITH1D_14636_SIGNAL",
+      "orientation": "RGS000",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 11,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 11,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 11,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 11,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 11,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 11,
+            "state": "insufficient_clean_coverage"
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718858072642847858",
+      "grism": "RGS",
+      "hdu": "269_DITH1D_14637_SIGNAL",
+      "orientation": "RGS180",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 10,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 10,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 10,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 10,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 10,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 10,
+            "state": "insufficient_clean_coverage"
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718858072642847858",
+      "grism": "RGS",
+      "hdu": "269_DITH1D_14638_SIGNAL",
+      "orientation": "RGS000",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 2.157103307126617,
+            "reduced_chi2": 1.9033423213978196
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 2.1001116276220997,
+            "reduced_chi2": 1.1065660392032421
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 2.374993399930447,
+            "reduced_chi2": 1.8122815400159618
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 1.893709357126299,
+            "reduced_chi2": 1.1584352925632477
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 2.3706475060437078,
+            "reduced_chi2": 1.814094180339387
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 1.6518312449394241,
+            "reduced_chi2": 1.2178224593572344
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718858072642847858",
+      "grism": "RGS",
+      "hdu": "269_DITH1D_21903_SIGNAL",
+      "orientation": "RGS000",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 3.215486538211156,
+            "reduced_chi2": 1.988343846022236
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 3.042839961028405,
+            "reduced_chi2": 1.6578568030968956
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 3.4849594465308638,
+            "reduced_chi2": 1.8560860180966765
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 2.9763318563937338,
+            "reduced_chi2": 1.6868909870752145
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 3.3434370742807844,
+            "reduced_chi2": 1.9246026470556798
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 2.6854209883444953,
+            "reduced_chi2": 1.8178775597321997
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718858072642847858",
+      "grism": "RGS",
+      "hdu": "269_DITH1D_21904_SIGNAL",
+      "orientation": "RGS180",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 2,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 2,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 2,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 2,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 2,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 2,
+            "state": "insufficient_clean_coverage"
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718858072642847858",
+      "grism": "RGS",
+      "hdu": "269_DITH1D_21905_SIGNAL",
+      "orientation": "RGS000",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 5.084542962625193,
+            "reduced_chi2": 0.6843185816255665
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 3.6935986618228682,
+            "reduced_chi2": 0.6607042713820099
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 5.225511196393728,
+            "reduced_chi2": 0.5874259066352424
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 3.8692894991922997,
+            "reduced_chi2": 0.5657949746720001
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 4.919305733044913,
+            "reduced_chi2": 0.7945191311997534
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 3.613510195009869,
+            "reduced_chi2": 0.7025053531805395
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718858072642847858",
+      "grism": "RGS",
+      "hdu": "269_DITH1D_21906_SIGNAL",
+      "orientation": "RGS180",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 10,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 3,
+            "sideband_bins": 10,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 10,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 3,
+            "sideband_bins": 10,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 10,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 3,
+            "sideband_bins": 10,
+            "state": "insufficient_clean_coverage"
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718858072642847858",
+      "grism": "RGS",
+      "hdu": "269_DITH1D_24299_SIGNAL",
+      "orientation": "RGS000",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 10,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 10,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 10,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 10,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 10,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 10,
+            "state": "insufficient_clean_coverage"
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718858072642847858",
+      "grism": "RGS",
+      "hdu": "269_DITH1D_24300_SIGNAL",
+      "orientation": "RGS180",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 10,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 10,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 10,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 10,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 10,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 10,
+            "state": "insufficient_clean_coverage"
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718858072642847858",
+      "grism": "RGS",
+      "hdu": "269_DITH1D_24301_SIGNAL",
+      "orientation": "RGS000",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 4.897536073817197,
+            "reduced_chi2": 0.7594984171127392
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 3.4007926804675552,
+            "reduced_chi2": 0.8126377231218533
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 4.774810368249067,
+            "reduced_chi2": 0.8386347865528708
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 3.270635672805355,
+            "reduced_chi2": 0.874661519642908
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 4.21821041022471,
+            "reduced_chi2": 1.0788282014866981
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 2.9660295123171023,
+            "reduced_chi2": 1.0063598633918838
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718858072642847858",
+      "grism": "RGS",
+      "hdu": "269_DITH1D_24302_SIGNAL",
+      "orientation": "RGS180",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 5.165723311349876,
+            "reduced_chi2": 1.1849987166354643
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 4.002076128153889,
+            "reduced_chi2": 1.260360803751844
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 5.629561202264272,
+            "reduced_chi2": 1.0579190410398065
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 4.421965050944675,
+            "reduced_chi2": 1.1274964742107452
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 4.176808929790772,
+            "reduced_chi2": 1.522428637639763
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 3.2181105145334414,
+            "reduced_chi2": 1.5532680838704196
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718858072642847858",
+      "grism": "RGS",
+      "hdu": "269_DITH1D_30486_SIGNAL",
+      "orientation": "RGS000",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718858072642847858",
+      "grism": "RGS",
+      "hdu": "269_DITH1D_30487_SIGNAL",
+      "orientation": "RGS180",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718858072642847858",
+      "grism": "RGS",
+      "hdu": "269_DITH1D_30488_SIGNAL",
+      "orientation": "RGS000",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 8,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 3,
+            "sideband_bins": 8,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 8,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 3,
+            "sideband_bins": 8,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 8,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 3,
+            "sideband_bins": 8,
+            "state": "insufficient_clean_coverage"
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718858072642847858",
+      "grism": "RGS",
+      "hdu": "269_DITH1D_30489_SIGNAL",
+      "orientation": "RGS180",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718858072642847858",
+      "grism": "RGS",
+      "hdu": "269_DITH1D_34350_SIGNAL",
+      "orientation": "RGS000",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 3.4571168485234787,
+            "reduced_chi2": 1.2351854351207943
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 2.4942131189032106,
+            "reduced_chi2": 1.2906780956300103
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 4.236265142860312,
+            "reduced_chi2": 1.0104520215642085
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 3.2249057820328506,
+            "reduced_chi2": 1.0696275060494034
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 4.705927955939803,
+            "reduced_chi2": 0.7429690756082556
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 3.8940613592496565,
+            "reduced_chi2": 0.7810868418397893
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718858072642847858",
+      "grism": "RGS",
+      "hdu": "269_DITH1D_34351_SIGNAL",
+      "orientation": "RGS180",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 1,
+            "sideband_bins": 3,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 1,
+            "sideband_bins": 3,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 1,
+            "sideband_bins": 3,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 1,
+            "sideband_bins": 3,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 1,
+            "sideband_bins": 3,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 1,
+            "sideband_bins": 3,
+            "state": "insufficient_clean_coverage"
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718858072642847858",
+      "grism": "RGS",
+      "hdu": "269_DITH1D_34352_SIGNAL",
+      "orientation": "RGS000",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 7,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 3,
+            "sideband_bins": 7,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 7,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 3,
+            "sideband_bins": 7,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 7,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 3,
+            "sideband_bins": 7,
+            "state": "insufficient_clean_coverage"
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718858072642847858",
+      "grism": "RGS",
+      "hdu": "269_DITH1D_9197_SIGNAL",
+      "orientation": "RGS000",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 3.076139520740203,
+            "reduced_chi2": 1.3881314460657268
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 1.9355710929449328,
+            "reduced_chi2": 1.3426253186113877
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 2.755210515213496,
+            "reduced_chi2": 1.5031239849371265
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 1.643411196827606,
+            "reduced_chi2": 1.4266869276837313
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 5,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 2.3520532360362267,
+            "reduced_chi2": 1.65386209811093
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 4,
+            "sideband_bins": 12,
+            "state": "measured",
+            "snr": 1.3947501649633975,
+            "reduced_chi2": 1.4942818061974326
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718858072642847858",
+      "grism": "RGS",
+      "hdu": "269_DITH1D_9198_SIGNAL",
+      "orientation": "RGS180",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 3,
+            "sideband_bins": 10,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 2,
+            "sideband_bins": 10,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 3,
+            "sideband_bins": 10,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 2,
+            "sideband_bins": 10,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 3,
+            "sideband_bins": 10,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 2,
+            "sideband_bins": 10,
+            "state": "insufficient_clean_coverage"
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718858072642847858",
+      "grism": "RGS",
+      "hdu": "269_DITH1D_9199_SIGNAL",
+      "orientation": "RGS000",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          }
+        }
+      ]
+    },
+    {
+      "source": "2718858072642847858",
+      "grism": "RGS",
+      "hdu": "269_DITH1D_9200_SIGNAL",
+      "orientation": "RGS180",
+      "coadd": false,
+      "fits": [
+        {
+          "width_A": 12.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 16.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          }
+        },
+        {
+          "width_A": 24.0,
+          "full": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          },
+          "clip": {
+            "center_A": 13155.546184870003,
+            "core_bins": 0,
+            "sideband_bins": 0,
+            "state": "insufficient_clean_coverage"
+          }
+        }
+      ]
+    }
+  ],
+  "alternative_lines": [
+    {
+      "hypothesis": "Halpha",
+      "z": 1.0040103197097778,
+      "grism": "BGS",
+      "line": "[O III] 5008",
+      "width_A": 16,
+      "full": {
+        "center_A": 10036.564643583297,
+        "core_bins": 5,
+        "sideband_bins": 10,
+        "state": "insufficient_clean_coverage"
+      },
+      "clip": {
+        "center_A": 10036.564643583297,
+        "core_bins": 4,
+        "sideband_bins": 10,
+        "state": "insufficient_clean_coverage"
+      }
+    },
+    {
+      "hypothesis": "Halpha",
+      "z": 1.0040103197097778,
+      "grism": "BGS",
+      "line": "Hbeta",
+      "width_A": 16,
+      "full": {
+        "center_A": 9744.860901446344,
+        "core_bins": 5,
+        "sideband_bins": 10,
+        "state": "insufficient_clean_coverage"
+      },
+      "clip": {
+        "center_A": 9744.860901446344,
+        "core_bins": 4,
+        "sideband_bins": 10,
+        "state": "insufficient_clean_coverage"
+      }
+    },
+    {
+      "hypothesis": "Halpha",
+      "z": 1.0040103197097778,
+      "grism": "BGS",
+      "line": "[S II] 6718",
+      "width_A": 16,
+      "full": {
+        "center_A": 13463.522490803003,
+        "core_bins": 6,
+        "sideband_bins": 12,
+        "state": "measured",
+        "snr": 1.889542582297265,
+        "reduced_chi2": 1.9710399251762352
+      },
+      "clip": {
+        "center_A": 13463.522490803003,
+        "core_bins": 5,
+        "sideband_bins": 12,
+        "state": "measured",
+        "snr": 2.35965506253576,
+        "reduced_chi2": 1.3155757936978532
+      }
+    },
+    {
+      "hypothesis": "Halpha",
+      "z": 1.0040103197097778,
+      "grism": "BGS",
+      "line": "[S II] 6733",
+      "width_A": 16,
+      "full": {
+        "center_A": 13492.34015920043,
+        "core_bins": 5,
+        "sideband_bins": 9,
+        "state": "insufficient_clean_coverage"
+      },
+      "clip": {
+        "center_A": 13492.34015920043,
+        "core_bins": 4,
+        "sideband_bins": 9,
+        "state": "insufficient_clean_coverage"
+      }
+    },
+    {
+      "hypothesis": "[O III] 5008",
+      "z": 1.6267803030345998,
+      "grism": "BGS",
+      "line": "[O III] 4960",
+      "width_A": 16,
+      "full": {
+        "center_A": 13029.618337142525,
+        "core_bins": 5,
+        "sideband_bins": 12,
+        "state": "measured",
+        "snr": -1.1216688641685515,
+        "reduced_chi2": 2.500430818656162
+      },
+      "clip": {
+        "center_A": 13029.618337142525,
+        "core_bins": 4,
+        "sideband_bins": 12,
+        "state": "measured",
+        "snr": -1.2113553610446197,
+        "reduced_chi2": 2.5934128765092606
+      }
+    },
+    {
+      "hypothesis": "[O III] 5008",
+      "z": 1.6267803030345998,
+      "grism": "BGS",
+      "line": "Hbeta",
+      "width_A": 16,
+      "full": {
+        "center_A": 12773.192043960289,
+        "core_bins": 6,
+        "sideband_bins": 14,
+        "state": "measured",
+        "snr": -0.6074420195899894,
+        "reduced_chi2": 0.46259269975404343
+      },
+      "clip": {
+        "center_A": 12773.192043960289,
+        "core_bins": 5,
+        "sideband_bins": 14,
+        "state": "measured",
+        "snr": -1.492413908837672,
+        "reduced_chi2": 0.311764882952604
+      }
+    },
+    {
+      "hypothesis": "[O III] 5008",
+      "z": 1.6267803030345998,
+      "grism": "BGS",
+      "line": "[O II]",
+      "width_A": 16,
+      "full": {
+        "center_A": 9791.113437137228,
+        "core_bins": 5,
+        "sideband_bins": 10,
+        "state": "insufficient_clean_coverage"
+      },
+      "clip": {
+        "center_A": 9791.113437137228,
+        "core_bins": 4,
+        "sideband_bins": 10,
+        "state": "insufficient_clean_coverage"
+      }
+    },
+    {
+      "hypothesis": "[O III] 5008",
+      "z": 1.6267803030345998,
+      "grism": "BGS",
+      "line": "Halpha",
+      "width_A": 16,
+      "full": {
+        "center_A": 17243.788245103962,
+        "core_bins": 0,
+        "sideband_bins": 0,
+        "state": "insufficient_clean_coverage"
+      },
+      "clip": {
+        "center_A": 17243.788245103962,
+        "core_bins": 0,
+        "sideband_bins": 0,
+        "state": "insufficient_clean_coverage"
+      }
+    },
+    {
+      "hypothesis": "[O II]",
+      "z": 2.529397327070736,
+      "grism": "BGS",
+      "line": "Hbeta",
+      "width_A": 16,
+      "full": {
+        "center_A": 17162.329794400328,
+        "core_bins": 0,
+        "sideband_bins": 0,
+        "state": "insufficient_clean_coverage"
+      },
+      "clip": {
+        "center_A": 17162.329794400328,
+        "core_bins": 0,
+        "sideband_bins": 0,
+        "state": "insufficient_clean_coverage"
+      }
+    },
+    {
+      "hypothesis": "[O II]",
+      "z": 2.529397327070736,
+      "grism": "BGS",
+      "line": "[O III] 5008",
+      "width_A": 16,
+      "full": {
+        "center_A": 17676.06886932874,
+        "core_bins": 0,
+        "sideband_bins": 0,
+        "state": "insufficient_clean_coverage"
+      },
+      "clip": {
+        "center_A": 17676.06886932874,
+        "core_bins": 0,
+        "sideband_bins": 0,
+        "state": "insufficient_clean_coverage"
+      }
+    },
+    {
+      "hypothesis": "[O II]",
+      "z": 2.529397327070736,
+      "grism": "BGS",
+      "line": "Halpha",
+      "width_A": 16,
+      "full": {
+        "center_A": 23169.116987261823,
+        "core_bins": 0,
+        "sideband_bins": 0,
+        "state": "insufficient_clean_coverage"
+      },
+      "clip": {
+        "center_A": 23169.116987261823,
+        "core_bins": 0,
+        "sideband_bins": 0,
+        "state": "insufficient_clean_coverage"
+      }
+    },
+    {
+      "hypothesis": "Halpha",
+      "z": 1.0040103197097778,
+      "grism": "RGS",
+      "line": "[O III] 5008",
+      "width_A": 16,
+      "full": {
+        "center_A": 10036.564643583297,
+        "core_bins": 0,
+        "sideband_bins": 0,
+        "state": "insufficient_clean_coverage"
+      },
+      "clip": {
+        "center_A": 10036.564643583297,
+        "core_bins": 0,
+        "sideband_bins": 0,
+        "state": "insufficient_clean_coverage"
+      }
+    },
+    {
+      "hypothesis": "Halpha",
+      "z": 1.0040103197097778,
+      "grism": "RGS",
+      "line": "Hbeta",
+      "width_A": 16,
+      "full": {
+        "center_A": 9744.860901446344,
+        "core_bins": 0,
+        "sideband_bins": 0,
+        "state": "insufficient_clean_coverage"
+      },
+      "clip": {
+        "center_A": 9744.860901446344,
+        "core_bins": 0,
+        "sideband_bins": 0,
+        "state": "insufficient_clean_coverage"
+      }
+    },
+    {
+      "hypothesis": "Halpha",
+      "z": 1.0040103197097778,
+      "grism": "RGS",
+      "line": "[S II] 6718",
+      "width_A": 16,
+      "full": {
+        "center_A": 13463.522490803003,
+        "core_bins": 1,
+        "sideband_bins": 3,
+        "state": "insufficient_clean_coverage"
+      },
+      "clip": {
+        "center_A": 13463.522490803003,
+        "core_bins": 1,
+        "sideband_bins": 3,
+        "state": "insufficient_clean_coverage"
+      }
+    },
+    {
+      "hypothesis": "Halpha",
+      "z": 1.0040103197097778,
+      "grism": "RGS",
+      "line": "[S II] 6733",
+      "width_A": 16,
+      "full": {
+        "center_A": 13492.34015920043,
+        "core_bins": 2,
+        "sideband_bins": 1,
+        "state": "insufficient_clean_coverage"
+      },
+      "clip": {
+        "center_A": 13492.34015920043,
+        "core_bins": 1,
+        "sideband_bins": 1,
+        "state": "insufficient_clean_coverage"
+      }
+    },
+    {
+      "hypothesis": "[O III] 5008",
+      "z": 1.6267803030345998,
+      "grism": "RGS",
+      "line": "[O III] 4960",
+      "width_A": 16,
+      "full": {
+        "center_A": 13029.618337142525,
+        "core_bins": 0,
+        "sideband_bins": 5,
+        "state": "insufficient_clean_coverage"
+      },
+      "clip": {
+        "center_A": 13029.618337142525,
+        "core_bins": 0,
+        "sideband_bins": 5,
+        "state": "insufficient_clean_coverage"
+      }
+    },
+    {
+      "hypothesis": "[O III] 5008",
+      "z": 1.6267803030345998,
+      "grism": "RGS",
+      "line": "Hbeta",
+      "width_A": 16,
+      "full": {
+        "center_A": 12773.192043960289,
+        "core_bins": 4,
+        "sideband_bins": 3,
+        "state": "insufficient_clean_coverage"
+      },
+      "clip": {
+        "center_A": 12773.192043960289,
+        "core_bins": 3,
+        "sideband_bins": 3,
+        "state": "insufficient_clean_coverage"
+      }
+    },
+    {
+      "hypothesis": "[O III] 5008",
+      "z": 1.6267803030345998,
+      "grism": "RGS",
+      "line": "[O II]",
+      "width_A": 16,
+      "full": {
+        "center_A": 9791.113437137228,
+        "core_bins": 0,
+        "sideband_bins": 0,
+        "state": "insufficient_clean_coverage"
+      },
+      "clip": {
+        "center_A": 9791.113437137228,
+        "core_bins": 0,
+        "sideband_bins": 0,
+        "state": "insufficient_clean_coverage"
+      }
+    },
+    {
+      "hypothesis": "[O III] 5008",
+      "z": 1.6267803030345998,
+      "grism": "RGS",
+      "line": "Halpha",
+      "width_A": 16,
+      "full": {
+        "center_A": 17243.788245103962,
+        "core_bins": 0,
+        "sideband_bins": 0,
+        "state": "insufficient_clean_coverage"
+      },
+      "clip": {
+        "center_A": 17243.788245103962,
+        "core_bins": 0,
+        "sideband_bins": 0,
+        "state": "insufficient_clean_coverage"
+      }
+    },
+    {
+      "hypothesis": "[O II]",
+      "z": 2.529397327070736,
+      "grism": "RGS",
+      "line": "Hbeta",
+      "width_A": 16,
+      "full": {
+        "center_A": 17162.329794400328,
+        "core_bins": 0,
+        "sideband_bins": 0,
+        "state": "insufficient_clean_coverage"
+      },
+      "clip": {
+        "center_A": 17162.329794400328,
+        "core_bins": 0,
+        "sideband_bins": 0,
+        "state": "insufficient_clean_coverage"
+      }
+    },
+    {
+      "hypothesis": "[O II]",
+      "z": 2.529397327070736,
+      "grism": "RGS",
+      "line": "[O III] 5008",
+      "width_A": 16,
+      "full": {
+        "center_A": 17676.06886932874,
+        "core_bins": 0,
+        "sideband_bins": 0,
+        "state": "insufficient_clean_coverage"
+      },
+      "clip": {
+        "center_A": 17676.06886932874,
+        "core_bins": 0,
+        "sideband_bins": 0,
+        "state": "insufficient_clean_coverage"
+      }
+    },
+    {
+      "hypothesis": "[O II]",
+      "z": 2.529397327070736,
+      "grism": "RGS",
+      "line": "Halpha",
+      "width_A": 16,
+      "full": {
+        "center_A": 23169.116987261823,
+        "core_bins": 0,
+        "sideband_bins": 0,
+        "state": "insufficient_clean_coverage"
+      },
+      "clip": {
+        "center_A": 23169.116987261823,
+        "core_bins": 0,
+        "sideband_bins": 0,
+        "state": "insufficient_clean_coverage"
+      }
+    }
+  ]
+}

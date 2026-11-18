@@ -11,6 +11,10 @@ The original pilot replay produced identical candidates, signed pairs and summar
 
 The strongest follow-up case is EDN-004 at ICRS midpoint (271.885434°, +64.284832°). A feature at 1.31555 µm repeats in the NISP slitless measurements of MER source 2718858072642847858. The blue coadd gives formal S/N 9.58, or 7.84 after dropping the brightest bin. Individual blue and red dithers support the feature while the red coadd does not meet the clean-coverage cut. The line identification and physical association remain unresolved. See the observing note for the competing interpretations and the external catalogue checks.
 
+## Extended research notebook
+
+[Euclid_DR1F_Colab.ipynb](Euclid_DR1F_Colab.ipynb) is a 25-cell research notebook credited to Biswajit Jana. It computes the matched separation contrast, derives the detector response with empirical J-band injections, and refits the EDN-004 spectra by grism orientation. The validation inputs and results are described in [VALIDATION.md](VALIDATION.md).
+
 ## Rerun the image analysis
 
 Run from this study directory on Python 3.12 with curl available. A session processing several large tiles needs a few GB of memory and scratch space. Use fewer workers to reduce memory and network load.

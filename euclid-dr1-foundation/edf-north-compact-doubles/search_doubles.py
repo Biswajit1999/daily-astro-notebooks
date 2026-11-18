@@ -131,7 +131,7 @@ def j_check(jmap, good, pos):
     xx,yy=pos
     x,y=round(float(np.mean(xx))),round(float(np.mean(yy)))
     half=67
-    if min(x,y)<half or max(x,y)>=WIDTH-half:
+    if not (half <= y < jmap.shape[0] - half and half <= x < jmap.shape[1] - half):
         return {"state":"border"}
     cut=jmap[y-half:y+half+1,x-half:x+half+1]
     usable=good[y-half:y+half+1,x-half:x+half+1]

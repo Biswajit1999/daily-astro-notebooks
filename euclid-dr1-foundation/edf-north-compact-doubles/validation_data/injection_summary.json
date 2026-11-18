@@ -1,0 +1,598 @@
+{
+  "totals": {
+    "double": {
+      "tested": 11664,
+      "passed": 6587
+    },
+    "single": {
+      "tested": 648,
+      "passed": 0
+    },
+    "empty": {
+      "tested": 648,
+      "passed": 0
+    }
+  },
+  "baseline": [
+    {
+      "sep": 0.4,
+      "faint_level": 5.0,
+      "ratio": 0.5,
+      "tested": 108,
+      "passed": 0
+    },
+    {
+      "sep": 0.4,
+      "faint_level": 5.0,
+      "ratio": 1.0,
+      "tested": 108,
+      "passed": 0
+    },
+    {
+      "sep": 0.4,
+      "faint_level": 10.0,
+      "ratio": 0.5,
+      "tested": 108,
+      "passed": 0
+    },
+    {
+      "sep": 0.4,
+      "faint_level": 10.0,
+      "ratio": 1.0,
+      "tested": 108,
+      "passed": 0
+    },
+    {
+      "sep": 0.4,
+      "faint_level": 20.0,
+      "ratio": 0.5,
+      "tested": 108,
+      "passed": 0
+    },
+    {
+      "sep": 0.4,
+      "faint_level": 20.0,
+      "ratio": 1.0,
+      "tested": 108,
+      "passed": 0
+    },
+    {
+      "sep": 0.5,
+      "faint_level": 5.0,
+      "ratio": 0.5,
+      "tested": 108,
+      "passed": 0
+    },
+    {
+      "sep": 0.5,
+      "faint_level": 5.0,
+      "ratio": 1.0,
+      "tested": 108,
+      "passed": 24
+    },
+    {
+      "sep": 0.5,
+      "faint_level": 10.0,
+      "ratio": 0.5,
+      "tested": 108,
+      "passed": 0
+    },
+    {
+      "sep": 0.5,
+      "faint_level": 10.0,
+      "ratio": 1.0,
+      "tested": 108,
+      "passed": 13
+    },
+    {
+      "sep": 0.5,
+      "faint_level": 20.0,
+      "ratio": 0.5,
+      "tested": 108,
+      "passed": 0
+    },
+    {
+      "sep": 0.5,
+      "faint_level": 20.0,
+      "ratio": 1.0,
+      "tested": 108,
+      "passed": 1
+    },
+    {
+      "sep": 0.6,
+      "faint_level": 5.0,
+      "ratio": 0.5,
+      "tested": 108,
+      "passed": 36
+    },
+    {
+      "sep": 0.6,
+      "faint_level": 5.0,
+      "ratio": 1.0,
+      "tested": 108,
+      "passed": 52
+    },
+    {
+      "sep": 0.6,
+      "faint_level": 10.0,
+      "ratio": 0.5,
+      "tested": 108,
+      "passed": 37
+    },
+    {
+      "sep": 0.6,
+      "faint_level": 10.0,
+      "ratio": 1.0,
+      "tested": 108,
+      "passed": 103
+    },
+    {
+      "sep": 0.6,
+      "faint_level": 20.0,
+      "ratio": 0.5,
+      "tested": 108,
+      "passed": 12
+    },
+    {
+      "sep": 0.6,
+      "faint_level": 20.0,
+      "ratio": 1.0,
+      "tested": 108,
+      "passed": 108
+    },
+    {
+      "sep": 0.7,
+      "faint_level": 5.0,
+      "ratio": 0.5,
+      "tested": 108,
+      "passed": 66
+    },
+    {
+      "sep": 0.7,
+      "faint_level": 5.0,
+      "ratio": 1.0,
+      "tested": 108,
+      "passed": 65
+    },
+    {
+      "sep": 0.7,
+      "faint_level": 10.0,
+      "ratio": 0.5,
+      "tested": 108,
+      "passed": 108
+    },
+    {
+      "sep": 0.7,
+      "faint_level": 10.0,
+      "ratio": 1.0,
+      "tested": 108,
+      "passed": 108
+    },
+    {
+      "sep": 0.7,
+      "faint_level": 20.0,
+      "ratio": 0.5,
+      "tested": 108,
+      "passed": 108
+    },
+    {
+      "sep": 0.7,
+      "faint_level": 20.0,
+      "ratio": 1.0,
+      "tested": 108,
+      "passed": 108
+    },
+    {
+      "sep": 0.8,
+      "faint_level": 5.0,
+      "ratio": 0.5,
+      "tested": 108,
+      "passed": 79
+    },
+    {
+      "sep": 0.8,
+      "faint_level": 5.0,
+      "ratio": 1.0,
+      "tested": 108,
+      "passed": 73
+    },
+    {
+      "sep": 0.8,
+      "faint_level": 10.0,
+      "ratio": 0.5,
+      "tested": 108,
+      "passed": 108
+    },
+    {
+      "sep": 0.8,
+      "faint_level": 10.0,
+      "ratio": 1.0,
+      "tested": 108,
+      "passed": 108
+    },
+    {
+      "sep": 0.8,
+      "faint_level": 20.0,
+      "ratio": 0.5,
+      "tested": 108,
+      "passed": 108
+    },
+    {
+      "sep": 0.8,
+      "faint_level": 20.0,
+      "ratio": 1.0,
+      "tested": 108,
+      "passed": 108
+    },
+    {
+      "sep": 0.9,
+      "faint_level": 5.0,
+      "ratio": 0.5,
+      "tested": 108,
+      "passed": 86
+    },
+    {
+      "sep": 0.9,
+      "faint_level": 5.0,
+      "ratio": 1.0,
+      "tested": 108,
+      "passed": 81
+    },
+    {
+      "sep": 0.9,
+      "faint_level": 10.0,
+      "ratio": 0.5,
+      "tested": 108,
+      "passed": 108
+    },
+    {
+      "sep": 0.9,
+      "faint_level": 10.0,
+      "ratio": 1.0,
+      "tested": 108,
+      "passed": 108
+    },
+    {
+      "sep": 0.9,
+      "faint_level": 20.0,
+      "ratio": 0.5,
+      "tested": 108,
+      "passed": 108
+    },
+    {
+      "sep": 0.9,
+      "faint_level": 20.0,
+      "ratio": 1.0,
+      "tested": 108,
+      "passed": 108
+    }
+  ],
+  "width_sensitivity": [
+    {
+      "sep": 0.4,
+      "width_scale": 0.85,
+      "tested": 108,
+      "passed": 0
+    },
+    {
+      "sep": 0.4,
+      "width_scale": 1.0,
+      "tested": 108,
+      "passed": 0
+    },
+    {
+      "sep": 0.4,
+      "width_scale": 1.15,
+      "tested": 108,
+      "passed": 0
+    },
+    {
+      "sep": 0.5,
+      "width_scale": 0.85,
+      "tested": 108,
+      "passed": 0
+    },
+    {
+      "sep": 0.5,
+      "width_scale": 1.0,
+      "tested": 108,
+      "passed": 0
+    },
+    {
+      "sep": 0.5,
+      "width_scale": 1.15,
+      "tested": 108,
+      "passed": 0
+    },
+    {
+      "sep": 0.6,
+      "width_scale": 0.85,
+      "tested": 108,
+      "passed": 104
+    },
+    {
+      "sep": 0.6,
+      "width_scale": 1.0,
+      "tested": 108,
+      "passed": 37
+    },
+    {
+      "sep": 0.6,
+      "width_scale": 1.15,
+      "tested": 108,
+      "passed": 0
+    },
+    {
+      "sep": 0.7,
+      "width_scale": 0.85,
+      "tested": 108,
+      "passed": 108
+    },
+    {
+      "sep": 0.7,
+      "width_scale": 1.0,
+      "tested": 108,
+      "passed": 108
+    },
+    {
+      "sep": 0.7,
+      "width_scale": 1.15,
+      "tested": 108,
+      "passed": 94
+    },
+    {
+      "sep": 0.8,
+      "width_scale": 0.85,
+      "tested": 108,
+      "passed": 108
+    },
+    {
+      "sep": 0.8,
+      "width_scale": 1.0,
+      "tested": 108,
+      "passed": 108
+    },
+    {
+      "sep": 0.8,
+      "width_scale": 1.15,
+      "tested": 108,
+      "passed": 108
+    },
+    {
+      "sep": 0.9,
+      "width_scale": 0.85,
+      "tested": 108,
+      "passed": 108
+    },
+    {
+      "sep": 0.9,
+      "width_scale": 1.0,
+      "tested": 108,
+      "passed": 108
+    },
+    {
+      "sep": 0.9,
+      "width_scale": 1.15,
+      "tested": 108,
+      "passed": 108
+    }
+  ],
+  "nominal_ten_by_tile": [
+    {
+      "tile": 101829775,
+      "sep": 0.4,
+      "tested": 18,
+      "passed": 0
+    },
+    {
+      "tile": 101829775,
+      "sep": 0.5,
+      "tested": 18,
+      "passed": 0
+    },
+    {
+      "tile": 101829775,
+      "sep": 0.6,
+      "tested": 18,
+      "passed": 4
+    },
+    {
+      "tile": 101829775,
+      "sep": 0.7,
+      "tested": 18,
+      "passed": 18
+    },
+    {
+      "tile": 101829775,
+      "sep": 0.8,
+      "tested": 18,
+      "passed": 18
+    },
+    {
+      "tile": 101829775,
+      "sep": 0.9,
+      "tested": 18,
+      "passed": 18
+    },
+    {
+      "tile": 101829777,
+      "sep": 0.4,
+      "tested": 18,
+      "passed": 0
+    },
+    {
+      "tile": 101829777,
+      "sep": 0.5,
+      "tested": 18,
+      "passed": 0
+    },
+    {
+      "tile": 101829777,
+      "sep": 0.6,
+      "tested": 18,
+      "passed": 10
+    },
+    {
+      "tile": 101829777,
+      "sep": 0.7,
+      "tested": 18,
+      "passed": 18
+    },
+    {
+      "tile": 101829777,
+      "sep": 0.8,
+      "tested": 18,
+      "passed": 18
+    },
+    {
+      "tile": 101829777,
+      "sep": 0.9,
+      "tested": 18,
+      "passed": 18
+    },
+    {
+      "tile": 101829779,
+      "sep": 0.4,
+      "tested": 18,
+      "passed": 0
+    },
+    {
+      "tile": 101829779,
+      "sep": 0.5,
+      "tested": 18,
+      "passed": 0
+    },
+    {
+      "tile": 101829779,
+      "sep": 0.6,
+      "tested": 18,
+      "passed": 8
+    },
+    {
+      "tile": 101829779,
+      "sep": 0.7,
+      "tested": 18,
+      "passed": 18
+    },
+    {
+      "tile": 101829779,
+      "sep": 0.8,
+      "tested": 18,
+      "passed": 18
+    },
+    {
+      "tile": 101829779,
+      "sep": 0.9,
+      "tested": 18,
+      "passed": 18
+    },
+    {
+      "tile": 101830399,
+      "sep": 0.4,
+      "tested": 18,
+      "passed": 0
+    },
+    {
+      "tile": 101830399,
+      "sep": 0.5,
+      "tested": 18,
+      "passed": 0
+    },
+    {
+      "tile": 101830399,
+      "sep": 0.6,
+      "tested": 18,
+      "passed": 3
+    },
+    {
+      "tile": 101830399,
+      "sep": 0.7,
+      "tested": 18,
+      "passed": 18
+    },
+    {
+      "tile": 101830399,
+      "sep": 0.8,
+      "tested": 18,
+      "passed": 18
+    },
+    {
+      "tile": 101830399,
+      "sep": 0.9,
+      "tested": 18,
+      "passed": 18
+    },
+    {
+      "tile": 101830403,
+      "sep": 0.4,
+      "tested": 18,
+      "passed": 0
+    },
+    {
+      "tile": 101830403,
+      "sep": 0.5,
+      "tested": 18,
+      "passed": 0
+    },
+    {
+      "tile": 101830403,
+      "sep": 0.6,
+      "tested": 18,
+      "passed": 5
+    },
+    {
+      "tile": 101830403,
+      "sep": 0.7,
+      "tested": 18,
+      "passed": 18
+    },
+    {
+      "tile": 101830403,
+      "sep": 0.8,
+      "tested": 18,
+      "passed": 18
+    },
+    {
+      "tile": 101830403,
+      "sep": 0.9,
+      "tested": 18,
+      "passed": 18
+    },
+    {
+      "tile": 101830407,
+      "sep": 0.4,
+      "tested": 18,
+      "passed": 0
+    },
+    {
+      "tile": 101830407,
+      "sep": 0.5,
+      "tested": 18,
+      "passed": 0
+    },
+    {
+      "tile": 101830407,
+      "sep": 0.6,
+      "tested": 18,
+      "passed": 7
+    },
+    {
+      "tile": 101830407,
+      "sep": 0.7,
+      "tested": 18,
+      "passed": 18
+    },
+    {
+      "tile": 101830407,
+      "sep": 0.8,
+      "tested": 18,
+      "passed": 18
+    },
+    {
+      "tile": 101830407,
+      "sep": 0.9,
+      "tested": 18,
+      "passed": 18
+    }
+  ]
+}
