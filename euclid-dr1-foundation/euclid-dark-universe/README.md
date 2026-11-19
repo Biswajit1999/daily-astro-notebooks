@@ -39,6 +39,20 @@ directory also records the ATCA C2457 archive identifiers for follow-up.
 
 ## Reproduce
 
+[Abell 3128 arc replay notebook](Abell3128_Arc_Replay.ipynb)
+
+For the arc image and mass proxy alone, run from this directory:
+
+```bash
+python -m pip install -r requirements.txt
+python get_arc_fits.py /tmp/abell3128-inputs
+mkdir -p /tmp/abell3128-results
+python arc_geometry.py /tmp/abell3128-inputs /tmp/abell3128-results
+python rebuild_abell3128.py --inputs /tmp/abell3128-inputs --output /tmp/abell3128-results
+```
+
+The default download replays the four mosaics recorded in the manifest and checks the remote FITS headers, exact byte ranges and data fingerprints. `--discover` queries the live SIA service. The script writes the cutout checksums alongside the files.
+
 Open the notebook or run these commands from this directory:
 
     python -m pip install -r requirements.txt
@@ -55,7 +69,7 @@ Open the notebook or run these commands from this directory:
 
 The archive view includes four calibrated MER cutouts of 491 by 491 pixels. The catalogue analysis reads the 15,072-row public physical-properties table. The compressed BAO fit uses the 13 published distances with covariance, without reprocessing individual DESI galaxy spectra.
 
-The bundled original small catalogue archives and FITS cutouts support an offline replay. The acquisition script records URLs and checksums, while the image manifest records the exact FITS byte ranges. Raw XMM observations were not re-reduced. The report lists the independent published redshift checks and labels the test as a single-plane mass proxy. ECLIPSE catalogue construction includes machine learning and human inspection. This project uses classical calculation and fits applied to the public catalogue and images.
+The downloaded catalogue archives and FITS cutouts support an offline replay once cached locally. The acquisition script records URLs and checksums, while the image manifest records the exact FITS byte ranges. Raw XMM observations were not re-reduced. The report lists the independent published redshift checks and labels the test as a single-plane mass proxy. ECLIPSE catalogue construction includes machine learning and human inspection. This project uses classical calculation and fits applied to the public catalogue and images.
 
 ## Sources
 
