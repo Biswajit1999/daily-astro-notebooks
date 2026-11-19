@@ -1,0 +1,770 @@
+[
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-EffCovOnly_EUCLID_0.0.3-DATA_RELEASE-pcasenov-PLAN-000000-039N34X5-20260826-160417-86-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20260826T172053.035034Z_0.12.fits",
+    "family": "EffCovOnly",
+    "sha256": "f47c92a01a061eb82adb130c4c5199176ba087881909390c0af431a05686cac2",
+    "tile_id": 102040926
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-EffCovOnly_EUCLID_0.0.3-DATA_RELEASE-pcasenov-PLAN-000000-064LMN88-20260826-160418-187-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20260826T142321.375878Z_0.12.fits",
+    "family": "EffCovOnly",
+    "sha256": "09859abc375b92bf50f651eaddaeebcde98eed865b8cec48bb6c45f88d17b784",
+    "tile_id": 102086513
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-EffCovOnly_EUCLID_0.0.3-DATA_RELEASE-pcasenov-PLAN-000000-07MKRI47-20260826-160417-120-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20260826T173839.059487Z_0.12.fits",
+    "family": "EffCovOnly",
+    "sha256": "19c74b440023fc5a20fdad978d66b7802cc377c1b6be2cd64f0b9b19e63900fe",
+    "tile_id": 102042179
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-EffCovOnly_EUCLID_0.0.3-DATA_RELEASE-pcasenov-PLAN-000000-092EZZSB-20260826-160420-341-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20260826T142745.235171Z_0.12.fits",
+    "family": "EffCovOnly",
+    "sha256": "4796de2d4c5d22f288fbc2e8f2e2b31ff79cfced41989af22e517a9a5a68d0a7",
+    "tile_id": 102140856
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-EffCovOnly_EUCLID_0.0.3-DATA_RELEASE-pcasenov-PLAN-000000-0G4S2FB7-20260826-160417-85-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20260826T172119.153285Z_0.12.fits",
+    "family": "EffCovOnly",
+    "sha256": "897b212389c0c90f1592b480fa670713667a2e8759f81177cb80ea36ea9644bd",
+    "tile_id": 102040925
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-EffCovOnly_EUCLID_0.0.3-DATA_RELEASE-pcasenov-PLAN-000000-0MDDLUWY-20260826-160419-303-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20260826T182848.355528Z_0.12.fits",
+    "family": "EffCovOnly",
+    "sha256": "3378007fa601432450e978090f6e3f3443cecbfa73f26b0d43f96351a9ce53d3",
+    "tile_id": 102139297
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-EffCovOnly_EUCLID_0.0.3-DATA_RELEASE-pcasenov-PLAN-000000-0O4YFGWB-20260826-160419-283-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20260826T141848.022793Z_0.12.fits",
+    "family": "EffCovOnly",
+    "sha256": "381e2520d262765e8100c8bae87dfa485c91cab2f3238e9b6c663fd5f7c63e26",
+    "tile_id": 102138740
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-EffCovOnly_EUCLID_0.0.3-DATA_RELEASE-pcasenov-PLAN-000000-0OZ5D4UH-20260826-160419-244-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20260826T181830.792662Z_0.12.fits",
+    "family": "EffCovOnly",
+    "sha256": "e32c6dabf0a73a163012d6f08424c8116341b6edab25fed94241674766e23886",
+    "tile_id": 102090112
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-EffCovOnly_EUCLID_0.0.3-DATA_RELEASE-pcasenov-PLAN-000000-0ROYDGGD-20260826-160421-379-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20260826T143127.950833Z_0.12.fits",
+    "family": "EffCovOnly",
+    "sha256": "8033497313c2fe56fdccc99d58266a9fe32f4dd972bf26219172f58b04cc94bf",
+    "tile_id": 102141896
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-EffCovOnly_EUCLID_0.0.3-DATA_RELEASE-pcasenov-PLAN-000000-0SM7A0WY-20260826-160417-63-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20260826T171111.646597Z_0.12.fits",
+    "family": "EffCovOnly",
+    "sha256": "233a8934757372a55aae8d73a395f669bb912259f0dba93b16a61c5b8fde47e1",
+    "tile_id": 102039696
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-EffCovOnly_EUCLID_0.0.3-DATA_RELEASE-pcasenov-PLAN-000000-19P9LIZU-20260826-160417-45-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20260826T170846.182642Z_0.12.fits",
+    "family": "EffCovOnly",
+    "sha256": "0ada37ec4083e7181faf162a4db77b3331d4cdd454c62e73315e86c77f68d465",
+    "tile_id": 102039078
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-EffCovOnly_EUCLID_0.0.3-DATA_RELEASE-pcasenov-PLAN-000000-1LDUEFNK-20260826-160420-333-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20260826T183221.197928Z_0.12.fits",
+    "family": "EffCovOnly",
+    "sha256": "4f2dc21e6772e035632e7afd103915b5448ff462856846864be4345c8fe00d69",
+    "tile_id": 102140355
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-EffCovOnly_EUCLID_0.0.3-DATA_RELEASE-pcasenov-PLAN-000000-1MZ0GRUR-20260826-160418-174-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20260826T175436.030479Z_0.12.fits",
+    "family": "EffCovOnly",
+    "sha256": "ff53f4bd608d85e39daa8cc6137aaefba93483beb16ec88a58d1f71aa5d66b91",
+    "tile_id": 102045367
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-EffCovOnly_EUCLID_0.0.3-DATA_RELEASE-pcasenov-PLAN-000000-1NTV8YR0-20260826-160418-223-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20260826T181259.300825Z_0.12.fits",
+    "family": "EffCovOnly",
+    "sha256": "42443911291d4cdb4b10d4ceebcbbaee94f0a44861c6b25e4fd5b23563e60248",
+    "tile_id": 102088679
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-EffCovOnly_EUCLID_0.0.3-DATA_RELEASE-pcasenov-PLAN-000000-1PDPJDFC-20260826-160416-27-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20260826T165845.038021Z_0.12.fits",
+    "family": "EffCovOnly",
+    "sha256": "b0903e32e1a4436a66e15b153c1c0d2fb8c64ce8c4ebb5b2478de8312988c25a",
+    "tile_id": 102038463
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-EffCovOnly_EUCLID_0.0.3-DATA_RELEASE-pcasenov-PLAN-000000-24ONYEDC-20260826-160418-205-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20260826T180602.512516Z_0.12.fits",
+    "family": "EffCovOnly",
+    "sha256": "0b2fdd94aff5c0034928103340cbe54d32fb7f05a8a6154db3e641c8f2dd264a",
+    "tile_id": 102087953
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-EffCovOnly_EUCLID_0.0.3-DATA_RELEASE-pcasenov-PLAN-000000-25FB0NQL-20260826-160418-222-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20260826T142808.737810Z_0.12.fits",
+    "family": "EffCovOnly",
+    "sha256": "482c89bd1665f9b4a0ba715912b292dd63ac0dc7a051ad317ae3f68d579bffe3",
+    "tile_id": 102088678
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-EffCovOnly_EUCLID_0.0.3-DATA_RELEASE-pcasenov-PLAN-000000-25MM1HBN-20260826-160417-111-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20260826T172954.703129Z_0.12.fits",
+    "family": "EffCovOnly",
+    "sha256": "ff115c0756464a46b2ba9171f66d84e55324b66fe420af2d229c3cd0ee43cc2f",
+    "tile_id": 102041559
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-EffCovOnly_EUCLID_0.0.3-DATA_RELEASE-pcasenov-PLAN-000000-2AF2YD8F-20260826-160417-61-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20260826T171740.965932Z_0.12.fits",
+    "family": "EffCovOnly",
+    "sha256": "233f8e71260b761e2b965d6643b322eb265681ea11b858d09347c9b5132eb787",
+    "tile_id": 102039694
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-EffCovOnly_EUCLID_0.0.3-DATA_RELEASE-pcasenov-PLAN-000000-2BQC2NTQ-20260826-160417-62-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20260826T171740.944537Z_0.12.fits",
+    "family": "EffCovOnly",
+    "sha256": "1a97b13f3c8d582c33f2a3c427a9258cb6793e6e83bc38af0fd4249ff140774d",
+    "tile_id": 102039695
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-EffCovOnly_EUCLID_0.0.3-DATA_RELEASE-pcasenov-PLAN-000000-2HMB8TKQ-20260826-160417-118-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20260826T173408.817127Z_0.12.fits",
+    "family": "EffCovOnly",
+    "sha256": "b4d4bb44140645ecf1dd660c5b04beccfa0e48ed83fb80e94c236c5b653a35b1",
+    "tile_id": 102042177
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-EffCovOnly_EUCLID_0.0.3-DATA_RELEASE-pcasenov-PLAN-000000-2LZP1LWD-20260826-160418-180-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20260826T175116.765433Z_0.12.fits",
+    "family": "EffCovOnly",
+    "sha256": "7fdaf5c05d6eb04fb84f1a431b08747332ed28e6150d49eb8e52a6edcd7b57b5",
+    "tile_id": 102085790
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-EffCovOnly_EUCLID_0.0.3-DATA_RELEASE-pcasenov-PLAN-000000-2O8R7PGF-20260826-160416-18-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20260826T170200.226711Z_0.12.fits",
+    "family": "EffCovOnly",
+    "sha256": "6c47b3eda43ad960683466a6e734f60714831a5e1f24f465151f52b2e5fb3e6b",
+    "tile_id": 102037858
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-EffCovOnly_EUCLID_0.0.3-DATA_RELEASE-pcasenov-PLAN-000000-2OFOJPAZ-20260826-160419-257-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20260826T181830.324808Z_0.12.fits",
+    "family": "EffCovOnly",
+    "sha256": "cbecedcaf417ce7d3886b77ab7f1e36d9952fa11cc2848ba7abd8b1a52339df1",
+    "tile_id": 102090833
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-EffCovOnly_EUCLID_0.0.3-DATA_RELEASE-pcasenov-PLAN-000000-2QV5Z0SP-20260826-160417-124-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20260826T173413.092088Z_0.12.fits",
+    "family": "EffCovOnly",
+    "sha256": "0e99e06e28672e3f96598294b64ad24a30382fdce30e02b0075c19d15e0d4fe8",
+    "tile_id": 102042183
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-EffCovOnly_EUCLID_0.0.3-DATA_RELEASE-pcasenov-PLAN-000000-2WNP3GU0-20260826-160418-214-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20260826T143603.938316Z_0.12.fits",
+    "family": "EffCovOnly",
+    "sha256": "ca6567745eafacbbefd9182777f2013af3897a5fb49cbbe5d8315bfde1c50abf",
+    "tile_id": 102088670
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-EffCovOnly_EUCLID_0.0.3-DATA_RELEASE-pcasenov-PLAN-000000-31CIHW84-20260826-160420-321-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20260826T183310.923992Z_0.12.fits",
+    "family": "EffCovOnly",
+    "sha256": "303720786c4d6f7218e0a3498696b7173a6c39a30ec012e9f4167ab3b22065f1",
+    "tile_id": 102139832
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-EffCovOnly_EUCLID_0.0.3-DATA_RELEASE-pcasenov-PLAN-000000-3AQYH04W-20260826-160419-256-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20260826T182159.263228Z_0.12.fits",
+    "family": "EffCovOnly",
+    "sha256": "b38c35437803494f3c909350e49aad9cfad32bc0c5e198cc1d0a48f3410ef430",
+    "tile_id": 102090832
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-EffCovOnly_EUCLID_0.0.3-DATA_RELEASE-pcasenov-PLAN-000000-3C8CLR6M-20260826-160417-139-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20260826T174157.791166Z_0.12.fits",
+    "family": "EffCovOnly",
+    "sha256": "c4f5912557ea36cabd9a5f849719c7caa96213c26c441bb1d8eacbb703eaef33",
+    "tile_id": 102042814
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-EffCovOnly_EUCLID_0.0.3-DATA_RELEASE-pcasenov-PLAN-000000-3FVRB8U3-20260826-160420-350-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20260826T183535.103317Z_0.12.fits",
+    "family": "EffCovOnly",
+    "sha256": "f948e2ff9157d550ec739db03147cd36a5edb6cf83d628d02495bcf3bbb175c9",
+    "tile_id": 102140879
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-EffCovOnly_EUCLID_0.0.3-DATA_RELEASE-pcasenov-PLAN-000000-3G555NMB-20260826-160417-154-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20260826T175245.539114Z_0.12.fits",
+    "family": "EffCovOnly",
+    "sha256": "cca7f31d3f8a28c8c251bc6a8fe917c60b5c43feefbe0e87e7f515b6f876199b",
+    "tile_id": 102043450
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-EffCovOnly_EUCLID_0.0.3-DATA_RELEASE-pcasenov-PLAN-000000-3HRFVJ1B-20260826-160418-166-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20260826T175225.697880Z_0.12.fits",
+    "family": "EffCovOnly",
+    "sha256": "b3d3c6158505a9f534bd966c095c1185c8f80e143bcd58062ca7b63a03e16997",
+    "tile_id": 102044089
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-EffCovOnly_EUCLID_0.0.3-DATA_RELEASE-pcasenov-PLAN-000000-3IF057K7-20260826-160420-330-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20260826T142757.581765Z_0.12.fits",
+    "family": "EffCovOnly",
+    "sha256": "0945b5eda50353100e8ab4181b31488d84ff8af1f810ff3040fd8f0baa57aed8",
+    "tile_id": 102140338
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-EffCovOnly_EUCLID_0.0.3-DATA_RELEASE-pcasenov-PLAN-000000-3K74UMAW-20260826-160418-172-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20260826T175520.744623Z_0.12.fits",
+    "family": "EffCovOnly",
+    "sha256": "39c5305f1cc72b2613fa19c995dea84b7f5668dae98df526e77725f9c3f5766a",
+    "tile_id": 102044727
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-EffCovOnly_EUCLID_0.0.3-DATA_RELEASE-pcasenov-PLAN-000000-3LGERDLX-20260826-160418-202-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20260826T181024.796430Z_0.12.fits",
+    "family": "EffCovOnly",
+    "sha256": "67c18c7cef46d05db7406dbece901ed99664ffbb589ebf8b0343548b28a82430",
+    "tile_id": 102087950
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-EffCovOnly_EUCLID_0.0.3-DATA_RELEASE-pcasenov-PLAN-000000-3OPIWG6A-20260826-160417-69-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20260826T170958.106753Z_0.12.fits",
+    "family": "EffCovOnly",
+    "sha256": "d01c4cd3ec76ad8caaf032b8d9324eb977e6660c65f843683422b657ba71f8c3",
+    "tile_id": 102040304
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-EffCovOnly_EUCLID_0.0.3-DATA_RELEASE-pcasenov-PLAN-000000-3RQ85Z3O-20260826-160420-336-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20260826T183507.994240Z_0.12.fits",
+    "family": "EffCovOnly",
+    "sha256": "054da0f188de762c989b94f4170120de9a565cc5f8bf3d09522cd22902683233",
+    "tile_id": 102140358
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-EffCovOnly_EUCLID_0.0.3-DATA_RELEASE-pcasenov-PLAN-000000-3T69DUV4-20260826-160418-208-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20260826T180730.341659Z_0.12.fits",
+    "family": "EffCovOnly",
+    "sha256": "9e4c4212d9d8085fd27c13a154ea95fb8da3a16261977b58276cd1d57553e805",
+    "tile_id": 102087956
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-EffCovOnly_EUCLID_0.0.3-DATA_RELEASE-pcasenov-PLAN-000000-3U2GYNTF-20260826-160417-95-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20260826T172957.539626Z_0.12.fits",
+    "family": "EffCovOnly",
+    "sha256": "3f40f4134e2e1eb00c752574c7673da78fe9a73c9030509ba95965d65d939f98",
+    "tile_id": 102040935
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-EffCovOnly_EUCLID_0.0.3-DATA_RELEASE-pcasenov-PLAN-000000-4017GJLX-20260826-160417-68-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20260826T172047.553033Z_0.12.fits",
+    "family": "EffCovOnly",
+    "sha256": "85b6304b2ed7dfedfa039448fb086f826ba9d9755fcdd9e823b0702caad8bff4",
+    "tile_id": 102039701
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-EffCovOnly_EUCLID_0.0.3-DATA_RELEASE-pcasenov-PLAN-000000-40M6X5KB-20260826-160416-6-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20260826T165307.185057Z_0.12.fits",
+    "family": "EffCovOnly",
+    "sha256": "061529695b94399492a6b4462a6d1eb4583c394ea39075ac1ec35af9a52af85e",
+    "tile_id": 102036656
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-EffCovOnly_EUCLID_0.0.3-DATA_RELEASE-pcasenov-PLAN-000000-451P4F42-20260826-160418-236-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20260826T181100.670008Z_0.12.fits",
+    "family": "EffCovOnly",
+    "sha256": "d22d96c89b86791d673e519a445f3b005b2e65ded804810599010416978b1965",
+    "tile_id": 102089398
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-EffCovOnly_EUCLID_0.0.3-DATA_RELEASE-pcasenov-PLAN-000000-45P8FFJM-20260826-160418-176-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20260826T142316.264131Z_0.12.fits",
+    "family": "EffCovOnly",
+    "sha256": "8e6e64bff27d628852593a24bb58d6ff9f9a21b507904a61405c5366f62340d7",
+    "tile_id": 102085068
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-EffCovOnly_EUCLID_0.0.3-DATA_RELEASE-pcasenov-PLAN-000000-48EX7BPD-20260826-160418-191-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20260826T175959.852423Z_0.12.fits",
+    "family": "EffCovOnly",
+    "sha256": "44bc2644bf116e64a566405dbef94689a7c408d04dff5f258992aa7bc813ea8b",
+    "tile_id": 102087229
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-EffCovOnly_EUCLID_0.0.3-DATA_RELEASE-pcasenov-PLAN-000000-4E4GPOLX-20260826-160421-374-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20260826T183450.283260Z_0.12.fits",
+    "family": "EffCovOnly",
+    "sha256": "6d62bbd756676d45064716b01243d451345442660958764dab895559236e2a90",
+    "tile_id": 102141406
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-EffCovOnly_EUCLID_0.0.3-DATA_RELEASE-pcasenov-PLAN-000000-4O271YRW-20260826-160419-250-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20260826T181324.266268Z_0.12.fits",
+    "family": "EffCovOnly",
+    "sha256": "cc1296e66c84a3db12afe99996151707d4aef0ba85008ac991ffbe410017dc8e",
+    "tile_id": 102090118
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-EffCovOnly_EUCLID_0.0.3-DATA_RELEASE-pcasenov-PLAN-000000-4SSD0IQW-20260826-160417-74-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20260826T171926.283095Z_0.12.fits",
+    "family": "EffCovOnly",
+    "sha256": "eb60f9819df198354ac05321155ec9cbfef654cf9ba0d725f81d301d0c2eefe5",
+    "tile_id": 102040309
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-EffCovOnly_EUCLID_0.0.3-DATA_RELEASE-pcasenov-PLAN-000000-4YJR9DKM-20260826-160418-233-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20260826T181018.490662Z_0.12.fits",
+    "family": "EffCovOnly",
+    "sha256": "12ebaf25beb1605a45dc5df3a96e75247f597b596fcc231c818e749bfd270f34",
+    "tile_id": 102089395
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-EffCovOnly_EUCLID_0.0.3-DATA_RELEASE-pcasenov-PLAN-000000-50KQCKX1-20260826-160420-310-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20260826T142548.730901Z_0.12.fits",
+    "family": "EffCovOnly",
+    "sha256": "fbe90f2e8c11bcbd5a33b56258f47ae303c01ef44efecd8b97119d8255a48b77",
+    "tile_id": 102139807
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-EffCovOnly_EUCLID_0.0.3-DATA_RELEASE-pcasenov-PLAN-000000-50Q6YFMG-20260826-160418-186-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20260826T180107.557941Z_0.12.fits",
+    "family": "EffCovOnly",
+    "sha256": "f7f1e54bbf1b3c38233b117324acadcdd1a04b977cc576f52d90d90d6e616ea4",
+    "tile_id": 102086512
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-EffCovOnly_EUCLID_0.0.3-DATA_RELEASE-pcasenov-PLAN-000000-51ARJJXZ-20260826-160417-48-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20260826T170908.734765Z_0.12.fits",
+    "family": "EffCovOnly",
+    "sha256": "2630c48c0b0a5ae5a43cade4efa4e5c54cafe07771b6335b34594dffe07b77cf",
+    "tile_id": 102039081
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-EffCovOnly_EUCLID_0.0.3-DATA_RELEASE-pcasenov-PLAN-000000-5BL6E7TY-20260826-160419-294-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20260826T141642.568555Z_0.12.fits",
+    "family": "EffCovOnly",
+    "sha256": "f11b6d51ebf5dc612c91e7723a9e1e243987f248176614c2568d894ea1745db8",
+    "tile_id": 102139274
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-EffCovOnly_EUCLID_0.0.3-DATA_RELEASE-pcasenov-PLAN-000000-5J0TP81U-20260826-160416-1-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20260826T165335.755989Z_0.12.fits",
+    "family": "EffCovOnly",
+    "sha256": "0b95f151e81a750540674989e2883458ef77b198dd0b9b8b2aede1e7992f1a24",
+    "tile_id": 102036057
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-EffCovOnly_EUCLID_0.0.3-DATA_RELEASE-pcasenov-PLAN-000000-5OD76KHP-20260826-160420-313-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20260826T142110.066936Z_0.12.fits",
+    "family": "EffCovOnly",
+    "sha256": "8628a463ffa6dbe742741a0570bceb8a25aa92b9d8ada19dc5151adc9253e79b",
+    "tile_id": 102139810
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-EffCovOnly_EUCLID_0.0.3-DATA_RELEASE-pcasenov-PLAN-000000-5OEL75ZK-20260826-160418-198-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20260826T175947.844776Z_0.12.fits",
+    "family": "EffCovOnly",
+    "sha256": "67e85d9ab5b65149a8635ee25d412b4e7a65b91beaee970a147837f4c8b64787",
+    "tile_id": 102087946
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-EffCovOnly_EUCLID_0.0.3-DATA_RELEASE-pcasenov-PLAN-000000-5R4FAFCV-20260826-160417-60-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20260826T171113.115695Z_0.12.fits",
+    "family": "EffCovOnly",
+    "sha256": "c7150071dcbdbdc3ffc463a8badcce23a2044dab02fed4e3a9cac9c52006e428",
+    "tile_id": 102039693
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-EffCovOnly_EUCLID_0.0.3-DATA_RELEASE-pcasenov-PLAN-000000-5TKVIQBY-20260826-160419-297-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20260826T141943.299170Z_0.12.fits",
+    "family": "EffCovOnly",
+    "sha256": "b23d31261eb373b44027552f123e501fc4234aaeb4df041acc3264385842e113",
+    "tile_id": 102139277
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-EffCovOnly_EUCLID_0.0.3-DATA_RELEASE-pcasenov-PLAN-000000-5TUGCS9Y-20260826-160421-381-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20260826T143419.192600Z_0.12.fits",
+    "family": "EffCovOnly",
+    "sha256": "f1ea960ab5217a957a4d551c72d27a860396aacdd3d94c543c3e096c6c741269",
+    "tile_id": 102141898
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-EffCovOnly_EUCLID_0.0.3-DATA_RELEASE-pcasenov-PLAN-000000-5UKQMJUN-20260826-160421-369-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20260826T184417.988894Z_0.12.fits",
+    "family": "EffCovOnly",
+    "sha256": "7b79710b66a3eded15f93eeb7d8cd8675bec5df23299772bdfbdddbb7759aafa",
+    "tile_id": 102141401
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-EffCovOnly_EUCLID_0.0.3-DATA_RELEASE-pcasenov-PLAN-000000-5US25I9N-20260826-160419-296-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20260826T141637.685589Z_0.12.fits",
+    "family": "EffCovOnly",
+    "sha256": "37043f69a4eec1c719a67218586d54a16f9a43a8fb6e3aed4eff8d17c9cd2be8",
+    "tile_id": 102139276
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-EffCovOnly_EUCLID_0.0.3-DATA_RELEASE-pcasenov-PLAN-000000-5UVT3IST-20260826-160417-121-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20260826T174033.312827Z_0.12.fits",
+    "family": "EffCovOnly",
+    "sha256": "e826b3947ec453dfff23bdf001d08f920af32b16dfb2250e69c7c895697d67d9",
+    "tile_id": 102042180
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-EffCovOnly_EUCLID_0.0.3-DATA_RELEASE-pcasenov-PLAN-000000-5VDGU9HN-20260826-160417-44-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20260826T170614.801230Z_0.12.fits",
+    "family": "EffCovOnly",
+    "sha256": "54e3f7164575f0d5616f097713a35bdee323256047e9eb8fb0d4d40af67fff4b",
+    "tile_id": 102039077
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-EffCovOnly_EUCLID_0.0.3-DATA_RELEASE-pcasenov-PLAN-000000-5XI5YN6U-20260826-160417-116-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20260826T172923.710713Z_0.12.fits",
+    "family": "EffCovOnly",
+    "sha256": "9881c848507f56892d0e12cea784defaa7ec5ab72ad785ebe75547f58c59f61a",
+    "tile_id": 102041564
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-EffCovOnly_EUCLID_0.0.3-DATA_RELEASE-pcasenov-PLAN-000000-68TKOBUL-20260826-160417-66-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20260826T171815.395877Z_0.12.fits",
+    "family": "EffCovOnly",
+    "sha256": "a00958728a55e557856fb6e9f2ac4936a09b66ca2d5476a9c0992f45b83ba005",
+    "tile_id": 102039699
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-MosaicMasks_EUCLID_3.0.6-DATA_RELEASE-pcasenov-PLAN-000000-007IEWXZ-20250801-173430-1738-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20250803T033259.075220Z_0.12.fits",
+    "family": "MosaicMasks",
+    "sha256": "0835ce0f23234c10f237ccf65905be8e7ec55c82802866c31dd827707d366497",
+    "tile_id": 102038020
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-MosaicMasks_EUCLID_3.0.6-DATA_RELEASE-pcasenov-PLAN-000000-00F9M5UP-20250816-172318-26-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20250816T214950.679811Z_0.12.fits",
+    "family": "MosaicMasks",
+    "sha256": "2e96ca438359365d56e992ffb7bf2b8446bfcf3ba15354a500becef3c0375a53",
+    "tile_id": 102036762
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-MosaicMasks_EUCLID_3.0.6-DATA_RELEASE-pcasenov-PLAN-000000-00JURI4D-20250801-173410-715-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20250803T011400.799475Z_0.12.fits",
+    "family": "MosaicMasks",
+    "sha256": "f73351aa65b31de5a343a77a5f1a20e819a3c2d0ce44eab1c46a345086d25418",
+    "tile_id": 102017793
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-MosaicMasks_EUCLID_3.0.6-DATA_RELEASE-pcasenov-PLAN-000000-00SF47OF-20250801-173402-271-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20250801T224509.526203Z_0.12.fits",
+    "family": "MosaicMasks",
+    "sha256": "408c5e046d0f84de07577e47c6261c9d0bae21ab4e6b963cbf79b243dab384d6",
+    "tile_id": 102012369
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-MosaicMasks_EUCLID_3.0.6-DATA_RELEASE-pcasenov-PLAN-000000-00V7D7YP-20250817-142315-9-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20250817T223908.309659Z_0.12.fits",
+    "family": "MosaicMasks",
+    "sha256": "242d4e34eb014bae43c1517de1fb7e6d0aeb627f01ed0c205275dcd429813705",
+    "tile_id": 102037998
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-MosaicMasks_EUCLID_3.0.6-DATA_RELEASE-pcasenov-PLAN-000000-00VI58PB-20250803-082306-4-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20250803T104749.600036Z_0.12.fits",
+    "family": "MosaicMasks",
+    "sha256": "02b16eef9c203b483d6b63ae7a8b7829e7eb0f7e520c993da7b6a3d990507e00",
+    "tile_id": 102013160
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-MosaicMasks_EUCLID_3.0.6-DATA_RELEASE-pcasenov-PLAN-000000-013X7B08-20250801-173432-1862-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20250801T221246.761034Z_0.12.fits",
+    "family": "MosaicMasks",
+    "sha256": "2efe31d76019d1bd25c45184f6dced212d272762bd492ac301a8dd410fa97090",
+    "tile_id": 102041698
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-MosaicMasks_EUCLID_3.0.6-DATA_RELEASE-pcasenov-PLAN-000000-019YM7NI-20250813-172435-10-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20250815T143051.677900Z_0.12.fits",
+    "family": "MosaicMasks",
+    "sha256": "afa62f0d5d93b728b548255bdb305c0d111301637b04f736bf83b2521239436b",
+    "tile_id": 102028160
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-MosaicMasks_EUCLID_3.0.6-DATA_RELEASE-pcasenov-PLAN-000000-01NGR1LF-20250801-173405-434-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20250802T193328.279907Z_0.12.fits",
+    "family": "MosaicMasks",
+    "sha256": "ea747fda3e95255ae9dc58dd281b98c9e74143b4a6358aad6a36e396d1cf8351",
+    "tile_id": 102014377
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-MosaicMasks_EUCLID_3.0.6-DATA_RELEASE-pcasenov-PLAN-000000-01S35API-20250808-082313-26-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20250808T132338.204223Z_0.12.fits",
+    "family": "MosaicMasks",
+    "sha256": "bf702b189edb8149a15d3f5e8bd8ba41e2a6758a9b5427d8be2ca019a6fab4c8",
+    "tile_id": 102033282
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-MosaicMasks_EUCLID_3.0.6-DATA_RELEASE-pcasenov-PLAN-000000-01VXPM6Q-20250810-052312-9-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20250813T102321.348077Z_0.12.fits",
+    "family": "MosaicMasks",
+    "sha256": "dbe6d1a63539362eecf9b66194191a05a1d67f68dcc2af5bb908a67c3317907d",
+    "tile_id": 102017289
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-MosaicMasks_EUCLID_3.0.6-DATA_RELEASE-pcasenov-PLAN-000000-01ZNT49M-20250808-172310-3-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20250808T183430.770944Z_0.12.fits",
+    "family": "MosaicMasks",
+    "sha256": "25c13801ff20f5c70de1ad3fc2776a7dbb7ccb8ac15f38597429b424b68cd1f5",
+    "tile_id": 102013500
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-MosaicMasks_EUCLID_3.0.6-DATA_RELEASE-pcasenov-PLAN-000000-026UZFIW-20250801-173437-2124-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20250802T074646.979344Z_0.12.fits",
+    "family": "MosaicMasks",
+    "sha256": "e335558486c8778c20c0490f321bcb6f954db11191d3e341007c248827c2b1bf",
+    "tile_id": 102057484
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-MosaicMasks_EUCLID_3.0.6-DATA_RELEASE-pcasenov-PLAN-000000-02DPE361-20250801-173455-3017-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20250801T164152.894891Z_0.12.fits",
+    "family": "MosaicMasks",
+    "sha256": "7372f6feab9f77bfe50242560f8b9cf24767edabfc05fde16e798bdc0df3b59e",
+    "tile_id": 102162067
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-MosaicMasks_EUCLID_3.0.6-DATA_RELEASE-pcasenov-PLAN-000000-02HF01VA-20250811-202310-19-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20250815T031934.124023Z_0.12.fits",
+    "family": "MosaicMasks",
+    "sha256": "905e05ec5033f25105c4dd0205deb7a7a509660d3ed86c4c996fd2024b275b16",
+    "tile_id": 102027619
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-MosaicMasks_EUCLID_3.0.6-DATA_RELEASE-pcasenov-PLAN-000000-02JDBTDT-20250801-173505-3489-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20250801T191751.810290Z_0.12.fits",
+    "family": "MosaicMasks",
+    "sha256": "9a6c5967641a327c84aeddde757a2e377a00fb90fdb57344dd8a68babd7ebede",
+    "tile_id": 102163757
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-MosaicMasks_EUCLID_3.0.6-DATA_RELEASE-pcasenov-PLAN-000000-02PL4BUI-20250801-173423-1358-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20250801T232032.506177Z_0.12.fits",
+    "family": "MosaicMasks",
+    "sha256": "500feaa6b478d999701f03d84c7a9cde12289a17e14937011777fd10a7f93345",
+    "tile_id": 102029244
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-MosaicMasks_EUCLID_3.0.6-DATA_RELEASE-pcasenov-PLAN-000000-02YK59NV-20250812-202314-24-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20250812T223243.718250Z_0.12.fits",
+    "family": "MosaicMasks",
+    "sha256": "d9cd61b42314cfc1ea5f204ea7f333763bc9944052e1a689143e272bf9829876",
+    "tile_id": 102032656
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-MosaicMasks_EUCLID_3.0.6-DATA_RELEASE-pcasenov-PLAN-000000-037NIRMU-20250811-112321-58-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20250813T110108.892187Z_0.12.fits",
+    "family": "MosaicMasks",
+    "sha256": "117bf3a23ed75cd7eb0190f664d96e5c12135c27b26f977f385ef4a04cedcb04",
+    "tile_id": 102153317
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-MosaicMasks_EUCLID_3.0.6-DATA_RELEASE-pcasenov-PLAN-000000-03B8ZP7O-20250803-082306-21-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20250803T160217.468108Z_0.12.fits",
+    "family": "MosaicMasks",
+    "sha256": "a25f47841969c3d255dff64df426cd164b4de6d27ace254b7422dee48c927b31",
+    "tile_id": 102024504
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-MosaicMasks_EUCLID_3.0.6-DATA_RELEASE-pcasenov-PLAN-000000-03PXREQ0-20250812-082309-30-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20250812T141504.953289Z_0.12.fits",
+    "family": "MosaicMasks",
+    "sha256": "0ec87c546b72511a8c8854756225d7b730cf93607fbf40b74b236e55dd70ccec",
+    "tile_id": 102046179
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-MosaicMasks_EUCLID_3.0.6-DATA_RELEASE-pcasenov-PLAN-000000-0410QJOX-20250801-173428-1663-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20250803T002838.873200Z_0.12.fits",
+    "family": "MosaicMasks",
+    "sha256": "47a860413a41999f31a59039d8a1e9468e630c2d39db96c6cc172301ef4aba55",
+    "tile_id": 102036183
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-MosaicMasks_EUCLID_3.0.6-DATA_RELEASE-pcasenov-PLAN-000000-0495XQNR-20250820-172351-5-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20250820T154330.851909Z_0.12.fits",
+    "family": "MosaicMasks",
+    "sha256": "27f6e660b39f149986c4788d579f10cb48f7e06c33814f9192b5cd3dbc4dc995",
+    "tile_id": 102032085
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-MosaicMasks_EUCLID_3.0.6-DATA_RELEASE-pcasenov-PLAN-000000-04DBCOJA-20250801-173449-2719-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20250801T195531.103790Z_0.12.fits",
+    "family": "MosaicMasks",
+    "sha256": "5e7557fd0bf992d017419213b1ae217a05ef3bb79d5b641e07d2a156527ec104",
+    "tile_id": 102161041
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-MosaicMasks_EUCLID_3.0.6-DATA_RELEASE-pcasenov-PLAN-000000-04FV902V-20250801-173503-3400-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20250801T183559.775869Z_0.12.fits",
+    "family": "MosaicMasks",
+    "sha256": "ac7129d0be01487fc26c1041d82461dde9fe2916d09e8fe513c5f3437c77a9b1",
+    "tile_id": 102163373
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-MosaicMasks_EUCLID_3.0.6-DATA_RELEASE-pcasenov-PLAN-000000-052M97SB-20250809-232313-42-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20250810T031751.261726Z_0.12.fits",
+    "family": "MosaicMasks",
+    "sha256": "1222b10fd3f165ee968fdbd14a8bf1bff6c12f05405d9ddf61334dd6736a2f1a",
+    "tile_id": 102039216
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-MosaicMasks_EUCLID_3.0.6-DATA_RELEASE-pcasenov-PLAN-000000-053ATY46-20250808-022309-12-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20250808T044951.628686Z_0.12.fits",
+    "family": "MosaicMasks",
+    "sha256": "8fa63399129d64f07bddbb0c5c2d27334886a9102f073fd7e70fa4b0588a6e8a",
+    "tile_id": 102025501
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-MosaicMasks_EUCLID_3.0.6-DATA_RELEASE-pcasenov-PLAN-000000-05CJOWTU-20250801-173450-2740-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20250801T220952.798399Z_0.12.fits",
+    "family": "MosaicMasks",
+    "sha256": "38b8143af523be0dab6c1a4ec036583e64294415ff2adcc8ece24f8e0d01b99d",
+    "tile_id": 102161071
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-MosaicMasks_EUCLID_3.0.6-DATA_RELEASE-pcasenov-PLAN-000000-05FFJ2SK-20250801-173451-2830-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20250801T160048.642156Z_0.12.fits",
+    "family": "MosaicMasks",
+    "sha256": "36d9e8824dec1612a5a88174c4c3f77902c2f8ee4f7803f09d9ee82910b72c8d",
+    "tile_id": 102161354
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-MosaicMasks_EUCLID_3.0.6-DATA_RELEASE-pcasenov-PLAN-000000-05G1HBD4-20250801-173427-1603-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20250802T233127.080814Z_0.12.fits",
+    "family": "MosaicMasks",
+    "sha256": "a99220c6c3928b10d9710562e6f0d11f085014863a316a3f9139ef0993a984cd",
+    "tile_id": 102034979
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-MosaicMasks_EUCLID_3.0.6-DATA_RELEASE-pcasenov-PLAN-000000-05RRUXCN-20250801-173405-416-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20250801T233922.329034Z_0.12.fits",
+    "family": "MosaicMasks",
+    "sha256": "d7b4dce417313470861716137a710e51438d95e9ba31ba09f50a56ff73223447",
+    "tile_id": 102014326
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-MosaicMasks_EUCLID_3.0.6-DATA_RELEASE-pcasenov-PLAN-000000-062NBDJE-20250801-173445-2521-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20250801T190820.548274Z_0.12.fits",
+    "family": "MosaicMasks",
+    "sha256": "ecaea354447fd721a298e6067f256d23e082ef31fd5492bf400ae5ad48d28284",
+    "tile_id": 102159992
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-MosaicMasks_EUCLID_3.0.6-DATA_RELEASE-pcasenov-PLAN-000000-0640O7FN-20250810-172314-2-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20250814T014742.511820Z_0.12.fits",
+    "family": "MosaicMasks",
+    "sha256": "c1301c02c4ec4cea09b023a4eb801f56942fd92022a58fe0e1a872701c080e79",
+    "tile_id": 102011936
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-MosaicMasks_EUCLID_3.0.6-DATA_RELEASE-pcasenov-PLAN-000000-06EVU232-20250805-142308-36-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20250805T233817.018154Z_0.12.fits",
+    "family": "MosaicMasks",
+    "sha256": "d1a91e7a86dd0973c326458b5977e74807af35c77817e1a1cc7d1e9f6e918053",
+    "tile_id": 102055439
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-MosaicMasks_EUCLID_3.0.6-DATA_RELEASE-pcasenov-PLAN-000000-06FFX9OJ-20250810-082314-16-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20250813T102805.536814Z_0.12.fits",
+    "family": "MosaicMasks",
+    "sha256": "811101c6363c853e6b4a75759c5b89655f0ea3e96dd8482a30d5478fec8a96c4",
+    "tile_id": 102019601
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-MosaicMasks_EUCLID_3.0.6-DATA_RELEASE-pcasenov-PLAN-000000-06NOV2DJ-20250801-173433-1908-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20250801T235700.430484Z_0.12.fits",
+    "family": "MosaicMasks",
+    "sha256": "98e27c12232932870e51b0f6125e5de66c014d5ec60bf77e860bcfcb517acbab",
+    "tile_id": 102043580
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-MosaicMasks_EUCLID_3.0.6-DATA_RELEASE-pcasenov-PLAN-000000-06OFB9PB-20250813-022313-32-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20250813T051759.715069Z_0.12.fits",
+    "family": "MosaicMasks",
+    "sha256": "18f48de8bc44e9d401357228df15b0dad0e92db13388222cb32f9a35126ea2e3",
+    "tile_id": 102032692
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-MosaicMasks_EUCLID_3.0.6-DATA_RELEASE-pcasenov-PLAN-000000-06SE04EC-20250807-142316-17-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20250807T175656.568116Z_0.12.fits",
+    "family": "MosaicMasks",
+    "sha256": "3d25665b6511d3467f549584537eca34c108ba3d7ce7352d6fde4b39aa00b1a6",
+    "tile_id": 102021972
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-MosaicMasks_EUCLID_3.0.6-DATA_RELEASE-pcasenov-PLAN-000000-06XOJQZ2-20250801-173429-1686-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20250802T013929.648871Z_0.12.fits",
+    "family": "MosaicMasks",
+    "sha256": "c29183dc26d14e34027286a53c98a109386cb13ce0e5cc90ca2041fa416a1fd5",
+    "tile_id": 102036747
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-MosaicMasks_EUCLID_3.0.6-DATA_RELEASE-pcasenov-PLAN-000000-06XSO8IQ-20250802-022303-11-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20250802T111156.345340Z_0.12.fits",
+    "family": "MosaicMasks",
+    "sha256": "6fd3db2489252915f9c135755279baa7f3c4ce1a5d630b870d10577fa1a3ce5e",
+    "tile_id": 102017761
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-MosaicMasks_EUCLID_3.0.6-DATA_RELEASE-pcasenov-PLAN-000000-06YXD0HB-20250802-082259-7-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20250802T114156.841181Z_0.12.fits",
+    "family": "MosaicMasks",
+    "sha256": "df39c1f54568edd94a5c562dce63548d9031f31155f2dac7acdcc4447b951463",
+    "tile_id": 102033187
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-MosaicMasks_EUCLID_3.0.6-DATA_RELEASE-pcasenov-PLAN-000000-072LLQYI-20250813-082308-2-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20250815T111657.897707Z_0.12.fits",
+    "family": "MosaicMasks",
+    "sha256": "f53ce48d68c5389ff558099db20891ba780892b1d114e268f9e6cdac0dd9294a",
+    "tile_id": 102011247
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-MosaicMasks_EUCLID_3.0.6-DATA_RELEASE-pcasenov-PLAN-000000-075TFIAS-20250801-173505-3484-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20250801T190423.123725Z_0.12.fits",
+    "family": "MosaicMasks",
+    "sha256": "cdbf0028ebe0b3c447c96e3053085f9d1476962d89fc763fd026aecae2b6c9ae",
+    "tile_id": 102163742
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-MosaicMasks_EUCLID_3.0.6-DATA_RELEASE-pcasenov-PLAN-000000-0776LTS0-20250808-202318-17-RETRY-250809142502-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20250811T173628.094668Z_0.12.fits",
+    "family": "MosaicMasks",
+    "sha256": "dfe33ddd75dff07a662e6b633b5113d30a63e26d757ca9464a17e2d66d29fd47",
+    "tile_id": 102020026
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-MosaicMasks_EUCLID_3.0.6-DATA_RELEASE-pcasenov-PLAN-000000-0799JTV1-20250806-112311-25-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20250806T183013.330159Z_0.12.fits",
+    "family": "MosaicMasks",
+    "sha256": "ec557cba1916c6b6908e3a077c2b4f9c296c22ce2f7cec1a66d324d8fa338930",
+    "tile_id": 102029860
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-MosaicMasks_EUCLID_3.0.6-DATA_RELEASE-pcasenov-PLAN-000000-07LIO1VB-20250806-082316-37-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20250806T160803.574729Z_0.12.fits",
+    "family": "MosaicMasks",
+    "sha256": "dfc70835b74ab303309b5e9c2032d497a00c90b8495b72353b32566e44ff4a3e",
+    "tile_id": 102163779
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-MosaicMasks_EUCLID_3.0.6-DATA_RELEASE-pcasenov-PLAN-000000-07LWI6ZU-20250808-082313-30-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20250808T112927.036548Z_0.12.fits",
+    "family": "MosaicMasks",
+    "sha256": "5e32274f822e90a7269c8eb183208c52a98b2e6e694a49a291d75a8567f2fb68",
+    "tile_id": 102042941
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-MosaicMasks_EUCLID_3.0.6-DATA_RELEASE-pcasenov-PLAN-000000-07ONUKUM-20250801-173418-1116-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20250802T053317.157407Z_0.12.fits",
+    "family": "MosaicMasks",
+    "sha256": "3c92699cb62fb0ac3d5c7267202882d15a9aa5a7c88f6273ff7fb7196ae7654a",
+    "tile_id": 102024494
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-MosaicMasks_EUCLID_3.0.6-DATA_RELEASE-pcasenov-PLAN-000000-08461J8W-20250801-173407-551-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20250802T002439.635858Z_0.12.fits",
+    "family": "MosaicMasks",
+    "sha256": "f38221ac59c14a2c9ac3355412e7433990929260c5cbd21f1610d5df7db519d0",
+    "tile_id": 102015982
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-MosaicMasks_EUCLID_3.0.6-DATA_RELEASE-pcasenov-PLAN-000000-086VHAUQ-20250803-022312-56-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20250803T023452.222096Z_0.12.fits",
+    "family": "MosaicMasks",
+    "sha256": "982a7db8cc384c173e1cf6662513989893582ffd5569fda68d51e41333d4a7dc",
+    "tile_id": 102155205
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-MosaicMasks_EUCLID_3.0.6-DATA_RELEASE-pcasenov-PLAN-000000-08C2SVMF-20250807-082327-33-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20250807T100213.905429Z_0.12.fits",
+    "family": "MosaicMasks",
+    "sha256": "228ecabb8e6636f83723621e13aaa2daf812037bfb63df119ae1f6d8d4d58010",
+    "tile_id": 102025042
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-MosaicMasks_EUCLID_3.0.6-DATA_RELEASE-pcasenov-PLAN-000000-08CGB2Q6-20250814-052312-20-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20250814T043902.232845Z_0.12.fits",
+    "family": "MosaicMasks",
+    "sha256": "141a1ae269eb83e2c2724c5162b76590d0ceee6dea1c93b16c041964cea9fab0",
+    "tile_id": 102028190
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-MosaicMasks_EUCLID_3.0.6-DATA_RELEASE-pcasenov-PLAN-000000-08CRSR4L-20250814-112334-41-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20250814T110234.597506Z_0.12.fits",
+    "family": "MosaicMasks",
+    "sha256": "f58dfbfac5bbb7f6b8404a271a8d194c8151c1474b74222224135b7950b71bab",
+    "tile_id": 102054093
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-MosaicMasks_EUCLID_3.0.6-DATA_RELEASE-pcasenov-PLAN-000000-08FPSNOO-20250802-082259-15-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20250802T072144.482422Z_0.12.fits",
+    "family": "MosaicMasks",
+    "sha256": "84d568dfe189301e87e6d9e9b0964165d9fdf88ee1ff487093c9f934da1eb85c",
+    "tile_id": 102155566
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-MosaicMasks_EUCLID_3.0.6-DATA_RELEASE-pcasenov-PLAN-000000-08MFQDI7-20250801-173504-3424-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20250801T184340.709310Z_0.12.fits",
+    "family": "MosaicMasks",
+    "sha256": "2cea82119db0f764da17b44c58e8635ee9568bccd6f157f62e54860894a52dce",
+    "tile_id": 102163540
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-MosaicMasks_EUCLID_3.0.6-DATA_RELEASE-pcasenov-PLAN-000000-090DDTUT-20250801-173501-3298-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20250801T180318.927445Z_0.12.fits",
+    "family": "MosaicMasks",
+    "sha256": "82bace37ef5b9892651cefcdda14f174651f9acfe46eb98c7b9204dbb3b7c0ed",
+    "tile_id": 102162979
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-MosaicMasks_EUCLID_3.0.6-DATA_RELEASE-pcasenov-PLAN-000000-092VH4XK-20250801-173433-1932-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20250802T004800.089418Z_0.12.fits",
+    "family": "MosaicMasks",
+    "sha256": "b1ef112060697a7a11d3b030455971e0468921d2fa30eb2dfd1bea9b6ccedc3f",
+    "tile_id": 102044221
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-MosaicMasks_EUCLID_3.0.6-DATA_RELEASE-pcasenov-PLAN-000000-093A3Y9J-20250804-142309-31-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20250804T123623.038916Z_0.12.fits",
+    "family": "MosaicMasks",
+    "sha256": "8c056e095ed5897cbbaa2fc087754291f561b30c5de1edac3537944e3175aff3",
+    "tile_id": 102155921
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-MosaicMasks_EUCLID_3.0.6-DATA_RELEASE-pcasenov-PLAN-000000-093O6KZD-20250801-173438-2176-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20250801T170230.705295Z_0.12.fits",
+    "family": "MosaicMasks",
+    "sha256": "12cd47809e6fcc074b60b0d4085d16f34dca68f641ea10d40c4f32413879a421",
+    "tile_id": 102156509
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-MosaicMasks_EUCLID_3.0.6-DATA_RELEASE-pcasenov-PLAN-000000-099NX3AC-20250813-202318-36-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20250815T145035.629115Z_0.12.fits",
+    "family": "MosaicMasks",
+    "sha256": "51571bafcf38dfa066ea4ed87104a2069fdf2cb76d97f6583abe36561960c45d",
+    "tile_id": 102034374
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-MosaicMasks_EUCLID_3.0.6-DATA_RELEASE-pcasenov-PLAN-000000-09ATKR1M-20250801-173422-1297-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20250802T164850.273894Z_0.12.fits",
+    "family": "MosaicMasks",
+    "sha256": "29cbdf30c515c2d0ce8a805c5f7eea3c64091c4459b5a57085eb4a3185ef7190",
+    "tile_id": 102027696
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-MosaicMasks_EUCLID_3.0.6-DATA_RELEASE-pcasenov-PLAN-000000-09HI8JID-20250801-173424-1417-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20250802T193429.313569Z_0.12.fits",
+    "family": "MosaicMasks",
+    "sha256": "caaef45b6de0779539a20340f45cb094ae06a44f15332fbc4fbf3582278b4c4d",
+    "tile_id": 102030402
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-MosaicMasks_EUCLID_3.0.6-DATA_RELEASE-pcasenov-PLAN-000000-09OK7ER0-20250801-173431-1836-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20250801T213348.997895Z_0.12.fits",
+    "family": "MosaicMasks",
+    "sha256": "dda63f2000954d7de5a1d53ff3b194425e74e326e0c6d2cea06b8e2a1f9c7135",
+    "tile_id": 102041048
+  },
+  {
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_EFFECTIVE_COVERAGE/DpdHealpixEffectiveCoverageVMPZ/LE3_VMPZ-ID-MosaicMasks_EUCLID_3.0.6-DATA_RELEASE-pcasenov-PLAN-000000-09RAB7RR-20250816-022309-9-out-effectivecoverage-healpix-0/EUC_LE3_VMPZ-ID_HPEFFECTIVECOVERAGE-CL_20250816T023525.262792Z_0.12.fits",
+    "family": "MosaicMasks",
+    "sha256": "0fa69f4d9361d7c28a0c85f4c85bd8d660256c92b265a9c7f6fe26d8d05c72f8",
+    "tile_id": 102023938
+  }
+]

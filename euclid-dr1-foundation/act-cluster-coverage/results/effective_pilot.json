@@ -1,0 +1,161 @@
+{
+  "tiles_by_family": {
+    "EffCovOnly": 64,
+    "MosaicMasks": 64
+  },
+  "unique_tiles": 128,
+  "clusters": [
+    {
+      "name": "ACT-CL J0039.7+0454",
+      "family": "EffCovOnly",
+      "tile_id": 102090112,
+      "ra_deg": 9.928372361560148,
+      "dec_deg": 4.902069958662468,
+      "redshift": 0.654,
+      "theta500_arcmin": 1.9622689148583121,
+      "wide_tile_fraction": 1.0,
+      "mer_geometric_fraction": 0.0,
+      "effective_fraction": 0.9141874926067786,
+      "effective_min_octant": 0.7411135661372441
+    },
+    {
+      "name": "ACT-CL J2323.7-3131",
+      "family": "EffCovOnly",
+      "tile_id": 102040304,
+      "ra_deg": 350.94185354477185,
+      "dec_deg": -31.51759529867869,
+      "redshift": 0.9467,
+      "theta500_arcmin": 1.43683925542297,
+      "wide_tile_fraction": 1.0,
+      "mer_geometric_fraction": 0.0,
+      "effective_fraction": 0.0,
+      "effective_min_octant": 0.0
+    },
+    {
+      "name": "ACT-CL J2339.9-3158",
+      "family": "EffCovOnly",
+      "tile_id": 102039693,
+      "ra_deg": 354.9940199660463,
+      "dec_deg": -31.98324361913654,
+      "redshift": 0.8231,
+      "theta500_arcmin": 1.4970218332732947,
+      "wide_tile_fraction": 1.0,
+      "mer_geometric_fraction": 0.0,
+      "effective_fraction": 0.8211325461198324,
+      "effective_min_octant": 0.30384970105206577
+    },
+    {
+      "name": "ACT-CL J2344.5-3153",
+      "family": "EffCovOnly",
+      "tile_id": 102039695,
+      "ra_deg": 356.14076426803797,
+      "dec_deg": -31.886020939749702,
+      "redshift": 0.7699999809265137,
+      "theta500_arcmin": 2.0531897512472614,
+      "wide_tile_fraction": 1.0,
+      "mer_geometric_fraction": 0.0,
+      "effective_fraction": 0.9349101417174097,
+      "effective_min_octant": 0.8092854784472365
+    },
+    {
+      "name": "ACT-CL J0434.5-5726",
+      "family": "MosaicMasks",
+      "tile_id": 102013160,
+      "ra_deg": 68.62985061442296,
+      "dec_deg": -57.44969316915145,
+      "redshift": 0.425,
+      "theta500_arcmin": 3.010478731157439,
+      "wide_tile_fraction": 1.0,
+      "mer_geometric_fraction": 1.0,
+      "effective_fraction": 0.9009239235616678,
+      "effective_min_octant": 0.7889050607006691
+    },
+    {
+      "name": "ACT-CL J0434.8-5737",
+      "family": "MosaicMasks",
+      "tile_id": 102013160,
+      "ra_deg": 68.7055803606411,
+      "dec_deg": -57.62008632871331,
+      "redshift": 0.612602174282074,
+      "theta500_arcmin": 1.804980806458558,
+      "wide_tile_fraction": 1.0,
+      "mer_geometric_fraction": 1.0,
+      "effective_fraction": 0.9249135966894109,
+      "effective_min_octant": 0.7240727386415529
+    },
+    {
+      "name": "ACT-CL J0436.5-4450",
+      "family": "MosaicMasks",
+      "tile_id": 102024504,
+      "ra_deg": 69.14923058917567,
+      "dec_deg": -44.84233190944316,
+      "redshift": 0.8266505002975464,
+      "theta500_arcmin": 1.6422116690475428,
+      "wide_tile_fraction": 1.0,
+      "mer_geometric_fraction": 1.0,
+      "effective_fraction": 0.0,
+      "effective_min_octant": 0.0
+    },
+    {
+      "name": "ACT-CL J0515.4-4006",
+      "family": "MosaicMasks",
+      "tile_id": 102029860,
+      "ra_deg": 78.86124250223536,
+      "dec_deg": -40.11167658185421,
+      "redshift": 0.955,
+      "theta500_arcmin": 1.3011287056380816,
+      "wide_tile_fraction": 1.0,
+      "mer_geometric_fraction": 1.0,
+      "effective_fraction": 0.9063981070010811,
+      "effective_min_octant": 0.7663158886766723
+    }
+  ],
+  "case_band_check": {
+    "name": "ACT-CL J0436.5-4450",
+    "tile_id": 102024504,
+    "bands": {
+      "DECAM_g": {
+        "mean_weight": 1.0,
+        "fraction_positive": 1.0,
+        "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102024504/EUC_LE3_VMPZ-ID_HPCOVERAGE-102024504_20250803T155942.034033Z_0.12.fits",
+        "sha256": "a8c9cf9280c6b5b23b58fffa2d859441511afdb589280eb0f1b15b5a67366d6d"
+      },
+      "DECAM_i": {
+        "mean_weight": 1.0,
+        "fraction_positive": 1.0,
+        "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102024504/EUC_LE3_VMPZ-ID_HPCOVERAGE-102024504_20250803T160134.246414Z_0.12.fits",
+        "sha256": "918d98c91edb71440775f59a1ebde8ddde57c31a921fc2cc5f394c314c5397a8"
+      },
+      "VIS": {
+        "mean_weight": 0.9843877382791106,
+        "fraction_positive": 1.0,
+        "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102024504/EUC_LE3_VMPZ-ID_HPCOVERAGE-102024504_20250803T160354.476505Z_0.12.fits",
+        "sha256": "8a3f8ca2f6181c4639a07f91ee31a9c9a32ece6a5fdcfd785e0f99caf15eb553"
+      },
+      "NIR_J": {
+        "mean_weight": 0.0,
+        "fraction_positive": 0.0,
+        "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102024504/EUC_LE3_VMPZ-ID_HPCOVERAGE-102024504_20250803T160546.034996Z_0.12.fits",
+        "sha256": "a9ee6d857b46547cf2558dc1312973ebf1bb515a673bfea300c8cdb68f293dd6"
+      },
+      "NIR_Y": {
+        "mean_weight": 0.0,
+        "fraction_positive": 0.0,
+        "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102024504/EUC_LE3_VMPZ-ID_HPCOVERAGE-102024504_20250803T160729.302550Z_0.12.fits",
+        "sha256": "73e0140a87668a7e98c27d4a4255be5c03bca429d582c4d778c9f8a671b26279"
+      },
+      "DECAM_r": {
+        "mean_weight": 1.0,
+        "fraction_positive": 1.0,
+        "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102024504/EUC_LE3_VMPZ-ID_HPCOVERAGE-102024504_20250803T160921.989621Z_0.12.fits",
+        "sha256": "0ae7b2362218887589fe529d477821e04fb74d801852767cf22adab3bcb47bd2"
+      },
+      "DECAM_z": {
+        "mean_weight": 1.0,
+        "fraction_positive": 1.0,
+        "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102024504/EUC_LE3_VMPZ-ID_HPCOVERAGE-102024504_20250803T161108.451769Z_0.12.fits",
+        "sha256": "c57a18358483ed9585d393a4d446853c2abee564046bf9ed47f30b4ac42bffc9"
+      }
+    }
+  }
+}

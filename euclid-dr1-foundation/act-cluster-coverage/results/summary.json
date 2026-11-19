@@ -1,0 +1,303 @@
+{
+  "inputs": {
+    "act_dr6_v1.fits": {
+      "url": "https://lambda.gsfc.nasa.gov/data/suborbital/ACT/actadv_dr6_cluster_cat/DR6_cluster-catalog_v1.0.fits",
+      "sha256": "732e293382ccc1aeb1ba48407b5bed1503dd482047cf56b73a7ecf26190200fe"
+    },
+    "euclid_wide.fits": {
+      "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/MOC/euclid_dr1_wide.moc.moc.fits",
+      "sha256": "bb89812addb7987df1bf00d78ecaf486842e429fb59af7cc128c7025f9eecd22"
+    },
+    "mer_wide_survey.fits": {
+      "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/MOC/euclid_dr1_mer_catalogue_wide_survey.moc.fits",
+      "sha256": "c8f8aedbc73a2cb3a1afea61f94fdefea186a398e14ba505c75b4886110a5af9"
+    }
+  },
+  "radial_bins_r500": {
+    "core": [
+      0,
+      0.5
+    ],
+    "inner": [
+      0.5,
+      1
+    ],
+    "outskirts": [
+      1,
+      2
+    ],
+    "background": [
+      2,
+      3
+    ]
+  },
+  "footprints": {
+    "wide_tile": {
+      "all": {
+        "catalogue_entries": 10040,
+        "centres_inside": 1445,
+        "rings": {
+          "core": {
+            "below_cut": {
+              "0.9": 6,
+              "0.95": 7,
+              "0.99": 11
+            },
+            "below_cut_any_octant": {
+              "0.9": 10,
+              "0.95": 11,
+              "0.99": 11
+            },
+            "outside_centre_meeting_90pct": 0
+          },
+          "inner": {
+            "below_cut": {
+              "0.9": 14,
+              "0.95": 20,
+              "0.99": 25
+            },
+            "below_cut_any_octant": {
+              "0.9": 23,
+              "0.95": 25,
+              "0.99": 25
+            },
+            "outside_centre_meeting_90pct": 0
+          },
+          "outskirts": {
+            "below_cut": {
+              "0.9": 37,
+              "0.95": 40,
+              "0.99": 42
+            },
+            "below_cut_any_octant": {
+              "0.9": 42,
+              "0.95": 42,
+              "0.99": 43
+            },
+            "outside_centre_meeting_90pct": 0
+          },
+          "background": {
+            "below_cut": {
+              "0.9": 50,
+              "0.95": 56,
+              "0.99": 62
+            },
+            "below_cut_any_octant": {
+              "0.9": 61,
+              "0.95": 62,
+              "0.99": 63
+            },
+            "outside_centre_meeting_90pct": 0
+          }
+        },
+        "outskirts_90pct_total_with_octant_below_50pct": 1,
+        "outskirts_90pct_fraction_switch_radius_minus_to_plus_1sigma": 9,
+        "outskirts_90pct_fraction_switch_sz_to_optical_centre": 2,
+        "inside_with_optical_centres": 1352,
+        "outskirts_sampling_abs_delta_max": 0.003021240234375
+      },
+      "act_legacy": {
+        "catalogue_entries": 3747,
+        "centres_inside": 585,
+        "rings": {
+          "core": {
+            "below_cut": {
+              "0.9": 1,
+              "0.95": 1,
+              "0.99": 3
+            },
+            "below_cut_any_octant": {
+              "0.9": 2,
+              "0.95": 3,
+              "0.99": 3
+            },
+            "outside_centre_meeting_90pct": 0
+          },
+          "inner": {
+            "below_cut": {
+              "0.9": 5,
+              "0.95": 6,
+              "0.99": 9
+            },
+            "below_cut_any_octant": {
+              "0.9": 8,
+              "0.95": 9,
+              "0.99": 9
+            },
+            "outside_centre_meeting_90pct": 0
+          },
+          "outskirts": {
+            "below_cut": {
+              "0.9": 16,
+              "0.95": 18,
+              "0.99": 18
+            },
+            "below_cut_any_octant": {
+              "0.9": 18,
+              "0.95": 18,
+              "0.99": 18
+            },
+            "outside_centre_meeting_90pct": 0
+          },
+          "background": {
+            "below_cut": {
+              "0.9": 23,
+              "0.95": 23,
+              "0.99": 25
+            },
+            "below_cut_any_octant": {
+              "0.9": 25,
+              "0.95": 25,
+              "0.99": 25
+            },
+            "outside_centre_meeting_90pct": 0
+          }
+        },
+        "outskirts_90pct_total_with_octant_below_50pct": 1,
+        "outskirts_90pct_fraction_switch_radius_minus_to_plus_1sigma": 6,
+        "outskirts_90pct_fraction_switch_sz_to_optical_centre": 2,
+        "inside_with_optical_centres": 584,
+        "outskirts_sampling_abs_delta_max": 0.00152587890625
+      },
+      "area_sq_deg": 2383.9865004467874,
+      "moc_order": 13
+    },
+    "mer_wide_survey": {
+      "all": {
+        "catalogue_entries": 10040,
+        "centres_inside": 1270,
+        "rings": {
+          "core": {
+            "below_cut": {
+              "0.9": 9,
+              "0.95": 12,
+              "0.99": 19
+            },
+            "below_cut_any_octant": {
+              "0.9": 16,
+              "0.95": 21,
+              "0.99": 29
+            },
+            "outside_centre_meeting_90pct": 2
+          },
+          "inner": {
+            "below_cut": {
+              "0.9": 15,
+              "0.95": 19,
+              "0.99": 38
+            },
+            "below_cut_any_octant": {
+              "0.9": 33,
+              "0.95": 44,
+              "0.99": 56
+            },
+            "outside_centre_meeting_90pct": 1
+          },
+          "outskirts": {
+            "below_cut": {
+              "0.9": 27,
+              "0.95": 34,
+              "0.99": 59
+            },
+            "below_cut_any_octant": {
+              "0.9": 49,
+              "0.95": 74,
+              "0.99": 130
+            },
+            "outside_centre_meeting_90pct": 1
+          },
+          "background": {
+            "below_cut": {
+              "0.9": 46,
+              "0.95": 57,
+              "0.99": 90
+            },
+            "below_cut_any_octant": {
+              "0.9": 81,
+              "0.95": 103,
+              "0.99": 192
+            },
+            "outside_centre_meeting_90pct": 1
+          }
+        },
+        "outskirts_90pct_total_with_octant_below_50pct": 2,
+        "outskirts_90pct_fraction_switch_radius_minus_to_plus_1sigma": 5,
+        "outskirts_90pct_fraction_switch_sz_to_optical_centre": 4,
+        "inside_with_optical_centres": 1198,
+        "outskirts_sampling_abs_delta_max": 0.002166748046875
+      },
+      "act_legacy": {
+        "catalogue_entries": 3747,
+        "centres_inside": 517,
+        "rings": {
+          "core": {
+            "below_cut": {
+              "0.9": 3,
+              "0.95": 4,
+              "0.99": 7
+            },
+            "below_cut_any_octant": {
+              "0.9": 6,
+              "0.95": 7,
+              "0.99": 10
+            },
+            "outside_centre_meeting_90pct": 1
+          },
+          "inner": {
+            "below_cut": {
+              "0.9": 7,
+              "0.95": 9,
+              "0.99": 12
+            },
+            "below_cut_any_octant": {
+              "0.9": 12,
+              "0.95": 16,
+              "0.99": 22
+            },
+            "outside_centre_meeting_90pct": 1
+          },
+          "outskirts": {
+            "below_cut": {
+              "0.9": 11,
+              "0.95": 15,
+              "0.99": 27
+            },
+            "below_cut_any_octant": {
+              "0.9": 21,
+              "0.95": 31,
+              "0.99": 54
+            },
+            "outside_centre_meeting_90pct": 1
+          },
+          "background": {
+            "below_cut": {
+              "0.9": 17,
+              "0.95": 21,
+              "0.99": 32
+            },
+            "below_cut_any_octant": {
+              "0.9": 29,
+              "0.95": 35,
+              "0.99": 74
+            },
+            "outside_centre_meeting_90pct": 1
+          }
+        },
+        "outskirts_90pct_total_with_octant_below_50pct": 1,
+        "outskirts_90pct_fraction_switch_radius_minus_to_plus_1sigma": 3,
+        "outskirts_90pct_fraction_switch_sz_to_optical_centre": 1,
+        "inside_with_optical_centres": 516,
+        "outskirts_sampling_abs_delta_max": 0.002166748046875
+      },
+      "area_sq_deg": 2018.17485321884,
+      "moc_order": 13
+    }
+  },
+  "centre_cross_tabulation": {
+    "both": 1270,
+    "wide_tile_only": 175,
+    "mer_wide_survey_only": 0,
+    "neither": 8595
+  },
+  "output_rows": 1499
+}
