@@ -1,0 +1,166 @@
+{
+  "catalogues": [
+    {
+      "archive": "spt_ruel",
+      "file": "spt_ruel.tsv",
+      "url": "https://vizier.cfa.harvard.edu/viz-bin/asu-tsv?-source=J%2FApJ%2F792%2F45&-out.max=20000&-out.all=1"
+    },
+    {
+      "archive": "spt_gmos",
+      "file": "spt_gmos.tsv",
+      "url": "https://vizier.cfa.harvard.edu/viz-bin/asu-tsv?-source=J%2FApJS%2F227%2F3&-out.max=20000&-out.all=1"
+    },
+    {
+      "archive": "act",
+      "file": "act_dr6_v1.fits",
+      "url": "https://lambda.gsfc.nasa.gov/data/suborbital/ACT/actadv_dr6_cluster_cat/DR6_cluster-catalog_v1.0.fits"
+    },
+    {
+      "archive": "mer_moc",
+      "file": "mer_wide_survey.fits",
+      "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/MOC/euclid_dr1_mer_catalogue_wide_survey.moc.fits"
+    }
+  ],
+  "pilot_checks": [
+    {
+      "cluster": "J0434.5-5726",
+      "archive": "ozdes",
+      "url": "https://vizier.cfa.harvard.edu/viz-bin/asu-tsv?-source=J%2FMNRAS%2F496%2F19%2Fozdesdr2&-c=68.62985061+-57.44969317&-c.rm=6.170957&-out.all=1&-out.max=20000",
+      "file": "J0434.5-5726_ozdes.tsv"
+    },
+    {
+      "cluster": "J0434.5-5726",
+      "archive": "6dfgs",
+      "url": "https://vizier.cfa.harvard.edu/viz-bin/asu-tsv?-source=VII%2F259%2F6dfgs&-c=68.62985061+-57.44969317&-c.rm=6.170957&-out.all=1&-out.max=20000",
+      "file": "J0434.5-5726_6dfgs.tsv"
+    },
+    {
+      "cluster": "J0434.5-5726",
+      "archive": "erass_opt",
+      "url": "https://vizier.cfa.harvard.edu/viz-bin/asu-tsv?-source=J%2FA%2BA%2F688%2FA210&-c=68.62985061+-57.44969317&-c.rm=6.170957&-out.all=1&-out.max=20000",
+      "file": "J0434.5-5726_erass_opt.tsv"
+    },
+    {
+      "cluster": "J0434.8-5737",
+      "archive": "ozdes",
+      "url": "https://vizier.cfa.harvard.edu/viz-bin/asu-tsv?-source=J%2FMNRAS%2F496%2F19%2Fozdesdr2&-c=68.70558036+-57.62008633&-c.rm=3.759962&-out.all=1&-out.max=20000",
+      "file": "J0434.8-5737_ozdes.tsv"
+    },
+    {
+      "cluster": "J0434.8-5737",
+      "archive": "6dfgs",
+      "url": "https://vizier.cfa.harvard.edu/viz-bin/asu-tsv?-source=VII%2F259%2F6dfgs&-c=68.70558036+-57.62008633&-c.rm=3.759962&-out.all=1&-out.max=20000",
+      "file": "J0434.8-5737_6dfgs.tsv"
+    },
+    {
+      "cluster": "J0434.8-5737",
+      "archive": "erass_opt",
+      "url": "https://vizier.cfa.harvard.edu/viz-bin/asu-tsv?-source=J%2FA%2BA%2F688%2FA210&-c=68.70558036+-57.62008633&-c.rm=3.759962&-out.all=1&-out.max=20000",
+      "file": "J0434.8-5737_erass_opt.tsv"
+    },
+    {
+      "cluster": "J0436.5-4450",
+      "archive": "ozdes",
+      "url": "https://vizier.cfa.harvard.edu/viz-bin/asu-tsv?-source=J%2FMNRAS%2F496%2F19%2Fozdesdr2&-c=69.14923059+-44.84233191&-c.rm=3.434423&-out.all=1&-out.max=20000",
+      "file": "J0436.5-4450_ozdes.tsv"
+    },
+    {
+      "cluster": "J0436.5-4450",
+      "archive": "6dfgs",
+      "url": "https://vizier.cfa.harvard.edu/viz-bin/asu-tsv?-source=VII%2F259%2F6dfgs&-c=69.14923059+-44.84233191&-c.rm=3.434423&-out.all=1&-out.max=20000",
+      "file": "J0436.5-4450_6dfgs.tsv"
+    },
+    {
+      "cluster": "J0436.5-4450",
+      "archive": "erass_opt",
+      "url": "https://vizier.cfa.harvard.edu/viz-bin/asu-tsv?-source=J%2FA%2BA%2F688%2FA210&-c=69.14923059+-44.84233191&-c.rm=3.434423&-out.all=1&-out.max=20000",
+      "file": "J0436.5-4450_erass_opt.tsv"
+    },
+    {
+      "cluster": "J0515.4-4006",
+      "archive": "ozdes",
+      "url": "https://vizier.cfa.harvard.edu/viz-bin/asu-tsv?-source=J%2FMNRAS%2F496%2F19%2Fozdesdr2&-c=78.86124250+-40.11167658&-c.rm=2.752257&-out.all=1&-out.max=20000",
+      "file": "J0515.4-4006_ozdes.tsv"
+    },
+    {
+      "cluster": "J0515.4-4006",
+      "archive": "6dfgs",
+      "url": "https://vizier.cfa.harvard.edu/viz-bin/asu-tsv?-source=VII%2F259%2F6dfgs&-c=78.86124250+-40.11167658&-c.rm=2.752257&-out.all=1&-out.max=20000",
+      "file": "J0515.4-4006_6dfgs.tsv"
+    },
+    {
+      "cluster": "J0515.4-4006",
+      "archive": "erass_opt",
+      "url": "https://vizier.cfa.harvard.edu/viz-bin/asu-tsv?-source=J%2FA%2BA%2F688%2FA210&-c=78.86124250+-40.11167658&-c.rm=2.752257&-out.all=1&-out.max=20000",
+      "file": "J0515.4-4006_erass_opt.tsv"
+    }
+  ],
+  "unavailable_checks": [
+    {
+      "cluster": "J0434.5-5726",
+      "archive": "ned",
+      "url": "https://ned.ipac.caltech.edu/cgi-bin/objsearch?search_type=Near+Position+Search&in_csys=Equatorial&in_equinox=J2000.0&lon=68.62985061d&lat=-57.44969317d&radius=6.170957&of=xml_main",
+      "status": "timeout"
+    },
+    {
+      "cluster": "J0434.8-5737",
+      "archive": "ned",
+      "url": "https://ned.ipac.caltech.edu/cgi-bin/objsearch?search_type=Near+Position+Search&in_csys=Equatorial&in_equinox=J2000.0&lon=68.70558036d&lat=-57.62008633d&radius=3.759962&of=xml_main",
+      "status": "timeout"
+    },
+    {
+      "cluster": "J0436.5-4450",
+      "archive": "ned",
+      "url": "https://ned.ipac.caltech.edu/cgi-bin/objsearch?search_type=Near+Position+Search&in_csys=Equatorial&in_equinox=J2000.0&lon=69.14923059d&lat=-44.84233191d&radius=3.434423&of=xml_main",
+      "status": "timeout"
+    },
+    {
+      "cluster": "J0515.4-4006",
+      "archive": "ned",
+      "url": "https://ned.ipac.caltech.edu/cgi-bin/objsearch?search_type=Near+Position+Search&in_csys=Equatorial&in_equinox=J2000.0&lon=78.86124250d&lat=-40.11167658d&radius=2.752257&of=xml_main",
+      "status": "timeout"
+    }
+  ],
+  "fields": {
+    "ACT-CL J0142.1-5032": [
+      "102019083"
+    ],
+    "ACT-CL J0212.4-4656": [
+      "102022438",
+      "102022439"
+    ],
+    "ACT-CL J0200.5-4852": [
+      "102020494"
+    ]
+  },
+  "tiles": {
+    "102019083": {
+      "NIR_J": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102019083/EUC_LE3_VMPZ-ID_HPCOVERAGE-102019083_20250816T012332.016133Z_0.12.fits",
+      "VIS": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102019083/EUC_LE3_VMPZ-ID_HPCOVERAGE-102019083_20250816T012510.661617Z_0.12.fits",
+      "DECAM_i": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102019083/EUC_LE3_VMPZ-ID_HPCOVERAGE-102019083_20250816T013005.610203Z_0.12.fits",
+      "DECAM_r": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102019083/EUC_LE3_VMPZ-ID_HPCOVERAGE-102019083_20250816T013135.141113Z_0.12.fits",
+      "MER": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/catalogs/MER_FINAL_CATALOG/102019083/EUC_MER_FINAL-CAT_TILE102019083-A4C5E3_20250815T113253.537390Z_00.00.fits"
+    },
+    "102022438": {
+      "VIS": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102022438/EUC_LE3_VMPZ-ID_HPCOVERAGE-102022438_20250802T111433.619985Z_0.12.fits",
+      "NIR_J": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102022438/EUC_LE3_VMPZ-ID_HPCOVERAGE-102022438_20250802T111731.498255Z_0.12.fits",
+      "DECAM_i": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102022438/EUC_LE3_VMPZ-ID_HPCOVERAGE-102022438_20250802T112013.644188Z_0.12.fits",
+      "DECAM_r": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102022438/EUC_LE3_VMPZ-ID_HPCOVERAGE-102022438_20250802T112132.956054Z_0.12.fits",
+      "MER": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/catalogs/MER_FINAL_CATALOG/102022438/EUC_MER_FINAL-CAT_TILE102022438-F206E8_20250801T210406.662535Z_00.00.fits"
+    },
+    "102022439": {
+      "VIS": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102022439/EUC_LE3_VMPZ-ID_HPCOVERAGE-102022439_20250801T202440.337625Z_0.12.fits",
+      "NIR_J": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102022439/EUC_LE3_VMPZ-ID_HPCOVERAGE-102022439_20250801T202614.248954Z_0.12.fits",
+      "DECAM_i": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102022439/EUC_LE3_VMPZ-ID_HPCOVERAGE-102022439_20250801T203120.250607Z_0.12.fits",
+      "DECAM_r": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102022439/EUC_LE3_VMPZ-ID_HPCOVERAGE-102022439_20250801T203255.916942Z_0.12.fits",
+      "MER": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/catalogs/MER_FINAL_CATALOG/102022439/EUC_MER_FINAL-CAT_TILE102022439-28E0FF_20250731T120006.126629Z_00.00.fits"
+    },
+    "102020494": {
+      "VIS": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102020494/EUC_LE3_VMPZ-ID_HPCOVERAGE-102020494_20250802T043333.544430Z_0.12.fits",
+      "NIR_J": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102020494/EUC_LE3_VMPZ-ID_HPCOVERAGE-102020494_20250802T043651.645229Z_0.12.fits",
+      "DECAM_i": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102020494/EUC_LE3_VMPZ-ID_HPCOVERAGE-102020494_20250802T044133.204686Z_0.12.fits",
+      "DECAM_r": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102020494/EUC_LE3_VMPZ-ID_HPCOVERAGE-102020494_20250802T044301.749062Z_0.12.fits",
+      "MER": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/catalogs/MER_FINAL_CATALOG/102020494/EUC_MER_FINAL-CAT_TILE102020494-1BBD37_20250730T165639.096422Z_00.00.fits"
+    }
+  }
+}

@@ -1,0 +1,1336 @@
+{
+  "pilot": [
+    {
+      "name": "ACT-CL J0434.5-5726",
+      "act_redshift": 0.425,
+      "act_redshift_type": "phot",
+      "act_redshift_source": "MaDCoWS",
+      "ozdes_cone_rows": 0,
+      "6dfgs_cone_rows": 0,
+      "6dfgs_row_quality_flags": [],
+      "gmos_within_2r500": 0,
+      "ruel_within_2r500": 0,
+      "ozdes_redshift_window_candidates_within_2r500": 0,
+      "6dfgs_redshift_window_candidates_within_2r500": 0,
+      "erass1_optical_counterparts_within_2arcmin": [
+        {
+          "name": "1eRASS J043430.7-572706",
+          "offset_arcmin": 0.1376,
+          "best_z": 0.47506,
+          "best_z_type": "photo_z"
+        }
+      ]
+    },
+    {
+      "name": "ACT-CL J0434.8-5737",
+      "act_redshift": 0.612602174282074,
+      "act_redshift_type": "phot",
+      "act_redshift_source": "redMaPPer",
+      "ozdes_cone_rows": 0,
+      "6dfgs_cone_rows": 0,
+      "6dfgs_row_quality_flags": [],
+      "gmos_within_2r500": 0,
+      "ruel_within_2r500": 0,
+      "ozdes_redshift_window_candidates_within_2r500": 0,
+      "6dfgs_redshift_window_candidates_within_2r500": 0,
+      "erass1_optical_counterparts_within_2arcmin": []
+    },
+    {
+      "name": "ACT-CL J0436.5-4450",
+      "act_redshift": 0.8266505002975464,
+      "act_redshift_type": "phot",
+      "act_redshift_source": "redMaPPer",
+      "ozdes_cone_rows": 0,
+      "6dfgs_cone_rows": 1,
+      "6dfgs_row_quality_flags": [
+        "9"
+      ],
+      "gmos_within_2r500": 0,
+      "ruel_within_2r500": 0,
+      "ozdes_redshift_window_candidates_within_2r500": 0,
+      "6dfgs_redshift_window_candidates_within_2r500": 0,
+      "erass1_optical_counterparts_within_2arcmin": [
+        {
+          "name": "1eRASS J043637.7-445016",
+          "offset_arcmin": 0.4376,
+          "best_z": 0.8404,
+          "best_z_type": "photo_z"
+        }
+      ]
+    },
+    {
+      "name": "ACT-CL J0515.4-4006",
+      "act_redshift": 0.955,
+      "act_redshift_type": "phot",
+      "act_redshift_source": "MaDCoWS",
+      "ozdes_cone_rows": 0,
+      "6dfgs_cone_rows": 0,
+      "6dfgs_row_quality_flags": [],
+      "gmos_within_2r500": 0,
+      "ruel_within_2r500": 0,
+      "ozdes_redshift_window_candidates_within_2r500": 0,
+      "6dfgs_redshift_window_candidates_within_2r500": 0,
+      "erass1_optical_counterparts_within_2arcmin": []
+    }
+  ],
+  "gmos_screen": {
+    "gmos_systemic_redshift_count": 62,
+    "act_matches": 50,
+    "mer_centres": 25
+  },
+  "gmos_shortlist": [
+    {
+      "act_name": "ACT-CL J0142.1-5032",
+      "spt_name": "J0142-5032",
+      "spt_redshift": 0.6793,
+      "centre_offset_arcmin": 0.2362488892085514,
+      "ra_deg": 25.544968603162662,
+      "dec_deg": -50.53967368018124,
+      "theta500_arcmin": 2.3947737979345676,
+      "core_candidates": 21,
+      "outskirts_candidates": 10,
+      "outskirts_inside_mer_geometric_footprint": 10,
+      "outskirts_candidates_1500_kms": 9
+    },
+    {
+      "act_name": "ACT-CL J0212.4-4656",
+      "spt_name": "J0212-4657",
+      "spt_redshift": 0.6535,
+      "centre_offset_arcmin": 0.09473169566431655,
+      "ra_deg": 33.10737459325295,
+      "dec_deg": -46.94862034658004,
+      "theta500_arcmin": 2.444758050932226,
+      "core_candidates": 19,
+      "outskirts_candidates": 7,
+      "outskirts_inside_mer_geometric_footprint": 7,
+      "outskirts_candidates_1500_kms": 6
+    },
+    {
+      "act_name": "ACT-CL J0200.5-4852",
+      "spt_name": "J0200-4852",
+      "spt_redshift": 0.4991,
+      "centre_offset_arcmin": 0.21548971921662552,
+      "ra_deg": 30.140382687865618,
+      "dec_deg": -48.87272822499023,
+      "theta500_arcmin": 2.7829445367289942,
+      "core_candidates": 29,
+      "outskirts_candidates": 6,
+      "outskirts_inside_mer_geometric_footprint": 6,
+      "outskirts_candidates_1500_kms": 6
+    },
+    {
+      "act_name": "ACT-CL J0310.5-4646",
+      "spt_name": "J0310-4647",
+      "spt_redshift": 0.7067,
+      "centre_offset_arcmin": 0.2164763029758784,
+      "ra_deg": 47.63415294765515,
+      "dec_deg": -46.7821676447074,
+      "theta500_arcmin": 2.1439996320533137,
+      "core_candidates": 23,
+      "outskirts_candidates": 5,
+      "outskirts_inside_mer_geometric_footprint": 5,
+      "outskirts_candidates_1500_kms": 5
+    },
+    {
+      "act_name": "ACT-CL J0118.4-5156",
+      "spt_name": "J0118-5156",
+      "spt_redshift": 0.7051,
+      "centre_offset_arcmin": 0.17248727975396974,
+      "ra_deg": 19.601121954973298,
+      "dec_deg": -51.940723442974324,
+      "theta500_arcmin": 2.0470300070906946,
+      "core_candidates": 10,
+      "outskirts_candidates": 4,
+      "outskirts_inside_mer_geometric_footprint": 4,
+      "outskirts_candidates_1500_kms": 3
+    },
+    {
+      "act_name": "ACT-CL J0233.0-5819",
+      "spt_name": "J0233-5819",
+      "spt_redshift": 0.6638,
+      "centre_offset_arcmin": 0.08198720829070556,
+      "ra_deg": 38.25797790193497,
+      "dec_deg": -58.32698006712174,
+      "theta500_arcmin": 2.2571383791239787,
+      "core_candidates": 7,
+      "outskirts_candidates": 3,
+      "outskirts_inside_mer_geometric_footprint": 3,
+      "outskirts_candidates_1500_kms": 3
+    },
+    {
+      "act_name": "ACT-CL J0352.9-5647",
+      "spt_name": "J0352-5647",
+      "spt_redshift": 0.649,
+      "centre_offset_arcmin": 0.20556442221651963,
+      "ra_deg": 58.24001949981497,
+      "dec_deg": -56.796551844248405,
+      "theta500_arcmin": 2.1257956476957696,
+      "core_candidates": 14,
+      "outskirts_candidates": 3,
+      "outskirts_inside_mer_geometric_footprint": 3,
+      "outskirts_candidates_1500_kms": 3
+    },
+    {
+      "act_name": "ACT-CL J0403.8-5719",
+      "spt_name": "J0403-5719",
+      "spt_redshift": 0.467,
+      "centre_offset_arcmin": 0.11828300587990437,
+      "ra_deg": 60.96439389934382,
+      "dec_deg": -57.32412986654071,
+      "theta500_arcmin": 2.8146488354774593,
+      "core_candidates": 26,
+      "outskirts_candidates": 3,
+      "outskirts_inside_mer_geometric_footprint": 3,
+      "outskirts_candidates_1500_kms": 3
+    },
+    {
+      "act_name": "ACT-CL J0542.8-4059",
+      "spt_name": "J0542-4100",
+      "spt_redshift": 0.6399,
+      "centre_offset_arcmin": 0.3382541864503412,
+      "ra_deg": 85.71465377133484,
+      "dec_deg": -40.998737626815334,
+      "theta500_arcmin": 2.469013322654591,
+      "core_candidates": 27,
+      "outskirts_candidates": 3,
+      "outskirts_inside_mer_geometric_footprint": 3,
+      "outskirts_candidates_1500_kms": 3
+    },
+    {
+      "act_name": "ACT-CL J0356.3-5338",
+      "spt_name": "J0356-5337",
+      "spt_redshift": 1.0345,
+      "centre_offset_arcmin": 0.07606688087609141,
+      "ra_deg": 59.083675052375504,
+      "dec_deg": -53.63379096237667,
+      "theta500_arcmin": 1.5063842562762102,
+      "core_candidates": 4,
+      "outskirts_candidates": 2,
+      "outskirts_inside_mer_geometric_footprint": 2,
+      "outskirts_candidates_1500_kms": 2
+    },
+    {
+      "act_name": "ACT-CL J0539.9-5744",
+      "spt_name": "J0539-5744",
+      "spt_redshift": 0.7597,
+      "centre_offset_arcmin": 0.15999487341799548,
+      "ra_deg": 84.99926482436092,
+      "dec_deg": -57.74079276942555,
+      "theta500_arcmin": 1.9377755202953557,
+      "core_candidates": 17,
+      "outskirts_candidates": 2,
+      "outskirts_inside_mer_geometric_footprint": 2,
+      "outskirts_candidates_1500_kms": 2
+    },
+    {
+      "act_name": "ACT-CL J0252.7-4824",
+      "spt_name": "J0252-4824",
+      "spt_redshift": 0.4207,
+      "centre_offset_arcmin": 0.1331338135317588,
+      "ra_deg": 43.19068306100528,
+      "dec_deg": -48.410976572962944,
+      "theta500_arcmin": 3.1168143322617086,
+      "core_candidates": 23,
+      "outskirts_candidates": 1,
+      "outskirts_inside_mer_geometric_footprint": 1,
+      "outskirts_candidates_1500_kms": 1
+    },
+    {
+      "act_name": "ACT-CL J0334.2-4659",
+      "spt_name": "J0334-4659",
+      "spt_redshift": 0.4861,
+      "centre_offset_arcmin": 0.2682596490893301,
+      "ra_deg": 53.5511223260994,
+      "dec_deg": -46.99604650018128,
+      "theta500_arcmin": 2.891038780541064,
+      "core_candidates": 31,
+      "outskirts_candidates": 1,
+      "outskirts_inside_mer_geometric_footprint": 1,
+      "outskirts_candidates_1500_kms": 1
+    },
+    {
+      "act_name": "ACT-CL J0348.2-4515",
+      "spt_name": "J0348-4515",
+      "spt_redshift": 0.3592,
+      "centre_offset_arcmin": 0.06260458338661959,
+      "ra_deg": 57.073538933469585,
+      "dec_deg": -45.251866108594044,
+      "theta500_arcmin": 3.620175250982077,
+      "core_candidates": 25,
+      "outskirts_candidates": 1,
+      "outskirts_inside_mer_geometric_footprint": 1,
+      "outskirts_candidates_1500_kms": 1
+    },
+    {
+      "act_name": "ACT-CL J0511.6-5154",
+      "spt_name": "J0511-5154",
+      "spt_redshift": 0.6447,
+      "centre_offset_arcmin": 0.17163446491951756,
+      "ra_deg": 77.92200353155174,
+      "dec_deg": -51.90693463567445,
+      "theta500_arcmin": 2.2008826484535593,
+      "core_candidates": 14,
+      "outskirts_candidates": 1,
+      "outskirts_inside_mer_geometric_footprint": 1,
+      "outskirts_candidates_1500_kms": 1
+    },
+    {
+      "act_name": "ACT-CL J0243.4-5930",
+      "spt_name": "J0243-5930",
+      "spt_redshift": 0.6345,
+      "centre_offset_arcmin": 0.19948716437076747,
+      "ra_deg": 40.863851862260134,
+      "dec_deg": -59.515356734920026,
+      "theta500_arcmin": 2.4406095680732807,
+      "core_candidates": 26,
+      "outskirts_candidates": 0,
+      "outskirts_inside_mer_geometric_footprint": 0,
+      "outskirts_candidates_1500_kms": 0
+    },
+    {
+      "act_name": "ACT-CL J0243.6-4833",
+      "spt_name": "J0243-4833",
+      "spt_redshift": 0.4984,
+      "centre_offset_arcmin": 0.05372997331084193,
+      "ra_deg": 40.913211327796105,
+      "dec_deg": -48.55917852793545,
+      "theta500_arcmin": 3.38790825376511,
+      "core_candidates": 39,
+      "outskirts_candidates": 0,
+      "outskirts_inside_mer_geometric_footprint": 0,
+      "outskirts_candidates_1500_kms": 0
+    },
+    {
+      "act_name": "ACT-CL J0245.5-5302",
+      "spt_name": "J0245-5302",
+      "spt_redshift": 0.3,
+      "centre_offset_arcmin": 0.056500201601609686,
+      "ra_deg": 41.3770453122563,
+      "dec_deg": -53.03661577473132,
+      "theta500_arcmin": 5.326811369461907,
+      "core_candidates": 27,
+      "outskirts_candidates": 0,
+      "outskirts_inside_mer_geometric_footprint": 0,
+      "outskirts_candidates_1500_kms": 0
+    },
+    {
+      "act_name": "ACT-CL J0304.2-4401",
+      "spt_name": "J0304-4401",
+      "spt_redshift": 0.4584,
+      "centre_offset_arcmin": 0.14255504284051396,
+      "ra_deg": 46.068702215831074,
+      "dec_deg": -44.02920385755047,
+      "theta500_arcmin": 3.5638048340937343,
+      "core_candidates": 34,
+      "outskirts_candidates": 0,
+      "outskirts_inside_mer_geometric_footprint": 0,
+      "outskirts_candidates_1500_kms": 0
+    },
+    {
+      "act_name": "ACT-CL J0406.9-4805",
+      "spt_name": "J0406-4805",
+      "spt_redshift": 0.7355,
+      "centre_offset_arcmin": 0.09278224316247283,
+      "ra_deg": 61.72524709855481,
+      "dec_deg": -48.08674438255015,
+      "theta500_arcmin": 2.1581956960155604,
+      "core_candidates": 27,
+      "outskirts_candidates": 0,
+      "outskirts_inside_mer_geometric_footprint": 0,
+      "outskirts_candidates_1500_kms": 0
+    },
+    {
+      "act_name": "ACT-CL J0411.2-4819",
+      "spt_name": "J0411-4819",
+      "spt_redshift": 0.4241,
+      "centre_offset_arcmin": 0.12903130708092822,
+      "ra_deg": 62.81231327102241,
+      "dec_deg": -48.32227194636089,
+      "theta500_arcmin": 3.7075564074976546,
+      "core_candidates": 44,
+      "outskirts_candidates": 0,
+      "outskirts_inside_mer_geometric_footprint": 0,
+      "outskirts_candidates_1500_kms": 0
+    },
+    {
+      "act_name": "ACT-CL J0417.3-4748",
+      "spt_name": "J0417-4748",
+      "spt_redshift": 0.5794,
+      "centre_offset_arcmin": 0.13476273427357607,
+      "ra_deg": 64.34726587959256,
+      "dec_deg": -47.81223683379098,
+      "theta500_arcmin": 2.8373352291888665,
+      "core_candidates": 32,
+      "outskirts_candidates": 0,
+      "outskirts_inside_mer_geometric_footprint": 0,
+      "outskirts_candidates_1500_kms": 0
+    },
+    {
+      "act_name": "ACT-CL J0426.0-5455",
+      "spt_name": "J0426-5455",
+      "spt_redshift": 0.642,
+      "centre_offset_arcmin": 0.2569920328889764,
+      "ra_deg": 66.51402970955662,
+      "dec_deg": -54.91688098925142,
+      "theta500_arcmin": 2.414336941210213,
+      "core_candidates": 11,
+      "outskirts_candidates": 0,
+      "outskirts_inside_mer_geometric_footprint": 0,
+      "outskirts_candidates_1500_kms": 0
+    },
+    {
+      "act_name": "ACT-CL J0438.3-5419",
+      "spt_name": "J0438-5419",
+      "spt_redshift": 0.4224,
+      "centre_offset_arcmin": 0.10096181168229726,
+      "ra_deg": 69.57668269818657,
+      "dec_deg": -54.319744271265506,
+      "theta500_arcmin": 4.162353676779457,
+      "core_candidates": 16,
+      "outskirts_candidates": 0,
+      "outskirts_inside_mer_geometric_footprint": 0,
+      "outskirts_candidates_1500_kms": 0
+    },
+    {
+      "act_name": "ACT-CL J0456.4-5116",
+      "spt_name": "J0456-5116",
+      "spt_redshift": 0.5619,
+      "centre_offset_arcmin": 0.13860956281173337,
+      "ra_deg": 74.11858781877288,
+      "dec_deg": -51.27487837079424,
+      "theta500_arcmin": 2.5295701974650706,
+      "core_candidates": 23,
+      "outskirts_candidates": 0,
+      "outskirts_inside_mer_geometric_footprint": 0,
+      "outskirts_candidates_1500_kms": 0
+    }
+  ],
+  "measured_fields": [
+    {
+      "act_name": "ACT-CL J0142.1-5032",
+      "spt_name": "J0142-5032",
+      "spt_redshift": 0.6793,
+      "centre_offset_arcmin": 0.2362488892085514,
+      "ra_deg": 25.544968603162662,
+      "dec_deg": -50.53967368018124,
+      "theta500_arcmin": 2.3947737979345676,
+      "core_candidates": 21,
+      "outskirts_candidates": 10,
+      "outskirts_inside_mer_geometric_footprint": 10,
+      "outskirts_candidates_1500_kms": 9,
+      "area": {
+        "represented_fraction": 1.0,
+        "overlap_fraction": 0.0,
+        "optical_fraction": 0.984832763671875,
+        "common_fraction": 0.959869384765625
+      },
+      "slit_mask_offsets": {
+        "12bQ29m21": {
+          "east_arcsec": -0.01802103646339076,
+          "north_arcsec": 3.770787157778381,
+          "supporting_core_matches": 13,
+          "core_spectra": 13,
+          "leave_one_out_rms_arcsec": 0.1553553246174444
+        },
+        "12bQ29m22": {
+          "east_arcsec": 0.005628243077565124,
+          "north_arcsec": 3.8320015848207003,
+          "supporting_core_matches": 12,
+          "core_spectra": 13,
+          "leave_one_out_rms_arcsec": 0.1329086517593221
+        }
+      },
+      "unique_matches_before_registration": 0,
+      "spectra_with_unique_mer_match": 10,
+      "shifted_control_unique_matches": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0
+      ],
+      "unique_mer_matches": 9,
+      "tallies": {
+        "optical": {
+          "count": 0,
+          "red": 0,
+          "wilson95": null
+        },
+        "common_footprint": {
+          "count": 0,
+          "red": 0,
+          "wilson95": null
+        },
+        "j_detection": {
+          "count": 0,
+          "red": 0,
+          "wilson95": null
+        },
+        "optical_allow_extended_area": {
+          "count": 7,
+          "red": 4,
+          "wilson95": [
+            0.2504583645276572,
+            0.8417801447485304
+          ]
+        },
+        "common_allow_extended_area": {
+          "count": 7,
+          "red": 4,
+          "wilson95": [
+            0.2504583645276572,
+            0.8417801447485304
+          ]
+        }
+      },
+      "matched_spectra": [
+        {
+          "name": "J014227.29-503005.8",
+          "file": "12bQ29m21/spt0142-5032_12bQ29m21_12_F.fits",
+          "ra_deg": 25.613706,
+          "dec_deg": -50.50162,
+          "spectroscopic_z": 0.684018,
+          "spectroscopic_z_error": 0.0002,
+          "r_over_r500": 1.4518799241683777,
+          "registered_r_over_r500": 1.4691621786795048,
+          "dv_kms": 842.2680979241351,
+          "nearby_mer_sources": 1,
+          "match": {
+            "tile": 102019083,
+            "object_id": -256136564505006381,
+            "separation_arcsec": 0.25471789358887265,
+            "i_ab": 23.07752764683237,
+            "r_minus_i_ab": 0.5083153272851022,
+            "red_colour": false,
+            "detection_quality_flag": 512,
+            "optical": false,
+            "common_footprint": false,
+            "optical_allow_extended_area": false,
+            "common_allow_extended_area": false,
+            "j_detection": false
+          },
+          "used_in_counts": true
+        },
+        {
+          "name": "J014215.65-503516.9",
+          "file": "12bQ29m21/spt0142-5032_12bQ29m21_26_F.fits",
+          "ra_deg": 25.565196,
+          "dec_deg": -50.588019,
+          "spectroscopic_z": 0.675026,
+          "spectroscopic_z_error": 0.000809,
+          "r_over_r500": 1.253319498074983,
+          "registered_r_over_r500": 1.2279433366009727,
+          "dv_kms": -763.0042074030846,
+          "nearby_mer_sources": 1,
+          "match": {
+            "tile": 102019083,
+            "object_id": -255650665505868312,
+            "separation_arcsec": 0.5766488105932333,
+            "i_ab": 21.475985634187012,
+            "r_minus_i_ab": 1.0821353195879975,
+            "red_colour": true,
+            "detection_quality_flag": 512,
+            "optical": false,
+            "common_footprint": false,
+            "optical_allow_extended_area": true,
+            "common_allow_extended_area": true,
+            "j_detection": false
+          },
+          "used_in_counts": false
+        },
+        {
+          "name": "J014224.15-503053.3",
+          "file": "12bQ29m21/spt0142-5032_12bQ29m21_31_F.fits",
+          "ra_deg": 25.600617,
+          "dec_deg": -50.514811,
+          "spectroscopic_z": 0.683161,
+          "spectroscopic_z_error": 0.000555,
+          "r_over_r500": 1.0833413184897263,
+          "registered_r_over_r500": 1.0985477994958621,
+          "dv_kms": 689.2745074364324,
+          "nearby_mer_sources": 1,
+          "match": {
+            "tile": 102019083,
+            "object_id": -256005936505138288,
+            "separation_arcsec": 0.2376878647794757,
+            "i_ab": null,
+            "r_minus_i_ab": null,
+            "red_colour": null,
+            "detection_quality_flag": 514,
+            "optical": false,
+            "common_footprint": false,
+            "optical_allow_extended_area": false,
+            "common_allow_extended_area": false,
+            "j_detection": false
+          },
+          "used_in_counts": true
+        },
+        {
+          "name": "J014225.49-503334.9",
+          "file": "12bQ29m21/spt0142-5032_12bQ29m21_32_F.fits",
+          "ra_deg": 25.606196,
+          "dec_deg": -50.559691,
+          "spectroscopic_z": 0.685735,
+          "spectroscopic_z_error": 0.000646,
+          "r_over_r500": 1.0961899795261227,
+          "registered_r_over_r500": 1.0843313771743124,
+          "dv_kms": 1148.7908457273807,
+          "nearby_mer_sources": 1,
+          "match": {
+            "tile": 102019083,
+            "object_id": -256061278505586432,
+            "separation_arcsec": 0.13773738883094938,
+            "i_ab": 20.796208100904675,
+            "r_minus_i_ab": 1.0504729349612305,
+            "red_colour": true,
+            "detection_quality_flag": 512,
+            "optical": false,
+            "common_footprint": false,
+            "optical_allow_extended_area": true,
+            "common_allow_extended_area": true,
+            "j_detection": false
+          },
+          "used_in_counts": true
+        },
+        {
+          "name": "J014226.24-503442.3",
+          "file": "12bQ29m21/spt0142-5032_12bQ29m21_33_F.fits",
+          "ra_deg": 25.609347,
+          "dec_deg": -50.578429,
+          "spectroscopic_z": 0.671575,
+          "spectroscopic_z_error": 0.001726,
+          "r_over_r500": 1.4116770163264938,
+          "registered_r_over_r500": 1.3936724249426142,
+          "dv_kms": -1379.0845817007053,
+          "nearby_mer_sources": 1,
+          "match": {
+            "tile": 102019083,
+            "object_id": -256092052505772921,
+            "separation_arcsec": 0.4440184901673934,
+            "i_ab": 22.811539315005263,
+            "r_minus_i_ab": 1.059923869926316,
+            "red_colour": true,
+            "detection_quality_flag": 512,
+            "optical": false,
+            "common_footprint": false,
+            "optical_allow_extended_area": true,
+            "common_allow_extended_area": true,
+            "j_detection": false
+          },
+          "used_in_counts": true
+        },
+        {
+          "name": "J014155.83-503315.6",
+          "file": "12bQ29m22/spt0142-5032_12bQ29m22_01_F.fits",
+          "ra_deg": 25.482636,
+          "dec_deg": -50.554339,
+          "spectroscopic_z": 0.681853,
+          "spectroscopic_z_error": 0.00033,
+          "r_over_r500": 1.0582220508128048,
+          "registered_r_over_r500": 1.0492336941030704,
+          "dv_kms": 455.7673704960449,
+          "nearby_mer_sources": 1,
+          "match": {
+            "tile": 102019083,
+            "object_id": -254826974505532193,
+            "separation_arcsec": 0.24038905645179792,
+            "i_ab": 22.135329932844225,
+            "r_minus_i_ab": 0.4486426466342085,
+            "red_colour": false,
+            "detection_quality_flag": 512,
+            "optical": false,
+            "common_footprint": false,
+            "optical_allow_extended_area": true,
+            "common_allow_extended_area": true,
+            "j_detection": false
+          },
+          "used_in_counts": true
+        },
+        {
+          "name": "J014203.56-503005.3",
+          "file": "12bQ29m22/spt0142-5032_12bQ29m22_04_F.fits",
+          "ra_deg": 25.514845,
+          "dec_deg": -50.501471,
+          "spectroscopic_z": 0.681046,
+          "spectroscopic_z_error": 0.000362,
+          "r_over_r500": 1.0707028455751928,
+          "registered_r_over_r500": 1.0945941511611776,
+          "dv_kms": 311.6998938057569,
+          "nearby_mer_sources": 1,
+          "match": {
+            "tile": 102019083,
+            "object_id": -255149634505005029,
+            "separation_arcsec": 0.4370130215714722,
+            "i_ab": 22.74207407690651,
+            "r_minus_i_ab": 0.5252906610803023,
+            "red_colour": false,
+            "detection_quality_flag": 512,
+            "optical": false,
+            "common_footprint": false,
+            "optical_allow_extended_area": true,
+            "common_allow_extended_area": true,
+            "j_detection": false
+          },
+          "used_in_counts": true
+        },
+        {
+          "name": "J014224.09-503019.9",
+          "file": "12bQ29m22/spt0142-5032_12bQ29m22_17_F.fits",
+          "ra_deg": 25.600395,
+          "dec_deg": -50.50553,
+          "spectroscopic_z": 0.67066,
+          "spectroscopic_z_error": 0.000191,
+          "r_over_r500": 1.229347576124257,
+          "registered_r_over_r500": 1.2480873411590419,
+          "dv_kms": -1542.4324641934106,
+          "nearby_mer_sources": 1,
+          "match": {
+            "tile": 102019083,
+            "object_id": -256003627505045924,
+            "separation_arcsec": 0.4637325911563221,
+            "i_ab": 22.977986806433243,
+            "r_minus_i_ab": 0.4886095403877588,
+            "red_colour": false,
+            "detection_quality_flag": 512,
+            "optical": false,
+            "common_footprint": false,
+            "optical_allow_extended_area": true,
+            "common_allow_extended_area": true,
+            "j_detection": false
+          },
+          "used_in_counts": true
+        },
+        {
+          "name": "J014215.61-503516.5",
+          "file": "12bQ29m22/spt0142-5032_12bQ29m22_27_F.fits",
+          "ra_deg": 25.565056,
+          "dec_deg": -50.587909,
+          "spectroscopic_z": 0.674728,
+          "spectroscopic_z_error": 0.000642,
+          "r_over_r500": 1.2500845897868984,
+          "registered_r_over_r500": 1.2243324173819738,
+          "dv_kms": -816.2038456356852,
+          "nearby_mer_sources": 1,
+          "match": {
+            "tile": 102019083,
+            "object_id": -255650665505868312,
+            "separation_arcsec": 0.0514596649818784,
+            "i_ab": 21.475985634187012,
+            "r_minus_i_ab": 1.0821353195879975,
+            "red_colour": true,
+            "detection_quality_flag": 512,
+            "optical": false,
+            "common_footprint": false,
+            "optical_allow_extended_area": true,
+            "common_allow_extended_area": true,
+            "j_detection": false
+          },
+          "used_in_counts": true
+        },
+        {
+          "name": "J014225.42-503031.4",
+          "file": "12bQ29m22/spt0142-5032_12bQ29m22_29_F.fits",
+          "ra_deg": 25.605906,
+          "dec_deg": -50.508719,
+          "spectroscopic_z": 0.673269,
+          "spectroscopic_z_error": 0.000474,
+          "r_over_r500": 1.2424292594112891,
+          "registered_r_over_r500": 1.2592878435867476,
+          "dv_kms": -1076.6678462442699,
+          "nearby_mer_sources": 1,
+          "match": {
+            "tile": 102019083,
+            "object_id": -256058698505077577,
+            "separation_arcsec": 0.38192541312842415,
+            "i_ab": 22.05496878734436,
+            "r_minus_i_ab": 1.1607840293732923,
+            "red_colour": true,
+            "detection_quality_flag": 512,
+            "optical": false,
+            "common_footprint": false,
+            "optical_allow_extended_area": true,
+            "common_allow_extended_area": true,
+            "j_detection": false
+          },
+          "used_in_counts": true
+        }
+      ]
+    },
+    {
+      "act_name": "ACT-CL J0212.4-4656",
+      "spt_name": "J0212-4657",
+      "spt_redshift": 0.6535,
+      "centre_offset_arcmin": 0.09473169566431655,
+      "ra_deg": 33.10737459325295,
+      "dec_deg": -46.94862034658004,
+      "theta500_arcmin": 2.444758050932226,
+      "core_candidates": 19,
+      "outskirts_candidates": 7,
+      "outskirts_inside_mer_geometric_footprint": 7,
+      "outskirts_candidates_1500_kms": 6,
+      "area": {
+        "represented_fraction": 1.0,
+        "overlap_fraction": 0.0,
+        "optical_fraction": 0.984893798828125,
+        "common_fraction": 0.97479248046875
+      },
+      "slit_mask_offsets": {
+        "12bQ29m19": {
+          "east_arcsec": 1.0258063720690243,
+          "north_arcsec": 0.5369252815932246,
+          "supporting_core_matches": 9,
+          "core_spectra": 9,
+          "leave_one_out_rms_arcsec": 0.1648288336640972
+        },
+        "12bQ29m20": {
+          "east_arcsec": 1.0073746206387162,
+          "north_arcsec": 0.42419808747093,
+          "supporting_core_matches": 16,
+          "core_spectra": 16,
+          "leave_one_out_rms_arcsec": 0.19355834985374185
+        }
+      },
+      "unique_matches_before_registration": 0,
+      "spectra_with_unique_mer_match": 7,
+      "shifted_control_unique_matches": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "unique_mer_matches": 7,
+      "tallies": {
+        "optical": {
+          "count": 4,
+          "red": 3,
+          "wilson95": [
+            0.3006418425824019,
+            0.9544127391902995
+          ]
+        },
+        "common_footprint": {
+          "count": 4,
+          "red": 3,
+          "wilson95": [
+            0.3006418425824019,
+            0.9544127391902995
+          ]
+        },
+        "j_detection": {
+          "count": 4,
+          "red": 3,
+          "wilson95": [
+            0.3006418425824019,
+            0.9544127391902995
+          ]
+        },
+        "optical_allow_extended_area": {
+          "count": 4,
+          "red": 3,
+          "wilson95": [
+            0.3006418425824019,
+            0.9544127391902995
+          ]
+        },
+        "common_allow_extended_area": {
+          "count": 4,
+          "red": 3,
+          "wilson95": [
+            0.3006418425824019,
+            0.9544127391902995
+          ]
+        }
+      },
+      "matched_spectra": [
+        {
+          "name": "J021220.30-465919.0",
+          "file": "12bQ29m19/spt0212-4657_12bQ29m19_13_F.fits",
+          "ra_deg": 33.08458,
+          "dec_deg": -46.988621,
+          "spectroscopic_z": 0.655195,
+          "spectroscopic_z_error": 0.002,
+          "r_over_r500": 1.053322590125848,
+          "registered_r_over_r500": 1.047388618165735,
+          "dv_kms": 307.3167319685519,
+          "nearby_mer_sources": 1,
+          "match": {
+            "tile": 102022439,
+            "object_id": -330848359469884485,
+            "separation_arcsec": 0.4060223652033281,
+            "i_ab": null,
+            "r_minus_i_ab": null,
+            "red_colour": null,
+            "detection_quality_flag": 2,
+            "optical": false,
+            "common_footprint": false,
+            "optical_allow_extended_area": false,
+            "common_allow_extended_area": false,
+            "j_detection": false
+          },
+          "used_in_counts": true
+        },
+        {
+          "name": "J021210.78-465513.2",
+          "file": "12bQ29m19/spt0212-4657_12bQ29m19_17_F.fits",
+          "ra_deg": 33.044897,
+          "dec_deg": -46.92033,
+          "spectroscopic_z": 0.647048,
+          "spectroscopic_z_error": 0.000521,
+          "r_over_r500": 1.2563111219367817,
+          "registered_r_over_r500": 1.2525276952762994,
+          "dv_kms": -1169.7979673516807,
+          "nearby_mer_sources": 1,
+          "match": {
+            "tile": 102022438,
+            "object_id": -330455744469202186,
+            "separation_arcsec": 0.6543571014863904,
+            "i_ab": 20.972758509201533,
+            "r_minus_i_ab": 0.9926199760403919,
+            "red_colour": true,
+            "detection_quality_flag": 0,
+            "optical": true,
+            "common_footprint": true,
+            "optical_allow_extended_area": true,
+            "common_allow_extended_area": true,
+            "j_detection": true
+          },
+          "used_in_counts": true
+        },
+        {
+          "name": "J021211.26-465539.9",
+          "file": "12bQ29m19/spt0212-4657_12bQ29m19_18_F.fits",
+          "ra_deg": 33.046921,
+          "dec_deg": -46.927738,
+          "spectroscopic_z": 0.649865,
+          "spectroscopic_z_error": 0.000447,
+          "r_over_r500": 1.135292524481644,
+          "registered_r_over_r500": 1.1307255235145417,
+          "dv_kms": -659.0538765225177,
+          "nearby_mer_sources": 1,
+          "match": {
+            "tile": 102022438,
+            "object_id": -330475252469276340,
+            "separation_arcsec": 0.4878260730904213,
+            "i_ab": 20.801024506371917,
+            "r_minus_i_ab": 1.0145537768350457,
+            "red_colour": true,
+            "detection_quality_flag": 0,
+            "optical": true,
+            "common_footprint": true,
+            "optical_allow_extended_area": true,
+            "common_allow_extended_area": true,
+            "j_detection": true
+          },
+          "used_in_counts": true
+        },
+        {
+          "name": "J021212.19-465604.8",
+          "file": "12bQ29m19/spt0212-4657_12bQ29m19_21_F.fits",
+          "ra_deg": 33.05078,
+          "dec_deg": -46.934662,
+          "spectroscopic_z": 0.644329,
+          "spectroscopic_z_error": 0.00109,
+          "r_over_r500": 1.0082828818310463,
+          "registered_r_over_r500": 1.0029682730812466,
+          "dv_kms": -1662.7738931466458,
+          "nearby_mer_sources": 1,
+          "match": {
+            "tile": 102022438,
+            "object_id": -330512817469344925,
+            "separation_arcsec": 0.22006662138753535,
+            "i_ab": null,
+            "r_minus_i_ab": null,
+            "red_colour": null,
+            "detection_quality_flag": 386,
+            "optical": false,
+            "common_footprint": false,
+            "optical_allow_extended_area": false,
+            "common_allow_extended_area": false,
+            "j_detection": false
+          },
+          "used_in_counts": true
+        },
+        {
+          "name": "J021240.50-465736.4",
+          "file": "12bQ29m19/spt0212-4657_12bQ29m19_32_F.fits",
+          "ra_deg": 33.168769,
+          "dec_deg": -46.96011,
+          "spectroscopic_z": 0.6462,
+          "spectroscopic_z_error": 0.000971,
+          "r_over_r500": 1.0664409970694995,
+          "registered_r_over_r500": 1.0722330674537575,
+          "dv_kms": -1323.5469872391848,
+          "nearby_mer_sources": 1,
+          "match": {
+            "tile": 102022439,
+            "object_id": -331691250469599811,
+            "separation_arcsec": 0.1677250802685097,
+            "i_ab": 21.21892404924774,
+            "r_minus_i_ab": 1.0615742468266396,
+            "red_colour": true,
+            "detection_quality_flag": 0,
+            "optical": true,
+            "common_footprint": true,
+            "optical_allow_extended_area": true,
+            "common_allow_extended_area": true,
+            "j_detection": true
+          },
+          "used_in_counts": true
+        },
+        {
+          "name": "J021215.51-465904.7",
+          "file": "12bQ29m20/spt0212-4657_12bQ29m20_21_F.fits",
+          "ra_deg": 33.064628,
+          "dec_deg": -46.98465,
+          "spectroscopic_z": 0.658117,
+          "spectroscopic_z_error": 0.000435,
+          "r_over_r500": 1.1377419467239172,
+          "registered_r_over_r500": 1.1311774134570007,
+          "dv_kms": 837.0981424771664,
+          "nearby_mer_sources": 1,
+          "match": {
+            "tile": 102022439,
+            "object_id": -330651176469844376,
+            "separation_arcsec": 0.39220569923124665,
+            "i_ab": 22.30944012254561,
+            "r_minus_i_ab": 0.5739557938097942,
+            "red_colour": false,
+            "detection_quality_flag": 0,
+            "optical": true,
+            "common_footprint": true,
+            "optical_allow_extended_area": true,
+            "common_allow_extended_area": true,
+            "j_detection": true
+          },
+          "used_in_counts": true
+        },
+        {
+          "name": "J021211.91-465536.3",
+          "file": "12bQ29m20/spt0212-4657_12bQ29m20_25_F.fits",
+          "ra_deg": 33.049611,
+          "dec_deg": -46.926739,
+          "spectroscopic_z": 0.650818,
+          "spectroscopic_z_error": 0.000267,
+          "r_over_r500": 1.106951681513638,
+          "registered_r_over_r500": 1.1023670857330905,
+          "dv_kms": -486.26753695554197,
+          "nearby_mer_sources": 1,
+          "match": {
+            "tile": 102022439,
+            "object_id": -330502359469266018,
+            "separation_arcsec": 0.5335915121037188,
+            "i_ab": null,
+            "r_minus_i_ab": null,
+            "red_colour": null,
+            "detection_quality_flag": 2,
+            "optical": false,
+            "common_footprint": false,
+            "optical_allow_extended_area": false,
+            "common_allow_extended_area": false,
+            "j_detection": false
+          },
+          "used_in_counts": true
+        }
+      ]
+    },
+    {
+      "act_name": "ACT-CL J0200.5-4852",
+      "spt_name": "J0200-4852",
+      "spt_redshift": 0.4991,
+      "centre_offset_arcmin": 0.21548971921662552,
+      "ra_deg": 30.140382687865618,
+      "dec_deg": -48.87272822499023,
+      "theta500_arcmin": 2.7829445367289942,
+      "core_candidates": 29,
+      "outskirts_candidates": 6,
+      "outskirts_inside_mer_geometric_footprint": 6,
+      "outskirts_candidates_1500_kms": 6,
+      "area": {
+        "represented_fraction": 1.0,
+        "overlap_fraction": 0.0,
+        "optical_fraction": 0.986083984375,
+        "common_fraction": 0.978790283203125
+      },
+      "slit_mask_offsets": {
+        "12bQ29m07": {
+          "east_arcsec": -0.0028165795963369673,
+          "north_arcsec": -1.1009271414715762,
+          "supporting_core_matches": 25,
+          "core_spectra": 27,
+          "leave_one_out_rms_arcsec": 0.2946835029906025
+        },
+        "12bQ29m08": {
+          "east_arcsec": 0.05979893248458359,
+          "north_arcsec": -1.162710667594975,
+          "supporting_core_matches": 15,
+          "core_spectra": 18,
+          "leave_one_out_rms_arcsec": 0.1762638872596832
+        }
+      },
+      "unique_matches_before_registration": 1,
+      "spectra_with_unique_mer_match": 6,
+      "shifted_control_unique_matches": [
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "unique_mer_matches": 6,
+      "tallies": {
+        "optical": {
+          "count": 6,
+          "red": 0,
+          "wilson95": [
+            3.384324554477539e-17,
+            0.39033428790216534
+          ]
+        },
+        "common_footprint": {
+          "count": 6,
+          "red": 0,
+          "wilson95": [
+            3.384324554477539e-17,
+            0.39033428790216534
+          ]
+        },
+        "j_detection": {
+          "count": 6,
+          "red": 0,
+          "wilson95": [
+            3.384324554477539e-17,
+            0.39033428790216534
+          ]
+        },
+        "optical_allow_extended_area": {
+          "count": 6,
+          "red": 0,
+          "wilson95": [
+            3.384324554477539e-17,
+            0.39033428790216534
+          ]
+        },
+        "common_allow_extended_area": {
+          "count": 6,
+          "red": 0,
+          "wilson95": [
+            3.384324554477539e-17,
+            0.39033428790216534
+          ]
+        }
+      },
+      "matched_spectra": [
+        {
+          "name": "J020052.03-485219.7",
+          "file": "12bQ29m07/spt0200-4852_12bQ29m07_11_F.fits",
+          "ra_deg": 30.216788,
+          "dec_deg": -48.872134,
+          "spectroscopic_z": 0.495474,
+          "spectroscopic_z_error": 0.000945,
+          "r_over_r500": 1.0835610075991544,
+          "registered_r_over_r500": 1.0834829310017433,
+          "dv_kms": -725.1333818344265,
+          "nearby_mer_sources": 1,
+          "match": {
+            "tile": 102020494,
+            "object_id": -302167401488724627,
+            "separation_arcsec": 0.13784285214981407,
+            "i_ab": 21.141876966640726,
+            "r_minus_i_ab": 0.6689772660342863,
+            "red_colour": false,
+            "detection_quality_flag": 0,
+            "optical": true,
+            "common_footprint": true,
+            "optical_allow_extended_area": true,
+            "common_allow_extended_area": true,
+            "j_detection": true
+          },
+          "used_in_counts": true
+        },
+        {
+          "name": "J020051.13-485333.9",
+          "file": "12bQ29m07/spt0200-4852_12bQ29m07_15_F.fits",
+          "ra_deg": 30.213047,
+          "dec_deg": -48.892744,
+          "spectroscopic_z": 0.495763,
+          "spectroscopic_z_error": 0.000626,
+          "r_over_r500": 1.116953024110763,
+          "registered_r_over_r500": 1.1194984567726656,
+          "dv_kms": -667.3386914455298,
+          "nearby_mer_sources": 1,
+          "match": {
+            "tile": 102020494,
+            "object_id": -302129573488930374,
+            "separation_arcsec": 0.21411622616284234,
+            "i_ab": 21.27372043297206,
+            "r_minus_i_ab": 0.7136117755918658,
+            "red_colour": false,
+            "detection_quality_flag": 0,
+            "optical": true,
+            "common_footprint": true,
+            "optical_allow_extended_area": true,
+            "common_allow_extended_area": true,
+            "j_detection": true
+          },
+          "used_in_counts": true
+        },
+        {
+          "name": "J020050.36-485343.3",
+          "file": "12bQ29m07/spt0200-4852_12bQ29m07_16_F.fits",
+          "ra_deg": 30.209826,
+          "dec_deg": -48.895373,
+          "spectroscopic_z": 0.505089,
+          "spectroscopic_z_error": 0.000379,
+          "r_over_r500": 1.098934619742462,
+          "registered_r_over_r500": 1.1018618642246876,
+          "dv_kms": 1197.6899679554444,
+          "nearby_mer_sources": 1,
+          "match": {
+            "tile": 102020494,
+            "object_id": -302097422488956615,
+            "separation_arcsec": 0.20502785487885977,
+            "i_ab": 21.683535156385187,
+            "r_minus_i_ab": 0.5799764467785912,
+            "red_colour": false,
+            "detection_quality_flag": 0,
+            "optical": true,
+            "common_footprint": true,
+            "optical_allow_extended_area": true,
+            "common_allow_extended_area": true,
+            "j_detection": true
+          },
+          "used_in_counts": true
+        },
+        {
+          "name": "J020032.46-485522.1",
+          "file": "12bQ29m07/spt0200-4852_12bQ29m07_34_F.fits",
+          "ra_deg": 30.13525,
+          "dec_deg": -48.922804,
+          "spectroscopic_z": 0.49603,
+          "spectroscopic_z_error": 0.00038,
+          "r_over_r500": 1.0820768237752718,
+          "registered_r_over_r500": 1.088656408604256,
+          "dv_kms": -613.9435968647779,
+          "nearby_mer_sources": 1,
+          "match": {
+            "tile": 102020494,
+            "object_id": -301352034489230505,
+            "separation_arcsec": 0.23866741310154227,
+            "i_ab": 20.577605878289866,
+            "r_minus_i_ab": 0.6798938140903675,
+            "red_colour": false,
+            "detection_quality_flag": 0,
+            "optical": true,
+            "common_footprint": true,
+            "optical_allow_extended_area": true,
+            "common_allow_extended_area": true,
+            "j_detection": true
+          },
+          "used_in_counts": true
+        },
+        {
+          "name": "J020042.42-484953.5",
+          "file": "12bQ29m08/spt0200-4852_12bQ29m08_21_F.fits",
+          "ra_deg": 30.176737,
+          "dec_deg": -48.831541,
+          "spectroscopic_z": 0.499844,
+          "spectroscopic_z_error": 0.000253,
+          "r_over_r500": 1.0268977539763127,
+          "registered_r_over_r500": 1.0210623939209789,
+          "dv_kms": 148.78633096658444,
+          "nearby_mer_sources": 1,
+          "match": {
+            "tile": 102020494,
+            "object_id": -301767581488319780,
+            "separation_arcsec": 0.41069429428343046,
+            "i_ab": 20.617235486502743,
+            "r_minus_i_ab": 0.7446761369528951,
+            "red_colour": false,
+            "detection_quality_flag": 0,
+            "optical": true,
+            "common_footprint": true,
+            "optical_allow_extended_area": true,
+            "common_allow_extended_area": true,
+            "j_detection": true
+          },
+          "used_in_counts": true
+        },
+        {
+          "name": "J020034.75-485548.9",
+          "file": "12bQ29m08/spt0200-4852_12bQ29m08_36_F.fits",
+          "ra_deg": 30.144787,
+          "dec_deg": -48.930262,
+          "spectroscopic_z": 0.492833,
+          "spectroscopic_z_error": 0.000325,
+          "r_over_r500": 1.2419918660611506,
+          "registered_r_over_r500": 1.2489643773306074,
+          "dv_kms": -1253.2848604402575,
+          "nearby_mer_sources": 1,
+          "match": {
+            "tile": 102020494,
+            "object_id": -301447346489304643,
+            "separation_arcsec": 0.47132370280300656,
+            "i_ab": 20.510289069410774,
+            "r_minus_i_ab": 0.529510713283631,
+            "red_colour": false,
+            "detection_quality_flag": 0,
+            "optical": true,
+            "common_footprint": true,
+            "optical_allow_extended_area": true,
+            "common_allow_extended_area": true,
+            "j_detection": true
+          },
+          "used_in_counts": true
+        }
+      ]
+    }
+  ],
+  "sha256": {
+    "spt_ruel.tsv": "ff4f9da708c6ad12a58a2ae9e2ac2738619d07bf556523c91b14d79cf6cbd129",
+    "spt_gmos.tsv": "831dc33551ced1cf4a4d4144ec33bccab99b22a91fc44f73aa0fae5d48814e85",
+    "act_dr6_v1.fits": "732e293382ccc1aeb1ba48407b5bed1503dd482047cf56b73a7ecf26190200fe",
+    "mer_wide_survey.fits": "c8f8aedbc73a2cb3a1afea61f94fdefea186a398e14ba505c75b4886110a5af9",
+    "J0434.5-5726_ozdes.tsv": "6d6eec9d57895f67ca9816495c056faa28ff7f1183c96bbb3e495ca9d6315005",
+    "J0434.5-5726_6dfgs.tsv": "545aa3d770d6b871da92053e8a9028e0020f571377a21a7c61c07c1e4eb9263f",
+    "J0434.5-5726_erass_opt.tsv": "d99fbf6ca496ee317c7ea58b818a358ecd4991f344c2191363b61808b2c49762",
+    "J0434.8-5737_ozdes.tsv": "dc47e821e5f2c5bd885f51f27986b2b83fc2bc48806e0f07942329df178cc92d",
+    "J0434.8-5737_6dfgs.tsv": "c47bef21c7425821e40cd1270b40d54ad4c4080deb16c9190e41bec4b373f7b6",
+    "J0434.8-5737_erass_opt.tsv": "a7d8a41ca60d8025b475e0442fa637a9c00c216cfbb7006cec6a4e04754b776e",
+    "J0436.5-4450_ozdes.tsv": "710e1e50216eb131359c1909f720dd799eb014f88c3359f4d3d55bd67af544c3",
+    "J0436.5-4450_6dfgs.tsv": "63c350c328b469bbc69e9ce92ef4b69d597ceeae936836442bcf24852273e5bc",
+    "J0436.5-4450_erass_opt.tsv": "704f9e41e694404cba3e0a41f41214b3ec60720ad3d9b3a8f044574654534534",
+    "J0515.4-4006_ozdes.tsv": "186604966c87e8e8bc6b987f2f461b2b496e6d305bcd0b6423116f97e610faac",
+    "J0515.4-4006_6dfgs.tsv": "93899fcc4c47de26eb6b047bd0544dc09565673979f6e693cfd010643f528421",
+    "J0515.4-4006_erass_opt.tsv": "22e6abf1f57cfbb04f605ae2c0c460d2d2f405c3f36c589dc9fa7b3bd6ab463b",
+    "102019083/NIR_J": "2e31a4944cb46c53f96e2af48e670ff330f7c165f563abfbb6849098610396a1",
+    "102019083/VIS": "f48d383be3162526238ce798af9ab7ea052b5426160a641109bf333fa163ddcf",
+    "102019083/DECAM_i": "66d4cb6bfee01f90535a4711edee3a2c4199144ecda5bfb12140419d45634a5c",
+    "102019083/DECAM_r": "8c574a3db9f1915932d3a6e06d7323f9f09b86062349184b240831383255bb69",
+    "102019083/MER": "9212e220ad41fae5a51d6030ebd55c87bd31ac519e934830dd711009ebde3025",
+    "102022438/VIS": "8fac20ee7f076e615c76119fb258bf18d741ff609039bd37267a84bbdb571477",
+    "102022438/NIR_J": "b349de2fe0a189b96861c60860d0d5f89ca939bacb29908cdea5c2583c63ad04",
+    "102022438/DECAM_i": "99be38dc5d8bf4d37c1b6631cf313fda67129973fa41efdae931904756e9832f",
+    "102022438/DECAM_r": "aa7ad6b76760659d28270b6aeffe7cff50f347bb1b2d8eedafe740f447733c24",
+    "102022438/MER": "0fae6da9822d7ea941d500559f2610607bcf45418882fe92f888d69b33d3e583",
+    "102022439/VIS": "bc3583a67a2429907fc8cfb87e19fd9cead689b4f3ec9c28db3953285aeea8e8",
+    "102022439/NIR_J": "1e2c76d22ab5b0a18b72a5bda523c8c11bc9817a2013b06bff8390fb3cd99e5e",
+    "102022439/DECAM_i": "235574aeb1e8a34f2a552e54baa7c9449a1ef41f3a82dd4ac696511207d7f815",
+    "102022439/DECAM_r": "9422635a1450af65d0ddaa9cf3f8d2309b9a2d54a30c684292148c487f602f4f",
+    "102022439/MER": "156bdc0bd24d1aeeb2d639763db4f07a90fecf954b819e0f92ae1dbaa1a5c5aa",
+    "102020494/VIS": "362d01b334b6cfedd1abd3e93fa9058f7b7cb67bedc6d4a405efff214c2fce21",
+    "102020494/NIR_J": "e438df739caa13036a8504f9ac03c5db1f7e5e8d026166b81dcbec4566ff5418",
+    "102020494/DECAM_i": "cb3520e1d9e40c4e2003632cadb2bf8b32e456cd1f807cd35fe05861093f2a0c",
+    "102020494/DECAM_r": "4165350f4019270ba9ca6445607569fcd17ac9670076667a5905b60d9c0197a0",
+    "102020494/MER": "ee9f6833ac99d05637ac9e823d871bd6bf41a5236d465dbb37f477d5b5230f95"
+  }
+}
