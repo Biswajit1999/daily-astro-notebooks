@@ -1,0 +1,1003 @@
+{
+  "input_sha256": {
+    "102013160": {
+      "VIS": "ec1d318c026cbb9ff8ec35b1101b8c1ab419c5606e7f3e7484bbf6cc31f25c18",
+      "DECAM_r": "315e7bda12202bbdc9a78c4a72660d68f46a5ef7d70a54e005ef817669152443",
+      "DECAM_i": "5a087b7cb0638e99d70fa6b8a1650a9b9ea77b94829dc8fe638853997d7e4b85",
+      "MER": "3f7772e121d3b2867e6a7daa853bfa8f99ec9f67b534462470724d45a665eb17",
+      "NIR_J": "fe90488fdc8d9ffde4a8a6dd054e2e3d4e112a1b2ecfaec042f8e49da19177d1"
+    },
+    "102024504": {
+      "DECAM_i": "918d98c91edb71440775f59a1ebde8ddde57c31a921fc2cc5f394c314c5397a8",
+      "MER": "014254cb74fb7d50688e349d49e5f660aae9107611fa654b29119996dc436288",
+      "NIR_J": "a9ee6d857b46547cf2558dc1312973ebf1bb515a673bfea300c8cdb68f293dd6",
+      "DECAM_r": "0ae7b2362218887589fe529d477821e04fb74d801852767cf22adab3bcb47bd2",
+      "VIS": "8a3f8ca2f6181c4639a07f91ee31a9c9a32ece6a5fdcfd785e0f99caf15eb553"
+    },
+    "102029860": {
+      "DECAM_r": "538704f6612a06c7e01ed1381d3e295f16de82ba008e8a792360c2272a6e7213",
+      "NIR_J": "a00d18fda4ac7c3a69380932e27bbba02be18e6036c5f6ce9867869a89b09717",
+      "VIS": "4901318a8c7e461fd5b295fa62cf6f5258a350c63215127d56fbfeec255b0e5b",
+      "DECAM_i": "bb59d7c604b8035bf5a563a721cfefb4c3782c7c62299cfde75cf1298f861bd9",
+      "MER": "424bc08b0420b3962b78bac0fd829840536ae627ee089954d44da987a4a9620a"
+    }
+  },
+  "clusters": [
+    {
+      "name": "ACT-CL J0434.5-5726",
+      "tile_id": 102013160,
+      "redshift": 0.425,
+      "theta500_arcmin": 3.010478731157439,
+      "all_mer_annulus_sources": 11415,
+      "primary": {
+        "minimum_map_weight": 0.8,
+        "maximum_i_ab": 23.0,
+        "red_ri_threshold": 0.8,
+        "optical_area": 0.978759765625,
+        "common_area": 0.958221435546875,
+        "optical": {
+          "red": 145,
+          "count": 626,
+          "fraction": 0.23162939297124602,
+          "wilson95": [
+            0.2002786663782038,
+            0.2662537517494923
+          ]
+        },
+        "common_footprint": {
+          "red": 141,
+          "count": 610,
+          "fraction": 0.23114754098360657,
+          "wilson95": [
+            0.19943836798580472,
+            0.2662217054961165
+          ]
+        },
+        "quality_j_detection": {
+          "red": 139,
+          "count": 607,
+          "fraction": 0.22899505766062603,
+          "wilson95": [
+            0.1973342254790958,
+            0.26406448076593264
+          ]
+        },
+        "footprint_delta": {
+          "delta": -0.0004818519876394478,
+          "sector_bootstrap95": [
+            -0.0023929471652672464,
+            0.0018061003454130087
+          ],
+          "max_abs_delta": 0.025559105431309903
+        },
+        "depth_delta": {
+          "delta": -0.002152483322980542,
+          "sector_bootstrap95": [
+            -0.006516739074878625,
+            0.0
+          ],
+          "max_abs_delta": 0.004918032786885246
+        }
+      },
+      "sensitivity": [
+        {
+          "minimum_map_weight": 0.95,
+          "maximum_i_ab": 23,
+          "red_ri_threshold": 0.8,
+          "optical_area": 0.89739990234375,
+          "common_area": 0.867218017578125,
+          "optical": {
+            "red": 136,
+            "count": 587,
+            "fraction": 0.23168654173764908,
+            "wilson95": [
+              0.19936649307713458,
+              0.2674955639140375
+            ]
+          },
+          "common_footprint": {
+            "red": 125,
+            "count": 555,
+            "fraction": 0.22522522522522523,
+            "wilson95": [
+              0.1924287618595632,
+              0.2617992751160183
+            ]
+          },
+          "quality_j_detection": {
+            "red": 123,
+            "count": 553,
+            "fraction": 0.2224231464737794,
+            "wilson95": [
+              0.1897432959071891,
+              0.25893281263871637
+            ]
+          },
+          "footprint_delta": {
+            "delta": -0.006461316512423848,
+            "sector_bootstrap95": [
+              -0.013165496062513299,
+              -0.00018855056569873945
+            ],
+            "max_abs_delta": 0.054514480408858604
+          },
+          "depth_delta": {
+            "delta": -0.0028020787514458356,
+            "sector_bootstrap95": [
+              -0.008393962024418195,
+              0.0
+            ],
+            "max_abs_delta": 0.0036036036036036037
+          }
+        },
+        {
+          "minimum_map_weight": 0.8,
+          "maximum_i_ab": 22.5,
+          "red_ri_threshold": 0.8,
+          "optical_area": 0.978759765625,
+          "common_area": 0.958221435546875,
+          "optical": {
+            "red": 85,
+            "count": 375,
+            "fraction": 0.22666666666666666,
+            "wilson95": [
+              0.18718766065890835,
+              0.27168888195036667
+            ]
+          },
+          "common_footprint": {
+            "red": 82,
+            "count": 368,
+            "fraction": 0.22282608695652173,
+            "wilson95": [
+              0.18329555925573948,
+              0.2680835294370818
+            ]
+          },
+          "quality_j_detection": {
+            "red": 82,
+            "count": 367,
+            "fraction": 0.22343324250681199,
+            "wilson95": [
+              0.18380618971408066,
+              0.2687900743456163
+            ]
+          },
+          "footprint_delta": {
+            "delta": -0.0038405797101449257,
+            "sector_bootstrap95": [
+              -0.010259388308168776,
+              0.002045249075444593
+            ],
+            "max_abs_delta": 0.018666666666666668
+          },
+          "depth_delta": {
+            "delta": 0.0006071555502902559,
+            "sector_bootstrap95": [
+              0.0,
+              0.001738215432156326
+            ],
+            "max_abs_delta": 0.002717391304347826
+          }
+        },
+        {
+          "minimum_map_weight": 0.8,
+          "maximum_i_ab": 23,
+          "red_ri_threshold": 0.65,
+          "optical_area": 0.978759765625,
+          "common_area": 0.958221435546875,
+          "optical": {
+            "red": 218,
+            "count": 626,
+            "fraction": 0.34824281150159747,
+            "wilson95": [
+              0.3119505826580955,
+              0.38638620140220886
+            ]
+          },
+          "common_footprint": {
+            "red": 211,
+            "count": 610,
+            "fraction": 0.34590163934426227,
+            "wilson95": [
+              0.30922506184742193,
+              0.38450693148977677
+            ]
+          },
+          "quality_j_detection": {
+            "red": 209,
+            "count": 607,
+            "fraction": 0.3443163097199341,
+            "wilson95": [
+              0.30760274802718157,
+              0.3829879981135795
+            ]
+          },
+          "footprint_delta": {
+            "delta": -0.002341172157335203,
+            "sector_bootstrap95": [
+              -0.006647800718557614,
+              0.002059982150416473
+            ],
+            "max_abs_delta": 0.025559105431309903
+          },
+          "depth_delta": {
+            "delta": -0.001585329624328169,
+            "sector_bootstrap95": [
+              -0.004450662583812881,
+              0.0
+            ],
+            "max_abs_delta": 0.004918032786885246
+          }
+        },
+        {
+          "minimum_map_weight": 0.8,
+          "maximum_i_ab": 23,
+          "red_ri_threshold": 0.95,
+          "optical_area": 0.978759765625,
+          "common_area": 0.958221435546875,
+          "optical": {
+            "red": 116,
+            "count": 626,
+            "fraction": 0.1853035143769968,
+            "wilson95": [
+              0.15681827623885658,
+              0.21762747597040605
+            ]
+          },
+          "common_footprint": {
+            "red": 112,
+            "count": 610,
+            "fraction": 0.18360655737704917,
+            "wilson95": [
+              0.15489497182774717,
+              0.21627816342841616
+            ]
+          },
+          "quality_j_detection": {
+            "red": 110,
+            "count": 607,
+            "fraction": 0.1812191103789127,
+            "wilson95": [
+              0.15261106711540562,
+              0.21383665117281941
+            ]
+          },
+          "footprint_delta": {
+            "delta": -0.0016969569999476242,
+            "sector_bootstrap95": [
+              -0.003754355148974138,
+              0.0009568540505849044
+            ],
+            "max_abs_delta": 0.025559105431309903
+          },
+          "depth_delta": {
+            "delta": -0.0023874469981364776,
+            "sector_bootstrap95": [
+              -0.007288919846758529,
+              0.0
+            ],
+            "max_abs_delta": 0.004918032786885246
+          }
+        }
+      ]
+    },
+    {
+      "name": "ACT-CL J0434.8-5737",
+      "tile_id": 102013160,
+      "redshift": 0.612602174282074,
+      "theta500_arcmin": 1.804980806458558,
+      "all_mer_annulus_sources": 4243,
+      "primary": {
+        "minimum_map_weight": 0.8,
+        "maximum_i_ab": 23.0,
+        "red_ri_threshold": 0.8,
+        "optical_area": 0.983123779296875,
+        "common_area": 0.970947265625,
+        "optical": {
+          "red": 45,
+          "count": 174,
+          "fraction": 0.25862068965517243,
+          "wilson95": [
+            0.1992685610072549,
+            0.32840063065917385
+          ]
+        },
+        "common_footprint": {
+          "red": 45,
+          "count": 173,
+          "fraction": 0.26011560693641617,
+          "wilson95": [
+            0.2004590444678058,
+            0.3301940017493899
+          ]
+        },
+        "quality_j_detection": {
+          "red": 45,
+          "count": 173,
+          "fraction": 0.26011560693641617,
+          "wilson95": [
+            0.2004590444678058,
+            0.3301940017493899
+          ]
+        },
+        "footprint_delta": {
+          "delta": 0.001494917281243735,
+          "sector_bootstrap95": [
+            0.0,
+            0.004185073238781645
+          ],
+          "max_abs_delta": 0.005747126436781609
+        },
+        "depth_delta": {
+          "delta": 0.0,
+          "sector_bootstrap95": [
+            0.0,
+            0.0
+          ],
+          "max_abs_delta": 0.0
+        }
+      },
+      "sensitivity": [
+        {
+          "minimum_map_weight": 0.95,
+          "maximum_i_ab": 23,
+          "red_ri_threshold": 0.8,
+          "optical_area": 0.914337158203125,
+          "common_area": 0.911956787109375,
+          "optical": {
+            "red": 41,
+            "count": 157,
+            "fraction": 0.2611464968152866,
+            "wilson95": [
+              0.1987274249557325,
+              0.3349748894232367
+            ]
+          },
+          "common_footprint": {
+            "red": 41,
+            "count": 157,
+            "fraction": 0.2611464968152866,
+            "wilson95": [
+              0.1987274249557325,
+              0.3349748894232367
+            ]
+          },
+          "quality_j_detection": {
+            "red": 41,
+            "count": 157,
+            "fraction": 0.2611464968152866,
+            "wilson95": [
+              0.1987274249557325,
+              0.3349748894232367
+            ]
+          },
+          "footprint_delta": {
+            "delta": 0.0,
+            "sector_bootstrap95": [
+              0.0,
+              0.0
+            ],
+            "max_abs_delta": 0.0
+          },
+          "depth_delta": {
+            "delta": 0.0,
+            "sector_bootstrap95": [
+              0.0,
+              0.0
+            ],
+            "max_abs_delta": 0.0
+          }
+        },
+        {
+          "minimum_map_weight": 0.8,
+          "maximum_i_ab": 22.5,
+          "red_ri_threshold": 0.8,
+          "optical_area": 0.983123779296875,
+          "common_area": 0.970947265625,
+          "optical": {
+            "red": 25,
+            "count": 107,
+            "fraction": 0.2336448598130841,
+            "wilson95": [
+              0.16356165995161556,
+              0.32219032665650293
+            ]
+          },
+          "common_footprint": {
+            "red": 25,
+            "count": 106,
+            "fraction": 0.2358490566037736,
+            "wilson95": [
+              0.1651604119711151,
+              0.3250138755771343
+            ]
+          },
+          "quality_j_detection": {
+            "red": 25,
+            "count": 106,
+            "fraction": 0.2358490566037736,
+            "wilson95": [
+              0.1651604119711151,
+              0.3250138755771343
+            ]
+          },
+          "footprint_delta": {
+            "delta": 0.0022041967906894777,
+            "sector_bootstrap95": [
+              0.0,
+              0.006947404083950136
+            ],
+            "max_abs_delta": 0.009345794392523364
+          },
+          "depth_delta": {
+            "delta": 0.0,
+            "sector_bootstrap95": [
+              0.0,
+              0.0
+            ],
+            "max_abs_delta": 0.0
+          }
+        },
+        {
+          "minimum_map_weight": 0.8,
+          "maximum_i_ab": 23,
+          "red_ri_threshold": 0.65,
+          "optical_area": 0.983123779296875,
+          "common_area": 0.970947265625,
+          "optical": {
+            "red": 66,
+            "count": 174,
+            "fraction": 0.3793103448275862,
+            "wilson95": [
+              0.3105570775693035,
+              0.4532775182639109
+            ]
+          },
+          "common_footprint": {
+            "red": 65,
+            "count": 173,
+            "fraction": 0.37572254335260113,
+            "wilson95": [
+              0.306990820848357,
+              0.4498535283966961
+            ]
+          },
+          "quality_j_detection": {
+            "red": 65,
+            "count": 173,
+            "fraction": 0.37572254335260113,
+            "wilson95": [
+              0.306990820848357,
+              0.4498535283966961
+            ]
+          },
+          "footprint_delta": {
+            "delta": -0.003587801474985053,
+            "sector_bootstrap95": [
+              -0.010263653483992441,
+              0.0
+            ],
+            "max_abs_delta": 0.005747126436781609
+          },
+          "depth_delta": {
+            "delta": 0.0,
+            "sector_bootstrap95": [
+              0.0,
+              0.0
+            ],
+            "max_abs_delta": 0.0
+          }
+        },
+        {
+          "minimum_map_weight": 0.8,
+          "maximum_i_ab": 23,
+          "red_ri_threshold": 0.95,
+          "optical_area": 0.983123779296875,
+          "common_area": 0.970947265625,
+          "optical": {
+            "red": 32,
+            "count": 174,
+            "fraction": 0.1839080459770115,
+            "wilson95": [
+              0.1333899591543847,
+              0.2480816013611767
+            ]
+          },
+          "common_footprint": {
+            "red": 32,
+            "count": 173,
+            "fraction": 0.18497109826589594,
+            "wilson95": [
+              0.13418049038814228,
+              0.24944820886094612
+            ]
+          },
+          "quality_j_detection": {
+            "red": 32,
+            "count": 173,
+            "fraction": 0.18497109826589594,
+            "wilson95": [
+              0.13418049038814228,
+              0.24944820886094612
+            ]
+          },
+          "footprint_delta": {
+            "delta": 0.001063052288884453,
+            "sector_bootstrap95": [
+              0.0,
+              0.0030196766023767863
+            ],
+            "max_abs_delta": 0.005747126436781609
+          },
+          "depth_delta": {
+            "delta": 0.0,
+            "sector_bootstrap95": [
+              0.0,
+              0.0
+            ],
+            "max_abs_delta": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "ACT-CL J0436.5-4450",
+      "tile_id": 102024504,
+      "redshift": 0.8266505002975464,
+      "theta500_arcmin": 1.6422116690475428,
+      "all_mer_annulus_sources": 2067,
+      "primary": {
+        "minimum_map_weight": 0.8,
+        "maximum_i_ab": 23.0,
+        "red_ri_threshold": 0.8,
+        "optical_area": 0.98016357421875,
+        "common_area": 0.0,
+        "optical": {
+          "red": 31,
+          "count": 100,
+          "fraction": 0.31,
+          "wilson95": [
+            0.2277969721237604,
+            0.40626055719489407
+          ]
+        },
+        "common_footprint": {
+          "red": 0,
+          "count": 0,
+          "fraction": null,
+          "wilson95": null
+        },
+        "quality_j_detection": {
+          "red": 0,
+          "count": 0,
+          "fraction": null,
+          "wilson95": null
+        },
+        "footprint_delta": {
+          "delta": null,
+          "sector_bootstrap95": null,
+          "max_abs_delta": null
+        },
+        "depth_delta": {
+          "delta": null,
+          "sector_bootstrap95": null,
+          "max_abs_delta": null
+        }
+      },
+      "sensitivity": [
+        {
+          "minimum_map_weight": 0.95,
+          "maximum_i_ab": 23,
+          "red_ri_threshold": 0.8,
+          "optical_area": 0.90618896484375,
+          "common_area": 0.0,
+          "optical": {
+            "red": 31,
+            "count": 91,
+            "fraction": 0.34065934065934067,
+            "wilson95": [
+              0.25151369352131475,
+              0.4427128571812955
+            ]
+          },
+          "common_footprint": {
+            "red": 0,
+            "count": 0,
+            "fraction": null,
+            "wilson95": null
+          },
+          "quality_j_detection": {
+            "red": 0,
+            "count": 0,
+            "fraction": null,
+            "wilson95": null
+          },
+          "footprint_delta": {
+            "delta": null,
+            "sector_bootstrap95": null,
+            "max_abs_delta": null
+          },
+          "depth_delta": {
+            "delta": null,
+            "sector_bootstrap95": null,
+            "max_abs_delta": null
+          }
+        },
+        {
+          "minimum_map_weight": 0.8,
+          "maximum_i_ab": 22.5,
+          "red_ri_threshold": 0.8,
+          "optical_area": 0.98016357421875,
+          "common_area": 0.0,
+          "optical": {
+            "red": 19,
+            "count": 64,
+            "fraction": 0.296875,
+            "wilson95": [
+              0.19905151325539794,
+              0.41770201103542925
+            ]
+          },
+          "common_footprint": {
+            "red": 0,
+            "count": 0,
+            "fraction": null,
+            "wilson95": null
+          },
+          "quality_j_detection": {
+            "red": 0,
+            "count": 0,
+            "fraction": null,
+            "wilson95": null
+          },
+          "footprint_delta": {
+            "delta": null,
+            "sector_bootstrap95": null,
+            "max_abs_delta": null
+          },
+          "depth_delta": {
+            "delta": null,
+            "sector_bootstrap95": null,
+            "max_abs_delta": null
+          }
+        },
+        {
+          "minimum_map_weight": 0.8,
+          "maximum_i_ab": 23,
+          "red_ri_threshold": 0.65,
+          "optical_area": 0.98016357421875,
+          "common_area": 0.0,
+          "optical": {
+            "red": 44,
+            "count": 100,
+            "fraction": 0.44,
+            "wilson95": [
+              0.34672026630160796,
+              0.5377189534832303
+            ]
+          },
+          "common_footprint": {
+            "red": 0,
+            "count": 0,
+            "fraction": null,
+            "wilson95": null
+          },
+          "quality_j_detection": {
+            "red": 0,
+            "count": 0,
+            "fraction": null,
+            "wilson95": null
+          },
+          "footprint_delta": {
+            "delta": null,
+            "sector_bootstrap95": null,
+            "max_abs_delta": null
+          },
+          "depth_delta": {
+            "delta": null,
+            "sector_bootstrap95": null,
+            "max_abs_delta": null
+          }
+        },
+        {
+          "minimum_map_weight": 0.8,
+          "maximum_i_ab": 23,
+          "red_ri_threshold": 0.95,
+          "optical_area": 0.98016357421875,
+          "common_area": 0.0,
+          "optical": {
+            "red": 24,
+            "count": 100,
+            "fraction": 0.24,
+            "wilson95": [
+              0.16691325556948772,
+              0.33232336349814473
+            ]
+          },
+          "common_footprint": {
+            "red": 0,
+            "count": 0,
+            "fraction": null,
+            "wilson95": null
+          },
+          "quality_j_detection": {
+            "red": 0,
+            "count": 0,
+            "fraction": null,
+            "wilson95": null
+          },
+          "footprint_delta": {
+            "delta": null,
+            "sector_bootstrap95": null,
+            "max_abs_delta": null
+          },
+          "depth_delta": {
+            "delta": null,
+            "sector_bootstrap95": null,
+            "max_abs_delta": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "ACT-CL J0515.4-4006",
+      "tile_id": 102029860,
+      "redshift": 0.955,
+      "theta500_arcmin": 1.3011287056380816,
+      "all_mer_annulus_sources": 2144,
+      "primary": {
+        "minimum_map_weight": 0.8,
+        "maximum_i_ab": 23.0,
+        "red_ri_threshold": 0.8,
+        "optical_area": 0.979583740234375,
+        "common_area": 0.962371826171875,
+        "optical": {
+          "red": 40,
+          "count": 100,
+          "fraction": 0.4,
+          "wilson95": [
+            0.3094012864324589,
+            0.4979974132089382
+          ]
+        },
+        "common_footprint": {
+          "red": 39,
+          "count": 99,
+          "fraction": 0.3939393939393939,
+          "wilson95": [
+            0.3033822252251093,
+            0.49241997127412684
+          ]
+        },
+        "quality_j_detection": {
+          "red": 39,
+          "count": 99,
+          "fraction": 0.3939393939393939,
+          "wilson95": [
+            0.3033822252251093,
+            0.49241997127412684
+          ]
+        },
+        "footprint_delta": {
+          "delta": -0.0060606060606061,
+          "sector_bootstrap95": [
+            -0.025798525798525818,
+            0.0
+          ],
+          "max_abs_delta": 0.01
+        },
+        "depth_delta": {
+          "delta": 0.0,
+          "sector_bootstrap95": [
+            0.0,
+            0.0
+          ],
+          "max_abs_delta": 0.0
+        }
+      },
+      "sensitivity": [
+        {
+          "minimum_map_weight": 0.95,
+          "maximum_i_ab": 23,
+          "red_ri_threshold": 0.8,
+          "optical_area": 0.905120849609375,
+          "common_area": 0.80810546875,
+          "optical": {
+            "red": 37,
+            "count": 94,
+            "fraction": 0.39361702127659576,
+            "wilson95": [
+              0.30089893259000317,
+              0.4946887432167085
+            ]
+          },
+          "common_footprint": {
+            "red": 29,
+            "count": 78,
+            "fraction": 0.3717948717948718,
+            "wilson95": [
+              0.2729356172260296,
+              0.4826894621873535
+            ]
+          },
+          "quality_j_detection": {
+            "red": 29,
+            "count": 78,
+            "fraction": 0.3717948717948718,
+            "wilson95": [
+              0.2729356172260296,
+              0.4826894621873535
+            ]
+          },
+          "footprint_delta": {
+            "delta": -0.02182214948172395,
+            "sector_bootstrap95": [
+              -0.05105725881409394,
+              0.008891358710752972
+            ],
+            "max_abs_delta": 0.1702127659574468
+          },
+          "depth_delta": {
+            "delta": 0.0,
+            "sector_bootstrap95": [
+              0.0,
+              0.0
+            ],
+            "max_abs_delta": 0.0
+          }
+        },
+        {
+          "minimum_map_weight": 0.8,
+          "maximum_i_ab": 22.5,
+          "red_ri_threshold": 0.8,
+          "optical_area": 0.979583740234375,
+          "common_area": 0.962371826171875,
+          "optical": {
+            "red": 19,
+            "count": 54,
+            "fraction": 0.35185185185185186,
+            "wilson95": [
+              0.23823011108114728,
+              0.485151692797637
+            ]
+          },
+          "common_footprint": {
+            "red": 18,
+            "count": 53,
+            "fraction": 0.33962264150943394,
+            "wilson95": [
+              0.22687039101324172,
+              0.47405213362451687
+            ]
+          },
+          "quality_j_detection": {
+            "red": 18,
+            "count": 53,
+            "fraction": 0.33962264150943394,
+            "wilson95": [
+              0.22687039101324172,
+              0.47405213362451687
+            ]
+          },
+          "footprint_delta": {
+            "delta": -0.012229210342417918,
+            "sector_bootstrap95": [
+              -0.04822616407982261,
+              0.0
+            ],
+            "max_abs_delta": 0.018518518518518517
+          },
+          "depth_delta": {
+            "delta": 0.0,
+            "sector_bootstrap95": [
+              0.0,
+              0.0
+            ],
+            "max_abs_delta": 0.0
+          }
+        },
+        {
+          "minimum_map_weight": 0.8,
+          "maximum_i_ab": 23,
+          "red_ri_threshold": 0.65,
+          "optical_area": 0.979583740234375,
+          "common_area": 0.962371826171875,
+          "optical": {
+            "red": 52,
+            "count": 100,
+            "fraction": 0.52,
+            "wilson95": [
+              0.4231657776522396,
+              0.615354482419481
+            ]
+          },
+          "common_footprint": {
+            "red": 51,
+            "count": 99,
+            "fraction": 0.5151515151515151,
+            "wilson95": [
+              0.41799338272235786,
+              0.6111777320634655
+            ]
+          },
+          "quality_j_detection": {
+            "red": 51,
+            "count": 99,
+            "fraction": 0.5151515151515151,
+            "wilson95": [
+              0.41799338272235786,
+              0.6111777320634655
+            ]
+          },
+          "footprint_delta": {
+            "delta": -0.00484848484848488,
+            "sector_bootstrap95": [
+              -0.019450447669033644,
+              0.0
+            ],
+            "max_abs_delta": 0.01
+          },
+          "depth_delta": {
+            "delta": 0.0,
+            "sector_bootstrap95": [
+              0.0,
+              0.0
+            ],
+            "max_abs_delta": 0.0
+          }
+        },
+        {
+          "minimum_map_weight": 0.8,
+          "maximum_i_ab": 23,
+          "red_ri_threshold": 0.95,
+          "optical_area": 0.979583740234375,
+          "common_area": 0.962371826171875,
+          "optical": {
+            "red": 31,
+            "count": 100,
+            "fraction": 0.31,
+            "wilson95": [
+              0.2277969721237604,
+              0.40626055719489407
+            ]
+          },
+          "common_footprint": {
+            "red": 31,
+            "count": 99,
+            "fraction": 0.31313131313131315,
+            "wilson95": [
+              0.23020787273174337,
+              0.410015044909768
+            ]
+          },
+          "quality_j_detection": {
+            "red": 31,
+            "count": 99,
+            "fraction": 0.31313131313131315,
+            "wilson95": [
+              0.23020787273174337,
+              0.410015044909768
+            ]
+          },
+          "footprint_delta": {
+            "delta": 0.0031313131313131515,
+            "sector_bootstrap95": [
+              0.0,
+              0.00944444444444445
+            ],
+            "max_abs_delta": 0.01
+          },
+          "depth_delta": {
+            "delta": 0.0,
+            "sector_bootstrap95": [
+              0.0,
+              0.0
+            ],
+            "max_abs_delta": 0.0
+          }
+        }
+      ]
+    }
+  ]
+}

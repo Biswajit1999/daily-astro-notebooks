@@ -10,6 +10,7 @@ Biswajit Jana
 | [Abell 3128 sightline and cosmic acceleration](euclid-dark-universe/) | Euclid and DECam arc measurements, a projected-mass proxy, DESI BAO fits and an ASKAP radio overlay. | [Optical figures](euclid-dark-universe/results/Abell3128_FITS_Figures.pdf) · [Radio figure](euclid-dark-universe/radio/results/Abell3128_Radio_Optical.pdf) |
 
 | [ACT clusters in the Euclid footprint](act-cluster-coverage/) | 10,040 ACT clusters screened against two released coverage maps. Among 1,270 centres in the MER Wide Survey footprint, 27 have less than 90% area in the 1–2 R500 annulus and 49 have a sector below 90%. | [Figure](act-cluster-coverage/results/coverage.png) · [Measurements](act-cluster-coverage/results/summary.json) |
+| [Optical-colour selection in ACT cluster fields](act-cluster-colour/) | Shared optical and NISP J coverage removes one of four sightlines. In the other three, the optical-colour fraction shifts by less than one percentage point at the baseline cut. | [Figure](act-cluster-colour/results/colour_coverage.pdf) · [Measurements](act-cluster-colour/results/colour_results.json) |
 
 Each day has one README with the figures and findings, an `analysis/` folder with code and archived measurements, and a `report/` folder with the two-page PDF.
 
