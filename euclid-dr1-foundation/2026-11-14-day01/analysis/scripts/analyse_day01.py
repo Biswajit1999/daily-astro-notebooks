@@ -21,6 +21,20 @@ RNG_SEED = 20261114
 ZRANGES = [(0.9, 1.1), (1.1, 1.3), (1.3, 1.5)]
 
 
+def aggregate_halpha_fits(line):
+    """Collapse repeated valid rank-0 Hα fits to one record per catalogue ID."""
+    ha = line.loc[line.spe_rank.eq(0) & line.spe_line_name.str.strip().eq("Halpha")]
+    eligible = (
+        np.isfinite(ha.spe_line_flux_gf) & ha.spe_line_flux_gf.gt(0)
+        & np.isfinite(ha.spe_line_flux_err_gf) & ha.spe_line_flux_err_gf.gt(0)
+        & np.isfinite(ha.spe_line_snr_gf) & ha.spe_line_snr_gf.ge(5)
+    )
+    return ha.loc[eligible].groupby("object_id", as_index=False).agg(
+        ha_flux=("spe_line_flux_gf", "median"), ha_snr=("spe_line_snr_gf", "median"),
+        ha_wl=("spe_line_central_wl_gf", "median"), n_line_entries=("spe_line_flux_gf", "size"),
+    )
+
+
 def prepare(df, snr_min=5, pz_min=0.99):
     """Keep transparent, sequential counts for every a priori exclusion."""
     flow = [('Retrieved joined rows', len(df))]

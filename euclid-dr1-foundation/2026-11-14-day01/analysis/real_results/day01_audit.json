@@ -1,0 +1,63 @@
+{
+  "counts": {
+    "selected": 426,
+    "morphology_matched": 327,
+    "imaging_quality_pass": 150,
+    "not_matched": 99
+  },
+  "selected_by_tile": {
+    "101834044": 327,
+    "101834045": 63,
+    "101834632": 34,
+    "101834631": 1,
+    "101833450": 1
+  },
+  "flags": {
+    "nonzero_VIS": 155,
+    "nonzero_detection_quality": 177,
+    "spurious_probability_ge_0_5": 0
+  },
+  "kron_radius": {
+    "retained": {
+      "n": 150,
+      "median_px": 26.217257499694824,
+      "object_bootstrap_95_px": [
+        24.113489151000977,
+        27.740835189819336
+      ]
+    },
+    "excluded": {
+      "n": 177,
+      "median_px": 28.341691970825195,
+      "object_bootstrap_95_px": [
+        25.648109436035156,
+        30.10296630859375
+      ]
+    }
+  },
+  "median_pct_change_retained_vs_excluded": -7.49579267644731,
+  "comparison": {
+    "before_imaging_cuts": {
+      "eligible_cells": 9,
+      "eligible_objects": 327,
+      "exploratory_contrast_dex": 0.04855648389291464
+    },
+    "after_imaging_cuts": {
+      "eligible_cells": 3,
+      "eligible_objects": 61
+    },
+    "design_minimum_objects": 200,
+    "design_minimum_cells": 4
+  },
+  "bootstrap": {
+    "draws": 10000,
+    "seed": 20261119,
+    "unit": "object within observed flag group",
+    "scope": "Descriptive within-tile intervals. Spatial dependence and catalogue systematics are outside this resampling."
+  },
+  "original_mer_fits": {
+    "catalogue_rows": 48172,
+    "verified_matches": 327,
+    "sha256": "e3cd5b0dd27a2a6b3bc435063bdfda30e7952351dd7389d5c48b37ed0c2edead"
+  }
+}

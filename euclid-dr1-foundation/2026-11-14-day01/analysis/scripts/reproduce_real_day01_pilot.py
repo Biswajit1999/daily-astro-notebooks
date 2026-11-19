@@ -9,6 +9,7 @@ from scipy.stats import spearmanr
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
+from analyse_day01 import aggregate_halpha_fits
 P=Path(sys.argv[1]);M=Path(sys.argv[2]);O=Path(sys.argv[3]);O.mkdir(parents=True,exist_ok=True)
 figdir=O/"figures";figdir.mkdir(exist_ok=True)
 rng=np.random.default_rng(20261114)
@@ -16,11 +17,7 @@ mer=pd.read_csv(P/"mer_catalogue_deep_survey.csv.gz")
 spe=pd.read_csv(P/"spectro_z_spe_galaxy_candidates_deep.csv.gz")
 line=pd.read_csv(P/"spectro_line_features_spe_line_features_deep.csv.gz")
 spe=spe[spe.spe_rank==0]
-ha=line[(line.spe_rank==0)&(line.spe_line_name=="Halpha")]
-valid=(ha.spe_line_flux_gf>0)&(ha.spe_line_flux_err_gf>0)&(ha.spe_line_snr_gf>=5)
-ha=ha[valid].groupby("object_id",as_index=False).agg(
- ha_flux=("spe_line_flux_gf","median"),ha_snr=("spe_line_snr_gf","median"),
- ha_wl=("spe_line_central_wl_gf","median"),n_line_entries=("spe_line_flux_gf","size"))
+ha=aggregate_halpha_fits(line)
 d=mer.merge(spe[["object_id","spe_z","spe_z_prob"]],on="object_id",validate="one_to_one").merge(ha,on="object_id",validate="one_to_one")
 d=d[d.spe_z.between(.9,1.5)&(d.spe_z_prob>=.99)&(d.vis_det==1)&(d.flux_vis_2fwhm_aper>0)].copy()
 assert len(d)==426 and d.object_id.is_unique

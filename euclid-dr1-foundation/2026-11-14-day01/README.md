@@ -4,19 +4,13 @@ Biswajit Jana · Day 1 · 14 November 2026
 
 > This component is included in the [combined EDF North Hα study](../edf-north-halpha/).
 
-[Download the two-page A&A-format report](report/Euclid_Day_1.pdf) · [LaTeX source](../manuscripts/day1.tex)
+[Original two-page report](report/Euclid_Day_1.pdf) · [LaTeX source](../manuscripts/day1.tex) · [Day 1 audit notebook](day01_audit.ipynb)
+
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Biswajit1999/daily-astro-notebooks/blob/master/euclid-dr1-foundation/2026-11-14-day01/day01_audit.ipynb)
 
 ## Abstract
 
-**Context.** Euclid measures Hα emission with NISP and optical structure with VIS. Catalogue aperture radii in both blended and isolated sources need to be understood before interpreting a flux–size relation.
-
-**Aims.** Test whether selected Hα emitters with similar spectroscopic redshift and measured VIS brightness have systematically different Kron aperture radii at higher Hα flux.
-
-**Methods.** A 0.15° cone in Euclid Deep Field North was selected from DR1-Foundation. Eligible Hα fits were combined by object ID. Kron measurements from one original MER tile were compared between high- and low-flux halves within redshift and VIS-brightness strata.
-
-**Results.** Of 426 selected objects, 327 had morphology measurements in the retrieved tile and 150 survived the imaging cuts. Before those cuts, the high-minus-low median log-radius contrast was +0.04856 dex. The retained objects had a median Kron radius of 26.22 pixels, compared with 28.34 pixels for the 177 excluded after matching.
-
-**Conclusions.** The pilot identifies two effects on the sample, incomplete tile coverage and imaging-quality selection. The quality-passing sample falls below the predefined 200-object threshold for confirmation.
+This pilot asks whether galaxies with stronger detected Hα line flux have larger optical apertures at similar spectroscopic redshift and VIS brightness. In a 0.15° cone in Euclid Deep Field North, 426 selected objects yielded 327 matches to the released MER catalogue for tile `101834044`. The imaging cuts retained 150. The retained and excluded matches had median Kron radii of 26.22 and 28.34 pixels, respectively. Reapplying the redshift and brightness stratification to the retained sample left 61 objects in three eligible cells, below the study design’s minima of 200 objects and four cells. The difference between flag groups characterises this pilot’s selection. The full-field Hα–aperture association remains unresolved.
 
 ## 1. Introduction
 
@@ -61,9 +55,13 @@ Within the matched tile, 155 objects have nonzero VIS flags and 177 have nonzero
 
 *Figure 2. The left panel counts selected objects by tile. The highlighted tile provided the original morphology measurements. The right panel compares the distributions of Kron radii for retained and excluded objects in that tile.*
 
+![Sample-count and median-aperture audit](analysis/real_results/day01_sample_audit.png)
+
+The 19 November replay compared all 327 archived matches directly with the original 48,172-row MER FITS catalogue. The exact identifiers and five checked fields agreed: Kron radius, both imaging flags, spurious probability and VIS aperture flux. The median radius was 26.22 pixels (24.11–27.74) for the retained group and 28.34 pixels (25.65–30.10) for the excluded group. The parentheses give central 95% percentile intervals from 10,000 object bootstrap draws within each flag group. They describe the medians in this tile under object resampling; spatial dependence and catalogue systematics are outside these intervals. See [machine-readable results](analysis/real_results/day01_audit.json).
+
 ### 4.2. Flux and aperture contrasts
 
-The 426 line-selected sources have a median redshift of 1.142 and a median Hα flux of 1.321 × 10⁻¹⁶ erg s⁻¹ cm⁻². The Hα flux and VIS aperture flux have Spearman ρ = 0.452 (95% bootstrap interval 0.362–0.536) in this selected sample. In the 327-object morphology match, the nine-cell Kron comparison yielded +0.04856 dex, equivalent to an 11.8% ratio between aperture-radius proxies. The exploratory bootstrap interval was +0.00693 to +0.09182 dex. The two archived resampling implementations give nominal p-values of 0.01249 and 0.02249. The imaging-quality sample is too small for the predeclared test, so neither p-value is used for confirmatory inference.
+The 426 line-selected sources have a median redshift of 1.142 and a median Hα flux of 1.321 × 10⁻¹⁶ erg s⁻¹ cm⁻². The Hα flux and VIS aperture flux have Spearman ρ = 0.452 (95% bootstrap interval 0.362–0.536) in this selected sample. In the 327-object morphology match, the nine-cell Kron comparison yielded +0.04856 dex, equivalent to an 11.8% ratio between aperture-radius proxies. The original exploratory bootstrap interval was +0.00693 to +0.09182 dex. Reapplying the same cell rules after imaging selection leaves 61 objects across three eligible cells. The main study design requires at least 200 contributing objects and four cells. The pre-cut estimate describes the exploratory sample.
 
 ![Euclid Hα line flux and catalogue Kron aperture size](analysis/real_results/figures/04_actual_size_relation_pilot.png)
 
@@ -87,7 +85,25 @@ The positive estimate describes the combined effects of detected Hα flux, the o
 
 ## Data and code availability
 
-`analysis/` contains the input tables, archived measurements, Python scripts, ADQL and tests. Run `python analysis/scripts/summarise_day01.py` from this day’s directory to regenerate the tile and quality-cut diagnostics from the checked-in tables. The historical [predeclared design](https://github.com/Biswajit1999/daily-astro-notebooks/blob/a6f0e86e3f629ede11fcf2f598dd16eb935428eb/euclid-dr1-foundation/2026-11-14-day01/logs/day01_preregistration.md) defines the larger test.
+Run from this day’s directory with Python 3.11 or later. The notebook or commands below reproduce the audit from the small checked-in tables:
+
+```bash
+python -m pip install -r analysis/requirements.txt
+python -m pytest -q analysis/tests
+python analysis/scripts/audit_day01.py --output /tmp/euclid-day01-audit
+```
+
+Add `--mer-fits /path/to/mer_final.fits` to that final command to verify the join directly against the [original MER final catalogue for tile 101834044](https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/catalogs/MER_FINAL_CATALOG/101834044/EUC_MER_FINAL-CAT_TILE101834044-8358E0_20250829T054449.406866Z_00.00.fits) (92 MB). The FITS checksum is in the audit JSON. The catalogue uses pixels for the Kron radius and µJy for the VIS aperture flux.
+
+To rebuild from the released catalogues, install `lsdb`, `s3fs` and `boto3` in the same environment, then run:
+
+```bash
+python analysis/scripts/run_day01_hats_pilot.py
+python analysis/scripts/fetch_real_vis_nisp.py
+python analysis/scripts/reproduce_real_day01_pilot.py analysis/pilot_real analysis/real_media /tmp/euclid-day01-replay
+```
+
+The first script fetches the small-field HATS extracts. The second downloads the original morphology and example image/spectrum products. `extract_vis_comparison.py` regenerates the two VIS stamps directly from the original mosaic using byte ranges and its FITS WCS. The archived `pilot_source_counts.json` preserves the first fetch and its legacy status. Its initial join discarded every repeated rank-0 Hα ID; both current catalogue scripts now combine the valid fits per object before joining. The [original report and design conditions](../manuscripts/day1.tex) describe the separate 1.25° test.
 
 ## Acknowledgements
 
