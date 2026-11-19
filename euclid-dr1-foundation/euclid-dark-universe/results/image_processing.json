@@ -1,0 +1,66 @@
+{
+  "pixel_scale_arcsec": 0.100000000000008,
+  "field_width_arcsec": 29.10000000000233,
+  "sky_selection": "radius >16.8 arcsec, excluding 11 outer pixels on each side",
+  "sky_estimator": "median and 1.4826 \u00d7 MAD after iterative 3\u03c3 clipping",
+  "RGB_sky_floor_sigma": 1.5,
+  "RGB_asinh_softening": 4.655201135775411,
+  "RGB_asinh_white": 130.3456318017115,
+  "VIS_asinh_white_native": 1.0913242893328539,
+  "VIS_contour_smoothing_sigma_arcsec": 0.200000000000016,
+  "VIS_contour_sky_native": 0.0005319150924849098,
+  "VIS_contour_sky_mad_sigma_native": 0.0007207794931386213,
+  "VIS_contour_levels_in_smoothed_sky_mad_sigma": [
+    8,
+    16,
+    32,
+    64
+  ],
+  "channels": {
+    "NIR-H": {
+      "input_file": "arc_NIR-H.fits",
+      "sha256": "23b35ab04c197b6941fc09ec15e00a5fa43aba5c8a9e1fe2cb497ade220080bc",
+      "archive_product": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/102017310/NISP/EUC_MER_BGSUB-MOSAIC-NIR-H_TILE102017310-2EE7D6_20250804T111844.670534Z_00.00.fits",
+      "archive_etag": "\"ea639823feaeca385b045ffa7ca3a53e-282\"",
+      "native_unit": "ELECTRON/s",
+      "AB_zero_point": 30.0,
+      "WCS_max_grid_separation_arcsec": 0.0,
+      "rgb_gain": 0.55,
+      "rgb_smoothing_sigma_arcsec": 0.11500000000000919,
+      "rgb_sky_native": 0.46662803473868536,
+      "rgb_sky_mad_sigma_native": 0.43354253574525314,
+      "unsmoothed_sky_native": 0.4844943881034851,
+      "unsmoothed_sky_mad_sigma_native": 0.5443724119025173
+    },
+    "VIS": {
+      "input_file": "arc_VIS.fits",
+      "sha256": "f4ee3345da77cc36a01625ba0d923998b0d834adceefe61857318c9e9b97d323",
+      "archive_product": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/102017310/VIS/EUC_MER_BGSUB-MOSAIC-VIS_TILE102017310-A7B894_20250804T120347.883814Z_00.00.fits",
+      "archive_etag": "\"f5e3a73f29e0f870549ee5750b661295-282\"",
+      "native_unit": "ADU/s",
+      "AB_zero_point": 24.5,
+      "WCS_max_grid_separation_arcsec": 0.0,
+      "rgb_gain": 2.0,
+      "rgb_smoothing_sigma_arcsec": 0.075000000000006,
+      "rgb_sky_native": 0.0006223137432418916,
+      "rgb_sky_mad_sigma_native": 0.0013640754441900922,
+      "unsmoothed_sky_native": 0.0007562658283859491,
+      "unsmoothed_sky_mad_sigma_native": 0.0025688448574134695
+    },
+    "DES-G": {
+      "input_file": "arc_DES-G.fits",
+      "sha256": "020b840ffc2e4179c2d0b7d111de96f04047603fd7264561c1589ae2b8ad6f16",
+      "archive_product": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/102017310/DECAM/EUC_MER_BGSUB-MOSAIC-DES-G_TILE102017310-99703F_20250804T110635.823108Z_00.00.fits",
+      "archive_etag": "\"45c6286fbc39402879595cd0f121e897-282\"",
+      "native_unit": "DN / pixel",
+      "AB_zero_point": 30.0,
+      "WCS_max_grid_separation_arcsec": 0.0,
+      "rgb_gain": 5.0,
+      "rgb_smoothing_sigma_arcsec": 0.11000000000000881,
+      "rgb_sky_native": 0.03401561984121062,
+      "rgb_sky_mad_sigma_native": 0.1562864683485695,
+      "unsmoothed_sky_native": 0.038665592670440674,
+      "unsmoothed_sky_mad_sigma_native": 0.1996019665259763
+    }
+  }
+}

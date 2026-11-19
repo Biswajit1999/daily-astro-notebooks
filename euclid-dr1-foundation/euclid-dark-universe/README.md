@@ -20,6 +20,23 @@ The arc extraction gives a VIS radius of 5.81–6.32 arcsec across 306 settings.
 
 For DESI DR2, the curved q0 profile gives a delta chi-square = 1 interval from −0.569 to −0.505. Seven separate omit-one-redshift fits give q0 from −0.553 to −0.507.
 
+## Abell 3128 sightline follow-up
+
+The [FITS rebuild](results/Abell3128_FITS_Figures.pdf) uses the original grid
+to show a quieter RGB, an unsmoothed Euclid VIS panel and VIS light contours.
+The [sector table](results/arc_ridge_sensitivity.csv) gives the full ranges
+from 153 extraction settings per band. The VIS ranges in the 175° and 180°
+sectors reach the upper radius-search boundary. The baseline measurements
+match the archived sector values.
+
+The [radio analysis](radio/) overlays ASKAP RACS-low contours on Legacy DR10
+and compares the radio beam with the Euclid arc. At 887.5 MHz, the peak in
+two overlapping tiles is about 78 mJy/beam, within 2.1 arcsec of the lens
+galaxy. The 25 arcsec beam blends the lens and optical arc. The radio
+directory also records the ATCA C2457 archive identifiers for follow-up.
+
+![Calibrated FITS RGB, Euclid VIS and VIS light contours](results/Abell3128_FITS_Rebuild.png)
+
 ## Reproduce
 
 Open the notebook or run these commands from this directory:
@@ -34,6 +51,7 @@ Open the notebook or run these commands from this directory:
     python rgb_composite.py inputs results
     python robustness.py inputs results
     python make_note.py results Euclid_Dark_Universe_Research_Note.pdf
+    python rebuild_abell3128.py --inputs inputs --output results
 
 The archive view includes four calibrated MER cutouts of 491 by 491 pixels. The catalogue analysis reads the 15,072-row public physical-properties table. The compressed BAO fit uses the 13 published distances with covariance, without reprocessing individual DESI galaxy spectra.
 

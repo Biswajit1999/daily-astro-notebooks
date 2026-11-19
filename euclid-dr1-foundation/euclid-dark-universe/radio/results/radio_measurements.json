@@ -1,0 +1,90 @@
+{
+  "lens_RA_Dec_deg": [
+    52.737216,
+    -52.470283
+  ],
+  "arc_RA_Dec_deg": [
+    52.735917,
+    -52.471431
+  ],
+  "optical_lens_arc_separation_arcsec": 5.019474063522071,
+  "tiles": [
+    {
+      "file": "racs-0304-50A.fits",
+      "sha256": "1bcb749e7fccb3ae7de4bf540f23f783f2e3d694df3e23d3fbfed52a1f578fc8",
+      "frequency_MHz": 887.491,
+      "beam_fwhm_arcsec": [
+        24.99999999999984,
+        24.99999999999984
+      ],
+      "pixel_scale_arcsec": [
+        2.49999999999984,
+        2.49999999999984
+      ],
+      "local_background_mJy_per_beam": 0.020686376956291497,
+      "local_sigma_mJy_per_beam": 0.34065500542089105,
+      "annulus_arcsec": [
+        75,
+        280
+      ],
+      "annulus_pixels_after_clipping": 36251,
+      "peak_pixel_RA_Dec_deg": [
+        52.737809763870835,
+        -52.46986523651278
+      ],
+      "peak_above_background_mJy_per_beam": 78.42239380988758,
+      "peak_pixel_offset_from_lens_arcsec": 1.9893312929605684,
+      "contour_mJy_per_beam_above_background": [
+        1.7032750271044552,
+        3.4065500542089104,
+        6.813100108417821,
+        13.626200216835642,
+        27.252400433671284,
+        54.50480086734257
+      ]
+    },
+    {
+      "file": "racs-0310-56A.fits",
+      "sha256": "4b6ca535cba972944695bc4f234c86f14455eb17f77f78c0eaa55dd73669764a",
+      "frequency_MHz": 887.491,
+      "beam_fwhm_arcsec": [
+        24.99999999999984,
+        24.99999999999984
+      ],
+      "pixel_scale_arcsec": [
+        2.49999999999984,
+        2.49999999999984
+      ],
+      "local_background_mJy_per_beam": 0.02079413206956815,
+      "local_sigma_mJy_per_beam": 0.3395571740229053,
+      "annulus_arcsec": [
+        75,
+        280
+      ],
+      "annulus_pixels_after_clipping": 36235,
+      "peak_pixel_RA_Dec_deg": [
+        52.73799684275543,
+        -52.469987469789146
+      ],
+      "peak_above_background_mJy_per_beam": 78.26875939099409,
+      "peak_pixel_offset_from_lens_arcsec": 2.0159995206972363,
+      "contour_mJy_per_beam_above_background": [
+        1.6977858701145265,
+        3.395571740229053,
+        6.791143480458106,
+        13.582286960916212,
+        27.164573921832424,
+        54.32914784366485
+      ]
+    }
+  ],
+  "contour_sigma": [
+    5,
+    10,
+    20,
+    40,
+    80,
+    160
+  ],
+  "notes": "Peak values use the brightest native pixel within 30 arcsec. Overlapping mosaics can share data."
+}
