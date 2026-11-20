@@ -1,0 +1,2550 @@
+{
+  "summary_all": {
+    "fields_with_results": 15,
+    "fields_with_strict_optical_galaxies": 11,
+    "outskirts_spectra_in_measured_fields": 52,
+    "distinct_euclid_galaxies": 51,
+    "counts": {
+      "optical": {
+        "count": 26,
+        "red": 14
+      },
+      "common_footprint": {
+        "count": 25,
+        "red": 13
+      },
+      "j_detection": {
+        "count": 25,
+        "red": 13
+      },
+      "optical_allow_extended_area": {
+        "count": 35,
+        "red": 20
+      },
+      "common_allow_extended_area": {
+        "count": 33,
+        "red": 18
+      }
+    },
+    "fields_with_shared_footprint_loss": [
+      "ACT-CL J0118.4-5156"
+    ],
+    "fields_with_j_photometry_loss": []
+  },
+  "summary_extension": {
+    "fields_with_results": 12,
+    "fields_with_strict_optical_galaxies": 9,
+    "outskirts_spectra_in_measured_fields": 29,
+    "distinct_euclid_galaxies": 29,
+    "counts": {
+      "optical": {
+        "count": 16,
+        "red": 11
+      },
+      "common_footprint": {
+        "count": 15,
+        "red": 10
+      },
+      "j_detection": {
+        "count": 15,
+        "red": 10
+      },
+      "optical_allow_extended_area": {
+        "count": 18,
+        "red": 13
+      },
+      "common_allow_extended_area": {
+        "count": 16,
+        "red": 11
+      }
+    },
+    "fields_with_shared_footprint_loss": [
+      "ACT-CL J0118.4-5156"
+    ],
+    "fields_with_j_photometry_loss": []
+  },
+  "velocity_sensitivity": {
+    "window_kms": 1500,
+    "distinct_euclid_galaxies": 48,
+    "counts": {
+      "optical": {
+        "count": 25,
+        "red": 13
+      },
+      "common_footprint": {
+        "count": 25,
+        "red": 13
+      },
+      "j_detection": {
+        "count": 25,
+        "red": 13
+      },
+      "optical_allow_extended_area": {
+        "count": 33,
+        "red": 19
+      },
+      "common_allow_extended_area": {
+        "count": 32,
+        "red": 18
+      }
+    }
+  },
+  "fields": [
+    {
+      "act_name": "ACT-CL J0310.5-4646",
+      "spt_name": "J0310-4647",
+      "spt_redshift": 0.7067,
+      "centre_offset_arcmin": 0.2164763029758784,
+      "ra_deg": 47.63415294765515,
+      "dec_deg": -46.7821676447074,
+      "theta500_arcmin": 2.1439996320533137,
+      "core_candidates": 23,
+      "outskirts_candidates": 5,
+      "outskirts_inside_mer_geometric_footprint": 5,
+      "outskirts_candidates_1500_kms": 5,
+      "area": {
+        "represented_fraction": 1.0,
+        "overlap_fraction": 0.0,
+        "optical_fraction": 0.99041748046875,
+        "common_fraction": 0.983489990234375
+      },
+      "slit_mask_offsets": {
+        "13bQ72m11": {
+          "east_arcsec": 0.17733536319228474,
+          "north_arcsec": -0.39098773222706024,
+          "supporting_core_matches": 15,
+          "core_spectra": 15,
+          "leave_one_out_rms_arcsec": 0.18882977635606854
+        },
+        "13bQ72m12": {
+          "east_arcsec": 0.1877970993615054,
+          "north_arcsec": -0.4008859520550633,
+          "supporting_core_matches": 16,
+          "core_spectra": 16,
+          "leave_one_out_rms_arcsec": 0.093595871397487
+        }
+      },
+      "unique_matches_before_registration": 5,
+      "spectra_with_unique_mer_match": 5,
+      "shifted_control_unique_matches": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "unique_mer_matches": 5,
+      "tallies": {
+        "optical": {
+          "count": 3,
+          "red": 3,
+          "wilson95": [
+            0.4385029682449545,
+            1.0
+          ]
+        },
+        "common_footprint": {
+          "count": 3,
+          "red": 3,
+          "wilson95": [
+            0.4385029682449545,
+            1.0
+          ]
+        },
+        "j_detection": {
+          "count": 3,
+          "red": 3,
+          "wilson95": [
+            0.4385029682449545,
+            1.0
+          ]
+        },
+        "optical_allow_extended_area": {
+          "count": 3,
+          "red": 3,
+          "wilson95": [
+            0.4385029682449545,
+            1.0
+          ]
+        },
+        "common_allow_extended_area": {
+          "count": 3,
+          "red": 3,
+          "wilson95": [
+            0.4385029682449545,
+            1.0
+          ]
+        }
+      },
+      "matched_spectra": [
+        {
+          "name": "J031029.25-464403.1",
+          "file": "13bQ72m11/spt0310-4647_13bQ72m11_01_F.fits",
+          "ra_deg": 47.621888,
+          "dec_deg": -46.734208,
+          "spectroscopic_z": 0.709923,
+          "spectroscopic_z_error": 0.000617,
+          "r_over_r500": 1.3625971621045427,
+          "registered_r_over_r500": 1.3593657920645326,
+          "dv_kms": 566.1399731259113,
+          "nearby_mer_sources": 1,
+          "match": {
+            "tile": 102022955,
+            "object_id": -476220175467343323,
+            "separation_arcsec": 0.15315049932046018,
+            "i_ab": 20.955149429338327,
+            "r_minus_i_ab": 1.1382581711363167,
+            "red_colour": true,
+            "detection_quality_flag": 0,
+            "optical": true,
+            "common_footprint": true,
+            "optical_allow_extended_area": true,
+            "common_allow_extended_area": true,
+            "j_detection": true,
+            "coverage_weights": {
+              "VIS": 1.0,
+              "DECAM_r": 1.0,
+              "DECAM_i": 1.0,
+              "NIR_J": 1.0
+            }
+          },
+          "used_in_counts": true
+        },
+        {
+          "name": "J031025.77-464426.7",
+          "file": "13bQ72m11/spt0310-4647_13bQ72m11_02_F.fits",
+          "ra_deg": 47.607379,
+          "dec_deg": -46.740758,
+          "spectroscopic_z": 0.709229,
+          "spectroscopic_z_error": 0.000227,
+          "r_over_r500": 1.2674357048418885,
+          "registered_r_over_r500": 1.2640984326445353,
+          "dv_kms": 444.2345615995787,
+          "nearby_mer_sources": 1,
+          "match": {
+            "tile": 102022955,
+            "object_id": -476074921467408788,
+            "separation_arcsec": 0.11092020576870834,
+            "i_ab": null,
+            "r_minus_i_ab": null,
+            "red_colour": null,
+            "detection_quality_flag": 2,
+            "optical": false,
+            "common_footprint": false,
+            "optical_allow_extended_area": false,
+            "common_allow_extended_area": false,
+            "j_detection": false,
+            "coverage_weights": {
+              "VIS": 1.0,
+              "DECAM_r": 1.0,
+              "DECAM_i": 1.0,
+              "NIR_J": 1.0
+            }
+          },
+          "used_in_counts": true
+        },
+        {
+          "name": "J031032.72-464415.0",
+          "file": "13bQ72m11/spt0310-4647_13bQ72m11_03_F.fits",
+          "ra_deg": 47.636329,
+          "dec_deg": -46.737497,
+          "spectroscopic_z": 0.71136,
+          "spectroscopic_z_error": 0.001,
+          "r_over_r500": 1.2508074401093656,
+          "registered_r_over_r500": 1.2478165702927915,
+          "dv_kms": 818.5579505947144,
+          "nearby_mer_sources": 1,
+          "match": {
+            "tile": 102022955,
+            "object_id": -476364458467376183,
+            "separation_arcsec": 0.1200228890305201,
+            "i_ab": 21.87287017158817,
+            "r_minus_i_ab": 1.100006382865866,
+            "red_colour": true,
+            "detection_quality_flag": 0,
+            "optical": true,
+            "common_footprint": true,
+            "optical_allow_extended_area": true,
+            "common_allow_extended_area": true,
+            "j_detection": true,
+            "coverage_weights": {
+              "VIS": 1.0,
+              "DECAM_r": 1.0,
+              "DECAM_i": 1.0,
+              "NIR_J": 1.0
+            }
+          },
+          "used_in_counts": true
+        },
+        {
+          "name": "J031045.74-464810.0",
+          "file": "13bQ72m11/spt0310-4647_13bQ72m11_20_F.fits",
+          "ra_deg": 47.690589,
+          "dec_deg": -46.802778,
+          "spectroscopic_z": 0.7092,
+          "spectroscopic_z_error": 0.000541,
+          "r_over_r500": 1.2255175418117699,
+          "registered_r_over_r500": 1.2281652867527775,
+          "dv_kms": 439.140531434943,
+          "nearby_mer_sources": 1,
+          "match": {
+            "tile": 102022459,
+            "object_id": -476905180468028526,
+            "separation_arcsec": 0.37285263366919336,
+            "i_ab": 22.184702554360573,
+            "r_minus_i_ab": 1.029900002565637,
+            "red_colour": true,
+            "detection_quality_flag": 0,
+            "optical": true,
+            "common_footprint": true,
+            "optical_allow_extended_area": true,
+            "common_allow_extended_area": true,
+            "j_detection": true,
+            "coverage_weights": {
+              "VIS": 1.0,
+              "DECAM_r": 1.0,
+              "DECAM_i": 1.0,
+              "NIR_J": 0.9999397397041321
+            }
+          },
+          "used_in_counts": true
+        },
+        {
+          "name": "J031025.86-464424.8",
+          "file": "13bQ72m12/spt0310-4647_13bQ72m12_01_F.fits",
+          "ra_deg": 47.607737,
+          "dec_deg": -46.740217,
+          "spectroscopic_z": 0.70901,
+          "spectroscopic_z_error": 0.00054,
+          "r_over_r500": 1.2785603696762786,
+          "registered_r_over_r500": 1.275120694282794,
+          "dv_kms": 405.76585104588395,
+          "nearby_mer_sources": 1,
+          "match": {
+            "tile": 102022955,
+            "object_id": -476078601467403330,
+            "separation_arcsec": 0.11714502787674638,
+            "i_ab": null,
+            "r_minus_i_ab": null,
+            "red_colour": null,
+            "detection_quality_flag": 2,
+            "optical": false,
+            "common_footprint": false,
+            "optical_allow_extended_area": false,
+            "common_allow_extended_area": false,
+            "j_detection": false,
+            "coverage_weights": {
+              "VIS": 1.0,
+              "DECAM_r": 1.0,
+              "DECAM_i": 1.0,
+              "NIR_J": 1.0
+            }
+          },
+          "used_in_counts": true
+        }
+      ],
+      "band_weights": {
+        "VIS": {
+          "represented_fraction": 1.0,
+          "positive_weight_fraction": 1.0,
+          "mean_where_represented": 0.9921846716424625
+        },
+        "NIR_Y": {
+          "represented_fraction": 1.0,
+          "positive_weight_fraction": 1.0,
+          "mean_where_represented": 0.9880800601631563
+        },
+        "NIR_J": {
+          "represented_fraction": 1.0,
+          "positive_weight_fraction": 1.0,
+          "mean_where_represented": 0.987322445402242
+        },
+        "NIR_H": {
+          "represented_fraction": 1.0,
+          "positive_weight_fraction": 1.0,
+          "mean_where_represented": 0.9879477179174501
+        }
+      }
+    },
+    {
+      "act_name": "ACT-CL J0118.4-5156",
+      "spt_name": "J0118-5156",
+      "spt_redshift": 0.7051,
+      "centre_offset_arcmin": 0.17248727975396974,
+      "ra_deg": 19.601121954973298,
+      "dec_deg": -51.940723442974324,
+      "theta500_arcmin": 2.0470300070906946,
+      "core_candidates": 10,
+      "outskirts_candidates": 4,
+      "outskirts_inside_mer_geometric_footprint": 4,
+      "outskirts_candidates_1500_kms": 3,
+      "area": {
+        "represented_fraction": 1.0,
+        "overlap_fraction": 0.0,
+        "optical_fraction": 0.97991943359375,
+        "common_fraction": 0.963592529296875
+      },
+      "slit_mask_offsets": {
+        "11bC06m52": {
+          "east_arcsec": -0.1257593434567427,
+          "north_arcsec": 0.05540053415021684,
+          "supporting_core_matches": 5,
+          "core_spectra": 5,
+          "leave_one_out_rms_arcsec": 0.32901690098964714
+        },
+        "11bC06m53": {
+          "east_arcsec": -0.019254166408097337,
+          "north_arcsec": 0.13089323130171207,
+          "supporting_core_matches": 8,
+          "core_spectra": 8,
+          "leave_one_out_rms_arcsec": 0.20704475636022843
+        }
+      },
+      "unique_matches_before_registration": 4,
+      "spectra_with_unique_mer_match": 4,
+      "shifted_control_unique_matches": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "unique_mer_matches": 4,
+      "tallies": {
+        "optical": {
+          "count": 3,
+          "red": 1,
+          "wilson95": [
+            0.061491944720396215,
+            0.7923403991979523
+          ]
+        },
+        "common_footprint": {
+          "count": 2,
+          "red": 0,
+          "wilson95": [
+            0.0,
+            0.6576197724933469
+          ]
+        },
+        "j_detection": {
+          "count": 2,
+          "red": 0,
+          "wilson95": [
+            0.0,
+            0.6576197724933469
+          ]
+        },
+        "optical_allow_extended_area": {
+          "count": 3,
+          "red": 1,
+          "wilson95": [
+            0.061491944720396215,
+            0.7923403991979523
+          ]
+        },
+        "common_allow_extended_area": {
+          "count": 2,
+          "red": 0,
+          "wilson95": [
+            0.0,
+            0.6576197724933469
+          ]
+        }
+      },
+      "matched_spectra": [
+        {
+          "name": "J011839.35-515543.7",
+          "file": "11bC06m52/spt0118-5156_11bC06m52_09_F.fits",
+          "ra_deg": 19.66395,
+          "dec_deg": -51.9288,
+          "spectroscopic_z": 0.6987,
+          "spectroscopic_z_error": 0.00075,
+          "r_over_r500": 1.187984732087351,
+          "registered_r_over_r500": 1.1871393620973856,
+          "dv_kms": -1125.2546661192823,
+          "nearby_mer_sources": 1,
+          "match": {
+            "tile": 102017713,
+            "object_id": -196638901519287872,
+            "separation_arcsec": 0.011883744792368688,
+            "i_ab": 22.53685818272259,
+            "r_minus_i_ab": 0.6880611251235352,
+            "red_colour": false,
+            "detection_quality_flag": 0,
+            "optical": true,
+            "common_footprint": true,
+            "optical_allow_extended_area": true,
+            "common_allow_extended_area": true,
+            "j_detection": true,
+            "coverage_weights": {
+              "VIS": 1.0,
+              "DECAM_r": 1.0,
+              "DECAM_i": 1.0,
+              "NIR_J": 1.0
+            }
+          },
+          "used_in_counts": true
+        },
+        {
+          "name": "J011838.34-515736.4",
+          "file": "11bC06m52/spt0118-5156_11bC06m52_15_F.fits",
+          "ra_deg": 19.65975,
+          "dec_deg": -51.9601,
+          "spectroscopic_z": 0.7158,
+          "spectroscopic_z_error": 0.00025,
+          "r_over_r500": 1.201808623065787,
+          "registered_r_over_r500": 1.2006930610647772,
+          "dv_kms": 1881.2851449181942,
+          "nearby_mer_sources": 1,
+          "match": {
+            "tile": 102017713,
+            "object_id": -196597473519600828,
+            "separation_arcsec": 0.11998763286078286,
+            "i_ab": 21.31766463349731,
+            "r_minus_i_ab": 1.0078936579671907,
+            "red_colour": true,
+            "detection_quality_flag": 0,
+            "optical": true,
+            "common_footprint": false,
+            "optical_allow_extended_area": true,
+            "common_allow_extended_area": false,
+            "j_detection": false,
+            "coverage_weights": {
+              "VIS": 0.8094721436500549,
+              "DECAM_r": 1.0,
+              "DECAM_i": 1.0,
+              "NIR_J": 0.7383707165718079
+            }
+          },
+          "used_in_counts": true
+        },
+        {
+          "name": "J011818.79-515855.9",
+          "file": "11bC06m52/spt0118-5156_11bC06m52_20_F.fits",
+          "ra_deg": 19.5783,
+          "dec_deg": -51.9822,
+          "spectroscopic_z": 0.7079,
+          "spectroscopic_z_error": 0.00075,
+          "r_over_r500": 1.283685369630919,
+          "registered_r_over_r500": 1.2835876268122004,
+          "dv_kms": 492.2989164271934,
+          "nearby_mer_sources": 1,
+          "match": {
+            "tile": 102017713,
+            "object_id": -195782075519822568,
+            "separation_arcsec": 0.2716882295986682,
+            "i_ab": null,
+            "r_minus_i_ab": null,
+            "red_colour": null,
+            "detection_quality_flag": 2,
+            "optical": false,
+            "common_footprint": false,
+            "optical_allow_extended_area": false,
+            "common_allow_extended_area": false,
+            "j_detection": false,
+            "coverage_weights": {
+              "VIS": 1.0,
+              "DECAM_r": 1.0,
+              "DECAM_i": 1.0,
+              "NIR_J": 0.9988552331924438
+            }
+          },
+          "used_in_counts": true
+        },
+        {
+          "name": "J011811.27-515806.2",
+          "file": "11bC06m53/spt0118-5156_11bC06m53_17_F.fits",
+          "ra_deg": 19.54695,
+          "dec_deg": -51.9684,
+          "spectroscopic_z": 0.7136,
+          "spectroscopic_z_error": 0.0005,
+          "r_over_r500": 1.2710796740469474,
+          "registered_r_over_r500": 1.2705208821930987,
+          "dv_kms": 1494.478853439692,
+          "nearby_mer_sources": 1,
+          "match": {
+            "tile": 102017713,
+            "object_id": -195469479519684244,
+            "separation_arcsec": 0.21927261869410655,
+            "i_ab": 22.581058409721273,
+            "r_minus_i_ab": 0.534595181195008,
+            "red_colour": false,
+            "detection_quality_flag": 0,
+            "optical": true,
+            "common_footprint": true,
+            "optical_allow_extended_area": true,
+            "common_allow_extended_area": true,
+            "j_detection": true,
+            "coverage_weights": {
+              "VIS": 1.0,
+              "DECAM_r": 1.0,
+              "DECAM_i": 1.0,
+              "NIR_J": 1.0
+            }
+          },
+          "used_in_counts": true
+        }
+      ],
+      "band_weights": {
+        "VIS": {
+          "represented_fraction": 1.0,
+          "positive_weight_fraction": 1.0,
+          "mean_where_represented": 0.9866240540941362
+        },
+        "NIR_Y": {
+          "represented_fraction": 1.0,
+          "positive_weight_fraction": 1.0,
+          "mean_where_represented": 0.9736760315863648
+        },
+        "NIR_J": {
+          "represented_fraction": 1.0,
+          "positive_weight_fraction": 1.0,
+          "mean_where_represented": 0.9728259528937997
+        },
+        "NIR_H": {
+          "represented_fraction": 1.0,
+          "positive_weight_fraction": 1.0,
+          "mean_where_represented": 0.9735971553718628
+        }
+      }
+    },
+    {
+      "act_name": "ACT-CL J0233.0-5819",
+      "spt_name": "J0233-5819",
+      "spt_redshift": 0.6638,
+      "centre_offset_arcmin": 0.08198720829070556,
+      "ra_deg": 38.25797790193497,
+      "dec_deg": -58.32698006712174,
+      "theta500_arcmin": 2.2571383791239787,
+      "core_candidates": 7,
+      "outskirts_candidates": 3,
+      "outskirts_inside_mer_geometric_footprint": 3,
+      "outskirts_candidates_1500_kms": 3,
+      "area": {
+        "represented_fraction": 1.0,
+        "overlap_fraction": 0.0,
+        "optical_fraction": 0.965087890625,
+        "common_fraction": 0.93994140625
+      },
+      "slit_mask_offsets": {
+        "11bC06m54": {
+          "east_arcsec": 0.17201759739149491,
+          "north_arcsec": 0.006392240169060438,
+          "supporting_core_matches": 7,
+          "core_spectra": 7,
+          "leave_one_out_rms_arcsec": 0.25611677782034925
+        }
+      },
+      "unique_matches_before_registration": 3,
+      "spectra_with_unique_mer_match": 3,
+      "shifted_control_unique_matches": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "unique_mer_matches": 3,
+      "tallies": {
+        "optical": {
+          "count": 1,
+          "red": 1,
+          "wilson95": [
+            0.20654931437723742,
+            1.0
+          ]
+        },
+        "common_footprint": {
+          "count": 1,
+          "red": 1,
+          "wilson95": [
+            0.20654931437723742,
+            1.0
+          ]
+        },
+        "j_detection": {
+          "count": 1,
+          "red": 1,
+          "wilson95": [
+            0.20654931437723742,
+            1.0
+          ]
+        },
+        "optical_allow_extended_area": {
+          "count": 2,
+          "red": 2,
+          "wilson95": [
+            0.3423802275066531,
+            1.0
+          ]
+        },
+        "common_allow_extended_area": {
+          "count": 2,
+          "red": 2,
+          "wilson95": [
+            0.3423802275066531,
+            1.0
+          ]
+        }
+      },
+      "matched_spectra": [
+        {
+          "name": "J023241.36-582046.1",
+          "file": "11bC06m54/spt0233-5819_11bC06m54_05_F.fits",
+          "ra_deg": 38.172347,
+          "dec_deg": -58.346128,
+          "spectroscopic_z": 0.6673,
+          "spectroscopic_z_error": 0.00025,
+          "r_over_r500": 1.2987737180930892,
+          "registered_r_over_r500": 1.2975864429797475,
+          "dv_kms": 630.6488778699469,
+          "nearby_mer_sources": 1,
+          "match": {
+            "tile": 102012356,
+            "object_id": -381724654583460927,
+            "separation_arcsec": 0.1312308501608017,
+            "i_ab": 22.18456593972143,
+            "r_minus_i_ab": 1.2232049827255311,
+            "red_colour": true,
+            "detection_quality_flag": 0,
+            "optical": true,
+            "common_footprint": true,
+            "optical_allow_extended_area": true,
+            "common_allow_extended_area": true,
+            "j_detection": true,
+            "coverage_weights": {
+              "VIS": 1.0,
+              "DECAM_r": 1.0,
+              "DECAM_i": 1.0,
+              "NIR_J": 0.9990360736846924
+            }
+          },
+          "used_in_counts": true
+        },
+        {
+          "name": "J023315.38-581719.9",
+          "file": "11bC06m54/spt0233-5819_11bC06m54_17_F.fits",
+          "ra_deg": 38.314066,
+          "dec_deg": -58.288859,
+          "spectroscopic_z": 0.665,
+          "spectroscopic_z_error": 0.0005,
+          "r_over_r500": 1.280779370583253,
+          "registered_r_over_r500": 1.281593472932736,
+          "dv_kms": 216.22247241256576,
+          "nearby_mer_sources": 1,
+          "match": {
+            "tile": 102012357,
+            "object_id": -383141386582889337,
+            "separation_arcsec": 0.2776032188494023,
+            "i_ab": null,
+            "r_minus_i_ab": null,
+            "red_colour": null,
+            "detection_quality_flag": 514,
+            "optical": false,
+            "common_footprint": false,
+            "optical_allow_extended_area": false,
+            "common_allow_extended_area": false,
+            "j_detection": false,
+            "coverage_weights": {
+              "VIS": 1.0,
+              "DECAM_r": 1.0,
+              "DECAM_i": 1.0,
+              "NIR_J": 0.9940956830978394
+            }
+          },
+          "used_in_counts": true
+        },
+        {
+          "name": "J023318.55-581852.4",
+          "file": "11bC06m54/spt0233-5819_11bC06m54_18_F.fits",
+          "ra_deg": 38.327301,
+          "dec_deg": -58.314564,
+          "spectroscopic_z": 0.6611,
+          "spectroscopic_z_error": 0.00025,
+          "r_over_r500": 1.022487510279574,
+          "registered_r_over_r500": 1.0237048064736889,
+          "dv_kms": -486.50056292822296,
+          "nearby_mer_sources": 1,
+          "match": {
+            "tile": 102012357,
+            "object_id": -383273891583145790,
+            "separation_arcsec": 0.06083071388078791,
+            "i_ab": 21.90326433991666,
+            "r_minus_i_ab": 0.8402060821201756,
+            "red_colour": true,
+            "detection_quality_flag": 512,
+            "optical": false,
+            "common_footprint": false,
+            "optical_allow_extended_area": true,
+            "common_allow_extended_area": true,
+            "j_detection": false,
+            "coverage_weights": {
+              "VIS": 1.0,
+              "DECAM_r": 1.0,
+              "DECAM_i": 1.0,
+              "NIR_J": 1.0
+            }
+          },
+          "used_in_counts": true
+        }
+      ],
+      "band_weights": {
+        "VIS": {
+          "represented_fraction": 1.0,
+          "positive_weight_fraction": 0.99713134765625,
+          "mean_where_represented": 0.9736583901279801
+        },
+        "NIR_Y": {
+          "represented_fraction": 1.0,
+          "positive_weight_fraction": 0.9947509765625,
+          "mean_where_represented": 0.9610804816441103
+        },
+        "NIR_J": {
+          "represented_fraction": 1.0,
+          "positive_weight_fraction": 0.9947509765625,
+          "mean_where_represented": 0.9607114792531846
+        },
+        "NIR_H": {
+          "represented_fraction": 1.0,
+          "positive_weight_fraction": 0.9947509765625,
+          "mean_where_represented": 0.9605670466201062
+        }
+      }
+    },
+    {
+      "act_name": "ACT-CL J0352.9-5647",
+      "spt_name": "J0352-5647",
+      "spt_redshift": 0.649,
+      "centre_offset_arcmin": 0.20556442221651963,
+      "ra_deg": 58.24001949981497,
+      "dec_deg": -56.796551844248405,
+      "theta500_arcmin": 2.1257956476957696,
+      "core_candidates": 14,
+      "outskirts_candidates": 3,
+      "outskirts_inside_mer_geometric_footprint": 3,
+      "outskirts_candidates_1500_kms": 3,
+      "area": {
+        "represented_fraction": 1.0,
+        "overlap_fraction": 0.0,
+        "optical_fraction": 0.97674560546875,
+        "common_fraction": 0.9637451171875
+      },
+      "slit_mask_offsets": {
+        "13bQ25m11": {
+          "east_arcsec": -0.040719955217988255,
+          "north_arcsec": 0.026384821763373804,
+          "supporting_core_matches": 14,
+          "core_spectra": 14,
+          "leave_one_out_rms_arcsec": 0.18647563140386103
+        },
+        "13bQ25m12": {
+          "east_arcsec": -0.054867960354980094,
+          "north_arcsec": 0.038839825035668046,
+          "supporting_core_matches": 8,
+          "core_spectra": 8,
+          "leave_one_out_rms_arcsec": 0.11731409192251276
+        }
+      },
+      "unique_matches_before_registration": 3,
+      "spectra_with_unique_mer_match": 3,
+      "shifted_control_unique_matches": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        2,
+        0,
+        0
+      ],
+      "unique_mer_matches": 3,
+      "tallies": {
+        "optical": {
+          "count": 2,
+          "red": 1,
+          "wilson95": [
+            0.09453120573423071,
+            0.9054687942657693
+          ]
+        },
+        "common_footprint": {
+          "count": 2,
+          "red": 1,
+          "wilson95": [
+            0.09453120573423071,
+            0.9054687942657693
+          ]
+        },
+        "j_detection": {
+          "count": 2,
+          "red": 1,
+          "wilson95": [
+            0.09453120573423071,
+            0.9054687942657693
+          ]
+        },
+        "optical_allow_extended_area": {
+          "count": 2,
+          "red": 1,
+          "wilson95": [
+            0.09453120573423071,
+            0.9054687942657693
+          ]
+        },
+        "common_allow_extended_area": {
+          "count": 2,
+          "red": 1,
+          "wilson95": [
+            0.09453120573423071,
+            0.9054687942657693
+          ]
+        }
+      },
+      "matched_spectra": [
+        {
+          "name": "J035307.29-564559.5",
+          "file": "13bQ25m11/spt0352-5647_13bQ25m11_23_F.fits",
+          "ra_deg": 58.280368,
+          "dec_deg": -56.766541,
+          "spectroscopic_z": 0.653545,
+          "spectroscopic_z_error": 0.000194,
+          "r_over_r500": 1.0520092452981018,
+          "registered_r_over_r500": 1.051986655062872,
+          "dv_kms": 826.2927359672566,
+          "nearby_mer_sources": 1,
+          "match": {
+            "tile": 102013542,
+            "object_id": -582803844567665870,
+            "separation_arcsec": 0.20577517613522345,
+            "i_ab": 21.497087094186742,
+            "r_minus_i_ab": 0.7759439815023097,
+            "red_colour": false,
+            "detection_quality_flag": 0,
+            "optical": true,
+            "common_footprint": true,
+            "optical_allow_extended_area": true,
+            "common_allow_extended_area": true,
+            "j_detection": true,
+            "coverage_weights": {
+              "VIS": 1.0,
+              "DECAM_r": 1.0,
+              "DECAM_i": 1.0,
+              "NIR_J": 1.0
+            }
+          },
+          "used_in_counts": true
+        },
+        {
+          "name": "J035306.22-564538.8",
+          "file": "13bQ25m12/spt0352-5647_13bQ25m12_06_F.fits",
+          "ra_deg": 58.275901,
+          "dec_deg": -56.760769,
+          "spectroscopic_z": 0.646834,
+          "spectroscopic_z_error": 0.000648,
+          "r_over_r500": 1.1523403370448535,
+          "registered_r_over_r500": 1.1524003488338261,
+          "dv_kms": -393.7843929824138,
+          "nearby_mer_sources": 1,
+          "match": {
+            "tile": 102013542,
+            "object_id": -582758851567607605,
+            "separation_arcsec": 0.02504473458355936,
+            "i_ab": null,
+            "r_minus_i_ab": null,
+            "red_colour": null,
+            "detection_quality_flag": 2,
+            "optical": false,
+            "common_footprint": false,
+            "optical_allow_extended_area": false,
+            "common_allow_extended_area": false,
+            "j_detection": false,
+            "coverage_weights": {
+              "VIS": 1.0,
+              "DECAM_r": 1.0,
+              "DECAM_i": 1.0,
+              "NIR_J": 1.0
+            }
+          },
+          "used_in_counts": true
+        },
+        {
+          "name": "J035259.90-565004.1",
+          "file": "13bQ25m12/spt0352-5647_13bQ25m12_12_F.fits",
+          "ra_deg": 58.249569,
+          "dec_deg": -56.83448,
+          "spectroscopic_z": 0.651952,
+          "spectroscopic_z_error": 0.000806,
+          "r_over_r500": 1.080629019522079,
+          "registered_r_over_r500": 1.0802686735040163,
+          "dv_kms": 536.6812225688213,
+          "nearby_mer_sources": 1,
+          "match": {
+            "tile": 102013542,
+            "object_id": -582494758568344519,
+            "separation_arcsec": 0.1429269815889526,
+            "i_ab": 21.446869018884254,
+            "r_minus_i_ab": 0.85184591195937,
+            "red_colour": true,
+            "detection_quality_flag": 0,
+            "optical": true,
+            "common_footprint": true,
+            "optical_allow_extended_area": true,
+            "common_allow_extended_area": true,
+            "j_detection": true,
+            "coverage_weights": {
+              "VIS": 1.0,
+              "DECAM_r": 1.0,
+              "DECAM_i": 1.0,
+              "NIR_J": 1.0
+            }
+          },
+          "used_in_counts": true
+        }
+      ],
+      "band_weights": {
+        "VIS": {
+          "represented_fraction": 1.0,
+          "positive_weight_fraction": 1.0,
+          "mean_where_represented": 0.9817250050150506
+        },
+        "NIR_Y": {
+          "represented_fraction": 1.0,
+          "positive_weight_fraction": 1.0,
+          "mean_where_represented": 0.9783690015489128
+        },
+        "NIR_J": {
+          "represented_fraction": 1.0,
+          "positive_weight_fraction": 1.0,
+          "mean_where_represented": 0.9782753679356802
+        },
+        "NIR_H": {
+          "represented_fraction": 1.0,
+          "positive_weight_fraction": 1.0,
+          "mean_where_represented": 0.9783503980003161
+        }
+      }
+    },
+    {
+      "act_name": "ACT-CL J0403.8-5719",
+      "spt_name": "J0403-5719",
+      "spt_redshift": 0.467,
+      "centre_offset_arcmin": 0.11828300587990437,
+      "ra_deg": 60.96439389934382,
+      "dec_deg": -57.32412986654071,
+      "theta500_arcmin": 2.8146488354774593,
+      "core_candidates": 26,
+      "outskirts_candidates": 3,
+      "outskirts_inside_mer_geometric_footprint": 3,
+      "outskirts_candidates_1500_kms": 3,
+      "area": {
+        "represented_fraction": 1.0,
+        "overlap_fraction": 0.0,
+        "optical_fraction": 0.987152099609375,
+        "common_fraction": 0.97705078125
+      },
+      "slit_mask_offsets": {
+        "12bQ59m07": {
+          "east_arcsec": 0.012192596838722827,
+          "north_arcsec": -0.06695508992445072,
+          "supporting_core_matches": 22,
+          "core_spectra": 23,
+          "leave_one_out_rms_arcsec": 0.204530670295391
+        },
+        "12bQ59m08": {
+          "east_arcsec": 0.04258770250351247,
+          "north_arcsec": -0.08658633815146838,
+          "supporting_core_matches": 15,
+          "core_spectra": 15,
+          "leave_one_out_rms_arcsec": 0.29776727639421674
+        }
+      },
+      "unique_matches_before_registration": 3,
+      "spectra_with_unique_mer_match": 3,
+      "shifted_control_unique_matches": [
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1
+      ],
+      "unique_mer_matches": 3,
+      "tallies": {
+        "optical": {
+          "count": 1,
+          "red": 1,
+          "wilson95": [
+            0.20654931437723742,
+            1.0
+          ]
+        },
+        "common_footprint": {
+          "count": 1,
+          "red": 1,
+          "wilson95": [
+            0.20654931437723742,
+            1.0
+          ]
+        },
+        "j_detection": {
+          "count": 1,
+          "red": 1,
+          "wilson95": [
+            0.20654931437723742,
+            1.0
+          ]
+        },
+        "optical_allow_extended_area": {
+          "count": 1,
+          "red": 1,
+          "wilson95": [
+            0.20654931437723742,
+            1.0
+          ]
+        },
+        "common_allow_extended_area": {
+          "count": 1,
+          "red": 1,
+          "wilson95": [
+            0.20654931437723742,
+            1.0
+          ]
+        }
+      },
+      "matched_spectra": [
+        {
+          "name": "J040410.04-571803.5",
+          "file": "12bQ59m07/spt0403-5719_12bQ59m07_33_F.fits",
+          "ra_deg": 61.04182,
+          "dec_deg": -57.300961,
+          "spectroscopic_z": 0.47135,
+          "spectroscopic_z_error": 0.000244,
+          "r_over_r500": 1.0190446553117938,
+          "registered_r_over_r500": 1.0189155080355454,
+          "dv_kms": 888.9551413087862,
+          "nearby_mer_sources": 1,
+          "match": {
+            "tile": 102013151,
+            "object_id": -610417504573010604,
+            "separation_arcsec": 0.3263100746597775,
+            "i_ab": null,
+            "r_minus_i_ab": null,
+            "red_colour": null,
+            "detection_quality_flag": 2,
+            "optical": false,
+            "common_footprint": false,
+            "optical_allow_extended_area": false,
+            "common_allow_extended_area": false,
+            "j_detection": false,
+            "coverage_weights": {
+              "VIS": 1.0,
+              "DECAM_r": 1.0,
+              "DECAM_i": 1.0,
+              "NIR_J": 1.0
+            }
+          },
+          "used_in_counts": true
+        },
+        {
+          "name": "J040340.58-571701.0",
+          "file": "12bQ59m07/spt0403-5719_12bQ59m07_34_F.fits",
+          "ra_deg": 60.919104,
+          "dec_deg": -57.2836,
+          "spectroscopic_z": 0.464337,
+          "spectroscopic_z_error": 0.000427,
+          "r_over_r500": 1.0091768006137152,
+          "registered_r_over_r500": 1.0088000289591865,
+          "dv_kms": -544.2040324839862,
+          "nearby_mer_sources": 1,
+          "match": {
+            "tile": 102013151,
+            "object_id": -609190808572836119,
+            "separation_arcsec": 0.06208533268624419,
+            "i_ab": 20.388161567376663,
+            "r_minus_i_ab": 0.8721773149266544,
+            "red_colour": true,
+            "detection_quality_flag": 0,
+            "optical": true,
+            "common_footprint": true,
+            "optical_allow_extended_area": true,
+            "common_allow_extended_area": true,
+            "j_detection": true,
+            "coverage_weights": {
+              "VIS": 1.0,
+              "DECAM_r": 1.0,
+              "DECAM_i": 1.0,
+              "NIR_J": 1.0
+            }
+          },
+          "used_in_counts": true
+        },
+        {
+          "name": "J040336.33-571709.3",
+          "file": "12bQ59m07/spt0403-5719_12bQ59m07_35_F.fits",
+          "ra_deg": 60.901372,
+          "dec_deg": -57.285912,
+          "spectroscopic_z": 0.463115,
+          "spectroscopic_z_error": 0.000478,
+          "r_over_r500": 1.0910256547692705,
+          "registered_r_over_r500": 1.090681505733582,
+          "dv_kms": -793.9289020654451,
+          "nearby_mer_sources": 1,
+          "match": {
+            "tile": 102013151,
+            "object_id": -609013371572859520,
+            "separation_arcsec": 0.11110103709073618,
+            "i_ab": null,
+            "r_minus_i_ab": null,
+            "red_colour": null,
+            "detection_quality_flag": 2,
+            "optical": false,
+            "common_footprint": false,
+            "optical_allow_extended_area": false,
+            "common_allow_extended_area": false,
+            "j_detection": false,
+            "coverage_weights": {
+              "VIS": 1.0,
+              "DECAM_r": 1.0,
+              "DECAM_i": 1.0,
+              "NIR_J": 0.9992771744728088
+            }
+          },
+          "used_in_counts": true
+        }
+      ],
+      "band_weights": {
+        "VIS": {
+          "represented_fraction": 1.0,
+          "positive_weight_fraction": 1.0,
+          "mean_where_represented": 0.989147720296387
+        },
+        "NIR_Y": {
+          "represented_fraction": 1.0,
+          "positive_weight_fraction": 1.0,
+          "mean_where_represented": 0.983528146523895
+        },
+        "NIR_J": {
+          "represented_fraction": 1.0,
+          "positive_weight_fraction": 1.0,
+          "mean_where_represented": 0.9831843470824424
+        },
+        "NIR_H": {
+          "represented_fraction": 1.0,
+          "positive_weight_fraction": 1.0,
+          "mean_where_represented": 0.9834089431697066
+        }
+      }
+    },
+    {
+      "act_name": "ACT-CL J0542.8-4059",
+      "spt_name": "J0542-4100",
+      "spt_redshift": 0.6399,
+      "centre_offset_arcmin": 0.3382541864503412,
+      "ra_deg": 85.71465377133484,
+      "dec_deg": -40.998737626815334,
+      "theta500_arcmin": 2.469013322654591,
+      "core_candidates": 27,
+      "outskirts_candidates": 3,
+      "outskirts_inside_mer_geometric_footprint": 3,
+      "outskirts_candidates_1500_kms": 3,
+      "area": {
+        "represented_fraction": 1.0,
+        "overlap_fraction": 0.0,
+        "optical_fraction": 0.96624755859375,
+        "common_fraction": 0.949737548828125
+      },
+      "slit_mask_offsets": {
+        "13bQ25m19": {
+          "east_arcsec": 0.04572037370000595,
+          "north_arcsec": -0.030707223502025083,
+          "supporting_core_matches": 17,
+          "core_spectra": 17,
+          "leave_one_out_rms_arcsec": 0.1765556807360258
+        },
+        "13bQ25m20": {
+          "east_arcsec": 0.0162150326203728,
+          "north_arcsec": -0.006446906661911786,
+          "supporting_core_matches": 16,
+          "core_spectra": 16,
+          "leave_one_out_rms_arcsec": 0.16355528453091664
+        }
+      },
+      "unique_matches_before_registration": 3,
+      "spectra_with_unique_mer_match": 3,
+      "shifted_control_unique_matches": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "unique_mer_matches": 3,
+      "tallies": {
+        "optical": {
+          "count": 2,
+          "red": 2,
+          "wilson95": [
+            0.3423802275066531,
+            1.0
+          ]
+        },
+        "common_footprint": {
+          "count": 2,
+          "red": 2,
+          "wilson95": [
+            0.3423802275066531,
+            1.0
+          ]
+        },
+        "j_detection": {
+          "count": 2,
+          "red": 2,
+          "wilson95": [
+            0.3423802275066531,
+            1.0
+          ]
+        },
+        "optical_allow_extended_area": {
+          "count": 2,
+          "red": 2,
+          "wilson95": [
+            0.3423802275066531,
+            1.0
+          ]
+        },
+        "common_allow_extended_area": {
+          "count": 2,
+          "red": 2,
+          "wilson95": [
+            0.3423802275066531,
+            1.0
+          ]
+        }
+      },
+      "matched_spectra": [
+        {
+          "name": "J054303.92-410101.3",
+          "file": "13bQ25m19/spt0542-4100_13bQ25m19_05_F.fits",
+          "ra_deg": 85.76633,
+          "dec_deg": -41.017029,
+          "spectroscopic_z": 0.641983,
+          "spectroscopic_z_error": 0.000425,
+          "r_over_r500": 1.0467172351632832,
+          "registered_r_over_r500": 1.0470846624849341,
+          "dv_kms": 380.7962009963923,
+          "nearby_mer_sources": 1,
+          "match": {
+            "tile": 102028768,
+            "object_id": -857663497410170418,
+            "separation_arcsec": 0.017300099304551994,
+            "i_ab": 21.708983085099867,
+            "r_minus_i_ab": 1.0566907053099315,
+            "red_colour": true,
+            "detection_quality_flag": 0,
+            "optical": true,
+            "common_footprint": true,
+            "optical_allow_extended_area": true,
+            "common_allow_extended_area": true,
+            "j_detection": true,
+            "coverage_weights": {
+              "VIS": 1.0,
+              "DECAM_r": 1.0,
+              "DECAM_i": 1.0,
+              "NIR_J": 0.990904688835144
+            }
+          },
+          "used_in_counts": true
+        },
+        {
+          "name": "J054257.27-405724.6",
+          "file": "13bQ25m19/spt0542-4100_13bQ25m19_21_F.fits",
+          "ra_deg": 85.738642,
+          "dec_deg": -40.956821,
+          "spectroscopic_z": 0.63567,
+          "spectroscopic_z_error": 0.000416,
+          "r_over_r500": 1.1096327008391405,
+          "registered_r_over_r500": 1.1095648350424023,
+          "dv_kms": -773.2923332764316,
+          "nearby_mer_sources": 1,
+          "match": {
+            "tile": 102028768,
+            "object_id": -857386437409567991,
+            "separation_arcsec": 0.11695675089512385,
+            "i_ab": 20.835880826755147,
+            "r_minus_i_ab": 0.9163614358424448,
+            "red_colour": true,
+            "detection_quality_flag": 0,
+            "optical": true,
+            "common_footprint": true,
+            "optical_allow_extended_area": true,
+            "common_allow_extended_area": true,
+            "j_detection": true,
+            "coverage_weights": {
+              "VIS": 0.9612743854522705,
+              "DECAM_r": 1.0,
+              "DECAM_i": 1.0,
+              "NIR_J": 0.9905444383621216
+            }
+          },
+          "used_in_counts": true
+        },
+        {
+          "name": "J054236.98-405908.2",
+          "file": "13bQ25m20/spt0542-4100_13bQ25m20_14_F.fits",
+          "ra_deg": 85.65409,
+          "dec_deg": -40.98562,
+          "spectroscopic_z": 0.641604,
+          "spectroscopic_z_error": 0.000231,
+          "r_over_r500": 1.1557246686108493,
+          "registered_r_over_r500": 1.1556074502783562,
+          "dv_kms": 311.5106704262323,
+          "nearby_mer_sources": 1,
+          "match": {
+            "tile": 102028768,
+            "object_id": -856540857409856168,
+            "separation_arcsec": 0.03293456309592677,
+            "i_ab": null,
+            "r_minus_i_ab": null,
+            "red_colour": null,
+            "detection_quality_flag": 2,
+            "optical": false,
+            "common_footprint": false,
+            "optical_allow_extended_area": false,
+            "common_allow_extended_area": false,
+            "j_detection": false,
+            "coverage_weights": {
+              "VIS": 1.0,
+              "DECAM_r": 1.0,
+              "DECAM_i": 1.0,
+              "NIR_J": 1.0
+            }
+          },
+          "used_in_counts": true
+        }
+      ],
+      "band_weights": {
+        "VIS": {
+          "represented_fraction": 1.0,
+          "positive_weight_fraction": 1.0,
+          "mean_where_represented": 0.9755452250456074
+        },
+        "NIR_Y": {
+          "represented_fraction": 1.0,
+          "positive_weight_fraction": 0.999267578125,
+          "mean_where_represented": 0.9705320812972786
+        },
+        "NIR_J": {
+          "represented_fraction": 1.0,
+          "positive_weight_fraction": 0.999267578125,
+          "mean_where_represented": 0.9701767629449023
+        },
+        "NIR_H": {
+          "represented_fraction": 1.0,
+          "positive_weight_fraction": 0.999267578125,
+          "mean_where_represented": 0.9704469660118775
+        }
+      }
+    },
+    {
+      "act_name": "ACT-CL J0356.3-5338",
+      "spt_name": "J0356-5337",
+      "spt_redshift": 1.0345,
+      "centre_offset_arcmin": 0.07606688087609141,
+      "ra_deg": 59.083675052375504,
+      "dec_deg": -53.63379096237667,
+      "theta500_arcmin": 1.5063842562762102,
+      "core_candidates": 4,
+      "outskirts_candidates": 2,
+      "outskirts_inside_mer_geometric_footprint": 2,
+      "outskirts_candidates_1500_kms": 2,
+      "area": {
+        "represented_fraction": 1.0,
+        "overlap_fraction": 0.0,
+        "optical_fraction": 0.990936279296875,
+        "common_fraction": 0.0
+      },
+      "slit_mask_offsets": {
+        "14bQ31m03": {
+          "east_arcsec": -0.01522162575948533,
+          "north_arcsec": 0.0069282346451314675,
+          "supporting_core_matches": 6,
+          "core_spectra": 7,
+          "leave_one_out_rms_arcsec": 0.32881088408582726
+        },
+        "14bQ31m04": {
+          "east_arcsec": 0.20406724417262237,
+          "north_arcsec": 0.16431354754804822,
+          "supporting_core_matches": 5,
+          "core_spectra": 9,
+          "leave_one_out_rms_arcsec": 0.3471450513192287
+        }
+      },
+      "unique_matches_before_registration": 2,
+      "spectra_with_unique_mer_match": 2,
+      "shifted_control_unique_matches": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "unique_mer_matches": 2,
+      "tallies": {
+        "optical": {
+          "count": 0,
+          "red": 0,
+          "wilson95": null
+        },
+        "common_footprint": {
+          "count": 0,
+          "red": 0,
+          "wilson95": null
+        },
+        "j_detection": {
+          "count": 0,
+          "red": 0,
+          "wilson95": null
+        },
+        "optical_allow_extended_area": {
+          "count": 1,
+          "red": 1,
+          "wilson95": [
+            0.20654931437723742,
+            1.0
+          ]
+        },
+        "common_allow_extended_area": {
+          "count": 0,
+          "red": 0,
+          "wilson95": null
+        }
+      },
+      "matched_spectra": [
+        {
+          "name": "J035630.50-533803.9",
+          "file": "14bQ31m03/spt0356-5337_14bQ31m03_06_F.fits",
+          "ra_deg": 59.12708,
+          "dec_deg": -53.63443,
+          "spectroscopic_z": 1.0376,
+          "spectroscopic_z_error": 0.000283,
+          "r_over_r500": 1.0254134305140494,
+          "registered_r_over_r500": 1.0252431919558296,
+          "dv_kms": 456.7985351683612,
+          "nearby_mer_sources": 1,
+          "match": {
+            "tile": 102016443,
+            "object_id": -591270901536344223,
+            "separation_arcsec": 0.0421224530551598,
+            "i_ab": 22.789455495276627,
+            "r_minus_i_ab": 1.0304797839624105,
+            "red_colour": true,
+            "detection_quality_flag": 512,
+            "optical": false,
+            "common_footprint": false,
+            "optical_allow_extended_area": true,
+            "common_allow_extended_area": false,
+            "j_detection": false,
+            "coverage_weights": {
+              "VIS": 0.8335742950439453,
+              "DECAM_r": 1.0,
+              "DECAM_i": 1.0,
+              "NIR_J": 0.0
+            }
+          },
+          "used_in_counts": true
+        },
+        {
+          "name": "J035603.01-533703.4",
+          "file": "14bQ31m04/spt0356-5337_14bQ31m04_06_F.fits",
+          "ra_deg": 59.012532,
+          "dec_deg": -53.617599,
+          "spectroscopic_z": 1.04371,
+          "spectroscopic_z_error": 0.000796,
+          "r_over_r500": 1.800028909460475,
+          "registered_r_over_r500": 1.798575361770181,
+          "dv_kms": 1357.133712548529,
+          "nearby_mer_sources": 1,
+          "match": {
+            "tile": 102016443,
+            "object_id": -590125909536175531,
+            "separation_arcsec": 0.0781974807791321,
+            "i_ab": 23.18240975534144,
+            "r_minus_i_ab": 1.0955888039331616,
+            "red_colour": true,
+            "detection_quality_flag": 512,
+            "optical": false,
+            "common_footprint": false,
+            "optical_allow_extended_area": false,
+            "common_allow_extended_area": false,
+            "j_detection": false,
+            "coverage_weights": {
+              "VIS": 1.0,
+              "DECAM_r": 1.0,
+              "DECAM_i": 1.0,
+              "NIR_J": 0.0
+            }
+          },
+          "used_in_counts": true
+        }
+      ],
+      "band_weights": {
+        "VIS": {
+          "represented_fraction": 1.0,
+          "positive_weight_fraction": 1.0,
+          "mean_where_represented": 0.9932787653979176
+        },
+        "NIR_Y": {
+          "represented_fraction": 1.0,
+          "positive_weight_fraction": 0.0,
+          "mean_where_represented": 0.0
+        },
+        "NIR_J": {
+          "represented_fraction": 1.0,
+          "positive_weight_fraction": 0.0,
+          "mean_where_represented": 0.0
+        },
+        "NIR_H": {
+          "represented_fraction": 1.0,
+          "positive_weight_fraction": 0.0,
+          "mean_where_represented": 0.0
+        }
+      }
+    },
+    {
+      "act_name": "ACT-CL J0539.9-5744",
+      "spt_name": "J0539-5744",
+      "spt_redshift": 0.7597,
+      "centre_offset_arcmin": 0.15999487341799548,
+      "ra_deg": 84.99926482436092,
+      "dec_deg": -57.74079276942555,
+      "theta500_arcmin": 1.9377755202953557,
+      "core_candidates": 17,
+      "outskirts_candidates": 2,
+      "outskirts_inside_mer_geometric_footprint": 2,
+      "outskirts_candidates_1500_kms": 2,
+      "area": {
+        "represented_fraction": 1.0,
+        "overlap_fraction": 0.0,
+        "optical_fraction": 0.953460693359375,
+        "common_fraction": 0.941619873046875
+      },
+      "slit_mask_offsets": {
+        "12bQ29m17": {
+          "east_arcsec": -0.014344627597355317,
+          "north_arcsec": 0.717109388969237,
+          "supporting_core_matches": 12,
+          "core_spectra": 13,
+          "leave_one_out_rms_arcsec": 0.13711247419034284
+        },
+        "12bQ29m18": {
+          "east_arcsec": 0.056913838481506385,
+          "north_arcsec": 0.6923004579873528,
+          "supporting_core_matches": 10,
+          "core_spectra": 10,
+          "leave_one_out_rms_arcsec": 0.2005417573976428
+        }
+      },
+      "unique_matches_before_registration": 1,
+      "spectra_with_unique_mer_match": 2,
+      "shifted_control_unique_matches": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "unique_mer_matches": 2,
+      "tallies": {
+        "optical": {
+          "count": 2,
+          "red": 2,
+          "wilson95": [
+            0.3423802275066531,
+            1.0
+          ]
+        },
+        "common_footprint": {
+          "count": 2,
+          "red": 2,
+          "wilson95": [
+            0.3423802275066531,
+            1.0
+          ]
+        },
+        "j_detection": {
+          "count": 2,
+          "red": 2,
+          "wilson95": [
+            0.3423802275066531,
+            1.0
+          ]
+        },
+        "optical_allow_extended_area": {
+          "count": 2,
+          "red": 2,
+          "wilson95": [
+            0.3423802275066531,
+            1.0
+          ]
+        },
+        "common_allow_extended_area": {
+          "count": 2,
+          "red": 2,
+          "wilson95": [
+            0.3423802275066531,
+            1.0
+          ]
+        }
+      },
+      "matched_spectra": [
+        {
+          "name": "J053956.61-574700.1",
+          "file": "12bQ29m17/spt0539-5744_12bQ29m17_01_F.fits",
+          "ra_deg": 84.985894,
+          "dec_deg": -57.783374,
+          "spectroscopic_z": 0.764585,
+          "spectroscopic_z_error": 0.000465,
+          "r_over_r500": 1.3368252420141644,
+          "registered_r_over_r500": 1.330763166769854,
+          "dv_kms": 832.2362660282862,
+          "nearby_mer_sources": 1,
+          "match": {
+            "tile": 102012789,
+            "object_id": -849858266577831183,
+            "separation_arcsec": 0.23346691820385765,
+            "i_ab": 22.099518712334863,
+            "r_minus_i_ab": 1.2678666599748918,
+            "red_colour": true,
+            "detection_quality_flag": 0,
+            "optical": true,
+            "common_footprint": true,
+            "optical_allow_extended_area": true,
+            "common_allow_extended_area": true,
+            "j_detection": true,
+            "coverage_weights": {
+              "VIS": 0.9898180365562439,
+              "DECAM_r": 1.0,
+              "DECAM_i": 1.0,
+              "NIR_J": 1.0
+            }
+          },
+          "used_in_counts": true
+        },
+        {
+          "name": "J054009.37-574226.0",
+          "file": "12bQ29m18/spt0539-5744_12bQ29m18_24_F.fits",
+          "ra_deg": 85.039049,
+          "dec_deg": -57.707213,
+          "spectroscopic_z": 0.754112,
+          "spectroscopic_z_error": 0.00015,
+          "r_over_r500": 1.2303543388891662,
+          "registered_r_over_r500": 1.2356519057672797,
+          "dv_kms": -952.003327444457,
+          "nearby_mer_sources": 1,
+          "match": {
+            "tile": 102013178,
+            "object_id": -850390507577070828,
+            "separation_arcsec": 0.229996392743781,
+            "i_ab": 22.198433635502976,
+            "r_minus_i_ab": 1.0907316075175812,
+            "red_colour": true,
+            "detection_quality_flag": 0,
+            "optical": true,
+            "common_footprint": true,
+            "optical_allow_extended_area": true,
+            "common_allow_extended_area": true,
+            "j_detection": true,
+            "coverage_weights": {
+              "VIS": 0.994457483291626,
+              "DECAM_r": 1.0,
+              "DECAM_i": 1.0,
+              "NIR_J": 1.0
+            }
+          },
+          "used_in_counts": true
+        }
+      ],
+      "band_weights": {
+        "VIS": {
+          "represented_fraction": 1.0,
+          "positive_weight_fraction": 1.0,
+          "mean_where_represented": 0.9683528377663606
+        },
+        "NIR_Y": {
+          "represented_fraction": 1.0,
+          "positive_weight_fraction": 0.998779296875,
+          "mean_where_represented": 0.9556376873069894
+        },
+        "NIR_J": {
+          "represented_fraction": 1.0,
+          "positive_weight_fraction": 0.998779296875,
+          "mean_where_represented": 0.9550771969140897
+        },
+        "NIR_H": {
+          "represented_fraction": 1.0,
+          "positive_weight_fraction": 0.998779296875,
+          "mean_where_represented": 0.9556170331954945
+        }
+      }
+    },
+    {
+      "act_name": "ACT-CL J0252.7-4824",
+      "spt_name": "J0252-4824",
+      "spt_redshift": 0.4207,
+      "centre_offset_arcmin": 0.1331338135317588,
+      "ra_deg": 43.19068306100528,
+      "dec_deg": -48.410976572962944,
+      "theta500_arcmin": 3.1168143322617086,
+      "core_candidates": 23,
+      "outskirts_candidates": 1,
+      "outskirts_inside_mer_geometric_footprint": 1,
+      "outskirts_candidates_1500_kms": 1,
+      "area": {
+        "represented_fraction": 1.0,
+        "overlap_fraction": 0.0,
+        "optical_fraction": 0.98291015625,
+        "common_fraction": 0.975189208984375
+      },
+      "slit_mask_offsets": {
+        "13bQ72m07": {
+          "east_arcsec": 0.024191112423658245,
+          "north_arcsec": 0.09662801935247665,
+          "supporting_core_matches": 17,
+          "core_spectra": 18,
+          "leave_one_out_rms_arcsec": 0.3037603405088597
+        },
+        "13bQ72m08": {
+          "east_arcsec": -0.17657083913893573,
+          "north_arcsec": 0.06485733529106347,
+          "supporting_core_matches": 13,
+          "core_spectra": 13,
+          "leave_one_out_rms_arcsec": 0.3317980856302352
+        }
+      },
+      "unique_matches_before_registration": 1,
+      "spectra_with_unique_mer_match": 1,
+      "shifted_control_unique_matches": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "unique_mer_matches": 1,
+      "tallies": {
+        "optical": {
+          "count": 1,
+          "red": 0,
+          "wilson95": [
+            0.0,
+            0.7934506856227626
+          ]
+        },
+        "common_footprint": {
+          "count": 1,
+          "red": 0,
+          "wilson95": [
+            0.0,
+            0.7934506856227626
+          ]
+        },
+        "j_detection": {
+          "count": 1,
+          "red": 0,
+          "wilson95": [
+            0.0,
+            0.7934506856227626
+          ]
+        },
+        "optical_allow_extended_area": {
+          "count": 1,
+          "red": 0,
+          "wilson95": [
+            0.0,
+            0.7934506856227626
+          ]
+        },
+        "common_allow_extended_area": {
+          "count": 1,
+          "red": 0,
+          "wilson95": [
+            0.0,
+            0.7934506856227626
+          ]
+        }
+      },
+      "matched_spectra": [
+        {
+          "name": "J025258.24-482710.9",
+          "file": "13bQ72m08/spt0252-4824_13bQ72m08_13_F.fits",
+          "ra_deg": 43.24266,
+          "dec_deg": -48.453041,
+          "spectroscopic_z": 0.422684,
+          "spectroscopic_z_error": 0.000326,
+          "r_over_r500": 1.0471201380619901,
+          "registered_r_over_r500": 1.0462532622347949,
+          "dv_kms": 418.65857441542596,
+          "nearby_mer_sources": 1,
+          "match": {
+            "tile": 102020990,
+            "object_id": -432427958484530921,
+            "separation_arcsec": 0.5593492554396478,
+            "i_ab": 20.60780690355393,
+            "r_minus_i_ab": 0.5489197802200521,
+            "red_colour": false,
+            "detection_quality_flag": 0,
+            "optical": true,
+            "common_footprint": true,
+            "optical_allow_extended_area": true,
+            "common_allow_extended_area": true,
+            "j_detection": true,
+            "coverage_weights": {
+              "VIS": 1.0,
+              "DECAM_r": 1.0,
+              "DECAM_i": 1.0,
+              "NIR_J": 1.0
+            }
+          },
+          "used_in_counts": true
+        }
+      ],
+      "band_weights": {
+        "VIS": {
+          "represented_fraction": 1.0,
+          "positive_weight_fraction": 0.999481201171875,
+          "mean_where_represented": 0.9888168220776379
+        },
+        "NIR_Y": {
+          "represented_fraction": 1.0,
+          "positive_weight_fraction": 0.99896240234375,
+          "mean_where_represented": 0.9860911672874408
+        },
+        "NIR_J": {
+          "represented_fraction": 1.0,
+          "positive_weight_fraction": 0.99896240234375,
+          "mean_where_represented": 0.9858266277658458
+        },
+        "NIR_H": {
+          "represented_fraction": 1.0,
+          "positive_weight_fraction": 0.99896240234375,
+          "mean_where_represented": 0.9859719558041888
+        }
+      }
+    },
+    {
+      "act_name": "ACT-CL J0334.2-4659",
+      "spt_name": "J0334-4659",
+      "spt_redshift": 0.4861,
+      "centre_offset_arcmin": 0.2682596490893301,
+      "ra_deg": 53.5511223260994,
+      "dec_deg": -46.99604650018128,
+      "theta500_arcmin": 2.891038780541064,
+      "core_candidates": 31,
+      "outskirts_candidates": 1,
+      "outskirts_inside_mer_geometric_footprint": 1,
+      "outskirts_candidates_1500_kms": 1,
+      "area": {
+        "represented_fraction": 1.0,
+        "overlap_fraction": 0.0,
+        "optical_fraction": 0.9849853515625,
+        "common_fraction": 0.96514892578125
+      },
+      "slit_mask_offsets": {
+        "13bQ72m13": {
+          "east_arcsec": 0.11727029523762195,
+          "north_arcsec": 0.6796287371093958,
+          "supporting_core_matches": 23,
+          "core_spectra": 23,
+          "leave_one_out_rms_arcsec": 0.12197882458989351
+        },
+        "13bQ72m14": {
+          "east_arcsec": 0.11598765162494988,
+          "north_arcsec": 0.6806507854003181,
+          "supporting_core_matches": 23,
+          "core_spectra": 24,
+          "leave_one_out_rms_arcsec": 0.15690437731020065
+        }
+      },
+      "unique_matches_before_registration": 0,
+      "spectra_with_unique_mer_match": 1,
+      "shifted_control_unique_matches": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "unique_mer_matches": 1,
+      "tallies": {
+        "optical": {
+          "count": 0,
+          "red": 0,
+          "wilson95": null
+        },
+        "common_footprint": {
+          "count": 0,
+          "red": 0,
+          "wilson95": null
+        },
+        "j_detection": {
+          "count": 0,
+          "red": 0,
+          "wilson95": null
+        },
+        "optical_allow_extended_area": {
+          "count": 0,
+          "red": 0,
+          "wilson95": null
+        },
+        "common_allow_extended_area": {
+          "count": 0,
+          "red": 0,
+          "wilson95": null
+        }
+      },
+      "matched_spectra": [
+        {
+          "name": "J033357.26-465813.0",
+          "file": "13bQ72m13/spt0334-4659_13bQ72m13_03_F.fits",
+          "ra_deg": 53.488594,
+          "dec_deg": -46.970275,
+          "spectroscopic_z": 0.486539,
+          "spectroscopic_z_error": 0.000319,
+          "r_over_r500": 1.0343311823051506,
+          "registered_r_over_r500": 1.035786646015804,
+          "dv_kms": 88.55991458314165,
+          "nearby_mer_sources": 1,
+          "match": {
+            "tile": 102022467,
+            "object_id": -534888278469700995,
+            "separation_arcsec": 0.45977882647022994,
+            "i_ab": null,
+            "r_minus_i_ab": null,
+            "red_colour": null,
+            "detection_quality_flag": 2,
+            "optical": false,
+            "common_footprint": false,
+            "optical_allow_extended_area": false,
+            "common_allow_extended_area": false,
+            "j_detection": false,
+            "coverage_weights": {
+              "VIS": 1.0,
+              "DECAM_r": 1.0,
+              "DECAM_i": 1.0,
+              "NIR_J": 0.9999397397041321
+            }
+          },
+          "used_in_counts": true
+        }
+      ],
+      "band_weights": {
+        "VIS": {
+          "represented_fraction": 1.0,
+          "positive_weight_fraction": 0.9993896484375,
+          "mean_where_represented": 0.9856410158857898
+        },
+        "NIR_Y": {
+          "represented_fraction": 1.0,
+          "positive_weight_fraction": 0.998291015625,
+          "mean_where_represented": 0.9760202764581996
+        },
+        "NIR_J": {
+          "represented_fraction": 1.0,
+          "positive_weight_fraction": 0.998291015625,
+          "mean_where_represented": 0.9755197431654392
+        },
+        "NIR_H": {
+          "represented_fraction": 1.0,
+          "positive_weight_fraction": 0.998291015625,
+          "mean_where_represented": 0.9753288407182095
+        }
+      }
+    },
+    {
+      "act_name": "ACT-CL J0348.2-4515",
+      "spt_name": "J0348-4515",
+      "spt_redshift": 0.3592,
+      "centre_offset_arcmin": 0.06260458338661959,
+      "ra_deg": 57.073538933469585,
+      "dec_deg": -45.251866108594044,
+      "theta500_arcmin": 3.620175250982077,
+      "core_candidates": 25,
+      "outskirts_candidates": 1,
+      "outskirts_inside_mer_geometric_footprint": 1,
+      "outskirts_candidates_1500_kms": 1,
+      "area": {
+        "represented_fraction": 1.0,
+        "overlap_fraction": 0.0,
+        "optical_fraction": 0.939971923828125,
+        "common_fraction": 0.90814208984375
+      },
+      "slit_mask_offsets": {
+        "12bQ59m01": {
+          "east_arcsec": 0.4546480319663032,
+          "north_arcsec": 0.9644864095641204,
+          "supporting_core_matches": 20,
+          "core_spectra": 20,
+          "leave_one_out_rms_arcsec": 0.10050771211091278
+        },
+        "12bQ59m02": {
+          "east_arcsec": 0.46947285598787114,
+          "north_arcsec": 0.9554912864084215,
+          "supporting_core_matches": 16,
+          "core_spectra": 18,
+          "leave_one_out_rms_arcsec": 0.0808736264842083
+        }
+      },
+      "unique_matches_before_registration": 0,
+      "spectra_with_unique_mer_match": 1,
+      "shifted_control_unique_matches": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "unique_mer_matches": 1,
+      "tallies": {
+        "optical": {
+          "count": 1,
+          "red": 0,
+          "wilson95": [
+            0.0,
+            0.7934506856227626
+          ]
+        },
+        "common_footprint": {
+          "count": 1,
+          "red": 0,
+          "wilson95": [
+            0.0,
+            0.7934506856227626
+          ]
+        },
+        "j_detection": {
+          "count": 1,
+          "red": 0,
+          "wilson95": [
+            0.0,
+            0.7934506856227626
+          ]
+        },
+        "optical_allow_extended_area": {
+          "count": 1,
+          "red": 0,
+          "wilson95": [
+            0.0,
+            0.7934506856227626
+          ]
+        },
+        "common_allow_extended_area": {
+          "count": 1,
+          "red": 0,
+          "wilson95": [
+            0.0,
+            0.7934506856227626
+          ]
+        }
+      },
+      "matched_spectra": [
+        {
+          "name": "J034802.74-451230.5",
+          "file": "12bQ59m01/spt0348-4515_12bQ59m01_06_F.fits",
+          "ra_deg": 57.011429,
+          "dec_deg": -45.208462,
+          "spectroscopic_z": 0.363813,
+          "spectroscopic_z_error": 0.000321,
+          "r_over_r500": 1.0213057400630423,
+          "registered_r_over_r500": 1.022959802522727,
+          "dv_kms": 1017.4680758931677,
+          "nearby_mer_sources": 1,
+          "match": {
+            "tile": 102024486,
+            "object_id": -570116042452082047,
+            "separation_arcsec": 0.039645577070342455,
+            "i_ab": 20.261258964918202,
+            "r_minus_i_ab": 0.5186137388462477,
+            "red_colour": false,
+            "detection_quality_flag": 0,
+            "optical": true,
+            "common_footprint": true,
+            "optical_allow_extended_area": true,
+            "common_allow_extended_area": true,
+            "j_detection": true,
+            "coverage_weights": {
+              "VIS": 0.9352331757545471,
+              "DECAM_r": 1.0,
+              "DECAM_i": 1.0,
+              "NIR_J": 1.0
+            }
+          },
+          "used_in_counts": true
+        }
+      ],
+      "band_weights": {
+        "VIS": {
+          "represented_fraction": 1.0,
+          "positive_weight_fraction": 0.99212646484375,
+          "mean_where_represented": 0.9629061921377016
+        },
+        "NIR_Y": {
+          "represented_fraction": 1.0,
+          "positive_weight_fraction": 0.9876708984375,
+          "mean_where_represented": 0.9487327650902426
+        },
+        "NIR_J": {
+          "represented_fraction": 1.0,
+          "positive_weight_fraction": 0.9876708984375,
+          "mean_where_represented": 0.9486865078802549
+        },
+        "NIR_H": {
+          "represented_fraction": 1.0,
+          "positive_weight_fraction": 0.9876708984375,
+          "mean_where_represented": 0.9486612093360673
+        }
+      }
+    },
+    {
+      "act_name": "ACT-CL J0511.6-5154",
+      "spt_name": "J0511-5154",
+      "spt_redshift": 0.6447,
+      "centre_offset_arcmin": 0.17163446491951756,
+      "ra_deg": 77.92200353155174,
+      "dec_deg": -51.90693463567445,
+      "theta500_arcmin": 2.2008826484535593,
+      "core_candidates": 14,
+      "outskirts_candidates": 1,
+      "outskirts_inside_mer_geometric_footprint": 1,
+      "outskirts_candidates_1500_kms": 1,
+      "area": {
+        "represented_fraction": 1.0,
+        "overlap_fraction": 0.0,
+        "optical_fraction": 0.966949462890625,
+        "common_fraction": 0.9515380859375
+      },
+      "slit_mask_offsets": {
+        "11bC06m58": {
+          "east_arcsec": -0.025885537517238905,
+          "north_arcsec": 0.04503804647937449,
+          "supporting_core_matches": 7,
+          "core_spectra": 7,
+          "leave_one_out_rms_arcsec": 0.13622910640943367
+        },
+        "11bC06m59": {
+          "east_arcsec": -0.11368156654240293,
+          "north_arcsec": 0.044027227280521615,
+          "supporting_core_matches": 13,
+          "core_spectra": 13,
+          "leave_one_out_rms_arcsec": 0.13422052249725022
+        }
+      },
+      "unique_matches_before_registration": 1,
+      "spectra_with_unique_mer_match": 1,
+      "shifted_control_unique_matches": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "unique_mer_matches": 1,
+      "tallies": {
+        "optical": {
+          "count": 0,
+          "red": 0,
+          "wilson95": null
+        },
+        "common_footprint": {
+          "count": 0,
+          "red": 0,
+          "wilson95": null
+        },
+        "j_detection": {
+          "count": 0,
+          "red": 0,
+          "wilson95": null
+        },
+        "optical_allow_extended_area": {
+          "count": 0,
+          "red": 0,
+          "wilson95": null
+        },
+        "common_allow_extended_area": {
+          "count": 0,
+          "red": 0,
+          "wilson95": null
+        }
+      },
+      "matched_spectra": [
+        {
+          "name": "J051125.17-515506.4",
+          "file": "11bC06m59/spt0511-5154_11bC06m59_19_F.fits",
+          "ra_deg": 77.854876,
+          "dec_deg": -51.918431,
+          "spectroscopic_z": 0.6419,
+          "spectroscopic_z_error": 0.0005,
+          "r_over_r500": 1.1715663058147314,
+          "registered_r_over_r500": 1.1723070013883705,
+          "dv_kms": -510.37811296893494,
+          "nearby_mer_sources": 1,
+          "match": {
+            "tile": 102017786,
+            "object_id": -778549598519183187,
+            "separation_arcsec": 0.4684445485976079,
+            "i_ab": null,
+            "r_minus_i_ab": null,
+            "red_colour": null,
+            "detection_quality_flag": 514,
+            "optical": false,
+            "common_footprint": false,
+            "optical_allow_extended_area": false,
+            "common_allow_extended_area": false,
+            "j_detection": false,
+            "coverage_weights": {
+              "VIS": 1.0,
+              "DECAM_r": 1.0,
+              "DECAM_i": 1.0,
+              "NIR_J": 1.0
+            }
+          },
+          "used_in_counts": true
+        }
+      ],
+      "band_weights": {
+        "VIS": {
+          "represented_fraction": 1.0,
+          "positive_weight_fraction": 1.0,
+          "mean_where_represented": 0.976040053258096
+        },
+        "NIR_Y": {
+          "represented_fraction": 1.0,
+          "positive_weight_fraction": 0.999053955078125,
+          "mean_where_represented": 0.9747164309761729
+        },
+        "NIR_J": {
+          "represented_fraction": 1.0,
+          "positive_weight_fraction": 0.999053955078125,
+          "mean_where_represented": 0.974672716354803
+        },
+        "NIR_H": {
+          "represented_fraction": 1.0,
+          "positive_weight_fraction": 0.999053955078125,
+          "mean_where_represented": 0.9747109293429048
+        }
+      }
+    }
+  ],
+  "sha256": {
+    "spt_gmos": "831dc33551ced1cf4a4d4144ec33bccab99b22a91fc44f73aa0fae5d48814e85",
+    "act": "732e293382ccc1aeb1ba48407b5bed1503dd482047cf56b73a7ecf26190200fe",
+    "mer_moc": "c8f8aedbc73a2cb3a1afea61f94fdefea186a398e14ba505c75b4886110a5af9",
+    "102012356/DECAM_i": "a8d2b96f494c99569ed23c8e207434380bb3e9fbcd4a805dfb25e4b0d032a490",
+    "102012356/DECAM_r": "349f4e9e4af2aa186ec931263a738d464957159a399a7609464212b87cae7478",
+    "102012356/MER": "a39de41b47d31b6ea67d50c157365faf29b66ab4504c4acca17627b708607844",
+    "102012356/NIR_H": "4df884214d9280a675ff74a43ac3911e8b1fbdcfabd64e1b49850738ce2b43c3",
+    "102012356/NIR_J": "364d4dbb821497e1c5a54c9a2153121e450a2b8a30363afd4b8c85b0c26d5a9d",
+    "102012356/NIR_Y": "462c7032cf125647bc1577ef0d47ea2a7d49c64737a272df6507048d634c0606",
+    "102012356/VIS": "568922b9ac9244ce54695bf4717f0a7f27c4507314b7de1148ce2e17f426404b",
+    "102012357/DECAM_i": "884af4bc8f04e232812b87f82580ba024acc177085ac1af2c409268b6290391d",
+    "102012357/DECAM_r": "4536e79d03f9d7153b6b34e3fd74585cd3d9d827c31b1cd523ffdff0fdb20234",
+    "102012357/MER": "fe4231f55e4aa9c2c4a9bbd11f3f7bd9b124bcbd846bb2f5850ceb20c675e9cf",
+    "102012357/NIR_H": "be100ad9b21c822f1fca4c45daad15c6996fb9f306a729cb1403bccf68246acb",
+    "102012357/NIR_J": "7f2213fe3829d780d13dfbc27e27f9f60f8d788204cf326d661cbe2b1d77712e",
+    "102012357/NIR_Y": "b6b62e0df5ad2d1e3e172cd7b0c9ddaf1f5f65616c5bfa421d25d90fd7a73e45",
+    "102012357/VIS": "7b1826a07e4172c058761e6df3c29cee463e43ea90f3ea38acb37a2f2520963b",
+    "102012789/DECAM_i": "ec0e9b63d8cf30436281edc7911b454bbf53e6ab1d8802c55b441dbd942fa749",
+    "102012789/DECAM_r": "8e0e91800770e939fff20d2a207a2730a61452cdefd85472a34dcc255027aba7",
+    "102012789/MER": "b4a58373058e398c0a515a0e2bdbb72137674cad309d2bfa2bca3691e9cc406d",
+    "102012789/NIR_H": "436614b26d2bf88c6eee751a1f349b53bc1ed95cc0643ba64358f675bb7496ec",
+    "102012789/NIR_J": "37ae60881d62e6c574b33e33fc8b431d3a17c9107cc76b87c81d4757518f4819",
+    "102012789/NIR_Y": "ea4dc523b951690bdd1326dab5e218b529b368c23ac1f302243187c0d0f6a340",
+    "102012789/VIS": "1209219a5b4920f44e239226cdc7d588d526c3c6db1a5c7d68e145b561c3c2b7",
+    "102013151/DECAM_i": "34dd9d5e0bc15e3cda280e11e7975a3e4424a9a6802d8bb18eaafe0e16766192",
+    "102013151/DECAM_r": "cab4197729df96f57e39b59c6fad49816f75c0d470089eb8eebb4dbd02c0d9ba",
+    "102013151/MER": "42bb8181a1609c9baf74f26cb3416e6d4a9234b9d310d1eea27ac1a6569e6a8d",
+    "102013151/NIR_H": "f75321d5f367b11cf65ff7c7462c74ba8046b07d504f158c875e3e10cb499ffe",
+    "102013151/NIR_J": "653095fecfff219ecb18de3072207c9752e68aa9bec7c1fd2d9ddd91872b0c28",
+    "102013151/NIR_Y": "cc180b13108b73e7148c63e555b7afdf288f19238433d5637a994a808788946d",
+    "102013151/VIS": "7f10d96e4f556432fb91b757be23394106cb95c31fb2d709ed85f3777416f58f",
+    "102013152/DECAM_i": "8435f6294c09d0a13d17b3eef6db752ddcf31e4b04cc8f7d86e8e410def2fbbe",
+    "102013152/DECAM_r": "02f842c08d15810ea0a65f650e4e94e4a571592de5322412c7f9836b02c8768b",
+    "102013152/MER": "a525364d53ed86ddf6465973f48d96af58e0b468ab380332884dfbc8c1b3dd19",
+    "102013152/NIR_H": "608d057fc3974936849fd020679fcfa3d9607860ae1b4775b17c6cef8961d13a",
+    "102013152/NIR_J": "dc876e32d985d520a2339bb7ed6e1d9f1fa7f185bf9725c586bdf3d813cdc350",
+    "102013152/NIR_Y": "06be42eb735f240408ae0850a4f39a7702712ff76734ce0444f1c6aed3e14f63",
+    "102013152/VIS": "9d84aa1dab551b9f5bf53abe9e95fb8b7233307e220438d003d2bfc05273317b",
+    "102013177/DECAM_i": "724514b2cb1b8ec6166b32ed9e180c56b1562179a544b0b2c711ececd10cf24d",
+    "102013177/DECAM_r": "8c03cf21fbf69679cd68c97f61682b196b838c8eb05c9014ee04256363311c76",
+    "102013177/MER": "58d9a6afe4a28bb8e013ef83aaa99309eb396b4e6d7380e064cf483907ec6b6e",
+    "102013177/NIR_H": "3c2ce85a347af98e4b74590da7551081b23235d20bc29606d52edbf45056696e",
+    "102013177/NIR_J": "2998bd84e358d361a8d5f6633f92ef75015769ca82b3cc895c82b9256adf6c67",
+    "102013177/NIR_Y": "6dafdc5bdf098d02b214dd2778b891a59c0a47ed37cfdcf104b6bce9a7f75239",
+    "102013177/VIS": "9ee1aacb24d55e28dec2bc41fdcc543eda7a5c1202ad785880e2e1986cbed282",
+    "102013178/DECAM_i": "50ade520432a4d317e735760a436ae5eaa87080037ca20cb49b7dab74327d2d5",
+    "102013178/DECAM_r": "781c95352f747077ef025d947b2d6b7ae95d2b155e9d5705c6c299b32f6cffe9",
+    "102013178/MER": "d529ba2e8af251e1c6a290eca50b67b72c589201d02c4e27030f7aee032f7392",
+    "102013178/NIR_H": "733dcbbb46dae851d4d25ca75c999fd33823d2ad916bdea1b5c1b8192dfe3c35",
+    "102013178/NIR_J": "847f5538a97aad22a8c6eff33738491a0a1c83c8c3b6f27adb823a9f967de405",
+    "102013178/NIR_Y": "568e04fa5d90d2489afe5cba47f9f3aea500f62503f708dcf0e25b36bcdaeb22",
+    "102013178/VIS": "b9d422764552403326108776a52cfbdf3fd6c9b50ac3e50309e0e45058d44f79",
+    "102013542/DECAM_i": "3cc8e0bece58b3c69c43324ba1c79caed7981cbfe033769ef72627db077b959b",
+    "102013542/DECAM_r": "95b6fecf942c5facde7bdfe98b53c926089a3a8f5786d2b97d295191c70a3883",
+    "102013542/MER": "dbdf0138fc8d92ec835f89824228c539450829f6430d09c4e3f679886e61e665",
+    "102013542/NIR_H": "4cbd29f9bfd1c24ff91fe01b8cc4ab0d7096c7bcea97d83568ce1e31acc26d44",
+    "102013542/NIR_J": "7938fc80f78b12b1b278b910cb23abf974649e93c307edb1d1bd4604b3fad034",
+    "102013542/NIR_Y": "0612fad9a64887114ec692d060e4b760de8a3510154674cb9018d46c44f8add3",
+    "102013542/VIS": "2e0ee742a4b81f433969beb2b78587bcfe0b2079351d0bacdb9e8acaa722b132",
+    "102013545/DECAM_i": "250b2fd57dd8bdae44d7817143338908dae95f510a1d9aa6cb05cbe1427c5d8f",
+    "102013545/DECAM_r": "d6d3214d04715599898ddaac2abc002095dd7d7b53b42f6bc71b8e3f8de10a9e",
+    "102013545/MER": "3e8fd3bebe0252f39764fd5b692176e1915eeda207386d3cab2715e61eee165d",
+    "102013545/NIR_H": "3073916f77def2a2f47a4415ac55b39db5303f7a6cde774d19d774ff9eef6b09",
+    "102013545/NIR_J": "6e0f69dcd9c605144d0c6b1881024474c9319c9b82cd9527ce7e0e728ec9ba69",
+    "102013545/NIR_Y": "35e3053cbe3c965fc7b08e196026814aec7e5e4c6ee14e99e5beed0cfc3c4159",
+    "102013545/VIS": "c6e2c72a38731f5f47bf49a67510369029f755774772734c0c2d1fc3cd55eee2",
+    "102013941/DECAM_i": "8cbb33d3932f2819e34f13822f1890e7ce8f190e8d30a642912ff27d795f542f",
+    "102013941/DECAM_r": "41df3c6efb993fc3ab43f3bc42c9ad299507a7ca23f7d7bbe6cdf246e0d47e63",
+    "102013941/MER": "907785bf475e10d380848e0cad4ee455ef10986e2212f65d75623600dd756bdf",
+    "102013941/NIR_H": "fed976e851a779eb00ceaa47ebb56b7b7b568afd81eb5b9c0bcb76adad230501",
+    "102013941/NIR_J": "3ebed12a3be2968de19e8afb8fe8f6f102b1a00d548326c8b85441844d944e2d",
+    "102013941/NIR_Y": "98e18d915489013c610becae5888a073176aa2c51c321ba26772732b9e2d7830",
+    "102013941/VIS": "6351b80a92a515861f54dff231d7a99cd74b78b47bd6acfb810053e859bf5c13",
+    "102016443/DECAM_i": "69535080d1e241d4833dd24db54037ce5c336061760bcca0817389d7fd281096",
+    "102016443/DECAM_r": "e2df6b50b1e20fcef56b931bcbbe739c8908e039e901e36720607d7e3728586e",
+    "102016443/MER": "bc975dcc786f428546cdaf66b5a74d98fb71bc6f55358e98d1fd17e97343f49e",
+    "102016443/NIR_H": "766d958267c597e84866bc1a83e3c67c9b6f9251e5fa4dbda38d9bd8950e99db",
+    "102016443/NIR_J": "7bc29af7545bc8704272d84cde61a7a86f7f02983253661f2b23923bdef8530f",
+    "102016443/NIR_Y": "2af7ab64a96fc8721db808503cd6eabce23bdfb3d53798dd55f9d0ffe30a2303",
+    "102016443/VIS": "d244e6fccfc3d23aedbf95961004ca6bc99bc378ba14175001be1422df3df389",
+    "102017713/DECAM_i": "0aec81a830b626d1d8e715f2f419232430ee08de2793aa4f9b8311461322d7c5",
+    "102017713/DECAM_r": "1975e81a922e7441f20a6b2d77511e425e6c7e0fe81869de5c5753c9bb8e78af",
+    "102017713/MER": "99f7592972fb84daad1435024d4bd36312b29d1fe0773d9aa58a48edd0766ebf",
+    "102017713/NIR_H": "f05348328624a086f9d022efaa85ce5291439325c586c9fc5130191ba9adc98f",
+    "102017713/NIR_J": "d494cb02b701858651570406a1a803deaee0f70977f65d65d633f012cd20b71a",
+    "102017713/NIR_Y": "8fb999262a8c6906188c88f0c96f929de7788ff0a93ac83a91f8df0afc1e07d6",
+    "102017713/VIS": "5c7027fce08319b394b876feb0aedd286ed7c2e875cd2167be98c4bc7fc05155",
+    "102017714/DECAM_i": "d6572dc5a5a8e2824590e1fc316715ef90a74bb704503d7a4234fcfb514e2d0b",
+    "102017714/DECAM_r": "ad184a761c77a98770e8acac001c257f5f1704317311b8aef503a061db27889b",
+    "102017714/MER": "5027730cb5a2cc4d585b6386fcf626dfbc40ca89c05c573fb2bac407ac17bfdf",
+    "102017714/NIR_H": "65d89a1c52644cf985c3aa498e1405737ff175dd170e5afa17859ed2c56fe598",
+    "102017714/NIR_J": "a3e4805385d7c06340de02ada404018d6bafa38e7fa7db059614729fdbf41645",
+    "102017714/NIR_Y": "62d21f407ec1272e028c4460f5f8bef41fe4cd0bf047e89f0e7cbeff0a0251c1",
+    "102017714/VIS": "80ff0be57e0f35060e6fe707cc6787d4797512d1c8aff6adbe0c2c4cf6700150",
+    "102017786/DECAM_i": "a14c4461ee7988aa547ce44ca27da5c30e9d4b13973284d510796da78fff186b",
+    "102017786/DECAM_r": "6cd9f0f32c688f074c0400d27aeeb3954f78ff98d59cc83454e41c9b663c79a6",
+    "102017786/MER": "1fb24a126cf705782fa2cd3e8f7b19e5265db08278572840eb30d53766f8b435",
+    "102017786/NIR_H": "0296058487cbf9ddc39431797b673052b9805e4b9f3d0c941e12117becd600f5",
+    "102017786/NIR_J": "5fd6f3b189592d9c6f2cf547d6883713abcdc95bc4b9562764cada13702d3cb6",
+    "102017786/NIR_Y": "1af7458dbe67913b95aed4d2cf66a33246391cece6fed815a5e2f2ca4a70e5f6",
+    "102017786/VIS": "48a1e676e1eab36c4167918b3ea7e8f362185562419627b53a0d91d86f8158ae",
+    "102020990/DECAM_i": "de3b7627a7dfd3ddd1369a7030a7c970b6ac1e37f6abd74b077349d6f79a9d67",
+    "102020990/DECAM_r": "a730bc556a28dc9b1658827ad06268402c18de1fc78cb87c81fc76d9ba9415d7",
+    "102020990/MER": "981a508bb909d287ae4735d457fd165620a1e7095956098c9a556c76207c69b6",
+    "102020990/NIR_H": "07319bb78d63565a093aebf8667770ac3af5859da362ba1f4560e774c62068e6",
+    "102020990/NIR_J": "d1a3a5f8084aa1c58bf7d4363efe124325abf49f068a28850771324210c38a39",
+    "102020990/NIR_Y": "749cfd2dab72e4a223dff9a532570dcf62355ebc607733e19931872447285df3",
+    "102020990/VIS": "642dea9e99d43999093a62326628ff07cb1fed6871d894099f2cb114e3bc7849",
+    "102022458/DECAM_i": "386a138f4038067ac23497e56543508a509a1f37348db2d3e0ad08ccf5a9c825",
+    "102022458/DECAM_r": "5d3f46bc81947109da9d10828027b75e59bce2756b46d7c5edf47c1692f4a16d",
+    "102022458/MER": "e49c12a6ebbdd6a4a7220b32e5f0a04872edd76570185bb9d121eecbff57826f",
+    "102022458/NIR_H": "eefe05557eeb405b62d8081b6f87cbab71c07e52e42a8caf22a6bb648557d501",
+    "102022458/NIR_J": "e2b4509006abb530878fc8aa33138fc1cf22430b246e3bbf18271197c0187bc8",
+    "102022458/NIR_Y": "ab564562135025c71160b2229bd095386b69822c5868569ec199983810147f22",
+    "102022458/VIS": "b2768e7d675f27f84d0581b640f94ecf7edf74eef84dbda87341861417eb8a34",
+    "102022459/DECAM_i": "7fbe14a21328a4cab118e629e794b8ca749b1c39e25480e0fc7239998caf8436",
+    "102022459/DECAM_r": "8450d1dc47f1e973357b8a0032a9c68e47dd52ae8ac976240a33446df448e719",
+    "102022459/MER": "bf36ba0f42cb0ea687c42612455e3c4c719a56237a026fa0ef7b8b6a0b257689",
+    "102022459/NIR_H": "86db95f93d23d05d63955c91b31c8eeb3f8e4b1e101caf093bf509071ddb008d",
+    "102022459/NIR_J": "2f402105817d16617b242a10a11c30af8c1614288d515d2e024770c5633f6d4e",
+    "102022459/NIR_Y": "76b1b68eaa8248029ac95121fe41b6bf0249908bc42b873e3621f5a13531b5ee",
+    "102022459/VIS": "c7a0afce84f06b5cc938a46a90352083856e394b5a36cf3abdd093f00f32b2a8",
+    "102022467/DECAM_i": "f7168744b1dfc17d6655470ae5005551b84d69e08238ced11ac89879485e56ce",
+    "102022467/DECAM_r": "0f595dc47d7e009a340fa9d4ee30cba0badab4dbc87983083235f1c7c92bab51",
+    "102022467/MER": "e8062a1415f8788889258d3dc35cac1044726e515c9ea8a3a9b1564dc495685a",
+    "102022467/NIR_H": "0ead81e6d2065a50ae99934d3e7cbe474ee31d937ca800aeb99df37ef742cafa",
+    "102022467/NIR_J": "8b20047cda68a6526aec0799057c7ed0f4e631d6a82f8d88f61ef012dc829408",
+    "102022467/NIR_Y": "f81bde0ea34999275c656c876395314f33b7750ea8b16d25f14e1e9a5666732f",
+    "102022467/VIS": "6a0a26d4708aa5f94e98760e3ab9f6d0443babed5137a0ebfe7043b7ad1c3311",
+    "102022955/DECAM_i": "ea3f8de585543d539537795dec0f724eb7630c9bbfff6a5d5d7c9cfaad5c2f2c",
+    "102022955/DECAM_r": "92d872858621161bf9c282bd3f0b3a6a4f7570a23387d3d56c36c52c3a99e1ce",
+    "102022955/MER": "94740eff4a2ff0eadd13615d77627a0124ee60556357eaf4b6df1e9d25852257",
+    "102022955/NIR_H": "e9d098305b17a4ff4e9553eb5c7fc25231b5950a49d353d9d598117d29b11076",
+    "102022955/NIR_J": "4733b37a4752bb67ef5ccedf964eb00ccebf54e078586856a28b2a7355424d3c",
+    "102022955/NIR_Y": "2c53a09763c8a0303cc4c5deda63d72ad3844c4b7190d1736f9daa1a3ca843bf",
+    "102022955/VIS": "c4e945c9c735e6924630bc3ff3b8970f2b011f0d4dfc787753a0f1331dd4459e",
+    "102023975/DECAM_i": "12657fb72d9eddc6c93f18b14c445202e2b87f4f9a65a3f1016ef19cf8431f84",
+    "102023975/DECAM_r": "4b2cb6643e4c23bcffd26a732b49f4d37d11a251942abe99a1b6325216d73e70",
+    "102023975/MER": "e29f3af339b15ed9937efdc103ce06aa9cc2cc24dee31649e79982951a9696bd",
+    "102023975/NIR_H": "264d7ef23acfffa61d38a8ae6cc43687cb718ba7195cde081f22b4b0c49a85eb",
+    "102023975/NIR_J": "de551004f86ab3bac9ddcc9764d2fbb83738e521a5df04bb9517f2bc3efc0ce1",
+    "102023975/NIR_Y": "49de104c7545fec80b528b2a49318a8a24bc345ce32f7a982876a3aad9b22dd4",
+    "102023975/VIS": "5dad6f219c7edf5dc9ebc54f010858117f2372d52e74f0a23725aa71de901a06",
+    "102023976/DECAM_i": "8cb571b1f7a47a3507ad956e9a57e6e470373c45188545ee264e3eceb79bc576",
+    "102023976/DECAM_r": "c23efe9cb4935c40f821a2093cddb709317e3b2ff01093023c2c8631b8fef06a",
+    "102023976/MER": "43a115cd38f43cbabed65e09da0aa4e88b28cc2005f9fa051405a2143e89f037",
+    "102023976/NIR_H": "e1ae8c2ac2464bf1c27cc83be27658af005b3b9bc9cdc5f08ed3f98b3784d081",
+    "102023976/NIR_J": "9db4185e2680712324307773161aa06616bad776d902758fc9feed7ab54bed24",
+    "102023976/NIR_Y": "59647e1803be591422cd0cc52e2ec7f41ba6dfaf652efbc78071a2ca8e407184",
+    "102023976/VIS": "fa214a77cc194fbaaa67d39d55083721311ec97a8dda74cef54db305c5053bc5",
+    "102024486/DECAM_i": "7ec73569068e95edece2bc9e1fd350ea16815313d52a34d87bef9d4147b4de66",
+    "102024486/DECAM_r": "9aa387f7d4d8d6d144df1ea41b4d447c374325621926ae62b207a6cf97bc990b",
+    "102024486/MER": "87cf1419f21a641079abc631b2f3f9d8238e459b9e294aa6e65c40f8402972fd",
+    "102024486/NIR_H": "051f12e7d8d9c43f7b1b8a116a7bead859c9462975e359b9691eace9503cfac5",
+    "102024486/NIR_J": "c4ca1b3f87a401f18ee8bd6b27a6cce4d40a887fa21cf817462cd2bac5eb930d",
+    "102024486/NIR_Y": "e00efc92d46bfe6d4ada8e9ed27ddeccec9ca92bffd7f4295c98018725b9c86b",
+    "102024486/VIS": "a26160c4ad48ee59dd02838f3f8054cff1d6c6bdf8ea26455380f0fc1bb2ac8d",
+    "102024487/DECAM_i": "e8bc276a00a8c52d62d5274f8405878afe7d07d8954a1b9f1b86d55782b18772",
+    "102024487/DECAM_r": "5d9a653bcec4a7cce92b665b82f7974aea3c1b2a293ebe3ab5181904f45a6619",
+    "102024487/MER": "9d440752ea5c458f6cb09080ec99c52b2391d4d75a083bb6ce4a1685904ee0dd",
+    "102024487/NIR_H": "310eb96a7fca96d6d46509dc6baa6bc45d7840dee4a5b1ee8abdacada022e751",
+    "102024487/NIR_J": "d0a2c4daf343e47794f92cc123db2f514faa016c8e3d0b20aa2b1c03cfd12558",
+    "102024487/NIR_Y": "0c8fa918aaa9a39872490f682c9575cc582fe5c23d52ebc5a298014d5ad7ca78",
+    "102024487/VIS": "56014640e943059b1d7640b8694ca67f3bc946b5b2f2c95b0ae4714bebfeba78",
+    "102028768/DECAM_i": "349aaa6c54779ac21658cbee20dce69246098ff3f79ceebe64005f42b68b860f",
+    "102028768/DECAM_r": "437d18f63ea13dad7b0bfcd773cd8a93f65e3d073ac982b986fdd4f16a0c99e7",
+    "102028768/MER": "cefc4a253221db6c01f7cc0c8c5d7671eaf4be0d61191aba73cad0fc1b5cfbb4",
+    "102028768/NIR_H": "2a0863a55dac1c8d8b8b880ee1f5e4b66bbfa6f60d361543475ee37e36355190",
+    "102028768/NIR_J": "69ea6046f65fd5f406b0b996f8e3734fa5a1cf96ae6741a9a3ac8d0617c3e5ac",
+    "102028768/NIR_Y": "a45ad576c7d14a15bfa5f08403c399a0829715e798b7e9fc976ef4c95d40f218",
+    "102028768/VIS": "64fa1478455e17d7eccb75057bd743bc0ff7e17cbb0b962d661fb7596b029566",
+    "102028769/DECAM_i": "81fd12e740505471a06aa53f9fc8dfdd0200a1f899a00541ad099e0e2b72143d",
+    "102028769/DECAM_r": "6e504aaf2e5a3af69710b78b9d28b09febc557be8179b34850dcd535e1629c18",
+    "102028769/MER": "b0a555a3498355d64b5bcb7b0b99a40d5a9e75eca0228918d700dd9871e6c77a",
+    "102028769/NIR_H": "d931bb0611e183697c49798ed61218f6c3403f4d7b38ebc48c2a4f438bb26e0b",
+    "102028769/NIR_J": "3bb2ebb3ed2840c6e68019d931bab5f0f4572b78a34a02bc123d67830c73f4e3",
+    "102028769/NIR_Y": "060d7d6118be88f62df20401d300debe4768809f9b785088ac6094c3dbd6f669",
+    "102028769/VIS": "d65ca67c6ff04b29115706adbb53d6fd8618158f6b8ecf7e4f28986c96d92cf8"
+  }
+}

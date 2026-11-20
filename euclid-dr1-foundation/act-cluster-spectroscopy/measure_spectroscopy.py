@@ -168,7 +168,7 @@ def check_pilot(clusters, act, tables, ru, gm):
     return reports
 
 
-def tile_match(sky, tile, files):
+def tile_match(sky, tile, files, *, record_weights=False):
     """Find all possible MER counterparts, preserving ambiguity across tiles."""
     with fits.open(files["MER"], memmap=True) as hdus:
         data = hdus[1].data
@@ -196,7 +196,7 @@ def tile_match(sky, tile, files):
         optical = bool(optical_aperture and detection_flag[k] == 0)
         allow_extended = bool(optical_aperture and (detection_flag[k] & ~512) == 0)
         common = optical and bool(masks["NIR_J"][k] >= limit)
-        result.append((int(j), {
+        match = {
             "tile": tile, "object_id": int(ids[k]), "separation_arcsec": float(separation.arcsec),
             "i_ab": im, "r_minus_i_ab": colour, "red_colour": colour >= cutoff if valid_colour else None,
             "detection_quality_flag": int(detection_flag[k]),
@@ -204,7 +204,13 @@ def tile_match(sky, tile, files):
             "optical_allow_extended_area": bool(allow_extended),
             "common_allow_extended_area": bool(allow_extended and masks["NIR_J"][k] >= limit),
             "j_detection": common and bool(values["NIR_J"][1][k]),
-        }))
+        }
+        if record_weights:
+            match["coverage_weights"] = {
+                band: float(weights[k]) if np.isfinite(weights[k]) else None
+                for band, weights in masks.items()
+            }
+        result.append((int(j), match))
     return result
 
 
@@ -286,7 +292,7 @@ def shifted_control(sky, paths):
     return np.count_nonzero(counts.reshape(8, len(sky)) == 1, axis=1).tolist()
 
 
-def measure(field, catalogue, paths):
+def measure(field, catalogue, paths, *, record_weights=False):
     spectra = catalogue["outskirts"]
     offsets = core_offsets(catalogue["core"], paths)
     raw_sky = coordinates(spectra)
@@ -300,7 +306,7 @@ def measure(field, catalogue, paths):
     by = defaultdict(list)
     raw = defaultdict(list)
     for tile, files in paths.items():
-        for index, match in tile_match(sky, int(tile), files):
+        for index, match in tile_match(sky, int(tile), files, record_weights=record_weights):
             by[index].append(match)
         for index, match in tile_match(raw_sky, int(tile), files):
             raw[index].append(match)

@@ -1,0 +1,382 @@
+{
+  "fields": {
+    "ACT-CL J0118.4-5156": {
+      "archive_query": "https://irsa.ipac.caltech.edu/SIA?POS=CIRCLE+19.60112195+-51.94072344+0.08823433&BAND=6.5e-7&COLLECTION=euclid_dr1_wide_DpdMerBksMosaic&MAXREC=500",
+      "archive_tiles": [
+        "102017713",
+        "102017714"
+      ],
+      "missing_products": {},
+      "selected": [
+        "102017713",
+        "102017714"
+      ]
+    },
+    "ACT-CL J0233.0-5819": {
+      "archive_query": "https://irsa.ipac.caltech.edu/SIA?POS=CIRCLE+38.25797790+-58.32698007+0.09523795&BAND=6.5e-7&COLLECTION=euclid_dr1_wide_DpdMerBksMosaic&MAXREC=500",
+      "archive_tiles": [
+        "102012356",
+        "102012357",
+        "102012739"
+      ],
+      "missing_products": {},
+      "selected": [
+        "102012356",
+        "102012357"
+      ]
+    },
+    "ACT-CL J0252.7-4824": {
+      "archive_query": "https://irsa.ipac.caltech.edu/SIA?POS=CIRCLE+43.19068306+-48.41097657+0.12389381&BAND=6.5e-7&COLLECTION=euclid_dr1_wide_DpdMerBksMosaic&MAXREC=500",
+      "archive_tiles": [
+        "102020990"
+      ],
+      "missing_products": {},
+      "selected": [
+        "102020990"
+      ]
+    },
+    "ACT-CL J0310.5-4646": {
+      "archive_query": "https://irsa.ipac.caltech.edu/SIA?POS=CIRCLE+47.63415295+-46.78216764+0.09146665&BAND=6.5e-7&COLLECTION=euclid_dr1_wide_DpdMerBksMosaic&MAXREC=500",
+      "archive_tiles": [
+        "102022458",
+        "102022459",
+        "102022955"
+      ],
+      "missing_products": {},
+      "selected": [
+        "102022458",
+        "102022459",
+        "102022955"
+      ]
+    },
+    "ACT-CL J0334.2-4659": {
+      "archive_query": "https://irsa.ipac.caltech.edu/SIA?POS=CIRCLE+53.55112233+-46.99604650+0.11636796&BAND=6.5e-7&COLLECTION=euclid_dr1_wide_DpdMerBksMosaic&MAXREC=500",
+      "archive_tiles": [
+        "102022466",
+        "102022467"
+      ],
+      "missing_products": {},
+      "selected": [
+        "102022467"
+      ]
+    },
+    "ACT-CL J0348.2-4515": {
+      "archive_query": "https://irsa.ipac.caltech.edu/SIA?POS=CIRCLE+57.07353893+-45.25186611+0.14067251&BAND=6.5e-7&COLLECTION=euclid_dr1_wide_DpdMerBksMosaic&MAXREC=500",
+      "archive_tiles": [
+        "102023975",
+        "102023976",
+        "102024486",
+        "102024487"
+      ],
+      "missing_products": {},
+      "selected": [
+        "102023975",
+        "102023976",
+        "102024486",
+        "102024487"
+      ]
+    },
+    "ACT-CL J0352.9-5647": {
+      "archive_query": "https://irsa.ipac.caltech.edu/SIA?POS=CIRCLE+58.24001950+-56.79655184+0.09085985&BAND=6.5e-7&COLLECTION=euclid_dr1_wide_DpdMerBksMosaic&MAXREC=500",
+      "archive_tiles": [
+        "102013542",
+        "102013543",
+        "102013941"
+      ],
+      "missing_products": {},
+      "selected": [
+        "102013542",
+        "102013941"
+      ]
+    },
+    "ACT-CL J0356.3-5338": {
+      "archive_query": "https://irsa.ipac.caltech.edu/SIA?POS=CIRCLE+59.08367505+-53.63379096+0.07021281&BAND=6.5e-7&COLLECTION=euclid_dr1_wide_DpdMerBksMosaic&MAXREC=500",
+      "archive_tiles": [
+        "102016443"
+      ],
+      "missing_products": {},
+      "selected": [
+        "102016443"
+      ]
+    },
+    "ACT-CL J0403.8-5719": {
+      "archive_query": "https://irsa.ipac.caltech.edu/SIA?POS=CIRCLE+60.96439390+-57.32412987+0.11382163&BAND=6.5e-7&COLLECTION=euclid_dr1_wide_DpdMerBksMosaic&MAXREC=500",
+      "archive_tiles": [
+        "102013151",
+        "102013152",
+        "102013545",
+        "102013546"
+      ],
+      "missing_products": {},
+      "selected": [
+        "102013151",
+        "102013152",
+        "102013545"
+      ]
+    },
+    "ACT-CL J0511.6-5154": {
+      "archive_query": "https://irsa.ipac.caltech.edu/SIA?POS=CIRCLE+77.92200353+-51.90693464+0.09336275&BAND=6.5e-7&COLLECTION=euclid_dr1_wide_DpdMerBksMosaic&MAXREC=500",
+      "archive_tiles": [
+        "102017786"
+      ],
+      "missing_products": {},
+      "selected": [
+        "102017786"
+      ]
+    },
+    "ACT-CL J0539.9-5744": {
+      "archive_query": "https://irsa.ipac.caltech.edu/SIA?POS=CIRCLE+84.99926482+-57.74079277+0.08459252&BAND=6.5e-7&COLLECTION=euclid_dr1_wide_DpdMerBksMosaic&MAXREC=500",
+      "archive_tiles": [
+        "102012789",
+        "102012790",
+        "102013177",
+        "102013178"
+      ],
+      "missing_products": {},
+      "selected": [
+        "102012789",
+        "102013177",
+        "102013178"
+      ]
+    },
+    "ACT-CL J0542.8-4059": {
+      "archive_query": "https://irsa.ipac.caltech.edu/SIA?POS=CIRCLE+85.71465377+-40.99873763+0.10230044&BAND=6.5e-7&COLLECTION=euclid_dr1_wide_DpdMerBksMosaic&MAXREC=500",
+      "archive_tiles": [
+        "102028768",
+        "102028769"
+      ],
+      "missing_products": {},
+      "selected": [
+        "102028768",
+        "102028769"
+      ]
+    }
+  },
+  "tiles": {
+    "102012356": {
+      "DECAM_i": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102012356/EUC_LE3_VMPZ-ID_HPCOVERAGE-102012356_20250801T225115.685988Z_0.12.fits",
+      "DECAM_r": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102012356/EUC_LE3_VMPZ-ID_HPCOVERAGE-102012356_20250801T224005.008431Z_0.12.fits",
+      "MER": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/catalogs/MER_FINAL_CATALOG/102012356/EUC_MER_FINAL-CAT_TILE102012356-6B9551_20250730T030131.445322Z_00.00.fits",
+      "NIR_H": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102012356/EUC_LE3_VMPZ-ID_HPCOVERAGE-102012356_20250801T224445.961580Z_0.12.fits",
+      "NIR_J": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102012356/EUC_LE3_VMPZ-ID_HPCOVERAGE-102012356_20250801T224139.529333Z_0.12.fits",
+      "NIR_Y": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102012356/EUC_LE3_VMPZ-ID_HPCOVERAGE-102012356_20250801T224626.019332Z_0.12.fits",
+      "VIS": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102012356/EUC_LE3_VMPZ-ID_HPCOVERAGE-102012356_20250801T224806.020641Z_0.12.fits"
+    },
+    "102012357": {
+      "DECAM_i": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102012357/EUC_LE3_VMPZ-ID_HPCOVERAGE-102012357_20250815T051159.039184Z_0.12.fits",
+      "DECAM_r": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102012357/EUC_LE3_VMPZ-ID_HPCOVERAGE-102012357_20250815T051356.173860Z_0.12.fits",
+      "MER": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/catalogs/MER_FINAL_CATALOG/102012357/EUC_MER_FINAL-CAT_TILE102012357-DC9C44_20250811T232933.396202Z_00.00.fits",
+      "NIR_H": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102012357/EUC_LE3_VMPZ-ID_HPCOVERAGE-102012357_20250815T050504.202939Z_0.12.fits",
+      "NIR_J": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102012357/EUC_LE3_VMPZ-ID_HPCOVERAGE-102012357_20250815T050715.397519Z_0.12.fits",
+      "NIR_Y": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102012357/EUC_LE3_VMPZ-ID_HPCOVERAGE-102012357_20250815T050958.640764Z_0.12.fits",
+      "VIS": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102012357/EUC_LE3_VMPZ-ID_HPCOVERAGE-102012357_20250815T050254.511230Z_0.12.fits"
+    },
+    "102012789": {
+      "DECAM_i": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102012789/EUC_LE3_VMPZ-ID_HPCOVERAGE-102012789_20250815T221616.446480Z_0.12.fits",
+      "DECAM_r": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102012789/EUC_LE3_VMPZ-ID_HPCOVERAGE-102012789_20250815T221803.086695Z_0.12.fits",
+      "MER": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/catalogs/MER_FINAL_CATALOG/102012789/EUC_MER_FINAL-CAT_TILE102012789-CD8A24_20250815T154057.286254Z_00.00.fits",
+      "NIR_H": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102012789/EUC_LE3_VMPZ-ID_HPCOVERAGE-102012789_20250815T221030.997618Z_0.12.fits",
+      "NIR_J": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102012789/EUC_LE3_VMPZ-ID_HPCOVERAGE-102012789_20250815T221251.562663Z_0.12.fits",
+      "NIR_Y": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102012789/EUC_LE3_VMPZ-ID_HPCOVERAGE-102012789_20250815T220612.040218Z_0.12.fits",
+      "VIS": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102012789/EUC_LE3_VMPZ-ID_HPCOVERAGE-102012789_20250815T220822.463105Z_0.12.fits"
+    },
+    "102013151": {
+      "DECAM_i": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102013151/EUC_LE3_VMPZ-ID_HPCOVERAGE-102013151_20250818T004305.324244Z_0.12.fits",
+      "DECAM_r": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102013151/EUC_LE3_VMPZ-ID_HPCOVERAGE-102013151_20250818T004420.058969Z_0.12.fits",
+      "MER": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/catalogs/MER_FINAL_CATALOG/102013151/EUC_MER_FINAL-CAT_TILE102013151-6DA6F9_20250817T213938.099162Z_00.00.fits",
+      "NIR_H": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102013151/EUC_LE3_VMPZ-ID_HPCOVERAGE-102013151_20250818T003900.946335Z_0.12.fits",
+      "NIR_J": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102013151/EUC_LE3_VMPZ-ID_HPCOVERAGE-102013151_20250818T004032.950342Z_0.12.fits",
+      "NIR_Y": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102013151/EUC_LE3_VMPZ-ID_HPCOVERAGE-102013151_20250818T003557.480184Z_0.12.fits",
+      "VIS": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102013151/EUC_LE3_VMPZ-ID_HPCOVERAGE-102013151_20250818T003726.181415Z_0.12.fits"
+    },
+    "102013152": {
+      "DECAM_i": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102013152/EUC_LE3_VMPZ-ID_HPCOVERAGE-102013152_20250807T102253.326872Z_0.12.fits",
+      "DECAM_r": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102013152/EUC_LE3_VMPZ-ID_HPCOVERAGE-102013152_20250807T102427.527735Z_0.12.fits",
+      "MER": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/catalogs/MER_FINAL_CATALOG/102013152/EUC_MER_FINAL-CAT_TILE102013152-A64703_20250807T041436.908530Z_00.00.fits",
+      "NIR_H": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102013152/EUC_LE3_VMPZ-ID_HPCOVERAGE-102013152_20250807T101755.252340Z_0.12.fits",
+      "NIR_J": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102013152/EUC_LE3_VMPZ-ID_HPCOVERAGE-102013152_20250807T101942.896059Z_0.12.fits",
+      "NIR_Y": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102013152/EUC_LE3_VMPZ-ID_HPCOVERAGE-102013152_20250807T101610.975309Z_0.12.fits",
+      "VIS": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102013152/EUC_LE3_VMPZ-ID_HPCOVERAGE-102013152_20250807T101418.682092Z_0.12.fits"
+    },
+    "102013177": {
+      "DECAM_i": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102013177/EUC_LE3_VMPZ-ID_HPCOVERAGE-102013177_20250816T200935.300639Z_0.12.fits",
+      "DECAM_r": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102013177/EUC_LE3_VMPZ-ID_HPCOVERAGE-102013177_20250816T201158.063874Z_0.12.fits",
+      "MER": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/catalogs/MER_FINAL_CATALOG/102013177/EUC_MER_FINAL-CAT_TILE102013177-755DBE_20250816T025537.066769Z_00.00.fits",
+      "NIR_H": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102013177/EUC_LE3_VMPZ-ID_HPCOVERAGE-102013177_20250816T195559.981006Z_0.12.fits",
+      "NIR_J": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102013177/EUC_LE3_VMPZ-ID_HPCOVERAGE-102013177_20250816T200521.546442Z_0.12.fits",
+      "NIR_Y": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102013177/EUC_LE3_VMPZ-ID_HPCOVERAGE-102013177_20250816T195826.066473Z_0.12.fits",
+      "VIS": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102013177/EUC_LE3_VMPZ-ID_HPCOVERAGE-102013177_20250816T200251.940474Z_0.12.fits"
+    },
+    "102013178": {
+      "DECAM_i": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102013178/EUC_LE3_VMPZ-ID_HPCOVERAGE-102013178_20250802T164611.637975Z_0.12.fits",
+      "DECAM_r": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102013178/EUC_LE3_VMPZ-ID_HPCOVERAGE-102013178_20250802T164751.509424Z_0.12.fits",
+      "MER": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/catalogs/MER_FINAL_CATALOG/102013178/EUC_MER_FINAL-CAT_TILE102013178-6B4743_20250727T062352.047013Z_00.00.fits",
+      "NIR_H": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102013178/EUC_LE3_VMPZ-ID_HPCOVERAGE-102013178_20250802T163816.566147Z_0.12.fits",
+      "NIR_J": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102013178/EUC_LE3_VMPZ-ID_HPCOVERAGE-102013178_20250802T164151.930065Z_0.12.fits",
+      "NIR_Y": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102013178/EUC_LE3_VMPZ-ID_HPCOVERAGE-102013178_20250802T164426.050350Z_0.12.fits",
+      "VIS": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102013178/EUC_LE3_VMPZ-ID_HPCOVERAGE-102013178_20250802T163525.902309Z_0.12.fits"
+    },
+    "102013542": {
+      "DECAM_i": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102013542/EUC_LE3_VMPZ-ID_HPCOVERAGE-102013542_20250813T103018.021158Z_0.12.fits",
+      "DECAM_r": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102013542/EUC_LE3_VMPZ-ID_HPCOVERAGE-102013542_20250813T103737.987250Z_0.12.fits",
+      "MER": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/catalogs/MER_FINAL_CATALOG/102013542/EUC_MER_FINAL-CAT_TILE102013542-B6972E_20250810T060739.832342Z_00.00.fits",
+      "NIR_H": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102013542/EUC_LE3_VMPZ-ID_HPCOVERAGE-102013542_20250813T102528.510685Z_0.12.fits",
+      "NIR_J": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102013542/EUC_LE3_VMPZ-ID_HPCOVERAGE-102013542_20250813T103555.544027Z_0.12.fits",
+      "NIR_Y": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102013542/EUC_LE3_VMPZ-ID_HPCOVERAGE-102013542_20250813T102847.710567Z_0.12.fits",
+      "VIS": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102013542/EUC_LE3_VMPZ-ID_HPCOVERAGE-102013542_20250813T103342.522629Z_0.12.fits"
+    },
+    "102013545": {
+      "DECAM_i": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102013545/EUC_LE3_VMPZ-ID_HPCOVERAGE-102013545_20250816T184800.602190Z_0.12.fits",
+      "DECAM_r": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102013545/EUC_LE3_VMPZ-ID_HPCOVERAGE-102013545_20250816T185404.516445Z_0.12.fits",
+      "MER": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/catalogs/MER_FINAL_CATALOG/102013545/EUC_MER_FINAL-CAT_TILE102013545-E3DD31_20250816T153215.359314Z_00.00.fits",
+      "NIR_H": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102013545/EUC_LE3_VMPZ-ID_HPCOVERAGE-102013545_20250816T185111.465561Z_0.12.fits",
+      "NIR_J": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102013545/EUC_LE3_VMPZ-ID_HPCOVERAGE-102013545_20250816T184637.595115Z_0.12.fits",
+      "NIR_Y": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102013545/EUC_LE3_VMPZ-ID_HPCOVERAGE-102013545_20250816T185243.868409Z_0.12.fits",
+      "VIS": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102013545/EUC_LE3_VMPZ-ID_HPCOVERAGE-102013545_20250816T184937.726981Z_0.12.fits"
+    },
+    "102013941": {
+      "DECAM_i": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102013941/EUC_LE3_VMPZ-ID_HPCOVERAGE-102013941_20250814T122228.448278Z_0.12.fits",
+      "DECAM_r": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102013941/EUC_LE3_VMPZ-ID_HPCOVERAGE-102013941_20250814T121854.580759Z_0.12.fits",
+      "MER": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/catalogs/MER_FINAL_CATALOG/102013941/EUC_MER_FINAL-CAT_TILE102013941-E0BFD7_20250810T225352.276347Z_00.00.fits",
+      "NIR_H": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102013941/EUC_LE3_VMPZ-ID_HPCOVERAGE-102013941_20250814T122546.861312Z_0.12.fits",
+      "NIR_J": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102013941/EUC_LE3_VMPZ-ID_HPCOVERAGE-102013941_20250814T121700.693971Z_0.12.fits",
+      "NIR_Y": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102013941/EUC_LE3_VMPZ-ID_HPCOVERAGE-102013941_20250814T122743.790830Z_0.12.fits",
+      "VIS": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102013941/EUC_LE3_VMPZ-ID_HPCOVERAGE-102013941_20250814T122055.694402Z_0.12.fits"
+    },
+    "102016443": {
+      "DECAM_i": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102016443/EUC_LE3_VMPZ-ID_HPCOVERAGE-102016443_20250802T092958.521755Z_0.12.fits",
+      "DECAM_r": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102016443/EUC_LE3_VMPZ-ID_HPCOVERAGE-102016443_20250802T092532.746978Z_0.12.fits",
+      "MER": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/catalogs/MER_FINAL_CATALOG/102016443/EUC_MER_FINAL-CAT_TILE102016443-558ACD_20250725T135129.962016Z_00.00.fits",
+      "NIR_H": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102016443/EUC_LE3_VMPZ-ID_HPCOVERAGE-102016443_20250802T093126.814290Z_0.12.fits",
+      "NIR_J": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102016443/EUC_LE3_VMPZ-ID_HPCOVERAGE-102016443_20250802T092409.230885Z_0.12.fits",
+      "NIR_Y": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102016443/EUC_LE3_VMPZ-ID_HPCOVERAGE-102016443_20250802T092113.420639Z_0.12.fits",
+      "VIS": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102016443/EUC_LE3_VMPZ-ID_HPCOVERAGE-102016443_20250802T092829.162927Z_0.12.fits"
+    },
+    "102017713": {
+      "DECAM_i": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102017713/EUC_LE3_VMPZ-ID_HPCOVERAGE-102017713_20250802T095328.554343Z_0.12.fits",
+      "DECAM_r": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102017713/EUC_LE3_VMPZ-ID_HPCOVERAGE-102017713_20250802T095450.298166Z_0.12.fits",
+      "MER": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/catalogs/MER_FINAL_CATALOG/102017713/EUC_MER_FINAL-CAT_TILE102017713-55EBB8_20250725T202200.870170Z_00.00.fits",
+      "NIR_H": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102017713/EUC_LE3_VMPZ-ID_HPCOVERAGE-102017713_20250802T095030.267375Z_0.12.fits",
+      "NIR_J": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102017713/EUC_LE3_VMPZ-ID_HPCOVERAGE-102017713_20250802T094727.255891Z_0.12.fits",
+      "NIR_Y": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102017713/EUC_LE3_VMPZ-ID_HPCOVERAGE-102017713_20250802T095203.311312Z_0.12.fits",
+      "VIS": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102017713/EUC_LE3_VMPZ-ID_HPCOVERAGE-102017713_20250802T094856.873780Z_0.12.fits"
+    },
+    "102017714": {
+      "DECAM_i": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102017714/EUC_LE3_VMPZ-ID_HPCOVERAGE-102017714_20250814T150223.171917Z_0.12.fits",
+      "DECAM_r": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102017714/EUC_LE3_VMPZ-ID_HPCOVERAGE-102017714_20250814T150353.456540Z_0.12.fits",
+      "MER": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/catalogs/MER_FINAL_CATALOG/102017714/EUC_MER_FINAL-CAT_TILE102017714-4F63B0_20250810T235818.548355Z_00.00.fits",
+      "NIR_H": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102017714/EUC_LE3_VMPZ-ID_HPCOVERAGE-102017714_20250814T145715.075322Z_0.12.fits",
+      "NIR_J": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102017714/EUC_LE3_VMPZ-ID_HPCOVERAGE-102017714_20250814T145904.613305Z_0.12.fits",
+      "NIR_Y": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102017714/EUC_LE3_VMPZ-ID_HPCOVERAGE-102017714_20250814T150049.578242Z_0.12.fits",
+      "VIS": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102017714/EUC_LE3_VMPZ-ID_HPCOVERAGE-102017714_20250814T145359.585925Z_0.12.fits"
+    },
+    "102017786": {
+      "DECAM_i": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102017786/EUC_LE3_VMPZ-ID_HPCOVERAGE-102017786_20250817T225320.085600Z_0.12.fits",
+      "DECAM_r": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102017786/EUC_LE3_VMPZ-ID_HPCOVERAGE-102017786_20250817T223909.345392Z_0.12.fits",
+      "MER": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/catalogs/MER_FINAL_CATALOG/102017786/EUC_MER_FINAL-CAT_TILE102017786-39F6F2_20250817T074116.193326Z_00.00.fits",
+      "NIR_H": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102017786/EUC_LE3_VMPZ-ID_HPCOVERAGE-102017786_20250817T224703.992800Z_0.12.fits",
+      "NIR_J": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102017786/EUC_LE3_VMPZ-ID_HPCOVERAGE-102017786_20250817T225123.850006Z_0.12.fits",
+      "NIR_Y": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102017786/EUC_LE3_VMPZ-ID_HPCOVERAGE-102017786_20250817T224305.963936Z_0.12.fits",
+      "VIS": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102017786/EUC_LE3_VMPZ-ID_HPCOVERAGE-102017786_20250817T224921.144760Z_0.12.fits"
+    },
+    "102020990": {
+      "DECAM_i": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102020990/EUC_LE3_VMPZ-ID_HPCOVERAGE-102020990_20250807T104754.682829Z_0.12.fits",
+      "DECAM_r": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102020990/EUC_LE3_VMPZ-ID_HPCOVERAGE-102020990_20250807T103840.646386Z_0.12.fits",
+      "MER": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/catalogs/MER_FINAL_CATALOG/102020990/EUC_MER_FINAL-CAT_TILE102020990-D54712_20250807T035747.623828Z_00.00.fits",
+      "NIR_H": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102020990/EUC_LE3_VMPZ-ID_HPCOVERAGE-102020990_20250807T104159.128453Z_0.12.fits",
+      "NIR_J": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102020990/EUC_LE3_VMPZ-ID_HPCOVERAGE-102020990_20250807T104332.418715Z_0.12.fits",
+      "NIR_Y": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102020990/EUC_LE3_VMPZ-ID_HPCOVERAGE-102020990_20250807T104505.110575Z_0.12.fits",
+      "VIS": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102020990/EUC_LE3_VMPZ-ID_HPCOVERAGE-102020990_20250807T104020.172013Z_0.12.fits"
+    },
+    "102022458": {
+      "DECAM_i": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102022458/EUC_LE3_VMPZ-ID_HPCOVERAGE-102022458_20250801T203240.181353Z_0.12.fits",
+      "DECAM_r": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102022458/EUC_LE3_VMPZ-ID_HPCOVERAGE-102022458_20250801T203409.404505Z_0.12.fits",
+      "MER": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/catalogs/MER_FINAL_CATALOG/102022458/EUC_MER_FINAL-CAT_TILE102022458-4EE0C9_20250729T014352.778123Z_00.00.fits",
+      "NIR_H": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102022458/EUC_LE3_VMPZ-ID_HPCOVERAGE-102022458_20250801T202423.521393Z_0.12.fits",
+      "NIR_J": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102022458/EUC_LE3_VMPZ-ID_HPCOVERAGE-102022458_20250801T202751.865651Z_0.12.fits",
+      "NIR_Y": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102022458/EUC_LE3_VMPZ-ID_HPCOVERAGE-102022458_20250801T202606.474156Z_0.12.fits",
+      "VIS": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102022458/EUC_LE3_VMPZ-ID_HPCOVERAGE-102022458_20250801T203105.933129Z_0.12.fits"
+    },
+    "102022459": {
+      "DECAM_i": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102022459/EUC_LE3_VMPZ-ID_HPCOVERAGE-102022459_20250816T001629.800241Z_0.12.fits",
+      "DECAM_r": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102022459/EUC_LE3_VMPZ-ID_HPCOVERAGE-102022459_20250816T001030.964517Z_0.12.fits",
+      "MER": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/catalogs/MER_FINAL_CATALOG/102022459/EUC_MER_FINAL-CAT_TILE102022459-A1BE33_20250815T074558.912255Z_00.00.fits",
+      "NIR_H": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102022459/EUC_LE3_VMPZ-ID_HPCOVERAGE-102022459_20250816T000544.121600Z_0.12.fits",
+      "NIR_J": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102022459/EUC_LE3_VMPZ-ID_HPCOVERAGE-102022459_20250816T001330.501845Z_0.12.fits",
+      "NIR_Y": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102022459/EUC_LE3_VMPZ-ID_HPCOVERAGE-102022459_20250816T001505.809467Z_0.12.fits",
+      "VIS": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102022459/EUC_LE3_VMPZ-ID_HPCOVERAGE-102022459_20250816T000734.665091Z_0.12.fits"
+    },
+    "102022467": {
+      "DECAM_i": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102022467/EUC_LE3_VMPZ-ID_HPCOVERAGE-102022467_20250815T040046.988466Z_0.12.fits",
+      "DECAM_r": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102022467/EUC_LE3_VMPZ-ID_HPCOVERAGE-102022467_20250815T035137.606137Z_0.12.fits",
+      "MER": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/catalogs/MER_FINAL_CATALOG/102022467/EUC_MER_FINAL-CAT_TILE102022467-54EF80_20250811T184700.515792Z_00.00.fits",
+      "NIR_H": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102022467/EUC_LE3_VMPZ-ID_HPCOVERAGE-102022467_20250815T035309.299746Z_0.12.fits",
+      "NIR_J": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102022467/EUC_LE3_VMPZ-ID_HPCOVERAGE-102022467_20250815T035746.564179Z_0.12.fits",
+      "NIR_Y": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102022467/EUC_LE3_VMPZ-ID_HPCOVERAGE-102022467_20250815T035918.197352Z_0.12.fits",
+      "VIS": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102022467/EUC_LE3_VMPZ-ID_HPCOVERAGE-102022467_20250815T035607.987523Z_0.12.fits"
+    },
+    "102022955": {
+      "DECAM_i": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102022955/EUC_LE3_VMPZ-ID_HPCOVERAGE-102022955_20250801T212127.251312Z_0.12.fits",
+      "DECAM_r": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102022955/EUC_LE3_VMPZ-ID_HPCOVERAGE-102022955_20250801T212249.920528Z_0.12.fits",
+      "MER": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/catalogs/MER_FINAL_CATALOG/102022955/EUC_MER_FINAL-CAT_TILE102022955-207C4C_20250727T161225.748856Z_00.00.fits",
+      "NIR_H": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102022955/EUC_LE3_VMPZ-ID_HPCOVERAGE-102022955_20250801T211520.631714Z_0.12.fits",
+      "NIR_J": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102022955/EUC_LE3_VMPZ-ID_HPCOVERAGE-102022955_20250801T211828.401727Z_0.12.fits",
+      "NIR_Y": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102022955/EUC_LE3_VMPZ-ID_HPCOVERAGE-102022955_20250801T212000.875281Z_0.12.fits",
+      "VIS": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102022955/EUC_LE3_VMPZ-ID_HPCOVERAGE-102022955_20250801T211654.207648Z_0.12.fits"
+    },
+    "102023975": {
+      "DECAM_i": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102023975/EUC_LE3_VMPZ-ID_HPCOVERAGE-102023975_20250801T215724.648692Z_0.12.fits",
+      "DECAM_r": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102023975/EUC_LE3_VMPZ-ID_HPCOVERAGE-102023975_20250801T215846.164878Z_0.12.fits",
+      "MER": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/catalogs/MER_FINAL_CATALOG/102023975/EUC_MER_FINAL-CAT_TILE102023975-1FA7C6_20250731T145608.925270Z_00.00.fits",
+      "NIR_H": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102023975/EUC_LE3_VMPZ-ID_HPCOVERAGE-102023975_20250801T215304.829408Z_0.12.fits",
+      "NIR_J": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102023975/EUC_LE3_VMPZ-ID_HPCOVERAGE-102023975_20250801T215559.144610Z_0.12.fits",
+      "NIR_Y": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102023975/EUC_LE3_VMPZ-ID_HPCOVERAGE-102023975_20250801T215012.672784Z_0.12.fits",
+      "VIS": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102023975/EUC_LE3_VMPZ-ID_HPCOVERAGE-102023975_20250801T214838.394845Z_0.12.fits"
+    },
+    "102023976": {
+      "DECAM_i": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102023976/EUC_LE3_VMPZ-ID_HPCOVERAGE-102023976_20250807T073017.852473Z_0.12.fits",
+      "DECAM_r": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102023976/EUC_LE3_VMPZ-ID_HPCOVERAGE-102023976_20250807T073850.703211Z_0.12.fits",
+      "MER": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/catalogs/MER_FINAL_CATALOG/102023976/EUC_MER_FINAL-CAT_TILE102023976-D49A17_20250807T020138.732043Z_00.00.fits",
+      "NIR_H": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102023976/EUC_LE3_VMPZ-ID_HPCOVERAGE-102023976_20250807T073441.342079Z_0.12.fits",
+      "NIR_J": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102023976/EUC_LE3_VMPZ-ID_HPCOVERAGE-102023976_20250807T073142.441541Z_0.12.fits",
+      "NIR_Y": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102023976/EUC_LE3_VMPZ-ID_HPCOVERAGE-102023976_20250807T073608.982247Z_0.12.fits",
+      "VIS": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102023976/EUC_LE3_VMPZ-ID_HPCOVERAGE-102023976_20250807T073314.432281Z_0.12.fits"
+    },
+    "102024486": {
+      "DECAM_i": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102024486/EUC_LE3_VMPZ-ID_HPCOVERAGE-102024486_20250814T003622.245792Z_0.12.fits",
+      "DECAM_r": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102024486/EUC_LE3_VMPZ-ID_HPCOVERAGE-102024486_20250814T004259.718716Z_0.12.fits",
+      "MER": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/catalogs/MER_FINAL_CATALOG/102024486/EUC_MER_FINAL-CAT_TILE102024486-7F61D6_20250810T094324.901807Z_00.00.fits",
+      "NIR_H": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102024486/EUC_LE3_VMPZ-ID_HPCOVERAGE-102024486_20250814T003742.711703Z_0.12.fits",
+      "NIR_J": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102024486/EUC_LE3_VMPZ-ID_HPCOVERAGE-102024486_20250814T003907.921135Z_0.12.fits",
+      "NIR_Y": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102024486/EUC_LE3_VMPZ-ID_HPCOVERAGE-102024486_20250814T004422.183221Z_0.12.fits",
+      "VIS": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102024486/EUC_LE3_VMPZ-ID_HPCOVERAGE-102024486_20250814T004032.325273Z_0.12.fits"
+    },
+    "102024487": {
+      "DECAM_i": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102024487/EUC_LE3_VMPZ-ID_HPCOVERAGE-102024487_20250815T020802.100376Z_0.12.fits",
+      "DECAM_r": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102024487/EUC_LE3_VMPZ-ID_HPCOVERAGE-102024487_20250815T020926.175464Z_0.12.fits",
+      "MER": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/catalogs/MER_FINAL_CATALOG/102024487/EUC_MER_FINAL-CAT_TILE102024487-62EE2A_20250811T112643.000806Z_00.00.fits",
+      "NIR_H": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102024487/EUC_LE3_VMPZ-ID_HPCOVERAGE-102024487_20250815T020131.904081Z_0.12.fits",
+      "NIR_J": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102024487/EUC_LE3_VMPZ-ID_HPCOVERAGE-102024487_20250815T020312.723042Z_0.12.fits",
+      "NIR_Y": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102024487/EUC_LE3_VMPZ-ID_HPCOVERAGE-102024487_20250815T020451.071916Z_0.12.fits",
+      "VIS": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102024487/EUC_LE3_VMPZ-ID_HPCOVERAGE-102024487_20250815T015945.163037Z_0.12.fits"
+    },
+    "102028768": {
+      "DECAM_i": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102028768/EUC_LE3_VMPZ-ID_HPCOVERAGE-102028768_20250810T100909.155545Z_0.12.fits",
+      "DECAM_r": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102028768/EUC_LE3_VMPZ-ID_HPCOVERAGE-102028768_20250810T101232.921094Z_0.12.fits",
+      "MER": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/catalogs/MER_FINAL_CATALOG/102028768/EUC_MER_FINAL-CAT_TILE102028768-C545B0_20250810T015501.313739Z_00.00.fits",
+      "NIR_H": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102028768/EUC_LE3_VMPZ-ID_HPCOVERAGE-102028768_20250810T100136.466373Z_0.12.fits",
+      "NIR_J": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102028768/EUC_LE3_VMPZ-ID_HPCOVERAGE-102028768_20250810T100319.459873Z_0.12.fits",
+      "NIR_Y": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102028768/EUC_LE3_VMPZ-ID_HPCOVERAGE-102028768_20250810T100516.814636Z_0.12.fits",
+      "VIS": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102028768/EUC_LE3_VMPZ-ID_HPCOVERAGE-102028768_20250810T100728.780585Z_0.12.fits"
+    },
+    "102028769": {
+      "DECAM_i": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102028769/EUC_LE3_VMPZ-ID_HPCOVERAGE-102028769_20250802T171700.174070Z_0.12.fits",
+      "DECAM_r": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102028769/EUC_LE3_VMPZ-ID_HPCOVERAGE-102028769_20250802T171538.981341Z_0.12.fits",
+      "MER": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/catalogs/MER_FINAL_CATALOG/102028769/EUC_MER_FINAL-CAT_TILE102028769-8E955E_20250730T162202.718856Z_00.00.fits",
+      "NIR_H": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102028769/EUC_LE3_VMPZ-ID_HPCOVERAGE-102028769_20250802T171408.797583Z_0.12.fits",
+      "NIR_J": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102028769/EUC_LE3_VMPZ-ID_HPCOVERAGE-102028769_20250802T171836.885983Z_0.12.fits",
+      "NIR_Y": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102028769/EUC_LE3_VMPZ-ID_HPCOVERAGE-102028769_20250802T172033.322563Z_0.12.fits",
+      "VIS": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/VMPZ_HEALPIX_COVERAGE_MASK/102028769/EUC_LE3_VMPZ-ID_HPCOVERAGE-102028769_20250802T171129.476767Z_0.12.fits"
+    }
+  }
+}

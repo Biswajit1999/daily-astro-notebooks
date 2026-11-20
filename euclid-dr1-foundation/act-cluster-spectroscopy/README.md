@@ -2,6 +2,8 @@
 
 **Biswajit Jana · 19 November 2026**
 
+**Follow-up, 20 November 2026.** [The extension to 15 fields](EXTENSION.md) tests the same footprint selection across all 51 matched galaxies in the SPT-GMOS screen.
+
 I checked whether the [four-field optical-colour pilot](../act-cluster-colour/) could be repeated for galaxies with independent spectroscopic redshifts. The targeted catalogues supplied no usable members in those annuli. I then screened the public SPT-GMOS sample for ACT clusters with spectra in the same radial range and matched the three best-sampled fields to Euclid DR1-Foundation photometry.
 
 ![Two panels showing astrometric corrections and the resulting match counts](results/registration.png)
