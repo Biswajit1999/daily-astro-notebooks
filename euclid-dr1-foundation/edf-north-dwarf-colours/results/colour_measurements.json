@@ -1,0 +1,2024 @@
+[
+  {
+    "object_id": "2671002197658696109",
+    "ra": 267.10022,
+    "dec": 65.869611,
+    "magn": 19.2,
+    "area_arcsec2": 67.38,
+    "blue": true,
+    "spectral_match_in_paper": true,
+    "disturbed": false,
+    "result": {
+      "baseline_mag": -0.21329559717028837,
+      "sensitivity_min_mag": -0.2373594153068254,
+      "sensitivity_max_mag": -0.16640968877945847,
+      "background_scatter_mag": 0.016349225984043234,
+      "background_apertures_used": 10,
+      "leave_one_outer_quadrant_out_mag": [
+        -0.20955104183366424,
+        -0.21655700997028735,
+        -0.21479764964614,
+        -0.21224125585536913
+      ],
+      "settings": [
+        {
+          "common_fwhm_arcsec": 0.7,
+          "psf_fwhm_shifts_vis_h_arcsec": [
+            0.0,
+            0.0
+          ],
+          "sky_ring_arcsec": [
+            5.0,
+            7.0
+          ],
+          "delta_vis_minus_h_mag": -0.21329559717028837,
+          "flux_inner_outer_vis_h_zp25": [
+            [
+              42.311303532982805,
+              55.76947716583332
+            ],
+            [
+              56.42861334525156,
+              90.52275954956121
+            ]
+          ],
+          "sky_vis_h_zp25": [
+            0.003355907590956839,
+            0.005446316378842454
+          ]
+        },
+        {
+          "common_fwhm_arcsec": 0.7,
+          "psf_fwhm_shifts_vis_h_arcsec": [
+            0.0,
+            0.0
+          ],
+          "sky_ring_arcsec": [
+            7.0,
+            9.0
+          ],
+          "delta_vis_minus_h_mag": -0.20232907121754506,
+          "flux_inner_outer_vis_h_zp25": [
+            [
+              42.66657186527374,
+              59.578242230800186
+            ],
+            [
+              56.91689022526219,
+              95.7574842733299
+            ]
+          ],
+          "sky_vis_h_zp25": [
+            0.0015525150412566218,
+            0.0029677535361489456
+          ]
+        },
+        {
+          "common_fwhm_arcsec": 0.7,
+          "psf_fwhm_shifts_vis_h_arcsec": [
+            0.05,
+            -0.05
+          ],
+          "sky_ring_arcsec": [
+            5.0,
+            7.0
+          ],
+          "delta_vis_minus_h_mag": -0.2373594153068254,
+          "flux_inner_outer_vis_h_zp25": [
+            [
+              42.54845573130416,
+              55.68473803493851
+            ],
+            [
+              55.76531534070114,
+              90.8155687479469
+            ]
+          ],
+          "sky_vis_h_zp25": [
+            0.003356070818142717,
+            0.005428322632056308
+          ]
+        },
+        {
+          "common_fwhm_arcsec": 0.7,
+          "psf_fwhm_shifts_vis_h_arcsec": [
+            0.05,
+            -0.05
+          ],
+          "sky_ring_arcsec": [
+            7.0,
+            9.0
+          ],
+          "delta_vis_minus_h_mag": -0.22524655844402153,
+          "flux_inner_outer_vis_h_zp25": [
+            [
+              42.9038739952045,
+              59.49511048852998
+            ],
+            [
+              56.24709145036735,
+              95.98059993381008
+            ]
+          ],
+          "sky_vis_h_zp25": [
+            0.0015519171942831186,
+            0.002982758623598358
+          ]
+        },
+        {
+          "common_fwhm_arcsec": 0.7,
+          "psf_fwhm_shifts_vis_h_arcsec": [
+            -0.05,
+            0.05
+          ],
+          "sky_ring_arcsec": [
+            5.0,
+            7.0
+          ],
+          "delta_vis_minus_h_mag": -0.1888750988973872,
+          "flux_inner_outer_vis_h_zp25": [
+            [
+              42.125003505588,
+              55.83430624536928
+            ],
+            [
+              57.16957842925618,
+              90.17293458164008
+            ]
+          ],
+          "sky_vis_h_zp25": [
+            0.003357338678657455,
+            0.005481137460428974
+          ]
+        },
+        {
+          "common_fwhm_arcsec": 0.7,
+          "psf_fwhm_shifts_vis_h_arcsec": [
+            -0.05,
+            0.05
+          ],
+          "sky_ring_arcsec": [
+            7.0,
+            9.0
+          ],
+          "delta_vis_minus_h_mag": -0.1791733163041498,
+          "flux_inner_outer_vis_h_zp25": [
+            [
+              42.480516386995944,
+              59.64569307548895
+            ],
+            [
+              57.665949733455776,
+              95.49443810686614
+            ]
+          ],
+          "sky_vis_h_zp25": [
+            0.0015527047628810925,
+            0.0029614861700757254
+          ]
+        },
+        {
+          "common_fwhm_arcsec": 0.95,
+          "psf_fwhm_shifts_vis_h_arcsec": [
+            0.0,
+            0.0
+          ],
+          "sky_ring_arcsec": [
+            5.0,
+            7.0
+          ],
+          "delta_vis_minus_h_mag": -0.1997388466123218,
+          "flux_inner_outer_vis_h_zp25": [
+            [
+              38.434879749721794,
+              57.31572178289777
+            ],
+            [
+              51.642007040916084,
+              92.56501811466381
+            ]
+          ],
+          "sky_vis_h_zp25": [
+            0.0033881650168700434,
+            0.005446642391705744
+          ]
+        },
+        {
+          "common_fwhm_arcsec": 0.95,
+          "psf_fwhm_shifts_vis_h_arcsec": [
+            0.0,
+            0.0
+          ],
+          "sky_ring_arcsec": [
+            7.0,
+            9.0
+          ],
+          "delta_vis_minus_h_mag": -0.18774684889824,
+          "flux_inner_outer_vis_h_zp25": [
+            [
+              38.793078972482164,
+              61.15590837411561
+            ],
+            [
+              52.11846109808839,
+              97.67299257531315
+            ]
+          ],
+          "sky_vis_h_zp25": [
+            0.0015698948505737166,
+            0.003028093878140722
+          ]
+        },
+        {
+          "common_fwhm_arcsec": 0.95,
+          "psf_fwhm_shifts_vis_h_arcsec": [
+            0.05,
+            -0.05
+          ],
+          "sky_ring_arcsec": [
+            5.0,
+            7.0
+          ],
+          "delta_vis_minus_h_mag": -0.22143911606157432,
+          "flux_inner_outer_vis_h_zp25": [
+            [
+              38.628984061481205,
+              57.224199205325476
+            ],
+            [
+              51.090483622112444,
+              92.8072913481682
+            ]
+          ],
+          "sky_vis_h_zp25": [
+            0.0033876307139641105,
+            0.005459963712180594
+          ]
+        },
+        {
+          "common_fwhm_arcsec": 0.95,
+          "psf_fwhm_shifts_vis_h_arcsec": [
+            0.05,
+            -0.05
+          ],
+          "sky_ring_arcsec": [
+            7.0,
+            9.0
+          ],
+          "delta_vis_minus_h_mag": -0.2092268277963279,
+          "flux_inner_outer_vis_h_zp25": [
+            [
+              38.987017804367035,
+              61.06261171788834
+            ],
+            [
+              51.568650770144956,
+              97.93363153418161
+            ]
+          ],
+          "sky_vis_h_zp25": [
+            0.001570200547030936,
+            0.0030327193059242466
+          ]
+        },
+        {
+          "common_fwhm_arcsec": 0.95,
+          "psf_fwhm_shifts_vis_h_arcsec": [
+            -0.05,
+            0.05
+          ],
+          "sky_ring_arcsec": [
+            5.0,
+            7.0
+          ],
+          "delta_vis_minus_h_mag": -0.1781241181071716,
+          "flux_inner_outer_vis_h_zp25": [
+            [
+              38.284728947313326,
+              57.38664390277654
+            ],
+            [
+              52.262314071240525,
+              92.3046400516619
+            ]
+          ],
+          "sky_vis_h_zp25": [
+            0.0033889437329277686,
+            0.005430538248456417
+          ]
+        },
+        {
+          "common_fwhm_arcsec": 0.95,
+          "psf_fwhm_shifts_vis_h_arcsec": [
+            -0.05,
+            0.05
+          ],
+          "sky_ring_arcsec": [
+            7.0,
+            9.0
+          ],
+          "delta_vis_minus_h_mag": -0.16640968877945847,
+          "flux_inner_outer_vis_h_zp25": [
+            [
+              38.642617764209206,
+              61.2235026910207
+            ],
+            [
+              52.73700628776527,
+              97.3937261496329
+            ]
+          ],
+          "sky_vis_h_zp25": [
+            0.0015722492309182229,
+            0.003020933088432279
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "object_id": "2674493664656107337",
+    "ra": 267.449366,
+    "dec": 65.610734,
+    "magn": 19.19,
+    "area_arcsec2": 73.47,
+    "blue": false,
+    "spectral_match_in_paper": true,
+    "disturbed": false,
+    "result": {
+      "baseline_mag": 0.10606179084448614,
+      "sensitivity_min_mag": 0.0785384681535396,
+      "sensitivity_max_mag": 0.13150860026603595,
+      "background_scatter_mag": 0.015465308930025505,
+      "background_apertures_used": 9,
+      "leave_one_outer_quadrant_out_mag": [
+        0.10661071681524338,
+        0.1160386299207449,
+        0.09792657282119284,
+        0.10302735367627636
+      ],
+      "settings": [
+        {
+          "common_fwhm_arcsec": 0.7,
+          "psf_fwhm_shifts_vis_h_arcsec": [
+            0.0,
+            0.0
+          ],
+          "sky_ring_arcsec": [
+            5.0,
+            7.0
+          ],
+          "delta_vis_minus_h_mag": 0.10606179084448614,
+          "flux_inner_outer_vis_h_zp25": [
+            [
+              36.9313181450857,
+              62.95536062427046
+            ],
+            [
+              78.68268491254264,
+              121.64446762752803
+            ]
+          ],
+          "sky_vis_h_zp25": [
+            0.0022107331043559938,
+            0.0042001018863104195
+          ]
+        },
+        {
+          "common_fwhm_arcsec": 0.7,
+          "psf_fwhm_shifts_vis_h_arcsec": [
+            0.0,
+            0.0
+          ],
+          "sky_ring_arcsec": [
+            7.0,
+            9.0
+          ],
+          "delta_vis_minus_h_mag": 0.11007925591134288,
+          "flux_inner_outer_vis_h_zp25": [
+            [
+              37.14262690330161,
+              65.22076213367154
+            ],
+            [
+              79.03274813574652,
+              125.39742969558168
+            ]
+          ],
+          "sky_vis_h_zp25": [
+            0.0011380998139198803,
+            0.0024231312101486544
+          ]
+        },
+        {
+          "common_fwhm_arcsec": 0.7,
+          "psf_fwhm_shifts_vis_h_arcsec": [
+            0.05,
+            -0.05
+          ],
+          "sky_ring_arcsec": [
+            5.0,
+            7.0
+          ],
+          "delta_vis_minus_h_mag": 0.08441699193309193,
+          "flux_inner_outer_vis_h_zp25": [
+            [
+              37.1102170133647,
+              62.90569168658573
+            ],
+            [
+              77.77923496320449,
+              121.98131709787248
+            ]
+          ],
+          "sky_vis_h_zp25": [
+            0.002209218453456902,
+            0.004201915524757044
+          ]
+        },
+        {
+          "common_fwhm_arcsec": 0.7,
+          "psf_fwhm_shifts_vis_h_arcsec": [
+            0.05,
+            -0.05
+          ],
+          "sky_ring_arcsec": [
+            7.0,
+            9.0
+          ],
+          "delta_vis_minus_h_mag": 0.08882159884659456,
+          "flux_inner_outer_vis_h_zp25": [
+            [
+              37.32178902798567,
+              65.1739155184614
+            ],
+            [
+              78.12748551624705,
+              125.71484586957752
+            ]
+          ],
+          "sky_vis_h_zp25": [
+            0.0011352488360915312,
+            0.0024341462199724676
+          ]
+        },
+        {
+          "common_fwhm_arcsec": 0.7,
+          "psf_fwhm_shifts_vis_h_arcsec": [
+            -0.05,
+            0.05
+          ],
+          "sky_ring_arcsec": [
+            5.0,
+            7.0
+          ],
+          "delta_vis_minus_h_mag": 0.12869375956497567,
+          "flux_inner_outer_vis_h_zp25": [
+            [
+              36.790454145148026,
+              62.99301166805301
+            ],
+            [
+              79.67291900487459,
+              121.16870000774736
+            ]
+          ],
+          "sky_vis_h_zp25": [
+            0.002213114884995855,
+            0.0042530128644204255
+          ]
+        },
+        {
+          "common_fwhm_arcsec": 0.7,
+          "psf_fwhm_shifts_vis_h_arcsec": [
+            -0.05,
+            0.05
+          ],
+          "sky_ring_arcsec": [
+            7.0,
+            9.0
+          ],
+          "delta_vis_minus_h_mag": 0.13150860026603595,
+          "flux_inner_outer_vis_h_zp25": [
+            [
+              37.00184144783683,
+              65.25925523799597
+            ],
+            [
+              80.03530949244961,
+              125.05382036185101
+            ]
+          ],
+          "sky_vis_h_zp25": [
+            0.0011400828916516483,
+            0.0024134672422122506
+          ]
+        },
+        {
+          "common_fwhm_arcsec": 0.95,
+          "psf_fwhm_shifts_vis_h_arcsec": [
+            0.0,
+            0.0
+          ],
+          "sky_ring_arcsec": [
+            5.0,
+            7.0
+          ],
+          "delta_vis_minus_h_mag": 0.09921913601976681,
+          "flux_inner_outer_vis_h_zp25": [
+            [
+              33.896732931226396,
+              63.92659530636887
+            ],
+            [
+              72.20693053140118,
+              124.28392567351156
+            ]
+          ],
+          "sky_vis_h_zp25": [
+            0.0022513748080207332,
+            0.004236785113493658
+          ]
+        },
+        {
+          "common_fwhm_arcsec": 0.95,
+          "psf_fwhm_shifts_vis_h_arcsec": [
+            0.0,
+            0.0
+          ],
+          "sky_ring_arcsec": [
+            7.0,
+            9.0
+          ],
+          "delta_vis_minus_h_mag": 0.10348355684541069,
+          "flux_inner_outer_vis_h_zp25": [
+            [
+              34.110254797401524,
+              66.21572313054095
+            ],
+            [
+              72.55787965123658,
+              128.0463852729652
+            ]
+          ],
+          "sky_vis_h_zp25": [
+            0.0011675074670301625,
+            0.002455317500115983
+          ]
+        },
+        {
+          "common_fwhm_arcsec": 0.95,
+          "psf_fwhm_shifts_vis_h_arcsec": [
+            0.05,
+            -0.05
+          ],
+          "sky_ring_arcsec": [
+            5.0,
+            7.0
+          ],
+          "delta_vis_minus_h_mag": 0.0785384681535396,
+          "flux_inner_outer_vis_h_zp25": [
+            [
+              34.050358994156014,
+              63.87212819972565
+            ],
+            [
+              71.42611091590979,
+              124.63250053837265
+            ]
+          ],
+          "sky_vis_h_zp25": [
+            0.0022482156364708825,
+            0.004249108965612899
+          ]
+        },
+        {
+          "common_fwhm_arcsec": 0.95,
+          "psf_fwhm_shifts_vis_h_arcsec": [
+            0.05,
+            -0.05
+          ],
+          "sky_ring_arcsec": [
+            7.0,
+            9.0
+          ],
+          "delta_vis_minus_h_mag": 0.08285765479000703,
+          "flux_inner_outer_vis_h_zp25": [
+            [
+              34.26361489916462,
+              66.1584047041834
+            ],
+            [
+              71.77859830243241,
+              128.41145160606695
+            ]
+          ],
+          "sky_vis_h_zp25": [
+            0.0011656983521632388,
+            0.0024598328918940117
+          ]
+        },
+        {
+          "common_fwhm_arcsec": 0.95,
+          "psf_fwhm_shifts_vis_h_arcsec": [
+            -0.05,
+            0.05
+          ],
+          "sky_ring_arcsec": [
+            5.0,
+            7.0
+          ],
+          "delta_vis_minus_h_mag": 0.12015895928470496,
+          "flux_inner_outer_vis_h_zp25": [
+            [
+              33.778073959582585,
+              63.96878179374765
+            ],
+            [
+              73.07943372099291,
+              123.89814027792394
+            ]
+          ],
+          "sky_vis_h_zp25": [
+            0.0022540375468650016,
+            0.004227231280352334
+          ]
+        },
+        {
+          "common_fwhm_arcsec": 0.95,
+          "psf_fwhm_shifts_vis_h_arcsec": [
+            -0.05,
+            0.05
+          ],
+          "sky_ring_arcsec": [
+            7.0,
+            9.0
+          ],
+          "delta_vis_minus_h_mag": 0.12436321554128237,
+          "flux_inner_outer_vis_h_zp25": [
+            [
+              33.991865032902105,
+              66.26079573715288
+            ],
+            [
+              73.4289194243566,
+              127.64491086423904
+            ]
+          ],
+          "sky_vis_h_zp25": [
+            0.0011688036721466237,
+            0.0024531921769834425
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "object_id": "2676625477661299776",
+    "ra": 267.662548,
+    "dec": 66.129978,
+    "magn": 19.33,
+    "area_arcsec2": 47.04,
+    "blue": true,
+    "spectral_match_in_paper": true,
+    "disturbed": false,
+    "result": {
+      "baseline_mag": 0.010058147457792072,
+      "sensitivity_min_mag": -0.015528757081595351,
+      "sensitivity_max_mag": 0.033048643051938685,
+      "background_scatter_mag": 0.0045891800707580825,
+      "background_apertures_used": 11,
+      "leave_one_outer_quadrant_out_mag": [
+        0.007826201224398519,
+        0.010143885592097833,
+        0.008540220692057798,
+        0.013999537806870287
+      ],
+      "settings": [
+        {
+          "common_fwhm_arcsec": 0.7,
+          "psf_fwhm_shifts_vis_h_arcsec": [
+            0.0,
+            0.0
+          ],
+          "sky_ring_arcsec": [
+            5.0,
+            7.0
+          ],
+          "delta_vis_minus_h_mag": 0.010058147457792072,
+          "flux_inner_outer_vis_h_zp25": [
+            [
+              39.519119222088946,
+              61.064590596607616
+            ],
+            [
+              77.5497527286343,
+              118.7242272160383
+            ]
+          ],
+          "sky_vis_h_zp25": [
+            0.0007463721065222772,
+            0.001724416331728581
+          ]
+        },
+        {
+          "common_fwhm_arcsec": 0.7,
+          "psf_fwhm_shifts_vis_h_arcsec": [
+            0.0,
+            0.0
+          ],
+          "sky_ring_arcsec": [
+            7.0,
+            9.0
+          ],
+          "delta_vis_minus_h_mag": 0.007069105510400649,
+          "flux_inner_outer_vis_h_zp25": [
+            [
+              39.63720841595777,
+              62.33060266488648
+            ],
+            [
+              77.81546012975943,
+              121.57282635906488
+            ]
+          ],
+          "sky_vis_h_zp25": [
+            0.00014693457419327175,
+            0.000375647798098573
+          ]
+        },
+        {
+          "common_fwhm_arcsec": 0.7,
+          "psf_fwhm_shifts_vis_h_arcsec": [
+            0.05,
+            -0.05
+          ],
+          "sky_ring_arcsec": [
+            5.0,
+            7.0
+          ],
+          "delta_vis_minus_h_mag": -0.012707418548788402,
+          "flux_inner_outer_vis_h_zp25": [
+            [
+              39.711792769235046,
+              60.98811467101579
+            ],
+            [
+              76.6581008421802,
+              119.11507753480323
+            ]
+          ],
+          "sky_vis_h_zp25": [
+            0.0007449377007630433,
+            0.0017152108569918937
+          ]
+        },
+        {
+          "common_fwhm_arcsec": 0.7,
+          "psf_fwhm_shifts_vis_h_arcsec": [
+            0.05,
+            -0.05
+          ],
+          "sky_ring_arcsec": [
+            7.0,
+            9.0
+          ],
+          "delta_vis_minus_h_mag": -0.015528757081595351,
+          "flux_inner_outer_vis_h_zp25": [
+            [
+              39.82962203061999,
+              62.25134005195487
+            ],
+            [
+              76.92332533855213,
+              121.9584995466688
+            ]
+          ],
+          "sky_vis_h_zp25": [
+            0.0001468196226668891,
+            0.00036889361652524255
+          ]
+        },
+        {
+          "common_fwhm_arcsec": 0.7,
+          "psf_fwhm_shifts_vis_h_arcsec": [
+            -0.05,
+            0.05
+          ],
+          "sky_ring_arcsec": [
+            5.0,
+            7.0
+          ],
+          "delta_vis_minus_h_mag": 0.033048643051938685,
+          "flux_inner_outer_vis_h_zp25": [
+            [
+              39.36736501110701,
+              61.12631993792019
+            ],
+            [
+              78.54143089593089,
+              118.29632557980274
+            ]
+          ],
+          "sky_vis_h_zp25": [
+            0.0007473005054675271,
+            0.0017359804681007411
+          ]
+        },
+        {
+          "common_fwhm_arcsec": 0.7,
+          "psf_fwhm_shifts_vis_h_arcsec": [
+            -0.05,
+            0.05
+          ],
+          "sky_ring_arcsec": [
+            7.0,
+            9.0
+          ],
+          "delta_vis_minus_h_mag": 0.02977135391507925,
+          "flux_inner_outer_vis_h_zp25": [
+            [
+              39.485513131003856,
+              62.39296374107832
+            ],
+            [
+              78.80864561832902,
+              121.16108443109638
+            ]
+          ],
+          "sky_vis_h_zp25": [
+            0.000147563856244927,
+            0.00037956055745033457
+          ]
+        },
+        {
+          "common_fwhm_arcsec": 0.95,
+          "psf_fwhm_shifts_vis_h_arcsec": [
+            0.0,
+            0.0
+          ],
+          "sky_ring_arcsec": [
+            5.0,
+            7.0
+          ],
+          "delta_vis_minus_h_mag": 0.008629682911786413,
+          "flux_inner_outer_vis_h_zp25": [
+            [
+              36.310432729072275,
+              62.51016241766082
+            ],
+            [
+              71.23500101556945,
+              121.66362838905285
+            ]
+          ],
+          "sky_vis_h_zp25": [
+            0.0007611319651507947,
+            0.001686373488682167
+          ]
+        },
+        {
+          "common_fwhm_arcsec": 0.95,
+          "psf_fwhm_shifts_vis_h_arcsec": [
+            0.0,
+            0.0
+          ],
+          "sky_ring_arcsec": [
+            7.0,
+            9.0
+          ],
+          "delta_vis_minus_h_mag": 0.00722190456563138,
+          "flux_inner_outer_vis_h_zp25": [
+            [
+              36.42860843159439,
+              63.77710192896399
+            ],
+            [
+              71.48258236499098,
+              124.31790153615044
+            ]
+          ],
+          "sky_vis_h_zp25": [
+            0.00016125530260194574,
+            0.0004296153697912556
+          ]
+        },
+        {
+          "common_fwhm_arcsec": 0.95,
+          "psf_fwhm_shifts_vis_h_arcsec": [
+            0.05,
+            -0.05
+          ],
+          "sky_ring_arcsec": [
+            5.0,
+            7.0
+          ],
+          "delta_vis_minus_h_mag": -0.01285566385851581,
+          "flux_inner_outer_vis_h_zp25": [
+            [
+              36.47439298585647,
+              62.42789002189218
+            ],
+            [
+              70.47867919833863,
+              122.06484549747319
+            ]
+          ],
+          "sky_vis_h_zp25": [
+            0.0007606974079832983,
+            0.0016787242223593333
+          ]
+        },
+        {
+          "common_fwhm_arcsec": 0.95,
+          "psf_fwhm_shifts_vis_h_arcsec": [
+            0.05,
+            -0.05
+          ],
+          "sky_ring_arcsec": [
+            7.0,
+            9.0
+          ],
+          "delta_vis_minus_h_mag": -0.013796763608133754,
+          "flux_inner_outer_vis_h_zp25": [
+            [
+              36.5926957537673,
+              63.6961917773628
+            ],
+            [
+              70.72258814536687,
+              124.67974750825326
+            ]
+          ],
+          "sky_vis_h_zp25": [
+            0.00016017574346122501,
+            0.0004406077399824038
+          ]
+        },
+        {
+          "common_fwhm_arcsec": 0.95,
+          "psf_fwhm_shifts_vis_h_arcsec": [
+            -0.05,
+            0.05
+          ],
+          "sky_ring_arcsec": [
+            5.0,
+            7.0
+          ],
+          "delta_vis_minus_h_mag": 0.03032913889752131,
+          "flux_inner_outer_vis_h_zp25": [
+            [
+              36.18335118223887,
+              62.57398709607201
+            ],
+            [
+              72.0808721076585,
+              121.21975947850197
+            ]
+          ],
+          "sky_vis_h_zp25": [
+            0.0007617274427201406,
+            0.001698138098129279
+          ]
+        },
+        {
+          "common_fwhm_arcsec": 0.95,
+          "psf_fwhm_shifts_vis_h_arcsec": [
+            -0.05,
+            0.05
+          ],
+          "sky_ring_arcsec": [
+            7.0,
+            9.0
+          ],
+          "delta_vis_minus_h_mag": 0.028420061153603772,
+          "flux_inner_outer_vis_h_zp25": [
+            [
+              36.30149864971432,
+              63.84062390474276
+            ],
+            [
+              72.33267975552133,
+              123.91934197741703
+            ]
+          ],
+          "sky_vis_h_zp25": [
+            0.00016199410528133817,
+            0.0004199266876581233
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "object_id": "2674931434659990352",
+    "ra": 267.493143,
+    "dec": 65.999035,
+    "magn": 19.42,
+    "area_arcsec2": 43.4,
+    "blue": false,
+    "spectral_match_in_paper": true,
+    "disturbed": false,
+    "result": {
+      "baseline_mag": 0.1232782006727336,
+      "sensitivity_min_mag": 0.08638472615724649,
+      "sensitivity_max_mag": 0.1502896395784898,
+      "background_scatter_mag": 0.009362246407253852,
+      "background_apertures_used": 9,
+      "leave_one_outer_quadrant_out_mag": [
+        0.12172594265293069,
+        0.11925515901284066,
+        0.12927026683643272,
+        0.12266262167599018
+      ],
+      "settings": [
+        {
+          "common_fwhm_arcsec": 0.7,
+          "psf_fwhm_shifts_vis_h_arcsec": [
+            0.0,
+            0.0
+          ],
+          "sky_ring_arcsec": [
+            5.0,
+            7.0
+          ],
+          "delta_vis_minus_h_mag": 0.1232782006727336,
+          "flux_inner_outer_vis_h_zp25": [
+            [
+              37.36810164944302,
+              49.636885143856176
+            ],
+            [
+              80.34896618164686,
+              95.27358289661427
+            ]
+          ],
+          "sky_vis_h_zp25": [
+            0.0006280201591602145,
+            0.0017469670659847267
+          ]
+        },
+        {
+          "common_fwhm_arcsec": 0.7,
+          "psf_fwhm_shifts_vis_h_arcsec": [
+            0.0,
+            0.0
+          ],
+          "sky_ring_arcsec": [
+            7.0,
+            9.0
+          ],
+          "delta_vis_minus_h_mag": 0.12003228369645957,
+          "flux_inner_outer_vis_h_zp25": [
+            [
+              37.44804951086476,
+              50.493991150570324
+            ],
+            [
+              80.5305794681671,
+              97.22062483128843
+            ]
+          ],
+          "sky_vis_h_zp25": [
+            0.0002221934514357129,
+            0.0008250722105518904
+          ]
+        },
+        {
+          "common_fwhm_arcsec": 0.7,
+          "psf_fwhm_shifts_vis_h_arcsec": [
+            0.05,
+            -0.05
+          ],
+          "sky_ring_arcsec": [
+            5.0,
+            7.0
+          ],
+          "delta_vis_minus_h_mag": 0.09678103729505295,
+          "flux_inner_outer_vis_h_zp25": [
+            [
+              37.545740206573484,
+              49.54988248317828
+            ],
+            [
+              79.40716893662989,
+              95.85819692549771
+            ]
+          ],
+          "sky_vis_h_zp25": [
+            0.0006269733369958863,
+            0.0017093054085019993
+          ]
+        },
+        {
+          "common_fwhm_arcsec": 0.7,
+          "psf_fwhm_shifts_vis_h_arcsec": [
+            0.05,
+            -0.05
+          ],
+          "sky_ring_arcsec": [
+            7.0,
+            9.0
+          ],
+          "delta_vis_minus_h_mag": 0.09425968558336341,
+          "flux_inner_outer_vis_h_zp25": [
+            [
+              37.62557214329563,
+              50.4057456829607
+            ],
+            [
+              79.58363054091042,
+              97.75000864245445
+            ]
+          ],
+          "sky_vis_h_zp25": [
+            0.00022173507952314678,
+            0.0008135612243368773
+          ]
+        },
+        {
+          "common_fwhm_arcsec": 0.7,
+          "psf_fwhm_shifts_vis_h_arcsec": [
+            -0.05,
+            0.05
+          ],
+          "sky_ring_arcsec": [
+            5.0,
+            7.0
+          ],
+          "delta_vis_minus_h_mag": 0.1502896395784898,
+          "flux_inner_outer_vis_h_zp25": [
+            [
+              37.230056236981376,
+              49.7093836175929
+            ],
+            [
+              81.394351572286,
+              94.62874877623486
+            ]
+          ],
+          "sky_vis_h_zp25": [
+            0.0006271694071658419,
+            0.001793315613030263
+          ]
+        },
+        {
+          "common_fwhm_arcsec": 0.7,
+          "psf_fwhm_shifts_vis_h_arcsec": [
+            -0.05,
+            0.05
+          ],
+          "sky_ring_arcsec": [
+            7.0,
+            9.0
+          ],
+          "delta_vis_minus_h_mag": 0.14570835154254083,
+          "flux_inner_outer_vis_h_zp25": [
+            [
+              37.30991690679507,
+              50.565554859453314
+            ],
+            [
+              81.58625659808254,
+              96.68612651472371
+            ]
+          ],
+          "sky_vis_h_zp25": [
+            0.00022178529643647807,
+            0.0008191784262457712
+          ]
+        },
+        {
+          "common_fwhm_arcsec": 0.95,
+          "psf_fwhm_shifts_vis_h_arcsec": [
+            0.0,
+            0.0
+          ],
+          "sky_ring_arcsec": [
+            5.0,
+            7.0
+          ],
+          "delta_vis_minus_h_mag": 0.11330069671730626,
+          "flux_inner_outer_vis_h_zp25": [
+            [
+              34.27836400910149,
+              51.25045670589326
+            ],
+            [
+              73.60362240806819,
+              99.14174610823554
+            ]
+          ],
+          "sky_vis_h_zp25": [
+            0.000675441685558924,
+            0.001754235455690967
+          ]
+        },
+        {
+          "common_fwhm_arcsec": 0.95,
+          "psf_fwhm_shifts_vis_h_arcsec": [
+            0.0,
+            0.0
+          ],
+          "sky_ring_arcsec": [
+            7.0,
+            9.0
+          ],
+          "delta_vis_minus_h_mag": 0.11059779991845115,
+          "flux_inner_outer_vis_h_zp25": [
+            [
+              34.36429567808049,
+              52.171713989566726
+            ],
+            [
+              73.79407767700266,
+              101.18358127569547
+            ]
+          ],
+          "sky_vis_h_zp25": [
+            0.000239240320183229,
+            0.0007874574407951611
+          ]
+        },
+        {
+          "common_fwhm_arcsec": 0.95,
+          "psf_fwhm_shifts_vis_h_arcsec": [
+            0.05,
+            -0.05
+          ],
+          "sky_ring_arcsec": [
+            5.0,
+            7.0
+          ],
+          "delta_vis_minus_h_mag": 0.08920310163923396,
+          "flux_inner_outer_vis_h_zp25": [
+            [
+              34.42951088020715,
+              51.16271470272744
+            ],
+            [
+              72.78807364630327,
+              99.63265702885847
+            ]
+          ],
+          "sky_vis_h_zp25": [
+            0.000673529082857117,
+            0.0017682009294429169
+          ]
+        },
+        {
+          "common_fwhm_arcsec": 0.95,
+          "psf_fwhm_shifts_vis_h_arcsec": [
+            0.05,
+            -0.05
+          ],
+          "sky_ring_arcsec": [
+            7.0,
+            9.0
+          ],
+          "delta_vis_minus_h_mag": 0.08638472615724649,
+          "flux_inner_outer_vis_h_zp25": [
+            [
+              34.515208980978585,
+              52.08146794551567
+            ],
+            [
+              72.98108718940668,
+              101.70191897319545
+            ]
+          ],
+          "sky_vis_h_zp25": [
+            0.00023851334290056876,
+            0.0007884367512530617
+          ]
+        },
+        {
+          "common_fwhm_arcsec": 0.95,
+          "psf_fwhm_shifts_vis_h_arcsec": [
+            -0.05,
+            0.05
+          ],
+          "sky_ring_arcsec": [
+            5.0,
+            7.0
+          ],
+          "delta_vis_minus_h_mag": 0.13806364264960738,
+          "flux_inner_outer_vis_h_zp25": [
+            [
+              34.16255976612261,
+              51.31748455372348
+            ],
+            [
+              74.51131814198428,
+              98.56250780703348
+            ]
+          ],
+          "sky_vis_h_zp25": [
+            0.0006772646667869261,
+            0.001759867727661179
+          ]
+        },
+        {
+          "common_fwhm_arcsec": 0.95,
+          "psf_fwhm_shifts_vis_h_arcsec": [
+            -0.05,
+            0.05
+          ],
+          "sky_ring_arcsec": [
+            7.0,
+            9.0
+          ],
+          "delta_vis_minus_h_mag": 0.13524895312142485,
+          "flux_inner_outer_vis_h_zp25": [
+            [
+              34.248705242956106,
+              52.24103403124809
+            ],
+            [
+              74.7013337595816,
+              100.59962955508223
+            ]
+          ],
+          "sky_vis_h_zp25": [
+            0.00023997798235292765,
+            0.0007953214454411183
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "object_id": "2708106820653058679",
+    "ra": 270.810682,
+    "dec": 65.305868,
+    "magn": 19.39,
+    "area_arcsec2": 38.73,
+    "blue": true,
+    "spectral_match_in_paper": true,
+    "disturbed": false,
+    "result": {
+      "baseline_mag": -0.8694232039698534,
+      "sensitivity_min_mag": -0.8938709875309014,
+      "sensitivity_max_mag": -0.7856611354041348,
+      "background_scatter_mag": 0.04443656198012366,
+      "background_apertures_used": 11,
+      "leave_one_outer_quadrant_out_mag": [
+        -1.0226072041333436,
+        -0.7966595602337974,
+        -0.553855686671713,
+        -1.0137927686284751
+      ],
+      "settings": [
+        {
+          "common_fwhm_arcsec": 0.7,
+          "psf_fwhm_shifts_vis_h_arcsec": [
+            0.0,
+            0.0
+          ],
+          "sky_ring_arcsec": [
+            5.0,
+            7.0
+          ],
+          "delta_vis_minus_h_mag": -0.8694232039698534,
+          "flux_inner_outer_vis_h_zp25": [
+            [
+              51.417251403667684,
+              44.712416075091284
+            ],
+            [
+              69.68055143974128,
+              134.95846858671297
+            ]
+          ],
+          "sky_vis_h_zp25": [
+            0.0018786598464060004,
+            0.004857673585862001
+          ]
+        },
+        {
+          "common_fwhm_arcsec": 0.7,
+          "psf_fwhm_shifts_vis_h_arcsec": [
+            0.0,
+            0.0
+          ],
+          "sky_ring_arcsec": [
+            7.0,
+            9.0
+          ],
+          "delta_vis_minus_h_mag": -0.8633849433380067,
+          "flux_inner_outer_vis_h_zp25": [
+            [
+              51.492193921687615,
+              45.51586073528461
+            ],
+            [
+              69.84765431035822,
+              136.74994707779427
+            ]
+          ],
+          "sky_vis_h_zp25": [
+            0.0014982409732083985,
+            0.004009435663948514
+          ]
+        },
+        {
+          "common_fwhm_arcsec": 0.7,
+          "psf_fwhm_shifts_vis_h_arcsec": [
+            0.05,
+            -0.05
+          ],
+          "sky_ring_arcsec": [
+            5.0,
+            7.0
+          ],
+          "delta_vis_minus_h_mag": -0.8938709875309014,
+          "flux_inner_outer_vis_h_zp25": [
+            [
+              51.7128689277949,
+              44.57335660883247
+            ],
+            [
+              68.8030303611671,
+              135.0929450496306
+            ]
+          ],
+          "sky_vis_h_zp25": [
+            0.0018808819720730612,
+            0.004865037300909079
+          ]
+        },
+        {
+          "common_fwhm_arcsec": 0.7,
+          "psf_fwhm_shifts_vis_h_arcsec": [
+            0.05,
+            -0.05
+          ],
+          "sky_ring_arcsec": [
+            7.0,
+            9.0
+          ],
+          "delta_vis_minus_h_mag": -0.8869869192665947,
+          "flux_inner_outer_vis_h_zp25": [
+            [
+              51.7897233524438,
+              45.397298460906015
+            ],
+            [
+              68.9661010863667,
+              136.84119566699889
+            ]
+          ],
+          "sky_vis_h_zp25": [
+            0.0014907579890836903,
+            0.00403726712223092
+          ]
+        },
+        {
+          "common_fwhm_arcsec": 0.7,
+          "psf_fwhm_shifts_vis_h_arcsec": [
+            -0.05,
+            0.05
+          ],
+          "sky_ring_arcsec": [
+            5.0,
+            7.0
+          ],
+          "delta_vis_minus_h_mag": -0.8454604329488637,
+          "flux_inner_outer_vis_h_zp25": [
+            [
+              51.18531409641879,
+              44.826862180376594
+            ],
+            [
+              70.66716715001029,
+              134.8325730689753
+            ]
+          ],
+          "sky_vis_h_zp25": [
+            0.0018752664424569994,
+            0.004831151308285615
+          ]
+        },
+        {
+          "common_fwhm_arcsec": 0.7,
+          "psf_fwhm_shifts_vis_h_arcsec": [
+            -0.05,
+            0.05
+          ],
+          "sky_ring_arcsec": [
+            7.0,
+            9.0
+          ],
+          "delta_vis_minus_h_mag": -0.8395652645334994,
+          "flux_inner_outer_vis_h_zp25": [
+            [
+              51.25817414546049,
+              45.607981081777844
+            ],
+            [
+              70.82783434400358,
+              136.55505587970535
+            ]
+          ],
+          "sky_vis_h_zp25": [
+            0.0015054184777783795,
+            0.004015581795629348
+          ]
+        },
+        {
+          "common_fwhm_arcsec": 0.95,
+          "psf_fwhm_shifts_vis_h_arcsec": [
+            0.0,
+            0.0
+          ],
+          "sky_ring_arcsec": [
+            5.0,
+            7.0
+          ],
+          "delta_vis_minus_h_mag": -0.8073426217251463,
+          "flux_inner_outer_vis_h_zp25": [
+            [
+              46.574140339580396,
+              47.30768979160344
+            ],
+            [
+              63.55549649448838,
+              135.79289816047827
+            ]
+          ],
+          "sky_vis_h_zp25": [
+            0.0018130586997539642,
+            0.004935262270132832
+          ]
+        },
+        {
+          "common_fwhm_arcsec": 0.95,
+          "psf_fwhm_shifts_vis_h_arcsec": [
+            0.0,
+            0.0
+          ],
+          "sky_ring_arcsec": [
+            7.0,
+            9.0
+          ],
+          "delta_vis_minus_h_mag": -0.8082227942656663,
+          "flux_inner_outer_vis_h_zp25": [
+            [
+              46.623812256863786,
+              47.840213087555284
+            ],
+            [
+              63.7299580565706,
+              137.66326780066944
+            ]
+          ],
+          "sky_vis_h_zp25": [
+            0.0015609169876555497,
+            0.004049670584436243
+          ]
+        },
+        {
+          "common_fwhm_arcsec": 0.95,
+          "psf_fwhm_shifts_vis_h_arcsec": [
+            0.05,
+            -0.05
+          ],
+          "sky_ring_arcsec": [
+            5.0,
+            7.0
+          ],
+          "delta_vis_minus_h_mag": -0.8293363869210219,
+          "flux_inner_outer_vis_h_zp25": [
+            [
+              46.81974723785277,
+              47.17219922947829
+            ],
+            [
+              62.83688708862225,
+              135.89587560317113
+            ]
+          ],
+          "sky_vis_h_zp25": [
+            0.0018120342499202164,
+            0.004946694831949353
+          ]
+        },
+        {
+          "common_fwhm_arcsec": 0.95,
+          "psf_fwhm_shifts_vis_h_arcsec": [
+            0.05,
+            -0.05
+          ],
+          "sky_ring_arcsec": [
+            7.0,
+            9.0
+          ],
+          "delta_vis_minus_h_mag": -0.8303651548697067,
+          "flux_inner_outer_vis_h_zp25": [
+            [
+              46.86935316590937,
+              47.70401506732365
+            ],
+            [
+              63.01461961527011,
+              137.80131264012672
+            ]
+          ],
+          "sky_vis_h_zp25": [
+            0.0015602275085161597,
+            0.004044499265209016
+          ]
+        },
+        {
+          "common_fwhm_arcsec": 0.95,
+          "psf_fwhm_shifts_vis_h_arcsec": [
+            -0.05,
+            0.05
+          ],
+          "sky_ring_arcsec": [
+            5.0,
+            7.0
+          ],
+          "delta_vis_minus_h_mag": -0.7856611354041348,
+          "flux_inner_outer_vis_h_zp25": [
+            [
+              46.384539677251524,
+              47.41916257413216
+            ],
+            [
+              64.3616323910025,
+              135.66634778254425
+            ]
+          ],
+          "sky_vis_h_zp25": [
+            0.0018112641161675098,
+            0.004930231785864224
+          ]
+        },
+        {
+          "common_fwhm_arcsec": 0.95,
+          "psf_fwhm_shifts_vis_h_arcsec": [
+            -0.05,
+            0.05
+          ],
+          "sky_ring_arcsec": [
+            7.0,
+            9.0
+          ],
+          "delta_vis_minus_h_mag": -0.7869521201329073,
+          "flux_inner_outer_vis_h_zp25": [
+            [
+              46.43354641545409,
+              47.94455461009069
+            ],
+            [
+              64.53876001703146,
+              137.56529979357555
+            ]
+          ],
+          "sky_vis_h_zp25": [
+            0.0015624989476265385,
+            0.00403110678064107
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "object_id": "2705351898652499098",
+    "ra": 270.53519,
+    "dec": 65.24991,
+    "magn": 19.64,
+    "area_arcsec2": 38.53,
+    "blue": false,
+    "spectral_match_in_paper": false,
+    "disturbed": false,
+    "result": {
+      "baseline_mag": -0.01952418556193813,
+      "sensitivity_min_mag": -0.04569216311231511,
+      "sensitivity_max_mag": 0.007244956054028974,
+      "background_scatter_mag": 0.03638603938219167,
+      "background_apertures_used": 10,
+      "leave_one_outer_quadrant_out_mag": [
+        -0.01673059137942311,
+        -0.020585994803994905,
+        -0.028075945679461457,
+        -0.014178656754101479
+      ],
+      "settings": [
+        {
+          "common_fwhm_arcsec": 0.7,
+          "psf_fwhm_shifts_vis_h_arcsec": [
+            0.0,
+            0.0
+          ],
+          "sky_ring_arcsec": [
+            5.0,
+            7.0
+          ],
+          "delta_vis_minus_h_mag": -0.01952418556193813,
+          "flux_inner_outer_vis_h_zp25": [
+            [
+              32.457952547292436,
+              41.96189643762272
+            ],
+            [
+              52.95512400602067,
+              69.70302885210037
+            ]
+          ],
+          "sky_vis_h_zp25": [
+            0.000860992983147439,
+            0.0010097975293262423
+          ]
+        },
+        {
+          "common_fwhm_arcsec": 0.7,
+          "psf_fwhm_shifts_vis_h_arcsec": [
+            0.0,
+            0.0
+          ],
+          "sky_ring_arcsec": [
+            7.0,
+            9.0
+          ],
+          "delta_vis_minus_h_mag": -0.01948671699984157,
+          "flux_inner_outer_vis_h_zp25": [
+            [
+              32.543483041765484,
+              42.878852804765245
+            ],
+            [
+              53.09729903252324,
+              71.22726060831069
+            ]
+          ],
+          "sky_vis_h_zp25": [
+            0.00042682803658374496,
+            0.00028809688718120513
+          ]
+        },
+        {
+          "common_fwhm_arcsec": 0.7,
+          "psf_fwhm_shifts_vis_h_arcsec": [
+            0.05,
+            -0.05
+          ],
+          "sky_ring_arcsec": [
+            5.0,
+            7.0
+          ],
+          "delta_vis_minus_h_mag": -0.04569216311231511,
+          "flux_inner_outer_vis_h_zp25": [
+            [
+              32.61935649864145,
+              41.87515992705597
+            ],
+            [
+              52.35305746211462,
+              70.09709250641679
+            ]
+          ],
+          "sky_vis_h_zp25": [
+            0.0008585972133470882,
+            0.000990957376588142
+          ]
+        },
+        {
+          "common_fwhm_arcsec": 0.7,
+          "psf_fwhm_shifts_vis_h_arcsec": [
+            0.05,
+            -0.05
+          ],
+          "sky_ring_arcsec": [
+            7.0,
+            9.0
+          ],
+          "delta_vis_minus_h_mag": -0.04491822643453683,
+          "flux_inner_outer_vis_h_zp25": [
+            [
+              32.704710456723035,
+              42.79022368070219
+            ],
+            [
+              52.49133946905076,
+              71.57958793103161
+            ]
+          ],
+          "sky_vis_h_zp25": [
+            0.00042532839059793105,
+            0.0002890182550849106
+          ]
+        },
+        {
+          "common_fwhm_arcsec": 0.7,
+          "psf_fwhm_shifts_vis_h_arcsec": [
+            -0.05,
+            0.05
+          ],
+          "sky_ring_arcsec": [
+            5.0,
+            7.0
+          ],
+          "delta_vis_minus_h_mag": 0.007244956054028974,
+          "flux_inner_outer_vis_h_zp25": [
+            [
+              32.33040836415512,
+              42.02657946618112
+            ],
+            [
+              53.62678948317864,
+              69.24631534649549
+            ]
+          ],
+          "sky_vis_h_zp25": [
+            0.0008651236131407948,
+            0.0010441473548734742
+          ]
+        },
+        {
+          "common_fwhm_arcsec": 0.7,
+          "psf_fwhm_shifts_vis_h_arcsec": [
+            -0.05,
+            0.05
+          ],
+          "sky_ring_arcsec": [
+            7.0,
+            9.0
+          ],
+          "delta_vis_minus_h_mag": 0.0063474582748718755,
+          "flux_inner_outer_vis_h_zp25": [
+            [
+              32.4164026195356,
+              42.948507726910066
+            ],
+            [
+              53.77457073690506,
+              70.83065041182627
+            ]
+          ],
+          "sky_vis_h_zp25": [
+            0.0004286045502956487,
+            0.000293988706516097
+          ]
+        },
+        {
+          "common_fwhm_arcsec": 0.95,
+          "psf_fwhm_shifts_vis_h_arcsec": [
+            0.0,
+            0.0
+          ],
+          "sky_ring_arcsec": [
+            5.0,
+            7.0
+          ],
+          "delta_vis_minus_h_mag": -0.021297783714083772,
+          "flux_inner_outer_vis_h_zp25": [
+            [
+              29.824267105136727,
+              43.54386332341065
+            ],
+            [
+              48.73503278137038,
+              72.5633883514993
+            ]
+          ],
+          "sky_vis_h_zp25": [
+            0.0008947084551738794,
+            0.0009276855266927323
+          ]
+        },
+        {
+          "common_fwhm_arcsec": 0.95,
+          "psf_fwhm_shifts_vis_h_arcsec": [
+            0.0,
+            0.0
+          ],
+          "sky_ring_arcsec": [
+            7.0,
+            9.0
+          ],
+          "delta_vis_minus_h_mag": -0.017927819890596837,
+          "flux_inner_outer_vis_h_zp25": [
+            [
+              29.91149592248557,
+              44.479027091130234
+            ],
+            [
+              48.85591462410413,
+              73.85933988375152
+            ]
+          ],
+          "sky_vis_h_zp25": [
+            0.0004519225803066506,
+            0.00031407211180058093
+          ]
+        },
+        {
+          "common_fwhm_arcsec": 0.95,
+          "psf_fwhm_shifts_vis_h_arcsec": [
+            0.05,
+            -0.05
+          ],
+          "sky_ring_arcsec": [
+            5.0,
+            7.0
+          ],
+          "delta_vis_minus_h_mag": -0.04510626913343137,
+          "flux_inner_outer_vis_h_zp25": [
+            [
+              29.959075904531282,
+              43.453522049126285
+            ],
+            [
+              48.229920222665186,
+              72.92150462563886
+            ]
+          ],
+          "sky_vis_h_zp25": [
+            0.0008938832039080929,
+            0.0009254911873743207
+          ]
+        },
+        {
+          "common_fwhm_arcsec": 0.95,
+          "psf_fwhm_shifts_vis_h_arcsec": [
+            0.05,
+            -0.05
+          ],
+          "sky_ring_arcsec": [
+            7.0,
+            9.0
+          ],
+          "delta_vis_minus_h_mag": -0.04157141102676362,
+          "flux_inner_outer_vis_h_zp25": [
+            [
+              30.046307302863966,
+              44.3887134870888
+            ],
+            [
+              48.35094412488409,
+              74.2189791509502
+            ]
+          ],
+          "sky_vis_h_zp25": [
+            0.0004510842276000812,
+            0.0003111566583443284
+          ]
+        },
+        {
+          "common_fwhm_arcsec": 0.95,
+          "psf_fwhm_shifts_vis_h_arcsec": [
+            -0.05,
+            0.05
+          ],
+          "sky_ring_arcsec": [
+            5.0,
+            7.0
+          ],
+          "delta_vis_minus_h_mag": 0.002723091336281596,
+          "flux_inner_outer_vis_h_zp25": [
+            [
+              29.719391401101937,
+              43.612216799966035
+            ],
+            [
+              49.302996278975215,
+              72.16927251678554
+            ]
+          ],
+          "sky_vis_h_zp25": [
+            0.0008964630472947303,
+            0.000929881638263036
+          ]
+        },
+        {
+          "common_fwhm_arcsec": 0.95,
+          "psf_fwhm_shifts_vis_h_arcsec": [
+            -0.05,
+            0.05
+          ],
+          "sky_ring_arcsec": [
+            7.0,
+            9.0
+          ],
+          "delta_vis_minus_h_mag": 0.005814477680726474,
+          "flux_inner_outer_vis_h_zp25": [
+            [
+              29.806764348392353,
+              44.548925757719104
+            ],
+            [
+              49.42482386006574,
+              73.47536313233473
+            ]
+          ],
+          "sky_vis_h_zp25": [
+            0.00045294554835861856,
+            0.0003114675210522417
+          ]
+        }
+      ]
+    }
+  }
+]

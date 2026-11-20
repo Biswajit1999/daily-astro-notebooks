@@ -1,0 +1,446 @@
+{
+  "2671002197658696109": {
+    "bands": {
+      "NIR-H": {
+        "bytes": 416165760,
+        "etag": "\"03f0bf181d09b50b641880dfa386bc3c-80\"",
+        "header_sha256": "f5d6ff7dfcf448230485cfb39cfe95bb393d0621eea8148e32882aff7f017fa7",
+        "magzero": 30.0,
+        "origin_xy": [
+          4398,
+          9225
+        ],
+        "ranges": [
+          {
+            "end_exclusive": 391114560,
+            "sha256": "353fb9dc49825b17662c5d80067e4d2f885020c90fb3908da26948a092ff8daa",
+            "start": 376385760
+          }
+        ],
+        "shape": [
+          361,
+          361
+        ],
+        "unit": "ELECTRON/s",
+        "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101833446/NISP/EUC_MER_BGSUB-MOSAIC-NIR-H_TILE101833446-91802D_20250830T111859.758919Z_00.00.fits"
+      },
+      "NIR-Y": {
+        "bytes": 416165760,
+        "etag": "\"304b55c2b3be0b0d034e7e7441aa4f4d-80\"",
+        "header_sha256": "80d6d34370b6ee27b3dad959d50c991be8b797341beb6673dc30d7052367bc09",
+        "magzero": 29.8,
+        "origin_xy": [
+          4398,
+          9225
+        ],
+        "ranges": [
+          {
+            "end_exclusive": 391114560,
+            "sha256": "b7656aa10071c5c49a37337a909a02b5fa6ad6da49201930a9f888006c317e48",
+            "start": 376385760
+          }
+        ],
+        "shape": [
+          361,
+          361
+        ],
+        "unit": "ELECTRON/s",
+        "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101833446/NISP/EUC_MER_BGSUB-MOSAIC-NIR-Y_TILE101833446-DEE19B_20250830T112041.100479Z_00.00.fits"
+      },
+      "VIS": {
+        "bytes": 416165760,
+        "etag": "\"ea1667b3e2a10c6e665d45c4514af5e6-80\"",
+        "header_sha256": "6bb450bfec03e38b60a81ea630b8e0f91b15acbe7ae97abedfffdffce38a6a38",
+        "magzero": 24.5,
+        "origin_xy": [
+          4398,
+          9225
+        ],
+        "ranges": [
+          {
+            "end_exclusive": 391114560,
+            "sha256": "04051477f7c2efd53635273658432f608d4bdb9873c674bda296f71e548292f0",
+            "start": 376385760
+          }
+        ],
+        "shape": [
+          361,
+          361
+        ],
+        "unit": "ADU/s",
+        "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101833446/VIS/EUC_MER_BGSUB-MOSAIC-VIS_TILE101833446-228430_20250831T025923.209279Z_00.00.fits"
+      }
+    },
+    "tile": "101833446"
+  },
+  "2674493664656107337": {
+    "bands": {
+      "NIR-H": {
+        "bytes": 416165760,
+        "etag": "\"8f01c780302d5e69042082a74cc5466e-80\"",
+        "header_sha256": "ca98a510f4944c510ea5effd1056b136fd6d67e187af17b9496d7ccc46cf7241",
+        "magzero": 30.0,
+        "origin_xy": [
+          5974,
+          8906
+        ],
+        "ranges": [
+          {
+            "end_exclusive": 378099360,
+            "sha256": "0182c6f3a2e6f3b83cd4aaf2ac588bb5a01d854ae971a743205a13bcf5f473a1",
+            "start": 363370560
+          }
+        ],
+        "shape": [
+          361,
+          361
+        ],
+        "unit": "ELECTRON/s",
+        "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101832848/NISP/EUC_MER_BGSUB-MOSAIC-NIR-H_TILE101832848-DFA46D_20250828T012215.601453Z_00.00.fits"
+      },
+      "NIR-Y": {
+        "bytes": 416165760,
+        "etag": "\"df8e688281efe77eb200a2840876cd7d-80\"",
+        "header_sha256": "850e58e8908f3d8879669cdcadde9bbad471dc0038ab4e4436a8ae651718ce42",
+        "magzero": 29.8,
+        "origin_xy": [
+          5974,
+          8906
+        ],
+        "ranges": [
+          {
+            "end_exclusive": 378099360,
+            "sha256": "aceb4925e5d8615fc6d470af7841b82a17808862387089094a71db549a28afb4",
+            "start": 363370560
+          }
+        ],
+        "shape": [
+          361,
+          361
+        ],
+        "unit": "ELECTRON/s",
+        "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101832848/NISP/EUC_MER_BGSUB-MOSAIC-NIR-Y_TILE101832848-914414_20250828T012214.352287Z_00.00.fits"
+      },
+      "VIS": {
+        "bytes": 416165760,
+        "etag": "\"50a3daddf7e718b2c446f8cd9a735fae-80\"",
+        "header_sha256": "455e21686158710a6fbb3fb66a47dc746d558c85934eaaecd6fd2b8251af4053",
+        "magzero": 24.5,
+        "origin_xy": [
+          5974,
+          8906
+        ],
+        "ranges": [
+          {
+            "end_exclusive": 378099360,
+            "sha256": "24b98a5b5ebd51d7022609b8fa0cf47ed5e805553ff42f00ee44e962d1cff95d",
+            "start": 363370560
+          }
+        ],
+        "shape": [
+          361,
+          361
+        ],
+        "unit": "ADU/s",
+        "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101832848/VIS/EUC_MER_BGSUB-MOSAIC-VIS_TILE101832848-89A871_20250828T201044.997028Z_00.00.fits"
+      }
+    },
+    "tile": "101832848"
+  },
+  "2674931434659990352": {
+    "bands": {
+      "NIR-H": {
+        "bytes": 416165760,
+        "etag": "\"4de302d6dc65ad58729479228e1344d6-80\"",
+        "header_sha256": "85fbb9d3ed2992fad22a1f8d95db553317f9ccda3c2ff7b75b60394ec1e01355",
+        "magzero": 30.0,
+        "origin_xy": [
+          837,
+          4893
+        ],
+        "ranges": [
+          {
+            "end_exclusive": 214368960,
+            "sha256": "a2fada98a754fafd9a5a67f89c2f84005e1c14862b772b55377edd75642b2458",
+            "start": 199640160
+          }
+        ],
+        "shape": [
+          361,
+          361
+        ],
+        "unit": "ELECTRON/s",
+        "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101834040/NISP/EUC_MER_BGSUB-MOSAIC-NIR-H_TILE101834040-B2A539_20250830T104048.013364Z_00.00.fits"
+      },
+      "NIR-Y": {
+        "bytes": 416165760,
+        "etag": "\"2288fe27c565b045e00806e59528e5cf-80\"",
+        "header_sha256": "810a9ed6b73924c0b29f5a23d99e074103d2061d444bc7c49cf92b5bca2eeae2",
+        "magzero": 29.8,
+        "origin_xy": [
+          837,
+          4893
+        ],
+        "ranges": [
+          {
+            "end_exclusive": 214368960,
+            "sha256": "b800b97b513f140bf7b679a560478e832b3648f8b6893fadb7b9d239656e6e73",
+            "start": 199640160
+          }
+        ],
+        "shape": [
+          361,
+          361
+        ],
+        "unit": "ELECTRON/s",
+        "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101834040/NISP/EUC_MER_BGSUB-MOSAIC-NIR-Y_TILE101834040-972B0_20250830T104310.336185Z_00.00.fits"
+      },
+      "VIS": {
+        "bytes": 416165760,
+        "etag": "\"6e73781533dc8ee886cf52db15ac7085-80\"",
+        "header_sha256": "8c95d9b610f5f327f2957314bd99d592f6678bf36f8e3199856cbeb9a99cf7fd",
+        "magzero": 24.5,
+        "origin_xy": [
+          837,
+          4893
+        ],
+        "ranges": [
+          {
+            "end_exclusive": 214368960,
+            "sha256": "fe51fae69e69a5bcf1f14508b3ce4288985a3deb4b1489be63787abcce38be49",
+            "start": 199640160
+          }
+        ],
+        "shape": [
+          361,
+          361
+        ],
+        "unit": "ADU/s",
+        "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101834040/VIS/EUC_MER_BGSUB-MOSAIC-VIS_TILE101834040-7F89C0_20250830T231146.161695Z_00.00.fits"
+      }
+    },
+    "tile": "101834040"
+  },
+  "2676625477661299776": {
+    "bands": {
+      "NIR-H": {
+        "bytes": 416165760,
+        "etag": "\"d20cdff2313dd7b399e3e6e753fdbaba-80\"",
+        "header_sha256": "88868bdd8fc852f26c6138c523180491de1ab35c89717db1405d1975afab261a",
+        "magzero": 30.0,
+        "origin_xy": [
+          686,
+          608
+        ],
+        "ranges": [
+          {
+            "end_exclusive": 39540960,
+            "sha256": "88b4bc60280ae369ddb6eade27a2117a4d6064f45da79e8afccec83f67779d60",
+            "start": 24812160
+          }
+        ],
+        "shape": [
+          361,
+          361
+        ],
+        "unit": "ELECTRON/s",
+        "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101834628/NISP/EUC_MER_BGSUB-MOSAIC-NIR-H_TILE101834628-76D2D6_20250827T232410.785547Z_00.00.fits"
+      },
+      "NIR-Y": {
+        "bytes": 416165760,
+        "etag": "\"665d98feff5308e4e8634c540bf1ed45-80\"",
+        "header_sha256": "fde4b8a1aad90e56b0b03504906c7512e01b312e8bf3bcc3025800ca02519c01",
+        "magzero": 29.8,
+        "origin_xy": [
+          686,
+          608
+        ],
+        "ranges": [
+          {
+            "end_exclusive": 39540960,
+            "sha256": "bc0c5e081ce48494eb1989671f357a5c614068ca91f34ec5aa3ba8e2311e7486",
+            "start": 24812160
+          }
+        ],
+        "shape": [
+          361,
+          361
+        ],
+        "unit": "ELECTRON/s",
+        "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101834628/NISP/EUC_MER_BGSUB-MOSAIC-NIR-Y_TILE101834628-5DB3ED_20250827T232409.020934Z_00.00.fits"
+      },
+      "VIS": {
+        "bytes": 416165760,
+        "etag": "\"3dcce6a290f329c7c8e9e5a8416b35b1-80\"",
+        "header_sha256": "2e8efa0c24e388e9a406d571378794a848e3543ef3ac5ee8dbbcc0df282d3448",
+        "magzero": 24.5,
+        "origin_xy": [
+          686,
+          608
+        ],
+        "ranges": [
+          {
+            "end_exclusive": 39540960,
+            "sha256": "935817367c6a05044c817ecd551d66344a52ef35e03a8ee4e4e8df9dec1e22d2",
+            "start": 24812160
+          }
+        ],
+        "shape": [
+          361,
+          361
+        ],
+        "unit": "ADU/s",
+        "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101834628/VIS/EUC_MER_BGSUB-MOSAIC-VIS_TILE101834628-6ADE5F_20250828T231239.456078Z_00.00.fits"
+      }
+    },
+    "tile": "101834628"
+  },
+  "2705351898652499098": {
+    "bands": {
+      "NIR-H": {
+        "bytes": 416165760,
+        "etag": "\"93a98e72e9e74e45cb5263dc0e9a67a3-80\"",
+        "header_sha256": "724e79cf6e0345aa2874da9d70b4c42e785d0e5e088650b280a537742c15503a",
+        "magzero": 30.0,
+        "origin_xy": [
+          1954,
+          4920
+        ],
+        "ranges": [
+          {
+            "end_exclusive": 215470560,
+            "sha256": "667d96fa3d4af5615ede9df8f868c06624d4134185bb7b4acb7d79581ea4fed8",
+            "start": 200741760
+          }
+        ],
+        "shape": [
+          361,
+          361
+        ],
+        "unit": "ELECTRON/s",
+        "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101832248/NISP/EUC_MER_BGSUB-MOSAIC-NIR-H_TILE101832248-2BC2D6_20250821T004015.117689Z_00.00.fits"
+      },
+      "NIR-Y": {
+        "bytes": 416165760,
+        "etag": "\"c197ec684d8a86bbda36dbaadbd28ab3-80\"",
+        "header_sha256": "228f9114a803761ae7dcf3f0f3b282844e65848a52688566f8377de3844d8fca",
+        "magzero": 29.8,
+        "origin_xy": [
+          1954,
+          4920
+        ],
+        "ranges": [
+          {
+            "end_exclusive": 215470560,
+            "sha256": "90011a742183a658802bf2b4cc80faaae38aaad860a34825313fe3759402d9fb",
+            "start": 200741760
+          }
+        ],
+        "shape": [
+          361,
+          361
+        ],
+        "unit": "ELECTRON/s",
+        "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101832248/NISP/EUC_MER_BGSUB-MOSAIC-NIR-Y_TILE101832248-9FE1E6_20250821T004156.170842Z_00.00.fits"
+      },
+      "VIS": {
+        "bytes": 416165760,
+        "etag": "\"98f747040caab9627ca9b5b02514ff90-80\"",
+        "header_sha256": "992749de12ee20e2a457655147a2bdc6cd447b1e4ae331aca91f96e6ebe39a21",
+        "magzero": 24.5,
+        "origin_xy": [
+          1954,
+          4920
+        ],
+        "ranges": [
+          {
+            "end_exclusive": 215470560,
+            "sha256": "c7fd66cc7dd38819487bec991900e08c4595034a674638f9ac3e87b0eafe6c79",
+            "start": 200741760
+          }
+        ],
+        "shape": [
+          361,
+          361
+        ],
+        "unit": "ADU/s",
+        "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101832248/VIS/EUC_MER_BGSUB-MOSAIC-VIS_TILE101832248-F4F8C0_20250821T061946.806535Z_00.00.fits"
+      }
+    },
+    "tile": "101832248"
+  },
+  "2708106820653058679": {
+    "bands": {
+      "NIR-H": {
+        "bytes": 416165760,
+        "etag": "\"0e6a52c4452140d610cd2fe176158993-80\"",
+        "header_sha256": "47661a121712ab8e17c8cf4a699029f95e312ea930cb3138c229e8412bff4709",
+        "magzero": 30.0,
+        "origin_xy": [
+          6714,
+          6931
+        ],
+        "ranges": [
+          {
+            "end_exclusive": 297519360,
+            "sha256": "c747e66ef696eed1155af81ffaf25ff88f8d8470e27cc8e234350f84936ee7be",
+            "start": 282790560
+          }
+        ],
+        "shape": [
+          361,
+          361
+        ],
+        "unit": "ELECTRON/s",
+        "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101832249/NISP/EUC_MER_BGSUB-MOSAIC-NIR-H_TILE101832249-F1737D_20250820T160541.484567Z_00.00.fits"
+      },
+      "NIR-Y": {
+        "bytes": 416165760,
+        "etag": "\"c271ae1ad63a70a17d7e815c605b688d-80\"",
+        "header_sha256": "8bfc7f1337c0a478d48e1b90dea19d0138ac411b5c723cf14732a31ed24788a5",
+        "magzero": 29.8,
+        "origin_xy": [
+          6714,
+          6931
+        ],
+        "ranges": [
+          {
+            "end_exclusive": 297519360,
+            "sha256": "f07ee2c890dd07a939733984b5ce4d1b5afad9fadf870cd59f6f8ae358c8da41",
+            "start": 282790560
+          }
+        ],
+        "shape": [
+          361,
+          361
+        ],
+        "unit": "ELECTRON/s",
+        "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101832249/NISP/EUC_MER_BGSUB-MOSAIC-NIR-Y_TILE101832249-FD9E0A_20250820T160621.406078Z_00.00.fits"
+      },
+      "VIS": {
+        "bytes": 416165760,
+        "etag": "\"da904c7c908def93d2cfdf26f3496d74-80\"",
+        "header_sha256": "ea66dd1aafdf6e742ff5b132200850596136df05f8b75eaeb794071453e5ab6d",
+        "magzero": 24.5,
+        "origin_xy": [
+          6714,
+          6931
+        ],
+        "ranges": [
+          {
+            "end_exclusive": 297519360,
+            "sha256": "ce0555e46d7cbf7afab2aeb099fc260d3854de46e0a43e055df17accf44883ba",
+            "start": 282790560
+          }
+        ],
+        "shape": [
+          361,
+          361
+        ],
+        "unit": "ADU/s",
+        "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101832249/VIS/EUC_MER_BGSUB-MOSAIC-VIS_TILE101832249-9542C_20250821T005118.223521Z_00.00.fits"
+      }
+    },
+    "tile": "101832249"
+  }
+}
