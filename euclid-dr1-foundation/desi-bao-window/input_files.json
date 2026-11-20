@@ -1,0 +1,32 @@
+{
+  "LRG_NGC_0_clustering.ran.fits": {
+    "bytes": 985916160,
+    "sha256": "f80aaa1bd48f2695c07cbccd480065f74e8e393e6a9e93b209af42419749e2bd",
+    "url": "https://data.desi.lbl.gov/public/dr1/survey/catalogs/dr1/LSS/iron/LSScats/v1.5/LRG_NGC_0_clustering.ran.fits"
+  },
+  "LRG_NGC_clustering.dat.fits": {
+    "bytes": 143196480,
+    "sha256": "84548c4ea5208232f1c2f04416ddf272c72fa31313e3bbb60e67d134f186a027",
+    "url": "https://data.desi.lbl.gov/public/dr1/survey/catalogs/dr1/LSS/iron/LSScats/v1.5/LRG_NGC_clustering.dat.fits"
+  },
+  "LRG_SGC_0_clustering.ran.fits": {
+    "bytes": 520781760,
+    "sha256": "70821a9609c4f825fecd6c45f6ede3b95bc309103e7ca580231b212a27e2592e",
+    "url": "https://data.desi.lbl.gov/public/dr1/survey/catalogs/dr1/LSS/iron/LSScats/v1.5/LRG_SGC_0_clustering.ran.fits"
+  },
+  "LRG_SGC_clustering.dat.fits": {
+    "bytes": 64272960,
+    "sha256": "ae478557d9ef70257cc689197052515f5ebbc0b23359c81159a8ad3289332e69",
+    "url": "https://data.desi.lbl.gov/public/dr1/survey/catalogs/dr1/LSS/iron/LSScats/v1.5/LRG_SGC_clustering.dat.fits"
+  },
+  "euclid_dr1_mer_catalogue_wide_survey.moc.fits": {
+    "bytes": 1730880,
+    "sha256": "c8f8aedbc73a2cb3a1afea61f94fdefea186a398e14ba505c75b4886110a5af9",
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/MOC/euclid_dr1_mer_catalogue_wide_survey.moc.fits"
+  },
+  "euclid_dr1_wide.moc.moc.fits": {
+    "bytes": 812160,
+    "sha256": "bb89812addb7987df1bf00d78ecaf486842e429fb59af7cc128c7025f9eecd22",
+    "url": "https://nasa-irsa-euclid-dr1.s3.us-east-1.amazonaws.com/dr1/MOC/euclid_dr1_wide.moc.moc.fits"
+  }
+}
