@@ -4,6 +4,8 @@
 
 [Figure](results/euclid_desi_window.png) · [Measurements](results/window_measurements.json) · [Run in Colab](https://colab.research.google.com/github/Biswajit1999/daily-astro-notebooks/blob/research/euclid-dr1-foundation-day01-20261114/euclid-dr1-foundation/desi-bao-window/DESI_Euclid_Pair_Window.ipynb)
 
+The [paired AbacusSummit follow-up](MOCK_RECOVERY.md) tests whether the acoustic peak survives the MER cut at the observed sample size.
+
 ## Question and result
 
 How many pairs at the baryon acoustic oscillation (BAO) scale survive when the public DESI DR1 luminous red galaxy (LRG) sample is restricted to the Euclid DR1-Foundation footprint? Existing DESI work tests BAO across multiple sky regions, and a June 2026 presentation illustrates the Euclid–DESI overlap. Here the calculation applies two named public Euclid masks to official DESI galaxy and random catalogues and measures the resulting orientation-dependent pair loss.
