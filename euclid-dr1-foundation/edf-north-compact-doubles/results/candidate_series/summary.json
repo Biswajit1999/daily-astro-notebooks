@@ -1,0 +1,212 @@
+[
+  {
+    "rank": 13,
+    "label": "NCH-007",
+    "separation_arcsec": 0.7810237253642897,
+    "native_reversal": true,
+    "matched_reversal": true,
+    "subaru_order": false,
+    "passing_visits": 3,
+    "complete_visits": 3,
+    "component_mer_ids": [
+      2743259033645745227,
+      2743262383645747132
+    ],
+    "spe_proposals_passing_example_cut": 1,
+    "aperture_magnitudes": {
+      "VIS": 0.4985370641579118,
+      "J": -0.6817913499859887,
+      "H": -0.9267182616521767,
+      "i2": 0.05063694499306974
+    }
+  },
+  {
+    "rank": 14,
+    "label": "NCH-012",
+    "separation_arcsec": 0.7999991394035463,
+    "native_reversal": true,
+    "matched_reversal": true,
+    "subaru_order": true,
+    "passing_visits": 2,
+    "complete_visits": 2,
+    "component_mer_ids": [
+      2722246045644192336,
+      2722241063644192358
+    ],
+    "spe_proposals_passing_example_cut": 0,
+    "aperture_magnitudes": {
+      "VIS": 0.7201748204872305,
+      "J": -0.6368005288481705,
+      "H": -0.8815530515148761,
+      "i2": 0.38191538804292996
+    }
+  },
+  {
+    "rank": 15,
+    "label": "NCH-091",
+    "separation_arcsec": 0.8062245230126605,
+    "native_reversal": false,
+    "matched_reversal": false,
+    "subaru_order": false,
+    "passing_visits": 0,
+    "complete_visits": 3,
+    "component_mer_ids": [
+      2703477662644402406,
+      2703476784644400093
+    ],
+    "spe_proposals_passing_example_cut": 0,
+    "aperture_magnitudes": {
+      "VIS": 0.1555751301077152,
+      "J": -0.5427197986955644,
+      "H": -0.8450312453124107,
+      "i2": -0.24386213489579472
+    }
+  },
+  {
+    "rank": 16,
+    "label": "NCH-066",
+    "separation_arcsec": 0.9219538890550858,
+    "native_reversal": false,
+    "matched_reversal": false,
+    "subaru_order": false,
+    "passing_visits": 0,
+    "complete_visits": 3,
+    "component_mer_ids": [
+      2733983994644475919,
+      2733980379644474068
+    ],
+    "spe_proposals_passing_example_cut": 0,
+    "aperture_magnitudes": {
+      "VIS": 0.11574105838571466,
+      "J": -1.0858052504387337,
+      "H": -1.2353040469744834,
+      "i2": -0.24388077902507255
+    }
+  },
+  {
+    "rank": 17,
+    "label": "NCH-158",
+    "separation_arcsec": 0.7615767352802828,
+    "native_reversal": false,
+    "matched_reversal": false,
+    "subaru_order": false,
+    "passing_visits": 0,
+    "complete_visits": 3,
+    "component_mer_ids": [
+      2703683502644502295,
+      2703686071644500024
+    ],
+    "spe_proposals_passing_example_cut": 1,
+    "aperture_magnitudes": {
+      "VIS": 0.19114991768006623,
+      "J": -0.7417904380605673,
+      "H": -1.1518179334397682,
+      "i2": 0.11431594457064481
+    }
+  },
+  {
+    "rank": 18,
+    "label": "NCH-028",
+    "separation_arcsec": 0.8999995307245907,
+    "native_reversal": true,
+    "matched_reversal": true,
+    "subaru_order": false,
+    "passing_visits": 0,
+    "complete_visits": 3,
+    "component_mer_ids": [
+      2728566048645084895,
+      null
+    ],
+    "spe_proposals_passing_example_cut": 0,
+    "aperture_magnitudes": {
+      "VIS": 0.9247562734135807,
+      "J": -0.19812254569055818,
+      "H": -0.6130439918657815,
+      "i2": 0.42984244701267116
+    }
+  },
+  {
+    "rank": 19,
+    "label": "NCH-117",
+    "separation_arcsec": 0.8062256693840022,
+    "native_reversal": false,
+    "matched_reversal": false,
+    "subaru_order": false,
+    "passing_visits": 0,
+    "complete_visits": 2,
+    "component_mer_ids": [
+      2699463741645116813,
+      2699466340645114955
+    ],
+    "spe_proposals_passing_example_cut": 0,
+    "aperture_magnitudes": {
+      "VIS": 0.07789639401256988,
+      "J": -0.946144456981302,
+      "H": -0.9831996849303298,
+      "i2": 0.010014983654947993
+    }
+  },
+  {
+    "rank": 20,
+    "label": "NCH-052",
+    "separation_arcsec": 0.79999968876717,
+    "native_reversal": true,
+    "matched_reversal": true,
+    "subaru_order": false,
+    "passing_visits": 3,
+    "complete_visits": 3,
+    "component_mer_ids": [
+      2753707098642414231,
+      2753702000642414162
+    ],
+    "spe_proposals_passing_example_cut": 0,
+    "aperture_magnitudes": {
+      "VIS": 0.3759508523507432,
+      "J": -0.5823047658598604,
+      "H": -0.8564156762746388,
+      "i2": 0.34905849950249507
+    }
+  },
+  {
+    "rank": 21,
+    "label": "NCH-133",
+    "separation_arcsec": 0.9486820847787792,
+    "native_reversal": false,
+    "matched_reversal": false,
+    "subaru_order": false,
+    "passing_visits": 0,
+    "complete_visits": 3,
+    "component_mer_ids": [
+      2727638495644337946,
+      2727640534644335096
+    ],
+    "spe_proposals_passing_example_cut": 0,
+    "aperture_magnitudes": {
+      "VIS": -0.6762988622703714,
+      "J": -0.9262478288606492,
+      "H": -1.0812414416857632,
+      "i2": -0.8388108285428515
+    }
+  },
+  {
+    "rank": 22,
+    "label": "NCH-078",
+    "separation_arcsec": 0.8543989040202664,
+    "native_reversal": false,
+    "matched_reversal": false,
+    "subaru_order": false,
+    "passing_visits": 0,
+    "complete_visits": 2,
+    "component_mer_ids": [
+      2729098083645496233,
+      2729099086645498315
+    ],
+    "spe_proposals_passing_example_cut": 0,
+    "aperture_magnitudes": {
+      "VIS": -0.06216492454883604,
+      "J": -0.6273938124483757,
+      "H": -0.6925440905302666,
+      "i2": -0.193680404789668
+    }
+  }
+]

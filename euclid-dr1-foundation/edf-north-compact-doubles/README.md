@@ -13,6 +13,8 @@ The strongest follow-up case is EDN-004 at ICRS midpoint (271.885434°, +64.2848
 
 The [held-out colour follow-up](HOLDOUT_COLOUR.md) measures a persistent optical–infrared brightness reversal in NCH-042 across three visits. Both components have public MER entries. The pair’s physical nature remains unresolved.
 
+The [ten-target follow-up series](results/candidate_series/) applies the same aperture and visit tests to the next ten pairs in the fixed ranking. It includes calibrated FITS stamps, per-target measurements and a comparative report.
+
 ## Extended research notebook
 
 [Euclid_DR1F_Colab.ipynb](Euclid_DR1F_Colab.ipynb) is a 25-cell research notebook credited to Biswajit Jana. It computes the matched separation contrast, derives the detector response with empirical J-band injections, and refits the EDN-004 spectra by grism orientation. The validation inputs and results are described in [VALIDATION.md](VALIDATION.md).
