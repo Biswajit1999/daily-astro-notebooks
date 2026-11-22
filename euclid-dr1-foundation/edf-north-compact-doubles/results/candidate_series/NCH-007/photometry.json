@@ -1,0 +1,399 @@
+{
+  "tangent_xy_arcsec": [
+    [
+      0.299360553731003,
+      -0.25076437899429893
+    ],
+    [
+      -0.2993605537356231,
+      0.25076437891414893
+    ]
+  ],
+  "three_band_rank_reversal": true,
+  "bands": {
+    "VIS": {
+      "0.2": {
+        "flux_a_b_native_summed": [
+          1.959441735222936,
+          1.13999798566103
+        ],
+        "a_minus_b_flux": 0.819443749561906,
+        "background_difference_mad": 0.005159786453733112,
+        "a_minus_b_in_background_mad": 158.81350069614555,
+        "blank_pair_placements": 36,
+        "b_minus_a_aperture_mag": 0.5880706753359797
+      },
+      "0.28": {
+        "flux_a_b_native_summed": [
+          3.0159179624915122,
+          1.9054813314974308
+        ],
+        "a_minus_b_flux": 1.1104366309940814,
+        "background_difference_mad": 0.008561359238450748,
+        "a_minus_b_in_background_mad": 129.7033099612141,
+        "blank_pair_placements": 36,
+        "b_minus_a_aperture_mag": 0.4985370641579118
+      },
+      "0.35": {
+        "flux_a_b_native_summed": [
+          3.806411350183189,
+          2.6684559844434266
+        ],
+        "a_minus_b_flux": 1.1379553657397623,
+        "background_difference_mad": 0.013251989938788384,
+        "a_minus_b_in_background_mad": 85.87052744501287,
+        "blank_pair_placements": 36,
+        "b_minus_a_aperture_mag": 0.3856391902181611
+      }
+    },
+    "J": {
+      "0.2": {
+        "flux_a_b_native_summed": [
+          464.42577835083006,
+          868.0806634521483
+        ],
+        "a_minus_b_flux": -403.65488510131826,
+        "background_difference_mad": 2.0624048883765718,
+        "a_minus_b_in_background_mad": -195.72048503970353,
+        "blank_pair_placements": 36,
+        "b_minus_a_aperture_mag": -0.6791094119267462
+      },
+      "0.28": {
+        "flux_a_b_native_summed": [
+          837.5698855972289,
+          1569.414259033203
+        ],
+        "a_minus_b_flux": -731.8443734359741,
+        "background_difference_mad": 4.6682583390487205,
+        "a_minus_b_in_background_mad": -156.77032423726288,
+        "blank_pair_placements": 36,
+        "b_minus_a_aperture_mag": -0.6817913499859887
+      },
+      "0.35": {
+        "flux_a_b_native_summed": [
+          1200.1780939483642,
+          2248.3980900573724
+        ],
+        "a_minus_b_flux": -1048.2199961090082,
+        "background_difference_mad": 5.91197846292311,
+        "a_minus_b_in_background_mad": -177.30443415565622,
+        "blank_pair_placements": 36,
+        "b_minus_a_aperture_mag": -0.681568780218271
+      }
+    },
+    "H": {
+      "0.2": {
+        "flux_a_b_native_summed": [
+          491.73182846069335,
+          1174.7659013366697
+        ],
+        "a_minus_b_flux": -683.0340728759763,
+        "background_difference_mad": 2.3213695507482406,
+        "a_minus_b_in_background_mad": -294.23754294348174,
+        "blank_pair_placements": 36,
+        "b_minus_a_aperture_mag": -0.9455575308454528
+      },
+      "0.28": {
+        "flux_a_b_native_summed": [
+          901.6661315917969,
+          2117.0594883728027
+        ],
+        "a_minus_b_flux": -1215.3933567810059,
+        "background_difference_mad": 3.9079240613086226,
+        "a_minus_b_in_background_mad": -311.0074140934086,
+        "blank_pair_placements": 36,
+        "b_minus_a_aperture_mag": -0.9267182616521767
+      },
+      "0.35": {
+        "flux_a_b_native_summed": [
+          1316.374485168457,
+          3028.0886624145505
+        ],
+        "a_minus_b_flux": -1711.7141772460934,
+        "background_difference_mad": 4.469376694319297,
+        "a_minus_b_in_background_mad": -382.98722491253204,
+        "blank_pair_placements": 36,
+        "b_minus_a_aperture_mag": -0.9044728280735845
+      }
+    },
+    "i2": {
+      "0.2": {
+        "flux_a_b_native_summed": [
+          143.916217880249,
+          134.67517225265502
+        ],
+        "a_minus_b_flux": 9.24104562759399,
+        "background_difference_mad": 3.616196197173698,
+        "a_minus_b_in_background_mad": 2.555460247100667,
+        "blank_pair_placements": 36,
+        "b_minus_a_aperture_mag": 0.07205549383199374
+      },
+      "0.28": {
+        "flux_a_b_native_summed": [
+          268.21058734893796,
+          255.98890296936037
+        ],
+        "a_minus_b_flux": 12.221684379577596,
+        "background_difference_mad": 4.583554319488786,
+        "a_minus_b_in_background_mad": 2.666420757273955,
+        "blank_pair_placements": 36,
+        "b_minus_a_aperture_mag": 0.05063694499306974
+      },
+      "0.35": {
+        "flux_a_b_native_summed": [
+          393.41185117721557,
+          384.9296745491027
+        ],
+        "a_minus_b_flux": 8.482176628112882,
+        "background_difference_mad": 6.531678955769403,
+        "a_minus_b_in_background_mad": 1.2986211792636582,
+        "blank_pair_placements": 36,
+        "b_minus_a_aperture_mag": 0.02366511500401323
+      }
+    }
+  },
+  "psf_metadata": {
+    "VIS": {
+      "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101830407/VIS/EUC_MER_CATALOG-PSF-VIS_TILE101830407-7D2952_20250820T003755.909657Z_00.00.fits",
+      "etag": "\"34608ce62178410c733f4963b0f78117\"",
+      "bytes": 110131200,
+      "hdu_index": 1,
+      "header_sha256": "c1c0b474d3956c77e26557fd9a340ddd988512afb923ce7542be183e55eaffa7",
+      "central_stamp_fwhm_arcsec": 0.1963794871169536
+    },
+    "J": {
+      "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101830407/NISP/EUC_MER_CATALOG-PSF-NIR-J_TILE101830407-16C861_20250820T003730.710653Z_00.00.fits",
+      "etag": "\"dfec2b6b21d3212304ec22c7f92fb711-52\"",
+      "bytes": 270161280,
+      "hdu_index": 1,
+      "header_sha256": "5f128d88f8b18287757eb2d6a7ab65bc5f32ef2bd4fcbb9c7bd0c1a30c40ebd2",
+      "central_stamp_fwhm_arcsec": 0.5074297352660977
+    },
+    "H": {
+      "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101830407/NISP/EUC_MER_CATALOG-PSF-NIR-H_TILE101830407-BFBA1E_20250820T003743.530802Z_00.00.fits",
+      "etag": "\"78408759843de81602e25665fb9574ba-52\"",
+      "bytes": 270161280,
+      "hdu_index": 1,
+      "header_sha256": "ba5ed484e3173bf6da03c111ced9e178e8969dc6f2fc21805939f0f0f853a8ce",
+      "central_stamp_fwhm_arcsec": 0.5569134480856173
+    }
+  },
+  "smoothed": {
+    "0.65": {
+      "VIS": {
+        "0.2": {
+          "flux_a_b_native_summed": [
+            0.8951081492006779,
+            0.7321531386673452
+          ],
+          "a_minus_b_flux": 0.16295501053333272,
+          "background_difference_mad": 0.0030689312817594613,
+          "a_minus_b_in_background_mad": 53.09829239314487,
+          "blank_pair_placements": 36,
+          "b_minus_a_aperture_mag": 0.21818395634028434
+        },
+        "0.28": {
+          "flux_a_b_native_summed": [
+            1.6480765241384505,
+            1.387599023282528
+          ],
+          "a_minus_b_flux": 0.2604775008559226,
+          "background_difference_mad": 0.005565695767487282,
+          "a_minus_b_in_background_mad": 46.80052804494542,
+          "blank_pair_placements": 36,
+          "b_minus_a_aperture_mag": 0.18678346921822633
+        },
+        "0.35": {
+          "flux_a_b_native_summed": [
+            2.400326256304979,
+            2.08475544154644
+          ],
+          "a_minus_b_flux": 0.315570814758539,
+          "background_difference_mad": 0.008380642490277472,
+          "a_minus_b_in_background_mad": 37.654728157732315,
+          "blank_pair_placements": 36,
+          "b_minus_a_aperture_mag": 0.1530378991441997
+        }
+      },
+      "J": {
+        "0.2": {
+          "flux_a_b_native_summed": [
+            382.801702041626,
+            706.651123352051
+          ],
+          "a_minus_b_flux": -323.84942131042493,
+          "background_difference_mad": 1.7449603625015169,
+          "a_minus_b_in_background_mad": -185.59127660995418,
+          "blank_pair_placements": 36,
+          "b_minus_a_aperture_mag": -0.6655779839592768
+        },
+        "0.28": {
+          "flux_a_b_native_summed": [
+            716.1867362594603,
+            1310.0334631347657
+          ],
+          "a_minus_b_flux": -593.8467268753054,
+          "background_difference_mad": 3.012492452850558,
+          "a_minus_b_in_background_mad": -197.1280380514748,
+          "blank_pair_placements": 36,
+          "b_minus_a_aperture_mag": -0.6556402891421442
+        },
+        "0.35": {
+          "flux_a_b_native_summed": [
+            1063.5811119842526,
+            1921.2927307891846
+          ],
+          "a_minus_b_flux": -857.711618804932,
+          "background_difference_mad": 3.8768303878477743,
+          "a_minus_b_in_background_mad": -221.240429164375,
+          "blank_pair_placements": 36,
+          "b_minus_a_aperture_mag": -0.642057308656798
+        }
+      },
+      "H": {
+        "0.2": {
+          "flux_a_b_native_summed": [
+            439.26806556701666,
+            1010.5685391235352
+          ],
+          "a_minus_b_flux": -571.3004735565185,
+          "background_difference_mad": 1.709777032851644,
+          "a_minus_b_in_background_mad": -334.13741241083204,
+          "blank_pair_placements": 36,
+          "b_minus_a_aperture_mag": -0.9045903554074626
+        },
+        "0.28": {
+          "flux_a_b_native_summed": [
+            826.1353144836426,
+            1860.5219839477538
+          ],
+          "a_minus_b_flux": -1034.3866694641113,
+          "background_difference_mad": 2.886606908387896,
+          "a_minus_b_in_background_mad": -358.3399826482756,
+          "blank_pair_placements": 36,
+          "b_minus_a_aperture_mag": -0.8814590471008464
+        },
+        "0.35": {
+          "flux_a_b_native_summed": [
+            1235.1799214172363,
+            2710.339233169556
+          ],
+          "a_minus_b_flux": -1475.1593117523196,
+          "background_difference_mad": 4.743080800525255,
+          "a_minus_b_in_background_mad": -311.01289937733264,
+          "blank_pair_placements": 36,
+          "b_minus_a_aperture_mag": -0.8532335709470095
+        }
+      }
+    },
+    "0.8": {
+      "VIS": {
+        "0.2": {
+          "flux_a_b_native_summed": [
+            0.7226610536873341,
+            0.6435867173969746
+          ],
+          "a_minus_b_flux": 0.07907433629035954,
+          "background_difference_mad": 0.002546607774658979,
+          "a_minus_b_in_background_mad": 31.050850106254988,
+          "blank_pair_placements": 36,
+          "b_minus_a_aperture_mag": 0.12581894394410206
+        },
+        "0.28": {
+          "flux_a_b_native_summed": [
+            1.3575618974864483,
+            1.2289441838860513
+          ],
+          "a_minus_b_flux": 0.12861771360039698,
+          "background_difference_mad": 0.004795219687711534,
+          "a_minus_b_in_background_mad": 26.822069055563617,
+          "blank_pair_placements": 36,
+          "b_minus_a_aperture_mag": 0.10806870405109971
+        },
+        "0.35": {
+          "flux_a_b_native_summed": [
+            2.018164393752813,
+            1.8596525168418885
+          ],
+          "a_minus_b_flux": 0.1585118769109246,
+          "background_difference_mad": 0.007485710661406387,
+          "a_minus_b_in_background_mad": 21.175260984659005,
+          "blank_pair_placements": 36,
+          "b_minus_a_aperture_mag": 0.08881184369181296
+        }
+      },
+      "J": {
+        "0.2": {
+          "flux_a_b_native_summed": [
+            329.1542839813232,
+            579.1290251159668
+          ],
+          "a_minus_b_flux": -249.97474113464358,
+          "background_difference_mad": 0.9355478246177361,
+          "a_minus_b_in_background_mad": -267.19611179341155,
+          "blank_pair_placements": 36,
+          "b_minus_a_aperture_mag": -0.6134395495928676
+        },
+        "0.28": {
+          "flux_a_b_native_summed": [
+            628.0754120635986,
+            1090.2362989044188
+          ],
+          "a_minus_b_flux": -462.16088684082024,
+          "background_difference_mad": 1.5676350768089666,
+          "a_minus_b_in_background_mad": -294.81407610601684,
+          "blank_pair_placements": 36,
+          "b_minus_a_aperture_mag": -0.5987721140351334
+        },
+        "0.35": {
+          "flux_a_b_native_summed": [
+            950.4074837493896,
+            1623.904927444458
+          ],
+          "a_minus_b_flux": -673.4974436950685,
+          "background_difference_mad": 2.262897085457928,
+          "a_minus_b_in_background_mad": -297.6261925578366,
+          "blank_pair_placements": 36,
+          "b_minus_a_aperture_mag": -0.5816268805125645
+        }
+      },
+      "H": {
+        "0.2": {
+          "flux_a_b_native_summed": [
+            386.6715872955323,
+            813.5919596862792
+          ],
+          "a_minus_b_flux": -426.92037239074693,
+          "background_difference_mad": 1.382861015964903,
+          "a_minus_b_in_background_mad": -308.72254511626363,
+          "blank_pair_placements": 36,
+          "b_minus_a_aperture_mag": -0.8076609670601984
+        },
+        "0.28": {
+          "flux_a_b_native_summed": [
+            742.2769287109375,
+            1526.6972253417969
+          ],
+          "a_minus_b_flux": -784.4202966308594,
+          "background_difference_mad": 2.6591732464095243,
+          "a_minus_b_in_background_mad": -294.98653300983733,
+          "blank_pair_placements": 36,
+          "b_minus_a_aperture_mag": -0.7829673854486758
+        },
+        "0.35": {
+          "flux_a_b_native_summed": [
+            1130.9007318115234,
+            2266.2568550109863
+          ],
+          "a_minus_b_flux": -1135.356123199463,
+          "background_difference_mad": 3.770989372333433,
+          "a_minus_b_in_background_mad": -301.0764579527099,
+          "blank_pair_placements": 36,
+          "b_minus_a_aperture_mag": -0.7547116141576782
+        }
+      }
+    }
+  },
+  "smoothed_reversal": true,
+  "subaru_optical_order": false
+}
