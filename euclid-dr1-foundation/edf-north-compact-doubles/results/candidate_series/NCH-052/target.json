@@ -1,0 +1,134 @@
+{
+  "candidate": "NCH-052",
+  "tile": 101829781,
+  "ra": 275.37047407702283,
+  "dec": 64.24142200780118,
+  "ra1": 275.3707297513584,
+  "dec1": 64.24142214913431,
+  "ra2": 275.3702184026899,
+  "dec2": 64.24142186602151,
+  "sep_arcsec": 0.79999968876717,
+  "vis_score1": 53.269779205322266,
+  "vis_score2": 31.863086700439453,
+  "j_score1": 23.300981521606445,
+  "j_score2": 45.04899215698242,
+  "j_dip": 0.7402721643447876,
+  "filtered_peak_contrast_index": 1.273759788183786,
+  "eclipse_match_within_3arcsec": false,
+  "nearest_eclipse_arcsec": 571.3798173616312,
+  "nearest_eclipse_id": "EUCL-DR1-L004256",
+  "programme_rank": 20,
+  "selection": {
+    "parent_sha256": "28f305294ccd957ba6d2d7a13bf18153dbc443a2b56e372d7d6033c35735823f",
+    "eclipse_sha256": "5486e82867a0209767d542478b5375413f68bc8adf033f157da940b4c6f75438",
+    "eclipse_rows": 26662,
+    "parent_pairs": 1135,
+    "eligible_reversals": 36
+  },
+  "mosaics": {
+    "VIS": {
+      "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101829781/VIS/EUC_MER_BGSUB-MOSAIC-VIS_TILE101829781-8FEEF2_20250807T105732.646204Z_00.00.fits",
+      "etag": "\"bc0ff59184ec7c62b7c165ebbdf6b99a-80\"",
+      "bytes": 416165760,
+      "header_sha256": "b7d5210c0b3b0fb90a6d9035ab639597899d7107990c52cf559db7afcd0d88bb",
+      "plan": "MER_ProcessTile_EUCLID_2.0.32-DATA_RELEASE_DEEP-trochequ-PLAN-000002",
+      "unit": "ADU/s",
+      "magzero": 24.5,
+      "date_obs": null,
+      "shape": [
+        10200,
+        10200
+      ],
+      "origin_xy": [
+        6280,
+        4704
+      ],
+      "ranges": [
+        {
+          "start": 191928960,
+          "end_exclusive": 198987360,
+          "sha256": "7ecfa2cec99ff980581c49c67e83c0b1480bca8ad014ab287ee7cfc4c415a3d9"
+        }
+      ],
+      "finite_fraction": 1.0
+    },
+    "J": {
+      "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101829781/NISP/EUC_MER_BGSUB-MOSAIC-NIR-J_TILE101829781-E61BB4_20250806T144140.480086Z_00.00.fits",
+      "etag": "\"2e8e1ef355d13c5f78d6677145c3b163-80\"",
+      "bytes": 416165760,
+      "header_sha256": "766a76ce045d63e591780a0cdffca5f98aa76a3d65f3cc604689a7e52e1adc05",
+      "plan": "MER_ProcessTile_EUCLID_2.0.32-DATA_RELEASE_DEEP-trochequ-PLAN-000002",
+      "unit": "ELECTRON/s",
+      "magzero": 30.1,
+      "date_obs": null,
+      "shape": [
+        10200,
+        10200
+      ],
+      "origin_xy": [
+        6280,
+        4704
+      ],
+      "ranges": [
+        {
+          "start": 191928960,
+          "end_exclusive": 198987360,
+          "sha256": "b1570ac1065381b0bfdd7a62a133eaa92e76a0e8a7e622d3e1b4f295522a51d1"
+        }
+      ],
+      "finite_fraction": 1.0
+    },
+    "H": {
+      "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101829781/NISP/EUC_MER_BGSUB-MOSAIC-NIR-H_TILE101829781-BE6950_20250806T142301.180670Z_00.00.fits",
+      "etag": "\"fc4be04483c5b2ffd382207869ca0213-80\"",
+      "bytes": 416165760,
+      "header_sha256": "1c1507f8854d731c484b4a0e942bed5f76fb6a77ac1ad7330bdcfbf715c9b3ea",
+      "plan": "MER_ProcessTile_EUCLID_2.0.32-DATA_RELEASE_DEEP-trochequ-PLAN-000002",
+      "unit": "ELECTRON/s",
+      "magzero": 30.0,
+      "date_obs": null,
+      "shape": [
+        10200,
+        10200
+      ],
+      "origin_xy": [
+        6280,
+        4704
+      ],
+      "ranges": [
+        {
+          "start": 191928960,
+          "end_exclusive": 198987360,
+          "sha256": "fde8854705036426c16031594e1db799bf8d7de0d55a97b7fc435e6bdf93be4b"
+        }
+      ],
+      "finite_fraction": 1.0
+    },
+    "i2": {
+      "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/MER/101829781/HSC/EUC_MER_BGSUB-MOSAIC-WISHES-I2_TILE101829781-ACFFB6_20250806T155643.906989Z_00.00.fits",
+      "etag": "\"e52e0488e5adee33a14696f2855d230d-80\"",
+      "bytes": 416165760,
+      "header_sha256": "c3e5aa5517c4edd56e09557ee0e09d71cff6a5b89658add8aa273c04a4f709f2",
+      "plan": "MER_ProcessTile_EUCLID_2.0.32-DATA_RELEASE_DEEP-trochequ-PLAN-000002",
+      "unit": "DN / pixel",
+      "magzero": 30.0,
+      "date_obs": null,
+      "shape": [
+        10200,
+        10200
+      ],
+      "origin_xy": [
+        6280,
+        4704
+      ],
+      "ranges": [
+        {
+          "start": 191928960,
+          "end_exclusive": 198987360,
+          "sha256": "363cf3aa0a77c1ef4e5cd4f458f7e2f87aff94fc28834945c3c68a4a56e1d4f6"
+        }
+      ],
+      "finite_fraction": 1.0
+    }
+  }
+}
