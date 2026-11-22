@@ -1,0 +1,468 @@
+{
+  "candidate": "NCH-042",
+  "catalogue": {
+    "MER": {
+      "file": {
+        "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/catalogs/MER_FINAL_CATALOG/101830407/EUC_MER_FINAL-CAT_TILE101830407-8354A4_20250820T103212.140967Z_00.00.fits",
+        "etag": "\"6f6f5f66f2c19969eca768741e84b0ed\"",
+        "bytes": 89611200,
+        "sha256": "723a5a7af71f233419ac3b2db4839bc91d93be5b7128bdecf0f7d4f00580a415",
+        "kind": "MER",
+        "tile": 101830407
+      },
+      "rows": [
+        {
+          "OBJECT_ID": 2743293305644891810,
+          "RIGHT_ASCENSION": 274.3293305157628,
+          "DECLINATION": 64.48918109700719,
+          "TILE_INDEX": 101830407,
+          "VIS_DET": 1,
+          "DET_QUALITY_FLAG": 2,
+          "FLAG_VIS": 2,
+          "FLAG_J": 2,
+          "PARENT_ID": 2089,
+          "ELLIPTICITY": 0.2067931890487671,
+          "DEBLENDED_FLAG": 1,
+          "PARENT_VISNIR": -1,
+          "POINT_LIKE_PROB": 0.002630439354106784,
+          "POINT_LIKE_FLAG": 32767,
+          "FLUX_VIS_2FWHM_APER": 0.7704319357872009,
+          "FLUXERR_VIS_2FWHM_APER": 0.009727658703923225,
+          "FLUX_Y_2FWHM_APER": 5.140088081359863,
+          "FLUXERR_Y_2FWHM_APER": 0.05365868657827377,
+          "FLUX_J_2FWHM_APER": 9.498494148254395,
+          "FLUXERR_J_2FWHM_APER": 0.056460246443748474,
+          "FLUX_H_2FWHM_APER": 14.062764167785645,
+          "FLUXERR_H_2FWHM_APER": 0.06618345528841019,
+          "FLUX_G_EXT_HSC_2FWHM_APER": 0.17157113552093506,
+          "FLUXERR_G_EXT_HSC_2FWHM_APER": 0.013412179425358772,
+          "FLUX_Z_EXT_HSC_2FWHM_APER": 1.7671111822128296,
+          "FLUXERR_Z_EXT_HSC_2FWHM_APER": 0.05429479852318764,
+          "ra_deg": 274.3293305157628,
+          "dec_deg": 64.48918109700719,
+          "peak_offsets_arcsec": [
+            0.8410979639830793,
+            0.048042687797763016
+          ]
+        },
+        {
+          "OBJECT_ID": 2743293130644894073,
+          "RIGHT_ASCENSION": 274.32931308441096,
+          "DECLINATION": 64.48940731912776,
+          "TILE_INDEX": 101830407,
+          "VIS_DET": 1,
+          "DET_QUALITY_FLAG": 2,
+          "FLAG_VIS": 2,
+          "FLAG_J": 2,
+          "PARENT_ID": 2089,
+          "ELLIPTICITY": 0.4898143410682678,
+          "DEBLENDED_FLAG": 1,
+          "PARENT_VISNIR": -1,
+          "POINT_LIKE_PROB": 0.0021747141145169735,
+          "POINT_LIKE_FLAG": 32767,
+          "FLUX_VIS_2FWHM_APER": 1.1435058116912842,
+          "FLUXERR_VIS_2FWHM_APER": 0.01057390682399273,
+          "FLUX_Y_2FWHM_APER": 2.9428653717041016,
+          "FLUXERR_Y_2FWHM_APER": 0.04930334538221359,
+          "FLUX_J_2FWHM_APER": 4.206759452819824,
+          "FLUXERR_J_2FWHM_APER": 0.045075953006744385,
+          "FLUX_H_2FWHM_APER": 5.760523796081543,
+          "FLUXERR_H_2FWHM_APER": 0.049403946846723557,
+          "FLUX_G_EXT_HSC_2FWHM_APER": 0.4553743004798889,
+          "FLUXERR_G_EXT_HSC_2FWHM_APER": 0.014385715126991272,
+          "FLUX_Z_EXT_HSC_2FWHM_APER": 1.7095659971237183,
+          "FLUXERR_Z_EXT_HSC_2FWHM_APER": 0.05904489755630493,
+          "ra_deg": 274.32931308441096,
+          "dec_deg": 64.48940731912776,
+          "peak_offsets_arcsec": [
+            0.026251540137903213,
+            0.7737531307329281
+          ]
+        }
+      ]
+    },
+    "SPE": {
+      "file": {
+        "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/catalogs/SPE_PF_OUTPUT_CATALOG/101830407/EUC_SPE_DEEP-CAT-Z-101830407_N_20250908T175825.635917Z_25.0.fits",
+        "etag": "\"b5f772e83581ada8650df6def1f3b991\"",
+        "bytes": 35985600,
+        "sha256": "b5bede65662dd6c702c242f589e70e65b2692f1ff717ab82b16797f4d5551012",
+        "kind": "SPE",
+        "tile": 101830407
+      },
+      "rows": [
+        {
+          "hdu": "SPE_QUALITY",
+          "OBJECT_ID": 2743293130644894073,
+          "SPE_ERROR_FLAG": 0,
+          "SPE_WARNING_FLAG": 0,
+          "SPE_GAL_ERROR_FLAG": 0,
+          "SPE_GAL_WARNING_FLAG": 0,
+          "SPE_W_MIN": 9286.5,
+          "SPE_W_MAX": 18734.0,
+          "SPE_GRISM": "BGS+RGS"
+        },
+        {
+          "hdu": "SPE_QUALITY",
+          "OBJECT_ID": 2743293305644891810,
+          "SPE_ERROR_FLAG": 0,
+          "SPE_WARNING_FLAG": 0,
+          "SPE_GAL_ERROR_FLAG": 0,
+          "SPE_GAL_WARNING_FLAG": 0,
+          "SPE_W_MIN": 9286.5,
+          "SPE_W_MAX": 18734.0,
+          "SPE_GRISM": "BGS+RGS"
+        },
+        {
+          "hdu": "SPE_CLASSIFICATION",
+          "OBJECT_ID": 2743293130644894073,
+          "SPE_CLASS": "galaxy"
+        },
+        {
+          "hdu": "SPE_CLASSIFICATION",
+          "OBJECT_ID": 2743293305644891810,
+          "SPE_CLASS": "galaxy"
+        },
+        {
+          "hdu": "SPE_GALAXY_CANDIDATES",
+          "OBJECT_ID": 2743293130644894073,
+          "SPE_Z": 1.5775783061981201,
+          "SPE_Z_ERR": 0.000858649960719049,
+          "SPE_Z_PROB": 0.35174447298049927,
+          "SPE_Z_REL": 0.006888414733111858,
+          "SPE_RANK": 0,
+          "SPE_Z_REDUCED_CHI2": 2.1550021171569824,
+          "SPE_CONT_SNR": null
+        },
+        {
+          "hdu": "SPE_GALAXY_CANDIDATES",
+          "OBJECT_ID": 2743293130644894073,
+          "SPE_Z": 2.3782246112823486,
+          "SPE_Z_ERR": 0.0011477592634037137,
+          "SPE_Z_PROB": 0.2456258237361908,
+          "SPE_Z_REL": 0.006888414733111858,
+          "SPE_RANK": 1,
+          "SPE_Z_REDUCED_CHI2": 2.158066749572754,
+          "SPE_CONT_SNR": null
+        },
+        {
+          "hdu": "SPE_GALAXY_CANDIDATES",
+          "OBJECT_ID": 2743293130644894073,
+          "SPE_Z": 3.8805129528045654,
+          "SPE_Z_ERR": 0.001973956823348999,
+          "SPE_Z_PROB": 0.17051267623901367,
+          "SPE_Z_REL": 0.006888414733111858,
+          "SPE_RANK": 2,
+          "SPE_Z_REDUCED_CHI2": 2.163245916366577,
+          "SPE_CONT_SNR": null
+        },
+        {
+          "hdu": "SPE_GALAXY_CANDIDATES",
+          "OBJECT_ID": 2743293130644894073,
+          "SPE_Z": 3.772404909133911,
+          "SPE_Z_ERR": 0.0018094574334099889,
+          "SPE_Z_PROB": 0.04167861118912697,
+          "SPE_Z_REL": 0.006888414733111858,
+          "SPE_RANK": 3,
+          "SPE_Z_REDUCED_CHI2": 2.1625425815582275,
+          "SPE_CONT_SNR": null
+        },
+        {
+          "hdu": "SPE_GALAXY_CANDIDATES",
+          "OBJECT_ID": 2743293130644894073,
+          "SPE_Z": 2.632969379425049,
+          "SPE_Z_ERR": 0.0012769373133778572,
+          "SPE_Z_PROB": 0.04002434015274048,
+          "SPE_Z_REL": 0.006888414733111858,
+          "SPE_RANK": 4,
+          "SPE_Z_REDUCED_CHI2": 2.1622235774993896,
+          "SPE_CONT_SNR": null
+        },
+        {
+          "hdu": "SPE_GALAXY_CANDIDATES",
+          "OBJECT_ID": 2743293305644891810,
+          "SPE_Z": 1.3540807962417603,
+          "SPE_Z_ERR": 0.0006469898507930338,
+          "SPE_Z_PROB": 0.3919246196746826,
+          "SPE_Z_REL": 0.0027240614872425795,
+          "SPE_RANK": 0,
+          "SPE_Z_REDUCED_CHI2": 1.7199223041534424,
+          "SPE_CONT_SNR": null
+        },
+        {
+          "hdu": "SPE_GALAXY_CANDIDATES",
+          "OBJECT_ID": 2743293305644891810,
+          "SPE_Z": 3.4063661098480225,
+          "SPE_Z_ERR": 0.002036773134022951,
+          "SPE_Z_PROB": 0.35860681533813477,
+          "SPE_Z_REL": 0.0027240614872425795,
+          "SPE_RANK": 1,
+          "SPE_Z_REDUCED_CHI2": 1.7271711826324463,
+          "SPE_CONT_SNR": null
+        },
+        {
+          "hdu": "SPE_GALAXY_CANDIDATES",
+          "OBJECT_ID": 2743293305644891810,
+          "SPE_Z": 2.280350685119629,
+          "SPE_Z_ERR": 0.0014803777448832989,
+          "SPE_Z_PROB": 0.14273735880851746,
+          "SPE_Z_REL": 0.0027240614872425795,
+          "SPE_RANK": 2,
+          "SPE_Z_REDUCED_CHI2": 1.7271523475646973,
+          "SPE_CONT_SNR": null
+        },
+        {
+          "hdu": "SPE_GALAXY_CANDIDATES",
+          "OBJECT_ID": 2743293305644891810,
+          "SPE_Z": 4.806920051574707,
+          "SPE_Z_ERR": 0.004505071323364973,
+          "SPE_Z_PROB": 0.06282837688922882,
+          "SPE_Z_REL": 0.0027240614872425795,
+          "SPE_RANK": 3,
+          "SPE_Z_REDUCED_CHI2": 1.7276610136032104,
+          "SPE_CONT_SNR": null
+        },
+        {
+          "hdu": "SPE_GALAXY_CANDIDATES",
+          "OBJECT_ID": 2743293305644891810,
+          "SPE_Z": 2.970334529876709,
+          "SPE_Z_ERR": 0.0014754383591935039,
+          "SPE_Z_PROB": 0.028046822175383568,
+          "SPE_Z_REL": 0.0027240614872425795,
+          "SPE_RANK": 4,
+          "SPE_Z_REDUCED_CHI2": 1.7336673736572266,
+          "SPE_CONT_SNR": null
+        },
+        {
+          "hdu": "SPE_STAR_CANDIDATES",
+          "OBJECT_ID": 2743293130644894073,
+          "SPE_RANK": 0,
+          "SPE_CONT_SNR": 170.0340576171875
+        },
+        {
+          "hdu": "SPE_STAR_CANDIDATES",
+          "OBJECT_ID": 2743293130644894073,
+          "SPE_RANK": 1,
+          "SPE_CONT_SNR": 169.95501708984375
+        },
+        {
+          "hdu": "SPE_STAR_CANDIDATES",
+          "OBJECT_ID": 2743293305644891810,
+          "SPE_RANK": 0,
+          "SPE_CONT_SNR": 243.63827514648438
+        },
+        {
+          "hdu": "SPE_STAR_CANDIDATES",
+          "OBJECT_ID": 2743293305644891810,
+          "SPE_RANK": 1,
+          "SPE_CONT_SNR": 243.04666137695312
+        },
+        {
+          "hdu": "SPE_QSO_CANDIDATES",
+          "OBJECT_ID": 2743293130644894073,
+          "SPE_Z": 6.869152069091797,
+          "SPE_Z_ERR": 0.007914663292467594,
+          "SPE_Z_PROB": 0.9999942183494568,
+          "SPE_Z_REL": 0.0,
+          "SPE_RANK": 0,
+          "SPE_Z_REDUCED_CHI2": 2.8875174522399902,
+          "SPE_CONT_SNR": 170.75192260742188
+        },
+        {
+          "hdu": "SPE_QSO_CANDIDATES",
+          "OBJECT_ID": 2743293130644894073,
+          "SPE_Z": 0.17462661862373352,
+          "SPE_Z_ERR": 0.0013236956438049674,
+          "SPE_Z_PROB": 1.9345861801411957e-06,
+          "SPE_Z_REL": 0.0,
+          "SPE_RANK": 1,
+          "SPE_Z_REDUCED_CHI2": 2.915426731109619,
+          "SPE_CONT_SNR": 170.6866912841797
+        },
+        {
+          "hdu": "SPE_QSO_CANDIDATES",
+          "OBJECT_ID": 2743293130644894073,
+          "SPE_Z": 0.16177654266357422,
+          "SPE_Z_ERR": 0.0016160921659320593,
+          "SPE_Z_PROB": 1.4219875277277083e-12,
+          "SPE_Z_REL": 0.0,
+          "SPE_RANK": 2,
+          "SPE_Z_REDUCED_CHI2": 2.9554250240325928,
+          "SPE_CONT_SNR": 170.59317016601562
+        },
+        {
+          "hdu": "SPE_QSO_CANDIDATES",
+          "OBJECT_ID": 2743293130644894073,
+          "SPE_Z": 0.11399241536855698,
+          "SPE_Z_ERR": 0.001528472639620304,
+          "SPE_Z_PROB": 1.8354697102485051e-13,
+          "SPE_Z_REL": 0.0,
+          "SPE_RANK": 3,
+          "SPE_Z_REDUCED_CHI2": 2.956146717071533,
+          "SPE_CONT_SNR": 170.5914764404297
+        },
+        {
+          "hdu": "SPE_QSO_CANDIDATES",
+          "OBJECT_ID": 2743293130644894073,
+          "SPE_Z": 3.2885570526123047,
+          "SPE_Z_ERR": 0.0036180561874061823,
+          "SPE_Z_PROB": 6.6091494832552864e-15,
+          "SPE_Z_REL": 0.0,
+          "SPE_RANK": 4,
+          "SPE_Z_REDUCED_CHI2": 2.96756911277771,
+          "SPE_CONT_SNR": 170.56475830078125
+        },
+        {
+          "hdu": "SPE_QSO_CANDIDATES",
+          "OBJECT_ID": 2743293305644891810,
+          "SPE_Z": 0.8925976753234863,
+          "SPE_Z_ERR": 0.0021055422257632017,
+          "SPE_Z_PROB": 0.5150349140167236,
+          "SPE_Z_REL": 0.0,
+          "SPE_RANK": 0,
+          "SPE_Z_REDUCED_CHI2": 2.300706148147583,
+          "SPE_CONT_SNR": 246.05287170410156
+        },
+        {
+          "hdu": "SPE_QSO_CANDIDATES",
+          "OBJECT_ID": 2743293305644891810,
+          "SPE_Z": 0.4857955276966095,
+          "SPE_Z_ERR": 0.0021201814524829388,
+          "SPE_Z_PROB": 0.25920575857162476,
+          "SPE_Z_REL": 0.0,
+          "SPE_RANK": 1,
+          "SPE_Z_REDUCED_CHI2": 2.3008759021759033,
+          "SPE_CONT_SNR": 246.05259704589844
+        },
+        {
+          "hdu": "SPE_QSO_CANDIDATES",
+          "OBJECT_ID": 2743293305644891810,
+          "SPE_Z": 0.7107815742492676,
+          "SPE_Z_ERR": 0.0021013200748711824,
+          "SPE_Z_PROB": 0.1495751589536667,
+          "SPE_Z_REL": 0.0,
+          "SPE_RANK": 2,
+          "SPE_Z_REDUCED_CHI2": 2.3016815185546875,
+          "SPE_CONT_SNR": 246.05128479003906
+        },
+        {
+          "hdu": "SPE_QSO_CANDIDATES",
+          "OBJECT_ID": 2743293305644891810,
+          "SPE_Z": 0.8348272442817688,
+          "SPE_Z_ERR": 0.002463783835992217,
+          "SPE_Z_PROB": 0.01825444959104061,
+          "SPE_Z_REL": 0.0,
+          "SPE_RANK": 3,
+          "SPE_Z_REDUCED_CHI2": 2.3073174953460693,
+          "SPE_CONT_SNR": 246.04214477539062
+        },
+        {
+          "hdu": "SPE_QSO_CANDIDATES",
+          "OBJECT_ID": 2743293305644891810,
+          "SPE_Z": 0.7984952330589294,
+          "SPE_Z_ERR": 0.0016002029879018664,
+          "SPE_Z_PROB": 0.002101366175338626,
+          "SPE_Z_REL": 0.0,
+          "SPE_RANK": 4,
+          "SPE_Z_REDUCED_CHI2": 2.313314437866211,
+          "SPE_CONT_SNR": 246.0324249267578
+        }
+      ]
+    },
+    "PHZ": {
+      "file": {
+        "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/catalogs/PHZ_DEEP_OUTPUT_CATALOG/101830407/EUC_PHZ_PHZCAT_TILE101830407_20260616T045724.086256Z_00.00.fits",
+        "etag": "\"61f924a29b6efda7a598aeae97fe5f90\"",
+        "bytes": 123667200,
+        "sha256": "f247ca9721e73a211cf16e417538ca243a88d1329923f98f976e99ddec882ad2",
+        "kind": "PHZ",
+        "tile": 101830407
+      },
+      "rows": [
+        {
+          "hdu": "PHOTOZ CATALOG",
+          "OBJECT_ID": 2743293305644891810,
+          "PHZ_MEDIAN": 1.25,
+          "PHZ_70_INT": [
+            1.2400000095367432,
+            1.2599999904632568
+          ],
+          "PHZ_90_INT": [
+            1.2400000095367432,
+            1.2699999809265137
+          ],
+          "PHZ_MODE_1_AREA": 0.9919759631156921,
+          "PHZ_MODE_2_AREA": 0.004816101863980293,
+          "PHZ_MODE_1": 1.2485138177871704,
+          "PHZ_MODE_2": 1.4478172063827515,
+          "PHZ_FLAGS": 0,
+          "PHZ_CLASSIFICATION": 2
+        },
+        {
+          "hdu": "PHOTOZ CATALOG",
+          "OBJECT_ID": 2743293130644894073,
+          "PHZ_MEDIAN": 1.4800000190734863,
+          "PHZ_70_INT": [
+            1.4299999475479126,
+            1.6299999952316284
+          ],
+          "PHZ_90_INT": [
+            1.4199999570846558,
+            1.6399999856948853
+          ],
+          "PHZ_MODE_1_AREA": 0.4450148642063141,
+          "PHZ_MODE_2_AREA": 0.34851258993148804,
+          "PHZ_MODE_1": 1.6167510747909546,
+          "PHZ_MODE_2": 1.4718173742294312,
+          "PHZ_FLAGS": 0,
+          "PHZ_CLASSIFICATION": 2
+        }
+      ]
+    },
+    "PHZ_CLASS": {
+      "file": {
+        "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/catalogs/PHZ_DEEP_OUTPUT_CATALOG/101830407/EUC_PHZ_CLASSCAT_TILE101830407_20260616T042840.441976Z_00.00.fits",
+        "etag": "\"b90faf67f0a139f921c44901622cc2ca\"",
+        "bytes": 9702720,
+        "sha256": "3a007a8bd9b6aa21d7ebf24fa2d8b06a41fd788923838ee41d2c3f204cfe7951",
+        "kind": "PHZ_CLASS",
+        "tile": 101830407
+      },
+      "rows": [
+        {
+          "hdu": "",
+          "OBJECT_ID": 2743293305644891810,
+          "PHZ_CLASSIFICATION": 2,
+          "PHZ_STAR_PROB": 0.013072824105620384,
+          "PHZ_GAL_PROB": 0.9882659912109375,
+          "PHZ_QSO_PROB": 0.0
+        },
+        {
+          "hdu": "",
+          "OBJECT_ID": 2743293130644894073,
+          "PHZ_CLASSIFICATION": 2,
+          "PHZ_STAR_PROB": 0.0029382226057350636,
+          "PHZ_GAL_PROB": 0.9970290064811707,
+          "PHZ_QSO_PROB": 0.0
+        }
+      ]
+    }
+  },
+  "gaia": {
+    "url": "https://irsa.ipac.caltech.edu/cgi-bin/Gator/nph-query?catalog=gaia_dr3_source&objstr=274.32931335338264+64.48930349874409&spatial=cone&radius=5&radunits=arcsec&outfmt=1",
+    "sha256": "b337a238e526ac787791613ff49c6391dee8aa31ce660d14def92dc76ece1cba",
+    "rows": []
+  },
+  "simbad": {
+    "url": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=SELECT+TOP+30+main_id%2C+otype%2C+ra%2C+dec%2C+rvz_bibcode+FROM+basic+WHERE+ra+BETWEEN+274.32631335338266+AND+274.33231335338263+AND+dec+BETWEEN+64.4873034987441+AND+64.49130349874409",
+    "sha256": "eb13cb9805cc5bb52380384edc89dad28ea72fbfed2c975da7f3ce5163bda36f",
+    "box_rows": 0,
+    "rows": []
+  },
+  "desi": {
+    "url": "https://datalab.noirlab.edu/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=SELECT+TOP+30+targetid%2C+mean_fiber_ra%2C+mean_fiber_dec%2C+z%2C+zerr%2C+zwarn%2C+spectype%2C+zcat_primary+FROM+desi_dr1.zpix+WHERE+mean_fiber_ra+BETWEEN+274.32631335338266+AND+274.33231335338263+AND+mean_fiber_dec+BETWEEN+64.4873034987441+AND+64.49130349874409",
+    "sha256": "3d084783b1a783c639085502dee59f8938efa904ff3b05ad856f6ca063289fff",
+    "box_rows": 0,
+    "rows": []
+  }
+}

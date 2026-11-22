@@ -1,0 +1,519 @@
+{
+  "candidate": "NCH-042",
+  "catalogue_queries": {
+    "Vis": {
+      "url": "https://irsa.ipac.caltech.edu/SIA?POS=CIRCLE+274.32931335338264+64.48930349874409+0.006&COLLECTION=euclid_dr1_DpdVisStackedFrame&MAXREC=150",
+      "sha256": "5722050ea91166cbf074d0810042390329c0089ead3531e30ab8a737442a0c03",
+      "table_rows": 39
+    },
+    "Nir": {
+      "url": "https://irsa.ipac.caltech.edu/SIA?POS=CIRCLE+274.32931335338264+64.48930349874409+0.006&COLLECTION=euclid_dr1_DpdNirStackedFrame&MAXREC=150",
+      "sha256": "8b351c0895520dfcd54ffae0bad1737fc973a6e5c4266fcc8ca9f7b696ac8524",
+      "table_rows": 126
+    }
+  },
+  "n_common_visits": 13,
+  "visits": {
+    "2078": {
+      "VIS": {
+        "mjd": 60475.213821,
+        "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/VIS/2078/EUC_VIS_SWL-STK-000-000000-0000000__20250614T193723.364310Z.fits",
+        "etag": "\"23260c3b4d80cd4ec74427e60a2c0373-401\"",
+        "bytes": 3359358720,
+        "hdu_index": 0,
+        "header_sha256": "8b92cb7d5646d7813cf29ef71d541c2ca3438a00d4d626b9c293e8b2bbbc573a",
+        "origin_xy": [
+          14980,
+          4845
+        ],
+        "ranges": [
+          {
+            "start": 518847120,
+            "end_exclusive": 537373344,
+            "sha256": "269e0892a333b5eaa4a8cbddf53ec6fff37b7397030c9a3dce0b1bcdb75d7b80"
+          }
+        ],
+        "finite_fraction": 1.0,
+        "apertures": {
+          "0.2": {
+            "flux_a_b_native_summed": [
+              0.43292685806751247,
+              0.24456930842250588
+            ],
+            "a_minus_b_flux": 0.1883575496450066,
+            "background_difference_mad": 0.008169052259282049,
+            "a_minus_b_in_background_mad": 23.057454361488038,
+            "blank_pair_placements": 36,
+            "b_minus_a_aperture_mag": 0.6200314351936118
+          },
+          "0.28": {
+            "flux_a_b_native_summed": [
+              0.6970777916442603,
+              0.37554102446883914
+            ],
+            "a_minus_b_flux": 0.3215367671754212,
+            "background_difference_mad": 0.012575106115382607,
+            "a_minus_b_in_background_mad": 25.569308459520556,
+            "blank_pair_placements": 36,
+            "b_minus_a_aperture_mag": 0.6715596499677772
+          },
+          "0.35": {
+            "flux_a_b_native_summed": [
+              0.91179874766618,
+              0.4774074695818126
+            ],
+            "a_minus_b_flux": 0.43439127808436734,
+            "background_difference_mad": 0.015570437835700326,
+            "a_minus_b_in_background_mad": 27.89846262950828,
+            "blank_pair_placements": 36,
+            "b_minus_a_aperture_mag": 0.7025244540479341
+          }
+        }
+      },
+      "J": {
+        "mjd": 60475.220889,
+        "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/NIR/2078/EUC_NIR_W-STK-IMAGE_J-2078_20250616T104825.797003Z.fits",
+        "etag": "\"cb1371564927b7511204e20ce689d0bf-216\"",
+        "bytes": 1129936320,
+        "hdu_index": 1,
+        "header_sha256": "457c651e71345216d2fa50a5ab1369016f1c72d6f83c7fe8b1c3a8b017181707",
+        "origin_xy": [
+          4771,
+          8692
+        ],
+        "ranges": [
+          {
+            "start": 317510016,
+            "end_exclusive": 323829360,
+            "sha256": "7db20d5aa06333dd3b3c3284f9390de7953c725a005b797faebce3f31ed96abf"
+          }
+        ],
+        "finite_fraction": 1.0,
+        "apertures": {
+          "0.2": {
+            "flux_a_b_native_summed": [
+              5.1759535241127015,
+              20.275851063728336
+            ],
+            "a_minus_b_flux": -15.099897539615634,
+            "background_difference_mad": 0.18718382069703565,
+            "a_minus_b_in_background_mad": -80.66881786784025,
+            "blank_pair_placements": 36,
+            "b_minus_a_aperture_mag": -1.4824718109718944
+          },
+          "0.28": {
+            "flux_a_b_native_summed": [
+              9.718280624747276,
+              36.16532718420028
+            ],
+            "a_minus_b_flux": -26.447046559453003,
+            "background_difference_mad": 0.38099452209553025,
+            "a_minus_b_in_background_mad": -69.41581840597092,
+            "blank_pair_placements": 36,
+            "b_minus_a_aperture_mag": -1.4267574072246172
+          },
+          "0.35": {
+            "flux_a_b_native_summed": [
+              14.852073844075203,
+              50.994790511131285
+            ],
+            "a_minus_b_flux": -36.14271666705608,
+            "background_difference_mad": 0.5182322018908587,
+            "a_minus_b_in_background_mad": -69.74232117414395,
+            "blank_pair_placements": 36,
+            "b_minus_a_aperture_mag": -1.339346780409917
+          }
+        }
+      },
+      "H": {
+        "mjd": 60475.22244,
+        "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/NIR/2078/EUC_NIR_W-STK-IMAGE_H-2078_20250616T104327.885182Z.fits",
+        "etag": "\"cddc2eefacecba964eb9ddf9a45a5973-216\"",
+        "bytes": 1130670720,
+        "hdu_index": 1,
+        "header_sha256": "4250d16abe50d85dd42ebcda852241e333e6ad81fecfac18f5273488b9a5869c",
+        "origin_xy": [
+          4768,
+          8691
+        ],
+        "ranges": [
+          {
+            "start": 317647308,
+            "end_exclusive": 323970112,
+            "sha256": "a4669e7626e573d0827d22463c4f0bb4ea79ddeed60d14183fb863ea15278961"
+          }
+        ],
+        "finite_fraction": 1.0,
+        "apertures": {
+          "0.2": {
+            "flux_a_b_native_summed": [
+              6.225408293008805,
+              26.90083772182465
+            ],
+            "a_minus_b_flux": -20.675429428815846,
+            "background_difference_mad": 0.24702707116649203,
+            "a_minus_b_in_background_mad": -83.69701883758708,
+            "blank_pair_placements": 36,
+            "b_minus_a_aperture_mag": -1.5889949118632705
+          },
+          "0.28": {
+            "flux_a_b_native_summed": [
+              11.898362201452256,
+              49.633436460495
+            ],
+            "a_minus_b_flux": -37.73507425904274,
+            "background_difference_mad": 0.4851554878347684,
+            "a_minus_b_in_background_mad": -77.77934127356372,
+            "blank_pair_placements": 36,
+            "b_minus_a_aperture_mag": -1.550717900317953
+          },
+          "0.35": {
+            "flux_a_b_native_summed": [
+              18.25581095278263,
+              71.19615380764009
+            ],
+            "a_minus_b_flux": -52.940342854857455,
+            "background_difference_mad": 0.7073039467615846,
+            "a_minus_b_in_background_mad": -74.84808065506581,
+            "blank_pair_placements": 36,
+            "b_minus_a_aperture_mag": -1.4776385070688027
+          }
+        }
+      }
+    },
+    "5005": {
+      "VIS": {
+        "mjd": 60643.156329,
+        "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/VIS/5005/EUC_VIS_SWL-STK-000-000000-0000000__20250615T025904.490093Z.fits",
+        "etag": "\"6b046231c8b9c72230e58691191c59c6-404\"",
+        "bytes": 3385679040,
+        "hdu_index": 0,
+        "header_sha256": "2d712dfa73e25d3338c387870670e4ad3431835e2bfa5608f96508668371a988",
+        "origin_xy": [
+          15348,
+          15708
+        ],
+        "ranges": [
+          {
+            "start": 1671085632,
+            "end_exclusive": 1689490064,
+            "sha256": "09d29d1ab50d9b2b85c1782dc9c742e50b5659cac723f0c61055f744877c3c86"
+          }
+        ],
+        "finite_fraction": 0.9529668076380879,
+        "apertures": {
+          "0.2": {
+            "flux_a_b_native_summed": [
+              0.446994796320796,
+              0.2472136768698692
+            ],
+            "a_minus_b_flux": 0.19978111945092678,
+            "background_difference_mad": 0.009686948876405716,
+            "a_minus_b_in_background_mad": 20.623740457382734,
+            "blank_pair_placements": 36,
+            "b_minus_a_aperture_mag": 0.6430749332683932
+          },
+          "0.28": {
+            "flux_a_b_native_summed": [
+              0.712577334297821,
+              0.3703505676239729
+            ],
+            "a_minus_b_flux": 0.3422267666738481,
+            "background_difference_mad": 0.014330666846477049,
+            "a_minus_b_in_background_mad": 23.88072867369593,
+            "blank_pair_placements": 36,
+            "b_minus_a_aperture_mag": 0.7105474738830235
+          },
+          "0.35": {
+            "flux_a_b_native_summed": [
+              0.9275671083014457,
+              0.4681773530319333
+            ],
+            "a_minus_b_flux": 0.4593897552695124,
+            "background_difference_mad": 0.018867981729830178,
+            "a_minus_b_in_background_mad": 24.347583215178744,
+            "blank_pair_placements": 36,
+            "b_minus_a_aperture_mag": 0.7423373454337457
+          }
+        }
+      },
+      "J": {
+        "mjd": 60643.163409,
+        "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/NIR/5005/EUC_NIR_W-STK-IMAGE_J-5005_20250615T185101.468235Z.fits",
+        "etag": "\"389705abd9f3fae3b307ce03a7177d61-216\"",
+        "bytes": 1129910400,
+        "hdu_index": 1,
+        "header_sha256": "7baf774b2c70e411455d8045c00ae17a65ad88f8c940b8387cce469dd46b1208",
+        "origin_xy": [
+          4994,
+          5069
+        ],
+        "ranges": [
+          {
+            "start": 185290728,
+            "end_exclusive": 191614224,
+            "sha256": "6a335e03a4c0e1d8ae28548c7daad5d67924d406dc01b36f1ed4ad8cf9363831"
+          }
+        ],
+        "finite_fraction": 1.0,
+        "apertures": {
+          "0.2": {
+            "flux_a_b_native_summed": [
+              5.4339516472816465,
+              19.374267377853393
+            ],
+            "a_minus_b_flux": -13.940315730571747,
+            "background_difference_mad": 0.20114206809599977,
+            "a_minus_b_in_background_mad": -69.30581883009378,
+            "blank_pair_placements": 36,
+            "b_minus_a_aperture_mag": -1.380273798407645
+          },
+          "0.28": {
+            "flux_a_b_native_summed": [
+              10.342161428332329,
+              35.45816964387893
+            ],
+            "a_minus_b_flux": -25.116008215546604,
+            "background_difference_mad": 0.32940947049218555,
+            "a_minus_b_in_background_mad": -76.24555595811998,
+            "blank_pair_placements": 36,
+            "b_minus_a_aperture_mag": -1.3377625030203957
+          },
+          "0.35": {
+            "flux_a_b_native_summed": [
+              15.711064462661742,
+              50.74878773450852
+            ],
+            "a_minus_b_flux": -35.03772327184677,
+            "background_difference_mad": 0.4128970699695354,
+            "a_minus_b_in_background_mad": -84.85825117245793,
+            "blank_pair_placements": 36,
+            "b_minus_a_aperture_mag": -1.2730501548184687
+          }
+        }
+      },
+      "H": {
+        "mjd": 60643.164961,
+        "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/NIR/5005/EUC_NIR_W-STK-IMAGE_H-5005_20250616T110045.178201Z.fits",
+        "etag": "\"6c73fbb7f42e45c1a96e6a9425ab1641-216\"",
+        "bytes": 1130256000,
+        "hdu_index": 1,
+        "header_sha256": "c72f6d7194acafdfca03318c1fdd45bc61a2122cddac8a9838ce0134c4423f0d",
+        "origin_xy": [
+          4996,
+          5071
+        ],
+        "ranges": [
+          {
+            "start": 185384116,
+            "end_exclusive": 191708304,
+            "sha256": "9de962f452c74bcda45d5272baa69f05b1dfa5f4024add20e5027010974c7a9e"
+          }
+        ],
+        "finite_fraction": 1.0,
+        "apertures": {
+          "0.2": {
+            "flux_a_b_native_summed": [
+              6.408101845979692,
+              27.305367021560667
+            ],
+            "a_minus_b_flux": -20.897265175580976,
+            "background_difference_mad": 0.19637499737129455,
+            "a_minus_b_in_background_mad": -106.41510098187108,
+            "blank_pair_placements": 36,
+            "b_minus_a_aperture_mag": -1.5737965322849772
+          },
+          "0.28": {
+            "flux_a_b_native_summed": [
+              12.42915303468704,
+              49.272144670486455
+            ],
+            "a_minus_b_flux": -36.842991635799414,
+            "background_difference_mad": 0.33519958997711635,
+            "a_minus_b_in_background_mad": -109.91359398236328,
+            "blank_pair_placements": 36,
+            "b_minus_a_aperture_mag": -1.4953998272773918
+          },
+          "0.35": {
+            "flux_a_b_native_summed": [
+              19.336375747919085,
+              70.08586598873138
+            ],
+            "a_minus_b_flux": -50.7494902408123,
+            "background_difference_mad": 0.5331801817239226,
+            "a_minus_b_in_background_mad": -95.1826267749203,
+            "blank_pair_placements": 36,
+            "b_minus_a_aperture_mag": -1.398138417827797
+          }
+        }
+      }
+    },
+    "7798": {
+      "VIS": {
+        "mjd": 60807.05396,
+        "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/VIS/7798/EUC_VIS_SWL-STK-000-000000-0000000__20250614T193540.817371Z.fits",
+        "etag": "\"59087a7eadec7d63866e3bae2b4d7b3e-406\"",
+        "bytes": 3401677440,
+        "hdu_index": 0,
+        "header_sha256": "134b2c945daf0dde814ca95e52e5745d975b337e5b056136d68b2cc6cb9977c9",
+        "origin_xy": [
+          10524,
+          20098
+        ],
+        "ranges": [
+          {
+            "start": 2158932920,
+            "end_exclusive": 2177516580,
+            "sha256": "6852a494dd672ebf37e86a6502f42dd0553dd08bd766a6b55ac624611be1d672"
+          }
+        ],
+        "finite_fraction": 0.923277371950959,
+        "apertures": {
+          "0.2": {
+            "flux_a_b_native_summed": [
+              0.4434889422357083,
+              0.24701553402468562
+            ],
+            "a_minus_b_flux": 0.19647340821102266,
+            "background_difference_mad": 0.00868643510422678,
+            "a_minus_b_in_background_mad": 22.618416629328134,
+            "blank_pair_placements": 36,
+            "b_minus_a_aperture_mag": 0.6353963256652391
+          },
+          "0.28": {
+            "flux_a_b_native_summed": [
+              0.7052507404237985,
+              0.3715071461163461
+            ],
+            "a_minus_b_flux": 0.33374359430745243,
+            "background_difference_mad": 0.01355163748487187,
+            "a_minus_b_in_background_mad": 24.627547385326768,
+            "blank_pair_placements": 36,
+            "b_minus_a_aperture_mag": 0.6959409468606159
+          },
+          "0.35": {
+            "flux_a_b_native_summed": [
+              0.9186211701575667,
+              0.46504232279956337
+            ],
+            "a_minus_b_flux": 0.45357884735800336,
+            "background_difference_mad": 0.019879996372468785,
+            "a_minus_b_in_background_mad": 22.815841555491993,
+            "blank_pair_placements": 36,
+            "b_minus_a_aperture_mag": 0.7391099264795581
+          }
+        }
+      },
+      "J": {
+        "mjd": 60807.061029,
+        "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/NIR/7798/EUC_NIR_W-STK-IMAGE_J-7798_20250613T200537.547883Z.fits",
+        "etag": "\"28c1eb89384f21de016498f9b7224478-216\"",
+        "bytes": 1130808960,
+        "hdu_index": 1,
+        "header_sha256": "e080dfd852cc2826edb7fed4d336cab430c914da430f68e1bb1f57375a7be64e",
+        "origin_xy": [
+          3354,
+          3581
+        ],
+        "ranges": [
+          {
+            "start": 130915676,
+            "end_exclusive": 137239864,
+            "sha256": "86ca58707ca8363d8f820add717ae8bfcf2c8c546892c225c10d795c1b253f24"
+          }
+        ],
+        "finite_fraction": 1.0,
+        "apertures": {
+          "0.2": {
+            "flux_a_b_native_summed": [
+              5.601342077255249,
+              20.215544247627257
+            ],
+            "a_minus_b_flux": -14.614202170372007,
+            "background_difference_mad": 0.22212663114672804,
+            "a_minus_b_in_background_mad": -65.7922109335843,
+            "blank_pair_placements": 36,
+            "b_minus_a_aperture_mag": -1.3934833547674084
+          },
+          "0.28": {
+            "flux_a_b_native_summed": [
+              10.680586374998091,
+              35.78185221433639
+            ],
+            "a_minus_b_flux": -25.101265839338296,
+            "background_difference_mad": 0.3778475856513892,
+            "a_minus_b_in_background_mad": -66.43225150179283,
+            "blank_pair_placements": 36,
+            "b_minus_a_aperture_mag": -1.3126693027751752
+          },
+          "0.35": {
+            "flux_a_b_native_summed": [
+              16.30294423818588,
+              50.534349005222325
+            ],
+            "a_minus_b_flux": -34.231404767036445,
+            "background_difference_mad": 0.5098817277627945,
+            "a_minus_b_in_background_mad": -67.13597076175569,
+            "blank_pair_placements": 36,
+            "b_minus_a_aperture_mag": -1.2283015807073716
+          }
+        }
+      },
+      "H": {
+        "mjd": 60807.06258,
+        "url": "https://nasa-irsa-euclid-dr1.s3.amazonaws.com/dr1/NIR/7798/EUC_NIR_W-STK-IMAGE_H-7798_20250613T104754.288567Z.fits",
+        "etag": "\"115c72d8299358a37ec468a53a671b4d-216\"",
+        "bytes": 1129642560,
+        "hdu_index": 1,
+        "header_sha256": "555e98eca9c638159c1ec808202232d03d2ff8dadc64f0e1ad0e51d333aff505",
+        "origin_xy": [
+          3346,
+          3590
+        ],
+        "ranges": [
+          {
+            "start": 131172880,
+            "end_exclusive": 137493608,
+            "sha256": "93e8d826b69fcdf84fc2972b545aa4a3e826a1dce53f357c4c72871c1b97d87e"
+          }
+        ],
+        "finite_fraction": 1.0,
+        "apertures": {
+          "0.2": {
+            "flux_a_b_native_summed": [
+              6.922660843133927,
+              28.049400882720953
+            ],
+            "a_minus_b_flux": -21.126740039587027,
+            "background_difference_mad": 0.20005940470259176,
+            "a_minus_b_in_background_mad": -105.60233382176675,
+            "blank_pair_placements": 36,
+            "b_minus_a_aperture_mag": -1.519126335945824
+          },
+          "0.28": {
+            "flux_a_b_native_summed": [
+              13.380711534023284,
+              49.27135310173035
+            ],
+            "a_minus_b_flux": -35.890641567707064,
+            "background_difference_mad": 0.41350698005336245,
+            "a_minus_b_in_background_mad": -86.79573332250747,
+            "blank_pair_placements": 36,
+            "b_minus_a_aperture_mag": -1.4152882025159808
+          },
+          "0.35": {
+            "flux_a_b_native_summed": [
+              20.6832123285532,
+              69.50118294239044
+            ],
+            "a_minus_b_flux": -48.81797061383725,
+            "background_difference_mad": 0.5685710232627047,
+            "a_minus_b_in_background_mad": -85.86081354216535,
+            "blank_pair_placements": 36,
+            "b_minus_a_aperture_mag": -1.3159355155364894
+          }
+        }
+      }
+    }
+  }
+}

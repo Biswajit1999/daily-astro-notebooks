@@ -60,8 +60,26 @@ def header(url):
         "url":url,"etag":etag,"bytes":total,"header_sha256":hashlib.sha256(data).hexdigest()}
 
 
+def image_hdu(url):
+    """Locate a simple primary image or image extension after an empty primary HDU."""
+    prefix, total, etag = fetch(url, 0, 57600)
+    start = 0
+    for i in range(2):
+        end = next(p for p in range(start, len(prefix), 80) if prefix[p:p+8] == b"END     ")
+        stop = ((end+80+2879)//2880)*2880
+        raw = prefix[start:stop]
+        h = fits.Header.fromstring(raw.decode("ascii"), sep="")
+        if h["NAXIS"] == 2 and h["BITPIX"] == -32:
+            return h, stop, {"url": url, "etag": etag, "bytes": total, "hdu_index": i,
+                             "header_sha256": hashlib.sha256(raw).hexdigest()}
+        if h["NAXIS"] != 0:
+            break
+        start = stop
+    raise ValueError("No supported science image HDU")
+
+
 def product(tile, band):
-    directory, token = {"VIS":("VIS","VIS"),"J":("NISP","NIR-J"),
+    directory, token = {"VIS":("VIS","VIS"),"J":("NISP","NIR-J"),"H":("NISP","NIR-H"),
                         "i2":("HSC","WISHES-I2")}[band]
     params = urlencode({"list-type": 2, "prefix": f"dr1/MER/{tile}/{directory}/"})
     root = ET.fromstring(get(f"{BUCKET}/?{params}"))
